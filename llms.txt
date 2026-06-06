@@ -21,6 +21,11 @@ from *why a system values it* (systems). Every claim has an explicit credibility
 - [Progressive Overload](https://raw.githubusercontent.com/hollis-png/barlore/main/core/progressive_overload.md)
 - [Periodization](https://raw.githubusercontent.com/hollis-png/barlore/main/core/periodization.md)
 - [SRA Curve](https://raw.githubusercontent.com/hollis-png/barlore/main/core/sra_curve.md)
+- [Volume Landmarks (MEV / MAV / MRV)](https://raw.githubusercontent.com/hollis-png/barlore/main/core/volume_landmarks.md)
+- [RPE and RIR](https://raw.githubusercontent.com/hollis-png/barlore/main/core/rpe_rir.md)
+- [Rep Continuum](https://raw.githubusercontent.com/hollis-png/barlore/main/core/rep_continuum.md)
+- [Specificity (SAID)](https://raw.githubusercontent.com/hollis-png/barlore/main/core/specificity.md)
+- [Deload](https://raw.githubusercontent.com/hollis-png/barlore/main/core/deload.md)
 
 ---
 
