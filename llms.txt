@@ -1,0 +1,79 @@
+# Barlore
+
+> A structured, evidence-tiered knowledge base for strength and physique training.
+> Exercises, programs, and systems as independent, queryable layers.
+
+Barlore separates *what a movement is* (exercises) from *how a program uses it* (programs)
+from *why a system values it* (systems). Every claim has an explicit credibility tier.
+
+---
+
+## Start Here
+
+- [README](https://raw.githubusercontent.com/hollis-png/barlore/main/README.md)
+- [Glossary](https://raw.githubusercontent.com/hollis-png/barlore/main/glossary.md)
+- [Schema](https://raw.githubusercontent.com/hollis-png/barlore/main/SCHEMA.md)
+
+---
+
+## Training Science Principles
+
+- [Progressive Overload](https://raw.githubusercontent.com/hollis-png/barlore/main/core/progressive_overload.md)
+- [Periodization](https://raw.githubusercontent.com/hollis-png/barlore/main/core/periodization.md)
+- [SRA Curve](https://raw.githubusercontent.com/hollis-png/barlore/main/core/sra_curve.md)
+
+---
+
+## Key Exercises (status: complete — human-reviewed with sources)
+
+Squat pattern:
+- [Back Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/back_squat.md) — EMG ✓ ROM ✓ strength curve ✓
+- [Front Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/front_squat.md)
+- [Box Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/box_squat.md)
+- [Goblet Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/goblet_squat.md)
+
+Hinge pattern:
+- [Conventional Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/conventional_deadlift.md)
+
+Horizontal press:
+- [Bench Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bench_press.md)
+
+Vertical press:
+- [Overhead Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_press.md)
+
+Accessory:
+- [Leg Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/leg_press.md)
+
+---
+
+## Programs
+
+Powerlifting:
+- [5/3/1 (Wendler)](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/5_3_1.md) — back squat, bench press, overhead press, conventional deadlift
+
+---
+
+## Training Systems (philosophy only)
+
+- [Powerlifting](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/powerlifting/index.md)
+- [Bodybuilding](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/bodybuilding/index.md)
+- [Olympic Weightlifting](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/olympic/index.md)
+- [Calisthenics](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/calisthenics/index.md)
+- [Strongman](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/strongman/index.md)
+- [CrossFit](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/crossfit/index.md)
+
+---
+
+## Nutrition & Recovery
+
+- [Protein Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/protein_requirements.md)
+
+---
+
+## Machine-Readable Indexes (JSON)
+
+- [exercises.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/exercises.json) — all 680 exercises with metadata
+- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all programs
+- [program_exercise_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/program_exercise_index.json) — exercise_id → [program_ids]
+- [muscle_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/muscle_index.json) — muscle_id → [exercise_ids]
+- [coverage_report.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/coverage_report.json) — completeness data
