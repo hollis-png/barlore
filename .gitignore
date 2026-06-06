@@ -1,5 +1,38 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.pyd
+*.pyo
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
 .venv/
+venv/
+env/
+.env
+
+# Node (npx tools)
+node_modules/
+
+# Repomix output
 repomix-output.xml
+repomix-output.txt
+repomix.config.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.log
+*.tmp
