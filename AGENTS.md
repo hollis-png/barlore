@@ -13,6 +13,13 @@ frontmatter. Credibility and referential integrity are the two non-negotiable pr
 
 ---
 
+## Content Creation Process
+
+See `WORKFLOW.md` for the full process: source intake → write → validate.
+The short version: **sources first, writing second. Never invent numbers.**
+
+---
+
 ## Architecture: Three Independent Layers
 
 ```
