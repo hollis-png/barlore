@@ -1,0 +1,54 @@
+---
+id: barbell_bench_press_medium_grip
+name: Barbell Bench Press - Medium Grip
+status: stub
+source: free-exercise-db
+category: exercise
+pattern:
+- horizontal press
+equipment:
+- barbell
+difficulty:
+  technical_complexity: null
+  strength_prerequisite: null
+  mobility_prerequisite: null
+muscles:
+- id: pectoralis_major
+  role: primary
+- id: deltoid
+  role: secondary
+- id: triceps_brachii
+  role: secondary
+variations: []
+progressions: []
+alternatives: []
+sources:
+- title: free-exercise-db
+  author: yuhonas (Public Domain)
+  credibility: anecdotal
+---
+
+# Barbell Bench Press - Medium Grip
+
+## Execution
+
+1. Lie back on a flat bench. Using a medium width grip (a grip that creates a 90-degree
+   angle in the middle of the movement between the forearms and the upper arms), lift
+   the bar from the rack and hold it straight over you with your arms locked. This will
+   be your starting position.
+2. From the starting position, breathe in and begin coming down slowly until the bar
+   touches your middle chest.
+3. After a brief pause, push the bar back to the starting position as you breathe out.
+   Focus on pushing the bar using your chest muscles. Lock your arms and squeeze your
+   chest in the contracted position at the top of the motion, hold for a second and then
+   start coming down slowly again. Tip: Ideally, lowering the weight should take about
+   twice as long as raising it.
+4. Repeat the movement for the prescribed amount of repetitions.
+5. When you are done, place the bar back in the rack.
+
+## Notes
+
+> ⚠️ This is a stub entry imported from free-exercise-db.
+> Fields marked `null` need human review.
+> Add EMG data, ROM requirements, relations, and lens entries before
+> changing `status` to `partial` or `complete`.

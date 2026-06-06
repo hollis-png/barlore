@@ -4,7 +4,7 @@ name: Periodization
 aliases: [Training Periodization]
 category: principle
 applies_to: [all_systems]
-related: [progressive_overload, sra_curve, volume_intensity_frequency]
+related: [progressive_overload, sra_curve]
 sources:
   - title: "Periodization: Theory and Methodology of Training"
     author: "Bompa & Buzzichelli"

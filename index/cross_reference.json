@@ -1,9 +1,2725 @@
 {
+  "3_4_sit_up": {
+    "base": "exercises/3_4_sit_up.md",
+    "lenses": {}
+  },
+  "ab_crunch_machine": {
+    "base": "exercises/ab_crunch_machine.md",
+    "lenses": {}
+  },
+  "ab_roller": {
+    "base": "exercises/ab_roller.md",
+    "lenses": {}
+  },
+  "advanced_kettlebell_windmill": {
+    "base": "exercises/advanced_kettlebell_windmill.md",
+    "lenses": {}
+  },
+  "air_bike": {
+    "base": "exercises/air_bike.md",
+    "lenses": {}
+  },
+  "alternate_hammer_curl": {
+    "base": "exercises/alternate_hammer_curl.md",
+    "lenses": {}
+  },
+  "alternate_heel_touchers": {
+    "base": "exercises/alternate_heel_touchers.md",
+    "lenses": {}
+  },
+  "alternate_incline_dumbbell_curl": {
+    "base": "exercises/alternate_incline_dumbbell_curl.md",
+    "lenses": {}
+  },
+  "alternating_cable_shoulder_press": {
+    "base": "exercises/alternating_cable_shoulder_press.md",
+    "lenses": {}
+  },
+  "alternating_deltoid_raise": {
+    "base": "exercises/alternating_deltoid_raise.md",
+    "lenses": {}
+  },
+  "alternating_floor_press": {
+    "base": "exercises/alternating_floor_press.md",
+    "lenses": {}
+  },
+  "alternating_hang_clean": {
+    "base": "exercises/alternating_hang_clean.md",
+    "lenses": {}
+  },
+  "alternating_kettlebell_press": {
+    "base": "exercises/alternating_kettlebell_press.md",
+    "lenses": {}
+  },
+  "alternating_kettlebell_row": {
+    "base": "exercises/alternating_kettlebell_row.md",
+    "lenses": {}
+  },
+  "alternating_renegade_row": {
+    "base": "exercises/alternating_renegade_row.md",
+    "lenses": {}
+  },
+  "anti_gravity_press": {
+    "base": "exercises/anti_gravity_press.md",
+    "lenses": {}
+  },
+  "arnold_dumbbell_press": {
+    "base": "exercises/arnold_dumbbell_press.md",
+    "lenses": {}
+  },
+  "around_the_worlds": {
+    "base": "exercises/around_the_worlds.md",
+    "lenses": {}
+  },
+  "atlas_stone_trainer": {
+    "base": "exercises/atlas_stone_trainer.md",
+    "lenses": {}
+  },
+  "atlas_stones": {
+    "base": "exercises/atlas_stones.md",
+    "lenses": {}
+  },
+  "axle_deadlift": {
+    "base": "exercises/axle_deadlift.md",
+    "lenses": {}
+  },
+  "back_flyes_with_bands": {
+    "base": "exercises/back_flyes_with_bands.md",
+    "lenses": {}
+  },
   "back_squat": {
     "base": "exercises/back_squat.md",
     "lenses": {
       "bodybuilding": "systems/bodybuilding/lenses/back_squat.md",
       "powerlifting": "systems/powerlifting/lenses/back_squat.md"
     }
+  },
+  "backward_drag": {
+    "base": "exercises/backward_drag.md",
+    "lenses": {}
+  },
+  "balance_board": {
+    "base": "exercises/balance_board.md",
+    "lenses": {}
+  },
+  "ball_leg_curl": {
+    "base": "exercises/ball_leg_curl.md",
+    "lenses": {}
+  },
+  "band_assisted_pull_up": {
+    "base": "exercises/band_assisted_pull_up.md",
+    "lenses": {}
+  },
+  "band_good_morning": {
+    "base": "exercises/band_good_morning.md",
+    "lenses": {}
+  },
+  "band_good_morning_pull_through": {
+    "base": "exercises/band_good_morning_pull_through.md",
+    "lenses": {}
+  },
+  "band_hip_adductions": {
+    "base": "exercises/band_hip_adductions.md",
+    "lenses": {}
+  },
+  "band_pull_apart": {
+    "base": "exercises/band_pull_apart.md",
+    "lenses": {}
+  },
+  "band_skull_crusher": {
+    "base": "exercises/band_skull_crusher.md",
+    "lenses": {}
+  },
+  "barbell_ab_rollout": {
+    "base": "exercises/barbell_ab_rollout.md",
+    "lenses": {}
+  },
+  "barbell_ab_rollout_on_knees": {
+    "base": "exercises/barbell_ab_rollout_on_knees.md",
+    "lenses": {}
+  },
+  "barbell_bench_press_medium_grip": {
+    "base": "exercises/barbell_bench_press_medium_grip.md",
+    "lenses": {}
+  },
+  "barbell_curl": {
+    "base": "exercises/barbell_curl.md",
+    "lenses": {}
+  },
+  "barbell_curls_lying_against_an_incline": {
+    "base": "exercises/barbell_curls_lying_against_an_incline.md",
+    "lenses": {}
+  },
+  "barbell_deadlift": {
+    "base": "exercises/barbell_deadlift.md",
+    "lenses": {}
+  },
+  "barbell_full_squat": {
+    "base": "exercises/barbell_full_squat.md",
+    "lenses": {}
+  },
+  "barbell_glute_bridge": {
+    "base": "exercises/barbell_glute_bridge.md",
+    "lenses": {}
+  },
+  "barbell_guillotine_bench_press": {
+    "base": "exercises/barbell_guillotine_bench_press.md",
+    "lenses": {}
+  },
+  "barbell_hack_squat": {
+    "base": "exercises/barbell_hack_squat.md",
+    "lenses": {}
+  },
+  "barbell_hip_thrust": {
+    "base": "exercises/barbell_hip_thrust.md",
+    "lenses": {}
+  },
+  "barbell_incline_bench_press_medium_grip": {
+    "base": "exercises/barbell_incline_bench_press_medium_grip.md",
+    "lenses": {}
+  },
+  "barbell_incline_shoulder_raise": {
+    "base": "exercises/barbell_incline_shoulder_raise.md",
+    "lenses": {}
+  },
+  "barbell_lunge": {
+    "base": "exercises/barbell_lunge.md",
+    "lenses": {}
+  },
+  "barbell_rear_delt_row": {
+    "base": "exercises/barbell_rear_delt_row.md",
+    "lenses": {}
+  },
+  "barbell_rollout_from_bench": {
+    "base": "exercises/barbell_rollout_from_bench.md",
+    "lenses": {}
+  },
+  "barbell_seated_calf_raise": {
+    "base": "exercises/barbell_seated_calf_raise.md",
+    "lenses": {}
+  },
+  "barbell_shoulder_press": {
+    "base": "exercises/barbell_shoulder_press.md",
+    "lenses": {}
+  },
+  "barbell_shrug": {
+    "base": "exercises/barbell_shrug.md",
+    "lenses": {}
+  },
+  "barbell_shrug_behind_the_back": {
+    "base": "exercises/barbell_shrug_behind_the_back.md",
+    "lenses": {}
+  },
+  "barbell_side_bend": {
+    "base": "exercises/barbell_side_bend.md",
+    "lenses": {}
+  },
+  "barbell_side_split_squat": {
+    "base": "exercises/barbell_side_split_squat.md",
+    "lenses": {}
+  },
+  "barbell_squat": {
+    "base": "exercises/barbell_squat.md",
+    "lenses": {}
+  },
+  "barbell_squat_to_a_bench": {
+    "base": "exercises/barbell_squat_to_a_bench.md",
+    "lenses": {}
+  },
+  "barbell_step_ups": {
+    "base": "exercises/barbell_step_ups.md",
+    "lenses": {}
+  },
+  "barbell_walking_lunge": {
+    "base": "exercises/barbell_walking_lunge.md",
+    "lenses": {}
+  },
+  "battling_ropes": {
+    "base": "exercises/battling_ropes.md",
+    "lenses": {}
+  },
+  "bear_crawl_sled_drags": {
+    "base": "exercises/bear_crawl_sled_drags.md",
+    "lenses": {}
+  },
+  "bench_dips": {
+    "base": "exercises/bench_dips.md",
+    "lenses": {}
+  },
+  "bench_press": {
+    "base": "exercises/bench_press.md",
+    "lenses": {}
+  },
+  "bench_press_powerlifting": {
+    "base": "exercises/bench_press_powerlifting.md",
+    "lenses": {}
+  },
+  "bench_press_with_bands": {
+    "base": "exercises/bench_press_with_bands.md",
+    "lenses": {}
+  },
+  "bench_press_with_chains": {
+    "base": "exercises/bench_press_with_chains.md",
+    "lenses": {}
+  },
+  "bent_arm_barbell_pullover": {
+    "base": "exercises/bent_arm_barbell_pullover.md",
+    "lenses": {}
+  },
+  "bent_arm_dumbbell_pullover": {
+    "base": "exercises/bent_arm_dumbbell_pullover.md",
+    "lenses": {}
+  },
+  "bent_knee_hip_raise": {
+    "base": "exercises/bent_knee_hip_raise.md",
+    "lenses": {}
+  },
+  "bent_over_barbell_row": {
+    "base": "exercises/bent_over_barbell_row.md",
+    "lenses": {}
+  },
+  "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": {
+    "base": "exercises/bent_over_dumbbell_rear_delt_raise_with_head_on_bench.md",
+    "lenses": {}
+  },
+  "bent_over_low_pulley_side_lateral": {
+    "base": "exercises/bent_over_low_pulley_side_lateral.md",
+    "lenses": {}
+  },
+  "bent_over_one_arm_long_bar_row": {
+    "base": "exercises/bent_over_one_arm_long_bar_row.md",
+    "lenses": {}
+  },
+  "bent_over_two_arm_long_bar_row": {
+    "base": "exercises/bent_over_two_arm_long_bar_row.md",
+    "lenses": {}
+  },
+  "bent_over_two_dumbbell_row": {
+    "base": "exercises/bent_over_two_dumbbell_row.md",
+    "lenses": {}
+  },
+  "bent_over_two_dumbbell_row_with_palms_in": {
+    "base": "exercises/bent_over_two_dumbbell_row_with_palms_in.md",
+    "lenses": {}
+  },
+  "bent_press": {
+    "base": "exercises/bent_press.md",
+    "lenses": {}
+  },
+  "board_press": {
+    "base": "exercises/board_press.md",
+    "lenses": {}
+  },
+  "body_tricep_press": {
+    "base": "exercises/body_tricep_press.md",
+    "lenses": {}
+  },
+  "body_up": {
+    "base": "exercises/body_up.md",
+    "lenses": {}
+  },
+  "bodyweight_flyes": {
+    "base": "exercises/bodyweight_flyes.md",
+    "lenses": {}
+  },
+  "bodyweight_mid_row": {
+    "base": "exercises/bodyweight_mid_row.md",
+    "lenses": {}
+  },
+  "bodyweight_squat": {
+    "base": "exercises/bodyweight_squat.md",
+    "lenses": {}
+  },
+  "bodyweight_walking_lunge": {
+    "base": "exercises/bodyweight_walking_lunge.md",
+    "lenses": {}
+  },
+  "bosu_ball_cable_crunch_with_side_bends": {
+    "base": "exercises/bosu_ball_cable_crunch_with_side_bends.md",
+    "lenses": {}
+  },
+  "bottoms_up": {
+    "base": "exercises/bottoms_up.md",
+    "lenses": {}
+  },
+  "bottoms_up_clean_from_the_hang_position": {
+    "base": "exercises/bottoms_up_clean_from_the_hang_position.md",
+    "lenses": {}
+  },
+  "box_squat": {
+    "base": "exercises/box_squat.md",
+    "lenses": {}
+  },
+  "box_squat_with_bands": {
+    "base": "exercises/box_squat_with_bands.md",
+    "lenses": {}
+  },
+  "box_squat_with_chains": {
+    "base": "exercises/box_squat_with_chains.md",
+    "lenses": {}
+  },
+  "bradford_rocky_presses": {
+    "base": "exercises/bradford_rocky_presses.md",
+    "lenses": {}
+  },
+  "butt_lift_bridge": {
+    "base": "exercises/butt_lift_bridge.md",
+    "lenses": {}
+  },
+  "butt_ups": {
+    "base": "exercises/butt_ups.md",
+    "lenses": {}
+  },
+  "butterfly": {
+    "base": "exercises/butterfly.md",
+    "lenses": {}
+  },
+  "cable_chest_press": {
+    "base": "exercises/cable_chest_press.md",
+    "lenses": {}
+  },
+  "cable_crossover": {
+    "base": "exercises/cable_crossover.md",
+    "lenses": {}
+  },
+  "cable_crunch": {
+    "base": "exercises/cable_crunch.md",
+    "lenses": {}
+  },
+  "cable_deadlifts": {
+    "base": "exercises/cable_deadlifts.md",
+    "lenses": {}
+  },
+  "cable_hammer_curls_rope_attachment": {
+    "base": "exercises/cable_hammer_curls_rope_attachment.md",
+    "lenses": {}
+  },
+  "cable_hip_adduction": {
+    "base": "exercises/cable_hip_adduction.md",
+    "lenses": {}
+  },
+  "cable_incline_pushdown": {
+    "base": "exercises/cable_incline_pushdown.md",
+    "lenses": {}
+  },
+  "cable_incline_triceps_extension": {
+    "base": "exercises/cable_incline_triceps_extension.md",
+    "lenses": {}
+  },
+  "cable_internal_rotation": {
+    "base": "exercises/cable_internal_rotation.md",
+    "lenses": {}
+  },
+  "cable_iron_cross": {
+    "base": "exercises/cable_iron_cross.md",
+    "lenses": {}
+  },
+  "cable_judo_flip": {
+    "base": "exercises/cable_judo_flip.md",
+    "lenses": {}
+  },
+  "cable_lying_triceps_extension": {
+    "base": "exercises/cable_lying_triceps_extension.md",
+    "lenses": {}
+  },
+  "cable_one_arm_tricep_extension": {
+    "base": "exercises/cable_one_arm_tricep_extension.md",
+    "lenses": {}
+  },
+  "cable_preacher_curl": {
+    "base": "exercises/cable_preacher_curl.md",
+    "lenses": {}
+  },
+  "cable_rear_delt_fly": {
+    "base": "exercises/cable_rear_delt_fly.md",
+    "lenses": {}
+  },
+  "cable_reverse_crunch": {
+    "base": "exercises/cable_reverse_crunch.md",
+    "lenses": {}
+  },
+  "cable_rope_overhead_triceps_extension": {
+    "base": "exercises/cable_rope_overhead_triceps_extension.md",
+    "lenses": {}
+  },
+  "cable_rope_rear_delt_rows": {
+    "base": "exercises/cable_rope_rear_delt_rows.md",
+    "lenses": {}
+  },
+  "cable_russian_twists": {
+    "base": "exercises/cable_russian_twists.md",
+    "lenses": {}
+  },
+  "cable_seated_crunch": {
+    "base": "exercises/cable_seated_crunch.md",
+    "lenses": {}
+  },
+  "cable_seated_lateral_raise": {
+    "base": "exercises/cable_seated_lateral_raise.md",
+    "lenses": {}
+  },
+  "cable_shoulder_press": {
+    "base": "exercises/cable_shoulder_press.md",
+    "lenses": {}
+  },
+  "cable_shrugs": {
+    "base": "exercises/cable_shrugs.md",
+    "lenses": {}
+  },
+  "cable_wrist_curl": {
+    "base": "exercises/cable_wrist_curl.md",
+    "lenses": {}
+  },
+  "calf_machine_shoulder_shrug": {
+    "base": "exercises/calf_machine_shoulder_shrug.md",
+    "lenses": {}
+  },
+  "calf_press": {
+    "base": "exercises/calf_press.md",
+    "lenses": {}
+  },
+  "calf_press_on_the_leg_press_machine": {
+    "base": "exercises/calf_press_on_the_leg_press_machine.md",
+    "lenses": {}
+  },
+  "calf_raise_on_a_dumbbell": {
+    "base": "exercises/calf_raise_on_a_dumbbell.md",
+    "lenses": {}
+  },
+  "calf_raises_with_bands": {
+    "base": "exercises/calf_raises_with_bands.md",
+    "lenses": {}
+  },
+  "car_deadlift": {
+    "base": "exercises/car_deadlift.md",
+    "lenses": {}
+  },
+  "car_drivers": {
+    "base": "exercises/car_drivers.md",
+    "lenses": {}
+  },
+  "chain_handle_extension": {
+    "base": "exercises/chain_handle_extension.md",
+    "lenses": {}
+  },
+  "chain_press": {
+    "base": "exercises/chain_press.md",
+    "lenses": {}
+  },
+  "chair_squat": {
+    "base": "exercises/chair_squat.md",
+    "lenses": {}
+  },
+  "chin_up": {
+    "base": "exercises/chin_up.md",
+    "lenses": {}
+  },
+  "circus_bell": {
+    "base": "exercises/circus_bell.md",
+    "lenses": {}
+  },
+  "clean": {
+    "base": "exercises/clean.md",
+    "lenses": {}
+  },
+  "clean_and_jerk": {
+    "base": "exercises/clean_and_jerk.md",
+    "lenses": {}
+  },
+  "clean_and_press": {
+    "base": "exercises/clean_and_press.md",
+    "lenses": {}
+  },
+  "clean_deadlift": {
+    "base": "exercises/clean_deadlift.md",
+    "lenses": {}
+  },
+  "clean_from_blocks": {
+    "base": "exercises/clean_from_blocks.md",
+    "lenses": {}
+  },
+  "clean_pull": {
+    "base": "exercises/clean_pull.md",
+    "lenses": {}
+  },
+  "clean_shrug": {
+    "base": "exercises/clean_shrug.md",
+    "lenses": {}
+  },
+  "clock_push_up": {
+    "base": "exercises/clock_push_up.md",
+    "lenses": {}
+  },
+  "close_grip_barbell_bench_press": {
+    "base": "exercises/close_grip_barbell_bench_press.md",
+    "lenses": {}
+  },
+  "close_grip_dumbbell_press": {
+    "base": "exercises/close_grip_dumbbell_press.md",
+    "lenses": {}
+  },
+  "close_grip_ez_bar_curl": {
+    "base": "exercises/close_grip_ez_bar_curl.md",
+    "lenses": {}
+  },
+  "close_grip_ez_bar_curl_with_band": {
+    "base": "exercises/close_grip_ez_bar_curl_with_band.md",
+    "lenses": {}
+  },
+  "close_grip_ez_bar_press": {
+    "base": "exercises/close_grip_ez_bar_press.md",
+    "lenses": {}
+  },
+  "close_grip_front_lat_pulldown": {
+    "base": "exercises/close_grip_front_lat_pulldown.md",
+    "lenses": {}
+  },
+  "close_grip_push_up_off_of_a_dumbbell": {
+    "base": "exercises/close_grip_push_up_off_of_a_dumbbell.md",
+    "lenses": {}
+  },
+  "close_grip_standing_barbell_curl": {
+    "base": "exercises/close_grip_standing_barbell_curl.md",
+    "lenses": {}
+  },
+  "cocoons": {
+    "base": "exercises/cocoons.md",
+    "lenses": {}
+  },
+  "conans_wheel": {
+    "base": "exercises/conans_wheel.md",
+    "lenses": {}
+  },
+  "concentration_curls": {
+    "base": "exercises/concentration_curls.md",
+    "lenses": {}
+  },
+  "conventional_deadlift": {
+    "base": "exercises/conventional_deadlift.md",
+    "lenses": {}
+  },
+  "cross_body_crunch": {
+    "base": "exercises/cross_body_crunch.md",
+    "lenses": {}
+  },
+  "cross_body_hammer_curl": {
+    "base": "exercises/cross_body_hammer_curl.md",
+    "lenses": {}
+  },
+  "cross_over_with_bands": {
+    "base": "exercises/cross_over_with_bands.md",
+    "lenses": {}
+  },
+  "crucifix": {
+    "base": "exercises/crucifix.md",
+    "lenses": {}
+  },
+  "crunch_hands_overhead": {
+    "base": "exercises/crunch_hands_overhead.md",
+    "lenses": {}
+  },
+  "crunch_legs_on_exercise_ball": {
+    "base": "exercises/crunch_legs_on_exercise_ball.md",
+    "lenses": {}
+  },
+  "crunches": {
+    "base": "exercises/crunches.md",
+    "lenses": {}
+  },
+  "cuban_press": {
+    "base": "exercises/cuban_press.md",
+    "lenses": {}
+  },
+  "dead_bug": {
+    "base": "exercises/dead_bug.md",
+    "lenses": {}
+  },
+  "deadlift_with_bands": {
+    "base": "exercises/deadlift_with_bands.md",
+    "lenses": {}
+  },
+  "deadlift_with_chains": {
+    "base": "exercises/deadlift_with_chains.md",
+    "lenses": {}
+  },
+  "decline_barbell_bench_press": {
+    "base": "exercises/decline_barbell_bench_press.md",
+    "lenses": {}
+  },
+  "decline_close_grip_bench_to_skull_crusher": {
+    "base": "exercises/decline_close_grip_bench_to_skull_crusher.md",
+    "lenses": {}
+  },
+  "decline_crunch": {
+    "base": "exercises/decline_crunch.md",
+    "lenses": {}
+  },
+  "decline_dumbbell_bench_press": {
+    "base": "exercises/decline_dumbbell_bench_press.md",
+    "lenses": {}
+  },
+  "decline_dumbbell_flyes": {
+    "base": "exercises/decline_dumbbell_flyes.md",
+    "lenses": {}
+  },
+  "decline_dumbbell_triceps_extension": {
+    "base": "exercises/decline_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "decline_ez_bar_triceps_extension": {
+    "base": "exercises/decline_ez_bar_triceps_extension.md",
+    "lenses": {}
+  },
+  "decline_oblique_crunch": {
+    "base": "exercises/decline_oblique_crunch.md",
+    "lenses": {}
+  },
+  "decline_push_up": {
+    "base": "exercises/decline_push_up.md",
+    "lenses": {}
+  },
+  "decline_reverse_crunch": {
+    "base": "exercises/decline_reverse_crunch.md",
+    "lenses": {}
+  },
+  "decline_smith_press": {
+    "base": "exercises/decline_smith_press.md",
+    "lenses": {}
+  },
+  "deficit_deadlift": {
+    "base": "exercises/deficit_deadlift.md",
+    "lenses": {}
+  },
+  "dip_machine": {
+    "base": "exercises/dip_machine.md",
+    "lenses": {}
+  },
+  "dips_chest_version": {
+    "base": "exercises/dips_chest_version.md",
+    "lenses": {}
+  },
+  "dips_triceps_version": {
+    "base": "exercises/dips_triceps_version.md",
+    "lenses": {}
+  },
+  "donkey_calf_raises": {
+    "base": "exercises/donkey_calf_raises.md",
+    "lenses": {}
+  },
+  "double_kettlebell_alternating_hang_clean": {
+    "base": "exercises/double_kettlebell_alternating_hang_clean.md",
+    "lenses": {}
+  },
+  "double_kettlebell_jerk": {
+    "base": "exercises/double_kettlebell_jerk.md",
+    "lenses": {}
+  },
+  "double_kettlebell_push_press": {
+    "base": "exercises/double_kettlebell_push_press.md",
+    "lenses": {}
+  },
+  "double_kettlebell_snatch": {
+    "base": "exercises/double_kettlebell_snatch.md",
+    "lenses": {}
+  },
+  "double_kettlebell_windmill": {
+    "base": "exercises/double_kettlebell_windmill.md",
+    "lenses": {}
+  },
+  "downward_facing_balance": {
+    "base": "exercises/downward_facing_balance.md",
+    "lenses": {}
+  },
+  "drag_curl": {
+    "base": "exercises/drag_curl.md",
+    "lenses": {}
+  },
+  "dumbbell_alternate_bicep_curl": {
+    "base": "exercises/dumbbell_alternate_bicep_curl.md",
+    "lenses": {}
+  },
+  "dumbbell_bench_press": {
+    "base": "exercises/dumbbell_bench_press.md",
+    "lenses": {}
+  },
+  "dumbbell_bench_press_with_neutral_grip": {
+    "base": "exercises/dumbbell_bench_press_with_neutral_grip.md",
+    "lenses": {}
+  },
+  "dumbbell_bicep_curl": {
+    "base": "exercises/dumbbell_bicep_curl.md",
+    "lenses": {}
+  },
+  "dumbbell_clean": {
+    "base": "exercises/dumbbell_clean.md",
+    "lenses": {}
+  },
+  "dumbbell_floor_press": {
+    "base": "exercises/dumbbell_floor_press.md",
+    "lenses": {}
+  },
+  "dumbbell_flyes": {
+    "base": "exercises/dumbbell_flyes.md",
+    "lenses": {}
+  },
+  "dumbbell_incline_row": {
+    "base": "exercises/dumbbell_incline_row.md",
+    "lenses": {}
+  },
+  "dumbbell_incline_shoulder_raise": {
+    "base": "exercises/dumbbell_incline_shoulder_raise.md",
+    "lenses": {}
+  },
+  "dumbbell_lunges": {
+    "base": "exercises/dumbbell_lunges.md",
+    "lenses": {}
+  },
+  "dumbbell_lying_one_arm_rear_lateral_raise": {
+    "base": "exercises/dumbbell_lying_one_arm_rear_lateral_raise.md",
+    "lenses": {}
+  },
+  "dumbbell_lying_pronation": {
+    "base": "exercises/dumbbell_lying_pronation.md",
+    "lenses": {}
+  },
+  "dumbbell_lying_rear_lateral_raise": {
+    "base": "exercises/dumbbell_lying_rear_lateral_raise.md",
+    "lenses": {}
+  },
+  "dumbbell_lying_supination": {
+    "base": "exercises/dumbbell_lying_supination.md",
+    "lenses": {}
+  },
+  "dumbbell_one_arm_shoulder_press": {
+    "base": "exercises/dumbbell_one_arm_shoulder_press.md",
+    "lenses": {}
+  },
+  "dumbbell_one_arm_triceps_extension": {
+    "base": "exercises/dumbbell_one_arm_triceps_extension.md",
+    "lenses": {}
+  },
+  "dumbbell_one_arm_upright_row": {
+    "base": "exercises/dumbbell_one_arm_upright_row.md",
+    "lenses": {}
+  },
+  "dumbbell_prone_incline_curl": {
+    "base": "exercises/dumbbell_prone_incline_curl.md",
+    "lenses": {}
+  },
+  "dumbbell_raise": {
+    "base": "exercises/dumbbell_raise.md",
+    "lenses": {}
+  },
+  "dumbbell_rear_lunge": {
+    "base": "exercises/dumbbell_rear_lunge.md",
+    "lenses": {}
+  },
+  "dumbbell_scaption": {
+    "base": "exercises/dumbbell_scaption.md",
+    "lenses": {}
+  },
+  "dumbbell_seated_one_leg_calf_raise": {
+    "base": "exercises/dumbbell_seated_one_leg_calf_raise.md",
+    "lenses": {}
+  },
+  "dumbbell_shoulder_press": {
+    "base": "exercises/dumbbell_shoulder_press.md",
+    "lenses": {}
+  },
+  "dumbbell_shrug": {
+    "base": "exercises/dumbbell_shrug.md",
+    "lenses": {}
+  },
+  "dumbbell_side_bend": {
+    "base": "exercises/dumbbell_side_bend.md",
+    "lenses": {}
+  },
+  "dumbbell_squat": {
+    "base": "exercises/dumbbell_squat.md",
+    "lenses": {}
+  },
+  "dumbbell_squat_to_a_bench": {
+    "base": "exercises/dumbbell_squat_to_a_bench.md",
+    "lenses": {}
+  },
+  "dumbbell_step_ups": {
+    "base": "exercises/dumbbell_step_ups.md",
+    "lenses": {}
+  },
+  "dumbbell_tricep_extension_pronated_grip": {
+    "base": "exercises/dumbbell_tricep_extension_pronated_grip.md",
+    "lenses": {}
+  },
+  "elbow_to_knee": {
+    "base": "exercises/elbow_to_knee.md",
+    "lenses": {}
+  },
+  "elevated_back_lunge": {
+    "base": "exercises/elevated_back_lunge.md",
+    "lenses": {}
+  },
+  "elevated_cable_rows": {
+    "base": "exercises/elevated_cable_rows.md",
+    "lenses": {}
+  },
+  "exercise_ball_crunch": {
+    "base": "exercises/exercise_ball_crunch.md",
+    "lenses": {}
+  },
+  "exercise_ball_pull_in": {
+    "base": "exercises/exercise_ball_pull_in.md",
+    "lenses": {}
+  },
+  "extended_range_one_arm_kettlebell_floor_press": {
+    "base": "exercises/extended_range_one_arm_kettlebell_floor_press.md",
+    "lenses": {}
+  },
+  "external_rotation": {
+    "base": "exercises/external_rotation.md",
+    "lenses": {}
+  },
+  "external_rotation_with_band": {
+    "base": "exercises/external_rotation_with_band.md",
+    "lenses": {}
+  },
+  "external_rotation_with_cable": {
+    "base": "exercises/external_rotation_with_cable.md",
+    "lenses": {}
+  },
+  "ez_bar_curl": {
+    "base": "exercises/ez_bar_curl.md",
+    "lenses": {}
+  },
+  "ez_bar_skullcrusher": {
+    "base": "exercises/ez_bar_skullcrusher.md",
+    "lenses": {}
+  },
+  "face_pull": {
+    "base": "exercises/face_pull.md",
+    "lenses": {}
+  },
+  "farmers_walk": {
+    "base": "exercises/farmers_walk.md",
+    "lenses": {}
+  },
+  "finger_curls": {
+    "base": "exercises/finger_curls.md",
+    "lenses": {}
+  },
+  "flat_bench_cable_flyes": {
+    "base": "exercises/flat_bench_cable_flyes.md",
+    "lenses": {}
+  },
+  "flat_bench_leg_pull_in": {
+    "base": "exercises/flat_bench_leg_pull_in.md",
+    "lenses": {}
+  },
+  "flat_bench_lying_leg_raise": {
+    "base": "exercises/flat_bench_lying_leg_raise.md",
+    "lenses": {}
+  },
+  "flexor_incline_dumbbell_curls": {
+    "base": "exercises/flexor_incline_dumbbell_curls.md",
+    "lenses": {}
+  },
+  "floor_glute_ham_raise": {
+    "base": "exercises/floor_glute_ham_raise.md",
+    "lenses": {}
+  },
+  "floor_press": {
+    "base": "exercises/floor_press.md",
+    "lenses": {}
+  },
+  "floor_press_with_chains": {
+    "base": "exercises/floor_press_with_chains.md",
+    "lenses": {}
+  },
+  "flutter_kicks": {
+    "base": "exercises/flutter_kicks.md",
+    "lenses": {}
+  },
+  "forward_drag_with_press": {
+    "base": "exercises/forward_drag_with_press.md",
+    "lenses": {}
+  },
+  "frankenstein_squat": {
+    "base": "exercises/frankenstein_squat.md",
+    "lenses": {}
+  },
+  "freehand_jump_squat": {
+    "base": "exercises/freehand_jump_squat.md",
+    "lenses": {}
+  },
+  "frog_sit_ups": {
+    "base": "exercises/frog_sit_ups.md",
+    "lenses": {}
+  },
+  "front_barbell_squat": {
+    "base": "exercises/front_barbell_squat.md",
+    "lenses": {}
+  },
+  "front_barbell_squat_to_a_bench": {
+    "base": "exercises/front_barbell_squat_to_a_bench.md",
+    "lenses": {}
+  },
+  "front_cable_raise": {
+    "base": "exercises/front_cable_raise.md",
+    "lenses": {}
+  },
+  "front_dumbbell_raise": {
+    "base": "exercises/front_dumbbell_raise.md",
+    "lenses": {}
+  },
+  "front_incline_dumbbell_raise": {
+    "base": "exercises/front_incline_dumbbell_raise.md",
+    "lenses": {}
+  },
+  "front_plate_raise": {
+    "base": "exercises/front_plate_raise.md",
+    "lenses": {}
+  },
+  "front_raise_and_pullover": {
+    "base": "exercises/front_raise_and_pullover.md",
+    "lenses": {}
+  },
+  "front_squat": {
+    "base": "exercises/front_squat.md",
+    "lenses": {}
+  },
+  "front_squat_clean_grip": {
+    "base": "exercises/front_squat_clean_grip.md",
+    "lenses": {}
+  },
+  "front_squats_with_two_kettlebells": {
+    "base": "exercises/front_squats_with_two_kettlebells.md",
+    "lenses": {}
+  },
+  "front_two_dumbbell_raise": {
+    "base": "exercises/front_two_dumbbell_raise.md",
+    "lenses": {}
+  },
+  "full_range_of_motion_lat_pulldown": {
+    "base": "exercises/full_range_of_motion_lat_pulldown.md",
+    "lenses": {}
+  },
+  "gironda_sternum_chins": {
+    "base": "exercises/gironda_sternum_chins.md",
+    "lenses": {}
+  },
+  "glute_ham_raise": {
+    "base": "exercises/glute_ham_raise.md",
+    "lenses": {}
+  },
+  "glute_kickback": {
+    "base": "exercises/glute_kickback.md",
+    "lenses": {}
+  },
+  "goblet_squat": {
+    "base": "exercises/goblet_squat.md",
+    "lenses": {}
+  },
+  "good_morning": {
+    "base": "exercises/good_morning.md",
+    "lenses": {}
+  },
+  "good_morning_off_pins": {
+    "base": "exercises/good_morning_off_pins.md",
+    "lenses": {}
+  },
+  "gorilla_chin_crunch": {
+    "base": "exercises/gorilla_chin_crunch.md",
+    "lenses": {}
+  },
+  "hack_squat": {
+    "base": "exercises/hack_squat.md",
+    "lenses": {}
+  },
+  "hammer_curls": {
+    "base": "exercises/hammer_curls.md",
+    "lenses": {}
+  },
+  "hammer_grip_incline_db_bench_press": {
+    "base": "exercises/hammer_grip_incline_db_bench_press.md",
+    "lenses": {}
+  },
+  "handstand_push_ups": {
+    "base": "exercises/handstand_push_ups.md",
+    "lenses": {}
+  },
+  "hang_clean": {
+    "base": "exercises/hang_clean.md",
+    "lenses": {}
+  },
+  "hang_clean_below_the_knees": {
+    "base": "exercises/hang_clean_below_the_knees.md",
+    "lenses": {}
+  },
+  "hang_snatch": {
+    "base": "exercises/hang_snatch.md",
+    "lenses": {}
+  },
+  "hang_snatch_below_knees": {
+    "base": "exercises/hang_snatch_below_knees.md",
+    "lenses": {}
+  },
+  "hanging_bar_good_morning": {
+    "base": "exercises/hanging_bar_good_morning.md",
+    "lenses": {}
+  },
+  "hanging_leg_raise": {
+    "base": "exercises/hanging_leg_raise.md",
+    "lenses": {}
+  },
+  "hanging_pike": {
+    "base": "exercises/hanging_pike.md",
+    "lenses": {}
+  },
+  "heaving_snatch_balance": {
+    "base": "exercises/heaving_snatch_balance.md",
+    "lenses": {}
+  },
+  "high_cable_curls": {
+    "base": "exercises/high_cable_curls.md",
+    "lenses": {}
+  },
+  "hip_extension_with_bands": {
+    "base": "exercises/hip_extension_with_bands.md",
+    "lenses": {}
+  },
+  "hip_flexion_with_band": {
+    "base": "exercises/hip_flexion_with_band.md",
+    "lenses": {}
+  },
+  "hip_lift_with_band": {
+    "base": "exercises/hip_lift_with_band.md",
+    "lenses": {}
+  },
+  "hyperextensions_back_extensions": {
+    "base": "exercises/hyperextensions_back_extensions.md",
+    "lenses": {}
+  },
+  "hyperextensions_with_no_hyperextension_bench": {
+    "base": "exercises/hyperextensions_with_no_hyperextension_bench.md",
+    "lenses": {}
+  },
+  "incline_barbell_triceps_extension": {
+    "base": "exercises/incline_barbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "incline_bench_pull": {
+    "base": "exercises/incline_bench_pull.md",
+    "lenses": {}
+  },
+  "incline_cable_chest_press": {
+    "base": "exercises/incline_cable_chest_press.md",
+    "lenses": {}
+  },
+  "incline_cable_flye": {
+    "base": "exercises/incline_cable_flye.md",
+    "lenses": {}
+  },
+  "incline_dumbbell_bench_with_palms_facing_in": {
+    "base": "exercises/incline_dumbbell_bench_with_palms_facing_in.md",
+    "lenses": {}
+  },
+  "incline_dumbbell_curl": {
+    "base": "exercises/incline_dumbbell_curl.md",
+    "lenses": {}
+  },
+  "incline_dumbbell_flyes": {
+    "base": "exercises/incline_dumbbell_flyes.md",
+    "lenses": {}
+  },
+  "incline_dumbbell_flyes_with_a_twist": {
+    "base": "exercises/incline_dumbbell_flyes_with_a_twist.md",
+    "lenses": {}
+  },
+  "incline_dumbbell_press": {
+    "base": "exercises/incline_dumbbell_press.md",
+    "lenses": {}
+  },
+  "incline_hammer_curls": {
+    "base": "exercises/incline_hammer_curls.md",
+    "lenses": {}
+  },
+  "incline_inner_biceps_curl": {
+    "base": "exercises/incline_inner_biceps_curl.md",
+    "lenses": {}
+  },
+  "incline_push_up": {
+    "base": "exercises/incline_push_up.md",
+    "lenses": {}
+  },
+  "incline_push_up_close_grip": {
+    "base": "exercises/incline_push_up_close_grip.md",
+    "lenses": {}
+  },
+  "incline_push_up_medium": {
+    "base": "exercises/incline_push_up_medium.md",
+    "lenses": {}
+  },
+  "incline_push_up_reverse_grip": {
+    "base": "exercises/incline_push_up_reverse_grip.md",
+    "lenses": {}
+  },
+  "incline_push_up_wide": {
+    "base": "exercises/incline_push_up_wide.md",
+    "lenses": {}
+  },
+  "internal_rotation_with_band": {
+    "base": "exercises/internal_rotation_with_band.md",
+    "lenses": {}
+  },
+  "inverted_row": {
+    "base": "exercises/inverted_row.md",
+    "lenses": {}
+  },
+  "inverted_row_with_straps": {
+    "base": "exercises/inverted_row_with_straps.md",
+    "lenses": {}
+  },
+  "iron_cross": {
+    "base": "exercises/iron_cross.md",
+    "lenses": {}
+  },
+  "isometric_neck_exercise_front_and_back": {
+    "base": "exercises/isometric_neck_exercise_front_and_back.md",
+    "lenses": {}
+  },
+  "isometric_neck_exercise_sides": {
+    "base": "exercises/isometric_neck_exercise_sides.md",
+    "lenses": {}
+  },
+  "isometric_wipers": {
+    "base": "exercises/isometric_wipers.md",
+    "lenses": {}
+  },
+  "jackknife_sit_up": {
+    "base": "exercises/jackknife_sit_up.md",
+    "lenses": {}
+  },
+  "janda_sit_up": {
+    "base": "exercises/janda_sit_up.md",
+    "lenses": {}
+  },
+  "jefferson_squats": {
+    "base": "exercises/jefferson_squats.md",
+    "lenses": {}
+  },
+  "jerk_balance": {
+    "base": "exercises/jerk_balance.md",
+    "lenses": {}
+  },
+  "jerk_dip_squat": {
+    "base": "exercises/jerk_dip_squat.md",
+    "lenses": {}
+  },
+  "jm_press": {
+    "base": "exercises/jm_press.md",
+    "lenses": {}
+  },
+  "keg_load": {
+    "base": "exercises/keg_load.md",
+    "lenses": {}
+  },
+  "kettlebell_arnold_press": {
+    "base": "exercises/kettlebell_arnold_press.md",
+    "lenses": {}
+  },
+  "kettlebell_dead_clean": {
+    "base": "exercises/kettlebell_dead_clean.md",
+    "lenses": {}
+  },
+  "kettlebell_figure_8": {
+    "base": "exercises/kettlebell_figure_8.md",
+    "lenses": {}
+  },
+  "kettlebell_hang_clean": {
+    "base": "exercises/kettlebell_hang_clean.md",
+    "lenses": {}
+  },
+  "kettlebell_one_legged_deadlift": {
+    "base": "exercises/kettlebell_one_legged_deadlift.md",
+    "lenses": {}
+  },
+  "kettlebell_pass_between_the_legs": {
+    "base": "exercises/kettlebell_pass_between_the_legs.md",
+    "lenses": {}
+  },
+  "kettlebell_pirate_ships": {
+    "base": "exercises/kettlebell_pirate_ships.md",
+    "lenses": {}
+  },
+  "kettlebell_pistol_squat": {
+    "base": "exercises/kettlebell_pistol_squat.md",
+    "lenses": {}
+  },
+  "kettlebell_seated_press": {
+    "base": "exercises/kettlebell_seated_press.md",
+    "lenses": {}
+  },
+  "kettlebell_seesaw_press": {
+    "base": "exercises/kettlebell_seesaw_press.md",
+    "lenses": {}
+  },
+  "kettlebell_sumo_high_pull": {
+    "base": "exercises/kettlebell_sumo_high_pull.md",
+    "lenses": {}
+  },
+  "kettlebell_thruster": {
+    "base": "exercises/kettlebell_thruster.md",
+    "lenses": {}
+  },
+  "kettlebell_turkish_get_up_lunge_style": {
+    "base": "exercises/kettlebell_turkish_get_up_lunge_style.md",
+    "lenses": {}
+  },
+  "kettlebell_turkish_get_up_squat_style": {
+    "base": "exercises/kettlebell_turkish_get_up_squat_style.md",
+    "lenses": {}
+  },
+  "kettlebell_windmill": {
+    "base": "exercises/kettlebell_windmill.md",
+    "lenses": {}
+  },
+  "kipping_muscle_up": {
+    "base": "exercises/kipping_muscle_up.md",
+    "lenses": {}
+  },
+  "knee_hip_raise_on_parallel_bars": {
+    "base": "exercises/knee_hip_raise_on_parallel_bars.md",
+    "lenses": {}
+  },
+  "kneeling_cable_crunch_with_alternating_oblique_twists": {
+    "base": "exercises/kneeling_cable_crunch_with_alternating_oblique_twists.md",
+    "lenses": {}
+  },
+  "kneeling_cable_triceps_extension": {
+    "base": "exercises/kneeling_cable_triceps_extension.md",
+    "lenses": {}
+  },
+  "kneeling_high_pulley_row": {
+    "base": "exercises/kneeling_high_pulley_row.md",
+    "lenses": {}
+  },
+  "kneeling_jump_squat": {
+    "base": "exercises/kneeling_jump_squat.md",
+    "lenses": {}
+  },
+  "kneeling_single_arm_high_pulley_row": {
+    "base": "exercises/kneeling_single_arm_high_pulley_row.md",
+    "lenses": {}
+  },
+  "kneeling_squat": {
+    "base": "exercises/kneeling_squat.md",
+    "lenses": {}
+  },
+  "landmine_180s": {
+    "base": "exercises/landmine_180s.md",
+    "lenses": {}
+  },
+  "landmine_linear_jammer": {
+    "base": "exercises/landmine_linear_jammer.md",
+    "lenses": {}
+  },
+  "lateral_raise_with_bands": {
+    "base": "exercises/lateral_raise_with_bands.md",
+    "lenses": {}
+  },
+  "leg_extensions": {
+    "base": "exercises/leg_extensions.md",
+    "lenses": {}
+  },
+  "leg_lift": {
+    "base": "exercises/leg_lift.md",
+    "lenses": {}
+  },
+  "leg_over_floor_press": {
+    "base": "exercises/leg_over_floor_press.md",
+    "lenses": {}
+  },
+  "leg_press": {
+    "base": "exercises/leg_press.md",
+    "lenses": {}
+  },
+  "leg_pull_in": {
+    "base": "exercises/leg_pull_in.md",
+    "lenses": {}
+  },
+  "leverage_chest_press": {
+    "base": "exercises/leverage_chest_press.md",
+    "lenses": {}
+  },
+  "leverage_deadlift": {
+    "base": "exercises/leverage_deadlift.md",
+    "lenses": {}
+  },
+  "leverage_decline_chest_press": {
+    "base": "exercises/leverage_decline_chest_press.md",
+    "lenses": {}
+  },
+  "leverage_high_row": {
+    "base": "exercises/leverage_high_row.md",
+    "lenses": {}
+  },
+  "leverage_incline_chest_press": {
+    "base": "exercises/leverage_incline_chest_press.md",
+    "lenses": {}
+  },
+  "leverage_iso_row": {
+    "base": "exercises/leverage_iso_row.md",
+    "lenses": {}
+  },
+  "leverage_shoulder_press": {
+    "base": "exercises/leverage_shoulder_press.md",
+    "lenses": {}
+  },
+  "leverage_shrug": {
+    "base": "exercises/leverage_shrug.md",
+    "lenses": {}
+  },
+  "log_lift": {
+    "base": "exercises/log_lift.md",
+    "lenses": {}
+  },
+  "london_bridges": {
+    "base": "exercises/london_bridges.md",
+    "lenses": {}
+  },
+  "low_cable_crossover": {
+    "base": "exercises/low_cable_crossover.md",
+    "lenses": {}
+  },
+  "low_cable_triceps_extension": {
+    "base": "exercises/low_cable_triceps_extension.md",
+    "lenses": {}
+  },
+  "low_pulley_row_to_neck": {
+    "base": "exercises/low_pulley_row_to_neck.md",
+    "lenses": {}
+  },
+  "lunge_pass_through": {
+    "base": "exercises/lunge_pass_through.md",
+    "lenses": {}
+  },
+  "lunge_sprint": {
+    "base": "exercises/lunge_sprint.md",
+    "lenses": {}
+  },
+  "lying_cable_curl": {
+    "base": "exercises/lying_cable_curl.md",
+    "lenses": {}
+  },
+  "lying_cambered_barbell_row": {
+    "base": "exercises/lying_cambered_barbell_row.md",
+    "lenses": {}
+  },
+  "lying_close_grip_bar_curl_on_high_pulley": {
+    "base": "exercises/lying_close_grip_bar_curl_on_high_pulley.md",
+    "lenses": {}
+  },
+  "lying_close_grip_barbell_triceps_extension_behind_the_head": {
+    "base": "exercises/lying_close_grip_barbell_triceps_extension_behind_the_head.md",
+    "lenses": {}
+  },
+  "lying_close_grip_barbell_triceps_press_to_chin": {
+    "base": "exercises/lying_close_grip_barbell_triceps_press_to_chin.md",
+    "lenses": {}
+  },
+  "lying_dumbbell_tricep_extension": {
+    "base": "exercises/lying_dumbbell_tricep_extension.md",
+    "lenses": {}
+  },
+  "lying_face_down_plate_neck_resistance": {
+    "base": "exercises/lying_face_down_plate_neck_resistance.md",
+    "lenses": {}
+  },
+  "lying_face_up_plate_neck_resistance": {
+    "base": "exercises/lying_face_up_plate_neck_resistance.md",
+    "lenses": {}
+  },
+  "lying_high_bench_barbell_curl": {
+    "base": "exercises/lying_high_bench_barbell_curl.md",
+    "lenses": {}
+  },
+  "lying_leg_curls": {
+    "base": "exercises/lying_leg_curls.md",
+    "lenses": {}
+  },
+  "lying_machine_squat": {
+    "base": "exercises/lying_machine_squat.md",
+    "lenses": {}
+  },
+  "lying_one_arm_lateral_raise": {
+    "base": "exercises/lying_one_arm_lateral_raise.md",
+    "lenses": {}
+  },
+  "lying_rear_delt_raise": {
+    "base": "exercises/lying_rear_delt_raise.md",
+    "lenses": {}
+  },
+  "lying_supine_dumbbell_curl": {
+    "base": "exercises/lying_supine_dumbbell_curl.md",
+    "lenses": {}
+  },
+  "lying_t_bar_row": {
+    "base": "exercises/lying_t_bar_row.md",
+    "lenses": {}
+  },
+  "lying_triceps_press": {
+    "base": "exercises/lying_triceps_press.md",
+    "lenses": {}
+  },
+  "machine_bench_press": {
+    "base": "exercises/machine_bench_press.md",
+    "lenses": {}
+  },
+  "machine_bicep_curl": {
+    "base": "exercises/machine_bicep_curl.md",
+    "lenses": {}
+  },
+  "machine_preacher_curls": {
+    "base": "exercises/machine_preacher_curls.md",
+    "lenses": {}
+  },
+  "machine_shoulder_military_press": {
+    "base": "exercises/machine_shoulder_military_press.md",
+    "lenses": {}
+  },
+  "machine_triceps_extension": {
+    "base": "exercises/machine_triceps_extension.md",
+    "lenses": {}
+  },
+  "middle_back_shrug": {
+    "base": "exercises/middle_back_shrug.md",
+    "lenses": {}
+  },
+  "mixed_grip_chin": {
+    "base": "exercises/mixed_grip_chin.md",
+    "lenses": {}
+  },
+  "monster_walk": {
+    "base": "exercises/monster_walk.md",
+    "lenses": {}
+  },
+  "muscle_snatch": {
+    "base": "exercises/muscle_snatch.md",
+    "lenses": {}
+  },
+  "muscle_up": {
+    "base": "exercises/muscle_up.md",
+    "lenses": {}
+  },
+  "narrow_stance_hack_squats": {
+    "base": "exercises/narrow_stance_hack_squats.md",
+    "lenses": {}
+  },
+  "narrow_stance_leg_press": {
+    "base": "exercises/narrow_stance_leg_press.md",
+    "lenses": {}
+  },
+  "narrow_stance_squats": {
+    "base": "exercises/narrow_stance_squats.md",
+    "lenses": {}
+  },
+  "natural_glute_ham_raise": {
+    "base": "exercises/natural_glute_ham_raise.md",
+    "lenses": {}
+  },
+  "neck_press": {
+    "base": "exercises/neck_press.md",
+    "lenses": {}
+  },
+  "oblique_crunches": {
+    "base": "exercises/oblique_crunches.md",
+    "lenses": {}
+  },
+  "oblique_crunches_on_the_floor": {
+    "base": "exercises/oblique_crunches_on_the_floor.md",
+    "lenses": {}
+  },
+  "olympic_squat": {
+    "base": "exercises/olympic_squat.md",
+    "lenses": {}
+  },
+  "one_arm_chin_up": {
+    "base": "exercises/one_arm_chin_up.md",
+    "lenses": {}
+  },
+  "one_arm_dumbbell_bench_press": {
+    "base": "exercises/one_arm_dumbbell_bench_press.md",
+    "lenses": {}
+  },
+  "one_arm_dumbbell_preacher_curl": {
+    "base": "exercises/one_arm_dumbbell_preacher_curl.md",
+    "lenses": {}
+  },
+  "one_arm_dumbbell_row": {
+    "base": "exercises/one_arm_dumbbell_row.md",
+    "lenses": {}
+  },
+  "one_arm_flat_bench_dumbbell_flye": {
+    "base": "exercises/one_arm_flat_bench_dumbbell_flye.md",
+    "lenses": {}
+  },
+  "one_arm_floor_press": {
+    "base": "exercises/one_arm_floor_press.md",
+    "lenses": {}
+  },
+  "one_arm_high_pulley_cable_side_bends": {
+    "base": "exercises/one_arm_high_pulley_cable_side_bends.md",
+    "lenses": {}
+  },
+  "one_arm_incline_lateral_raise": {
+    "base": "exercises/one_arm_incline_lateral_raise.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_clean": {
+    "base": "exercises/one_arm_kettlebell_clean.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_clean_and_jerk": {
+    "base": "exercises/one_arm_kettlebell_clean_and_jerk.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_floor_press": {
+    "base": "exercises/one_arm_kettlebell_floor_press.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_jerk": {
+    "base": "exercises/one_arm_kettlebell_jerk.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_military_press_to_the_side": {
+    "base": "exercises/one_arm_kettlebell_military_press_to_the_side.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_para_press": {
+    "base": "exercises/one_arm_kettlebell_para_press.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_push_press": {
+    "base": "exercises/one_arm_kettlebell_push_press.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_row": {
+    "base": "exercises/one_arm_kettlebell_row.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_snatch": {
+    "base": "exercises/one_arm_kettlebell_snatch.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_split_jerk": {
+    "base": "exercises/one_arm_kettlebell_split_jerk.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_split_snatch": {
+    "base": "exercises/one_arm_kettlebell_split_snatch.md",
+    "lenses": {}
+  },
+  "one_arm_kettlebell_swings": {
+    "base": "exercises/one_arm_kettlebell_swings.md",
+    "lenses": {}
+  },
+  "one_arm_lat_pulldown": {
+    "base": "exercises/one_arm_lat_pulldown.md",
+    "lenses": {}
+  },
+  "one_arm_long_bar_row": {
+    "base": "exercises/one_arm_long_bar_row.md",
+    "lenses": {}
+  },
+  "one_arm_medicine_ball_slam": {
+    "base": "exercises/one_arm_medicine_ball_slam.md",
+    "lenses": {}
+  },
+  "one_arm_open_palm_kettlebell_clean": {
+    "base": "exercises/one_arm_open_palm_kettlebell_clean.md",
+    "lenses": {}
+  },
+  "one_arm_overhead_kettlebell_squats": {
+    "base": "exercises/one_arm_overhead_kettlebell_squats.md",
+    "lenses": {}
+  },
+  "one_arm_pronated_dumbbell_triceps_extension": {
+    "base": "exercises/one_arm_pronated_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "one_arm_side_deadlift": {
+    "base": "exercises/one_arm_side_deadlift.md",
+    "lenses": {}
+  },
+  "one_arm_side_laterals": {
+    "base": "exercises/one_arm_side_laterals.md",
+    "lenses": {}
+  },
+  "one_arm_supinated_dumbbell_triceps_extension": {
+    "base": "exercises/one_arm_supinated_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "one_leg_barbell_squat": {
+    "base": "exercises/one_leg_barbell_squat.md",
+    "lenses": {}
+  },
+  "one_legged_cable_kickback": {
+    "base": "exercises/one_legged_cable_kickback.md",
+    "lenses": {}
+  },
+  "open_palm_kettlebell_clean": {
+    "base": "exercises/open_palm_kettlebell_clean.md",
+    "lenses": {}
+  },
+  "otis_up": {
+    "base": "exercises/otis_up.md",
+    "lenses": {}
+  },
+  "overhead_cable_curl": {
+    "base": "exercises/overhead_cable_curl.md",
+    "lenses": {}
+  },
+  "overhead_press": {
+    "base": "exercises/overhead_press.md",
+    "lenses": {}
+  },
+  "overhead_squat": {
+    "base": "exercises/overhead_squat.md",
+    "lenses": {}
+  },
+  "pallof_press": {
+    "base": "exercises/pallof_press.md",
+    "lenses": {}
+  },
+  "pallof_press_with_rotation": {
+    "base": "exercises/pallof_press_with_rotation.md",
+    "lenses": {}
+  },
+  "palms_down_dumbbell_wrist_curl_over_a_bench": {
+    "base": "exercises/palms_down_dumbbell_wrist_curl_over_a_bench.md",
+    "lenses": {}
+  },
+  "palms_down_wrist_curl_over_a_bench": {
+    "base": "exercises/palms_down_wrist_curl_over_a_bench.md",
+    "lenses": {}
+  },
+  "palms_up_barbell_wrist_curl_over_a_bench": {
+    "base": "exercises/palms_up_barbell_wrist_curl_over_a_bench.md",
+    "lenses": {}
+  },
+  "palms_up_dumbbell_wrist_curl_over_a_bench": {
+    "base": "exercises/palms_up_dumbbell_wrist_curl_over_a_bench.md",
+    "lenses": {}
+  },
+  "parallel_bar_dip": {
+    "base": "exercises/parallel_bar_dip.md",
+    "lenses": {}
+  },
+  "physioball_hip_bridge": {
+    "base": "exercises/physioball_hip_bridge.md",
+    "lenses": {}
+  },
+  "pin_presses": {
+    "base": "exercises/pin_presses.md",
+    "lenses": {}
+  },
+  "plank": {
+    "base": "exercises/plank.md",
+    "lenses": {}
+  },
+  "plate_pinch": {
+    "base": "exercises/plate_pinch.md",
+    "lenses": {}
+  },
+  "plate_twist": {
+    "base": "exercises/plate_twist.md",
+    "lenses": {}
+  },
+  "platform_hamstring_slides": {
+    "base": "exercises/platform_hamstring_slides.md",
+    "lenses": {}
+  },
+  "plie_dumbbell_squat": {
+    "base": "exercises/plie_dumbbell_squat.md",
+    "lenses": {}
+  },
+  "plyo_kettlebell_pushups": {
+    "base": "exercises/plyo_kettlebell_pushups.md",
+    "lenses": {}
+  },
+  "power_clean": {
+    "base": "exercises/power_clean.md",
+    "lenses": {}
+  },
+  "power_clean_from_blocks": {
+    "base": "exercises/power_clean_from_blocks.md",
+    "lenses": {}
+  },
+  "power_jerk": {
+    "base": "exercises/power_jerk.md",
+    "lenses": {}
+  },
+  "power_partials": {
+    "base": "exercises/power_partials.md",
+    "lenses": {}
+  },
+  "power_snatch": {
+    "base": "exercises/power_snatch.md",
+    "lenses": {}
+  },
+  "power_snatch_from_blocks": {
+    "base": "exercises/power_snatch_from_blocks.md",
+    "lenses": {}
+  },
+  "power_stairs": {
+    "base": "exercises/power_stairs.md",
+    "lenses": {}
+  },
+  "preacher_curl": {
+    "base": "exercises/preacher_curl.md",
+    "lenses": {}
+  },
+  "preacher_hammer_dumbbell_curl": {
+    "base": "exercises/preacher_hammer_dumbbell_curl.md",
+    "lenses": {}
+  },
+  "press_sit_up": {
+    "base": "exercises/press_sit_up.md",
+    "lenses": {}
+  },
+  "prone_manual_hamstring": {
+    "base": "exercises/prone_manual_hamstring.md",
+    "lenses": {}
+  },
+  "pull_through": {
+    "base": "exercises/pull_through.md",
+    "lenses": {}
+  },
+  "pullups": {
+    "base": "exercises/pullups.md",
+    "lenses": {}
+  },
+  "push_press": {
+    "base": "exercises/push_press.md",
+    "lenses": {}
+  },
+  "push_press_behind_the_neck": {
+    "base": "exercises/push_press_behind_the_neck.md",
+    "lenses": {}
+  },
+  "push_up_to_side_plank": {
+    "base": "exercises/push_up_to_side_plank.md",
+    "lenses": {}
+  },
+  "push_up_wide": {
+    "base": "exercises/push_up_wide.md",
+    "lenses": {}
+  },
+  "push_ups_close_triceps_position": {
+    "base": "exercises/push_ups_close_triceps_position.md",
+    "lenses": {}
+  },
+  "push_ups_with_feet_elevated": {
+    "base": "exercises/push_ups_with_feet_elevated.md",
+    "lenses": {}
+  },
+  "push_ups_with_feet_on_an_exercise_ball": {
+    "base": "exercises/push_ups_with_feet_on_an_exercise_ball.md",
+    "lenses": {}
+  },
+  "pushups": {
+    "base": "exercises/pushups.md",
+    "lenses": {}
+  },
+  "pushups_close_and_wide_hand_positions": {
+    "base": "exercises/pushups_close_and_wide_hand_positions.md",
+    "lenses": {}
+  },
+  "rack_delivery": {
+    "base": "exercises/rack_delivery.md",
+    "lenses": {}
+  },
+  "rack_pull_with_bands": {
+    "base": "exercises/rack_pull_with_bands.md",
+    "lenses": {}
+  },
+  "rack_pulls": {
+    "base": "exercises/rack_pulls.md",
+    "lenses": {}
+  },
+  "reverse_band_bench_press": {
+    "base": "exercises/reverse_band_bench_press.md",
+    "lenses": {}
+  },
+  "reverse_band_box_squat": {
+    "base": "exercises/reverse_band_box_squat.md",
+    "lenses": {}
+  },
+  "reverse_band_deadlift": {
+    "base": "exercises/reverse_band_deadlift.md",
+    "lenses": {}
+  },
+  "reverse_band_power_squat": {
+    "base": "exercises/reverse_band_power_squat.md",
+    "lenses": {}
+  },
+  "reverse_band_sumo_deadlift": {
+    "base": "exercises/reverse_band_sumo_deadlift.md",
+    "lenses": {}
+  },
+  "reverse_barbell_curl": {
+    "base": "exercises/reverse_barbell_curl.md",
+    "lenses": {}
+  },
+  "reverse_barbell_preacher_curls": {
+    "base": "exercises/reverse_barbell_preacher_curls.md",
+    "lenses": {}
+  },
+  "reverse_cable_curl": {
+    "base": "exercises/reverse_cable_curl.md",
+    "lenses": {}
+  },
+  "reverse_crunch": {
+    "base": "exercises/reverse_crunch.md",
+    "lenses": {}
+  },
+  "reverse_flyes": {
+    "base": "exercises/reverse_flyes.md",
+    "lenses": {}
+  },
+  "reverse_flyes_with_external_rotation": {
+    "base": "exercises/reverse_flyes_with_external_rotation.md",
+    "lenses": {}
+  },
+  "reverse_grip_bent_over_rows": {
+    "base": "exercises/reverse_grip_bent_over_rows.md",
+    "lenses": {}
+  },
+  "reverse_grip_triceps_pushdown": {
+    "base": "exercises/reverse_grip_triceps_pushdown.md",
+    "lenses": {}
+  },
+  "reverse_hyperextension": {
+    "base": "exercises/reverse_hyperextension.md",
+    "lenses": {}
+  },
+  "reverse_machine_flyes": {
+    "base": "exercises/reverse_machine_flyes.md",
+    "lenses": {}
+  },
+  "reverse_plate_curls": {
+    "base": "exercises/reverse_plate_curls.md",
+    "lenses": {}
+  },
+  "reverse_triceps_bench_press": {
+    "base": "exercises/reverse_triceps_bench_press.md",
+    "lenses": {}
+  },
+  "rickshaw_carry": {
+    "base": "exercises/rickshaw_carry.md",
+    "lenses": {}
+  },
+  "rickshaw_deadlift": {
+    "base": "exercises/rickshaw_deadlift.md",
+    "lenses": {}
+  },
+  "ring_dips": {
+    "base": "exercises/ring_dips.md",
+    "lenses": {}
+  },
+  "rocking_standing_calf_raise": {
+    "base": "exercises/rocking_standing_calf_raise.md",
+    "lenses": {}
+  },
+  "rocky_pull_ups_pulldowns": {
+    "base": "exercises/rocky_pull_ups_pulldowns.md",
+    "lenses": {}
+  },
+  "romanian_deadlift": {
+    "base": "exercises/romanian_deadlift.md",
+    "lenses": {}
+  },
+  "romanian_deadlift_from_deficit": {
+    "base": "exercises/romanian_deadlift_from_deficit.md",
+    "lenses": {}
+  },
+  "rope_climb": {
+    "base": "exercises/rope_climb.md",
+    "lenses": {}
+  },
+  "rope_crunch": {
+    "base": "exercises/rope_crunch.md",
+    "lenses": {}
+  },
+  "rope_straight_arm_pulldown": {
+    "base": "exercises/rope_straight_arm_pulldown.md",
+    "lenses": {}
+  },
+  "russian_twist": {
+    "base": "exercises/russian_twist.md",
+    "lenses": {}
+  },
+  "sandbag_load": {
+    "base": "exercises/sandbag_load.md",
+    "lenses": {}
+  },
+  "scapular_pull_up": {
+    "base": "exercises/scapular_pull_up.md",
+    "lenses": {}
+  },
+  "seated_band_hamstring_curl": {
+    "base": "exercises/seated_band_hamstring_curl.md",
+    "lenses": {}
+  },
+  "seated_barbell_military_press": {
+    "base": "exercises/seated_barbell_military_press.md",
+    "lenses": {}
+  },
+  "seated_barbell_twist": {
+    "base": "exercises/seated_barbell_twist.md",
+    "lenses": {}
+  },
+  "seated_bent_over_one_arm_dumbbell_triceps_extension": {
+    "base": "exercises/seated_bent_over_one_arm_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "seated_bent_over_rear_delt_raise": {
+    "base": "exercises/seated_bent_over_rear_delt_raise.md",
+    "lenses": {}
+  },
+  "seated_bent_over_two_arm_dumbbell_triceps_extension": {
+    "base": "exercises/seated_bent_over_two_arm_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "seated_cable_rows": {
+    "base": "exercises/seated_cable_rows.md",
+    "lenses": {}
+  },
+  "seated_cable_shoulder_press": {
+    "base": "exercises/seated_cable_shoulder_press.md",
+    "lenses": {}
+  },
+  "seated_calf_raise": {
+    "base": "exercises/seated_calf_raise.md",
+    "lenses": {}
+  },
+  "seated_close_grip_concentration_barbell_curl": {
+    "base": "exercises/seated_close_grip_concentration_barbell_curl.md",
+    "lenses": {}
+  },
+  "seated_dumbbell_curl": {
+    "base": "exercises/seated_dumbbell_curl.md",
+    "lenses": {}
+  },
+  "seated_dumbbell_inner_biceps_curl": {
+    "base": "exercises/seated_dumbbell_inner_biceps_curl.md",
+    "lenses": {}
+  },
+  "seated_dumbbell_palms_down_wrist_curl": {
+    "base": "exercises/seated_dumbbell_palms_down_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_dumbbell_palms_up_wrist_curl": {
+    "base": "exercises/seated_dumbbell_palms_up_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_dumbbell_press": {
+    "base": "exercises/seated_dumbbell_press.md",
+    "lenses": {}
+  },
+  "seated_flat_bench_leg_pull_in": {
+    "base": "exercises/seated_flat_bench_leg_pull_in.md",
+    "lenses": {}
+  },
+  "seated_good_mornings": {
+    "base": "exercises/seated_good_mornings.md",
+    "lenses": {}
+  },
+  "seated_head_harness_neck_resistance": {
+    "base": "exercises/seated_head_harness_neck_resistance.md",
+    "lenses": {}
+  },
+  "seated_leg_curl": {
+    "base": "exercises/seated_leg_curl.md",
+    "lenses": {}
+  },
+  "seated_leg_tucks": {
+    "base": "exercises/seated_leg_tucks.md",
+    "lenses": {}
+  },
+  "seated_one_arm_cable_pulley_rows": {
+    "base": "exercises/seated_one_arm_cable_pulley_rows.md",
+    "lenses": {}
+  },
+  "seated_one_arm_dumbbell_palms_down_wrist_curl": {
+    "base": "exercises/seated_one_arm_dumbbell_palms_down_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_one_arm_dumbbell_palms_up_wrist_curl": {
+    "base": "exercises/seated_one_arm_dumbbell_palms_up_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_palm_up_barbell_wrist_curl": {
+    "base": "exercises/seated_palm_up_barbell_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_palms_down_barbell_wrist_curl": {
+    "base": "exercises/seated_palms_down_barbell_wrist_curl.md",
+    "lenses": {}
+  },
+  "seated_side_lateral_raise": {
+    "base": "exercises/seated_side_lateral_raise.md",
+    "lenses": {}
+  },
+  "seated_triceps_press": {
+    "base": "exercises/seated_triceps_press.md",
+    "lenses": {}
+  },
+  "seated_two_arm_palms_up_low_pulley_wrist_curl": {
+    "base": "exercises/seated_two_arm_palms_up_low_pulley_wrist_curl.md",
+    "lenses": {}
+  },
+  "see_saw_press_alternating_side_press": {
+    "base": "exercises/see_saw_press_alternating_side_press.md",
+    "lenses": {}
+  },
+  "shotgun_row": {
+    "base": "exercises/shotgun_row.md",
+    "lenses": {}
+  },
+  "shoulder_press_with_bands": {
+    "base": "exercises/shoulder_press_with_bands.md",
+    "lenses": {}
+  },
+  "side_bridge": {
+    "base": "exercises/side_bridge.md",
+    "lenses": {}
+  },
+  "side_jackknife": {
+    "base": "exercises/side_jackknife.md",
+    "lenses": {}
+  },
+  "side_lateral_raise": {
+    "base": "exercises/side_lateral_raise.md",
+    "lenses": {}
+  },
+  "side_laterals_to_front_raise": {
+    "base": "exercises/side_laterals_to_front_raise.md",
+    "lenses": {}
+  },
+  "side_to_side_chins": {
+    "base": "exercises/side_to_side_chins.md",
+    "lenses": {}
+  },
+  "single_arm_cable_crossover": {
+    "base": "exercises/single_arm_cable_crossover.md",
+    "lenses": {}
+  },
+  "single_arm_linear_jammer": {
+    "base": "exercises/single_arm_linear_jammer.md",
+    "lenses": {}
+  },
+  "single_arm_push_up": {
+    "base": "exercises/single_arm_push_up.md",
+    "lenses": {}
+  },
+  "single_dumbbell_raise": {
+    "base": "exercises/single_dumbbell_raise.md",
+    "lenses": {}
+  },
+  "single_leg_glute_bridge": {
+    "base": "exercises/single_leg_glute_bridge.md",
+    "lenses": {}
+  },
+  "single_leg_high_box_squat": {
+    "base": "exercises/single_leg_high_box_squat.md",
+    "lenses": {}
+  },
+  "single_leg_leg_extension": {
+    "base": "exercises/single_leg_leg_extension.md",
+    "lenses": {}
+  },
+  "sit_up": {
+    "base": "exercises/sit_up.md",
+    "lenses": {}
+  },
+  "sled_drag_harness": {
+    "base": "exercises/sled_drag_harness.md",
+    "lenses": {}
+  },
+  "sled_overhead_backward_walk": {
+    "base": "exercises/sled_overhead_backward_walk.md",
+    "lenses": {}
+  },
+  "sled_overhead_triceps_extension": {
+    "base": "exercises/sled_overhead_triceps_extension.md",
+    "lenses": {}
+  },
+  "sled_push": {
+    "base": "exercises/sled_push.md",
+    "lenses": {}
+  },
+  "sled_reverse_flye": {
+    "base": "exercises/sled_reverse_flye.md",
+    "lenses": {}
+  },
+  "sled_row": {
+    "base": "exercises/sled_row.md",
+    "lenses": {}
+  },
+  "smith_incline_shoulder_raise": {
+    "base": "exercises/smith_incline_shoulder_raise.md",
+    "lenses": {}
+  },
+  "smith_machine_behind_the_back_shrug": {
+    "base": "exercises/smith_machine_behind_the_back_shrug.md",
+    "lenses": {}
+  },
+  "smith_machine_bench_press": {
+    "base": "exercises/smith_machine_bench_press.md",
+    "lenses": {}
+  },
+  "smith_machine_bent_over_row": {
+    "base": "exercises/smith_machine_bent_over_row.md",
+    "lenses": {}
+  },
+  "smith_machine_calf_raise": {
+    "base": "exercises/smith_machine_calf_raise.md",
+    "lenses": {}
+  },
+  "smith_machine_close_grip_bench_press": {
+    "base": "exercises/smith_machine_close_grip_bench_press.md",
+    "lenses": {}
+  },
+  "smith_machine_decline_press": {
+    "base": "exercises/smith_machine_decline_press.md",
+    "lenses": {}
+  },
+  "smith_machine_hang_power_clean": {
+    "base": "exercises/smith_machine_hang_power_clean.md",
+    "lenses": {}
+  },
+  "smith_machine_hip_raise": {
+    "base": "exercises/smith_machine_hip_raise.md",
+    "lenses": {}
+  },
+  "smith_machine_incline_bench_press": {
+    "base": "exercises/smith_machine_incline_bench_press.md",
+    "lenses": {}
+  },
+  "smith_machine_leg_press": {
+    "base": "exercises/smith_machine_leg_press.md",
+    "lenses": {}
+  },
+  "smith_machine_one_arm_upright_row": {
+    "base": "exercises/smith_machine_one_arm_upright_row.md",
+    "lenses": {}
+  },
+  "smith_machine_overhead_shoulder_press": {
+    "base": "exercises/smith_machine_overhead_shoulder_press.md",
+    "lenses": {}
+  },
+  "smith_machine_pistol_squat": {
+    "base": "exercises/smith_machine_pistol_squat.md",
+    "lenses": {}
+  },
+  "smith_machine_reverse_calf_raises": {
+    "base": "exercises/smith_machine_reverse_calf_raises.md",
+    "lenses": {}
+  },
+  "smith_machine_squat": {
+    "base": "exercises/smith_machine_squat.md",
+    "lenses": {}
+  },
+  "smith_machine_stiff_legged_deadlift": {
+    "base": "exercises/smith_machine_stiff_legged_deadlift.md",
+    "lenses": {}
+  },
+  "smith_machine_upright_row": {
+    "base": "exercises/smith_machine_upright_row.md",
+    "lenses": {}
+  },
+  "smith_single_leg_split_squat": {
+    "base": "exercises/smith_single_leg_split_squat.md",
+    "lenses": {}
+  },
+  "snatch": {
+    "base": "exercises/snatch.md",
+    "lenses": {}
+  },
+  "snatch_balance": {
+    "base": "exercises/snatch_balance.md",
+    "lenses": {}
+  },
+  "snatch_deadlift": {
+    "base": "exercises/snatch_deadlift.md",
+    "lenses": {}
+  },
+  "snatch_from_blocks": {
+    "base": "exercises/snatch_from_blocks.md",
+    "lenses": {}
+  },
+  "snatch_pull": {
+    "base": "exercises/snatch_pull.md",
+    "lenses": {}
+  },
+  "snatch_shrug": {
+    "base": "exercises/snatch_shrug.md",
+    "lenses": {}
+  },
+  "speed_band_overhead_triceps": {
+    "base": "exercises/speed_band_overhead_triceps.md",
+    "lenses": {}
+  },
+  "speed_box_squat": {
+    "base": "exercises/speed_box_squat.md",
+    "lenses": {}
+  },
+  "speed_squats": {
+    "base": "exercises/speed_squats.md",
+    "lenses": {}
+  },
+  "spell_caster": {
+    "base": "exercises/spell_caster.md",
+    "lenses": {}
+  },
+  "spider_crawl": {
+    "base": "exercises/spider_crawl.md",
+    "lenses": {}
+  },
+  "spider_curl": {
+    "base": "exercises/spider_curl.md",
+    "lenses": {}
+  },
+  "split_clean": {
+    "base": "exercises/split_clean.md",
+    "lenses": {}
+  },
+  "split_jerk": {
+    "base": "exercises/split_jerk.md",
+    "lenses": {}
+  },
+  "split_snatch": {
+    "base": "exercises/split_snatch.md",
+    "lenses": {}
+  },
+  "split_squat_with_dumbbells": {
+    "base": "exercises/split_squat_with_dumbbells.md",
+    "lenses": {}
+  },
+  "squat_jerk": {
+    "base": "exercises/squat_jerk.md",
+    "lenses": {}
+  },
+  "squat_with_bands": {
+    "base": "exercises/squat_with_bands.md",
+    "lenses": {}
+  },
+  "squat_with_chains": {
+    "base": "exercises/squat_with_chains.md",
+    "lenses": {}
+  },
+  "squat_with_plate_movers": {
+    "base": "exercises/squat_with_plate_movers.md",
+    "lenses": {}
+  },
+  "squats_with_bands": {
+    "base": "exercises/squats_with_bands.md",
+    "lenses": {}
+  },
+  "standing_alternating_dumbbell_press": {
+    "base": "exercises/standing_alternating_dumbbell_press.md",
+    "lenses": {}
+  },
+  "standing_barbell_calf_raise": {
+    "base": "exercises/standing_barbell_calf_raise.md",
+    "lenses": {}
+  },
+  "standing_barbell_press_behind_neck": {
+    "base": "exercises/standing_barbell_press_behind_neck.md",
+    "lenses": {}
+  },
+  "standing_bent_over_one_arm_dumbbell_triceps_extension": {
+    "base": "exercises/standing_bent_over_one_arm_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_bent_over_two_arm_dumbbell_triceps_extension": {
+    "base": "exercises/standing_bent_over_two_arm_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_biceps_cable_curl": {
+    "base": "exercises/standing_biceps_cable_curl.md",
+    "lenses": {}
+  },
+  "standing_bradford_press": {
+    "base": "exercises/standing_bradford_press.md",
+    "lenses": {}
+  },
+  "standing_cable_chest_press": {
+    "base": "exercises/standing_cable_chest_press.md",
+    "lenses": {}
+  },
+  "standing_cable_lift": {
+    "base": "exercises/standing_cable_lift.md",
+    "lenses": {}
+  },
+  "standing_cable_wood_chop": {
+    "base": "exercises/standing_cable_wood_chop.md",
+    "lenses": {}
+  },
+  "standing_calf_raises": {
+    "base": "exercises/standing_calf_raises.md",
+    "lenses": {}
+  },
+  "standing_concentration_curl": {
+    "base": "exercises/standing_concentration_curl.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_calf_raise": {
+    "base": "exercises/standing_dumbbell_calf_raise.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_press": {
+    "base": "exercises/standing_dumbbell_press.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_reverse_curl": {
+    "base": "exercises/standing_dumbbell_reverse_curl.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_straight_arm_front_delt_raise_above_head": {
+    "base": "exercises/standing_dumbbell_straight_arm_front_delt_raise_above_head.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_triceps_extension": {
+    "base": "exercises/standing_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_dumbbell_upright_row": {
+    "base": "exercises/standing_dumbbell_upright_row.md",
+    "lenses": {}
+  },
+  "standing_front_barbell_raise_over_head": {
+    "base": "exercises/standing_front_barbell_raise_over_head.md",
+    "lenses": {}
+  },
+  "standing_inner_biceps_curl": {
+    "base": "exercises/standing_inner_biceps_curl.md",
+    "lenses": {}
+  },
+  "standing_leg_curl": {
+    "base": "exercises/standing_leg_curl.md",
+    "lenses": {}
+  },
+  "standing_low_pulley_deltoid_raise": {
+    "base": "exercises/standing_low_pulley_deltoid_raise.md",
+    "lenses": {}
+  },
+  "standing_low_pulley_one_arm_triceps_extension": {
+    "base": "exercises/standing_low_pulley_one_arm_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_military_press": {
+    "base": "exercises/standing_military_press.md",
+    "lenses": {}
+  },
+  "standing_olympic_plate_hand_squeeze": {
+    "base": "exercises/standing_olympic_plate_hand_squeeze.md",
+    "lenses": {}
+  },
+  "standing_one_arm_cable_curl": {
+    "base": "exercises/standing_one_arm_cable_curl.md",
+    "lenses": {}
+  },
+  "standing_one_arm_dumbbell_curl_over_incline_bench": {
+    "base": "exercises/standing_one_arm_dumbbell_curl_over_incline_bench.md",
+    "lenses": {}
+  },
+  "standing_one_arm_dumbbell_triceps_extension": {
+    "base": "exercises/standing_one_arm_dumbbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_overhead_barbell_triceps_extension": {
+    "base": "exercises/standing_overhead_barbell_triceps_extension.md",
+    "lenses": {}
+  },
+  "standing_palm_in_one_arm_dumbbell_press": {
+    "base": "exercises/standing_palm_in_one_arm_dumbbell_press.md",
+    "lenses": {}
+  },
+  "standing_palms_in_dumbbell_press": {
+    "base": "exercises/standing_palms_in_dumbbell_press.md",
+    "lenses": {}
+  },
+  "standing_palms_up_barbell_behind_the_back_wrist_curl": {
+    "base": "exercises/standing_palms_up_barbell_behind_the_back_wrist_curl.md",
+    "lenses": {}
+  },
+  "standing_rope_crunch": {
+    "base": "exercises/standing_rope_crunch.md",
+    "lenses": {}
+  },
+  "standing_towel_triceps_extension": {
+    "base": "exercises/standing_towel_triceps_extension.md",
+    "lenses": {}
+  },
+  "step_up_with_knee_raise": {
+    "base": "exercises/step_up_with_knee_raise.md",
+    "lenses": {}
+  },
+  "stiff_leg_barbell_good_morning": {
+    "base": "exercises/stiff_leg_barbell_good_morning.md",
+    "lenses": {}
+  },
+  "stiff_legged_barbell_deadlift": {
+    "base": "exercises/stiff_legged_barbell_deadlift.md",
+    "lenses": {}
+  },
+  "stiff_legged_dumbbell_deadlift": {
+    "base": "exercises/stiff_legged_dumbbell_deadlift.md",
+    "lenses": {}
+  },
+  "straight_arm_dumbbell_pullover": {
+    "base": "exercises/straight_arm_dumbbell_pullover.md",
+    "lenses": {}
+  },
+  "straight_arm_pulldown": {
+    "base": "exercises/straight_arm_pulldown.md",
+    "lenses": {}
+  },
+  "straight_bar_bench_mid_rows": {
+    "base": "exercises/straight_bar_bench_mid_rows.md",
+    "lenses": {}
+  },
+  "straight_raises_on_incline_bench": {
+    "base": "exercises/straight_raises_on_incline_bench.md",
+    "lenses": {}
+  },
+  "sumo_deadlift": {
+    "base": "exercises/sumo_deadlift.md",
+    "lenses": {}
+  },
+  "sumo_deadlift_with_bands": {
+    "base": "exercises/sumo_deadlift_with_bands.md",
+    "lenses": {}
+  },
+  "sumo_deadlift_with_chains": {
+    "base": "exercises/sumo_deadlift_with_chains.md",
+    "lenses": {}
+  },
+  "suspended_fallout": {
+    "base": "exercises/suspended_fallout.md",
+    "lenses": {}
+  },
+  "suspended_push_up": {
+    "base": "exercises/suspended_push_up.md",
+    "lenses": {}
+  },
+  "suspended_reverse_crunch": {
+    "base": "exercises/suspended_reverse_crunch.md",
+    "lenses": {}
+  },
+  "suspended_row": {
+    "base": "exercises/suspended_row.md",
+    "lenses": {}
+  },
+  "suspended_split_squat": {
+    "base": "exercises/suspended_split_squat.md",
+    "lenses": {}
+  },
+  "svend_press": {
+    "base": "exercises/svend_press.md",
+    "lenses": {}
+  },
+  "t_bar_row_with_handle": {
+    "base": "exercises/t_bar_row_with_handle.md",
+    "lenses": {}
+  },
+  "tate_press": {
+    "base": "exercises/tate_press.md",
+    "lenses": {}
+  },
+  "thigh_abductor": {
+    "base": "exercises/thigh_abductor.md",
+    "lenses": {}
+  },
+  "thigh_adductor": {
+    "base": "exercises/thigh_adductor.md",
+    "lenses": {}
+  },
+  "tire_flip": {
+    "base": "exercises/tire_flip.md",
+    "lenses": {}
+  },
+  "trap_bar_deadlift": {
+    "base": "exercises/trap_bar_deadlift.md",
+    "lenses": {}
+  },
+  "tricep_dumbbell_kickback": {
+    "base": "exercises/tricep_dumbbell_kickback.md",
+    "lenses": {}
+  },
+  "triceps_overhead_extension_with_rope": {
+    "base": "exercises/triceps_overhead_extension_with_rope.md",
+    "lenses": {}
+  },
+  "triceps_pushdown": {
+    "base": "exercises/triceps_pushdown.md",
+    "lenses": {}
+  },
+  "triceps_pushdown_rope_attachment": {
+    "base": "exercises/triceps_pushdown_rope_attachment.md",
+    "lenses": {}
+  },
+  "triceps_pushdown_v_bar_attachment": {
+    "base": "exercises/triceps_pushdown_v_bar_attachment.md",
+    "lenses": {}
+  },
+  "tuck_crunch": {
+    "base": "exercises/tuck_crunch.md",
+    "lenses": {}
+  },
+  "two_arm_dumbbell_preacher_curl": {
+    "base": "exercises/two_arm_dumbbell_preacher_curl.md",
+    "lenses": {}
+  },
+  "two_arm_kettlebell_clean": {
+    "base": "exercises/two_arm_kettlebell_clean.md",
+    "lenses": {}
+  },
+  "two_arm_kettlebell_jerk": {
+    "base": "exercises/two_arm_kettlebell_jerk.md",
+    "lenses": {}
+  },
+  "two_arm_kettlebell_military_press": {
+    "base": "exercises/two_arm_kettlebell_military_press.md",
+    "lenses": {}
+  },
+  "two_arm_kettlebell_row": {
+    "base": "exercises/two_arm_kettlebell_row.md",
+    "lenses": {}
+  },
+  "underhand_cable_pulldowns": {
+    "base": "exercises/underhand_cable_pulldowns.md",
+    "lenses": {}
+  },
+  "upright_barbell_row": {
+    "base": "exercises/upright_barbell_row.md",
+    "lenses": {}
+  },
+  "upright_cable_row": {
+    "base": "exercises/upright_cable_row.md",
+    "lenses": {}
+  },
+  "upright_row_with_bands": {
+    "base": "exercises/upright_row_with_bands.md",
+    "lenses": {}
+  },
+  "v_bar_pulldown": {
+    "base": "exercises/v_bar_pulldown.md",
+    "lenses": {}
+  },
+  "v_bar_pullup": {
+    "base": "exercises/v_bar_pullup.md",
+    "lenses": {}
+  },
+  "weighted_ball_hyperextension": {
+    "base": "exercises/weighted_ball_hyperextension.md",
+    "lenses": {}
+  },
+  "weighted_ball_side_bend": {
+    "base": "exercises/weighted_ball_side_bend.md",
+    "lenses": {}
+  },
+  "weighted_bench_dip": {
+    "base": "exercises/weighted_bench_dip.md",
+    "lenses": {}
+  },
+  "weighted_crunches": {
+    "base": "exercises/weighted_crunches.md",
+    "lenses": {}
+  },
+  "weighted_jump_squat": {
+    "base": "exercises/weighted_jump_squat.md",
+    "lenses": {}
+  },
+  "weighted_pull_ups": {
+    "base": "exercises/weighted_pull_ups.md",
+    "lenses": {}
+  },
+  "weighted_sissy_squat": {
+    "base": "exercises/weighted_sissy_squat.md",
+    "lenses": {}
+  },
+  "weighted_sit_ups_with_bands": {
+    "base": "exercises/weighted_sit_ups_with_bands.md",
+    "lenses": {}
+  },
+  "weighted_squat": {
+    "base": "exercises/weighted_squat.md",
+    "lenses": {}
+  },
+  "wide_grip_barbell_bench_press": {
+    "base": "exercises/wide_grip_barbell_bench_press.md",
+    "lenses": {}
+  },
+  "wide_grip_decline_barbell_bench_press": {
+    "base": "exercises/wide_grip_decline_barbell_bench_press.md",
+    "lenses": {}
+  },
+  "wide_grip_decline_barbell_pullover": {
+    "base": "exercises/wide_grip_decline_barbell_pullover.md",
+    "lenses": {}
+  },
+  "wide_grip_lat_pulldown": {
+    "base": "exercises/wide_grip_lat_pulldown.md",
+    "lenses": {}
+  },
+  "wide_grip_pulldown_behind_the_neck": {
+    "base": "exercises/wide_grip_pulldown_behind_the_neck.md",
+    "lenses": {}
+  },
+  "wide_grip_rear_pull_up": {
+    "base": "exercises/wide_grip_rear_pull_up.md",
+    "lenses": {}
+  },
+  "wide_grip_standing_barbell_curl": {
+    "base": "exercises/wide_grip_standing_barbell_curl.md",
+    "lenses": {}
+  },
+  "wide_stance_barbell_squat": {
+    "base": "exercises/wide_stance_barbell_squat.md",
+    "lenses": {}
+  },
+  "wide_stance_stiff_legs": {
+    "base": "exercises/wide_stance_stiff_legs.md",
+    "lenses": {}
+  },
+  "wind_sprints": {
+    "base": "exercises/wind_sprints.md",
+    "lenses": {}
+  },
+  "wrist_roller": {
+    "base": "exercises/wrist_roller.md",
+    "lenses": {}
+  },
+  "wrist_rotations_with_straight_bar": {
+    "base": "exercises/wrist_rotations_with_straight_bar.md",
+    "lenses": {}
+  },
+  "yoke_walk": {
+    "base": "exercises/yoke_walk.md",
+    "lenses": {}
+  },
+  "zercher_squats": {
+    "base": "exercises/zercher_squats.md",
+    "lenses": {}
+  },
+  "zottman_curl": {
+    "base": "exercises/zottman_curl.md",
+    "lenses": {}
+  },
+  "zottman_preacher_curl": {
+    "base": "exercises/zottman_preacher_curl.md",
+    "lenses": {}
   }
 }

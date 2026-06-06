@@ -1,0 +1,16 @@
+{
+  "531": {
+    "exercise_refs": [
+      "back_squat",
+      "bench_press",
+      "overhead_press",
+      "conventional_deadlift"
+    ],
+    "id": 531,
+    "level": "intermediate",
+    "name": "5/3/1",
+    "path": "programs/powerlifting/5_3_1.md",
+    "periodization": "linear",
+    "system": "powerlifting"
+  }
+}

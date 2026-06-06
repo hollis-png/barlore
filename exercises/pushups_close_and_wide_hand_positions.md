@@ -1,0 +1,49 @@
+---
+id: pushups_close_and_wide_hand_positions
+name: Pushups (Close and Wide Hand Positions)
+status: stub
+source: free-exercise-db
+category: exercise
+pattern:
+- horizontal press
+equipment:
+- body only
+difficulty:
+  technical_complexity: null
+  strength_prerequisite: null
+  mobility_prerequisite: null
+muscles:
+- id: pectoralis_major
+  role: primary
+- id: deltoid
+  role: secondary
+- id: triceps_brachii
+  role: secondary
+variations: []
+progressions: []
+alternatives: []
+sources:
+- title: free-exercise-db
+  author: yuhonas (Public Domain)
+  credibility: anecdotal
+---
+
+# Pushups (Close and Wide Hand Positions)
+
+## Execution
+
+1. Lie on the floor face down and body straight with your toes on the floor and the hands
+   wider than shoulder width for a wide hand position and closer than shoulder width for
+   a close hand position. Make sure you are holding your torso up at arms length.
+2. Lower yourself until your chest almost touches the floor as you inhale.
+3. Using your pectoral muscles, press your upper body back up to the starting position and
+   squeeze your chest. Breathe out as you perform this step.
+4. After a second pause at the contracted position, repeat the movement for the prescribed
+   amount of repetitions.
+
+## Notes
+
+> ⚠️ This is a stub entry imported from free-exercise-db.
+> Fields marked `null` need human review.
+> Add EMG data, ROM requirements, relations, and lens entries before
+> changing `status` to `partial` or `complete`.

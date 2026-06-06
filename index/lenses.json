@@ -5,9 +5,7 @@
     "id": "bb_back_squat",
     "lens_type": "hypertrophy",
     "path": "systems/bodybuilding/lenses/back_squat.md",
-    "related_programs": [
-      "ppl_intermediate"
-    ],
+    "related_programs": [],
     "system": "bodybuilding"
   },
   {
@@ -17,8 +15,7 @@
     "lens_type": "technique",
     "path": "systems/powerlifting/lenses/back_squat.md",
     "related_programs": [
-      531,
-      "conjugate"
+      531
     ],
     "system": "powerlifting"
   }

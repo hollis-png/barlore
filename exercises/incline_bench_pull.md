@@ -1,0 +1,56 @@
+---
+id: incline_bench_pull
+name: Incline Bench Pull
+status: stub
+source: free-exercise-db
+category: exercise
+pattern:
+- vertical pull
+equipment:
+- barbell
+difficulty:
+  technical_complexity: null
+  strength_prerequisite: null
+  mobility_prerequisite: null
+muscles:
+- id: rhomboids
+  role: primary
+- id: trapezius
+  role: primary
+- id: latissimus_dorsi
+  role: secondary
+- id: deltoid
+  role: secondary
+variations: []
+progressions: []
+alternatives: []
+sources:
+- title: free-exercise-db
+  author: yuhonas (Public Domain)
+  credibility: anecdotal
+---
+
+# Incline Bench Pull
+
+## Execution
+
+1. Grab a dumbbell in each hand and lie face down on an incline bench that is set to an
+   incline that is approximately 30 degrees.
+2. Let the arms hang to your sides fully extended as they point to the floor.
+3. Turn the wrists until your hands have a pronated (palms down) grip.
+4. Now flare the elbows out. This will be your starting position.
+5. As you breathe out, start to pull the dumbbells up as if you are doing a reverse bench
+   press. You will do this by bending at the elbows and bringing the upper arms up as
+   you let the forearms hang. Continue this motion until the upper arms are at the same
+   level as your back. Tip: The elbows will come out to the side and your upper arms and
+   torso should make the letter "T" at the top of the movement. Hold the contraction at
+   the top for a second.
+6. Slowly go back down to the starting position as you breathe in.
+7. Repeat for the recommended amount of repetitions.
+
+## Notes
+
+> ⚠️ This is a stub entry imported from free-exercise-db.
+> Fields marked `null` need human review.
+> Add EMG data, ROM requirements, relations, and lens entries before
+> changing `status` to `partial` or `complete`.

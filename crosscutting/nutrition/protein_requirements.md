@@ -3,7 +3,7 @@ id: protein_requirements
 name: Protein Requirements
 category: nutrition
 applies_to: [all_systems]
-related: [caloric_surplus]
+related: []
 sources:
   - title: "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains"
     author: "Morton et al."

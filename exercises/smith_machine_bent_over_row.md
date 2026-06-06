@@ -1,0 +1,59 @@
+---
+id: smith_machine_bent_over_row
+name: Smith Machine Bent Over Row
+status: stub
+source: free-exercise-db
+category: exercise
+pattern:
+- horizontal pull
+equipment:
+- machine
+difficulty:
+  technical_complexity: null
+  strength_prerequisite: null
+  mobility_prerequisite: null
+muscles:
+- id: rhomboids
+  role: primary
+- id: trapezius
+  role: primary
+- id: biceps_brachii
+  role: secondary
+- id: latissimus_dorsi
+  role: secondary
+- id: deltoid
+  role: secondary
+variations: []
+progressions: []
+alternatives: []
+sources:
+- title: free-exercise-db
+  author: yuhonas (Public Domain)
+  credibility: anecdotal
+---
+
+# Smith Machine Bent Over Row
+
+## Execution
+
+1. Set the barbell attached to the smith machine to a height that is about 2 inches below
+   your knees.
+2. Bend your knees slightly and bring your torso forward, by bending at the waist, while
+   keeping the back straight until it is almost parallel to the floor. Tip: Make sure
+   that you keep the head up.
+3. Now grasp the barbell using an overhand (pronated) grip and unlock it from the smith
+   machine rack. Then let it hang directly in front of you as your arms hang extended
+   perpendicular to the floor and your torso. This is your starting position.
+4. While keeping the torso stationary, lift the barbell as you breathe out, keeping the
+   elbows close to the body and not doing any force with the forearm other than holding
+   the weights. On the top contracted position, squeeze the back muscles and hold for a
+   second.
+5. Slowly lower the weight again to the starting position as you inhale.
+6. Repeat for the recommended amount of repetitions.
+
+## Notes
+
+> ⚠️ This is a stub entry imported from free-exercise-db.
+> Fields marked `null` need human review.
+> Add EMG data, ROM requirements, relations, and lens entries before
+> changing `status` to `partial` or `complete`.

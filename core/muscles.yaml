@@ -1,0 +1,173 @@
+# Muscle Hierarchy
+#
+# Canonical muscle ids and their parent groups.
+# All ids used in exercises[].muscles[].id and
+# muscle_activation_studies[].measurements[].muscle must appear here.
+#
+# Structure:
+#   <group_id>:
+#     name: display name
+#     children:            # individual muscles in this group
+#       <muscle_id>:
+#         name: display name
+#         heads:           # optional sub-heads / portions
+#           <head_id>: display name
+#
+# Query semantics (enforced by build_index.py):
+#   - Querying a group_id returns all exercises that contain ANY child
+#   - Querying a muscle_id returns only exact matches
+#   - Querying a head_id returns only exercises that specify that head
+
+quadriceps:
+  name: Quadriceps
+  children:
+    rectus_femoris:
+      name: Rectus Femoris
+    vastus_lateralis:
+      name: Vastus Lateralis
+    vastus_medialis:
+      name: Vastus Medialis
+    vastus_intermedius:
+      name: Vastus Intermedius
+
+hamstrings:
+  name: Hamstrings
+  children:
+    biceps_femoris:
+      name: Biceps Femoris
+      heads:
+        biceps_femoris_long:  Long Head
+        biceps_femoris_short: Short Head
+    semitendinosus:
+      name: Semitendinosus
+    semimembranosus:
+      name: Semimembranosus
+
+glutes:
+  name: Glutes
+  children:
+    gluteus_maximus:
+      name: Gluteus Maximus
+    gluteus_medius:
+      name: Gluteus Medius
+    gluteus_minimus:
+      name: Gluteus Minimus
+
+hip_flexors:
+  name: Hip Flexors
+  children:
+    iliopsoas:
+      name: Iliopsoas
+      heads:
+        iliacus:  Iliacus
+        psoas:    Psoas Major
+    tensor_fasciae_latae:
+      name: Tensor Fasciae Latae
+
+adductors:
+  name: Hip Adductors
+  children:
+    adductor_magnus:
+      name: Adductor Magnus
+    adductor_longus:
+      name: Adductor Longus
+    adductor_brevis:
+      name: Adductor Brevis
+    gracilis:
+      name: Gracilis
+
+calves:
+  name: Calves
+  children:
+    gastrocnemius:
+      name: Gastrocnemius
+      heads:
+        gastrocnemius_medial:  Medial Head
+        gastrocnemius_lateral: Lateral Head
+    soleus:
+      name: Soleus
+
+chest:
+  name: Chest
+  children:
+    pectoralis_major:
+      name: Pectoralis Major
+      heads:
+        pec_major_clavicular:  Clavicular Head (Upper)
+        pec_major_sternal:     Sternal Head (Lower)
+    pectoralis_minor:
+      name: Pectoralis Minor
+
+back:
+  name: Back
+  children:
+    latissimus_dorsi:
+      name: Latissimus Dorsi
+    teres_major:
+      name: Teres Major
+    rhomboids:
+      name: Rhomboids
+    trapezius:
+      name: Trapezius
+      heads:
+        trap_upper:  Upper Trapezius
+        trap_middle: Middle Trapezius
+        trap_lower:  Lower Trapezius
+    erector_spinae:
+      name: Erector Spinae
+    multifidus:
+      name: Multifidus
+
+shoulders:
+  name: Shoulders
+  children:
+    deltoid:
+      name: Deltoid
+      heads:
+        deltoid_anterior:  Anterior Deltoid
+        deltoid_lateral:   Lateral Deltoid
+        deltoid_posterior: Posterior Deltoid
+    rotator_cuff:
+      name: Rotator Cuff
+      heads:
+        supraspinatus:   Supraspinatus
+        infraspinatus:   Infraspinatus
+        teres_minor:     Teres Minor
+        subscapularis:   Subscapularis
+
+arms:
+  name: Arms
+  children:
+    biceps_brachii:
+      name: Biceps Brachii
+      heads:
+        biceps_long_head:  Long Head
+        biceps_short_head: Short Head
+    brachialis:
+      name: Brachialis
+    brachioradialis:
+      name: Brachioradialis
+    triceps_brachii:
+      name: Triceps Brachii
+      heads:
+        triceps_long:    Long Head
+        triceps_medial:  Medial Head
+        triceps_lateral: Lateral Head
+    forearm_flexors:
+      name: Forearm Flexors
+    forearm_extensors:
+      name: Forearm Extensors
+
+core:
+  name: Core
+  children:
+    rectus_abdominis:
+      name: Rectus Abdominis
+    transverse_abdominis:
+      name: Transverse Abdominis
+    obliques:
+      name: Obliques
+      heads:
+        internal_oblique:  Internal Oblique
+        external_oblique:  External Oblique
+    # erector_spinae and multifidus also serve core roles but live under 'back'

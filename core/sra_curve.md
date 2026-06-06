@@ -4,7 +4,7 @@ name: SRA Curve
 aliases: [Stimulus-Recovery-Adaptation]
 category: principle
 applies_to: [all_systems]
-related: [progressive_overload, periodization, deload_protocols]
+related: [progressive_overload, periodization]
 sources:
   - title: "Scientific Principles of Strength Training"
     author: "Israetel, Hoffmann, Smith"
