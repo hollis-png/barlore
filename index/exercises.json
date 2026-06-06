@@ -1,0 +1,28 @@
+{
+  "back_squat": {
+    "aliases": [
+      "High Bar Squat",
+      "Low Bar Squat"
+    ],
+    "difficulty": "intermediate",
+    "equipment": [
+      "barbell",
+      "squat rack"
+    ],
+    "id": "back_squat",
+    "muscles_primary": [
+      "quadriceps",
+      "glutes"
+    ],
+    "muscles_secondary": [
+      "hamstrings",
+      "erector spinae",
+      "core"
+    ],
+    "name": "Back Squat",
+    "path": "exercises/back_squat.md",
+    "pattern": [
+      "squat"
+    ]
+  }
+}

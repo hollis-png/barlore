@@ -1,0 +1,9 @@
+{
+  "back_squat": {
+    "base": "exercises/back_squat.md",
+    "lenses": {
+      "bodybuilding": "systems/bodybuilding/lenses/back_squat.md",
+      "powerlifting": "systems/powerlifting/lenses/back_squat.md"
+    }
+  }
+}

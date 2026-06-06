@@ -1,0 +1,25 @@
+[
+  {
+    "competition_relevant": false,
+    "exercise_ref": "back_squat",
+    "id": "bb_back_squat",
+    "lens_type": "hypertrophy",
+    "path": "systems/bodybuilding/lenses/back_squat.md",
+    "related_programs": [
+      "ppl_intermediate"
+    ],
+    "system": "bodybuilding"
+  },
+  {
+    "competition_relevant": true,
+    "exercise_ref": "back_squat",
+    "id": "pl_back_squat",
+    "lens_type": "technique",
+    "path": "systems/powerlifting/lenses/back_squat.md",
+    "related_programs": [
+      531,
+      "conjugate"
+    ],
+    "system": "powerlifting"
+  }
+]
