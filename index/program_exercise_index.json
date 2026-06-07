@@ -1,17 +1,32 @@
 {
   "back_squat": [
     "5_3_1",
+    "basic_strongman_block",
     "catalyst_12_week",
+    "crossfit_foundations",
+    "gzclp",
+    "phul",
+    "push_pull_legs",
     "rp_hypertrophy",
-    "starting_strength"
+    "starting_strength",
+    "texas_method"
   ],
   "bench_press": [
     "5_3_1",
+    "gzclp",
+    "phul",
+    "push_pull_legs",
     "rp_hypertrophy",
-    "starting_strength"
+    "starting_strength",
+    "texas_method"
   ],
   "bench_press_with_bands": [
     "westside_conjugate"
+  ],
+  "bent_over_barbell_row": [
+    "basic_strongman_block",
+    "phul",
+    "push_pull_legs"
   ],
   "board_press": [
     "westside_conjugate"
@@ -30,14 +45,20 @@
   ],
   "conventional_deadlift": [
     "5_3_1",
+    "basic_strongman_block",
+    "crossfit_foundations",
+    "gzclp",
+    "phul",
     "starting_strength",
+    "texas_method",
     "westside_conjugate"
   ],
   "floor_press": [
     "westside_conjugate"
   ],
   "front_squat": [
-    "catalyst_12_week"
+    "catalyst_12_week",
+    "crossfit_foundations"
   ],
   "goblet_squat": [
     "bwf_recommended_routine"
@@ -46,12 +67,21 @@
     "catalyst_12_week",
     "westside_conjugate"
   ],
+  "incline_dumbbell_press": [
+    "phul"
+  ],
   "inverted_row": [
     "bwf_recommended_routine"
   ],
   "overhead_press": [
     "5_3_1",
-    "starting_strength"
+    "basic_strongman_block",
+    "crossfit_foundations",
+    "gzclp",
+    "phul",
+    "push_pull_legs",
+    "starting_strength",
+    "texas_method"
   ],
   "overhead_squat": [
     "catalyst_12_week"
@@ -77,6 +107,10 @@
   ],
   "pullups": [
     "bwf_recommended_routine",
+    "crossfit_foundations",
+    "gzclp",
+    "phul",
+    "push_pull_legs",
     "rp_hypertrophy"
   ],
   "push_press": [
@@ -93,6 +127,8 @@
   ],
   "romanian_deadlift": [
     "bwf_recommended_routine",
+    "phul",
+    "push_pull_legs",
     "rp_hypertrophy"
   ],
   "scapular_pull_up": [

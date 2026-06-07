@@ -205,12 +205,18 @@
       "has_strength_curve": true,
       "in_programs": [
         "5_3_1",
+        "basic_strongman_block",
         "catalyst_12_week",
+        "crossfit_foundations",
+        "gzclp",
+        "phul",
+        "push_pull_legs",
         "rp_hypertrophy",
-        "starting_strength"
+        "starting_strength",
+        "texas_method"
       ],
       "muscle_count": 8,
-      "program_count": 4,
+      "program_count": 10,
       "status": "complete"
     },
     "backward_drag": {
@@ -561,11 +567,15 @@
       "has_strength_curve": true,
       "in_programs": [
         "5_3_1",
+        "gzclp",
+        "phul",
+        "push_pull_legs",
         "rp_hypertrophy",
-        "starting_strength"
+        "starting_strength",
+        "texas_method"
       ],
       "muscle_count": 3,
-      "program_count": 3,
+      "program_count": 7,
       "status": "complete"
     },
     "bench_press_powerlifting": {
@@ -628,9 +638,13 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "basic_strongman_block",
+        "phul",
+        "push_pull_legs"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 3,
       "status": "stub"
     },
     "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": {
@@ -1360,11 +1374,16 @@
       "has_strength_curve": true,
       "in_programs": [
         "5_3_1",
+        "basic_strongman_block",
+        "crossfit_foundations",
+        "gzclp",
+        "phul",
         "starting_strength",
+        "texas_method",
         "westside_conjugate"
       ],
       "muscle_count": 10,
-      "program_count": 3,
+      "program_count": 8,
       "status": "complete"
     },
     "cross_body_crunch": {
@@ -2238,10 +2257,11 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "catalyst_12_week",
+        "crossfit_foundations"
       ],
       "muscle_count": 7,
-      "program_count": 1,
+      "program_count": 2,
       "status": "complete"
     },
     "front_squat_clean_grip": {
@@ -2586,9 +2606,11 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "phul"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "stub"
     },
     "incline_hammer_curls": {
@@ -3814,10 +3836,16 @@
       "has_strength_curve": true,
       "in_programs": [
         "5_3_1",
-        "starting_strength"
+        "basic_strongman_block",
+        "crossfit_foundations",
+        "gzclp",
+        "phul",
+        "push_pull_legs",
+        "starting_strength",
+        "texas_method"
       ],
       "muscle_count": 4,
-      "program_count": 2,
+      "program_count": 8,
       "status": "complete"
     },
     "overhead_squat": {
@@ -4093,10 +4121,14 @@
       "has_strength_curve": false,
       "in_programs": [
         "bwf_recommended_routine",
+        "crossfit_foundations",
+        "gzclp",
+        "phul",
+        "push_pull_legs",
         "rp_hypertrophy"
       ],
       "muscle_count": 4,
-      "program_count": 2,
+      "program_count": 6,
       "status": "stub"
     },
     "push_press": {
@@ -4419,10 +4451,12 @@
       "has_strength_curve": false,
       "in_programs": [
         "bwf_recommended_routine",
+        "phul",
+        "push_pull_legs",
         "rp_hypertrophy"
       ],
       "muscle_count": 7,
-      "program_count": 2,
+      "program_count": 4,
       "status": "stub"
     },
     "romanian_deadlift_from_deficit": {
@@ -6204,7 +6238,7 @@
       "status": "stub"
     }
   },
-  "generated_at": "2026-06-07 15:47 UTC",
+  "generated_at": "2026-06-07 16:37 UTC",
   "muscle_coverage": {
     "adductor_longus": {
       "emg_count": 0,
@@ -10021,14 +10055,14 @@
       ]
     }
   },
-  "program_count": 6,
+  "program_count": 12,
   "system_coverage": {
     "bodybuilding": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 5,
+      "exercises_covered": 9,
       "has_index": true,
-      "program_count": 1
+      "program_count": 3
     },
     "calisthenics": {
       "core_refs": 3,
@@ -10040,9 +10074,9 @@
     "crossfit": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 0,
+      "exercises_covered": 5,
       "has_index": true,
-      "program_count": 0
+      "program_count": 1
     },
     "olympic": {
       "core_refs": 3,
@@ -10054,16 +10088,16 @@
     "powerlifting": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 12,
+      "exercises_covered": 13,
       "has_index": true,
-      "program_count": 3
+      "program_count": 5
     },
     "strongman": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 0,
+      "exercises_covered": 4,
       "has_index": true,
-      "program_count": 0
+      "program_count": 1
     }
   },
   "systems_defined": [

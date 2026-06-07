@@ -13,6 +13,20 @@
     "periodization": "linear",
     "system": "powerlifting"
   },
+  "basic_strongman_block": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "overhead_press",
+      "back_squat",
+      "bent_over_barbell_row"
+    ],
+    "id": "basic_strongman_block",
+    "level": "beginner",
+    "name": "Basic Strongman Block",
+    "path": "programs/strongman/basic_strongman_block.md",
+    "periodization": "block",
+    "system": "strongman"
+  },
   "bwf_recommended_routine": {
     "exercise_refs": [
       "scapular_pull_up",
@@ -58,6 +72,70 @@
     "periodization": "block",
     "system": "olympic"
   },
+  "crossfit_foundations": {
+    "exercise_refs": [
+      "back_squat",
+      "overhead_press",
+      "conventional_deadlift",
+      "pullups",
+      "front_squat"
+    ],
+    "id": "crossfit_foundations",
+    "level": "beginner",
+    "name": "CrossFit Foundations",
+    "path": "programs/crossfit/crossfit_foundations.md",
+    "periodization": "undulating",
+    "system": "crossfit"
+  },
+  "gzclp": {
+    "exercise_refs": [
+      "back_squat",
+      "bench_press",
+      "overhead_press",
+      "conventional_deadlift",
+      "pullups"
+    ],
+    "id": "gzclp",
+    "level": "beginner",
+    "name": "GZCLP",
+    "path": "programs/powerlifting/gzclp.md",
+    "periodization": "linear",
+    "system": "powerlifting"
+  },
+  "phul": {
+    "exercise_refs": [
+      "bench_press",
+      "bent_over_barbell_row",
+      "overhead_press",
+      "pullups",
+      "incline_dumbbell_press",
+      "back_squat",
+      "conventional_deadlift",
+      "romanian_deadlift"
+    ],
+    "id": "phul",
+    "level": "intermediate",
+    "name": "PHUL",
+    "path": "programs/bodybuilding/phul.md",
+    "periodization": "undulating",
+    "system": "bodybuilding"
+  },
+  "push_pull_legs": {
+    "exercise_refs": [
+      "bench_press",
+      "overhead_press",
+      "bent_over_barbell_row",
+      "pullups",
+      "back_squat",
+      "romanian_deadlift"
+    ],
+    "id": "push_pull_legs",
+    "level": "intermediate",
+    "name": "Push Pull Legs",
+    "path": "programs/bodybuilding/push_pull_legs.md",
+    "periodization": "linear",
+    "system": "bodybuilding"
+  },
   "rp_hypertrophy": {
     "exercise_refs": [
       "bench_press",
@@ -85,6 +163,20 @@
     "level": "beginner",
     "name": "Starting Strength",
     "path": "programs/powerlifting/starting_strength.md",
+    "periodization": "linear",
+    "system": "powerlifting"
+  },
+  "texas_method": {
+    "exercise_refs": [
+      "back_squat",
+      "bench_press",
+      "overhead_press",
+      "conventional_deadlift"
+    ],
+    "id": "texas_method",
+    "level": "intermediate",
+    "name": "Texas Method",
+    "path": "programs/powerlifting/texas_method.md",
     "periodization": "linear",
     "system": "powerlifting"
   },
