@@ -1,0 +1,89 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- incline_dumbbell_press | known muscles: pectoralis_major, deltoid_anterior, triceps_brachii
+- close_grip_barbell_bench_press | known muscles: triceps_brachii, pectoralis_major, deltoid_anterior
+- floor_press | known muscles: triceps_brachii, pectoralis_major, deltoid_anterior
+- push_press | known muscles: deltoid_anterior, deltoid_lateral, triceps_brachii, rectus_femoris, vastus_lateralis, vastus_medialis, gluteus_maximus
+- parallel_bar_dip | known muscles: triceps_brachii, pectoralis_major, deltoid_anterior
+- ring_dips | known muscles: triceps_brachii, pectoralis_major, deltoid_anterior, serratus_anterior
+- pushups | known muscles: pectoralis_major, deltoid_anterior, triceps_brachii, serratus_anterior
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Also search comparison studies: "dip vs bench press EMG", "incline vs flat bench EMG pectoralis", "push-up EMG", "close grip vs wide grip bench EMG"
+4. Prefer: RCTs, n >= 10, trained populations, published after 2000
+5. If multiple studies exist, output ALL of them — do not merge
+6. If one study tested multiple conditions (e.g. incline angle, dip lean angle, hand position), output each as a SEPARATE study block
+7. If no peer-reviewed EMG data exists, write: # {exercise_id}: no peer-reviewed EMG data found
+
+## Key Variables to Capture
+
+For upper push accessories, condition{} should capture:
+- load_pct_1rm: % of 1RM (barbell exercises)
+- incline_angle_deg: angle for incline press variants (e.g. 30, 45)
+- torso_lean_deg: forward lean for dips affecting pec vs triceps emphasis
+- hand_width: narrow | shoulder_width | wide (for push-up variants)
+- phase: concentric | eccentric | full_rep
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. pectoralis_major, not "chest" or "pec").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: parallel_bar_dip
+
+muscle_activation_studies:
+  - source_id: author_year
+    doi: "10.xxxx/xxxxx"
+    n: 15
+    population: "resistance-trained males"
+    condition:
+      torso_lean_deg: 15             # forward lean; null if not reported
+      phase: full_rep
+    measurements:
+      - muscle: triceps_brachii
+        mean_pct_mvc: 88.0
+        sd: 19.1
+      - muscle: pectoralis_major
+        mean_pct_mvc: 64.0
+        sd: 22.3
+
+joint_rom_required:
+  shoulder_extension_deg: 60        # at bottom of dip
+  elbow_flexion_deg: 90             # at bottom of dip
+  source: "author_year"
+
+strength_curve:
+  type: ascending                   # ascending | descending | bell_shaped
+  sticking_point: bottom_third
+  peak_force_position: lockout
+  notes: "Maximum pec stretch at bottom; triceps dominate lockout"
+  source: "author_year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2018
+    doi: "10.xxxx/xxxxx"
+    credibility: rct
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.

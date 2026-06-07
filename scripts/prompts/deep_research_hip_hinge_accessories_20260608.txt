@@ -1,0 +1,85 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- romanian_deadlift | known muscles: biceps_femoris, semitendinosus, gluteus_maximus, erector_spinae, multifidus, gastrocnemius, soleus
+- stiff_legged_barbell_deadlift | known muscles: biceps_femoris, semitendinosus, gluteus_maximus, erector_spinae, multifidus
+- sumo_deadlift | known muscles: biceps_femoris, semitendinosus, adductor_magnus, adductor_longus, gluteus_maximus, erector_spinae, rectus_femoris, vastus_lateralis, vastus_medialis
+- good_morning | known muscles: biceps_femoris, semitendinosus, gluteus_maximus, erector_spinae, multifidus
+- reverse_hyperextension | known muscles: biceps_femoris, semitendinosus, gluteus_maximus, erector_spinae
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Also search comparison studies: "Romanian deadlift vs stiff leg deadlift EMG", "sumo vs conventional deadlift EMG hamstrings"
+4. Prefer: RCTs, n >= 10, trained populations, published after 2000
+5. If multiple studies exist, output ALL of them — do not merge
+6. If one study tested multiple load conditions or stance conditions (e.g. wide vs narrow sumo), output each as a SEPARATE study block
+7. If no peer-reviewed EMG data exists, write: # {exercise_id}: no peer-reviewed EMG data found
+
+## Key Variables to Capture
+
+For hip hinge movements, condition{} should capture:
+- load_pct_1rm: percentage of 1RM used
+- phase: concentric | eccentric | full_rep
+- stance_width: narrow | shoulder_width | wide | sumo (where applicable)
+- knee_flexion_deg: degree of knee bend maintained (especially for RDL vs SLDL distinction)
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. biceps_femoris, not "hamstring" or "BF").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: romanian_deadlift
+
+muscle_activation_studies:
+  - source_id: author_year           # short key; must match an entry in sources[]
+    doi: "10.xxxx/xxxxx"             # include if available; null otherwise
+    n: 14                            # sample size; null if not reported
+    population: "resistance-trained adults"
+    condition:
+      load_pct_1rm: 70               # % of 1RM; null if not reported
+      phase: concentric              # concentric | eccentric | full_rep
+      knee_flexion_deg: 15           # approximate knee bend maintained; null if not reported
+    measurements:
+      - muscle: biceps_femoris
+        mean_pct_mvc: 65.0           # mean % MVC; null if not reported
+        sd: 18.2                     # standard deviation; null if not reported
+
+joint_rom_required:
+  hip_flexion_deg: 90                # approximate range through movement
+  knee_flexion_deg: 15               # slight bend maintained
+  ankle_dorsiflexion_deg: null       # minimal demand
+  source: "author_year"
+
+strength_curve:
+  type: descending                   # ascending | descending | bell_shaped
+  sticking_point: null
+  peak_force_position: bottom        # bottom | mid | lockout | null
+  notes: "Peak hamstring stretch at bottom; force falls as hip extends toward lockout"
+  source: "author_year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2019
+    doi: "10.xxxx/xxxxx"
+    credibility: rct
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.

@@ -1,0 +1,85 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- pullups | known muscles: latissimus_dorsi, biceps_brachii, rhomboids, trapezius, deltoid_posterior, teres_major
+- weighted_pull_ups | known muscles: latissimus_dorsi, biceps_brachii, rhomboids, trapezius
+- scapular_pull_up | known muscles: trapezius, latissimus_dorsi, rhomboids, serratus_anterior
+- bent_over_barbell_row | known muscles: rhomboids, trapezius, biceps_brachii, latissimus_dorsi, deltoid_posterior, erector_spinae
+- seated_cable_rows | known muscles: rhomboids, trapezius, biceps_brachii, latissimus_dorsi, deltoid_posterior
+- inverted_row | known muscles: rhomboids, trapezius, latissimus_dorsi, biceps_brachii
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Also search for comparison studies: "pull-up vs chin-up EMG", "grip width row EMG", "horizontal row vs vertical pull EMG"
+4. Prefer: RCTs, n >= 10, trained populations, published after 2000
+5. If multiple studies exist for one exercise, output ALL of them — do not merge
+6. If one study tested multiple grip conditions (e.g. pronated vs supinated, wide vs narrow), output each condition as a SEPARATE study block with the grip noted in condition{}
+7. If no peer-reviewed EMG data exists for an exercise, write: # {exercise_id}: no peer-reviewed EMG data found
+
+## Key Variables to Capture
+
+For pulling movements, condition{} should capture:
+- grip_type: pronated | supinated | neutral
+- grip_width: narrow | shoulder_width | wide (or cm if reported)
+- load_pct_1rm or added_load_kg (for weighted variants)
+- phase: concentric | eccentric | full_rep
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. latissimus_dorsi, not "Lat" or "LD").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: pullups
+
+muscle_activation_studies:
+  - source_id: author_year           # short key; must match an entry in sources[]
+    doi: "10.xxxx/xxxxx"             # include if available; null otherwise
+    n: 20                            # sample size; null if not reported
+    population: "trained males"      # brief description of participants
+    condition:
+      grip_type: pronated            # pronated | supinated | neutral
+      grip_width: shoulder_width     # narrow | shoulder_width | wide
+      phase: concentric              # concentric | eccentric | full_rep
+    measurements:
+      - muscle: latissimus_dorsi
+        mean_pct_mvc: 117.0          # mean % MVC; null if not reported
+        sd: 22.4                     # standard deviation; null if not reported
+
+joint_rom_required:                  # joints relevant to pulling movements
+  shoulder_flexion_deg: 180          # full overhead for pull-up start
+  elbow_flexion_deg: 145
+  source: "author_year"
+
+strength_curve:
+  type: ascending                    # ascending | descending | bell_shaped
+  sticking_point: mid_range          # bottom_third | mid_range | top_third | null
+  peak_force_position: bottom        # bottom | mid | lockout | null
+  notes: "Greatest lat moment arm at bottom of movement"
+  source: "author_year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2020
+    doi: "10.xxxx/xxxxx"
+    credibility: rct                 # meta_analysis | rct | expert_consensus | practitioner | anecdotal
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.
