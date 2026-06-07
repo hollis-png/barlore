@@ -3,7 +3,7 @@ id: crossfit_overview
 name: CrossFit
 category: system_overview
 goal: Broad, general, and inclusive fitness across ten physical domains
-programs: []
+programs: [crossfit_foundations]
 ---
 
 # CrossFit
@@ -22,9 +22,65 @@ CrossFit defines fitness as work capacity across broad time and modal domains. T
 
 CrossFit is the only major training system that explicitly programs for work capacity across all time domains (seconds to 30+ minutes) within a single training session and training week. Unlike powerlifting or weightlifting, there is no fixed competition lift set; unlike bodybuilding, appearance is not the goal; unlike calisthenics, external load is central to the methodology. The combination of Olympic lifting, gymnastics, and metabolic conditioning into a single session is unique to CrossFit and its derivatives.
 
+## Athlete Profile
+
+CrossFit suits athletes who:
+- Want broad fitness across strength, conditioning, and skill simultaneously
+- Are motivated by competitive scoring (times, rounds, reps) and community
+- Enjoy high intensity and varied daily workouts rather than repetitive programs
+- Have athletic backgrounds or are comfortable learning barbell and gymnastics movements
+
+**Not ideal for:** athletes pursuing a single performance metric (1RM total, physique competition, Olympic total) or those with injuries incompatible with high-intensity mixed modal training.
+
+## Core Movement Categories
+
+CrossFit programs across three broad domains:
+
+| Domain | Representative movements |
+|---|---|
+| Barbell strength | Back squat, deadlift, overhead press, bench press |
+| Olympic lifting | Snatch, clean & jerk, power clean, hang clean |
+| Gymnastics | Pull-ups, dips, push-ups, handstand push-ups, muscle-ups, toes-to-bar |
+| Monostructural | Running, rowing, cycling, jump rope, ski erg |
+
+## WOD Formats
+
+| Format | Definition | Example |
+|---|---|---|
+| AMRAP | As many rounds/reps as possible in fixed time | Cindy: 20-min AMRAP of 5 pull-ups, 10 push-ups, 15 squats |
+| For Time | Complete prescribed work as fast as possible | Fran: 21-15-9 thrusters + pull-ups |
+| EMOM | Every minute on the minute | 10-min EMOM: 2 power cleans |
+| Chipper | Long list of movements done once each | 50 pull-ups, 50 push-ups, 50 sit-ups, 50 squats |
+| Ladder | Ascending or descending rep scheme | 1-2-3-4-5 clean and jerks |
+
+## Typical Training Parameters
+
+| Variable | Strength component | WOD (metabolic) |
+|---|---|---|
+| Intensity | 70-85% 1RM | Near-maximal sustainable effort |
+| Duration | 15-30 min | 5-30 min |
+| Rest between sets | 2-3 min | Minimal / none |
+| Frequency | 3-5x/week | 4-5 WODs/week |
+
+CrossFit training does not prescribe fixed volume landmarks per muscle group. Fatigue accumulates across modalities; recovery management requires monitoring sleep, HRV, and soreness patterns.
+
+## Progression Pathway
+
+**Foundations / On-ramp (0-6 months):** Learn movement standards for all three domains. Scale every WOD. `crossfit_foundations` is the structured on-ramp. Do not attempt Rx weights until technique is stable.
+
+**Intermediate (6 months - 2 years):** Begin hitting Rx on most WODs. Add strength-focused accessory work (e.g., 5x5 squat before WOD). Work on gymnastic skill progressions (kipping pull-up, muscle-up).
+
+**Advanced / Competitor (2+ years):** Two-a-days, deliberate weakness targeting, competition-specific peaking. CrossFit Games Open preparation requires tracking benchmark times year-over-year.
+
+## Scaling Principle
+
+Every WOD has three versions: **Rx** (prescribed), **Scaled**, **Beginner**. The correct scale preserves the intended metabolic stimulus — if Fran is supposed to take 3-8 minutes, choose a weight that keeps you in that window.
+
 ## Programs
 
-See `programs/crossfit/` for specific programs within this system.
+| Program | Level | Key feature |
+|---|---|---|
+| `crossfit_foundations` | Beginner | 8-week GPP on-ramp, benchmark WODs, 3-domain introduction |
 
 ## Related Core Principles
 

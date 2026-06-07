@@ -3,7 +3,7 @@ id: strongman_overview
 name: Strongman
 category: system_overview
 goal: Maximum performance across a varied set of strength and loaded carry events
-programs: []
+programs: [basic_strongman_block]
 ---
 
 # Strongman
@@ -22,9 +22,67 @@ Strongman competition tests absolute strength across a wide variety of events: l
 
 Strongman is the only major strength sport without a fixed movement set. This requires athletes to maintain broad strength across multiple patterns simultaneously, unlike powerlifting (three lifts) or weightlifting (two lifts). The loaded carry events and odd-object work have no equivalent in other barbell sports. Athletes must also develop the ability to repeat near-maximal efforts over a multi-event competition day.
 
+## Athlete Profile
+
+Strongman suits athletes who:
+- Are motivated by raw, total-body power and moving awkward, heavy objects
+- Enjoy event variety and novelty in training rather than fixed movement repetition
+- Have or are willing to build a solid barbell strength base (1.5x BW deadlift minimum to start competing)
+- Can manage high injury risk through conservative event volume and smart programming
+
+**Not ideal for:** athletes prioritising aesthetics, those with lower back or shoulder conditions incompatible with heavy odd-object loads, or beginners without a foundational barbell background.
+
+## Core Exercises and Events
+
+| Category | Movements |
+|---|---|
+| Barbell base | Deadlift (conventional, sumo, axle), back squat, overhead press |
+| Press events | Log press, axle press, dumbbell press, Viking press |
+| Pull events | Axle deadlift, car deadlift / frame, 18" deadlift |
+| Carry events | Farmer's walk, yoke carry, sandbag carry, keg carry |
+| Load events | Atlas stones, keg load, barrel load, husafell stone |
+| Vehicle events | Truck pull, bus pull (rope or harness) |
+
+## Typical Training Parameters
+
+| Variable | Barbell strength | Event training |
+|---|---|---|
+| Intensity | 70-90% 1RM | Competition weight or below |
+| Sets × reps | 3-5 × 3-6 | 3-6 attempts / 3-5 runs |
+| Sessions per week | 2-3 barbell | 1-2 event days |
+| Event volume | Low — connective tissue limit | Progressive toward competition weight |
+
+Event volume is kept deliberately low. The barbell base session carries the training load; events are practised for technique and competition-specific adaptation, not accumulated fatigue.
+
+## Progression Pathway
+
+**Novice (0-1 year):** Build barbell base. Target: 2× BW deadlift, 1.5× BW squat, 1× BW press. Introduce farmer's walk and yoke with submaximal loads for GPP. No competition yet — focus on injury-free strength accumulation.
+
+**Early competitor (1-3 years):** Enter local novice or lightweight divisions. `basic_strongman_block` is the appropriate programming framework. Event selection matches upcoming competition roster. Begin peaking for specific events.
+
+**Intermediate (3-5 years):** Class-level competition (regional / national qualifiers). Programming is competition-calendar driven: accumulation block → event-specific block → competition peak. Specialise toward weight class.
+
+**Advanced (5+ years):** National-level or professional competition. Individualised programming by a strongman-specific coach. Two event sessions per week with high barbell specificity.
+
+## Competition Format
+
+Strongman competitions consist of 4-6 events chosen by the promoter. Common event categories:
+
+| Category | Example events |
+|---|---|
+| Press | Log press for max, axle strict press for reps |
+| Pull | Deadlift for max or reps, frame carry |
+| Carry | Farmer's walk for time, yoke for time |
+| Load | Atlas stones to platform, keg load over bar |
+| Vehicle | Truck pull for time |
+
+Athletes accumulate points per event (place-based scoring). Best overall point total wins. Weight classes vary by federation: USS, NAS, SCL (international).
+
 ## Programs
 
-See `programs/strongman/` for specific programs within this system.
+| Program | Level | Duration | Key feature |
+|---|---|---|---|
+| `basic_strongman_block` | Beginner | 8 weeks | Accumulation → intensification → peak; 4 days/week with event day |
 
 ## Related Core Principles
 

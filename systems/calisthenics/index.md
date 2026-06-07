@@ -3,7 +3,7 @@ id: calisthenics_overview
 name: Calisthenics
 category: system_overview
 goal: Maximal bodyweight strength, skill, and movement quality
-programs: []
+programs: [bwf_recommended_routine]
 ---
 
 # Calisthenics
@@ -22,9 +22,67 @@ Calisthenics is the practice of building strength, skill, and physique using bod
 
 Calisthenics is the only major strength system where load progression requires advancing to structurally harder movements rather than adding weight. This demands a different approach to programming — skill trees replace rep maxes as the primary progress tracking tool. Unlike gymnastics, competition is informal; unlike powerlifting, there is no standardized meet format in most calisthenics contexts.
 
+## Athlete Profile
+
+Calisthenics suits athletes who:
+- Have limited or no access to gym equipment
+- Are motivated by mastering movement skills, not just moving weight
+- Have patience for slow connective tissue adaptation and skill progression timelines
+- Value body control, aesthetics, and functional movement quality equally
+
+**Not ideal for:** athletes who need rapid maximum strength gains, heavily muscle-mass focused goals with precise load control, or those with wrist, elbow, or shoulder injuries that limit overhead or support positions.
+
+## Skill Trees
+
+Progress is tracked by advancing along skill progressions, not by adding load:
+
+**Vertical Pull:**
+Dead hang → Scapular pulls → Negative pull-ups → Pull-ups → Weighted pull-ups → Archer pull-ups → One-arm pull-up
+
+**Horizontal Push:**
+Incline push-up → Push-up → Pike push-up → Elevated pike → Wall HSPU → Freestanding HSPU
+
+**Straight-Arm Skills (advanced):**
+Tuck planche → Advanced tuck → Straddle planche → Full planche
+Tuck front lever → Advanced tuck → Straddle → Full front lever
+
+**Dynamic skills:**
+Kipping pull-up → Chest-to-bar → Muscle-up (bar) → Muscle-up (rings)
+
+## Typical Training Parameters
+
+| Variable | Strength/Skill | Hypertrophy | Skill practice |
+|---|---|---|---|
+| Sets per movement | 3-5 | 3-4 | 5-10 (low fatigue) |
+| Rep range / hold | 3-6 reps or 3-8s hold | 8-15 reps | Singles / short holds |
+| RIR | 2-3 | 1-2 | 4-5 (technique focus) |
+| Sessions per week | 3-4 | 4-5 | Daily (low volume) |
+| Progression timeline | Weeks to months per step | Weeks | Months to years (advanced skills) |
+
+Tendon adaptation lags muscle by 4-8 weeks. Progress skill difficulty conservatively even when strength feels ahead.
+
+## Progression Pathway
+
+**Beginner (0-12 months):** Master foundational bent-arm strength: pull-ups (10+), dips (15+), push-ups (20+), Australian rows. `bwf_recommended_routine` is the canonical starting point. Add bodyweight squats and hip hinge patterns.
+
+**Intermediate (1-3 years):** Weighted pull-ups, muscle-up, handstand balance, L-sit. Begin straight-arm skill progressions (tuck planche hold, tuck front lever). Frequency increases to 4-5x/week with skill sessions.
+
+**Advanced (3+ years):** Full planche, full front lever, one-arm pull-up progressions, ring muscle-up, freestanding HSPU. Programming resembles gymnastic periodization with distinct strength and skill blocks.
+
+## Equipment Minimum
+
+| Equipment | Unlocks |
+|---|---|
+| Pull-up bar | All vertical pull progressions, front lever, bar muscle-up |
+| Parallel bars / dip bars | Dips, L-sit, planche progressions |
+| Gymnastics rings | Ring dips, ring rows, ring muscle-up, more instability demand |
+| Floor only | Push-up tree, planche on floor, L-sit on hands |
+
 ## Programs
 
-See `programs/calisthenics/` for specific programs within this system.
+| Program | Level | Key feature |
+|---|---|---|
+| `bwf_recommended_routine` | Beginner-intermediate | Reddit BWF RR, 3x/week, tiered progressions across 6 vectors |
 
 ## Related Core Principles
 
