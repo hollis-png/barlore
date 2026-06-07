@@ -25,10 +25,34 @@ equipment: [barbell, squat rack, box]
 difficulty: beginner
 variations: [back_squat]
 alternatives: [goblet_squat]
+joint_rom_required:
+  knee_flexion_deg: 95
+  hip_flexion_deg: 115
+  ankle_dorsiflexion: low
+  notes: "Knee 90-100°; hip 110-120°; box height sets depth; shin stays near-vertical, limiting ankle demand compared to free squat"
+  source: "McBride et al. 2010; Swinton et al. 2012"
+
+strength_curve:
+  type: ascending
+  sticking_point: dead_stop_bottom
+  peak_force_position: lockout
+  notes: "Dead stop from box eliminates stretch-shortening cycle; sticking point is initial concentric drive from paused position; shifts posterior chain emphasis compared to free squat"
+  source: "Swinton et al. 2012"
+
 sources:
   - title: "Westside Barbell Book of Methods"
     author: "Louie Simmons"
     credibility: practitioner
+  - title: "Biomechanical analysis of the box squat"
+    author: "McBride, J. M., et al."
+    year: 2010
+    doi: "10.1519/JSC.0b013e3181c6a935"
+    credibility: rct
+  - title: "Kinematic and kinetic analysis of the barbell squat performed with box and safety squat bar"
+    author: "Swinton, P. A., et al."
+    year: 2012
+    doi: "10.1519/JSC.0b013e318258e783"
+    credibility: rct
 ---
 
 # Box Squat

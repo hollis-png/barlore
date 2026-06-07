@@ -1,14 +1,119 @@
 {
   "back_squat": [
-    531
+    "5_3_1",
+    "catalyst_12_week",
+    "rp_hypertrophy",
+    "starting_strength"
   ],
   "bench_press": [
-    531
+    "5_3_1",
+    "rp_hypertrophy",
+    "starting_strength"
+  ],
+  "bench_press_with_bands": [
+    "westside_conjugate"
+  ],
+  "board_press": [
+    "westside_conjugate"
+  ],
+  "box_squat": [
+    "westside_conjugate"
+  ],
+  "clean_and_jerk": [
+    "catalyst_12_week"
+  ],
+  "clean_pull": [
+    "catalyst_12_week"
+  ],
+  "close_grip_barbell_bench_press": [
+    "westside_conjugate"
   ],
   "conventional_deadlift": [
-    531
+    "5_3_1",
+    "starting_strength",
+    "westside_conjugate"
+  ],
+  "floor_press": [
+    "westside_conjugate"
+  ],
+  "front_squat": [
+    "catalyst_12_week"
+  ],
+  "goblet_squat": [
+    "bwf_recommended_routine"
+  ],
+  "good_morning": [
+    "catalyst_12_week",
+    "westside_conjugate"
+  ],
+  "inverted_row": [
+    "bwf_recommended_routine"
   ],
   "overhead_press": [
-    531
+    "5_3_1",
+    "starting_strength"
+  ],
+  "overhead_squat": [
+    "catalyst_12_week"
+  ],
+  "pallof_press": [
+    "bwf_recommended_routine"
+  ],
+  "parallel_bar_dip": [
+    "bwf_recommended_routine"
+  ],
+  "plank": [
+    "bwf_recommended_routine"
+  ],
+  "power_clean": [
+    "catalyst_12_week",
+    "starting_strength"
+  ],
+  "power_jerk": [
+    "catalyst_12_week"
+  ],
+  "power_snatch": [
+    "catalyst_12_week"
+  ],
+  "pullups": [
+    "bwf_recommended_routine",
+    "rp_hypertrophy"
+  ],
+  "push_press": [
+    "catalyst_12_week"
+  ],
+  "pushups": [
+    "bwf_recommended_routine"
+  ],
+  "reverse_hyperextension": [
+    "bwf_recommended_routine"
+  ],
+  "ring_dips": [
+    "bwf_recommended_routine"
+  ],
+  "romanian_deadlift": [
+    "bwf_recommended_routine",
+    "rp_hypertrophy"
+  ],
+  "scapular_pull_up": [
+    "bwf_recommended_routine"
+  ],
+  "seated_cable_rows": [
+    "rp_hypertrophy"
+  ],
+  "snatch": [
+    "catalyst_12_week"
+  ],
+  "snatch_pull": [
+    "catalyst_12_week"
+  ],
+  "stiff_legged_barbell_deadlift": [
+    "catalyst_12_week"
+  ],
+  "sumo_deadlift": [
+    "westside_conjugate"
+  ],
+  "weighted_pull_ups": [
+    "bwf_recommended_routine"
   ]
 }

@@ -24,10 +24,55 @@ difficulty: intermediate
 variations: [back_squat]
 progressions: [goblet_squat]
 alternatives: [leg_press]
+muscle_activation_studies:
+  - source_id: erdag_yavuz_2019
+    doi: null
+    n: null
+    population: "resistance-trained males"
+    condition:
+      load_pct_1rm: 60
+      phase: full_rep
+    measurements:
+      - {muscle: vastus_medialis,  mean_pct_mvc: 61.6, sd: 18.9}
+      - {muscle: vastus_lateralis, mean_pct_mvc: 58.4, sd: 14.1}
+      - {muscle: rectus_femoris,   mean_pct_mvc: 36.1, sd: 17.7}
+      - {muscle: erector_spinae,   mean_pct_mvc: 36.8, sd: 17.1}
+      - {muscle: gluteus_maximus,  mean_pct_mvc: 18.3, sd: 6.7}
+      - {muscle: semitendinosus,   mean_pct_mvc: 8.2,  sd: 3.1}
+      - {muscle: biceps_femoris,   mean_pct_mvc: 6.8,  sd: 6.7}
+
+joint_rom_required:
+  knee_flexion_deg: 130
+  hip_flexion_deg: 115
+  ankle_dorsiflexion_deg: 18
+  source: "Greene 1994; Gullett et al. 2009"
+
+strength_curve:
+  type: ascending
+  sticking_point: bottom_third
+  peak_force_position: lockout
+  notes: "Anterior load increases knee flexion moment; sticking point worsens if trapezius/rhomboids fatigue and torso tips forward"
+  source: "van den Tillaar & Andersen 2021"
+
 sources:
   - title: "Olympic Weightlifting: A Complete Guide for Athletes & Coaches"
     author: "Greg Everett"
     credibility: practitioner
+  - title: "Evaluation of muscle activities during different squat variations using electromyography signals"
+    author: "Erdag, D., Yavuz, H. U."
+    year: 2019
+    doi: null
+    credibility: rct
+  - title: "A biomechanical comparison of back and front squats in healthy trained individuals"
+    author: "Gullett, J. C., Tillman, M. D., Gutierrez, G. M., Chow, J. W."
+    year: 2009
+    doi: "10.1519/JSC.0b013e3181b83d36"
+    credibility: rct
+  - title: "Joint range of motion guidelines"
+    author: "Greene, W. A."
+    year: 1994
+    publisher: "American Academy of Orthopaedic Surgeons"
+    credibility: expert_consensus
 ---
 
 # Front Squat

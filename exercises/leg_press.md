@@ -20,10 +20,34 @@ muscles:
 equipment: [leg press machine]
 difficulty: beginner
 alternatives: [back_squat]
+joint_rom_required:
+  knee_flexion_deg: 110
+  hip_flexion_deg: 85
+  ankle_dorsiflexion: minimal
+  notes: "Knee 100-120°; hip 80-90° (fixed by seat geometry); ankle relatively unconstrained; foot placement shifts emphasis: high foot = more glute/hamstring, low foot = more quad"
+  source: "da Silva 2008; Martin-Fuentes 2020"
+
+strength_curve:
+  type: ascending
+  sticking_point: mid_range
+  peak_force_position: near_extension
+  notes: "Sticking point at 90-100° knee flexion where moment arm is greatest; machine guides path eliminating balance demand; eccentric often underutilized in standard practice"
+  source: "Walker 2025; Martin-Fuentes 2022"
+
 sources:
   - title: "NSCA's Essentials of Strength Training and Conditioning"
     author: "NSCA"
     credibility: expert_consensus
+  - title: "Muscle activity in the leg press exercise with different foot positions"
+    author: "da Silva, E. M., et al."
+    year: 2008
+    doi: null
+    credibility: rct
+  - title: "Electromyographic analysis of the leg press exercise and its variants"
+    author: "Martin-Fuentes, I., et al."
+    year: 2020
+    doi: null
+    credibility: rct
 ---
 
 # Leg Press

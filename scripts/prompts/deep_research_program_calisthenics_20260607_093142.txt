@@ -1,0 +1,79 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find the complete protocol details for one well-documented beginner-to-intermediate calisthenics program. Target programs (in priority order):
+
+1. **Reddit r/bodyweightfitness Recommended Routine** (RR) — preferred for widespread use and structured documentation
+2. **Al Kavadlo / Dragon Door Calisthenics Progressions** — if RR is insufficient
+3. **GMB Fitness Elements Program** — fallback
+
+## Search Strategy
+
+1. Search Reddit r/bodyweightfitness wiki, bodyweightfitness.com, and published books
+2. Search terms: "bodyweight fitness recommended routine" OR "calisthenics beginner program progression" OR "Reddit bodyweightfitness program wiki"
+3. For Kavadlo: "Al Kavadlo calisthenics program progressions" OR "Dragon Door calisthenics program"
+4. Find: skill progressions, weekly structure, set/rep prescriptions, advancement criteria, and progression from beginner to intermediate
+
+## Program Details to Capture
+
+For the chosen program, find:
+- Program name, origin/creator, and credible source (website, book, wiki URL)
+- Experience level (beginner / intermediate)
+- Primary goal (general fitness, skill development, strength)
+- Days per week and session structure
+- Duration or milestone-based advancement criteria
+- Main movement categories (push, pull, legs, core, skill work)
+- Specific exercises with progressions (e.g., wall pushup → incline pushup → regular pushup → diamond pushup → pseudo planche pushup)
+- Rep/set prescriptions and how to advance (e.g., "when you can do 3×10, move to next progression")
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- All exercise refs must use snake_case ids representing specific progressions (e.g., incline_pushup, assisted_pullup, knee_pushup).
+- Progression criteria must be quoted exactly from the source.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- duration_weeks: null is acceptable for milestone-based programs (no fixed duration).
+
+## Output Schema
+
+```yaml
+id: bwf_recommended_routine         # snake_case, no spaces
+name: "Bodyweight Fitness Recommended Routine"
+aliases: ["BWF RR", "Reddit RR"]
+category: program
+system: calisthenics
+goal: "Build general strength and movement quality through bodyweight progressions"
+level: beginner
+duration_weeks: null                # null for milestone-based programs
+frequency_per_week: 3
+periodization: linear
+progression_model: >
+  Advance to next progression when you can complete 3 sets of the target rep range
+  with good form. No fixed timeline — progression is individual.
+
+exercises:
+  - ref: incline_pushup
+    role: primary
+    progression_category: horizontal_push
+    progression_order: 2            # within the push progression chain
+    advancement_criteria: "3×8–10 with full control"
+    next_progression: pushup
+
+  - ref: assisted_pullup
+    role: primary
+    progression_category: vertical_pull
+    progression_order: 1
+    advancement_criteria: "3×8–10 with full ROM"
+    next_progression: pullup
+
+sources:
+  - source_id: bwf_wiki_2023
+    title: "r/bodyweightfitness Recommended Routine"
+    author: "r/bodyweightfitness community"
+    year: 2023
+    url: "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine"
+    credibility: practitioner
+```
+
+After the main program block, output a single merged sources[] list.

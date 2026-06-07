@@ -10,12 +10,105 @@ sources:
     author: "Israetel, Hoffmann, Davis"
     year: 2021
     publisher: "Renaissance Periodization"
-    credibility: expert_consensus
+    credibility: practitioner
   - title: "Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis"
     author: "Schoenfeld, Ogborn, Krieger"
     year: 2017
     doi: "10.1080/02640414.2016.1210197"
     credibility: meta_analysis
+  - title: "Single vs. Multiple Sets of Resistance Exercise for Muscle Hypertrophy: A Meta-Analysis"
+    author: "Krieger, James W."
+    year: 2010
+    doi: "10.1519/JSC.0b013e3181d4d446"
+    credibility: meta_analysis
+  - title: "The Effect of Weekly Set Volume on Strength Gain: A Meta-Analysis"
+    author: "Ralston, Kilgore, Wyatt, Baker"
+    year: 2017
+    doi: "10.1007/s40279-017-0762-7"
+    credibility: meta_analysis
+  - title: "The Effects of Volume and Frequency of Resistance Training on Morphofunctional Variables in Resistance-Trained Young Men"
+    author: "Baz-Valle, Balsalobre-Fernández, Santos-Concejero"
+    year: 2022
+    doi: null
+    credibility: meta_analysis
+
+# Per-muscle-group volume landmark data (sets/week)
+# Population: intermediate-to-advanced trainees (3-7 years structured training)
+# Source: Israetel RP practitioner framework; null high = open upper bound (e.g. "20+")
+muscle_volume_landmarks:
+  unit: sets_per_week
+  muscle_groups:
+    - id: quadriceps
+      MV: 6
+      MEV: 8
+      MAV: {low: 12, high: 18}
+      MRV: {low: 20, high: null}
+    - id: hamstrings
+      MV: {low: 0, high: 2}
+      MEV: {low: 2, high: 4}
+      MAV: {low: 2, high: 8}
+      MRV: {low: 8, high: 14}
+    - id: gluteus_maximus
+      MV: {low: 2, high: 6}
+      MEV: {low: 6, high: 8}
+      MAV: {low: 8, high: 24}
+      MRV: {low: 24, high: 30}
+    - id: latissimus_dorsi
+      MV: 8
+      MEV: 10
+      MAV: {low: 14, high: 22}
+      MRV: {low: 25, high: null}
+    - id: trapezius
+      MV: {low: 0, high: 4}
+      MEV: {low: 0, high: 4}
+      MAV: {low: 4, high: 12}
+      MRV: {low: 12, high: 20}
+    - id: pectoralis_major
+      MV: {low: 2, high: 4}
+      MEV: {low: 4, high: 6}
+      MAV: {low: 6, high: 16}
+      MRV: {low: 16, high: 24}
+    - id: deltoid_anterior
+      MV: {low: 0, high: 2}
+      MEV: {low: 0, high: 2}
+      MAV: {low: 4, high: 8}
+      MRV: {low: 8, high: 12}
+    - id: deltoid_lateral
+      MV: {low: 2, high: 6}
+      MEV: {low: 6, high: 8}
+      MAV: {low: 8, high: 24}
+      MRV: {low: 24, high: 30}
+    - id: deltoid_posterior
+      MV: {low: 0, high: 4}
+      MEV: {low: 0, high: 4}
+      MAV: {low: 4, high: 12}
+      MRV: {low: 12, high: 20}
+    - id: triceps_brachii
+      MV: {low: 0, high: 4}
+      MEV: {low: 4, high: 6}
+      MAV: {low: 6, high: 16}
+      MRV: {low: 16, high: 20}
+    - id: biceps_brachii
+      MV: {low: 6, high: 8}
+      MEV: {low: 8, high: 10}
+      MAV: {low: 14, high: 20}
+      MRV: {low: 20, high: 26}
+    - id: erector_spinae
+      MV: null
+      MEV: null
+      MAV: null
+      MRV: null
+      notes: "No direct volume landmarks; loaded isometrically via compound squats/deadlifts"
+    - id: gastrocnemius_soleus
+      MV: {low: 2, high: 4}
+      MEV: {low: 4, high: 6}
+      MAV: {low: 6, high: 16}
+      MRV: {low: 16, high: 24}
+    - id: rectus_abdominis
+      MV: 0
+      MEV: 0
+      MAV: {low: 16, high: 20}
+      MRV: {low: 25, high: null}
 ---
 
 # Volume Landmarks
@@ -64,22 +157,34 @@ growth, up to a recoverable ceiling. The practical takeaway is that most trainee
 underperform because they train below MEV rather than because they need more advanced
 techniques.
 
-## Illustrative Ranges
+## Volume Landmarks by Muscle Group
 
-The numbers below are starting estimates for intermediate trainees with moderate recovery
-capacity. Individual variation is large — adjust based on recovery markers and performance.
+Values for intermediate-to-advanced trainees (3–7 years structured training). All units: sets/week.
+Source: Israetel, RP practitioner framework. "+" denotes open upper bound.
 
-| Muscle group | MEV (sets/week) | MRV (sets/week) |
-|-------------|----------------|----------------|
-| Quadriceps  | ~6–8           | ~18–22         |
-| Hamstrings  | ~6–8           | ~16–20         |
-| Chest       | ~6–8           | ~20–24         |
-| Back (lats) | ~8–10          | ~20–25         |
-| Shoulders   | ~6–8           | ~18–22         |
-| Biceps      | ~6             | ~18–20         |
-| Triceps     | ~4–6           | ~18–22         |
+| Muscle group | MV | MEV | MAV | MRV |
+|---|---|---|---|---|
+| quadriceps | 6 | 8 | 12–18 | 20+ |
+| hamstrings | 0–2 | 2–4 | 2–8 | 8–14 |
+| gluteus_maximus | 2–6 | 6–8 | 8–24 | 24–30 |
+| latissimus_dorsi | 8 | 10 | 14–22 | 25+ |
+| trapezius | 0–4 | 0–4 | 4–12 | 12–20 |
+| pectoralis_major | 2–4 | 4–6 | 6–16 | 16–24 |
+| deltoid_anterior | 0–2 | 0–2 | 4–8 | 8–12 |
+| deltoid_lateral | 2–6 | 6–8 | 8–24 | 24–30 |
+| deltoid_posterior | 0–4 | 0–4 | 4–12 | 12–20 |
+| triceps_brachii | 0–4 | 4–6 | 6–16 | 16–20 |
+| biceps_brachii | 6–8 | 8–10 | 14–20 | 20–26 |
+| erector_spinae | — | — | — | — |
+| gastrocnemius_soleus | 2–4 | 4–6 | 6–16 | 16–24 |
+| rectus_abdominis | 0 | 0 | 16–20 | 25+ |
 
-These figures are illustrative. Consult the RP Hypertrophy Training Guide for full tables.
+Notes:
+- **hamstrings**: Low absolute numbers reflect high stimulus-per-set from loaded stretch in hip hinge movements; direct sets accumulate quickly.
+- **gluteus_maximus**: Can be maintained at 0 direct sets if compound squatting and hinging volume is high; MAV/MRV expand greatly during specialization blocks.
+- **deltoid_anterior**: Receives heavy indirect loading from all chest and overhead pressing; direct isolation rarely needed.
+- **erector_spinae**: No direct volume landmarks — loaded isometrically via all compound squatting, hinging, and lunging. Direct hypertrophy targeting is not recommended on top of compound volume.
+- **rectus_abdominis**: MEV = 0 because compound bracing covers maintenance; high MAV reflects the core's resistance to fatigue under direct training.
 
 ## Practical Application
 

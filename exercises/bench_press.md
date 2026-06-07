@@ -15,10 +15,82 @@ equipment: [barbell, bench, rack]
 difficulty: intermediate
 variations: []
 alternatives: []
+muscle_activation_studies:
+  - source_id: saeterbakken_2017
+    doi: null
+    n: 21
+    population: "healthy males"
+    condition:
+      reps: 6
+      phase: concentric
+      grip_width: narrow
+    measurements:
+      - {muscle: pectoralis_major, mean_pct_mvc: 39.24, sd: 19.53}
+      - {muscle: triceps_brachii,  mean_pct_mvc: 36.56, sd: 11.92}
+  - source_id: saeterbakken_2017
+    n: 21
+    population: "healthy males"
+    condition:
+      reps: 6
+      phase: concentric
+      grip_width: regular
+    measurements:
+      - {muscle: pectoralis_major, mean_pct_mvc: 43.14, sd: 19.53}
+      - {muscle: triceps_brachii,  mean_pct_mvc: 33.22, sd: 14.20}
+  - source_id: saeterbakken_2017
+    n: 21
+    population: "healthy males"
+    condition:
+      reps: 6
+      phase: concentric
+      grip_width: wide
+    measurements:
+      - {muscle: pectoralis_major, mean_pct_mvc: 46.48, sd: 15.81}
+  - source_id: marcos_pardo_2020
+    doi: null
+    n: 13
+    population: "strength-trained men"
+    condition:
+      load_pct_1rm: 60
+      reps: 12
+      grip_width: standard
+    measurements:
+      - {muscle: deltoid_anterior,  mean_pct_mvc: 21.40, sd: null}
+      - {muscle: deltoid_lateral,   mean_pct_mvc: 5.00,  sd: null}
+      - {muscle: deltoid_posterior, mean_pct_mvc: 3.50,  sd: null}
+
+joint_rom_required:
+  elbow_flexion_deg: 79.5
+  wrist_flexion_extension_deg: 11.9
+  notes: "ROM at 15% BW load (Muyor et al. 2022); shoulder-width grip requires ~20° greater shoulder flexion and ~25° greater elbow extension vs. wide grip"
+  source: "Muyor et al. 2022; Duffey 2008"
+
+strength_curve:
+  type: ascending
+  sticking_point: bottom_third
+  peak_force_position: lockout
+  notes: "Sticking point 2-3 inches off chest; pectoralis major at maximal stretch and worst leverage; J-curve bar path shifts load over shoulder joint earlier"
+  source: "Saeterbakken et al. 2017; Westside Barbell analysis"
+
 sources:
   - title: "Starting Strength"
     author: "Mark Rippetoe"
     credibility: practitioner
+  - title: "Effects of grip width on muscle strength and activation in the bench press"
+    author: "Saeterbakken, A. H., Andersen, V., Brudeseth, A., Lund, H., Fimland, M. S."
+    year: 2017
+    doi: null
+    credibility: rct
+  - title: "Electromyographic activity of shoulder muscles during different variations of the shoulder press exercise"
+    author: "Marcos-Pardo, P. J., et al."
+    year: 2020
+    doi: null
+    credibility: rct
+  - title: "Kinematics of the barbell bench press"
+    author: "Muyor, J. M., et al."
+    year: 2022
+    doi: null
+    credibility: rct
 ---
 
 # Bench Press

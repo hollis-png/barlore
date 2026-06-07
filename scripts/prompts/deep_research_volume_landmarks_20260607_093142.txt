@@ -1,0 +1,95 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find evidence-based volume landmark values (MV, MEV, MAV, MRV) for each major muscle group, as used in the Renaissance Periodization (RP) framework. Also find relevant systematic review and meta-analysis data on dose-response relationships between training volume and hypertrophy.
+
+## Background — Volume Landmarks
+
+The RP volume landmark model defines:
+- **MV (Maintenance Volume)**: Minimum sets/week to maintain muscle mass
+- **MEV (Minimum Effective Volume)**: Minimum sets/week to stimulate growth
+- **MAV (Maximum Adaptive Volume)**: Optimal range for hypertrophy gains
+- **MRV (Maximum Recoverable Volume)**: Maximum sets/week before recovery is compromised
+
+## Muscle Groups to Research
+
+- quadriceps (rectus_femoris, vastus group)
+- hamstrings (biceps_femoris, semitendinosus, semimembranosus)
+- gluteus_maximus
+- latissimus_dorsi (back — general pulling volume)
+- trapezius (upper back — rows, shrugs)
+- pectoralis_major
+- deltoid
+- triceps_brachii
+- biceps_brachii
+- erector_spinae / lower back
+- gastrocnemius / soleus (calves)
+- rectus_abdominis / core
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and RP Hypertrophy published references
+2. Primary search terms: "training volume hypertrophy dose response" OR "minimum effective volume resistance training" OR "maximum recoverable volume" OR "Renaissance Periodization volume landmarks"
+3. Also search: Schoenfeld 2017 volume dose response, Krieger 2010 sets per muscle, Ralston 2017 volume, Baz-Valle 2022 volume
+4. Prefer: meta-analyses and systematic reviews; also include RP Science references if explicitly cited by Dr. Mike Israetel with DOI
+5. For RP-specific numbers (MV/MEV/MAV/MRV): cite the specific RP publication (book or paper) as source. If no DOI, use ISBN or URL.
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric range MUST have a corresponding source_id in sources[].
+- If a muscle group's landmark range is not found in peer-reviewed literature, write null for that field.
+- Do NOT use "approximately", "around", "estimated" — use null if uncertain.
+- All muscle ids must use snake_case canonical anatomical names.
+- Each muscle group block must begin with a comment: # muscle_group: {id}
+
+## Output Schema
+
+```yaml
+# muscle_group: quadriceps
+
+volume_landmarks:
+  MV_sets_per_week:
+    low: 4
+    high: 6
+    source_id: israetel_2019_rp
+  MEV_sets_per_week:
+    low: 8
+    high: 10
+    source_id: israetel_2019_rp
+  MAV_sets_per_week:
+    low: 12
+    high: 20
+    source_id: israetel_2019_rp
+  MRV_sets_per_week:
+    low: 20
+    high: 26
+    source_id: israetel_2019_rp
+
+dose_response_studies:
+  - source_id: schoenfeld_2017
+    doi: "10.xxxx/xxxxx"
+    n: null
+    study_type: meta_analysis
+    finding: "Brief 1-sentence finding relevant to this muscle group"
+
+# muscle_group: hamstrings
+...
+
+sources:
+  - source_id: israetel_2019_rp
+    title: "Scientific Principles of Hypertrophy Training"
+    author: "Israetel, Mike"
+    year: 2019
+    url: "https://rpstrength.com/..."
+    credibility: practitioner
+  - source_id: schoenfeld_2017
+    title: "Dose-response relationship between weekly resistance training volume and increases in muscle mass"
+    author: "Schoenfeld, Brad J."
+    year: 2017
+    doi: "10.xxxx/xxxxx"
+    credibility: meta_analysis
+```
+
+Output all muscle group blocks first, then a single merged sources[] list at the very end.

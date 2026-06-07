@@ -3098,8 +3098,104 @@
     ],
     "id": "bench_press",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": 79.5,
+      "notes": "ROM at 15% BW load (Muyor et al. 2022); shoulder-width grip requires ~20° greater shoulder flexion and ~25° greater elbow extension vs. wide grip",
+      "source": "Muyor et al. 2022; Duffey 2008",
+      "wrist_flexion_extension_deg": 11.9
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "grip_width": "narrow",
+          "phase": "concentric",
+          "reps": 6
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 39.24,
+            "muscle": "pectoralis_major",
+            "sd": 19.53
+          },
+          {
+            "mean_pct_mvc": 36.56,
+            "muscle": "triceps_brachii",
+            "sd": 11.92
+          }
+        ],
+        "n": 21,
+        "population": "healthy males",
+        "source_id": "saeterbakken_2017"
+      },
+      {
+        "condition": {
+          "grip_width": "regular",
+          "phase": "concentric",
+          "reps": 6
+        },
+        "measurements": [
+          {
+            "mean_pct_mvc": 43.14,
+            "muscle": "pectoralis_major",
+            "sd": 19.53
+          },
+          {
+            "mean_pct_mvc": 33.22,
+            "muscle": "triceps_brachii",
+            "sd": 14.2
+          }
+        ],
+        "n": 21,
+        "population": "healthy males",
+        "source_id": "saeterbakken_2017"
+      },
+      {
+        "condition": {
+          "grip_width": "wide",
+          "phase": "concentric",
+          "reps": 6
+        },
+        "measurements": [
+          {
+            "mean_pct_mvc": 46.48,
+            "muscle": "pectoralis_major",
+            "sd": 15.81
+          }
+        ],
+        "n": 21,
+        "population": "healthy males",
+        "source_id": "saeterbakken_2017"
+      },
+      {
+        "condition": {
+          "grip_width": "standard",
+          "load_pct_1rm": 60,
+          "reps": 12
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 21.4,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 5.0,
+            "muscle": "deltoid_lateral",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 3.5,
+            "muscle": "deltoid_posterior",
+            "sd": null
+          }
+        ],
+        "n": 13,
+        "population": "strength-trained men",
+        "source_id": "marcos_pardo_2020"
+      }
+    ],
     "muscles": [
       {
         "id": "pectoralis_major",
@@ -3122,7 +3218,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Sticking point 2-3 inches off chest; pectoralis major at maximal stretch and worst leverage; J-curve bar path shifts load over shoulder joint earlier",
+      "peak_force_position": "lockout",
+      "source": "Saeterbakken et al. 2017; Westside Barbell analysis",
+      "sticking_point": "bottom_third",
+      "type": "ascending"
+    },
     "variations": []
   },
   "bench_press_powerlifting": {
@@ -4198,7 +4300,13 @@
     ],
     "id": "box_squat",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "ankle_dorsiflexion": "low",
+      "hip_flexion_deg": 115,
+      "knee_flexion_deg": 95,
+      "notes": "Knee 90-100°; hip 110-120°; box height sets depth; shin stays near-vertical, limiting ankle demand compared to free squat",
+      "source": "McBride et al. 2010; Swinton et al. 2012"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -4242,7 +4350,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Dead stop from box eliminates stretch-shortening cycle; sticking point is initial concentric drive from paused position; shifts posterior chain emphasis compared to free squat",
+      "peak_force_position": "lockout",
+      "source": "Swinton et al. 2012",
+      "sticking_point": "dead_stop_bottom",
+      "type": "ascending"
+    },
     "variations": [
       "back_squat"
     ]
@@ -6916,8 +7030,95 @@
     ],
     "id": "conventional_deadlift",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_phase1_deg": 12.8,
+      "hip_flexion_setup_deg": 112,
+      "knee_flexion_setup_deg": 135,
+      "notes": "Hip 100-125° and knee 120-150° at setup; both reach 180° at lockout; conventional requires greater ankle dorsiflexion in phase 1 (floor to knee) than sumo",
+      "source": "Conventional vs. Sumo Deadlift Kinematics"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "phase": "concentric",
+          "style": "bilateral_barbell"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 85.7,
+            "muscle": "gluteus_maximus",
+            "sd": 29.2
+          },
+          {
+            "mean_pct_mvc": 74.2,
+            "muscle": "biceps_femoris",
+            "sd": 28.8
+          },
+          {
+            "mean_pct_mvc": 79.1,
+            "muscle": "erector_spinae",
+            "sd": 22.1
+          }
+        ],
+        "n": 15,
+        "population": "trained males",
+        "source_id": "diamant_2021"
+      },
+      {
+        "condition": {
+          "phase": "eccentric",
+          "style": "bilateral_barbell"
+        },
+        "measurements": [
+          {
+            "mean_pct_mvc": 28.7,
+            "muscle": "gluteus_maximus",
+            "sd": 9.8
+          },
+          {
+            "mean_pct_mvc": 37.3,
+            "muscle": "biceps_femoris",
+            "sd": 18.1
+          },
+          {
+            "mean_pct_mvc": 64.0,
+            "muscle": "erector_spinae",
+            "sd": 16.8
+          }
+        ],
+        "n": 15,
+        "population": "trained males",
+        "source_id": "diamant_2021"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 100,
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 35.0,
+            "muscle": "gluteus_maximus",
+            "sd": 27.0
+          },
+          {
+            "mean_pct_mvc": 28.0,
+            "muscle": "biceps_femoris",
+            "sd": 19.0
+          },
+          {
+            "mean_pct_mvc": 27.0,
+            "muscle": "semitendinosus",
+            "sd": 23.0
+          }
+        ],
+        "n": null,
+        "population": "trained lifters",
+        "source_id": "escamilla_2002"
+      }
+    ],
     "muscles": [
       {
         "id": "gluteus_maximus",
@@ -6968,7 +7169,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Sticking point 1: off the floor (insufficient quad drive or lats/core tension, hips rise early); sticking point 2: at or just below knee (glute and erector weakness, lost momentum)",
+      "peak_force_position": "lockout",
+      "source": "Deadlift Movement Analysis; Westside Barbell Sticking Points",
+      "sticking_point": "two_points",
+      "type": "ascending"
+    },
     "variations": []
   },
   "cross_body_crunch": {
@@ -10997,8 +11204,61 @@
     ],
     "id": "front_squat",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 18,
+      "hip_flexion_deg": 115,
+      "knee_flexion_deg": 130,
+      "source": "Greene 1994; Gullett et al. 2009"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 60,
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 61.6,
+            "muscle": "vastus_medialis",
+            "sd": 18.9
+          },
+          {
+            "mean_pct_mvc": 58.4,
+            "muscle": "vastus_lateralis",
+            "sd": 14.1
+          },
+          {
+            "mean_pct_mvc": 36.1,
+            "muscle": "rectus_femoris",
+            "sd": 17.7
+          },
+          {
+            "mean_pct_mvc": 36.8,
+            "muscle": "erector_spinae",
+            "sd": 17.1
+          },
+          {
+            "mean_pct_mvc": 18.3,
+            "muscle": "gluteus_maximus",
+            "sd": 6.7
+          },
+          {
+            "mean_pct_mvc": 8.2,
+            "muscle": "semitendinosus",
+            "sd": 3.1
+          },
+          {
+            "mean_pct_mvc": 6.8,
+            "muscle": "biceps_femoris",
+            "sd": 6.7
+          }
+        ],
+        "n": null,
+        "population": "resistance-trained males",
+        "source_id": "erdag_yavuz_2019"
+      }
+    ],
     "muscles": [
       {
         "id": "rectus_femoris",
@@ -11039,7 +11299,13 @@
     ],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Anterior load increases knee flexion moment; sticking point worsens if trapezius/rhomboids fatigue and torso tips forward",
+      "peak_force_position": "lockout",
+      "source": "van den Tillaar & Andersen 2021",
+      "sticking_point": "bottom_third",
+      "type": "ascending"
+    },
     "variations": [
       "back_squat"
     ]
@@ -11375,7 +11641,13 @@
     ],
     "id": "goblet_squat",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "ankle_dorsiflexion": "high",
+      "hip_flexion_deg": 115,
+      "knee_flexion_deg": 120,
+      "notes": "Knee 110-130°; hip 110-120°; anterior counterbalance promotes upright torso; ankle demand similar to front squat",
+      "source": "Collins et al. 2021; Gullett et al. 2009"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -11407,7 +11679,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Anterior counterbalance shifts CoM forward, increasing knee flexion moment; sticking point at bottom similar to front squat but lower absolute loads",
+      "peak_force_position": "lockout",
+      "source": "Collins et al. 2021",
+      "sticking_point": "bottom_third",
+      "type": "ascending"
+    },
     "variations": []
   },
   "good_morning": {
@@ -15189,7 +15467,13 @@
     ],
     "id": "leg_press",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "ankle_dorsiflexion": "minimal",
+      "hip_flexion_deg": 85,
+      "knee_flexion_deg": 110,
+      "notes": "Knee 100-120°; hip 80-90° (fixed by seat geometry); ankle relatively unconstrained; foot placement shifts emphasis: high foot = more glute/hamstring, low foot = more quad",
+      "source": "da Silva 2008; Martin-Fuentes 2020"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -15225,7 +15509,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Sticking point at 90-100° knee flexion where moment arm is greatest; machine guides path eliminating balance demand; eccentric often underutilized in standard practice",
+      "peak_force_position": "near_extension",
+      "source": "Walker 2025; Martin-Fuentes 2022",
+      "sticking_point": "mid_range",
+      "type": "ascending"
+    },
     "variations": []
   },
   "leg_pull_in": {
@@ -18914,8 +19204,82 @@
     ],
     "id": "overhead_press",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "notes": "Full lockout requires 180° shoulder flexion; scapular upward rotation, elevation, and posterior tilt required; elbows track scapular plane (~30° anterior to frontal plane); peak deltoid anterior moment arm at ~120° shoulder flexion",
+      "shoulder_flexion_deg": 180,
+      "source": "Military Press Technique; Barbell Overhead Press ROM"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "implement": "dumbbell",
+          "phase": "full_rep",
+          "tempo": "2s concentric / 2s eccentric"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 63.3,
+            "muscle": "deltoid_anterior",
+            "sd": 13.3
+          },
+          {
+            "mean_pct_mvc": 31.0,
+            "muscle": "pectoralis_major",
+            "sd": 20.0
+          }
+        ],
+        "n": 21,
+        "population": "healthy adults",
+        "source_id": "kettlebell_vs_db_2018"
+      },
+      {
+        "condition": {
+          "implement": "kettlebell",
+          "phase": "full_rep",
+          "tempo": "2s concentric / 2s eccentric"
+        },
+        "measurements": [
+          {
+            "mean_pct_mvc": 57.9,
+            "muscle": "deltoid_anterior",
+            "sd": 15.0
+          }
+        ],
+        "n": 21,
+        "population": "healthy adults",
+        "source_id": "kettlebell_vs_db_2018"
+      },
+      {
+        "condition": {
+          "implement": "barbell",
+          "load_pct_1rm": 60,
+          "reps": 12,
+          "style": "front_press"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 33.3,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 27.9,
+            "muscle": "deltoid_lateral",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 11.4,
+            "muscle": "deltoid_posterior",
+            "sd": null
+          }
+        ],
+        "n": 13,
+        "population": "strength-trained men",
+        "source_id": "marcos_pardo_2020"
+      }
+    ],
     "muscles": [
       {
         "id": "deltoid",
@@ -18942,7 +19306,13 @@
     "progressions": [],
     "source": null,
     "status": "complete",
-    "strength_curve": null,
+    "strength_curve": {
+      "notes": "Sticking point between chin and forehead (nose level); bar must arc around face, maximizing horizontal moment arm at glenohumeral joint; resolved when head moves through and bar stacks over shoulder joint",
+      "peak_force_position": "lockout",
+      "source": "Overhead Press Sticking Points review",
+      "sticking_point": "mid_range",
+      "type": "ascending"
+    },
     "variations": []
   },
   "overhead_squat": {

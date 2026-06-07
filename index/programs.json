@@ -1,16 +1,109 @@
 {
-  "531": {
+  "5_3_1": {
     "exercise_refs": [
       "back_squat",
       "bench_press",
       "overhead_press",
       "conventional_deadlift"
     ],
-    "id": 531,
+    "id": "5_3_1",
     "level": "intermediate",
     "name": "5/3/1",
     "path": "programs/powerlifting/5_3_1.md",
     "periodization": "linear",
+    "system": "powerlifting"
+  },
+  "bwf_recommended_routine": {
+    "exercise_refs": [
+      "scapular_pull_up",
+      "pullups",
+      "weighted_pull_ups",
+      "inverted_row",
+      "parallel_bar_dip",
+      "ring_dips",
+      "pushups",
+      "goblet_squat",
+      "romanian_deadlift",
+      "plank",
+      "pallof_press",
+      "reverse_hyperextension"
+    ],
+    "id": "bwf_recommended_routine",
+    "level": "beginner",
+    "name": "BWF Recommended Routine",
+    "path": "programs/calisthenics/bwf_recommended_routine.md",
+    "periodization": "linear",
+    "system": "calisthenics"
+  },
+  "catalyst_12_week": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "snatch_pull",
+      "clean_pull",
+      "back_squat",
+      "front_squat",
+      "power_snatch",
+      "power_clean",
+      "power_jerk",
+      "push_press",
+      "overhead_squat",
+      "good_morning",
+      "stiff_legged_barbell_deadlift"
+    ],
+    "id": "catalyst_12_week",
+    "level": "intermediate",
+    "name": "Catalyst Athletics 12-Week Traditional Cycle",
+    "path": "programs/olympic/catalyst_12_week.md",
+    "periodization": "block",
+    "system": "olympic"
+  },
+  "rp_hypertrophy": {
+    "exercise_refs": [
+      "bench_press",
+      "seated_cable_rows",
+      "pullups",
+      "back_squat",
+      "romanian_deadlift"
+    ],
+    "id": "rp_hypertrophy",
+    "level": "intermediate",
+    "name": "RP Hypertrophy Program",
+    "path": "programs/bodybuilding/rp_hypertrophy.md",
+    "periodization": "block",
+    "system": "bodybuilding"
+  },
+  "starting_strength": {
+    "exercise_refs": [
+      "back_squat",
+      "overhead_press",
+      "conventional_deadlift",
+      "bench_press",
+      "power_clean"
+    ],
+    "id": "starting_strength",
+    "level": "beginner",
+    "name": "Starting Strength",
+    "path": "programs/powerlifting/starting_strength.md",
+    "periodization": "linear",
+    "system": "powerlifting"
+  },
+  "westside_conjugate": {
+    "exercise_refs": [
+      "box_squat",
+      "conventional_deadlift",
+      "sumo_deadlift",
+      "good_morning",
+      "bench_press_with_bands",
+      "board_press",
+      "floor_press",
+      "close_grip_barbell_bench_press"
+    ],
+    "id": "westside_conjugate",
+    "level": "advanced",
+    "name": "Westside Conjugate Method",
+    "path": "programs/powerlifting/westside_conjugate.md",
+    "periodization": "conjugate",
     "system": "powerlifting"
   }
 }

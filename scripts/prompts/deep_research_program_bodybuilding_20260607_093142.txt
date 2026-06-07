@@ -1,0 +1,78 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find the complete protocol details for one well-documented, evidence-informed bodybuilding hypertrophy program. The target program is the **Renaissance Periodization (RP) Hypertrophy Program** by Dr. Mike Israetel (RP Strength). If this is not findable with sufficient detail, use **PHAT (Power Hypertrophy Adaptive Training)** by Layne Norton as the secondary target.
+
+## Search Strategy
+
+1. Search PubMed, RP Strength website, YouTube channel transcripts, and published books
+2. Search terms: "RP Hypertrophy Program structure" OR "Mike Israetel training program mesocycle" OR "Renaissance Periodization program protocol"
+3. For PHAT fallback: "PHAT training program Layne Norton" OR "Power Hypertrophy Adaptive Training protocol"
+4. Find: weekly structure, exercise selection, set/rep prescriptions, progression model, mesocycle length, and deload protocol
+
+## Program Details to Capture
+
+For the chosen program, find:
+- Program name and creator
+- Training goal (hypertrophy, strength, or hybrid)
+- Experience level (beginner / intermediate / advanced)
+- Days per week
+- Mesocycle length (weeks)
+- Progression model — specifically how volume and intensity change week to week
+- Weekly split structure (e.g., Upper/Lower, Push/Pull/Legs, etc.)
+- For each training day: which muscle groups, and representative exercises with sets × reps × load guidance (% 1RM or RPE/RIR)
+- Deload protocol (frequency and volume reduction)
+- Source credibility
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every prescription (sets, reps, % 1RM, RPE) MUST have a source_id.
+- All exercise refs must use snake_case ids matching Barlore exercise ids (e.g. bench_press, not "Bench Press").
+- If a prescription is a range (e.g. 3-4 sets), use the notation: sets_low: 3, sets_high: 4.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+
+## Output Schema
+
+```yaml
+id: rp_hypertrophy_program          # snake_case, no spaces
+name: "RP Hypertrophy Program"
+aliases: ["Renaissance Periodization Hypertrophy"]
+category: program
+system: bodybuilding
+goal: "Maximize muscle hypertrophy via progressive volume overload across a mesocycle"
+level: intermediate
+duration_weeks: 6                   # mesocycle length
+frequency_per_week: 4
+periodization: block
+progression_model: >
+  Volume increases week over week (MEV → MAV → MRV), then a deload week resets
+  fatigue. Intensity (load) stays moderate to allow volume accumulation.
+
+exercises:
+  - ref: bench_press
+    role: primary
+    muscle_group: pectoralis_major
+    frequency_per_week: 2
+    weeks:
+      - week: 1
+        sets: 3
+        reps: [10, 12]
+        intensity:
+          - {rir: 3}
+      - week: 2
+        sets: 4
+        reps: [10, 12]
+        intensity:
+          - {rir: 2}
+
+sources:
+  - source_id: israetel_2019_rp
+    title: "Scientific Principles of Hypertrophy Training"
+    author: "Israetel, Mike"
+    year: 2019
+    credibility: practitioner
+```
+
+After the main program block, output a single merged sources[] list.

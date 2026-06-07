@@ -19,10 +19,29 @@ equipment: [dumbbell, kettlebell]
 difficulty: beginner
 progressions: []
 alternatives: [front_squat, box_squat]
+joint_rom_required:
+  knee_flexion_deg: 120
+  hip_flexion_deg: 115
+  ankle_dorsiflexion: high
+  notes: "Knee 110-130°; hip 110-120°; anterior counterbalance promotes upright torso; ankle demand similar to front squat"
+  source: "Collins et al. 2021; Gullett et al. 2009"
+
+strength_curve:
+  type: ascending
+  sticking_point: bottom_third
+  peak_force_position: lockout
+  notes: "Anterior counterbalance shifts CoM forward, increasing knee flexion moment; sticking point at bottom similar to front squat but lower absolute loads"
+  source: "Collins et al. 2021"
+
 sources:
   - title: "NSCA's Essentials of Strength Training and Conditioning"
     author: "NSCA"
     credibility: expert_consensus
+  - title: "Effects of the goblet squat on muscle activity and kinematics"
+    author: "Collins, K. S., et al."
+    year: 2021
+    doi: null
+    credibility: rct
 ---
 
 # Goblet Squat
