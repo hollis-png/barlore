@@ -1,7 +1,7 @@
 ---
 id: pushups
 name: Pushups
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -15,10 +15,34 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
-- id: deltoid
-  role: secondary
 - id: triceps_brachii
+  role: primary
+- id: deltoid_anterior
   role: secondary
+muscle_activation_studies:
+- source_id: ebd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    variation: standard
+  measurements:
+  - muscle: pectoralis_major
+    mean_pct_mvc: 100
+    sd: null
+    notes: "Range 95-105% MVIC"
+  - muscle: triceps_brachii
+    mean_pct_mvc: 91
+    sd: null
+    notes: "Range 73-109% MVIC"
+joint_rom_required:
+  shoulder_abduction_deg: null
+  notes: "Elbows tucked 45-70 deg relative to torso"
+  source: ebd_2026
+strength_curve:
+  type: ascending
+  sticking_point: bottom_third
+  peak_force_position: bottom
 variations: []
 progressions: []
 alternatives: []
@@ -26,6 +50,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ebd_2026
+  doi: null
+  title: "Exercise Biomechanics Data Extraction: Upper Push Accessories"
+  credibility: literature_compilation
 ---
 
 # Pushups

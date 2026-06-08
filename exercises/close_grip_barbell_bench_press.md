@@ -1,7 +1,7 @@
 ---
 id: close_grip_barbell_bench_press
 name: Close-Grip Barbell Bench Press
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -15,10 +15,49 @@ difficulty:
 muscles:
 - id: triceps_brachii
   role: primary
-- id: pectoralis_major
+- id: pec_major_clavicular
   role: secondary
-- id: deltoid
+- id: pec_major_sternal
   role: secondary
+- id: deltoid_anterior
+  role: secondary
+muscle_activation_studies:
+- source_id: ebd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    grip_width: "50% biacromial distance (BAD)"
+    notes: "Narrow grip, relative comparison"
+  measurements:
+  - muscle: triceps_brachii
+    mean_pct_mvc: 16
+    sd: null
+    notes: "vs 12% at 150% BAD (standard grip)"
+  - muscle: pec_major_sternal
+    mean_pct_mvc: null
+    notes: "Decreased compared to wide-grip variations"
+- source_id: ebd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    grip_width: "standard close grip"
+    load_pct_1rm: 95
+  measurements:
+  - muscle: triceps_lateral
+    mean_pct_mvc: 120
+    sd: null
+    notes: "High-intensity lockout; lateral head dominance"
+joint_rom_required:
+  elbow_flexion_deg: 90
+  shoulder_extension_deg: null
+  notes: "Elbows tucked ~30 deg relative to torso at bottom"
+  source: ebd_2026
+strength_curve:
+  type: ascending
+  sticking_point: mid_range
+  peak_force_position: lockout
 variations: []
 progressions: []
 alternatives: []
@@ -26,6 +65,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ebd_2026
+  doi: null
+  title: "Exercise Biomechanics Data Extraction: Upper Push Accessories"
+  credibility: literature_compilation
 ---
 
 # Close-Grip Barbell Bench Press

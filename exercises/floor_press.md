@@ -1,7 +1,7 @@
 ---
 id: floor_press
 name: Floor Press
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -17,8 +17,18 @@ muscles:
   role: primary
 - id: pectoralis_major
   role: secondary
-- id: deltoid
+- id: deltoid_anterior
   role: secondary
+joint_rom_required:
+  shoulder_extension_deg: 0
+  elbow_flexion_deg: 90
+  notes: "Arms parallel to floor at bottom; shoulder extension limited by floor contact"
+  source: ebd_2026
+strength_curve:
+  type: ascending
+  sticking_point: bottom
+  peak_force_position: lockout
+  notes: "No stretch reflex; sticking point is dead stop off the floor"
 variations: []
 progressions: []
 alternatives: []
@@ -26,6 +36,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ebd_2026
+  doi: null
+  title: "Exercise Biomechanics Data Extraction: Upper Push Accessories"
+  credibility: literature_compilation
 ---
 
 # Floor Press

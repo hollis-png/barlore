@@ -3493,14 +3493,91 @@
     "id": "bent_over_barbell_row",
     "injury_risk": null,
     "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "grip": "wide",
+          "phase": "concentric",
+          "variation": "bent_over_barbell_row"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 72.8,
+            "muscle": "erector_spinae",
+            "notes": "Left upper erector spinae (LUES), concentric phase",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "latissimus_dorsi",
+            "notes": "High activation; increases significantly with wider grip"
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      },
+      {
+        "condition": {
+          "grip": "wide",
+          "phase": "eccentric",
+          "variation": "bent_over_barbell_row"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 54.1,
+            "muscle": "erector_spinae",
+            "notes": "Left upper erector spinae (LUES), eccentric phase",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      },
+      {
+        "condition": {
+          "grip": "wide",
+          "phase": "isometric",
+          "variation": "bent_over_barbell_row"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 42.9,
+            "muscle": "erector_spinae",
+            "notes": "Lumbar erector spinae (RLES 42.5%, LLES 43.3%) isometric",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 8.2,
+            "muscle": "rectus_femoris",
+            "notes": "Right rectus femoris stabilization",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      }
+    ],
     "muscles": [
+      {
+        "id": "latissimus_dorsi",
+        "role": "primary"
+      },
       {
         "id": "rhomboids",
         "role": "primary"
       },
       {
-        "id": "trapezius",
+        "id": "trap_middle",
+        "role": "primary"
+      },
+      {
+        "id": "erector_spinae",
         "role": "primary"
       },
       {
@@ -3508,11 +3585,11 @@
         "role": "secondary"
       },
       {
-        "id": "latissimus_dorsi",
+        "id": "deltoid_posterior",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "rectus_femoris",
         "role": "secondary"
       }
     ],
@@ -3523,8 +3600,12 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "mid_range",
+      "sticking_point": "terminal_lockout",
+      "type": "descending"
+    },
     "variations": []
   },
   "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": {
@@ -6570,19 +6651,70 @@
     ],
     "id": "close_grip_barbell_bench_press",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": 90,
+      "notes": "Elbows tucked ~30 deg relative to torso at bottom",
+      "shoulder_extension_deg": null,
+      "source": "ebd_2026"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "grip_width": "50% biacromial distance (BAD)",
+          "notes": "Narrow grip, relative comparison"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 16,
+            "muscle": "triceps_brachii",
+            "notes": "vs 12% at 150% BAD (standard grip)",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pec_major_sternal",
+            "notes": "Decreased compared to wide-grip variations"
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ebd_2026"
+      },
+      {
+        "condition": {
+          "grip_width": "standard close grip",
+          "load_pct_1rm": 95
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 120,
+            "muscle": "triceps_lateral",
+            "notes": "High-intensity lockout; lateral head dominance",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ebd_2026"
+      }
+    ],
     "muscles": [
       {
         "id": "triceps_brachii",
         "role": "primary"
       },
       {
-        "id": "pectoralis_major",
+        "id": "pec_major_clavicular",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "pec_major_sternal",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
@@ -6593,8 +6725,12 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "lockout",
+      "sticking_point": "mid_range",
+      "type": "ascending"
+    },
     "variations": []
   },
   "close_grip_dumbbell_press": {
@@ -10567,7 +10703,12 @@
     ],
     "id": "floor_press",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 90,
+      "notes": "Arms parallel to floor at bottom; shoulder extension limited by floor contact",
+      "shoulder_extension_deg": 0,
+      "source": "ebd_2026"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -10579,7 +10720,7 @@
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
@@ -10590,8 +10731,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "No stretch reflex; sticking point is dead stop off the floor",
+      "peak_force_position": "lockout",
+      "sticking_point": "bottom",
+      "type": "ascending"
+    },
     "variations": []
   },
   "floor_press_with_chains": {
@@ -11701,11 +11847,151 @@
     ],
     "id": "good_morning",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "hip_flexion_deg": 75.8,
+      "knee_flexion_deg": 23.1,
+      "source": "vigotsky_2015"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "full_rep"
+        },
+        "doi": "10.7717/peerj.708",
+        "measurements": [
+          {
+            "mean_pct_mvc": 26.2,
+            "muscle": "semitendinosus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 19.5,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 50.8,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": null,
+        "source_id": "vigotsky_2015"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 60,
+          "phase": "full_rep"
+        },
+        "doi": "10.7717/peerj.708",
+        "measurements": [
+          {
+            "mean_pct_mvc": 28.4,
+            "muscle": "semitendinosus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 19.3,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 54.9,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": null,
+        "source_id": "vigotsky_2015"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 70,
+          "phase": "full_rep"
+        },
+        "doi": "10.7717/peerj.708",
+        "measurements": [
+          {
+            "mean_pct_mvc": 34.4,
+            "muscle": "semitendinosus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 24.2,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 61.5,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": null,
+        "source_id": "vigotsky_2015"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 80,
+          "phase": "full_rep"
+        },
+        "doi": "10.7717/peerj.708",
+        "measurements": [
+          {
+            "mean_pct_mvc": 37.3,
+            "muscle": "semitendinosus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 26.4,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 73.1,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": null,
+        "source_id": "vigotsky_2015"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "full_rep"
+        },
+        "doi": "10.7717/peerj.708",
+        "measurements": [
+          {
+            "mean_pct_mvc": 39.9,
+            "muscle": "semitendinosus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 30.4,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 70.9,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": null,
+        "source_id": "vigotsky_2015"
+      }
+    ],
     "muscles": [
       {
-        "id": "biceps_femoris",
+        "id": "erector_spinae",
         "role": "primary"
       },
       {
@@ -11713,7 +11999,7 @@
         "role": "primary"
       },
       {
-        "id": "rectus_abdominis",
+        "id": "biceps_femoris",
         "role": "secondary"
       },
       {
@@ -11721,11 +12007,11 @@
         "role": "secondary"
       },
       {
-        "id": "erector_spinae",
+        "id": "multifidus",
         "role": "secondary"
       },
       {
-        "id": "multifidus",
+        "id": "rectus_abdominis",
         "role": "secondary"
       }
     ],
@@ -11736,8 +12022,11 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "type": "descending"
+    },
     "variations": []
   },
   "good_morning_off_pins": {
@@ -13083,11 +13372,15 @@
     "muscle_activation_studies": [],
     "muscles": [
       {
+        "id": "pec_major_clavicular",
+        "role": "primary"
+      },
+      {
         "id": "pectoralis_major",
         "role": "primary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       },
       {
@@ -13102,8 +13395,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Targets clavicular pec head; allows greater ROM than barbell incline",
+      "peak_force_position": "lockout",
+      "sticking_point": "bottom_third",
+      "type": "ascending"
+    },
     "variations": []
   },
   "incline_hammer_curls": {
@@ -13426,18 +13724,69 @@
     "id": "inverted_row",
     "injury_risk": null,
     "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "grip": "overhand",
+          "variation": "inverted_row"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 99.3,
+            "muscle": "latissimus_dorsi",
+            "sd": 53.3
+          },
+          {
+            "mean_pct_mvc": 98.6,
+            "muscle": "trap_middle",
+            "sd": 35.6
+          },
+          {
+            "mean_pct_mvc": 103.4,
+            "muscle": "deltoid_posterior",
+            "sd": 35.7
+          },
+          {
+            "mean_pct_mvc": 67.9,
+            "muscle": "biceps_brachii",
+            "sd": 20.1
+          },
+          {
+            "mean_pct_mvc": 29.3,
+            "muscle": "erector_spinae",
+            "notes": "LUES isometric 29.9%, RLES isometric 28.7%",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      }
+    ],
     "muscles": [
       {
-        "id": "rhomboids",
-        "role": "primary"
-      },
-      {
-        "id": "trapezius",
-        "role": "primary"
-      },
-      {
         "id": "latissimus_dorsi",
+        "role": "primary"
+      },
+      {
+        "id": "trap_middle",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_posterior",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "rhomboids",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
         "role": "secondary"
       }
     ],
@@ -13448,8 +13797,12 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "first_quarter",
+      "sticking_point": "top_quarter",
+      "type": "descending"
+    },
     "variations": []
   },
   "inverted_row_with_straps": {
@@ -19622,8 +19975,53 @@
     "equipment": [],
     "id": "parallel_bar_dip",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": 90,
+      "shoulder_extension_deg": 78.2,
+      "source": "ebd_2026"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "elbow_angle_deg": 75,
+          "phase": "concentric"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 55.7,
+            "muscle": "triceps_long",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 41.76,
+            "muscle": "triceps_lateral",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ebd_2026"
+      },
+      {
+        "condition": {
+          "elbow_angle_deg": 95,
+          "notes": "Forward lean increases pec recruitment",
+          "torso_lean_deg": 15
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 95,
+            "muscle": "pectoralis_major",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ebd_2026"
+      }
+    ],
     "muscles": [
       {
         "id": "triceps_brachii",
@@ -19631,22 +20029,26 @@
       },
       {
         "id": "pectoralis_major",
-        "role": "secondary"
+        "role": "primary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
     "name": "Parallel Bar Dip",
     "path": "exercises/parallel_bar_dip.md",
     "pattern": [
-      "horizontal press"
+      "vertical_press"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "sticking_point": "lower_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "physioball_hip_bridge": {
@@ -20672,11 +21074,104 @@
     ],
     "id": "pullups",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_chinup_deg": 100.6,
+      "elbow_flexion_pullup_deg": 93.4,
+      "shoulder_flexion_deg": 180,
+      "source": "ssd_2026"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "grip": "pronated",
+          "width": "shoulder-width"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 123.5,
+            "muscle": "latissimus_dorsi",
+            "notes": "Range 117-130% MVIC",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 78.0,
+            "muscle": "biceps_brachii",
+            "sd": 32.0
+          },
+          {
+            "mean_pct_mvc": 56.0,
+            "muscle": "trap_lower",
+            "sd": 21.0
+          },
+          {
+            "mean_pct_mvc": 79.0,
+            "muscle": "infraspinatus",
+            "sd": 56.0
+          },
+          {
+            "mean_pct_mvc": 44.0,
+            "muscle": "pectoralis_major",
+            "sd": 27.0
+          },
+          {
+            "mean_pct_mvc": 40.0,
+            "muscle": "erector_spinae",
+            "notes": "Range 39-41% MVIC (isometric)",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 33.0,
+            "muscle": "external_oblique",
+            "notes": "Range 31-35% MVIC (isometric)",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      },
+      {
+        "condition": {
+          "grip": "supinated",
+          "notes": "Chin-up",
+          "width": "shoulder-width"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 117.0,
+            "muscle": "latissimus_dorsi",
+            "sd": 46.0
+          },
+          {
+            "mean_pct_mvc": 96.0,
+            "muscle": "biceps_brachii",
+            "sd": 34.0
+          },
+          {
+            "mean_pct_mvc": 45.0,
+            "muscle": "trap_lower",
+            "sd": 22.0
+          },
+          {
+            "mean_pct_mvc": 57.0,
+            "muscle": "pectoralis_major",
+            "sd": 36.0
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ssd_2026"
+      }
+    ],
     "muscles": [
       {
         "id": "latissimus_dorsi",
+        "role": "primary"
+      },
+      {
+        "id": "infraspinatus",
         "role": "primary"
       },
       {
@@ -20684,23 +21179,47 @@
         "role": "secondary"
       },
       {
-        "id": "rhomboids",
+        "id": "trap_lower",
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "pectoralis_major",
+        "role": "secondary"
+      },
+      {
+        "id": "teres_major",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_posterior",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "secondary"
+      },
+      {
+        "id": "external_oblique",
+        "role": "secondary"
+      },
+      {
+        "id": "rhomboids",
         "role": "secondary"
       }
     ],
     "name": "Pullups",
     "path": "exercises/pullups.md",
     "pattern": [
-      "hinge"
+      "vertical_pull"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom_third",
+      "sticking_point": "top_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "push_press": {
@@ -20716,11 +21235,24 @@
     ],
     "id": "push_press",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "knee_flexion_deg": null,
+      "notes": "Shallow dip ~10-15% of height; terminal overhead lockout at 180 deg",
+      "shoulder_flexion_deg": 180,
+      "source": "ebd_2026"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_lateral",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_brachii",
         "role": "primary"
       },
       {
@@ -20736,19 +21268,28 @@
         "role": "secondary"
       },
       {
-        "id": "triceps_brachii",
+        "id": "erector_spinae",
+        "role": "secondary"
+      },
+      {
+        "id": "external_oblique",
         "role": "secondary"
       }
     ],
     "name": "Push Press",
     "path": "exercises/push_press.md",
     "pattern": [
-      "horizontal press"
+      "vertical_press"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Lower body drive bypasses the strict press sticking point at chin-eye level",
+      "peak_force_position": "dip_to_drive_transition",
+      "sticking_point": "terminal_lockout",
+      "type": "accommodated"
+    },
     "variations": []
   },
   "push_press_behind_the_neck": {
@@ -21028,19 +21569,47 @@
     ],
     "id": "pushups",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "notes": "Elbows tucked 45-70 deg relative to torso",
+      "shoulder_abduction_deg": null,
+      "source": "ebd_2026"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "variation": "standard"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 100,
+            "muscle": "pectoralis_major",
+            "notes": "Range 95-105% MVIC",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 91,
+            "muscle": "triceps_brachii",
+            "notes": "Range 73-109% MVIC",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": null,
+        "source_id": "ebd_2026"
+      }
+    ],
     "muscles": [
       {
         "id": "pectoralis_major",
         "role": "primary"
       },
       {
-        "id": "deltoid",
-        "role": "secondary"
+        "id": "triceps_brachii",
+        "role": "primary"
       },
       {
-        "id": "triceps_brachii",
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
@@ -21051,8 +21620,12 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "sticking_point": "bottom_third",
+      "type": "ascending"
+    },
     "variations": []
   },
   "pushups_close_and_wide_hand_positions": {
@@ -21940,16 +22513,224 @@
     ],
     "id": "reverse_hyperextension",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "hip_flexion_deg": 76.6,
+      "source": "dicus_2023"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "concentric"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 81.6,
+            "muscle": "erector_spinae",
+            "sd": 5.9
+          },
+          {
+            "mean_pct_mvc": 89.8,
+            "muscle": "multifidus",
+            "sd": 7.2
+          },
+          {
+            "mean_pct_mvc": 64.3,
+            "muscle": "gluteus_maximus",
+            "sd": 9.5
+          },
+          {
+            "mean_pct_mvc": 70.8,
+            "muscle": "biceps_femoris",
+            "sd": 7.0
+          },
+          {
+            "mean_pct_mvc": 57.1,
+            "muscle": "semitendinosus",
+            "sd": 8.9
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "eccentric"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 54.6,
+            "muscle": "erector_spinae",
+            "sd": 6.0
+          },
+          {
+            "mean_pct_mvc": 59.0,
+            "muscle": "multifidus",
+            "sd": 5.1
+          },
+          {
+            "mean_pct_mvc": 36.3,
+            "muscle": "gluteus_maximus",
+            "sd": 4.1
+          },
+          {
+            "mean_pct_mvc": 55.6,
+            "muscle": "biceps_femoris",
+            "sd": 8.1
+          },
+          {
+            "mean_pct_mvc": 43.8,
+            "muscle": "semitendinosus",
+            "sd": 9.5
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "full_rep"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 66.6,
+            "muscle": "erector_spinae",
+            "sd": 4.4
+          },
+          {
+            "mean_pct_mvc": 72.8,
+            "muscle": "multifidus",
+            "sd": 4.6
+          },
+          {
+            "mean_pct_mvc": 49.1,
+            "muscle": "gluteus_maximus",
+            "sd": 5.8
+          },
+          {
+            "mean_pct_mvc": 62.4,
+            "muscle": "biceps_femoris",
+            "sd": 6.5
+          },
+          {
+            "mean_pct_mvc": 49.4,
+            "muscle": "semitendinosus",
+            "sd": 7.8
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": null,
+          "phase": "concentric"
+        },
+        "doi": "10.1519/JSC.0000000000004049",
+        "measurements": [
+          {
+            "mean_pct_mvc": 71.0,
+            "muscle": "erector_spinae",
+            "sd": 20.5
+          },
+          {
+            "mean_pct_mvc": 23.4,
+            "muscle": "gluteus_maximus",
+            "sd": 15.8
+          },
+          {
+            "mean_pct_mvc": 39.7,
+            "muscle": "biceps_femoris",
+            "sd": 13.4
+          }
+        ],
+        "n": 10,
+        "population": null,
+        "source_id": "cuthbert_2021"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": null,
+          "phase": "eccentric"
+        },
+        "doi": "10.1519/JSC.0000000000004049",
+        "measurements": [
+          {
+            "mean_pct_mvc": 51.8,
+            "muscle": "erector_spinae",
+            "sd": 16.1
+          },
+          {
+            "mean_pct_mvc": 18.6,
+            "muscle": "gluteus_maximus",
+            "sd": 9.2
+          },
+          {
+            "mean_pct_mvc": 28.3,
+            "muscle": "biceps_femoris",
+            "sd": 2.3
+          }
+        ],
+        "n": 10,
+        "population": null,
+        "source_id": "cuthbert_2021"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": null,
+          "phase": "full_rep"
+        },
+        "doi": "10.1519/JSC.0000000000003146",
+        "measurements": [
+          {
+            "mean_pct_mvc": 36.9,
+            "muscle": "erector_spinae",
+            "sd": 25.4
+          },
+          {
+            "mean_pct_mvc": 50.1,
+            "muscle": "gluteus_maximus",
+            "sd": 23.7
+          },
+          {
+            "mean_pct_mvc": 44.7,
+            "muscle": "biceps_femoris",
+            "sd": 31.3
+          }
+        ],
+        "n": 20,
+        "population": null,
+        "source_id": "lawrence_2019"
+      }
+    ],
     "muscles": [
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
+      {
+        "id": "multifidus",
+        "role": "primary"
+      },
       {
         "id": "biceps_femoris",
         "role": "primary"
       },
       {
+        "id": "gluteus_maximus",
+        "role": "secondary"
+      },
+      {
         "id": "semitendinosus",
-        "role": "primary"
+        "role": "secondary"
       },
       {
         "id": "gastrocnemius",
@@ -21957,10 +22738,6 @@
       },
       {
         "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
         "role": "secondary"
       }
     ],
@@ -21971,8 +22748,11 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "lockout",
+      "type": "ascending"
+    },
     "variations": []
   },
   "reverse_machine_flyes": {
@@ -22236,7 +23016,12 @@
     "equipment": [],
     "id": "ring_dips",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 90,
+      "notes": "Reduced shoulder extension vs bar dip (78.20 deg) due to ring instability",
+      "shoulder_extension_deg": 61.72,
+      "source": "ebd_2026"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -22245,22 +23030,34 @@
       },
       {
         "id": "pectoralis_major",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "latissimus_dorsi",
+        "role": "secondary"
+      },
+      {
+        "id": "trap_lower",
         "role": "secondary"
       }
     ],
     "name": "Ring Dips",
     "path": "exercises/ring_dips.md",
     "pattern": [
-      "horizontal press"
+      "vertical_press"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "eccentric_concentric_transition",
+      "sticking_point": "bottom_and_lockout",
+      "type": "descending_to_flat"
+    },
     "variations": []
   },
   "rocking_standing_calf_raise": {
@@ -22358,9 +23155,164 @@
     ],
     "id": "romanian_deadlift",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "hip_flexion_deg": 79.97,
+      "knee_flexion_deg": 33.86,
+      "source": "lee_2018"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "knee_flexion_deg": 15,
+          "load_pct_1rm": 50,
+          "phase": "concentric"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 69.2,
+            "muscle": "erector_spinae",
+            "sd": 5.9
+          },
+          {
+            "mean_pct_mvc": 75.5,
+            "muscle": "multifidus",
+            "sd": 6.0
+          },
+          {
+            "mean_pct_mvc": 44.3,
+            "muscle": "gluteus_maximus",
+            "sd": 7.6
+          },
+          {
+            "mean_pct_mvc": 52.6,
+            "muscle": "biceps_femoris",
+            "sd": 5.4
+          },
+          {
+            "mean_pct_mvc": 45.6,
+            "muscle": "semitendinosus",
+            "sd": 6.7
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "knee_flexion_deg": 15,
+          "load_pct_1rm": 50,
+          "phase": "eccentric"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 49.2,
+            "muscle": "erector_spinae",
+            "sd": 3.8
+          },
+          {
+            "mean_pct_mvc": 52.2,
+            "muscle": "multifidus",
+            "sd": 3.2
+          },
+          {
+            "mean_pct_mvc": 20.6,
+            "muscle": "gluteus_maximus",
+            "sd": 3.4
+          },
+          {
+            "mean_pct_mvc": 23.5,
+            "muscle": "biceps_femoris",
+            "sd": 3.5
+          },
+          {
+            "mean_pct_mvc": 21.8,
+            "muscle": "semitendinosus",
+            "sd": 2.7
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "knee_flexion_deg": 15,
+          "load_pct_1rm": 50,
+          "phase": "full_rep"
+        },
+        "doi": "10.70252/ZAOJ6139",
+        "measurements": [
+          {
+            "mean_pct_mvc": 56.7,
+            "muscle": "erector_spinae",
+            "sd": 3.8
+          },
+          {
+            "mean_pct_mvc": 61.2,
+            "muscle": "multifidus",
+            "sd": 3.5
+          },
+          {
+            "mean_pct_mvc": 29.6,
+            "muscle": "gluteus_maximus",
+            "sd": 5.0
+          },
+          {
+            "mean_pct_mvc": 34.5,
+            "muscle": "biceps_femoris",
+            "sd": 4.2
+          },
+          {
+            "mean_pct_mvc": 31.2,
+            "muscle": "semitendinosus",
+            "sd": 4.2
+          }
+        ],
+        "n": null,
+        "population": "apparently healthy young males",
+        "source_id": "dicus_2023"
+      },
+      {
+        "condition": {
+          "knee_flexion_deg": 33.86,
+          "load_pct_1rm": 70,
+          "phase": "full_rep"
+        },
+        "doi": "10.1016/j.jesf.2018.08.001",
+        "measurements": [
+          {
+            "mean_pct_mvc": 25.26,
+            "muscle": "rectus_femoris",
+            "sd": 14.21
+          },
+          {
+            "mean_pct_mvc": 56.66,
+            "muscle": "biceps_femoris",
+            "sd": 18.56
+          },
+          {
+            "mean_pct_mvc": 46.88,
+            "muscle": "gluteus_maximus",
+            "sd": 7.39
+          }
+        ],
+        "n": 21,
+        "population": "experienced males",
+        "source_id": "lee_2018"
+      }
+    ],
     "muscles": [
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
+      {
+        "id": "multifidus",
+        "role": "primary"
+      },
       {
         "id": "biceps_femoris",
         "role": "primary"
@@ -22370,23 +23322,19 @@
         "role": "primary"
       },
       {
+        "id": "gluteus_maximus",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "secondary"
+      },
+      {
         "id": "gastrocnemius",
         "role": "secondary"
       },
       {
         "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
         "role": "secondary"
       }
     ],
@@ -22397,8 +23345,11 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "type": "descending"
+    },
     "variations": []
   },
   "romanian_deadlift_from_deficit": {
@@ -28091,15 +29042,60 @@
     "id": "stiff_legged_barbell_deadlift",
     "injury_risk": null,
     "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 70,
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 98.6,
+            "muscle": "biceps_femoris",
+            "sd": 28.5
+          },
+          {
+            "mean_pct_mvc": 101.1,
+            "muscle": "vastus_lateralis",
+            "sd": 14.6
+          },
+          {
+            "mean_pct_mvc": 106.0,
+            "muscle": "multifidus",
+            "sd": 20.5
+          },
+          {
+            "mean_pct_mvc": 108.3,
+            "muscle": "gastrocnemius",
+            "sd": 16.3
+          }
+        ],
+        "n": 14,
+        "population": "recreationally trained males",
+        "source_id": "miranda_2013"
+      }
+    ],
     "muscles": [
       {
         "id": "biceps_femoris",
         "role": "primary"
       },
       {
-        "id": "semitendinosus",
+        "id": "multifidus",
         "role": "primary"
+      },
+      {
+        "id": "gastrocnemius",
+        "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
       },
       {
         "id": "gluteus_maximus",
@@ -28107,10 +29103,6 @@
       },
       {
         "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
         "role": "secondary"
       }
     ],
@@ -28121,8 +29113,11 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "type": "descending"
+    },
     "variations": []
   },
   "stiff_legged_dumbbell_deadlift": {
@@ -28342,16 +29337,126 @@
     ],
     "id": "sumo_deadlift",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 15.0,
+      "hip_flexion_deg": 39.9,
+      "knee_flexion_deg": 38.1,
+      "source": "hanen_2025"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 85,
+          "notes": "Phase 1 (liftoff to knee)",
+          "phase": "concentric"
+        },
+        "doi": "10.3389/fbioe.2025.1597209",
+        "measurements": [
+          {
+            "mean_pct_mvc": 71.3,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 71.2,
+            "muscle": "gluteus_maximus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 63.3,
+            "muscle": "vastus_lateralis",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 74.7,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 30,
+        "population": null,
+        "source_id": "hanen_2025"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 85,
+          "notes": "Phase 2 (knee to lockout)",
+          "phase": "concentric"
+        },
+        "doi": "10.3389/fbioe.2025.1597209",
+        "measurements": [
+          {
+            "mean_pct_mvc": 69.9,
+            "muscle": "biceps_femoris",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 74.2,
+            "muscle": "gluteus_maximus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 40.0,
+            "muscle": "vastus_lateralis",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 67.0,
+            "muscle": "erector_spinae",
+            "sd": null
+          }
+        ],
+        "n": 30,
+        "population": null,
+        "source_id": "hanen_2025"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": null,
+          "phase": "full_rep"
+        },
+        "doi": "10.1097/00005768-200204000-00019",
+        "measurements": [
+          {
+            "mean_pct_mvc": 48,
+            "muscle": "vastus_lateralis",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 44,
+            "muscle": "vastus_medialis",
+            "sd": null
+          }
+        ],
+        "n": 13,
+        "population": null,
+        "source_id": "escamilla_2002"
+      }
+    ],
     "muscles": [
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
       {
         "id": "biceps_femoris",
         "role": "primary"
       },
       {
-        "id": "semitendinosus",
+        "id": "gluteus_maximus",
         "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "primary"
+      },
+      {
+        "id": "vastus_medialis",
+        "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
       },
       {
         "id": "adductor_magnus",
@@ -28359,18 +29464,6 @@
       },
       {
         "id": "adductor_longus",
-        "role": "secondary"
-      },
-      {
-        "id": "forearm_flexors",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
-        "id": "erector_spinae",
         "role": "secondary"
       },
       {
@@ -28382,19 +29475,11 @@
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "trap_upper",
         "role": "secondary"
       },
       {
-        "id": "rectus_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_lateralis",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_medialis",
+        "id": "forearm_flexors",
         "role": "secondary"
       }
     ],
@@ -28405,8 +29490,11 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "peak_force_position": "bottom",
+      "type": "descending"
+    },
     "variations": []
   },
   "sumo_deadlift_with_bands": {

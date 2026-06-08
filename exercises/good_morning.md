@@ -1,7 +1,7 @@
 ---
 id: good_morning
 name: Good Morning
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,18 +13,111 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
-- id: biceps_femoris
+- id: erector_spinae
   role: primary
 - id: semitendinosus
   role: primary
-- id: rectus_abdominis
+- id: biceps_femoris
   role: secondary
 - id: gluteus_maximus
   role: secondary
-- id: erector_spinae
-  role: secondary
 - id: multifidus
   role: secondary
+- id: rectus_abdominis
+  role: secondary
+muscle_activation_studies:
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  n: 15
+  population: null
+  condition:
+    load_pct_1rm: 50
+    phase: full_rep
+  measurements:
+  - muscle: semitendinosus
+    mean_pct_mvc: 26.2
+    sd: null
+  - muscle: biceps_femoris
+    mean_pct_mvc: 19.5
+    sd: null
+  - muscle: erector_spinae
+    mean_pct_mvc: 50.8
+    sd: null
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  n: 15
+  population: null
+  condition:
+    load_pct_1rm: 60
+    phase: full_rep
+  measurements:
+  - muscle: semitendinosus
+    mean_pct_mvc: 28.4
+    sd: null
+  - muscle: biceps_femoris
+    mean_pct_mvc: 19.3
+    sd: null
+  - muscle: erector_spinae
+    mean_pct_mvc: 54.9
+    sd: null
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  n: 15
+  population: null
+  condition:
+    load_pct_1rm: 70
+    phase: full_rep
+  measurements:
+  - muscle: semitendinosus
+    mean_pct_mvc: 34.4
+    sd: null
+  - muscle: biceps_femoris
+    mean_pct_mvc: 24.2
+    sd: null
+  - muscle: erector_spinae
+    mean_pct_mvc: 61.5
+    sd: null
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  n: 15
+  population: null
+  condition:
+    load_pct_1rm: 80
+    phase: full_rep
+  measurements:
+  - muscle: semitendinosus
+    mean_pct_mvc: 37.3
+    sd: null
+  - muscle: biceps_femoris
+    mean_pct_mvc: 26.4
+    sd: null
+  - muscle: erector_spinae
+    mean_pct_mvc: 73.1
+    sd: null
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  n: 15
+  population: null
+  condition:
+    load_pct_1rm: 90
+    phase: full_rep
+  measurements:
+  - muscle: semitendinosus
+    mean_pct_mvc: 39.9
+    sd: null
+  - muscle: biceps_femoris
+    mean_pct_mvc: 30.4
+    sd: null
+  - muscle: erector_spinae
+    mean_pct_mvc: 70.9
+    sd: null
+joint_rom_required:
+  hip_flexion_deg: 75.8
+  knee_flexion_deg: 23.1
+  source: vigotsky_2015
+strength_curve:
+  type: descending
+  peak_force_position: bottom
 variations: []
 progressions: []
 alternatives: []
@@ -32,6 +125,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: vigotsky_2015
+  doi: "10.7717/peerj.708"
+  title: "Barbell good morning: EMG across load conditions"
+  credibility: peer_reviewed
 ---
 
 # Good Morning

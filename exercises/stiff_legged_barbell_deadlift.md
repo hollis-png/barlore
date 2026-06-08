@@ -1,7 +1,7 @@
 ---
 id: stiff_legged_barbell_deadlift
 name: Stiff-Legged Barbell Deadlift
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -15,14 +15,42 @@ difficulty:
 muscles:
 - id: biceps_femoris
   role: primary
-- id: semitendinosus
+- id: multifidus
   role: primary
+- id: gastrocnemius
+  role: primary
+- id: vastus_lateralis
+  role: secondary
+- id: semitendinosus
+  role: secondary
 - id: gluteus_maximus
   role: secondary
 - id: erector_spinae
   role: secondary
-- id: multifidus
-  role: secondary
+muscle_activation_studies:
+- source_id: miranda_2013
+  doi: null
+  n: 14
+  population: "recreationally trained males"
+  condition:
+    load_pct_1rm: 70
+    phase: full_rep
+  measurements:
+  - muscle: biceps_femoris
+    mean_pct_mvc: 98.6
+    sd: 28.5
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 101.1
+    sd: 14.6
+  - muscle: multifidus
+    mean_pct_mvc: 106.0
+    sd: 20.5
+  - muscle: gastrocnemius
+    mean_pct_mvc: 108.3
+    sd: 16.3
+strength_curve:
+  type: descending
+  peak_force_position: bottom
 variations: []
 progressions: []
 alternatives: []
@@ -30,6 +58,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: miranda_2013
+  doi: null
+  title: "EMG comparison of hip hinge variations"
+  credibility: peer_reviewed
 ---
 
 # Stiff-Legged Barbell Deadlift

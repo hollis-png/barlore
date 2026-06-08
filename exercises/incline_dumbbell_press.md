@@ -1,7 +1,7 @@
 ---
 id: incline_dumbbell_press
 name: Incline Dumbbell Press
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,12 +13,19 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
+- id: pec_major_clavicular
+  role: primary
 - id: pectoralis_major
   role: primary
-- id: deltoid
+- id: deltoid_anterior
   role: secondary
 - id: triceps_brachii
   role: secondary
+strength_curve:
+  type: ascending
+  sticking_point: bottom_third
+  peak_force_position: lockout
+  notes: "Targets clavicular pec head; allows greater ROM than barbell incline"
 variations: []
 progressions: []
 alternatives: []
@@ -26,6 +33,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ebd_2026
+  doi: null
+  title: "Exercise Biomechanics Data Extraction: Upper Push Accessories"
+  credibility: literature_compilation
 ---
 
 # Incline Dumbbell Press

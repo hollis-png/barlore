@@ -221,6 +221,7 @@
     "incline_push_up_medium",
     "incline_push_up_reverse_grip",
     "incline_push_up_wide",
+    "inverted_row",
     "inverted_row_with_straps",
     "isometric_wipers",
     "jerk_balance",
@@ -592,6 +593,7 @@
     "power_stairs",
     "pull_through",
     "pullups",
+    "push_press",
     "rack_delivery",
     "rack_pull_with_bands",
     "rack_pulls",
@@ -601,8 +603,10 @@
     "reverse_band_power_squat",
     "reverse_band_sumo_deadlift",
     "reverse_grip_bent_over_rows",
+    "reverse_hyperextension",
     "rickshaw_carry",
     "rickshaw_deadlift",
+    "ring_dips",
     "rocky_pull_ups_pulldowns",
     "romanian_deadlift",
     "romanian_deadlift_from_deficit",
@@ -794,6 +798,7 @@
     "standing_barbell_calf_raise",
     "standing_calf_raises",
     "standing_dumbbell_calf_raise",
+    "stiff_legged_barbell_deadlift",
     "suspended_split_squat",
     "tire_flip",
     "two_arm_kettlebell_clean",
@@ -891,6 +896,7 @@
     "pin_presses",
     "plyo_kettlebell_pushups",
     "press_sit_up",
+    "pullups",
     "push_up_to_side_plank",
     "push_up_wide",
     "push_ups_close_triceps_position",
@@ -1023,6 +1029,8 @@
     "plie_dumbbell_squat",
     "power_jerk",
     "press_sit_up",
+    "pullups",
+    "push_press",
     "push_up_to_side_plank",
     "push_up_wide",
     "reverse_crunch",
@@ -1053,10 +1061,35 @@
     "yoke_walk"
   ],
   "deltoid": [
-    "bench_press"
+    "bench_press",
+    "bent_over_barbell_row",
+    "close_grip_barbell_bench_press",
+    "floor_press",
+    "incline_dumbbell_press",
+    "inverted_row",
+    "parallel_bar_dip",
+    "pullups",
+    "push_press",
+    "pushups",
+    "ring_dips"
   ],
   "deltoid_anterior": [
-    "bench_press"
+    "bench_press",
+    "close_grip_barbell_bench_press",
+    "floor_press",
+    "incline_dumbbell_press",
+    "parallel_bar_dip",
+    "push_press",
+    "pushups",
+    "ring_dips"
+  ],
+  "deltoid_lateral": [
+    "push_press"
+  ],
+  "deltoid_posterior": [
+    "bent_over_barbell_row",
+    "inverted_row",
+    "pullups"
   ],
   "erector_spinae": [
     "alternating_hang_clean",
@@ -1075,6 +1108,7 @@
     "barbell_side_split_squat",
     "barbell_squat",
     "barbell_squat_to_a_bench",
+    "bent_over_barbell_row",
     "bent_over_low_pulley_side_lateral",
     "bent_over_one_arm_long_bar_row",
     "bent_press",
@@ -1108,6 +1142,7 @@
     "hanging_bar_good_morning",
     "hyperextensions_back_extensions",
     "hyperextensions_with_no_hyperextension_bench",
+    "inverted_row",
     "iron_cross",
     "jefferson_squats",
     "keg_load",
@@ -1132,12 +1167,15 @@
     "power_snatch_from_blocks",
     "power_stairs",
     "pull_through",
+    "pullups",
+    "push_press",
     "rack_pull_with_bands",
     "rack_pulls",
     "reverse_band_box_squat",
     "reverse_band_deadlift",
     "reverse_band_power_squat",
     "reverse_band_sumo_deadlift",
+    "reverse_hyperextension",
     "rickshaw_carry",
     "rickshaw_deadlift",
     "romanian_deadlift",
@@ -1172,6 +1210,10 @@
     "wide_stance_barbell_squat",
     "wide_stance_stiff_legs",
     "yoke_walk"
+  ],
+  "external_oblique": [
+    "pullups",
+    "push_press"
   ],
   "forearm_flexors": [
     "alternate_hammer_curl",
@@ -1881,6 +1923,9 @@
     "yoke_walk",
     "zercher_squats"
   ],
+  "infraspinatus": [
+    "pullups"
+  ],
   "latissimus_dorsi": [
     "alternating_kettlebell_row",
     "alternating_renegade_row",
@@ -1932,6 +1977,7 @@
     "pullups",
     "reverse_band_bench_press",
     "reverse_grip_bent_over_rows",
+    "ring_dips",
     "rocky_pull_ups_pulldowns",
     "rope_climb",
     "rope_straight_arm_pulldown",
@@ -2033,6 +2079,7 @@
     "reverse_band_deadlift",
     "reverse_band_power_squat",
     "reverse_band_sumo_deadlift",
+    "reverse_hyperextension",
     "rickshaw_carry",
     "rickshaw_deadlift",
     "romanian_deadlift",
@@ -2068,10 +2115,21 @@
     "wide_stance_stiff_legs",
     "yoke_walk"
   ],
+  "obliques": [
+    "pullups",
+    "push_press"
+  ],
   "pec_major_clavicular": [
+    "close_grip_barbell_bench_press",
+    "incline_dumbbell_press",
     "overhead_press"
   ],
+  "pec_major_sternal": [
+    "close_grip_barbell_bench_press"
+  ],
   "pectoralis_major": [
+    "close_grip_barbell_bench_press",
+    "incline_dumbbell_press",
     "overhead_press"
   ],
   "quadriceps": [
@@ -2091,6 +2149,7 @@
     "barbell_step_ups",
     "barbell_walking_lunge",
     "bear_crawl_sled_drags",
+    "bent_over_barbell_row",
     "bent_press",
     "bodyweight_squat",
     "bodyweight_walking_lunge",
@@ -2191,6 +2250,7 @@
     "reverse_band_sumo_deadlift",
     "rickshaw_carry",
     "rickshaw_deadlift",
+    "romanian_deadlift",
     "sandbag_load",
     "single_leg_high_box_squat",
     "single_leg_leg_extension",
@@ -2219,6 +2279,7 @@
     "squat_with_plate_movers",
     "squats_with_bands",
     "step_up_with_knee_raise",
+    "stiff_legged_barbell_deadlift",
     "sumo_deadlift",
     "sumo_deadlift_with_bands",
     "sumo_deadlift_with_chains",
@@ -2377,6 +2438,7 @@
     "barbell_step_ups",
     "barbell_walking_lunge",
     "bear_crawl_sled_drags",
+    "bent_over_barbell_row",
     "bent_press",
     "bodyweight_squat",
     "bodyweight_walking_lunge",
@@ -2477,6 +2539,7 @@
     "reverse_band_sumo_deadlift",
     "rickshaw_carry",
     "rickshaw_deadlift",
+    "romanian_deadlift",
     "sandbag_load",
     "single_leg_high_box_squat",
     "single_leg_leg_extension",
@@ -2505,7 +2568,6 @@
     "squat_with_plate_movers",
     "squats_with_bands",
     "step_up_with_knee_raise",
-    "sumo_deadlift",
     "sumo_deadlift_with_bands",
     "sumo_deadlift_with_chains",
     "suspended_split_squat",
@@ -2608,6 +2670,9 @@
     "wide_grip_lat_pulldown",
     "wide_grip_pulldown_behind_the_neck",
     "wide_grip_rear_pull_up"
+  ],
+  "rotator_cuff": [
+    "pullups"
   ],
   "semitendinosus": [
     "advanced_kettlebell_windmill",
@@ -2929,6 +2994,7 @@
     "incline_push_up_reverse_grip",
     "incline_push_up_wide",
     "internal_rotation_with_band",
+    "inverted_row",
     "iron_cross",
     "isometric_wipers",
     "jerk_balance",
@@ -3001,6 +3067,7 @@
     "power_snatch_from_blocks",
     "power_stairs",
     "press_sit_up",
+    "pullups",
     "push_press",
     "push_press_behind_the_neck",
     "push_up_to_side_plank",
@@ -3235,6 +3302,27 @@
     "yoke_walk",
     "zercher_squats"
   ],
+  "teres_major": [
+    "pullups"
+  ],
+  "trap_lower": [
+    "pullups",
+    "ring_dips"
+  ],
+  "trap_middle": [
+    "bent_over_barbell_row",
+    "inverted_row"
+  ],
+  "trap_upper": [
+    "sumo_deadlift"
+  ],
+  "trapezius": [
+    "bent_over_barbell_row",
+    "inverted_row",
+    "pullups",
+    "ring_dips",
+    "sumo_deadlift"
+  ],
   "vastus_lateralis": [
     "atlas_stone_trainer",
     "atlas_stones",
@@ -3380,6 +3468,7 @@
     "squat_with_plate_movers",
     "squats_with_bands",
     "step_up_with_knee_raise",
+    "stiff_legged_barbell_deadlift",
     "sumo_deadlift",
     "sumo_deadlift_with_bands",
     "sumo_deadlift_with_chains",

@@ -1,7 +1,7 @@
 ---
 id: inverted_row
 name: Inverted Row
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -12,12 +12,47 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
-- id: rhomboids
-  role: primary
-- id: trapezius
-  role: primary
 - id: latissimus_dorsi
+  role: primary
+- id: trap_middle
+  role: primary
+- id: deltoid_posterior
+  role: primary
+- id: biceps_brachii
   role: secondary
+- id: rhomboids
+  role: secondary
+- id: erector_spinae
+  role: secondary
+muscle_activation_studies:
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    variation: inverted_row
+    grip: overhand
+  measurements:
+  - muscle: latissimus_dorsi
+    mean_pct_mvc: 99.3
+    sd: 53.3
+  - muscle: trap_middle
+    mean_pct_mvc: 98.6
+    sd: 35.6
+  - muscle: deltoid_posterior
+    mean_pct_mvc: 103.4
+    sd: 35.7
+  - muscle: biceps_brachii
+    mean_pct_mvc: 67.9
+    sd: 20.1
+  - muscle: erector_spinae
+    mean_pct_mvc: 29.3
+    sd: null
+    notes: "LUES isometric 29.9%, RLES isometric 28.7%"
+strength_curve:
+  type: descending
+  sticking_point: top_quarter
+  peak_force_position: first_quarter
 variations: []
 progressions: []
 alternatives: []
@@ -25,6 +60,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ssd_2026
+  doi: null
+  title: "Sports Science Data Extraction: Vertical Pulling and Horizontal Rowing"
+  credibility: literature_compilation
 ---
 
 # Inverted Row

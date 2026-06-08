@@ -1,11 +1,11 @@
 ---
 id: pullups
 name: Pullups
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
-- hinge
+- vertical_pull
 equipment:
 - body only
 difficulty:
@@ -15,12 +15,87 @@ difficulty:
 muscles:
 - id: latissimus_dorsi
   role: primary
+- id: infraspinatus
+  role: primary
 - id: biceps_brachii
+  role: secondary
+- id: trap_lower
+  role: secondary
+- id: pectoralis_major
+  role: secondary
+- id: teres_major
+  role: secondary
+- id: deltoid_posterior
+  role: secondary
+- id: erector_spinae
+  role: secondary
+- id: external_oblique
   role: secondary
 - id: rhomboids
   role: secondary
-- id: trapezius
-  role: secondary
+muscle_activation_studies:
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    grip: pronated
+    width: shoulder-width
+  measurements:
+  - muscle: latissimus_dorsi
+    mean_pct_mvc: 123.5
+    sd: null
+    notes: "Range 117-130% MVIC"
+  - muscle: biceps_brachii
+    mean_pct_mvc: 78.0
+    sd: 32.0
+  - muscle: trap_lower
+    mean_pct_mvc: 56.0
+    sd: 21.0
+  - muscle: infraspinatus
+    mean_pct_mvc: 79.0
+    sd: 56.0
+  - muscle: pectoralis_major
+    mean_pct_mvc: 44.0
+    sd: 27.0
+  - muscle: erector_spinae
+    mean_pct_mvc: 40.0
+    sd: null
+    notes: "Range 39-41% MVIC (isometric)"
+  - muscle: external_oblique
+    mean_pct_mvc: 33.0
+    sd: null
+    notes: "Range 31-35% MVIC (isometric)"
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    grip: supinated
+    width: shoulder-width
+    notes: "Chin-up"
+  measurements:
+  - muscle: latissimus_dorsi
+    mean_pct_mvc: 117.0
+    sd: 46.0
+  - muscle: biceps_brachii
+    mean_pct_mvc: 96.0
+    sd: 34.0
+  - muscle: trap_lower
+    mean_pct_mvc: 45.0
+    sd: 22.0
+  - muscle: pectoralis_major
+    mean_pct_mvc: 57.0
+    sd: 36.0
+joint_rom_required:
+  shoulder_flexion_deg: 180
+  elbow_flexion_pullup_deg: 93.4
+  elbow_flexion_chinup_deg: 100.6
+  source: ssd_2026
+strength_curve:
+  type: descending
+  sticking_point: top_third
+  peak_force_position: bottom_third
 variations: []
 progressions: []
 alternatives: []
@@ -28,6 +103,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ssd_2026
+  doi: null
+  title: "Sports Science Data Extraction: Vertical Pulling and Horizontal Rowing"
+  credibility: literature_compilation
 ---
 
 # Pullups

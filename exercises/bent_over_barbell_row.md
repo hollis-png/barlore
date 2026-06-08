@@ -1,7 +1,7 @@
 ---
 id: bent_over_barbell_row
 name: Bent Over Barbell Row
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,16 +13,71 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
+- id: latissimus_dorsi
+  role: primary
 - id: rhomboids
   role: primary
-- id: trapezius
+- id: trap_middle
+  role: primary
+- id: erector_spinae
   role: primary
 - id: biceps_brachii
   role: secondary
-- id: latissimus_dorsi
+- id: deltoid_posterior
   role: secondary
-- id: deltoid
+- id: rectus_femoris
   role: secondary
+muscle_activation_studies:
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    variation: bent_over_barbell_row
+    grip: wide
+    phase: concentric
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 72.8
+    sd: null
+    notes: "Left upper erector spinae (LUES), concentric phase"
+  - muscle: latissimus_dorsi
+    mean_pct_mvc: null
+    notes: "High activation; increases significantly with wider grip"
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    variation: bent_over_barbell_row
+    grip: wide
+    phase: eccentric
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 54.1
+    sd: null
+    notes: "Left upper erector spinae (LUES), eccentric phase"
+- source_id: ssd_2026
+  doi: null
+  n: null
+  population: null
+  condition:
+    variation: bent_over_barbell_row
+    grip: wide
+    phase: isometric
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 42.9
+    sd: null
+    notes: "Lumbar erector spinae (RLES 42.5%, LLES 43.3%) isometric"
+  - muscle: rectus_femoris
+    mean_pct_mvc: 8.2
+    sd: null
+    notes: "Right rectus femoris stabilization"
+strength_curve:
+  type: descending
+  sticking_point: terminal_lockout
+  peak_force_position: mid_range
 variations: []
 progressions: []
 alternatives: []
@@ -30,6 +85,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: ssd_2026
+  doi: null
+  title: "Sports Science Data Extraction: Vertical Pulling and Horizontal Rowing"
+  credibility: literature_compilation
 ---
 
 # Bent Over Barbell Row
