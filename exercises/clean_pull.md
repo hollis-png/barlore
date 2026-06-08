@@ -1,7 +1,7 @@
 ---
 id: clean_pull
 name: Clean Pull
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,26 +13,100 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
-- id: rectus_femoris
-  role: primary
 - id: vastus_lateralis
   role: primary
-- id: vastus_medialis
-  role: primary
-- id: forearm_flexors
-  role: secondary
 - id: gluteus_maximus
+  role: primary
+- id: erector_spinae
+  role: primary
+- id: multifidus
+  role: primary
+- id: trap_upper
+  role: primary
+- id: rectus_femoris
+  role: secondary
+- id: vastus_medialis
   role: secondary
 - id: biceps_femoris
   role: secondary
 - id: semitendinosus
   role: secondary
-- id: erector_spinae
+- id: forearm_flexors
   role: secondary
-- id: multifidus
-  role: secondary
-- id: trapezius
-  role: secondary
+muscle_activation_studies:
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 152.72
+    sd: 70.36
+  - muscle: gluteus_maximus
+    mean_pct_mvc: 81.67
+    sd: 27.32
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 10
+  population: "advanced"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 195.47
+    sd: 165.81
+  - muscle: gluteus_maximus
+    mean_pct_mvc: 90.53
+    sd: 52.44
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 239.40
+    sd: 86.53
+  - muscle: gluteus_maximus
+    mean_pct_mvc: 258.65
+    sd: 258.35
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 90
+    phase: pull
+  measurements:
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 225.98
+    sd: 201.09
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 90
+    phase: pull
+  measurements:
+  - muscle: vastus_lateralis
+    mean_pct_mvc: 311.81
+    sd: 271.74
+joint_rom_required:
+  hip_flexion_deg: 120
+  notes: "Setup: 120 hip flexion; terminates at full extension (no catch phase)"
+  source: geisler_2023
+strength_curve:
+  type: bell_shaped
+  sticking_point: first_pull_to_transition
+  peak_force_position: second_pull
+  notes: "Midthigh pull: peak force 2880 N, RFD 15321 N/s — superior overload vs floor start"
 variations: []
 progressions: []
 alternatives: []
@@ -40,6 +114,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  title: "Effects of Expertise on Muscle Activity during Hang Power Clean and Hang Power Snatch vs Clean/Snatch Pulls"
+  credibility: peer_reviewed
 ---
 
 # Clean Pull

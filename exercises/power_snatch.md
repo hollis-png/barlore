@@ -1,7 +1,7 @@
 ---
 id: power_snatch
 name: Power Snatch
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,32 +13,104 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
+- id: erector_spinae
+  role: primary
+- id: multifidus
+  role: primary
+- id: vastus_lateralis
+  role: primary
+- id: gluteus_maximus
+  role: primary
+- id: trap_upper
+  role: primary
 - id: biceps_femoris
-  role: primary
+  role: secondary
 - id: semitendinosus
-  role: primary
+  role: secondary
+- id: rectus_femoris
+  role: secondary
+- id: vastus_medialis
+  role: secondary
+- id: deltoid_anterior
+  role: secondary
+- id: triceps_brachii
+  role: secondary
 - id: gastrocnemius
   role: secondary
 - id: soleus
   role: secondary
-- id: gluteus_maximus
+- id: forearm_flexors
   role: secondary
-- id: erector_spinae
-  role: secondary
-- id: multifidus
-  role: secondary
-- id: rectus_femoris
-  role: secondary
-- id: vastus_lateralis
-  role: secondary
-- id: vastus_medialis
-  role: secondary
-- id: deltoid
-  role: secondary
-- id: trapezius
-  role: secondary
-- id: triceps_brachii
-  role: secondary
+muscle_activation_studies:
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 50
+    phase: pull_and_catch
+  measurements:
+  - muscle: trap_upper
+    mean_pct_mvc: 71.69
+    sd: 23.21
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 10
+  population: "advanced"
+  condition:
+    load_pct_1rm: 50
+    phase: pull_and_catch
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 175.69
+    sd: 134.95
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 50
+    phase: pull_and_catch
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 294.28
+    sd: 152.77
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 90
+    phase: pull_and_catch
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 215.68
+    sd: 321.69
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 90
+    phase: pull_and_catch
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 371.62
+    sd: 271.60
+joint_rom_required:
+  hip_flexion_deg: 120
+  knee_flexion_deg: 90
+  ankle_dorsiflexion_deg: 20
+  shoulder_flexion_deg: 180
+  shoulder_external_rotation_deg: 90
+  shoulder_internal_rotation_deg: 70
+  notes: "Setup: 120 hip flexion; catch requires 90 knee flexion and 180 shoulder flexion"
+  source: geisler_2023
+strength_curve:
+  type: bell_shaped
+  sticking_point: first_pull_to_transition
+  peak_force_position: second_pull
+  notes: "Wider grip vs clean shortens pull height; ES catch demand 371% MVIC at 90% 1RM (elite)"
 variations: []
 progressions: []
 alternatives: []
@@ -46,6 +118,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  title: "Effects of Expertise on Muscle Activity during Hang Power Clean and Hang Power Snatch vs Clean/Snatch Pulls"
+  credibility: peer_reviewed
 ---
 
 # Power Snatch

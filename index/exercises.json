@@ -6503,27 +6503,140 @@
     ],
     "id": "clean_pull",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
-    "muscles": [
+    "joint_rom_required": {
+      "hip_flexion_deg": 120,
+      "notes": "Setup: 120 hip flexion; terminates at full extension (no catch phase)",
+      "source": "geisler_2023"
+    },
+    "muscle_activation_studies": [
       {
-        "id": "rectus_femoris",
-        "role": "primary"
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 152.72,
+            "muscle": "vastus_lateralis",
+            "sd": 70.36
+          },
+          {
+            "mean_pct_mvc": 81.67,
+            "muscle": "gluteus_maximus",
+            "sd": 27.32
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
       },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 195.47,
+            "muscle": "vastus_lateralis",
+            "sd": 165.81
+          },
+          {
+            "mean_pct_mvc": 90.53,
+            "muscle": "gluteus_maximus",
+            "sd": 52.44
+          }
+        ],
+        "n": 10,
+        "population": "advanced",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 239.4,
+            "muscle": "vastus_lateralis",
+            "sd": 86.53
+          },
+          {
+            "mean_pct_mvc": 258.65,
+            "muscle": "gluteus_maximus",
+            "sd": 258.35
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 225.98,
+            "muscle": "vastus_lateralis",
+            "sd": 201.09
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 311.81,
+            "muscle": "vastus_lateralis",
+            "sd": 271.74
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      }
+    ],
+    "muscles": [
       {
         "id": "vastus_lateralis",
         "role": "primary"
       },
       {
-        "id": "vastus_medialis",
+        "id": "gluteus_maximus",
         "role": "primary"
       },
       {
-        "id": "forearm_flexors",
+        "id": "erector_spinae",
+        "role": "primary"
+      },
+      {
+        "id": "multifidus",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
+        "id": "rectus_femoris",
         "role": "secondary"
       },
       {
-        "id": "gluteus_maximus",
+        "id": "vastus_medialis",
         "role": "secondary"
       },
       {
@@ -6535,15 +6648,7 @@
         "role": "secondary"
       },
       {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
-        "role": "secondary"
-      },
-      {
-        "id": "trapezius",
+        "id": "forearm_flexors",
         "role": "secondary"
       }
     ],
@@ -6554,8 +6659,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Midthigh pull: peak force 2880 N, RFD 15321 N/s — superior overload vs floor start",
+      "peak_force_position": "second_pull",
+      "sticking_point": "first_pull_to_transition",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "clean_shrug": {
@@ -19681,15 +19791,76 @@
     ],
     "id": "overhead_squat",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 20,
+      "hip_flexion_deg": 120,
+      "knee_flexion_deg": 90,
+      "notes": "Shoulder flexibility correlates with trunk angle at bottom (r=-0.67); restricted shoulder forces compensatory trunk lean",
+      "shoulder_external_rotation_deg": 90,
+      "shoulder_flexion_deg": 180,
+      "shoulder_internal_rotation_deg": 70,
+      "source": "bautista_2020"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 95,
+          "notes": "95% of 3RM",
+          "phase": "concentric"
+        },
+        "doi": "10.70252/BTUH3630",
+        "measurements": [
+          {
+            "mean_pct_mvc": 63.4,
+            "muscle": "erector_spinae",
+            "sd": 23.3
+          },
+          {
+            "mean_pct_mvc": 14.4,
+            "muscle": "rectus_abdominis",
+            "sd": 6.4
+          },
+          {
+            "mean_pct_mvc": 16.9,
+            "muscle": "external_oblique",
+            "sd": 3.1
+          }
+        ],
+        "n": 7,
+        "population": "recreationally_trained",
+        "source_id": "bautista_2020"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "notes": "90% of 3RM",
+          "phase": "full_rep"
+        },
+        "doi": "10.1519/JSC.0000000000000462",
+        "measurements": [
+          {
+            "mean_pct_mvc": 60.9,
+            "muscle": "gluteus_maximus",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 54.0,
+            "muscle": "biceps_femoris",
+            "sd": null
+          }
+        ],
+        "n": 14,
+        "population": "rugby_union_athletes",
+        "source_id": "aspe_2014"
+      }
+    ],
     "muscles": [
       {
-        "id": "rectus_femoris",
+        "id": "vastus_lateralis",
         "role": "primary"
       },
       {
-        "id": "vastus_lateralis",
+        "id": "rectus_femoris",
         "role": "primary"
       },
       {
@@ -19697,20 +19868,20 @@
         "role": "primary"
       },
       {
-        "id": "rectus_abdominis",
-        "role": "secondary"
-      },
-      {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
         "id": "gluteus_maximus",
-        "role": "secondary"
+        "role": "primary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
+      {
+        "id": "trap_middle",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "primary"
       },
       {
         "id": "biceps_femoris",
@@ -19721,19 +19892,27 @@
         "role": "secondary"
       },
       {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
         "id": "multifidus",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "external_oblique",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
         "role": "secondary"
       },
       {
         "id": "triceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
         "role": "secondary"
       }
     ],
@@ -19744,8 +19923,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Adding load increases hip torque disproportionately; knee torque unchanged — progressive demand shifts to hip extensors",
+      "peak_force_position": "lockout",
+      "sticking_point": "just_above_parallel",
+      "type": "ascending"
+    },
     "variations": []
   },
   "pallof_press": {
@@ -20394,47 +20578,145 @@
     ],
     "id": "power_clean",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 20,
+      "hip_flexion_deg": 120,
+      "knee_flexion_deg": 90,
+      "notes": "Setup requires 120 hip flexion; catch requires 90 knee flexion and 173 shoulder flexion",
+      "shoulder_external_rotation_deg": 107,
+      "shoulder_flexion_deg": 173,
+      "shoulder_internal_rotation_deg": 89,
+      "source": "geisler_2023"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 163.82,
+            "muscle": "vastus_lateralis",
+            "sd": 64.41
+          },
+          {
+            "mean_pct_mvc": 124.91,
+            "muscle": "gluteus_maximus",
+            "sd": 76.67
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 247.7,
+            "muscle": "vastus_lateralis",
+            "sd": 259.48
+          },
+          {
+            "mean_pct_mvc": 97.2,
+            "muscle": "gluteus_maximus",
+            "sd": 37.72
+          }
+        ],
+        "n": 10,
+        "population": "advanced",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 324.41,
+            "muscle": "vastus_lateralis",
+            "sd": 305.15
+          },
+          {
+            "mean_pct_mvc": 298.74,
+            "muscle": "gluteus_maximus",
+            "sd": 195.54
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 203.96,
+            "muscle": "vastus_lateralis",
+            "sd": 119.85
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 249.3,
+            "muscle": "vastus_lateralis",
+            "sd": 213.53
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      }
+    ],
     "muscles": [
       {
-        "id": "biceps_femoris",
+        "id": "vastus_lateralis",
         "role": "primary"
-      },
-      {
-        "id": "semitendinosus",
-        "role": "primary"
-      },
-      {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "forearm_flexors",
-        "role": "secondary"
       },
       {
         "id": "gluteus_maximus",
-        "role": "secondary"
+        "role": "primary"
       },
       {
         "id": "erector_spinae",
-        "role": "secondary"
+        "role": "primary"
       },
       {
         "id": "multifidus",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
         "role": "secondary"
       },
       {
-        "id": "rhomboids",
-        "role": "secondary"
-      },
-      {
-        "id": "trapezius",
+        "id": "semitendinosus",
         "role": "secondary"
       },
       {
@@ -20442,19 +20724,31 @@
         "role": "secondary"
       },
       {
-        "id": "vastus_lateralis",
-        "role": "secondary"
-      },
-      {
         "id": "vastus_medialis",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       },
       {
         "id": "triceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "rhomboids",
+        "role": "secondary"
+      },
+      {
+        "id": "forearm_flexors",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
         "role": "secondary"
       }
     ],
@@ -20465,8 +20759,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Peak GRF 2306 N, RFD 8840 N/s at triple extension",
+      "peak_force_position": "second_pull",
+      "sticking_point": "first_pull_to_transition",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "power_clean_from_blocks": {
@@ -20634,16 +20933,147 @@
     ],
     "id": "power_snatch",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 20,
+      "hip_flexion_deg": 120,
+      "knee_flexion_deg": 90,
+      "notes": "Setup: 120 hip flexion; catch requires 90 knee flexion and 180 shoulder flexion",
+      "shoulder_external_rotation_deg": 90,
+      "shoulder_flexion_deg": 180,
+      "shoulder_internal_rotation_deg": 70,
+      "source": "geisler_2023"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull_and_catch"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 71.69,
+            "muscle": "trap_upper",
+            "sd": 23.21
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull_and_catch"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 175.69,
+            "muscle": "erector_spinae",
+            "sd": 134.95
+          }
+        ],
+        "n": 10,
+        "population": "advanced",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull_and_catch"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 294.28,
+            "muscle": "erector_spinae",
+            "sd": 152.77
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull_and_catch"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 215.68,
+            "muscle": "erector_spinae",
+            "sd": 321.69
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull_and_catch"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 371.62,
+            "muscle": "erector_spinae",
+            "sd": 271.6
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      }
+    ],
     "muscles": [
       {
-        "id": "biceps_femoris",
+        "id": "erector_spinae",
         "role": "primary"
       },
       {
-        "id": "semitendinosus",
+        "id": "multifidus",
         "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "vastus_medialis",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_brachii",
+        "role": "secondary"
       },
       {
         "id": "gastrocnemius",
@@ -20654,39 +21084,7 @@
         "role": "secondary"
       },
       {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
-        "role": "secondary"
-      },
-      {
-        "id": "rectus_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_lateralis",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_medialis",
-        "role": "secondary"
-      },
-      {
-        "id": "deltoid",
-        "role": "secondary"
-      },
-      {
-        "id": "trapezius",
-        "role": "secondary"
-      },
-      {
-        "id": "triceps_brachii",
+        "id": "forearm_flexors",
         "role": "secondary"
       }
     ],
@@ -20697,8 +21095,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "Wider grip vs clean shortens pull height; ES catch demand 371% MVIC at 90% 1RM (elite)",
+      "peak_force_position": "second_pull",
+      "sticking_point": "first_pull_to_transition",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "power_snatch_from_blocks": {
@@ -26723,16 +27126,134 @@
     ],
     "id": "snatch_pull",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "hip_flexion_deg": 120,
+      "notes": "Setup: 120 hip flexion; terminates at full extension (no catch phase)",
+      "source": "geisler_2023"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 78.58,
+            "muscle": "trap_upper",
+            "sd": 27.1
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 101.97,
+            "muscle": "erector_spinae",
+            "sd": 99.91
+          }
+        ],
+        "n": 10,
+        "population": "advanced",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 50,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 147.35,
+            "muscle": "erector_spinae",
+            "sd": 147.64
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 144.53,
+            "muscle": "erector_spinae",
+            "sd": 185.68
+          }
+        ],
+        "n": 11,
+        "population": "beginners",
+        "source_id": "geisler_2023"
+      },
+      {
+        "condition": {
+          "load_pct_1rm": 90,
+          "phase": "pull"
+        },
+        "doi": "10.52082/jssm.2023.778",
+        "measurements": [
+          {
+            "mean_pct_mvc": 211.8,
+            "muscle": "erector_spinae",
+            "sd": 190.72
+          }
+        ],
+        "n": 6,
+        "population": "elite",
+        "source_id": "geisler_2023"
+      }
+    ],
     "muscles": [
       {
-        "id": "biceps_femoris",
+        "id": "erector_spinae",
         "role": "primary"
       },
       {
-        "id": "semitendinosus",
+        "id": "multifidus",
         "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "vastus_medialis",
+        "role": "secondary"
       },
       {
         "id": "gastrocnemius",
@@ -26743,31 +27264,7 @@
         "role": "secondary"
       },
       {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
-        "role": "secondary"
-      },
-      {
-        "id": "rectus_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_lateralis",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_medialis",
-        "role": "secondary"
-      },
-      {
-        "id": "trapezius",
+        "id": "forearm_flexors",
         "role": "secondary"
       }
     ],
@@ -26778,8 +27275,13 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "partial",
+    "strength_curve": {
+      "notes": "No catch phase; overload capacity 100-140% of snatch 1RM; superior trap shrug stimulus vs power snatch",
+      "peak_force_position": "second_pull",
+      "sticking_point": "first_pull_to_transition",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "snatch_shrug": {

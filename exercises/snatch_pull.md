@@ -1,7 +1,7 @@
 ---
 id: snatch_pull
 name: Snatch Pull
-status: stub
+status: partial
 source: free-exercise-db
 category: exercise
 pattern:
@@ -13,28 +13,95 @@ difficulty:
   strength_prerequisite: null
   mobility_prerequisite: null
 muscles:
+- id: erector_spinae
+  role: primary
+- id: multifidus
+  role: primary
+- id: vastus_lateralis
+  role: primary
+- id: gluteus_maximus
+  role: primary
+- id: trap_upper
+  role: primary
 - id: biceps_femoris
-  role: primary
+  role: secondary
 - id: semitendinosus
-  role: primary
+  role: secondary
+- id: rectus_femoris
+  role: secondary
+- id: vastus_medialis
+  role: secondary
 - id: gastrocnemius
   role: secondary
 - id: soleus
   role: secondary
-- id: gluteus_maximus
+- id: forearm_flexors
   role: secondary
-- id: erector_spinae
-  role: secondary
-- id: multifidus
-  role: secondary
-- id: rectus_femoris
-  role: secondary
-- id: vastus_lateralis
-  role: secondary
-- id: vastus_medialis
-  role: secondary
-- id: trapezius
-  role: secondary
+muscle_activation_studies:
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: trap_upper
+    mean_pct_mvc: 78.58
+    sd: 27.10
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 10
+  population: "advanced"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 101.97
+    sd: 99.91
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 50
+    phase: pull
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 147.35
+    sd: 147.64
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 11
+  population: "beginners"
+  condition:
+    load_pct_1rm: 90
+    phase: pull
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 144.53
+    sd: 185.68
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  n: 6
+  population: "elite"
+  condition:
+    load_pct_1rm: 90
+    phase: pull
+  measurements:
+  - muscle: erector_spinae
+    mean_pct_mvc: 211.80
+    sd: 190.72
+joint_rom_required:
+  hip_flexion_deg: 120
+  notes: "Setup: 120 hip flexion; terminates at full extension (no catch phase)"
+  source: geisler_2023
+strength_curve:
+  type: bell_shaped
+  sticking_point: first_pull_to_transition
+  peak_force_position: second_pull
+  notes: "No catch phase; overload capacity 100-140% of snatch 1RM; superior trap shrug stimulus vs power snatch"
 variations: []
 progressions: []
 alternatives: []
@@ -42,6 +109,10 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+- source_id: geisler_2023
+  doi: "10.52082/jssm.2023.778"
+  title: "Effects of Expertise on Muscle Activity during Hang Power Clean and Hang Power Snatch vs Clean/Snatch Pulls"
+  credibility: peer_reviewed
 ---
 
 # Snatch Pull
