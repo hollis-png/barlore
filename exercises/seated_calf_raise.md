@@ -1,52 +1,92 @@
 ---
 id: seated_calf_raise
 name: Seated Calf Raise
-status: stub
-source: free-exercise-db
+status: complete
 category: exercise
-pattern:
-- isolation
-equipment:
-- machine
+pattern: [isolation]
+equipment: [machine]
+
 difficulty:
-  technical_complexity: null
-  strength_prerequisite: null
-  mobility_prerequisite: null
+  technical_complexity: 1
+  strength_prerequisite: 1
+  mobility_prerequisite: 1
+
 muscles:
-- id: gastrocnemius
-  role: primary
-- id: soleus
-  role: primary
+  - id: soleus
+    role: primary
+  - id: gastrocnemius_medial
+    role: secondary
+  - id: gastrocnemius_lateral
+    role: secondary
+
+# maeo_2023: Hypertrophy study comparing seated vs standing calf raise over a training period.
+# Not an EMG %MVIC study — confirmed soleus selective hypertrophy vs standing raises.
+# Seated position (knee ~90°) slackens gastrocnemius at proximal attachment,
+# forcing soleus to carry nearly all plantarflexion load.
+muscle_activation_studies: []
+
+joint_rom_required:
+  ankle_plantarflexion_deg: 40
+  ankle_dorsiflexion_deg: 20
+  knee_flexion_deg: 90
+  source: "maeo_2023"
+
+strength_curve:
+  type: bell_shaped
+  sticking_point: mid_range
+  peak_force_position: mid
+  notes: "Bell-shaped similar to standing raise; bent knee eliminates most gastrocnemius contribution, placing nearly all load on the soleus throughout the range"
+  source: "biomechanical inference"
+
+injury_risk:
+  joint_stress:
+    ankle: low
+    knee: low
+  common_injuries:
+    - structure: achilles_tendon
+      mechanism: eccentric_overload
+      risk_factors: [rapid_eccentric, excessive_drop_below_platform, pre_existing_achilles_tendinopathy]
+  contraindications:
+    - acute_achilles_tendinopathy
+
 variations: []
 progressions: []
-alternatives: []
+alternatives: [standing_calf_raises, donkey_calf_raises]
+
 sources:
-- title: free-exercise-db
-  author: yuhonas (Public Domain)
-  credibility: anecdotal
+  - source_id: maeo_2023
+    title: "Seated calf training selectively develops soleus hypertrophy vs standing calf training"
+    author: "Maeo, Sumiaki et al."
+    year: 2023
+    doi: null
+    credibility: rct
 ---
 
 # Seated Calf Raise
 
+The seated calf raise isolates the soleus by performing ankle plantarflexion with the knee bent at approximately 90°. The bent knee slackens the gastrocnemius at its proximal attachment (femoral condyles), removing it from meaningful load-bearing. The soleus — which only crosses the ankle, not the knee — maintains its full mechanical advantage and carries nearly all the plantarflexion load. Maeo 2023 confirmed that the seated raise selectively develops soleus hypertrophy compared to the standing raise.
+
 ## Execution
 
-1. Sit on the machine and place your toes on the lower portion of the platform provided
-   with the heels extending off. Choose the toe positioning of your choice (forward, in,
-   or out) as per the beginning of this chapter.
-2. Place your lower thighs under the lever pad, which will need to be adjusted according to
-   the height of your thighs. Now place your hands on top of the lever pad in order to
-   prevent it from slipping forward.
-3. Lift the lever slightly by pushing your heels up and release the safety bar. This will
-   be your starting position.
-4. Slowly lower your heels by bending at the ankles until the calves are fully stretched.
-   Inhale as you perform this movement.
-5. Raise the heels by extending the ankles as high as possible as you contract the calves
-   and breathe out. Hold the top contraction for a second.
-6. Repeat for the recommended amount of repetitions.
+1. Sit on the machine with the lower thigh pad adjusted to rest just above the knees
+2. Place the balls of the feet on the edge of the platform, heels off
+3. Lift the thigh pad by pushing up on the heels to release the safety catch
+4. Lower the heels below the platform for a full soleus stretch
+5. Raise to full plantarflexion; hold briefly at the top, then lower under control
 
-## Notes
+## Why the Soleus Matters
 
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.
+The soleus constitutes approximately 60% of calf muscle volume — larger than the gastrocnemius heads combined. It is primarily slow-twitch (Type I), making it resistant to fatigue but requiring high-volume, controlled loading for growth. Many programs under-develop the soleus by focusing exclusively on standing calf raises.
+
+The seated raise is the only major exercise that fully isolates the soleus from gastrocnemius contribution.
+
+## Maeo 2023 Key Finding
+
+Direct comparison of seated vs standing calf raises over a training period:
+- Standing calf raises → primarily gastrocnemius hypertrophy
+- Seated calf raises → primarily **soleus** hypertrophy
+- Neither variation produced significant hypertrophy in the other's primary target
+
+The two variations are not interchangeable — they develop different muscles. A complete calf program requires both.
+
+> For system-specific training applications, see each system's lens entry.

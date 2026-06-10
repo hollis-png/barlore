@@ -1,6 +1,7 @@
 ---
 id: bench_press
 name: Bench Press
+status: complete
 aliases: [Flat Barbell Bench Press]
 category: exercise
 pattern: [horizontal press]

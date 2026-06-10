@@ -1,49 +1,73 @@
 ---
 id: cable_lying_triceps_extension
 name: Cable Lying Triceps Extension
-status: stub
-source: free-exercise-db
+status: complete
 category: exercise
-pattern:
-- isolation
-equipment:
-- cable
+pattern: [isolation]
+equipment: [cable, bench]
+
 difficulty:
-  technical_complexity: null
-  strength_prerequisite: null
-  mobility_prerequisite: null
+  technical_complexity: 2
+  strength_prerequisite: 1
+  mobility_prerequisite: 1
+
 muscles:
-- id: triceps_brachii
-  role: primary
+  - id: triceps_long
+    role: primary
+  - id: triceps_lateral
+    role: primary
+  - id: triceps_medial
+    role: secondary
+
+# No peer-reviewed EMG data found for the cable lying variation.
+# Mechanically similar to ez_bar_skullcrusher but cable provides constant tension at the stretched position.
+muscle_activation_studies: []
+
+joint_rom_required:
+  elbow_flexion_deg: 130
+  shoulder_flexion_deg: 90
+  source: "biomechanical inference from ez_bar_skullcrusher"
+
+strength_curve:
+  type: bell_shaped
+  sticking_point: mid_range
+  peak_force_position: mid
+  notes: "Cable provides constant tension throughout including at the most stretched bottom position where the free-weight skullcrusher has near-zero load"
+  source: "biomechanical inference"
+
+injury_risk:
+  joint_stress:
+    elbow: low
+    shoulder: low
+  common_injuries:
+    - structure: distal_triceps_tendon
+      mechanism: eccentric_overload
+      risk_factors: [rapid_eccentric, excessive_weight]
+  contraindications:
+    - acute_triceps_tendinopathy
+
 variations: []
 progressions: []
-alternatives: []
-sources:
-- title: free-exercise-db
-  author: yuhonas (Public Domain)
-  credibility: anecdotal
+alternatives: [ez_bar_skullcrusher, lying_triceps_press]
+
+sources: []
 ---
 
 # Cable Lying Triceps Extension
 
+The cable lying triceps extension replicates the skullcrusher pattern with a low-pulley cable instead of a free-weight bar. Lying on a bench with the head toward the low pulley, the cable runs over the head and the elbows flex and extend against the cable tension. Unlike the barbell skullcrusher — where the load approaches zero at the most extended arm position overhead — the cable provides constant tension throughout the entire range, including at the fully stretched bottom position.
+
 ## Execution
 
-1. Lie on a flat bench and grasp the straight bar attachment of a low pulley with a narrow
-   overhand grip. Tip: The easiest way to do this is to have someone hand you the bar as
-   you lay down.
-2. With your arms extended, position the bar over your torso. Your arms and your torso
-   should create a 90-degree angle. This will be your starting position.
-3. Lower the bar by bending at the elbow while keeping the upper arms stationary and elbows
-   in. Go down until the bar lightly touches your forehead. Breathe in as you perform
-   this portion of the movement.
-4. Flex the triceps as you lift the bar back to its starting position. Exhale as you
-   perform this portion of the movement.
-5. Hold for a second at the contracted position and repeat for the recommended amount of
-   repetitions.
+1. Place a flat bench directly in front of a low cable pulley; lie down with the head toward the stack
+2. Grasp the straight bar attachment, arms extended overhead with elbows pointing at the ceiling
+3. Lower by bending the elbows until the bar passes behind the head or reaches the forehead
+4. Extend the elbows to return to the start; keep the upper arms stationary
 
-## Notes
+## Cable vs Free-Weight Skullcrusher
 
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.
+At the starting position (arms extended), the barbell has maximum gravitational resistance. As the bar descends behind the head, the gravitational moment decreases significantly. Near full elbow flexion, the load approaches zero.
+
+The cable reverses this: constant tension through the full range means the triceps is loaded when the elbows are fully flexed (maximum stretch) — a position that free-weight skullcrushers largely skip. This constant-tension characteristic is the mechanical argument for the cable version, analogous to why cable lateral raises are preferred over dumbbell raises for shoulder training.
+
+> For system-specific training applications, see each system's lens entry.

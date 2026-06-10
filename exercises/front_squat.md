@@ -1,6 +1,7 @@
 ---
 id: front_squat
 name: Front Squat
+status: complete
 aliases: [Clean Grip Front Squat]
 category: exercise
 pattern: [squat]
@@ -21,7 +22,7 @@ muscles:
     role: secondary
 equipment: [barbell, squat rack]
 difficulty: intermediate
-variations: [back_squat]
+variations: [back_squat, overhead_squat]
 progressions: [goblet_squat]
 alternatives: [leg_press]
 muscle_activation_studies:

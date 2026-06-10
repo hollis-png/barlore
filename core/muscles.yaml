@@ -134,6 +134,8 @@ shoulders:
         infraspinatus:   Infraspinatus
         teres_minor:     Teres Minor
         subscapularis:   Subscapularis
+    serratus_anterior:
+      name: Serratus Anterior
 
 arms:
   name: Arms

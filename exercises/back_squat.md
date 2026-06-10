@@ -1,6 +1,7 @@
 ---
 id: back_squat
 name: Back Squat
+status: complete
 aliases: [High Bar Squat, Low Bar Squat]
 category: exercise
 pattern: [squat]
@@ -115,7 +116,7 @@ injury_risk:
     - acute_knee_injury
     - lumbar_herniation
 
-variations: [front_squat]
+variations: [front_squat, box_squat, overhead_squat]
 progressions: [box_squat]
 alternatives: [leg_press]
 

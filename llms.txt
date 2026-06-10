@@ -32,22 +32,46 @@ from *why a system values it* (systems). Every claim has an explicit credibility
 ## Key Exercises (status: complete — human-reviewed with sources)
 
 Squat pattern:
-- [Back Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/back_squat.md) — EMG ✓ ROM ✓ strength curve ✓
+- [Back Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/back_squat.md)
 - [Front Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/front_squat.md)
 - [Box Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/box_squat.md)
 - [Goblet Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/goblet_squat.md)
+- [Overhead Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_squat.md)
+- [Leg Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/leg_press.md)
 
 Hinge pattern:
 - [Conventional Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/conventional_deadlift.md)
+- [Romanian Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/romanian_deadlift.md)
+- [Stiff-Legged Barbell Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/stiff_legged_barbell_deadlift.md)
+- [Sumo Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/sumo_deadlift.md)
+- [Good Morning](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/good_morning.md)
+- [Reverse Hyperextension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/reverse_hyperextension.md)
+- [Power Clean](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_clean.md)
+- [Clean Pull](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/clean_pull.md)
+- [Power Snatch](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_snatch.md)
+- [Snatch Pull](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/snatch_pull.md)
 
-Horizontal press:
+Horizontal push:
 - [Bench Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bench_press.md)
+- [Incline Dumbbell Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_dumbbell_press.md)
+- [Close-Grip Barbell Bench Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/close_grip_barbell_bench_press.md)
+- [Floor Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/floor_press.md)
+- [Pushups](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pushups.md)
 
-Vertical press:
+Vertical push:
 - [Overhead Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_press.md)
+- [Push Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/push_press.md)
+- [Parallel Bar Dip](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/parallel_bar_dip.md)
+- [Ring Dips](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/ring_dips.md)
 
-Accessory:
-- [Leg Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/leg_press.md)
+Vertical pull:
+- [Pull-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pullups.md)
+- [Chin-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/chin_up.md)
+
+Horizontal pull:
+- [Bent Over Barbell Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bent_over_barbell_row.md)
+- [Inverted Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/inverted_row.md)
+- [Seated Cable Rows](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_cable_rows.md)
 
 ---
 

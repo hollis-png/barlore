@@ -1,0 +1,85 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- dumbbell_flyes | known muscles: pectoralis_major, pec_major_sternal, deltoid_anterior, biceps_brachii
+- incline_dumbbell_flyes | known muscles: pec_major_clavicular, pectoralis_major, deltoid_anterior
+- decline_dumbbell_flyes | known muscles: pec_major_sternal, pectoralis_major, deltoid_anterior
+- flat_bench_cable_flyes | known muscles: pectoralis_major, pec_major_sternal, deltoid_anterior
+- incline_cable_flye | known muscles: pec_major_clavicular, pectoralis_major, deltoid_anterior
+- butterfly | known muscles: pectoralis_major, pec_major_sternal, pec_major_clavicular, deltoid_anterior
+- one_arm_flat_bench_dumbbell_flye | known muscles: pectoralis_major, deltoid_anterior
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Prefer: RCTs, n ≥ 10, trained populations, published after 2000
+4. If multiple studies exist for one exercise, output ALL of them — do not merge
+5. If one study tested multiple load conditions (e.g. 60% vs 80% 1RM), output each condition as a SEPARATE study block
+6. If no peer-reviewed EMG data exists for an exercise, write: # {exercise_id}: no peer-reviewed EMG data found
+7. For chest exercises, report clavicular vs sternal head differences when available — these are distinct muscles
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. pec_major_sternal, not "lower pec" or "chest").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: dumbbell_flyes
+
+muscle_activation_studies:
+  - source_id: author_year
+    doi: "10.xxxx/xxxxx"
+    n: 14
+    population: "trained males"
+    condition:
+      bench_angle_deg: 0            # 0=flat | positive=incline | negative=decline
+      implement: dumbbell           # dumbbell | cable | machine | null
+      load_pct_1rm: 70
+      phase: concentric
+    measurements:
+      - muscle: pec_major_sternal
+        mean_pct_mvc: 78.0
+        sd: 20.0
+      - muscle: pec_major_clavicular
+        mean_pct_mvc: 55.0
+        sd: 18.0
+      - muscle: deltoid_anterior
+        mean_pct_mvc: 42.0
+        sd: 15.0
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15             # slight elbow bend maintained throughout
+  source: "Author Year"
+
+strength_curve:
+  type: descending
+  sticking_point: bottom
+  peak_force_position: bottom
+  notes: "Pec stretch greatest at maximum shoulder horizontal abduction; advantage of fly over press is the isolated stretch load"
+  source: "Author Year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2021
+    doi: "10.xxxx/xxxxx"
+    credibility: rct
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.

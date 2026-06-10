@@ -1,6 +1,7 @@
 ---
 id: conventional_deadlift
 name: Conventional Deadlift
+status: complete
 aliases: [Deadlift]
 category: exercise
 pattern: [hinge]

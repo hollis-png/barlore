@@ -1,0 +1,83 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- barbell_curl | known muscles: biceps_brachii, brachialis, brachioradialis, forearm_flexors
+- dumbbell_bicep_curl | known muscles: biceps_brachii, brachialis, brachioradialis, forearm_flexors
+- concentration_curls | known muscles: biceps_brachii, brachialis
+- preacher_curl | known muscles: biceps_brachii, brachialis, forearm_flexors
+- hammer_curls | known muscles: brachialis, brachioradialis, biceps_brachii
+- ez_bar_curl | known muscles: biceps_brachii, brachialis, brachioradialis, forearm_flexors
+- incline_dumbbell_curl | known muscles: biceps_brachii, brachialis
+- cable_preacher_curl | known muscles: biceps_brachii, brachialis, forearm_flexors
+- drag_curl | known muscles: biceps_brachii, brachialis
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Prefer: RCTs, n ≥ 10, trained populations, published after 2000
+4. If multiple studies exist for one exercise, output ALL of them — do not merge
+5. If one study tested multiple load conditions (e.g. 60% vs 80% 1RM), output each condition as a SEPARATE study block
+6. If no peer-reviewed EMG data exists for an exercise, write: # {exercise_id}: no peer-reviewed EMG data found
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. biceps_brachii, not "biceps" or "BB").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: barbell_curl
+
+muscle_activation_studies:
+  - source_id: author_year
+    doi: "10.xxxx/xxxxx"
+    n: 14
+    population: "trained males"
+    condition:
+      load_pct_1rm: 70
+      implement: barbell            # barbell | dumbbell | cable | ez_bar | null
+      grip: supinated               # supinated | neutral | pronated | null
+      phase: concentric             # concentric | eccentric | isometric | full_rep
+    measurements:
+      - muscle: biceps_brachii
+        mean_pct_mvc: 85.0
+        sd: 18.0
+      - muscle: brachialis
+        mean_pct_mvc: 70.0
+        sd: 15.0
+
+joint_rom_required:
+  elbow_flexion_deg: 145
+  shoulder_flexion_deg: null
+  source: "Author Year"
+
+strength_curve:
+  type: ascending                   # ascending | descending | bell_shaped
+  sticking_point: mid_range
+  peak_force_position: mid
+  notes: "Peak torque at ~80-90° elbow flexion"
+  source: "Author Year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2021
+    doi: "10.xxxx/xxxxx"
+    credibility: rct
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.

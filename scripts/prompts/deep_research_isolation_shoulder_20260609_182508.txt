@@ -1,0 +1,82 @@
+You are a sports science literature researcher tasked with finding real data for a structured fitness knowledge base.
+
+## Objective
+
+Find EMG muscle activation data, joint ROM requirements, and strength curve characteristics for the exercises listed below.
+Output one YAML block per exercise. Follow the schema strictly.
+
+## Exercises to Research
+
+- side_lateral_raise | known muscles: deltoid_lateral, deltoid_anterior, supraspinatus, trap_upper
+- seated_side_lateral_raise | known muscles: deltoid_lateral, deltoid_anterior, supraspinatus, trap_upper
+- cable_seated_lateral_raise | known muscles: deltoid_lateral, deltoid_anterior, supraspinatus, trap_upper, rhomboids
+- face_pull | known muscles: deltoid_posterior, infraspinatus, supraspinatus, trap_middle, trap_lower, rhomboids
+- seated_bent_over_rear_delt_raise | known muscles: deltoid_posterior, infraspinatus, trap_middle, rhomboids
+- bent_over_dumbbell_rear_delt_raise_with_head_on_bench | known muscles: deltoid_posterior, infraspinatus, trap_middle
+- front_dumbbell_raise | known muscles: deltoid_anterior, deltoid_lateral, pec_major_clavicular
+- front_cable_raise | known muscles: deltoid_anterior, deltoid_lateral
+
+## Search Strategy
+
+1. Search PubMed, Google Scholar, and SPORTDiscus
+2. For each exercise, use search terms: "{exercise name}" AND ("EMG" OR "electromyography" OR "muscle activation" OR "% MVC" OR "% MVIC")
+3. Prefer: RCTs, n ≥ 10, trained populations, published after 2000
+4. If multiple studies exist for one exercise, output ALL of them — do not merge
+5. If one study tested multiple load conditions (e.g. 60% vs 80% 1RM), output each condition as a SEPARATE study block
+6. If no peer-reviewed EMG data exists for an exercise, write: # {exercise_id}: no peer-reviewed EMG data found
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble, no closing remarks.
+- Every numeric value MUST have a corresponding source_id that appears in the sources[] list.
+- If a value is not found in a source, write null. NEVER estimate or invent numbers.
+- If a field does not apply to this movement, omit it entirely.
+- All muscle ids must be snake_case canonical anatomical names (e.g. deltoid_lateral, not "medial delt" or "middle deltoid").
+- The string values "unknown", "estimated", "approximate" are forbidden.
+- Each exercise block must begin with a comment line: # exercise_id: {id}
+
+## Output Schema
+
+```yaml
+# exercise_id: side_lateral_raise
+
+muscle_activation_studies:
+  - source_id: author_year           # short key; must match an entry in sources[]
+    doi: "10.xxxx/xxxxx"             # include if available; null otherwise
+    n: 14                            # sample size; null if not reported
+    population: "trained males"      # brief description of participants
+    condition:
+      load_pct_1rm: 80               # % of 1RM used; null if not reported
+      implement: dumbbell            # dumbbell | cable | band | null
+      elbow_angle_deg: null          # fixed elbow angle if specified; null otherwise
+      phase: concentric              # concentric | eccentric | isometric | full_rep
+    measurements:
+      - muscle: deltoid_lateral
+        mean_pct_mvc: 88.0           # mean % MVC; null if not reported
+        sd: 24.0                     # standard deviation; null if not reported
+      - muscle: supraspinatus
+        mean_pct_mvc: 67.0
+        sd: 29.0
+
+joint_rom_required:                  # only include joints relevant to this movement
+  shoulder_abduction_deg: 90         # degrees of shoulder abduction at peak
+  elbow_flexion_deg: null            # fixed elbow angle if relevant
+  source: "Author Year"
+
+strength_curve:
+  type: ascending                    # ascending | descending | bell_shaped
+  sticking_point: bottom_third       # bottom_third | mid_range | top_third | null
+  peak_force_position: top           # bottom | mid | top | null
+  notes: "Moment arm peaks at ~70° abduction"
+  source: "Author Year"
+
+sources:
+  - source_id: author_year
+    title: "Full title of the paper"
+    author: "Last, First"
+    year: 2021
+    doi: "10.xxxx/xxxxx"
+    credibility: rct                 # meta_analysis | rct | expert_consensus | practitioner | anecdotal
+```
+
+Output all exercises first, then a single merged sources[] list at the very end covering all source_ids used across all exercise blocks.

@@ -1,6 +1,7 @@
 ---
 id: overhead_press
 name: Overhead Press
+status: complete
 aliases: [OHP, Strict Press, Military Press]
 category: exercise
 pattern: [vertical press]

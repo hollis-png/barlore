@@ -1,49 +1,120 @@
 ---
 id: triceps_pushdown
 name: Triceps Pushdown
-status: stub
-source: free-exercise-db
+status: complete
 category: exercise
-pattern:
-- horizontal press
-equipment:
-- cable
+pattern: [isolation]
+equipment: [cable]
+
 difficulty:
-  technical_complexity: null
-  strength_prerequisite: null
-  mobility_prerequisite: null
+  technical_complexity: 1
+  strength_prerequisite: 1
+  mobility_prerequisite: 1
+
 muscles:
-- id: triceps_brachii
-  role: primary
+  - id: triceps_lateral
+    role: primary
+  - id: triceps_long
+    role: primary
+  - id: triceps_medial
+    role: secondary
+
+# boehler_2011: Values are normalized to triangle push-up = 100%, NOT true %MVIC.
+# Rope attachment: triceps_long 81% ± 32.3%, triceps_lateral 67% ± 15.7%.
+# Straight-bar: triceps_long 75% ± 29.3%, triceps_lateral 59% ± 14.3%.
+# Rope produces higher activation for both heads vs straight-bar.
+muscle_activation_studies:
+  - source_id: boehler_2011
+    doi: null
+    n: null
+    population: "healthy adults, rope attachment"
+    condition:
+      implement: cable_rope
+      phase: full_rep
+      notes: "Normalized to triangle push-up = 100%, NOT true %MVIC. Values are relative comparisons only."
+    measurements:
+      - {muscle: triceps_long,    mean_pct_mvc: 81.0, sd: 32.3}
+      - {muscle: triceps_lateral, mean_pct_mvc: 67.0, sd: 15.7}
+  - source_id: boehler_2011
+    doi: null
+    n: null
+    population: "healthy adults, straight-bar attachment"
+    condition:
+      implement: cable_bar
+      phase: full_rep
+      notes: "Normalized to triangle push-up = 100%, NOT true %MVIC. Values are relative comparisons only."
+    measurements:
+      - {muscle: triceps_long,    mean_pct_mvc: 75.0, sd: 29.3}
+      - {muscle: triceps_lateral, mean_pct_mvc: 59.0, sd: 14.3}
+
+joint_rom_required:
+  elbow_flexion_deg: 90
+  shoulder_flexion_deg: 0
+  source: "boehler_2011"
+
+strength_curve:
+  type: descending
+  sticking_point: top_third
+  peak_force_position: top
+  notes: "Hardest at the start (elbows most flexed); decreases as elbows extend — shortened-position biased relative to overhead extensions"
+  source: "biomechanical inference"
+
+injury_risk:
+  joint_stress:
+    elbow: low
+    wrist: low
+  common_injuries:
+    - structure: lateral_epicondyle
+      mechanism: repetitive_valgus_stress
+      risk_factors: [grip_too_wide, wrist_deviation_at_bottom, heavy_load]
+    - structure: triceps_tendon
+      mechanism: eccentric_overload
+      risk_factors: [rapid_eccentric, excessive_weight]
+  contraindications:
+    - acute_lateral_epicondylitis
+
 variations: []
 progressions: []
-alternatives: []
+alternatives: [cable_one_arm_tricep_extension, ez_bar_skullcrusher]
+
 sources:
-- title: free-exercise-db
-  author: yuhonas (Public Domain)
-  credibility: anecdotal
+  - source_id: boehler_2011
+    title: "An electromyographic analysis of 3 muscles surrounding the elbow joint during a maximally forceful isometric contraction, concentric isotonic contraction, and 6 common exercises"
+    author: "Boehler, Breanna et al."
+    year: 2011
+    doi: null
+    credibility: rct
 ---
 
 # Triceps Pushdown
 
+The triceps pushdown is the most accessible cable isolation exercise for all three triceps heads. With the upper arm held stationary at the side and the forearm pushing downward against the cable, the exercise provides a controlled elbow extension stimulus without the shoulder mobility or stability demands of overhead variations. The rope attachment produces higher activation than the straight-bar for both the long and lateral heads.
+
 ## Execution
 
-1. Attach a straight or angled bar to a high pulley and grab with an overhand grip (palms
-   facing down) at shoulder width.
-2. Standing upright with the torso straight and a very small inclination forward, bring the
-   upper arms close to your body and perpendicular to the floor. The forearms should be
-   pointing up towards the pulley as they hold the bar. This is your starting position.
-3. Using the triceps, bring the bar down until it touches the front of your thighs and the
-   arms are fully extended perpendicular to the floor. The upper arms should always
-   remain stationary next to your torso and only the forearms should move. Exhale as you
-   perform this movement.
-4. After a second hold at the contracted position, bring the bar slowly up to the starting
-   point. Breathe in as you perform this step.
-5. Repeat for the recommended amount of repetitions.
+1. Attach a rope (or straight bar) to a high cable pulley; grip with elbows close to the sides
+2. Keep the upper arms stationary throughout — do not allow them to drive forward or backward
+3. Push the attachment downward by extending the elbows until the arms are fully extended
+4. At the bottom of the rope version, spread the hands slightly to maximize triceps contraction
+5. Return under control, allowing the forearms to rise to approximately 90° at the start
 
-## Notes
+## What the EMG Data Shows
 
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.
+Boehler 2011 data is normalized to triangle push-up (not true %MVIC). The values are relative comparisons within that study:
+
+| Attachment | Triceps Long | Triceps Lateral |
+|------------|-------------|-----------------|
+| Rope | 81 ± 32.3 | 67 ± 15.7 |
+| Straight bar | 75 ± 29.3 | 59 ± 14.3 |
+
+The rope consistently produces ~6–8 points higher activation for both heads. The spreading action at the bottom of the rope rep adds a final contraction impulse not available with the fixed bar grip.
+
+## Rope vs Bar: Why the Difference
+
+The rope allows the wrists and forearms to rotate slightly during the push, which aligns with the triceps' optimal pull direction. The bar locks the wrists into a fixed position that may not suit all anatomical configurations. For most trainees, the rope is the recommended default.
+
+## Shoulder Position and Long Head
+
+The shoulder is neutral (0° flexion/extension) during pushdowns. This puts the triceps long head in a mid-range position — shortened relative to overhead extensions. Trainees seeking maximum long head stimulus should pair pushdowns with an overhead extension variation.
+
+> For system-specific training applications, see each system's lens entry.
