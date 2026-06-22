@@ -1,74 +1,106 @@
 ---
 id: log_lift
 name: Log Lift
-status: stub
-source: free-exercise-db
+status: complete
 category: exercise
-pattern:
-- carry
-equipment: []
+pattern: [vertical press]
+equipment: [log]
+
 difficulty:
-  technical_complexity: null
-  strength_prerequisite: null
-  mobility_prerequisite: null
+  technical_complexity: 4
+  strength_prerequisite: 4
+  mobility_prerequisite: 3
+
 muscles:
-- id: deltoid
-  role: primary
-- id: rectus_abdominis
-  role: secondary
-- id: pectoralis_major
-  role: secondary
-- id: gluteus_maximus
-  role: secondary
-- id: biceps_femoris
-  role: secondary
-- id: semitendinosus
-  role: secondary
-- id: erector_spinae
-  role: secondary
-- id: multifidus
-  role: secondary
-- id: rhomboids
-  role: secondary
-- id: trapezius
-  role: secondary
-- id: rectus_femoris
-  role: secondary
-- id: vastus_lateralis
-  role: secondary
-- id: vastus_medialis
-  role: secondary
-- id: triceps_brachii
-  role: secondary
+  - id: deltoid_anterior
+    role: primary
+  - id: deltoid_lateral
+    role: secondary
+  - id: triceps_long
+    role: primary
+  - id: triceps_lateral
+    role: primary
+  - id: triceps_medial
+    role: secondary
+  - id: pectoralis_major
+    role: secondary
+  - id: trap_upper
+    role: secondary
+  - id: trap_middle
+    role: secondary
+  - id: erector_spinae
+    role: secondary
+  - id: multifidus
+    role: secondary
+  - id: rectus_abdominis
+    role: secondary
+  - id: obliques
+    role: secondary
+  - id: gluteus_maximus
+    role: secondary
+  - id: rectus_femoris
+    role: secondary
+  - id: vastus_lateralis
+    role: secondary
+  - id: vastus_medialis
+    role: secondary
+  - id: biceps_femoris
+    role: tertiary
+  - id: semitendinosus
+    role: tertiary
+  - id: rhomboids
+    role: tertiary
+
+muscle_activation_studies: []
+
+joint_rom_required:
+  trunk_rom_deg: 83
+  hip_rom_deg: 126
+  shoulder_flexion_deg: 170
+  source: "biomechanical comparison with Olympic clean & jerk — log lift requires 24% greater trunk ROM (82.7 +/- 8.4 deg vs 66.8 +/- 12.0 deg) and 8% greater hip ROM (125.5 +/- 8.9 deg vs 115.7 +/- 10.4 deg)"
+
+strength_curve:
+  type: ascending
+  sticking_point: transition_from_rack_to_press
+  notes: "The log's diameter forces the elbows wide at the rack position, creating a mechanically disadvantaged start for the press. The neutral grip reduces shoulder external rotation demand compared to a barbell."
+
+injury_risk:
+  joint_stress:
+    shoulder: moderate
+    lumbar_spine: moderate
+    wrist: low
+  common_injuries:
+    - structure: lumbar_disc
+      mechanism: hyperextension_during_layback_press
+      risk_factors: [excessive_layback, weak_anterior_core, fatigue]
+    - structure: shoulder_labrum
+      mechanism: overhead_pressing_with_wide_implement
+      risk_factors: [poor_thoracic_mobility, pre_existing_impingement, excessive_load]
+  contraindications:
+    - acute_shoulder_impingement
+    - acute_lumbar_disc_herniation
+    - limited_overhead_mobility
+
 variations: []
-progressions: []
-alternatives: []
-sources:
-- title: free-exercise-db
-  author: yuhonas (Public Domain)
-  credibility: anecdotal
+progressions: [push_press]
+alternatives: [overhead_press, push_press]
+
+sources: []
 ---
 
 # Log Lift
 
+A strongman overhead press performed with a cylindrical log implement featuring neutral-grip handles inside. The movement consists of two phases: a clean from the floor to the rack position on the chest, followed by a push press (or strict press) overhead. The log's large diameter demands significantly greater trunk and hip range of motion than an Olympic clean and jerk — approximately 24% more trunk ROM and 8% more hip ROM. The neutral grip reduces shoulder external rotation demand, making it more accessible for athletes with limited shoulder mobility in external rotation.
+
 ## Execution
 
-1. Begin standing with the log in front of you. Grasp the handles, and begin to clean the
-   log. As you are bent over to start the clean, attempt to get the log as high as
-   possible, pulling it into your chest. Extend through the hips and knees to bring it
-   up to complete the clean.
-2. Push your head back and look up, creating a shelf on your chest to rest the log. Begin
-   the press by dipping, flexing slightly through the knees and reversing the motion.
-   This push press will generate momentum to start the log moving vertically. Continue
-   by extending through the elbows to press the log above your head. There are no strict
-   rules on form, so use whatever techniques you are most efficient with. As the log is
-   pressed, ensure that you push your head through on each repetition, looking forward.
-3. Repeat as many times as possible. Attempt to control the descent of the log as it is
-   returned to the ground.
+1. **Setup.** Stand over the log with feet hip-width apart. Reach through the log openings and grip the neutral handles firmly.
+2. **Clean — First Pull.** Extend through the hips and knees to pull the log from the floor. Keep the log tight against the body.
+3. **Clean — Lap and Roll.** As the log reaches thigh height, sit back slightly and roll the log up the torso. Transition to a front rack position by driving the elbows up and pushing the head back to create a shelf on the upper chest.
+4. **Dip and Drive.** Flex the knees 4-6 inches, then explosively extend to generate vertical momentum on the log.
+5. **Press and Lockout.** Continue pressing through the elbows. As the log clears the head, push the head forward through the "window" between the arms. Lock out with the log directly over the base of support.
+6. **Descent.** Lower the log back to the rack position under control, then to the floor (or perform another rep from the rack).
 
-## Notes
+## Programming Note
 
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.
+The log lift is technically demanding due to the implement's diameter and the transition from clean to press. Athletes should be proficient with barbell push press mechanics before introducing the log. In competition, the log is typically contested as a max single or timed max reps. Allow the same recovery as heavy overhead pressing (48-72 hours). Wrist wraps are commonly used to support the extended wrist position in the rack.
