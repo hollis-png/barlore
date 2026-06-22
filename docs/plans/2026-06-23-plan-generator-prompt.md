@@ -1,3 +1,112 @@
+# Plan Generator Prompt — Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Create a single-file prompt template (`Barlore/prompts/plan_generator.md`) that any LLM can use to generate a personalized training plan from the Barlore knowledge base, plus an optional script to regenerate the embedded programs table.
+
+**Architecture:** A single Markdown file with 4 sections (System Prompt, User Profile form, Decision Matrix, Generation Rules). The Decision Matrix embeds a programs table generated from `index/programs.json`. A Python script can regenerate that table on demand.
+
+**Tech Stack:** Markdown (prompt), Python 3 (matrix generator script)
+
+## Global Constraints
+
+- All content in English
+- Exercise/program names must use Barlore canonical IDs
+- The prompt must work when pasted into any LLM (ChatGPT, Gemini, Claude.ai) — no tool-specific syntax
+- The embedded programs table must match the current `index/programs.json` exactly
+- Spec location: `Barlore/docs/specs/2026-06-23-plan-generator-prompt-design.md`
+
+---
+
+### Task 1: Build the matrix generator script
+
+**Files:**
+- Create: `Barlore/scripts/build_plan_matrix.py`
+
+**Interfaces:**
+- Consumes: `Barlore/index/programs.json`
+- Produces: a Markdown table string printed to stdout (piped into Task 2, or copy-pasted)
+
+This script reads `index/programs.json` and outputs the programs table formatted for embedding in the prompt. It is run manually when programs change; its output is pasted into Section C.1 of the prompt.
+
+- [ ] **Step 1: Write the script**
+
+```python
+#!/usr/bin/env python3
+"""
+Generate the programs decision matrix for plan_generator.md Section C.1.
+
+Usage:
+  python3 scripts/build_plan_matrix.py
+
+Prints a Markdown table to stdout. Copy-paste into plan_generator.md Section C.1.
+"""
+import json
+import pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+PROGRAMS_FILE = ROOT / "index" / "programs.json"
+
+
+def main() -> None:
+    programs = json.load(PROGRAMS_FILE.open())
+
+    rows: list[tuple[str, str, str, str, str]] = []
+    for pid, p in programs.items():
+        rows.append((
+            p.get("system", ""),
+            p.get("level", ""),
+            pid,
+            p.get("name", ""),
+            p.get("periodization") or "—",
+        ))
+
+    rows.sort(key=lambda r: (r[0], r[1], r[2]))
+
+    print("| system | level | program_id | name | periodization |")
+    print("|--------|-------|------------|------|---------------|")
+    for system, level, pid, name, period in rows:
+        print(f"| {system} | {level} | {pid} | {name} | {period} |")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+- [ ] **Step 2: Run the script and verify output**
+
+Run: `cd Barlore && python3 scripts/build_plan_matrix.py`
+
+Expected: a Markdown table with 41 rows, sorted by system → level → program_id. Verify the header row and at least 3 data rows look correct.
+
+- [ ] **Step 3: Commit**
+
+```bash
+cd Barlore && git add scripts/build_plan_matrix.py && git commit -m "feat: add build_plan_matrix.py to generate programs table for plan_generator prompt"
+```
+
+---
+
+### Task 2: Write the prompt template
+
+**Files:**
+- Create: `Barlore/prompts/plan_generator.md`
+
+**Interfaces:**
+- Consumes: output from Task 1 (programs table), spec at `docs/specs/2026-06-23-plan-generator-prompt-design.md`
+- Produces: the deliverable prompt file
+
+This is the main deliverable. The file has 4 sections (A-D) as defined in the spec. Section C.1 contains the full programs table from Task 1's output. The user fills Section B and pastes the entire file into an LLM.
+
+- [ ] **Step 1: Generate the programs table**
+
+Run: `cd Barlore && python3 scripts/build_plan_matrix.py > /tmp/programs_table.md`
+
+- [ ] **Step 2: Write the prompt file**
+
+Create `Barlore/prompts/plan_generator.md` with the following complete content. The `{PROGRAMS_TABLE}` placeholder below must be replaced with the actual content of `/tmp/programs_table.md` from Step 1.
+
+````markdown
 # Barlore Training Plan Generator
 
 > **Instructions:** Fill in Section B (Your Profile) below, then paste this entire file into any LLM.
@@ -77,49 +186,7 @@ You are a strength and conditioning coach with access to the Barlore knowledge b
 
 ### C.1 — Programs Table
 
-| system | level | program_id | name | days/wk | periodization |
-|--------|-------|------------|------|---------|---------------|
-| bodybuilding | advanced | phat | PHAT (Power Hypertrophy Adaptive Training) | 5 | undulating |
-| bodybuilding | beginner | beginner_fullbody_hypertrophy | Beginner Full-Body Hypertrophy | 3 | linear |
-| bodybuilding | intermediate | bodybuilding_isolation_block | Bodybuilding Isolation Block | 4 | linear |
-| bodybuilding | intermediate | phul | PHUL | 4 | undulating |
-| bodybuilding | intermediate | push_pull_legs | Push Pull Legs | 6 | linear |
-| bodybuilding | intermediate | rp_hypertrophy | RP Hypertrophy Program | 4 | block |
-| calisthenics | advanced | calisthenics_advanced_skills | Calisthenics Advanced Strength Skills | 5 | block |
-| calisthenics | beginner | bwf_recommended_routine | BWF Recommended Routine | 3 | linear |
-| calisthenics | beginner | convict_conditioning | Convict Conditioning Big Six | 3 | linear |
-| calisthenics | beginner | get_strong_kavadlo | Get Strong: The Ultimate 16-Week Transformation Program | 4 | block |
-| calisthenics | beginner | grease_the_groove | Grease the Groove Method | 7 | undulating |
-| calisthenics | beginner | gymnastic_bodies_foundation_one | Gymnastic Bodies Foundation One | 4 | block |
-| calisthenics | intermediate | bwf_skill_day_template | BWF Advanced Skill Day Template | 3 | undulating |
-| calisthenics | intermediate | calisthenics_intermediate_skills | Calisthenics Intermediate Skill Development | 4 | undulating |
-| calisthenics | intermediate | overcoming_gravity_template | Overcoming Gravity Skill Progression Template | 3 | block |
-| crossfit | advanced | crossfit_competition_prep | CrossFit Competition Preparation | 5 | block |
-| crossfit | beginner | crossfit_foundations | CrossFit Foundations | 5 | undulating |
-| crossfit | intermediate | crossfit_intermediate | CrossFit Intermediate Strength & Conditioning | 5 | linear |
-| olympic | advanced | bulgarian_method | Bulgarian Method | 6 | — |
-| olympic | advanced | cal_strength_daily | California Strength Daily Training Program | 6 | undulating |
-| olympic | advanced | klokov_protocol | Dmitry Klokov Seminar Protocol | 6 | undulating |
-| olympic | advanced | olympic_weightlifting_advanced | Olympic Weightlifting Advanced — High-Frequency Competition Prep | 6 | block |
-| olympic | beginner | olympic_weightlifting_beginner | Olympic Weightlifting Beginner Program | 3 | linear |
-| olympic | beginner | usaw_l1_program | USAW Level 1 Coaching Framework | 3 | linear |
-| olympic | intermediate | catalyst_12_week | Catalyst Athletics 12-Week Traditional Cycle | 5 | block |
-| olympic | intermediate | glenn_pendlay_programs | Glenn Pendlay Weightlifting System | 4 | undulating |
-| olympic | intermediate | lsus_10_5_3 | LSU Shreveport 10-5-3 Program | 5 | linear |
-| olympic | intermediate | olympic_weightlifting_intermediate | Olympic Weightlifting Intermediate Program | 4 | block |
-| powerlifting | advanced | westside_conjugate | Westside Conjugate Method | 4 | conjugate |
-| powerlifting | beginner | gzclp | GZCLP | 4 | linear |
-| powerlifting | beginner | starting_strength | Starting Strength | 3 | linear |
-| powerlifting | intermediate | 5_3_1 | 5/3/1 | 4 | linear |
-| powerlifting | intermediate | texas_method | Texas Method | 3 | linear |
-| strongman | advanced | brian_shaw_off_season | Brian Shaw Off-Season Training Structure | 4 | conjugate |
-| strongman | advanced | eddie_hall_training_structure | Eddie Hall Training Structure | 5 | undulating |
-| strongman | advanced | strongman_competition_prep | Strongman Competition Preparation | 5 | block |
-| strongman | beginner | basic_strongman_block | Basic Strongman Block | 4 | block |
-| strongman | beginner | starting_strongman | Starting Strongman | 4 | linear |
-| strongman | intermediate | cube_method_strongman | Cube Method Strongman | 4 | conjugate |
-| strongman | intermediate | juggernaut_method_strongman | Juggernaut Method Strongman | 4 | block |
-| strongman | intermediate | strongman_intermediate_block | Strongman Intermediate Block | 4 | linear |
+{PROGRAMS_TABLE}
 
 ### C.2 — Goal-to-System Mapping
 
@@ -192,7 +259,7 @@ If no benchmark data is provided (user left Training History vague), accept the 
 
 ### Step 3: Filter Programs
 
-From candidate systems × verified level, filter programs using C.1. Use the `days/wk` column to match the user's Days Per Week — prefer programs within ±1 day of the user's stated frequency. If no program at the target level matches, note this in the recommendation.
+From candidate systems × verified level, filter programs using C.1. Among matches, prefer programs whose typical frequency best aligns with the user's Days Per Week.
 
 ### Step 4: Recommend
 
@@ -201,8 +268,6 @@ Recommend **1 primary program + 1 alternative**. For each, state:
 - Why it fits the user's goal, level, and schedule
 - What distinguishes the alternative from the primary
 
-**If only 1 program matches at the target level** (e.g., bodybuilding advanced has only `phat`): pick the alternative from the adjacent level in the same system (prefer intermediate over beginner). Clearly state the alternative is from a different level and explain why it is still viable.
-
 ### Step 5: Output Weekly Schedule
 
 **If you have file-reading capability:** read the program file at `Barlore/programs/{system}/{program_id}.md` and expand the full weekly schedule with exercises, sets, reps, and intensity as prescribed.
@@ -210,8 +275,6 @@ Recommend **1 primary program + 1 alternative**. For each, state:
 **If you do not have file-reading capability:** construct the schedule from the program's periodization type (from C.1) and the system's general conventions. Flag the output with the `[Preview]` disclaimer from Section A.
 
 **If the user has injuries/limitations (field 7) or equipment constraints that require exercise substitution:** skip the standard schedule and go directly to Step 6 to produce a single merged output.
-
-How to determine if equipment constraints require substitution: after selecting the program in Step 4, check whether any exercise in that program requires equipment the user does not have. If the user selected `full_gym`, no substitution is needed. For all other equipment tiers, compare each exercise's equipment against the user's selection — if any exercise uses equipment the user lacks (e.g., program includes cable exercises but user only has `barbell_and_rack`), Step 6 is triggered.
 
 ### Step 6: Adjustments (if needed)
 
@@ -281,3 +344,72 @@ Append brief guidance (3-5 bullet points per section) when these conditions are 
 > - lose_fat → moderate caloric deficit (300-500 kcal/day below maintenance), protein toward 2.2 g/kg
 > - maintain → eat at maintenance, protein at 1.6-1.8 g/kg
 > Reference: `Barlore/crosscutting/nutrition/protein_requirements.md`, `Barlore/crosscutting/nutrition/energy_balance.md`
+````
+
+- [ ] **Step 3: Replace the `{PROGRAMS_TABLE}` placeholder**
+
+Open `Barlore/prompts/plan_generator.md` and replace the literal text `{PROGRAMS_TABLE}` with the contents of `/tmp/programs_table.md` (the table generated in Step 1).
+
+- [ ] **Step 4: Verify the prompt file**
+
+Run: `wc -l Barlore/prompts/plan_generator.md`
+
+Expected: approximately 180-220 lines. Verify the file contains all 4 sections (A through D) and the programs table has 41 data rows plus a header.
+
+Run: `grep -c '|' Barlore/prompts/plan_generator.md`
+
+Expected: at least 50 pipe characters (tables are present).
+
+- [ ] **Step 5: Commit**
+
+```bash
+cd Barlore && git add prompts/plan_generator.md && git commit -m "feat: add plan_generator.md prompt template for personalized training plan generation"
+```
+
+---
+
+### Task 3: Smoke test with a sample user profile
+
+**Files:**
+- No files created or modified — this is a validation task
+
+**Interfaces:**
+- Consumes: `Barlore/prompts/plan_generator.md` from Task 2
+
+Fill in a sample profile and verify the prompt is well-formed and an LLM can follow it.
+
+- [ ] **Step 1: Create a test profile**
+
+Open `Barlore/prompts/plan_generator.md` and fill Section B with this test data:
+
+```
+1. Primary Goal: strength
+2. Self-Assessed Level: intermediate
+3. Training History: 3 years, squat 120kg, bench 85kg, deadlift 150kg at 80kg BW
+4. Available Equipment: full_gym
+5. Days Per Week: 4
+6. Session Duration: 60-90min
+7. Injuries / Limitations: mild left shoulder impingement — overhead pressing causes pain
+8. Age: 32
+9. Sex: male
+10. Body Weight (kg): 80
+11. Body Composition Goal: gain_muscle
+```
+
+- [ ] **Step 2: Verify expected LLM behavior**
+
+Without running through an LLM, manually trace through Section D:
+
+1. Goal `strength` → C.2 maps to `powerlifting, strongman`
+2. Level: self-assessed `intermediate`, BW=80kg, squat=120kg (1.5x), bench=85kg (1.06x), deadlift=150kg (1.88x) → all within intermediate range ✓, no override needed
+3. Filter C.1: powerlifting intermediate → `5_3_1`, `texas_method`. strongman intermediate → `cube_method_strongman`, `juggernaut_method_strongman`, `strongman_intermediate_block`. 4 days/week favors most of these
+4. Primary recommendation likely `5_3_1` (4 days, proven intermediate program). Alternative likely `texas_method`
+5. Shoulder impingement → Stage 2 triggered. Overhead press flagged. Should substitute with an alternative that avoids overhead pressing
+6. Age 32 → no masters trigger
+7. BW + gain_muscle → nutrition section triggered (protein 1.6-2.2 g/kg = 128-176g/day, moderate surplus)
+
+Verify all these steps are reachable from the prompt text alone.
+
+- [ ] **Step 3: Clean up the test profile**
+
+Reset Section B fields in `Barlore/prompts/plan_generator.md` back to blank (the prompt should ship with empty fields for users to fill).
