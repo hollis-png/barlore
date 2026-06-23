@@ -3,7 +3,7 @@ id: crossfit_overview
 name: CrossFit
 category: system_overview
 goal: Broad, general, and inclusive fitness across ten physical domains
-programs: [crossfit_foundations]
+programs: [crossfit_foundations, crossfit_intermediate, crossfit_competition_prep]
 ---
 
 # CrossFit
@@ -81,6 +81,8 @@ Every WOD has three versions: **Rx** (prescribed), **Scaled**, **Beginner**. The
 | Program | Level | Key feature |
 |---|---|---|
 | `crossfit_foundations` | Beginner | 8-week GPP on-ramp, benchmark WODs, 3-domain introduction |
+| `crossfit_intermediate` | Intermediate | WOD + strength supplemental, benchmark tracking |
+| `crossfit_competition_prep` | Advanced | Two-a-days, weakness targeting, Open peaking |
 
 ## Related Core Principles
 

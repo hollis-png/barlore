@@ -3,7 +3,7 @@ id: bodybuilding_overview
 name: Bodybuilding
 category: system_overview
 goal: Maximal muscle hypertrophy and physique development
-programs: [rp_hypertrophy, phul, push_pull_legs]
+programs: [beginner_fullbody_hypertrophy, phat, phul, push_pull_legs, rp_hypertrophy, bodybuilding_isolation_block]
 ---
 
 # Bodybuilding
@@ -84,9 +84,12 @@ Ranges vary by individual recovery capacity. See `core/volume_landmarks.md` for 
 
 | Program | Level | Split | Key feature |
 |---|---|---|---|
+| `beginner_fullbody_hypertrophy` | Beginner | 3-day full-body | Compound-focused, linear progression |
+| `phul` | Early intermediate | 4-day upper/lower | Power + hypertrophy undulating |
 | `push_pull_legs` | Beginner-intermediate | 6-day PPL | Double-progression, 2x frequency |
-| `phul` | Intermediate | 4-day upper/lower | Power + hypertrophy undulating |
+| `phat` | Intermediate | 5-day power + hypertrophy | Layne Norton PHAT, heavy + volume days |
 | `rp_hypertrophy` | Intermediate-advanced | 4-day upper/lower | Autoregulated volume, RIR-based |
+| `bodybuilding_isolation_block` | Intermediate | 4-day isolation split | Pure isolation specialisation block, 31 exercises |
 
 ## Related Core Principles
 

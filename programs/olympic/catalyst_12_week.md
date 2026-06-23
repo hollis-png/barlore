@@ -9,6 +9,7 @@ level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: block
+origin: classic
 progression_model: >
   Linear step-loading: intensity increases ~2.5-5% per week within each mesocycle.
   Three mesocycles: Wks 1-4 accumulation (high volume, 60-75%), Wks 5-8 transmutation

@@ -9,6 +9,7 @@ level: beginner
 duration_weeks: 8
 frequency_per_week: 4
 periodization: block
+origin: synthesized
 progression_model: >
   Block structure: Weeks 1-4 accumulation (higher volume, 65-75% 1RM on barbell lifts,
   technique emphasis on events); Weeks 5-7 intensification (lower volume, 80-90% 1RM,

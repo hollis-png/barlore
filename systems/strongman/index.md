@@ -3,7 +3,7 @@ id: strongman_overview
 name: Strongman
 category: system_overview
 goal: Maximum performance across a varied set of strength and loaded carry events
-programs: [basic_strongman_block]
+programs: [basic_strongman_block, strongman_intermediate_block, strongman_competition_prep, starting_strongman, juggernaut_method_strongman, brian_shaw_off_season, eddie_hall_training_structure, cube_method_strongman]
 ---
 
 # Strongman
@@ -83,6 +83,13 @@ Athletes accumulate points per event (place-based scoring). Best overall point t
 | Program | Level | Duration | Key feature |
 |---|---|---|---|
 | `basic_strongman_block` | Beginner | 8 weeks | Accumulation → intensification → peak; 4 days/week with event day |
+| `starting_strongman` | Beginner | 12 weeks | Community-derived, barbell base + event introduction |
+| `strongman_intermediate_block` | Intermediate | 12 weeks | Competition-calendar driven, event-specific blocks |
+| `juggernaut_method_strongman` | Intermediate | 16 weeks | Juggernaut wave loading adapted for strongman events |
+| `cube_method_strongman` | Intermediate-advanced | 10 weeks | Brandon Lilly Cube adapted, rotating max/rep/dynamic days |
+| `strongman_competition_prep` | Advanced | 8 weeks | Event-specific peaking, taper to ≤50% intensity |
+| `brian_shaw_off_season` | Advanced | 16 weeks | Brian Shaw GPP emphasis, high volume barbell base |
+| `eddie_hall_training_structure` | Advanced | ongoing | Eddie Hall high-frequency event training structure |
 
 ## Related Core Principles
 

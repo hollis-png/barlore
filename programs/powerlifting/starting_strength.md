@@ -9,6 +9,7 @@ level: beginner
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
+origin: classic
 progression_model: >
   Add weight every session: 2.5 kg (5 lbs) to upper-body lifts (press, bench press) and
   5 kg (10 lbs) to lower-body lifts (squat, deadlift) each training session. Power clean

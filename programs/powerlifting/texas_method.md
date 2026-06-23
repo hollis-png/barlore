@@ -9,6 +9,7 @@ level: intermediate
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
+origin: classic
 progression_model: >
   Weekly progression: Volume Day accumulates fatigue; Recovery Day dissipates it;
   Intensity Day tests a new 5-rep PR. Load increases each week on Intensity Day.

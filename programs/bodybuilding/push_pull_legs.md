@@ -9,6 +9,7 @@ level: intermediate
 duration_weeks: 12
 frequency_per_week: 6
 periodization: linear
+origin: synthesized
 progression_model: >
   Double-progression: perform all sets within the prescribed rep range. When the top of the
   range is achieved for all sets with clean form, add 2.5 kg on upper body exercises or

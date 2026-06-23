@@ -9,6 +9,7 @@ level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: undulating
+origin: classic
 progression_model: >
   Power days (3-5 reps): add 2.5-5 kg to compound lifts when all prescribed reps completed.
   Hypertrophy days (8-15 reps): increase reps within range; add weight when top of range

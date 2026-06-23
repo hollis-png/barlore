@@ -9,6 +9,7 @@ level: advanced
 duration_weeks: 4
 frequency_per_week: 4
 periodization: conjugate
+origin: classic
 progression_model: >
   Max Effort (ME): rotate the primary exercise weekly; attempt a new 1–3RM each ME day.
   Dynamic Effort (DE): run a 3-week pendulum wave on bar weight percentage, cycling from

@@ -8,6 +8,7 @@ goal: Build full-body bodyweight strength and hypertrophy through milestone-base
 level: beginner
 frequency_per_week: 3
 periodization: linear
+origin: classic
 progression_model: >
   Milestone-based: "When you hit 3 sets of 8 reps with good form, move to the next
   progression and start the next workout with 3 sets of 5 reps."

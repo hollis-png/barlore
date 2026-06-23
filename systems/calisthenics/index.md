@@ -3,7 +3,7 @@ id: calisthenics_overview
 name: Calisthenics
 category: system_overview
 goal: Maximal bodyweight strength, skill, and movement quality
-programs: [bwf_recommended_routine]
+programs: [bwf_recommended_routine, bwf_skill_day_template, calisthenics_intermediate_skills, calisthenics_advanced_skills, convict_conditioning, grease_the_groove, overcoming_gravity_template, gymnastic_bodies_foundation_one, get_strong_kavadlo]
 ---
 
 # Calisthenics
@@ -82,7 +82,15 @@ Tendon adaptation lags muscle by 4-8 weeks. Progress skill difficulty conservati
 
 | Program | Level | Key feature |
 |---|---|---|
-| `bwf_recommended_routine` | Beginner-intermediate | Reddit BWF RR, 3x/week, tiered progressions across 6 vectors |
+| `bwf_recommended_routine` | Beginner | Reddit BWF RR, 3x/week, tiered progressions across 6 vectors |
+| `convict_conditioning` | Beginner-intermediate | Paul Wade Big Six, 10-step progressive calisthenics |
+| `gymnastic_bodies_foundation_one` | Beginner-intermediate | Christopher Sommer, paired strength + active flexibility |
+| `get_strong_kavadlo` | Beginner-intermediate | Al Kavadlo, minimal equipment, 3-day full-body |
+| `grease_the_groove` | All levels | Sub-maximal frequent practice, Pavel Tsatsouline method |
+| `calisthenics_intermediate_skills` | Intermediate | Weighted pull-ups + muscle-up + handstand entry |
+| `bwf_skill_day_template` | Intermediate-advanced | DUP hold durations for static skills (planche / front lever) |
+| `overcoming_gravity_template` | Intermediate-advanced | Steven Low periodized, skill + strength block structure |
+| `calisthenics_advanced_skills` | Advanced | Straddle planche, full front lever, freestanding HSPU |
 
 ## Related Core Principles
 

@@ -9,6 +9,7 @@ level: intermediate
 duration_weeks: 5
 frequency_per_week: 4
 periodization: block
+origin: classic
 progression_model: >
   Reps in Reserve (RIR) decreases one unit each week during the accumulation block:
   W1 3RIR → W2 2RIR → W3 1RIR → W4 0-1RIR → W5 deload 4-5RIR.

@@ -3,7 +3,7 @@ id: olympic_overview
 name: Olympic Weightlifting
 category: system_overview
 goal: Maximal barbell load in the snatch and clean & jerk
-programs: [catalyst_12_week]
+programs: [olympic_weightlifting_beginner, catalyst_12_week, olympic_weightlifting_intermediate, olympic_weightlifting_advanced, usaw_l1_program, bulgarian_method, cal_strength_daily, glenn_pendlay_programs, klokov_protocol, lsus_10_5_3]
 ---
 
 # Olympic Weightlifting
@@ -74,7 +74,16 @@ Two lifts: **Snatch** and **Clean & Jerk**. Each athlete gets 3 attempts per lif
 
 | Program | Level | Duration | Key feature |
 |---|---|---|---|
+| `olympic_weightlifting_beginner` | Beginner | 8 weeks | Technique-first, power versions before full squat |
+| `usaw_l1_program` | Beginner | 8 weeks | USAW Level 1 curriculum, coach-aligned progressions |
 | `catalyst_12_week` | Intermediate | 12 weeks | Greg Everett traditional periodization, 3 mesocycles |
+| `olympic_weightlifting_intermediate` | Intermediate | 12 weeks | Percentage-based waves, phase-specific pull intensities |
+| `glenn_pendlay_programs` | Intermediate | 12 weeks | Glenn Pendlay Texas-style volume with Olympic lifts |
+| `lsus_10_5_3` | Intermediate | 12 weeks | LSUS cluster sets, accumulation → intensification |
+| `cal_strength_daily` | Intermediate-advanced | ongoing | Cal Strength daily max method, high-frequency |
+| `olympic_weightlifting_advanced` | Advanced | 16 weeks | Block periodization, competition peaking |
+| `klokov_protocol` | Advanced | 12 weeks | Dmitry Klokov high-volume, high-frequency training |
+| `bulgarian_method` | Advanced | ongoing | Near-daily max attempts, minimal volume |
 
 ## Related Core Principles
 

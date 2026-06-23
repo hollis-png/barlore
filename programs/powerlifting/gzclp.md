@@ -9,6 +9,7 @@ level: beginner
 duration_weeks: 16
 frequency_per_week: 4
 periodization: linear
+origin: classic
 progression_model: >
   Three tiers with independent progression.
   T1 (competition lifts): 5×3+ (AMRAP last set). Add 5 kg lower / 2.5 kg upper each session.

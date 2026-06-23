@@ -9,6 +9,7 @@ level: beginner
 duration_weeks: 8
 frequency_per_week: 5
 periodization: undulating
+origin: synthesized
 progression_model: >
   Intensity (load, speed, or difficulty) auto-scales daily to athlete capacity. Skill
   progressions use tiered standards: Rx (prescribed), Scaled, Beginner. Load progression
