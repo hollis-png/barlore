@@ -1,0 +1,110 @@
+{
+  "bodybuilding_advanced_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "bodybuilding_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/bodybuilding_advanced_guide.md",
+    "periodization_style": "block_specialization",
+    "system": "bodybuilding",
+    "type": "system_guide"
+  },
+  "bodybuilding_intermediate_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "bodybuilding_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/bodybuilding_intermediate_guide.md",
+    "periodization_style": "weekly_undulating",
+    "system": "bodybuilding",
+    "type": "system_guide"
+  },
+  "calisthenics_advanced_guide": {
+    "frequency_per_week_range": "5-6",
+    "id": "calisthenics_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/calisthenics_advanced_guide.md",
+    "periodization_style": "block",
+    "system": "calisthenics",
+    "type": "system_guide"
+  },
+  "calisthenics_intermediate_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "calisthenics_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/calisthenics_intermediate_guide.md",
+    "periodization_style": "technical_progression",
+    "system": "calisthenics",
+    "type": "system_guide"
+  },
+  "crossfit_advanced_guide": {
+    "frequency_per_week_range": "8-12",
+    "id": "crossfit_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/crossfit_advanced_guide.md",
+    "periodization_style": "concurrent_periodized",
+    "system": "crossfit",
+    "type": "system_guide"
+  },
+  "crossfit_intermediate_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "crossfit_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/crossfit_intermediate_guide.md",
+    "periodization_style": "concurrent_mixed_modal",
+    "system": "crossfit",
+    "type": "system_guide"
+  },
+  "olympic_advanced_guide": {
+    "frequency_per_week_range": "5-6",
+    "id": "olympic_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/olympic_advanced_guide.md",
+    "periodization_style": "block",
+    "system": "olympic",
+    "type": "system_guide"
+  },
+  "olympic_intermediate_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "olympic_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/olympic_intermediate_guide.md",
+    "periodization_style": "technical_progression",
+    "system": "olympic",
+    "type": "system_guide"
+  },
+  "powerlifting_advanced_guide": {
+    "frequency_per_week_range": "4-6",
+    "id": "powerlifting_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/powerlifting_advanced_guide.md",
+    "periodization_style": "block_periodization",
+    "system": "powerlifting",
+    "type": "system_guide"
+  },
+  "powerlifting_intermediate_guide": {
+    "frequency_per_week_range": "3-4",
+    "id": "powerlifting_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/powerlifting_intermediate_guide.md",
+    "periodization_style": "wave_loading",
+    "system": "powerlifting",
+    "type": "system_guide"
+  },
+  "strongman_advanced_guide": {
+    "frequency_per_week_range": "4-5",
+    "id": "strongman_advanced_guide",
+    "level": "advanced",
+    "path": "system_guides/strongman_advanced_guide.md",
+    "periodization_style": "block",
+    "system": "strongman",
+    "type": "system_guide"
+  },
+  "strongman_intermediate_guide": {
+    "frequency_per_week_range": "3-4",
+    "id": "strongman_intermediate_guide",
+    "level": "intermediate",
+    "path": "system_guides/strongman_intermediate_guide.md",
+    "periodization_style": "linear",
+    "system": "strongman",
+    "type": "system_guide"
+  }
+}

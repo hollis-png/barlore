@@ -11,7 +11,8 @@
     "name": "5/3/1",
     "path": "programs/powerlifting/5_3_1.md",
     "periodization": "linear",
-    "system": "powerlifting"
+    "system": "powerlifting",
+    "type": "program"
   },
   "basic_strongman_block": {
     "exercise_refs": [
@@ -25,7 +26,111 @@
     "name": "Basic Strongman Block",
     "path": "programs/strongman/basic_strongman_block.md",
     "periodization": "block",
-    "system": "strongman"
+    "system": "strongman",
+    "type": "program"
+  },
+  "beginner_fullbody_hypertrophy": {
+    "exercise_refs": [
+      "back_squat",
+      "bench_press",
+      "bent_over_barbell_row",
+      "romanian_deadlift",
+      "barbell_curl",
+      "triceps_pushdown",
+      "side_lateral_raise",
+      "leg_press",
+      "incline_dumbbell_press",
+      "pullups",
+      "overhead_press",
+      "hammer_curls",
+      "lying_triceps_press",
+      "face_pull"
+    ],
+    "id": "beginner_fullbody_hypertrophy",
+    "level": "beginner",
+    "name": "Beginner Full-Body Hypertrophy",
+    "path": "programs/bodybuilding/beginner_fullbody_hypertrophy.md",
+    "periodization": "linear",
+    "system": "bodybuilding",
+    "type": "program"
+  },
+  "bodybuilding_isolation_block": {
+    "exercise_refs": [
+      "dumbbell_flyes",
+      "incline_dumbbell_flyes",
+      "flat_bench_cable_flyes",
+      "butterfly",
+      "decline_dumbbell_flyes",
+      "incline_cable_flye",
+      "one_arm_flat_bench_dumbbell_flye",
+      "seated_side_lateral_raise",
+      "cable_seated_lateral_raise",
+      "front_cable_raise",
+      "seated_bent_over_rear_delt_raise",
+      "bent_over_dumbbell_rear_delt_raise_with_head_on_bench",
+      "dumbbell_bicep_curl",
+      "incline_dumbbell_curl",
+      "concentration_curls",
+      "cable_preacher_curl",
+      "ez_bar_curl",
+      "drag_curl",
+      "cable_rope_overhead_triceps_extension",
+      "decline_ez_bar_triceps_extension",
+      "cable_lying_triceps_extension",
+      "kneeling_cable_triceps_extension",
+      "cable_one_arm_tricep_extension",
+      "tricep_dumbbell_kickback",
+      "chin_up",
+      "lying_leg_curls",
+      "single_leg_leg_extension",
+      "glute_ham_raise",
+      "standing_leg_curl",
+      "standing_calf_raises",
+      "donkey_calf_raises"
+    ],
+    "id": "bodybuilding_isolation_block",
+    "level": "intermediate",
+    "name": "Bodybuilding Isolation Block",
+    "path": "programs/bodybuilding/bodybuilding_isolation_block.md",
+    "periodization": "linear",
+    "system": "bodybuilding",
+    "type": "program"
+  },
+  "brian_shaw_off_season": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "sumo_deadlift",
+      "back_squat",
+      "overhead_press",
+      "log_lift",
+      "atlas_stones",
+      "yoke_walk",
+      "farmers_walk",
+      "tire_flip",
+      "barbell_shrug",
+      "good_morning"
+    ],
+    "id": "brian_shaw_off_season",
+    "level": "advanced",
+    "name": "Brian Shaw Off-Season Training Structure",
+    "path": "programs/strongman/brian_shaw_off_season.md",
+    "periodization": "conjugate",
+    "system": "strongman",
+    "type": "program"
+  },
+  "bulgarian_method": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "front_squat"
+    ],
+    "id": "bulgarian_method",
+    "level": "advanced",
+    "name": "Bulgarian Method",
+    "path": "programs/olympic/bulgarian_method.md",
+    "periodization": null,
+    "system": "olympic",
+    "type": "program"
   },
   "bwf_recommended_routine": {
     "exercise_refs": [
@@ -47,7 +152,83 @@
     "name": "BWF Recommended Routine",
     "path": "programs/calisthenics/bwf_recommended_routine.md",
     "periodization": "linear",
-    "system": "calisthenics"
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "bwf_skill_day_template": {
+    "exercise_refs": [
+      "pushups",
+      "pullups",
+      "scapular_pull_up",
+      "weighted_pull_ups",
+      "ring_dips",
+      "plank"
+    ],
+    "id": "bwf_skill_day_template",
+    "level": "intermediate",
+    "name": "BWF Advanced Skill Day Template",
+    "path": "programs/calisthenics/bwf_skill_day_template.md",
+    "periodization": "undulating",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "cal_strength_daily": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "back_squat",
+      "front_squat",
+      "snatch_pull",
+      "clean_pull",
+      "push_press",
+      "bent_over_barbell_row",
+      "romanian_deadlift"
+    ],
+    "id": "cal_strength_daily",
+    "level": "advanced",
+    "name": "California Strength Daily Training Program",
+    "path": "programs/olympic/cal_strength_daily.md",
+    "periodization": "undulating",
+    "system": "olympic",
+    "type": "program"
+  },
+  "calisthenics_advanced_skills": {
+    "exercise_refs": [
+      "weighted_pull_ups",
+      "ring_dips",
+      "pushups",
+      "parallel_bar_dip",
+      "inverted_row",
+      "scapular_pull_up",
+      "plank",
+      "pallof_press"
+    ],
+    "id": "calisthenics_advanced_skills",
+    "level": "advanced",
+    "name": "Calisthenics Advanced Strength Skills",
+    "path": "programs/calisthenics/calisthenics_advanced_skills.md",
+    "periodization": "block",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "calisthenics_intermediate_skills": {
+    "exercise_refs": [
+      "weighted_pull_ups",
+      "ring_dips",
+      "parallel_bar_dip",
+      "pushups",
+      "inverted_row",
+      "scapular_pull_up",
+      "plank",
+      "pallof_press"
+    ],
+    "id": "calisthenics_intermediate_skills",
+    "level": "intermediate",
+    "name": "Calisthenics Intermediate Skill Development",
+    "path": "programs/calisthenics/calisthenics_intermediate_skills.md",
+    "periodization": "undulating",
+    "system": "calisthenics",
+    "type": "program"
   },
   "catalyst_12_week": {
     "exercise_refs": [
@@ -70,7 +251,47 @@
     "name": "Catalyst Athletics 12-Week Traditional Cycle",
     "path": "programs/olympic/catalyst_12_week.md",
     "periodization": "block",
-    "system": "olympic"
+    "system": "olympic",
+    "type": "program"
+  },
+  "convict_conditioning": {
+    "exercise_refs": [
+      "pushups",
+      "pullups",
+      "hanging_leg_raise",
+      "bodyweight_squat",
+      "reverse_hyperextension",
+      "handstand_push_ups"
+    ],
+    "id": "convict_conditioning",
+    "level": "beginner",
+    "name": "Convict Conditioning Big Six",
+    "path": "programs/calisthenics/convict_conditioning.md",
+    "periodization": "linear",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "crossfit_competition_prep": {
+    "exercise_refs": [
+      "back_squat",
+      "conventional_deadlift",
+      "snatch",
+      "clean_and_jerk",
+      "overhead_press",
+      "front_squat",
+      "pullups",
+      "ring_dips",
+      "overhead_squat",
+      "power_clean",
+      "pushups"
+    ],
+    "id": "crossfit_competition_prep",
+    "level": "advanced",
+    "name": "CrossFit Competition Preparation",
+    "path": "programs/crossfit/crossfit_competition_prep.md",
+    "periodization": "block",
+    "system": "crossfit",
+    "type": "program"
   },
   "crossfit_foundations": {
     "exercise_refs": [
@@ -85,7 +306,138 @@
     "name": "CrossFit Foundations",
     "path": "programs/crossfit/crossfit_foundations.md",
     "periodization": "undulating",
-    "system": "crossfit"
+    "system": "crossfit",
+    "type": "program"
+  },
+  "crossfit_intermediate": {
+    "exercise_refs": [
+      "back_squat",
+      "conventional_deadlift",
+      "overhead_press",
+      "pullups",
+      "power_clean",
+      "ring_dips",
+      "pushups",
+      "front_squat",
+      "romanian_deadlift"
+    ],
+    "id": "crossfit_intermediate",
+    "level": "intermediate",
+    "name": "CrossFit Intermediate Strength & Conditioning",
+    "path": "programs/crossfit/crossfit_intermediate.md",
+    "periodization": "linear",
+    "system": "crossfit",
+    "type": "program"
+  },
+  "cube_method_strongman": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "back_squat",
+      "overhead_press",
+      "log_lift",
+      "farmers_walk",
+      "atlas_stones",
+      "yoke_walk",
+      "good_morning",
+      "romanian_deadlift",
+      "pullups"
+    ],
+    "id": "cube_method_strongman",
+    "level": "intermediate",
+    "name": "Cube Method Strongman",
+    "path": "programs/strongman/cube_method_strongman.md",
+    "periodization": "conjugate",
+    "system": "strongman",
+    "type": "program"
+  },
+  "eddie_hall_training_structure": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "back_squat",
+      "overhead_press",
+      "log_lift",
+      "atlas_stones",
+      "farmers_walk",
+      "yoke_walk",
+      "tire_flip",
+      "floor_press",
+      "bent_over_barbell_row"
+    ],
+    "id": "eddie_hall_training_structure",
+    "level": "advanced",
+    "name": "Eddie Hall Training Structure",
+    "path": "programs/strongman/eddie_hall_training_structure.md",
+    "periodization": "undulating",
+    "system": "strongman",
+    "type": "program"
+  },
+  "get_strong_kavadlo": {
+    "exercise_refs": [
+      "pullups",
+      "pushups",
+      "parallel_bar_dip",
+      "bodyweight_squat",
+      "hanging_leg_raise",
+      "inverted_row",
+      "plank"
+    ],
+    "id": "get_strong_kavadlo",
+    "level": "beginner",
+    "name": "Get Strong: The Ultimate 16-Week Transformation Program",
+    "path": "programs/calisthenics/get_strong_kavadlo.md",
+    "periodization": "block",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "glenn_pendlay_programs": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "back_squat",
+      "front_squat",
+      "snatch_pull",
+      "clean_pull",
+      "push_press",
+      "bent_over_barbell_row"
+    ],
+    "id": "glenn_pendlay_programs",
+    "level": "intermediate",
+    "name": "Glenn Pendlay Weightlifting System",
+    "path": "programs/olympic/glenn_pendlay_programs.md",
+    "periodization": "undulating",
+    "system": "olympic",
+    "type": "program"
+  },
+  "grease_the_groove": {
+    "exercise_refs": [
+      "pullups",
+      "pushups"
+    ],
+    "id": "grease_the_groove",
+    "level": "beginner",
+    "name": "Grease the Groove Method",
+    "path": "programs/calisthenics/grease_the_groove.md",
+    "periodization": "undulating",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "gymnastic_bodies_foundation_one": {
+    "exercise_refs": [
+      "pullups",
+      "ring_dips",
+      "handstand_push_ups",
+      "bodyweight_squat",
+      "scapular_pull_up",
+      "plank",
+      "pallof_press"
+    ],
+    "id": "gymnastic_bodies_foundation_one",
+    "level": "beginner",
+    "name": "Gymnastic Bodies Foundation One",
+    "path": "programs/calisthenics/gymnastic_bodies_foundation_one.md",
+    "periodization": "block",
+    "system": "calisthenics",
+    "type": "program"
   },
   "gzclp": {
     "exercise_refs": [
@@ -100,7 +452,182 @@
     "name": "GZCLP",
     "path": "programs/powerlifting/gzclp.md",
     "periodization": "linear",
-    "system": "powerlifting"
+    "system": "powerlifting",
+    "type": "program"
+  },
+  "juggernaut_method_strongman": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "back_squat",
+      "overhead_press",
+      "log_lift",
+      "farmers_walk",
+      "atlas_stones",
+      "yoke_walk",
+      "front_squat",
+      "romanian_deadlift",
+      "pullups"
+    ],
+    "id": "juggernaut_method_strongman",
+    "level": "intermediate",
+    "name": "Juggernaut Method Strongman",
+    "path": "programs/strongman/juggernaut_method_strongman.md",
+    "periodization": "block",
+    "system": "strongman",
+    "type": "program"
+  },
+  "klokov_protocol": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "back_squat",
+      "front_squat",
+      "push_press_behind_the_neck",
+      "overhead_squat",
+      "barbell_shrug"
+    ],
+    "id": "klokov_protocol",
+    "level": "advanced",
+    "name": "Dmitry Klokov Seminar Protocol",
+    "path": "programs/olympic/klokov_protocol.md",
+    "periodization": "undulating",
+    "system": "olympic",
+    "type": "program"
+  },
+  "lsus_10_5_3": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "back_squat",
+      "front_squat",
+      "snatch_pull",
+      "clean_pull",
+      "push_press",
+      "bench_press",
+      "barbell_lunge",
+      "pullups"
+    ],
+    "id": "lsus_10_5_3",
+    "level": "intermediate",
+    "name": "LSU Shreveport 10-5-3 Program",
+    "path": "programs/olympic/lsus_10_5_3.md",
+    "periodization": "linear",
+    "system": "olympic",
+    "type": "program"
+  },
+  "olympic_weightlifting_advanced": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "back_squat",
+      "front_squat",
+      "power_snatch",
+      "power_clean",
+      "snatch_pull",
+      "clean_pull",
+      "overhead_squat",
+      "push_press",
+      "good_morning"
+    ],
+    "id": "olympic_weightlifting_advanced",
+    "level": "advanced",
+    "name": "Olympic Weightlifting Advanced — High-Frequency Competition Prep",
+    "path": "programs/olympic/olympic_weightlifting_advanced.md",
+    "periodization": "block",
+    "system": "olympic",
+    "type": "program"
+  },
+  "olympic_weightlifting_beginner": {
+    "exercise_refs": [
+      "power_snatch",
+      "power_clean",
+      "front_squat",
+      "overhead_squat",
+      "push_press",
+      "snatch_pull",
+      "clean_pull",
+      "romanian_deadlift",
+      "back_squat"
+    ],
+    "id": "olympic_weightlifting_beginner",
+    "level": "beginner",
+    "name": "Olympic Weightlifting Beginner Program",
+    "path": "programs/olympic/olympic_weightlifting_beginner.md",
+    "periodization": "linear",
+    "system": "olympic",
+    "type": "program"
+  },
+  "olympic_weightlifting_intermediate": {
+    "exercise_refs": [
+      "snatch",
+      "clean_and_jerk",
+      "power_snatch",
+      "front_squat",
+      "back_squat",
+      "snatch_pull",
+      "clean_pull",
+      "overhead_squat",
+      "hang_snatch"
+    ],
+    "id": "olympic_weightlifting_intermediate",
+    "level": "intermediate",
+    "name": "Olympic Weightlifting Intermediate Program",
+    "path": "programs/olympic/olympic_weightlifting_intermediate.md",
+    "periodization": "block",
+    "system": "olympic",
+    "type": "program"
+  },
+  "overcoming_gravity_template": {
+    "exercise_refs": [
+      "pullups",
+      "weighted_pull_ups",
+      "inverted_row",
+      "scapular_pull_up",
+      "ring_dips",
+      "parallel_bar_dip",
+      "pushups",
+      "handstand_push_ups",
+      "plank",
+      "pallof_press"
+    ],
+    "id": "overcoming_gravity_template",
+    "level": "intermediate",
+    "name": "Overcoming Gravity Skill Progression Template",
+    "path": "programs/calisthenics/overcoming_gravity_template.md",
+    "periodization": "block",
+    "system": "calisthenics",
+    "type": "program"
+  },
+  "phat": {
+    "exercise_refs": [
+      "bench_press",
+      "bent_over_barbell_row",
+      "pullups",
+      "overhead_press",
+      "incline_dumbbell_press",
+      "back_squat",
+      "romanian_deadlift",
+      "leg_press",
+      "seated_leg_curl",
+      "leg_extensions",
+      "seated_cable_rows",
+      "side_lateral_raise",
+      "face_pull",
+      "front_dumbbell_raise",
+      "ez_bar_skullcrusher",
+      "triceps_pushdown",
+      "barbell_curl",
+      "hammer_curls",
+      "preacher_curl",
+      "seated_calf_raise"
+    ],
+    "id": "phat",
+    "level": "advanced",
+    "name": "PHAT (Power Hypertrophy Adaptive Training)",
+    "path": "programs/bodybuilding/phat.md",
+    "periodization": "undulating",
+    "system": "bodybuilding",
+    "type": "program"
   },
   "phul": {
     "exercise_refs": [
@@ -118,7 +645,8 @@
     "name": "PHUL",
     "path": "programs/bodybuilding/phul.md",
     "periodization": "undulating",
-    "system": "bodybuilding"
+    "system": "bodybuilding",
+    "type": "program"
   },
   "push_pull_legs": {
     "exercise_refs": [
@@ -134,7 +662,8 @@
     "name": "Push Pull Legs",
     "path": "programs/bodybuilding/push_pull_legs.md",
     "periodization": "linear",
-    "system": "bodybuilding"
+    "system": "bodybuilding",
+    "type": "program"
   },
   "rp_hypertrophy": {
     "exercise_refs": [
@@ -149,7 +678,8 @@
     "name": "RP Hypertrophy Program",
     "path": "programs/bodybuilding/rp_hypertrophy.md",
     "periodization": "block",
-    "system": "bodybuilding"
+    "system": "bodybuilding",
+    "type": "program"
   },
   "starting_strength": {
     "exercise_refs": [
@@ -164,7 +694,66 @@
     "name": "Starting Strength",
     "path": "programs/powerlifting/starting_strength.md",
     "periodization": "linear",
-    "system": "powerlifting"
+    "system": "powerlifting",
+    "type": "program"
+  },
+  "starting_strongman": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "back_squat",
+      "overhead_press",
+      "log_lift",
+      "farmers_walk",
+      "atlas_stones",
+      "yoke_walk",
+      "bent_over_barbell_row",
+      "good_morning",
+      "romanian_deadlift"
+    ],
+    "id": "starting_strongman",
+    "level": "beginner",
+    "name": "Starting Strongman",
+    "path": "programs/strongman/starting_strongman.md",
+    "periodization": "linear",
+    "system": "strongman",
+    "type": "program"
+  },
+  "strongman_competition_prep": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "overhead_press",
+      "back_squat",
+      "push_press",
+      "sumo_deadlift",
+      "front_squat",
+      "good_morning",
+      "bent_over_barbell_row"
+    ],
+    "id": "strongman_competition_prep",
+    "level": "advanced",
+    "name": "Strongman Competition Preparation",
+    "path": "programs/strongman/strongman_competition_prep.md",
+    "periodization": "block",
+    "system": "strongman",
+    "type": "program"
+  },
+  "strongman_intermediate_block": {
+    "exercise_refs": [
+      "conventional_deadlift",
+      "overhead_press",
+      "back_squat",
+      "push_press",
+      "sumo_deadlift",
+      "bent_over_barbell_row",
+      "good_morning"
+    ],
+    "id": "strongman_intermediate_block",
+    "level": "intermediate",
+    "name": "Strongman Intermediate Block",
+    "path": "programs/strongman/strongman_intermediate_block.md",
+    "periodization": "linear",
+    "system": "strongman",
+    "type": "program"
   },
   "texas_method": {
     "exercise_refs": [
@@ -178,7 +767,27 @@
     "name": "Texas Method",
     "path": "programs/powerlifting/texas_method.md",
     "periodization": "linear",
-    "system": "powerlifting"
+    "system": "powerlifting",
+    "type": "program"
+  },
+  "usaw_l1_program": {
+    "exercise_refs": [
+      "power_snatch",
+      "power_clean",
+      "front_squat",
+      "back_squat",
+      "overhead_squat",
+      "push_press",
+      "snatch_pull",
+      "clean_pull"
+    ],
+    "id": "usaw_l1_program",
+    "level": "beginner",
+    "name": "USAW Level 1 Coaching Framework",
+    "path": "programs/olympic/usaw_l1_program.md",
+    "periodization": "linear",
+    "system": "olympic",
+    "type": "program"
   },
   "westside_conjugate": {
     "exercise_refs": [
@@ -196,6 +805,7 @@
     "name": "Westside Conjugate Method",
     "path": "programs/powerlifting/westside_conjugate.md",
     "periodization": "conjugate",
-    "system": "powerlifting"
+    "system": "powerlifting",
+    "type": "program"
   }
 }

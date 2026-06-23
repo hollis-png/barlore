@@ -5005,23 +5005,76 @@
     ],
     "id": "butterfly",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": null,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "ACE Fitness"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "elbow_angle_deg": null,
+          "implement": "machine",
+          "load_pct_1rm": 80,
+          "notes": "Normalized to flat barbell bench press = 100%, NOT true %MVIC. Pec deck produced 98% of bench press activation — highest of all chest isolation exercises tested.",
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pectoralis_major",
+            "sd": null
+          }
+        ],
+        "n": 14,
+        "population": "trained men",
+        "source_id": "schanke_2012"
+      },
+      {
+        "condition": {
+          "elbow_angle_deg": null,
+          "implement": "machine",
+          "load_pct_1rm": null,
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 50.0,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          }
+        ],
+        "n": 8,
+        "population": "trained males",
+        "source_id": "botton_2013"
+      }
+    ],
     "muscles": [
       {
         "id": "pectoralis_major",
         "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "secondary"
       }
     ],
     "name": "Butterfly",
     "path": "exercises/butterfly.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Cam-driven resistance profile; primary sticking point at end-range (hands at midline); machine eliminates balance demands",
+      "peak_force_position": "top",
+      "sticking_point": "top_third",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "cable_chest_press": {
@@ -8974,7 +9027,11 @@
     ],
     "id": "decline_dumbbell_flyes",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "Squatwolf"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -8985,12 +9042,17 @@
     "name": "Decline Dumbbell Flyes",
     "path": "exercises/decline_dumbbell_flyes.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Horizontal moment arm decreases as arms adduct toward midline; tension drops to near zero at vertical lockout",
+      "peak_force_position": "bottom",
+      "sticking_point": "bottom_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "decline_dumbbell_triceps_extension": {
@@ -9067,7 +9129,37 @@
       "shoulder_extension_deg": 10,
       "source": "biomechanical inference"
     },
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "implement": "barbell",
+          "load_pct_1rm": null,
+          "notes": "Tested as flat 'lying barbell extensions' (skull crusher); decline variant not specifically measured. Values are relative to triangle push-up = 100%, NOT true %MVIC. Long head 70% (SD 20.9), lateral head 55% (SD 14.1) of reference.",
+          "phase": "dynamic"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "triceps_long",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "triceps_lateral",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "triceps_medial",
+            "sd": null
+          }
+        ],
+        "n": 15,
+        "population": "healthy female volunteers, 20-24 yr",
+        "source_id": "boehler_2011"
+      }
+    ],
     "muscles": [
       {
         "id": "triceps_long",
@@ -10282,23 +10374,116 @@
     ],
     "id": "dumbbell_flyes",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "Reiser 2017"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "elbow_angle_deg": 15,
+          "implement": "dumbbell",
+          "load_pct_1rm": null,
+          "notes": "Relative comparison only; flat dumbbell fly produced 16% lower pectoralis_major and 25% lower deltoid_anterior vs. barbell bench press (p<0.05). No absolute %MVIC reported.",
+          "phase": "concentric"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pectoralis_major",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "biceps_brachii",
+            "sd": null
+          }
+        ],
+        "n": 17,
+        "population": "trained males",
+        "source_id": "solstad_2020"
+      },
+      {
+        "condition": {
+          "elbow_angle_deg": 15,
+          "implement": "dumbbell",
+          "load_pct_1rm": 60,
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": 18.8,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 3.4,
+            "muscle": "deltoid_lateral",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 2.5,
+            "muscle": "deltoid_posterior",
+            "sd": null
+          }
+        ],
+        "n": 13,
+        "population": "strength-trained men",
+        "source_id": "botton_2020"
+      },
+      {
+        "condition": {
+          "elbow_angle_deg": 15,
+          "implement": "dumbbell",
+          "load_pct_1rm": null,
+          "notes": "Relative comparison only; flat fly generated significantly higher pec_major_sternal activation than incline (d=1.07). No absolute %MVIC reported.",
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pec_major_sternal",
+            "sd": null
+          }
+        ],
+        "n": 17,
+        "population": "trained males",
+        "source_id": "tavares_2017"
+      }
+    ],
     "muscles": [
       {
         "id": "pectoralis_major",
         "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "secondary"
       }
     ],
     "name": "Dumbbell Flyes",
     "path": "exercises/dumbbell_flyes.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Peak force at bottom where moment arm is maximized; tension drops to near zero at vertical lockout",
+      "peak_force_position": "bottom",
+      "sticking_point": "bottom_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "dumbbell_incline_row": {
@@ -11953,7 +12138,11 @@
     ],
     "id": "flat_bench_cable_flyes",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "Legion Athletics"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -11964,12 +12153,17 @@
     "name": "Flat Bench Cable Flyes",
     "path": "exercises/flat_bench_cable_flyes.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Lateral cable tension provides constant resistance throughout ROM; no drop-off at midline unlike dumbbell variants",
+      "peak_force_position": "mid",
+      "sticking_point": "mid_range",
+      "type": "flat"
+    },
     "variations": []
   },
   "flat_bench_leg_pull_in": {
@@ -14525,21 +14719,90 @@
     "aliases": [],
     "alternatives": [],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 2,
+      "technical_complexity": 2
     },
     "equipment": [
-      "body only"
+      "pull_up_bar"
     ],
     "id": "hanging_leg_raise",
-    "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "compressive_load",
+          "risk_factors": [
+            "straight_leg_raise_at_high_repetitions",
+            "pre_existing_disc_pathology",
+            "lumbar_stenosis"
+          ],
+          "structure": "lumbar_spine"
+        },
+        {
+          "mechanism": "distraction_force",
+          "risk_factors": [
+            "extended_hang_duration",
+            "rotator_cuff_weakness"
+          ],
+          "structure": "shoulder_joint"
+        }
+      ],
+      "contraindications": [
+        "acute_lumbar_disc_herniation",
+        "acute_shoulder_instability"
+      ],
+      "joint_stress": {
+        "lumbar": "moderate",
+        "shoulder": "low"
+      }
+    },
+    "joint_rom_required": {
+      "hip_flexion_deg": 90,
+      "shoulder_flexion_deg": 180,
+      "source": "McGill et al. 2015"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "implement": "pull-up bar",
+          "load_pct_1rm": null,
+          "notes": "Hanging straight leg raise to 90°. Generates ~3000 N spinal compression — highest anterior chain compressive load in the study. MVC normalization.",
+          "phase": "dynamic"
+        },
+        "doi": "10.1080/02640414.2014.946437",
+        "measurements": [
+          {
+            "mean_pct_mvc": 130.0,
+            "muscle": "rectus_abdominis",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 88.0,
+            "muscle": "external_oblique",
+            "sd": null
+          }
+        ],
+        "n": null,
+        "population": "healthy young adult males",
+        "source_id": "mcgill_2015"
+      }
+    ],
     "muscles": [
       {
         "id": "rectus_abdominis",
         "role": "primary"
+      },
+      {
+        "id": "iliopsoas",
+        "role": "primary"
+      },
+      {
+        "id": "external_oblique",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "secondary"
       }
     ],
     "name": "Hanging Leg Raise",
@@ -14548,9 +14811,15 @@
       "isolation"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Hip flexor moment arm is maximal at 90° (legs horizontal); force demand increases from 0° to 90°, then decreases as legs travel past horizontal toward the bar. Sticking point at the horizontal leg position.",
+      "peak_force_position": "mid",
+      "source": "biomechanical inference; McGill et al. 2015",
+      "sticking_point": "mid_range",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "hanging_pike": {
@@ -15040,7 +15309,11 @@
     ],
     "id": "incline_cable_flye",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "Gold's Gym"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -15048,19 +15321,24 @@
         "role": "primary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
     "name": "Incline Cable Flye",
     "path": "exercises/incline_cable_flye.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Low-to-high cable arc aligns with clavicular fiber direction; peak force at end-range (fully shortened) position",
+      "peak_force_position": "top",
+      "sticking_point": "top_third",
+      "type": "ascending"
+    },
     "variations": []
   },
   "incline_dumbbell_bench_with_palms_facing_in": {
@@ -15233,27 +15511,82 @@
     ],
     "id": "incline_dumbbell_flyes",
     "injury_risk": null,
-    "joint_rom_required": null,
-    "muscle_activation_studies": [],
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "Reiser 2017"
+    },
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "elbow_angle_deg": 15,
+          "implement": "dumbbell",
+          "load_pct_1rm": 80,
+          "notes": "Normalized to flat barbell bench press = 100%, NOT true %MVIC. Incline dumbbell fly produced 69% of bench press activation.",
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pectoralis_major",
+            "sd": null
+          }
+        ],
+        "n": 14,
+        "population": "trained men",
+        "source_id": "schanke_2012"
+      },
+      {
+        "condition": {
+          "elbow_angle_deg": 15,
+          "implement": "dumbbell",
+          "load_pct_1rm": null,
+          "notes": "Relative comparison only; incline produced significantly higher deltoid_anterior (d=1.15) and lower pec_major_sternal (d=1.07) vs. flat. No absolute %MVIC reported.",
+          "phase": "full_rep"
+        },
+        "doi": null,
+        "measurements": [
+          {
+            "mean_pct_mvc": null,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": null,
+            "muscle": "pec_major_sternal",
+            "sd": null
+          }
+        ],
+        "n": 17,
+        "population": "trained males",
+        "source_id": "tavares_2017"
+      }
+    ],
     "muscles": [
       {
         "id": "pectoralis_major",
         "role": "primary"
       },
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "secondary"
       }
     ],
     "name": "Incline Dumbbell Flyes",
     "path": "exercises/incline_dumbbell_flyes.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Sticking point and peak force occur at the bottom, lengthened position; bench angle 15–30° optimizes clavicular head recruitment",
+      "peak_force_position": "bottom",
+      "sticking_point": "bottom_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "incline_dumbbell_flyes_with_a_twist": {
@@ -20511,7 +20844,11 @@
     ],
     "id": "one_arm_flat_bench_dumbbell_flye",
     "injury_risk": null,
-    "joint_rom_required": null,
+    "joint_rom_required": {
+      "elbow_flexion_deg": 15,
+      "shoulder_horizontal_adduction_deg": 90,
+      "source": "REP Fitness"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -20522,12 +20859,17 @@
     "name": "One-Arm Flat Bench Dumbbell Flye",
     "path": "exercises/one_arm_flat_bench_dumbbell_flye.md",
     "pattern": [
-      "horizontal press"
+      "isolation"
     ],
     "progressions": [],
     "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Sticking point and peak force at bottom stretched position; core stabilization demand peaks at bottom where lateral lever arm is longest",
+      "peak_force_position": "bottom",
+      "sticking_point": "bottom_third",
+      "type": "descending"
+    },
     "variations": []
   },
   "one_arm_floor_press": {
@@ -27221,7 +27563,61 @@
       "shoulder_flexion_deg": 180,
       "source": "Anatomical inference; pullup literature"
     },
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "implement": "pull-up bar",
+          "load_pct_1rm": null,
+          "notes": "Full pronated-grip pull-up, not scapular pull-up isolation. Proxy: the lower trapezius initiates the pull-up via scapular depression before elbow flexion engages. Values reflect full pull-up activation, not isolated scapular depression.",
+          "phase": "concentric"
+        },
+        "doi": "10.1519/JSC.0b013e3181df44d5",
+        "measurements": [
+          {
+            "mean_pct_mvc": 56.0,
+            "muscle": "trap_lower",
+            "sd": 12.0
+          },
+          {
+            "mean_pct_mvc": 130.0,
+            "muscle": "latissimus_dorsi",
+            "sd": 24.0
+          },
+          {
+            "mean_pct_mvc": 78.0,
+            "muscle": "biceps_brachii",
+            "sd": 15.0
+          }
+        ],
+        "n": 25,
+        "population": "recreationally active adults, 21M/4F, age 24.9 ± 2.4 yr",
+        "source_id": "youdas_2010"
+      },
+      {
+        "condition": {
+          "implement": "table surface",
+          "load_pct_1rm": null,
+          "notes": "Closed-chain press-up: seated on table, hands flat, arms extended to depress scapulae and lift torso. Shares the scapular depression mechanism with the scapular pull-up. NOT a hanging exercise.",
+          "phase": "isometric"
+        },
+        "doi": "10.2519/jospt.2003.33.5.247",
+        "measurements": [
+          {
+            "mean_pct_mvc": 56.0,
+            "muscle": "trap_lower",
+            "sd": 23.0
+          },
+          {
+            "mean_pct_mvc": 27.0,
+            "muscle": "trap_upper",
+            "sd": 32.0
+          }
+        ],
+        "n": 19,
+        "population": "healthy adults, 9M/10F, age 24.6 ± 3.1 yr",
+        "source_id": "ekstrom_2003"
+      }
+    ],
     "muscles": [
       {
         "id": "trap_lower",
@@ -27810,11 +28206,11 @@
     "source": null,
     "status": "complete",
     "strength_curve": {
-      "notes": "Bell-shaped similar to standing raise; bent knee eliminates most gastrocnemius contribution, placing nearly all load on the soleus throughout the range",
-      "peak_force_position": "mid",
-      "source": "biomechanical inference",
-      "sticking_point": "mid_range",
-      "type": "bell_shaped"
+      "notes": "Descending; torque production is maximized in deep dorsiflexion and declines linearly through the range; sticking point at full plantarflexion where soleus must bear load in a shortened state; bent knee eliminates gastrocnemius contribution throughout",
+      "peak_force_position": "bottom",
+      "source": "biomechanical inference; Maeo 2023",
+      "sticking_point": "top_third",
+      "type": "descending"
     },
     "variations": []
   },
@@ -28459,7 +28855,37 @@
       "shoulder_abduction_deg": 90,
       "source": "biomechanical inference from side_lateral_raise"
     },
-    "muscle_activation_studies": [],
+    "muscle_activation_studies": [
+      {
+        "condition": {
+          "implement": "dumbbell",
+          "load_pct_1rm": 60,
+          "notes": "1 set of 12 repetitions; seated variation",
+          "phase": "dynamic"
+        },
+        "doi": "10.2478/hukin-2020-0033",
+        "measurements": [
+          {
+            "mean_pct_mvc": 30.3,
+            "muscle": "deltoid_lateral",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 21.2,
+            "muscle": "deltoid_anterior",
+            "sd": null
+          },
+          {
+            "mean_pct_mvc": 24.0,
+            "muscle": "deltoid_posterior",
+            "sd": null
+          }
+        ],
+        "n": 13,
+        "population": "strength-trained men, 3.58 ± 2.90 yr training experience",
+        "source_id": "campos_2020"
+      }
+    ],
     "muscles": [
       {
         "id": "deltoid_lateral",

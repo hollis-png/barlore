@@ -176,9 +176,15 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
+        "juggernaut_method_strongman",
+        "starting_strongman"
+      ],
       "muscle_count": 17,
-      "program_count": 0,
+      "program_count": 5,
       "status": "stub"
     },
     "axle_deadlift": {
@@ -206,17 +212,36 @@
       "in_programs": [
         "5_3_1",
         "basic_strongman_block",
+        "beginner_fullbody_hypertrophy",
+        "brian_shaw_off_season",
+        "cal_strength_daily",
         "catalyst_12_week",
+        "crossfit_competition_prep",
         "crossfit_foundations",
+        "crossfit_intermediate",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
+        "glenn_pendlay_programs",
         "gzclp",
+        "juggernaut_method_strongman",
+        "klokov_protocol",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "phat",
         "phul",
         "push_pull_legs",
         "rp_hypertrophy",
         "starting_strength",
-        "texas_method"
+        "starting_strongman",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
+        "texas_method",
+        "usaw_l1_program"
       ],
       "muscle_count": 8,
-      "program_count": 10,
+      "program_count": 29,
       "status": "complete"
     },
     "backward_drag": {
@@ -331,9 +356,12 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "barbell_curls_lying_against_an_incline": {
@@ -421,9 +449,11 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "lsus_10_5_3"
+      ],
       "muscle_count": 8,
-      "program_count": 0,
+      "program_count": 1,
       "status": "stub"
     },
     "barbell_rear_delt_row": {
@@ -466,9 +496,12 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "klokov_protocol"
+      ],
       "muscle_count": 1,
-      "program_count": 0,
+      "program_count": 2,
       "status": "stub"
     },
     "barbell_shrug_behind_the_back": {
@@ -567,7 +600,10 @@
       "has_strength_curve": true,
       "in_programs": [
         "5_3_1",
+        "beginner_fullbody_hypertrophy",
         "gzclp",
+        "lsus_10_5_3",
+        "phat",
         "phul",
         "push_pull_legs",
         "rp_hypertrophy",
@@ -575,7 +611,7 @@
         "texas_method"
       ],
       "muscle_count": 3,
-      "program_count": 7,
+      "program_count": 10,
       "status": "complete"
     },
     "bench_press_powerlifting": {
@@ -640,20 +676,30 @@
       "has_strength_curve": true,
       "in_programs": [
         "basic_strongman_block",
+        "beginner_fullbody_hypertrophy",
+        "cal_strength_daily",
+        "eddie_hall_training_structure",
+        "glenn_pendlay_programs",
+        "phat",
         "phul",
-        "push_pull_legs"
+        "push_pull_legs",
+        "starting_strongman",
+        "strongman_competition_prep",
+        "strongman_intermediate_block"
       ],
       "muscle_count": 7,
-      "program_count": 3,
+      "program_count": 11,
       "status": "complete"
     },
     "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": {
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "bent_over_low_pulley_side_lateral": {
@@ -761,9 +807,13 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "convict_conditioning",
+        "get_strong_kavadlo",
+        "gymnastic_bodies_foundation_one"
+      ],
       "muscle_count": 6,
-      "program_count": 0,
+      "program_count": 3,
       "status": "stub"
     },
     "bodyweight_walking_lunge": {
@@ -859,13 +909,15 @@
       "status": "stub"
     },
     "butterfly": {
-      "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
-      "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "has_emg": true,
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
+      "muscle_count": 2,
+      "program_count": 1,
+      "status": "complete"
     },
     "cable_chest_press": {
       "has_emg": false,
@@ -970,27 +1022,33 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "cable_one_arm_tricep_extension": {
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "cable_preacher_curl": {
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "cable_rear_delt_fly": {
@@ -1015,9 +1073,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "cable_rope_rear_delt_rows": {
@@ -1051,9 +1111,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "cable_shoulder_press": {
@@ -1177,9 +1239,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 7,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "circus_bell": {
@@ -1205,10 +1269,18 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "bulgarian_method",
+        "cal_strength_daily",
+        "catalyst_12_week",
+        "crossfit_competition_prep",
+        "glenn_pendlay_programs",
+        "klokov_protocol",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_intermediate"
       ],
       "muscle_count": 14,
-      "program_count": 1,
+      "program_count": 9,
       "status": "complete"
     },
     "clean_and_press": {
@@ -1243,10 +1315,17 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "cal_strength_daily",
+        "catalyst_12_week",
+        "glenn_pendlay_programs",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "usaw_l1_program"
       ],
       "muscle_count": 12,
-      "program_count": 1,
+      "program_count": 8,
       "status": "complete"
     },
     "clean_shrug": {
@@ -1363,9 +1442,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 2,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "conventional_deadlift": {
@@ -1375,15 +1456,24 @@
       "in_programs": [
         "5_3_1",
         "basic_strongman_block",
+        "brian_shaw_off_season",
+        "crossfit_competition_prep",
         "crossfit_foundations",
+        "crossfit_intermediate",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
         "gzclp",
+        "juggernaut_method_strongman",
         "phul",
         "starting_strength",
+        "starting_strongman",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
         "texas_method",
         "westside_conjugate"
       ],
       "muscle_count": 10,
-      "program_count": 8,
+      "program_count": 17,
       "status": "complete"
     },
     "cross_body_crunch": {
@@ -1523,12 +1613,14 @@
     },
     "decline_dumbbell_flyes": {
       "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "program_count": 1,
+      "status": "complete"
     },
     "decline_dumbbell_triceps_extension": {
       "has_emg": false,
@@ -1540,12 +1632,14 @@
       "status": "stub"
     },
     "decline_ez_bar_triceps_extension": {
-      "has_emg": false,
+      "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "decline_oblique_crunch": {
@@ -1624,9 +1718,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "double_kettlebell_alternating_hang_clean": {
@@ -1687,9 +1783,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 2,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "dumbbell_alternate_bicep_curl": {
@@ -1723,9 +1821,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "dumbbell_clean": {
@@ -1747,13 +1847,15 @@
       "status": "stub"
     },
     "dumbbell_flyes": {
-      "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
-      "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "has_emg": true,
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
+      "muscle_count": 2,
+      "program_count": 1,
+      "status": "complete"
     },
     "dumbbell_incline_row": {
       "has_emg": false,
@@ -2038,36 +2140,49 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "ez_bar_skullcrusher": {
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "face_pull": {
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 7,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "farmers_walk": {
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
+        "juggernaut_method_strongman",
+        "starting_strongman"
+      ],
       "muscle_count": 11,
-      "program_count": 0,
+      "program_count": 5,
       "status": "stub"
     },
     "finger_curls": {
@@ -2081,12 +2196,14 @@
     },
     "flat_bench_cable_flyes": {
       "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "program_count": 1,
+      "status": "complete"
     },
     "flat_bench_leg_pull_in": {
       "has_emg": false,
@@ -2129,10 +2246,11 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "eddie_hall_training_structure",
         "westside_conjugate"
       ],
       "muscle_count": 3,
-      "program_count": 1,
+      "program_count": 2,
       "status": "complete"
     },
     "floor_press_with_chains": {
@@ -2211,18 +2329,22 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 4,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "front_dumbbell_raise": {
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 4,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "front_incline_dumbbell_raise": {
@@ -2257,11 +2379,24 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "bulgarian_method",
+        "cal_strength_daily",
         "catalyst_12_week",
-        "crossfit_foundations"
+        "crossfit_competition_prep",
+        "crossfit_foundations",
+        "crossfit_intermediate",
+        "glenn_pendlay_programs",
+        "juggernaut_method_strongman",
+        "klokov_protocol",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "strongman_competition_prep",
+        "usaw_l1_program"
       ],
       "muscle_count": 7,
-      "program_count": 2,
+      "program_count": 15,
       "status": "complete"
     },
     "front_squat_clean_grip": {
@@ -2313,9 +2448,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 6,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "glute_kickback": {
@@ -2343,11 +2480,17 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "brian_shaw_off_season",
         "catalyst_12_week",
+        "cube_method_strongman",
+        "olympic_weightlifting_advanced",
+        "starting_strongman",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
         "westside_conjugate"
       ],
       "muscle_count": 6,
-      "program_count": 2,
+      "program_count": 8,
       "status": "complete"
     },
     "good_morning_off_pins": {
@@ -2381,9 +2524,12 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "hammer_grip_incline_db_bench_press": {
@@ -2399,9 +2545,13 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "convict_conditioning",
+        "gymnastic_bodies_foundation_one",
+        "overcoming_gravity_template"
+      ],
       "muscle_count": 2,
-      "program_count": 0,
+      "program_count": 3,
       "status": "stub"
     },
     "hang_clean": {
@@ -2426,9 +2576,11 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "olympic_weightlifting_intermediate"
+      ],
       "muscle_count": 14,
-      "program_count": 0,
+      "program_count": 1,
       "status": "stub"
     },
     "hang_snatch_below_knees": {
@@ -2450,13 +2602,16 @@
       "status": "stub"
     },
     "hanging_leg_raise": {
-      "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
-      "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "has_emg": true,
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "convict_conditioning",
+        "get_strong_kavadlo"
+      ],
+      "muscle_count": 4,
+      "program_count": 2,
+      "status": "complete"
     },
     "hanging_pike": {
       "has_emg": false,
@@ -2559,12 +2714,14 @@
     },
     "incline_cable_flye": {
       "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 2,
-      "program_count": 0,
-      "status": "stub"
+      "program_count": 1,
+      "status": "complete"
     },
     "incline_dumbbell_bench_with_palms_facing_in": {
       "has_emg": false,
@@ -2579,19 +2736,23 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "incline_dumbbell_flyes": {
-      "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
+      "has_emg": true,
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 2,
-      "program_count": 0,
-      "status": "stub"
+      "program_count": 1,
+      "status": "complete"
     },
     "incline_dumbbell_flyes_with_a_twist": {
       "has_emg": false,
@@ -2607,10 +2768,12 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat",
         "phul"
       ],
       "muscle_count": 5,
-      "program_count": 1,
+      "program_count": 3,
       "status": "complete"
     },
     "incline_hammer_curls": {
@@ -2690,10 +2853,14 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "get_strong_kavadlo",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 7,
-      "program_count": 1,
+      "program_count": 5,
       "status": "complete"
     },
     "inverted_row_with_straps": {
@@ -2970,9 +3137,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "kneeling_high_pulley_row": {
@@ -3042,9 +3211,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 4,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "leg_lift": {
@@ -3069,9 +3240,12 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 6,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "leg_pull_in": {
@@ -3159,9 +3333,15 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
+        "juggernaut_method_strongman",
+        "starting_strongman"
+      ],
       "muscle_count": 14,
-      "program_count": 0,
+      "program_count": 5,
       "status": "stub"
     },
     "london_bridges": {
@@ -3303,9 +3483,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "lying_machine_squat": {
@@ -3357,9 +3539,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "machine_bench_press": {
@@ -3562,12 +3746,14 @@
     },
     "one_arm_flat_bench_dumbbell_flye": {
       "has_emg": false,
-      "has_rom": false,
-      "has_strength_curve": false,
-      "in_programs": [],
+      "has_rom": true,
+      "has_strength_curve": true,
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 1,
-      "program_count": 0,
-      "status": "stub"
+      "program_count": 1,
+      "status": "complete"
     },
     "one_arm_floor_press": {
       "has_emg": false,
@@ -3837,15 +4023,26 @@
       "in_programs": [
         "5_3_1",
         "basic_strongman_block",
+        "beginner_fullbody_hypertrophy",
+        "brian_shaw_off_season",
+        "crossfit_competition_prep",
         "crossfit_foundations",
+        "crossfit_intermediate",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
         "gzclp",
+        "juggernaut_method_strongman",
+        "phat",
         "phul",
         "push_pull_legs",
         "starting_strength",
+        "starting_strongman",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
         "texas_method"
       ],
       "muscle_count": 4,
-      "program_count": 8,
+      "program_count": 19,
       "status": "complete"
     },
     "overhead_squat": {
@@ -3853,10 +4050,16 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "catalyst_12_week",
+        "crossfit_competition_prep",
+        "klokov_protocol",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "usaw_l1_program"
       ],
       "muscle_count": 16,
-      "program_count": 1,
+      "program_count": 7,
       "status": "complete"
     },
     "pallof_press": {
@@ -3864,10 +4067,14 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "gymnastic_bodies_foundation_one",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 5,
-      "program_count": 1,
+      "program_count": 5,
       "status": "complete"
     },
     "pallof_press_with_rotation": {
@@ -3920,10 +4127,14 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "get_strong_kavadlo",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 4,
-      "program_count": 1,
+      "program_count": 5,
       "status": "complete"
     },
     "physioball_hip_bridge": {
@@ -3949,10 +4160,16 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "get_strong_kavadlo",
+        "gymnastic_bodies_foundation_one",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 6,
-      "program_count": 1,
+      "program_count": 7,
       "status": "complete"
     },
     "plate_pinch": {
@@ -4006,10 +4223,15 @@
       "has_strength_curve": true,
       "in_programs": [
         "catalyst_12_week",
-        "starting_strength"
+        "crossfit_competition_prep",
+        "crossfit_intermediate",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "starting_strength",
+        "usaw_l1_program"
       ],
       "muscle_count": 14,
-      "program_count": 2,
+      "program_count": 7,
       "status": "complete"
     },
     "power_clean_from_blocks": {
@@ -4046,10 +4268,14 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "catalyst_12_week",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "usaw_l1_program"
       ],
       "muscle_count": 14,
-      "program_count": 1,
+      "program_count": 5,
       "status": "complete"
     },
     "power_snatch_from_blocks": {
@@ -4074,9 +4300,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "preacher_hammer_dumbbell_curl": {
@@ -4120,15 +4348,28 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_fullbody_hypertrophy",
         "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "convict_conditioning",
+        "crossfit_competition_prep",
         "crossfit_foundations",
+        "crossfit_intermediate",
+        "cube_method_strongman",
+        "get_strong_kavadlo",
+        "grease_the_groove",
+        "gymnastic_bodies_foundation_one",
         "gzclp",
+        "juggernaut_method_strongman",
+        "lsus_10_5_3",
+        "overcoming_gravity_template",
+        "phat",
         "phul",
         "push_pull_legs",
         "rp_hypertrophy"
       ],
       "muscle_count": 10,
-      "program_count": 6,
+      "program_count": 19,
       "status": "complete"
     },
     "push_press": {
@@ -4136,19 +4377,29 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "cal_strength_daily",
+        "catalyst_12_week",
+        "glenn_pendlay_programs",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
+        "usaw_l1_program"
       ],
       "muscle_count": 9,
-      "program_count": 1,
+      "program_count": 9,
       "status": "complete"
     },
     "push_press_behind_the_neck": {
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "klokov_protocol"
+      ],
       "muscle_count": 7,
-      "program_count": 0,
+      "program_count": 1,
       "status": "stub"
     },
     "push_up_to_side_plank": {
@@ -4201,10 +4452,19 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "convict_conditioning",
+        "crossfit_competition_prep",
+        "crossfit_intermediate",
+        "get_strong_kavadlo",
+        "grease_the_groove",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 6,
-      "program_count": 1,
+      "program_count": 10,
       "status": "complete"
     },
     "pushups_close_and_wide_hand_positions": {
@@ -4365,10 +4625,11 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "convict_conditioning"
       ],
       "muscle_count": 7,
-      "program_count": 1,
+      "program_count": 2,
       "status": "complete"
     },
     "reverse_machine_flyes": {
@@ -4421,10 +4682,17 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "crossfit_competition_prep",
+        "crossfit_intermediate",
+        "gymnastic_bodies_foundation_one",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 6,
-      "program_count": 1,
+      "program_count": 8,
       "status": "complete"
     },
     "rocking_standing_calf_raise": {
@@ -4450,13 +4718,21 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_fullbody_hypertrophy",
         "bwf_recommended_routine",
+        "cal_strength_daily",
+        "crossfit_intermediate",
+        "cube_method_strongman",
+        "juggernaut_method_strongman",
+        "olympic_weightlifting_beginner",
+        "phat",
         "phul",
         "push_pull_legs",
-        "rp_hypertrophy"
+        "rp_hypertrophy",
+        "starting_strongman"
       ],
       "muscle_count": 9,
-      "program_count": 4,
+      "program_count": 12,
       "status": "complete"
     },
     "romanian_deadlift_from_deficit": {
@@ -4514,14 +4790,19 @@
       "status": "stub"
     },
     "scapular_pull_up": {
-      "has_emg": false,
+      "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "gymnastic_bodies_foundation_one",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 4,
-      "program_count": 1,
+      "program_count": 6,
       "status": "complete"
     },
     "seated_band_hamstring_curl": {
@@ -4564,9 +4845,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "seated_bent_over_two_arm_dumbbell_triceps_extension": {
@@ -4583,10 +4866,11 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "phat",
         "rp_hypertrophy"
       ],
       "muscle_count": 7,
-      "program_count": 1,
+      "program_count": 2,
       "status": "complete"
     },
     "seated_cable_shoulder_press": {
@@ -4602,9 +4886,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "seated_close_grip_concentration_barbell_curl": {
@@ -4692,9 +4978,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "phat"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "seated_leg_tucks": {
@@ -4752,12 +5040,14 @@
       "status": "stub"
     },
     "seated_side_lateral_raise": {
-      "has_emg": false,
+      "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "seated_triceps_press": {
@@ -4827,9 +5117,12 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "side_laterals_to_front_raise": {
@@ -4908,9 +5201,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 4,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "sit_up": {
@@ -5152,10 +5447,18 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "bulgarian_method",
+        "cal_strength_daily",
+        "catalyst_12_week",
+        "crossfit_competition_prep",
+        "glenn_pendlay_programs",
+        "klokov_protocol",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_intermediate"
       ],
       "muscle_count": 14,
-      "program_count": 1,
+      "program_count": 9,
       "status": "complete"
     },
     "snatch_balance": {
@@ -5190,10 +5493,17 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "catalyst_12_week"
+        "cal_strength_daily",
+        "catalyst_12_week",
+        "glenn_pendlay_programs",
+        "lsus_10_5_3",
+        "olympic_weightlifting_advanced",
+        "olympic_weightlifting_beginner",
+        "olympic_weightlifting_intermediate",
+        "usaw_l1_program"
       ],
       "muscle_count": 12,
-      "program_count": 1,
+      "program_count": 8,
       "status": "complete"
     },
     "snatch_shrug": {
@@ -5434,9 +5744,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "standing_concentration_curl": {
@@ -5524,9 +5836,11 @@
       "has_emg": false,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 5,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "standing_low_pulley_deltoid_raise": {
@@ -5725,10 +6039,13 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "brian_shaw_off_season",
+        "strongman_competition_prep",
+        "strongman_intermediate_block",
         "westside_conjugate"
       ],
       "muscle_count": 13,
-      "program_count": 1,
+      "program_count": 4,
       "status": "complete"
     },
     "sumo_deadlift_with_bands": {
@@ -5843,9 +6160,12 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "eddie_hall_training_structure"
+      ],
       "muscle_count": 15,
-      "program_count": 0,
+      "program_count": 2,
       "status": "stub"
     },
     "trap_bar_deadlift": {
@@ -5861,9 +6181,11 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "bodybuilding_isolation_block"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 1,
       "status": "complete"
     },
     "triceps_overhead_extension_with_rope": {
@@ -5879,9 +6201,12 @@
       "has_emg": true,
       "has_rom": true,
       "has_strength_curve": true,
-      "in_programs": [],
+      "in_programs": [
+        "beginner_fullbody_hypertrophy",
+        "phat"
+      ],
       "muscle_count": 3,
-      "program_count": 0,
+      "program_count": 2,
       "status": "complete"
     },
     "triceps_pushdown_rope_attachment": {
@@ -6060,10 +6385,14 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
-        "bwf_recommended_routine"
+        "bwf_recommended_routine",
+        "bwf_skill_day_template",
+        "calisthenics_advanced_skills",
+        "calisthenics_intermediate_skills",
+        "overcoming_gravity_template"
       ],
       "muscle_count": 10,
-      "program_count": 1,
+      "program_count": 5,
       "status": "complete"
     },
     "weighted_sissy_squat": {
@@ -6205,9 +6534,15 @@
       "has_emg": false,
       "has_rom": false,
       "has_strength_curve": false,
-      "in_programs": [],
+      "in_programs": [
+        "brian_shaw_off_season",
+        "cube_method_strongman",
+        "eddie_hall_training_structure",
+        "juggernaut_method_strongman",
+        "starting_strongman"
+      ],
       "muscle_count": 14,
-      "program_count": 0,
+      "program_count": 5,
       "status": "stub"
     },
     "zercher_squats": {
@@ -6238,7 +6573,7 @@
       "status": "stub"
     }
   },
-  "generated_at": "2026-06-10 14:03 UTC",
+  "generated_at": "2026-06-14 15:56 UTC",
   "muscle_coverage": {
     "adductor_longus": {
       "emg_count": 1,
@@ -6328,7 +6663,7 @@
       ]
     },
     "arms": {
-      "emg_count": 37,
+      "emg_count": 38,
       "exercise_count": 382,
       "exercises": [
         "alternate_hammer_curl",
@@ -6725,6 +7060,7 @@
         "close_grip_barbell_bench_press",
         "concentration_curls",
         "conventional_deadlift",
+        "decline_ez_bar_triceps_extension",
         "dumbbell_bicep_curl",
         "ez_bar_curl",
         "ez_bar_skullcrusher",
@@ -6755,7 +7091,7 @@
       ]
     },
     "back": {
-      "emg_count": 27,
+      "emg_count": 29,
       "exercise_count": 237,
       "exercises": [
         "alternating_hang_clean",
@@ -7016,8 +7352,10 @@
         "reverse_hyperextension",
         "ring_dips",
         "romanian_deadlift",
+        "scapular_pull_up",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch",
         "snatch_pull",
@@ -7246,7 +7584,7 @@
       ]
     },
     "chest": {
-      "emg_count": 12,
+      "emg_count": 15,
       "exercise_count": 122,
       "exercises": [
         "alternating_floor_press",
@@ -7374,10 +7712,13 @@
       ],
       "exercises_with_emg": [
         "bench_press",
+        "butterfly",
         "chin_up",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "floor_press",
         "front_dumbbell_raise",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "overhead_press",
         "parallel_bar_dip",
@@ -7388,7 +7729,7 @@
       ]
     },
     "core": {
-      "emg_count": 7,
+      "emg_count": 8,
       "exercise_count": 127,
       "exercises": [
         "3_4_sit_up",
@@ -7521,6 +7862,7 @@
       ],
       "exercises_with_emg": [
         "good_morning",
+        "hanging_leg_raise",
         "overhead_squat",
         "plank",
         "pullups",
@@ -7530,21 +7872,25 @@
       ]
     },
     "deltoid": {
-      "emg_count": 21,
-      "exercise_count": 29,
+      "emg_count": 25,
+      "exercise_count": 33,
       "exercises": [
         "bench_press",
         "bench_press_with_bands",
         "bent_over_barbell_row",
         "bent_over_dumbbell_rear_delt_raise_with_head_on_bench",
         "board_press",
+        "butterfly",
         "cable_seated_lateral_raise",
         "clean_and_jerk",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "face_pull",
         "floor_press",
         "front_cable_raise",
         "front_dumbbell_raise",
+        "incline_cable_flye",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "inverted_row",
         "overhead_squat",
@@ -7566,10 +7912,13 @@
       "exercises_with_emg": [
         "bench_press",
         "bent_over_barbell_row",
+        "butterfly",
         "clean_and_jerk",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "floor_press",
         "front_dumbbell_raise",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "inverted_row",
         "overhead_squat",
@@ -7582,24 +7931,29 @@
         "ring_dips",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch",
         "weighted_pull_ups"
       ]
     },
     "deltoid_anterior": {
-      "emg_count": 15,
-      "exercise_count": 21,
+      "emg_count": 19,
+      "exercise_count": 25,
       "exercises": [
         "bench_press",
         "bench_press_with_bands",
         "board_press",
+        "butterfly",
         "cable_seated_lateral_raise",
         "clean_and_jerk",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "floor_press",
         "front_cable_raise",
         "front_dumbbell_raise",
+        "incline_cable_flye",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "overhead_squat",
         "parallel_bar_dip",
@@ -7615,10 +7969,13 @@
       ],
       "exercises_with_emg": [
         "bench_press",
+        "butterfly",
         "clean_and_jerk",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "floor_press",
         "front_dumbbell_raise",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "overhead_squat",
         "parallel_bar_dip",
@@ -7627,12 +7984,13 @@
         "push_press",
         "pushups",
         "ring_dips",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch"
       ]
     },
     "deltoid_lateral": {
-      "emg_count": 4,
+      "emg_count": 5,
       "exercise_count": 8,
       "exercises": [
         "bent_over_dumbbell_rear_delt_raise_with_head_on_bench",
@@ -7648,11 +8006,12 @@
         "front_dumbbell_raise",
         "push_press",
         "seated_bent_over_rear_delt_raise",
+        "seated_side_lateral_raise",
         "side_lateral_raise"
       ]
     },
     "deltoid_posterior": {
-      "emg_count": 7,
+      "emg_count": 8,
       "exercise_count": 11,
       "exercises": [
         "bent_over_barbell_row",
@@ -7673,6 +8032,7 @@
         "pullups",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "weighted_pull_ups"
       ]
@@ -7833,9 +8193,10 @@
       ]
     },
     "external_oblique": {
-      "emg_count": 6,
-      "exercise_count": 7,
+      "emg_count": 7,
+      "exercise_count": 8,
       "exercises": [
+        "hanging_leg_raise",
         "overhead_squat",
         "pallof_press",
         "plank",
@@ -7845,6 +8206,7 @@
         "weighted_pull_ups"
       ],
       "exercises_with_emg": [
+        "hanging_leg_raise",
         "overhead_squat",
         "plank",
         "pullups",
@@ -8707,10 +9069,14 @@
       ]
     },
     "hip_flexors": {
-      "emg_count": 0,
-      "exercise_count": 0,
-      "exercises": [],
-      "exercises_with_emg": []
+      "emg_count": 1,
+      "exercise_count": 1,
+      "exercises": [
+        "hanging_leg_raise"
+      ],
+      "exercises_with_emg": [
+        "hanging_leg_raise"
+      ]
     },
     "iliopsoas": {
       "emg_count": 0,
@@ -8748,7 +9114,7 @@
       ]
     },
     "latissimus_dorsi": {
-      "emg_count": 8,
+      "emg_count": 9,
       "exercise_count": 75,
       "exercises": [
         "alternating_kettlebell_row",
@@ -8834,6 +9200,7 @@
         "inverted_row",
         "pullups",
         "ring_dips",
+        "scapular_pull_up",
         "seated_cable_rows",
         "weighted_pull_ups"
       ]
@@ -8972,9 +9339,10 @@
       ]
     },
     "obliques": {
-      "emg_count": 6,
-      "exercise_count": 7,
+      "emg_count": 7,
+      "exercise_count": 8,
       "exercises": [
+        "hanging_leg_raise",
         "overhead_squat",
         "pallof_press",
         "plank",
@@ -8984,6 +9352,7 @@
         "weighted_pull_ups"
       ],
       "exercises_with_emg": [
+        "hanging_leg_raise",
         "overhead_squat",
         "plank",
         "pullups",
@@ -9039,8 +9408,8 @@
       ]
     },
     "quadriceps": {
-      "emg_count": 18,
-      "exercise_count": 161,
+      "emg_count": 19,
+      "exercise_count": 162,
       "exercises": [
         "atlas_stone_trainer",
         "atlas_stones",
@@ -9106,6 +9475,7 @@
         "hang_clean_below_the_knees",
         "hang_snatch",
         "hang_snatch_below_knees",
+        "hanging_leg_raise",
         "heaving_snatch_balance",
         "hip_flexion_with_band",
         "inverted_row",
@@ -9211,6 +9581,7 @@
         "clean_pull",
         "conventional_deadlift",
         "front_squat",
+        "hanging_leg_raise",
         "inverted_row",
         "leg_extensions",
         "overhead_squat",
@@ -9226,7 +9597,7 @@
       ]
     },
     "rectus_abdominis": {
-      "emg_count": 4,
+      "emg_count": 5,
       "exercise_count": 124,
       "exercises": [
         "3_4_sit_up",
@@ -9356,14 +9727,15 @@
       ],
       "exercises_with_emg": [
         "good_morning",
+        "hanging_leg_raise",
         "overhead_squat",
         "plank",
         "pushups"
       ]
     },
     "rectus_femoris": {
-      "emg_count": 16,
-      "exercise_count": 159,
+      "emg_count": 17,
+      "exercise_count": 160,
       "exercises": [
         "atlas_stone_trainer",
         "atlas_stones",
@@ -9429,6 +9801,7 @@
         "hang_clean_below_the_knees",
         "hang_snatch",
         "hang_snatch_below_knees",
+        "hanging_leg_raise",
         "heaving_snatch_balance",
         "hip_flexion_with_band",
         "inverted_row",
@@ -9532,6 +9905,7 @@
         "clean_pull",
         "conventional_deadlift",
         "front_squat",
+        "hanging_leg_raise",
         "inverted_row",
         "leg_extensions",
         "overhead_squat",
@@ -9545,7 +9919,7 @@
       ]
     },
     "rhomboids": {
-      "emg_count": 10,
+      "emg_count": 11,
       "exercise_count": 89,
       "exercises": [
         "alternating_kettlebell_row",
@@ -9645,6 +10019,7 @@
         "inverted_row",
         "power_clean",
         "pullups",
+        "scapular_pull_up",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
         "sumo_deadlift",
@@ -9652,7 +10027,7 @@
       ]
     },
     "rotator_cuff": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 9,
       "exercises": [
         "bent_over_dumbbell_rear_delt_raise_with_head_on_bench",
@@ -9669,6 +10044,7 @@
         "chin_up",
         "pullups",
         "seated_bent_over_rear_delt_raise",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "weighted_pull_ups"
       ]
@@ -9908,7 +10284,7 @@
       ]
     },
     "serratus_anterior": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 6,
       "exercises": [
         "incline_dumbbell_press",
@@ -9923,12 +10299,13 @@
         "overhead_squat",
         "parallel_bar_dip",
         "pushups",
-        "ring_dips"
+        "ring_dips",
+        "scapular_pull_up"
       ]
     },
     "shoulders": {
-      "emg_count": 23,
-      "exercise_count": 298,
+      "emg_count": 28,
+      "exercise_count": 300,
       "exercises": [
         "ab_roller",
         "advanced_kettlebell_windmill",
@@ -9967,6 +10344,7 @@
         "bodyweight_flyes",
         "bottoms_up_clean_from_the_hang_position",
         "bradford_rocky_presses",
+        "butterfly",
         "cable_chest_press",
         "cable_crossover",
         "cable_internal_rotation",
@@ -10009,6 +10387,7 @@
         "dumbbell_bench_press_with_neutral_grip",
         "dumbbell_clean",
         "dumbbell_floor_press",
+        "dumbbell_flyes",
         "dumbbell_incline_row",
         "dumbbell_incline_shoulder_raise",
         "dumbbell_lying_one_arm_rear_lateral_raise",
@@ -10232,11 +10611,14 @@
       "exercises_with_emg": [
         "bench_press",
         "bent_over_barbell_row",
+        "butterfly",
         "chin_up",
         "clean_and_jerk",
         "close_grip_barbell_bench_press",
+        "dumbbell_flyes",
         "floor_press",
         "front_dumbbell_raise",
+        "incline_dumbbell_flyes",
         "incline_dumbbell_press",
         "inverted_row",
         "overhead_press",
@@ -10248,8 +10630,10 @@
         "push_press",
         "pushups",
         "ring_dips",
+        "scapular_pull_up",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch",
         "weighted_pull_ups"
@@ -10407,7 +10791,7 @@
       ]
     },
     "supraspinatus": {
-      "emg_count": 1,
+      "emg_count": 2,
       "exercise_count": 4,
       "exercises": [
         "cable_seated_lateral_raise",
@@ -10416,6 +10800,7 @@
         "side_lateral_raise"
       ],
       "exercises_with_emg": [
+        "seated_side_lateral_raise",
         "side_lateral_raise"
       ]
     },
@@ -10451,7 +10836,7 @@
       ]
     },
     "trap_lower": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 7,
       "exercises": [
         "chin_up",
@@ -10466,6 +10851,7 @@
         "chin_up",
         "pullups",
         "ring_dips",
+        "scapular_pull_up",
         "seated_cable_rows",
         "weighted_pull_ups"
       ]
@@ -10491,7 +10877,7 @@
       ]
     },
     "trap_upper": {
-      "emg_count": 9,
+      "emg_count": 10,
       "exercise_count": 13,
       "exercises": [
         "cable_seated_lateral_raise",
@@ -10514,6 +10900,7 @@
         "front_dumbbell_raise",
         "power_clean",
         "power_snatch",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch",
         "snatch_pull",
@@ -10521,7 +10908,7 @@
       ]
     },
     "trapezius": {
-      "emg_count": 18,
+      "emg_count": 20,
       "exercise_count": 25,
       "exercises": [
         "bent_over_barbell_row",
@@ -10562,8 +10949,10 @@
         "power_snatch",
         "pullups",
         "ring_dips",
+        "scapular_pull_up",
         "seated_bent_over_rear_delt_raise",
         "seated_cable_rows",
+        "seated_side_lateral_raise",
         "side_lateral_raise",
         "snatch",
         "snatch_pull",
@@ -10572,7 +10961,7 @@
       ]
     },
     "triceps_brachii": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 9,
       "exercises": [
         "cable_lying_triceps_extension",
@@ -10587,6 +10976,7 @@
       ],
       "exercises_with_emg": [
         "cable_rope_overhead_triceps_extension",
+        "decline_ez_bar_triceps_extension",
         "ez_bar_skullcrusher",
         "lying_triceps_press",
         "tricep_dumbbell_kickback",
@@ -10594,7 +10984,7 @@
       ]
     },
     "triceps_lateral": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 9,
       "exercises": [
         "cable_lying_triceps_extension",
@@ -10609,6 +10999,7 @@
       ],
       "exercises_with_emg": [
         "cable_rope_overhead_triceps_extension",
+        "decline_ez_bar_triceps_extension",
         "ez_bar_skullcrusher",
         "lying_triceps_press",
         "tricep_dumbbell_kickback",
@@ -10616,7 +11007,7 @@
       ]
     },
     "triceps_long": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 9,
       "exercises": [
         "cable_lying_triceps_extension",
@@ -10631,6 +11022,7 @@
       ],
       "exercises_with_emg": [
         "cable_rope_overhead_triceps_extension",
+        "decline_ez_bar_triceps_extension",
         "ez_bar_skullcrusher",
         "lying_triceps_press",
         "tricep_dumbbell_kickback",
@@ -10638,7 +11030,7 @@
       ]
     },
     "triceps_medial": {
-      "emg_count": 5,
+      "emg_count": 6,
       "exercise_count": 9,
       "exercises": [
         "cable_lying_triceps_extension",
@@ -10653,6 +11045,7 @@
       ],
       "exercises_with_emg": [
         "cable_rope_overhead_triceps_extension",
+        "decline_ez_bar_triceps_extension",
         "ez_bar_skullcrusher",
         "lying_triceps_press",
         "tricep_dumbbell_kickback",
@@ -11034,35 +11427,35 @@
       ]
     }
   },
-  "program_count": 12,
+  "program_count": 41,
   "system_coverage": {
     "bodybuilding": {
       "core_refs": 6,
       "exercise_count": 680,
-      "exercises_covered": 9,
+      "exercises_covered": 53,
       "has_index": true,
-      "program_count": 3
+      "program_count": 6
     },
     "calisthenics": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 12,
+      "exercises_covered": 15,
       "has_index": true,
-      "program_count": 1
+      "program_count": 9
     },
     "crossfit": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 5,
+      "exercises_covered": 12,
       "has_index": true,
-      "program_count": 1
+      "program_count": 3
     },
     "olympic": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 13,
+      "exercises_covered": 21,
       "has_index": true,
-      "program_count": 1
+      "program_count": 10
     },
     "powerlifting": {
       "core_refs": 3,
@@ -11074,9 +11467,9 @@
     "strongman": {
       "core_refs": 3,
       "exercise_count": 680,
-      "exercises_covered": 4,
+      "exercises_covered": 17,
       "has_index": true,
-      "program_count": 1
+      "program_count": 8
     }
   },
   "systems_defined": [

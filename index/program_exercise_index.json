@@ -1,19 +1,59 @@
 {
+  "atlas_stones": [
+    "brian_shaw_off_season",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
+    "juggernaut_method_strongman",
+    "starting_strongman"
+  ],
   "back_squat": [
     "5_3_1",
     "basic_strongman_block",
+    "beginner_fullbody_hypertrophy",
+    "brian_shaw_off_season",
+    "cal_strength_daily",
     "catalyst_12_week",
+    "crossfit_competition_prep",
     "crossfit_foundations",
+    "crossfit_intermediate",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
+    "glenn_pendlay_programs",
     "gzclp",
+    "juggernaut_method_strongman",
+    "klokov_protocol",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "phat",
     "phul",
     "push_pull_legs",
     "rp_hypertrophy",
     "starting_strength",
-    "texas_method"
+    "starting_strongman",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
+    "texas_method",
+    "usaw_l1_program"
+  ],
+  "barbell_curl": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
+  "barbell_lunge": [
+    "lsus_10_5_3"
+  ],
+  "barbell_shrug": [
+    "brian_shaw_off_season",
+    "klokov_protocol"
   ],
   "bench_press": [
     "5_3_1",
+    "beginner_fullbody_hypertrophy",
     "gzclp",
+    "lsus_10_5_3",
+    "phat",
     "phul",
     "push_pull_legs",
     "rp_hypertrophy",
@@ -25,131 +65,482 @@
   ],
   "bent_over_barbell_row": [
     "basic_strongman_block",
+    "beginner_fullbody_hypertrophy",
+    "cal_strength_daily",
+    "eddie_hall_training_structure",
+    "glenn_pendlay_programs",
+    "phat",
     "phul",
-    "push_pull_legs"
+    "push_pull_legs",
+    "starting_strongman",
+    "strongman_competition_prep",
+    "strongman_intermediate_block"
+  ],
+  "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": [
+    "bodybuilding_isolation_block"
   ],
   "board_press": [
     "westside_conjugate"
   ],
+  "bodyweight_squat": [
+    "convict_conditioning",
+    "get_strong_kavadlo",
+    "gymnastic_bodies_foundation_one"
+  ],
   "box_squat": [
     "westside_conjugate"
   ],
+  "butterfly": [
+    "bodybuilding_isolation_block"
+  ],
+  "cable_lying_triceps_extension": [
+    "bodybuilding_isolation_block"
+  ],
+  "cable_one_arm_tricep_extension": [
+    "bodybuilding_isolation_block"
+  ],
+  "cable_preacher_curl": [
+    "bodybuilding_isolation_block"
+  ],
+  "cable_rope_overhead_triceps_extension": [
+    "bodybuilding_isolation_block"
+  ],
+  "cable_seated_lateral_raise": [
+    "bodybuilding_isolation_block"
+  ],
+  "chin_up": [
+    "bodybuilding_isolation_block"
+  ],
   "clean_and_jerk": [
-    "catalyst_12_week"
+    "bulgarian_method",
+    "cal_strength_daily",
+    "catalyst_12_week",
+    "crossfit_competition_prep",
+    "glenn_pendlay_programs",
+    "klokov_protocol",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_intermediate"
   ],
   "clean_pull": [
-    "catalyst_12_week"
+    "cal_strength_daily",
+    "catalyst_12_week",
+    "glenn_pendlay_programs",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "usaw_l1_program"
   ],
   "close_grip_barbell_bench_press": [
     "westside_conjugate"
   ],
+  "concentration_curls": [
+    "bodybuilding_isolation_block"
+  ],
   "conventional_deadlift": [
     "5_3_1",
     "basic_strongman_block",
+    "brian_shaw_off_season",
+    "crossfit_competition_prep",
     "crossfit_foundations",
+    "crossfit_intermediate",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
     "gzclp",
+    "juggernaut_method_strongman",
     "phul",
     "starting_strength",
+    "starting_strongman",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
     "texas_method",
     "westside_conjugate"
   ],
+  "decline_dumbbell_flyes": [
+    "bodybuilding_isolation_block"
+  ],
+  "decline_ez_bar_triceps_extension": [
+    "bodybuilding_isolation_block"
+  ],
+  "donkey_calf_raises": [
+    "bodybuilding_isolation_block"
+  ],
+  "drag_curl": [
+    "bodybuilding_isolation_block"
+  ],
+  "dumbbell_bicep_curl": [
+    "bodybuilding_isolation_block"
+  ],
+  "dumbbell_flyes": [
+    "bodybuilding_isolation_block"
+  ],
+  "ez_bar_curl": [
+    "bodybuilding_isolation_block"
+  ],
+  "ez_bar_skullcrusher": [
+    "phat"
+  ],
+  "face_pull": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
+  "farmers_walk": [
+    "brian_shaw_off_season",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
+    "juggernaut_method_strongman",
+    "starting_strongman"
+  ],
+  "flat_bench_cable_flyes": [
+    "bodybuilding_isolation_block"
+  ],
   "floor_press": [
+    "eddie_hall_training_structure",
     "westside_conjugate"
   ],
+  "front_cable_raise": [
+    "bodybuilding_isolation_block"
+  ],
+  "front_dumbbell_raise": [
+    "phat"
+  ],
   "front_squat": [
+    "bulgarian_method",
+    "cal_strength_daily",
     "catalyst_12_week",
-    "crossfit_foundations"
+    "crossfit_competition_prep",
+    "crossfit_foundations",
+    "crossfit_intermediate",
+    "glenn_pendlay_programs",
+    "juggernaut_method_strongman",
+    "klokov_protocol",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "strongman_competition_prep",
+    "usaw_l1_program"
+  ],
+  "glute_ham_raise": [
+    "bodybuilding_isolation_block"
   ],
   "goblet_squat": [
     "bwf_recommended_routine"
   ],
   "good_morning": [
+    "brian_shaw_off_season",
     "catalyst_12_week",
+    "cube_method_strongman",
+    "olympic_weightlifting_advanced",
+    "starting_strongman",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
     "westside_conjugate"
   ],
+  "hammer_curls": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
+  "handstand_push_ups": [
+    "convict_conditioning",
+    "gymnastic_bodies_foundation_one",
+    "overcoming_gravity_template"
+  ],
+  "hang_snatch": [
+    "olympic_weightlifting_intermediate"
+  ],
+  "hanging_leg_raise": [
+    "convict_conditioning",
+    "get_strong_kavadlo"
+  ],
+  "incline_cable_flye": [
+    "bodybuilding_isolation_block"
+  ],
+  "incline_dumbbell_curl": [
+    "bodybuilding_isolation_block"
+  ],
+  "incline_dumbbell_flyes": [
+    "bodybuilding_isolation_block"
+  ],
   "incline_dumbbell_press": [
+    "beginner_fullbody_hypertrophy",
+    "phat",
     "phul"
   ],
   "inverted_row": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "get_strong_kavadlo",
+    "overcoming_gravity_template"
+  ],
+  "kneeling_cable_triceps_extension": [
+    "bodybuilding_isolation_block"
+  ],
+  "leg_extensions": [
+    "phat"
+  ],
+  "leg_press": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
+  "log_lift": [
+    "brian_shaw_off_season",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
+    "juggernaut_method_strongman",
+    "starting_strongman"
+  ],
+  "lying_leg_curls": [
+    "bodybuilding_isolation_block"
+  ],
+  "lying_triceps_press": [
+    "beginner_fullbody_hypertrophy"
+  ],
+  "one_arm_flat_bench_dumbbell_flye": [
+    "bodybuilding_isolation_block"
   ],
   "overhead_press": [
     "5_3_1",
     "basic_strongman_block",
+    "beginner_fullbody_hypertrophy",
+    "brian_shaw_off_season",
+    "crossfit_competition_prep",
     "crossfit_foundations",
+    "crossfit_intermediate",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
     "gzclp",
+    "juggernaut_method_strongman",
+    "phat",
     "phul",
     "push_pull_legs",
     "starting_strength",
+    "starting_strongman",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
     "texas_method"
   ],
   "overhead_squat": [
-    "catalyst_12_week"
+    "catalyst_12_week",
+    "crossfit_competition_prep",
+    "klokov_protocol",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "usaw_l1_program"
   ],
   "pallof_press": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "gymnastic_bodies_foundation_one",
+    "overcoming_gravity_template"
   ],
   "parallel_bar_dip": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "get_strong_kavadlo",
+    "overcoming_gravity_template"
   ],
   "plank": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "get_strong_kavadlo",
+    "gymnastic_bodies_foundation_one",
+    "overcoming_gravity_template"
   ],
   "power_clean": [
     "catalyst_12_week",
-    "starting_strength"
+    "crossfit_competition_prep",
+    "crossfit_intermediate",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "starting_strength",
+    "usaw_l1_program"
   ],
   "power_jerk": [
     "catalyst_12_week"
   ],
   "power_snatch": [
-    "catalyst_12_week"
+    "catalyst_12_week",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "usaw_l1_program"
+  ],
+  "preacher_curl": [
+    "phat"
   ],
   "pullups": [
+    "beginner_fullbody_hypertrophy",
     "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "convict_conditioning",
+    "crossfit_competition_prep",
     "crossfit_foundations",
+    "crossfit_intermediate",
+    "cube_method_strongman",
+    "get_strong_kavadlo",
+    "grease_the_groove",
+    "gymnastic_bodies_foundation_one",
     "gzclp",
+    "juggernaut_method_strongman",
+    "lsus_10_5_3",
+    "overcoming_gravity_template",
+    "phat",
     "phul",
     "push_pull_legs",
     "rp_hypertrophy"
   ],
   "push_press": [
-    "catalyst_12_week"
+    "cal_strength_daily",
+    "catalyst_12_week",
+    "glenn_pendlay_programs",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
+    "usaw_l1_program"
+  ],
+  "push_press_behind_the_neck": [
+    "klokov_protocol"
   ],
   "pushups": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "convict_conditioning",
+    "crossfit_competition_prep",
+    "crossfit_intermediate",
+    "get_strong_kavadlo",
+    "grease_the_groove",
+    "overcoming_gravity_template"
   ],
   "reverse_hyperextension": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "convict_conditioning"
   ],
   "ring_dips": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "crossfit_competition_prep",
+    "crossfit_intermediate",
+    "gymnastic_bodies_foundation_one",
+    "overcoming_gravity_template"
   ],
   "romanian_deadlift": [
+    "beginner_fullbody_hypertrophy",
     "bwf_recommended_routine",
+    "cal_strength_daily",
+    "crossfit_intermediate",
+    "cube_method_strongman",
+    "juggernaut_method_strongman",
+    "olympic_weightlifting_beginner",
+    "phat",
     "phul",
     "push_pull_legs",
-    "rp_hypertrophy"
+    "rp_hypertrophy",
+    "starting_strongman"
   ],
   "scapular_pull_up": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "gymnastic_bodies_foundation_one",
+    "overcoming_gravity_template"
+  ],
+  "seated_bent_over_rear_delt_raise": [
+    "bodybuilding_isolation_block"
   ],
   "seated_cable_rows": [
+    "phat",
     "rp_hypertrophy"
   ],
+  "seated_calf_raise": [
+    "phat"
+  ],
+  "seated_leg_curl": [
+    "phat"
+  ],
+  "seated_side_lateral_raise": [
+    "bodybuilding_isolation_block"
+  ],
+  "side_lateral_raise": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
+  "single_leg_leg_extension": [
+    "bodybuilding_isolation_block"
+  ],
   "snatch": [
-    "catalyst_12_week"
+    "bulgarian_method",
+    "cal_strength_daily",
+    "catalyst_12_week",
+    "crossfit_competition_prep",
+    "glenn_pendlay_programs",
+    "klokov_protocol",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_intermediate"
   ],
   "snatch_pull": [
-    "catalyst_12_week"
+    "cal_strength_daily",
+    "catalyst_12_week",
+    "glenn_pendlay_programs",
+    "lsus_10_5_3",
+    "olympic_weightlifting_advanced",
+    "olympic_weightlifting_beginner",
+    "olympic_weightlifting_intermediate",
+    "usaw_l1_program"
+  ],
+  "standing_calf_raises": [
+    "bodybuilding_isolation_block"
+  ],
+  "standing_leg_curl": [
+    "bodybuilding_isolation_block"
   ],
   "stiff_legged_barbell_deadlift": [
     "catalyst_12_week"
   ],
   "sumo_deadlift": [
+    "brian_shaw_off_season",
+    "strongman_competition_prep",
+    "strongman_intermediate_block",
     "westside_conjugate"
   ],
+  "tire_flip": [
+    "brian_shaw_off_season",
+    "eddie_hall_training_structure"
+  ],
+  "tricep_dumbbell_kickback": [
+    "bodybuilding_isolation_block"
+  ],
+  "triceps_pushdown": [
+    "beginner_fullbody_hypertrophy",
+    "phat"
+  ],
   "weighted_pull_ups": [
-    "bwf_recommended_routine"
+    "bwf_recommended_routine",
+    "bwf_skill_day_template",
+    "calisthenics_advanced_skills",
+    "calisthenics_intermediate_skills",
+    "overcoming_gravity_template"
+  ],
+  "yoke_walk": [
+    "brian_shaw_off_season",
+    "cube_method_strongman",
+    "eddie_hall_training_structure",
+    "juggernaut_method_strongman",
+    "starting_strongman"
   ]
 }
