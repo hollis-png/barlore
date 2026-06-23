@@ -32,11 +32,11 @@ joint_rom_required:
   source: "maeo_2023"
 
 strength_curve:
-  type: bell_shaped
-  sticking_point: mid_range
-  peak_force_position: mid
-  notes: "Bell-shaped similar to standing raise; bent knee eliminates most gastrocnemius contribution, placing nearly all load on the soleus throughout the range"
-  source: "biomechanical inference"
+  type: descending
+  sticking_point: top_third
+  peak_force_position: bottom
+  notes: "Descending; torque production is maximized in deep dorsiflexion and declines linearly through the range; sticking point at full plantarflexion where soleus must bear load in a shortened state; bent knee eliminates gastrocnemius contribution throughout"
+  source: "biomechanical inference; Maeo 2023"
 
 injury_risk:
   joint_stress:

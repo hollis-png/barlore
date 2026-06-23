@@ -1,0 +1,138 @@
+You are a sports science researcher tasked with two objectives for a strongman training knowledge base.
+
+---
+
+## OBJECTIVE 1 — Discover Classic Named Programs
+
+Find all well-documented, publicly available strongman training programs with named authors or official sources. For each program found, extract full structural details so it can be added to the knowledge base as a verified classic program.
+
+### Target Programs (priority order)
+
+1. **Starting Strongman** (r/Strongman community / commonly attributed to community coaches)
+   — beginner entry program; widely cited as the standard starting point
+2. **Juggernaut Method for Strongman** (Chad Wesley Smith / Juggernaut Training Systems)
+   — if a publicly documented strongman-specific version exists
+3. **Brian Shaw's Off-Season Program** (if publicly released)
+4. **Eddie Hall's Training Structure** (if publicly documented in interviews/books)
+5. **Rogue Invitational / WSM competitor off-season programs** (any publicly documented)
+6. **USASA (United States Amateur Strongman Association) recommended programs** (if they exist)
+7. Any other named strongman programs with verifiable authorship and public documentation
+
+### Search Strategy
+
+- Search: r/Strongman wiki, juggernauttraining.com, YouTube interviews with top competitors
+- Search terms: "Starting Strongman program" OR "beginner strongman training program" OR "Chad Wesley Smith strongman" OR "strongman periodization named program"
+- Also check: strongman corporation resources, Iron Sport Gym publications
+
+### Output for Each Program Found
+
+```yaml
+classic_programs:
+  - id: starting_strongman              # snake_case
+    name: "Starting Strongman"
+    origin_author: "r/Strongman community"   # or specific person if known
+    origin_year: null                        # approximate if known
+    publicly_available: true
+    public_source_url: "..."
+    system: strongman
+    levels: [beginner]
+    frequency_per_week: 4
+    sessions_per_day: 1
+    duration_weeks: null
+    primary_implements: [barbell_deadlift, overhead_press, yoke, farmer_carry]
+    periodization_style: linear
+    key_principles:
+      - "..."
+    distinguishing_vs_standard: "..."
+    sources:
+      - title: "..."
+        author: "..."
+        year: ...
+        credibility: practitioner / community
+```
+
+---
+
+## OBJECTIVE 2 — Evidence Enrichment for Strongman Programs
+
+The knowledge base contains synthesized programs:
+- `strongman_intermediate_block`: 4 days/week, linear, barbell + implements, 3-4 week mesocycles
+- `strongman_competition_prep`: 16-week contest prep, block periodization, event simulation escalation
+- System guides specifying: yoke overload ≤10m only, Continental Clean as separate skill, carry velocity threshold, tacky from 6-8 weeks pre-competition
+
+Find evidence to validate or correct these design decisions:
+
+### Research Questions
+
+1. **Strongman event training frequency and transfer**
+   - Search: "strongman training implement specificity" OR "carry event training frequency" OR "strongman competition preparation periodization"
+   - Target: any controlled study or well-documented case study on strongman-specific periodization
+
+2. **Yoke walk biomechanics and injury risk**
+   - Search: "yoke walk biomechanics" OR "loaded carry spinal compression" OR "yoke walk knee stress"
+   - Target: any biomechanical analysis of yoke walk, especially distance and load effects on patellar/lumbar stress
+
+3. **Farmer carry velocity as readiness metric**
+   - Search: "farmer carry speed performance" OR "loaded carry velocity competition" OR "grip strength farmer walk"
+   - Target: any normative data on farmer carry times or velocity thresholds
+
+4. **Atlas stone mechanics and tacky (lifting chalk/adhesive) effects**
+   - Search: "Atlas stone lift biomechanics" OR "strongman stone lifting technique" OR "tacky adhesive Atlas stone"
+   - Target: any published biomechanical or coaching analysis of Atlas stone lifting technique
+
+5. **Competition taper for strength-power athletes**
+   - Search: "strength sport taper protocol" OR "competition peaking strongman powerlifting" OR "deload pre-competition strength"
+   - Target: any RCT or systematic review on taper protocols applicable to strength-power sports
+
+6. **Continental Clean technique and axle bar deadlift**
+   - Search: "Continental Clean technique axle bar" OR "log clean press technique analysis"
+   - Target: any biomechanical or coaching analysis of the Continental Clean
+
+### Output for Evidence Section
+
+```yaml
+evidence_summary:
+  event_training_frequency:
+    finding: "..."
+    source_id: "..."
+    confidence: high / moderate / low / expert_opinion_only
+  yoke_biomechanics:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  farmer_carry_velocity:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  atlas_stone_mechanics:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  competition_taper:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  continental_clean:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+sources:
+  - source_id: author_year
+    title: "..."
+    author: "..."
+    year: ...
+    journal: "..."
+    doi: "..."
+    credibility: rct / systematic_review / literature_review / practitioner / expert_consensus
+```
+
+---
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble.
+- If a value is unknown or not found, write null. NEVER estimate or invent data.
+- Every claim in evidence_summary MUST have a source_id that resolves to an entry in sources[].
+- For classic programs: mark publicly_available: false if proprietary or behind paywall.
+- Strongman science is sparse — low confidence findings are valid and expected; do not fabricate confidence.

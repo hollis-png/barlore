@@ -1,11 +1,11 @@
 ---
 id: incline_dumbbell_flyes
 name: Incline Dumbbell Flyes
-status: stub
+status: complete
 source: free-exercise-db
 category: exercise
 pattern:
-- horizontal press
+- isolation
 equipment:
 - dumbbell
 difficulty:
@@ -15,12 +15,68 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
-- id: deltoid
+- id: deltoid_anterior
   role: secondary
+muscle_activation_studies:
+  - source_id: schanke_2012
+    doi: null
+    n: 14
+    population: "trained men"
+    condition:
+      load_pct_1rm: 80
+      implement: dumbbell
+      elbow_angle_deg: 15
+      phase: full_rep
+      notes: "Normalized to flat barbell bench press = 100%, NOT true %MVIC. Incline dumbbell fly produced 69% of bench press activation."
+    measurements:
+      - muscle: pectoralis_major
+        mean_pct_mvc: null
+        sd: null
+  - source_id: tavares_2017
+    doi: null
+    n: 17
+    population: "trained males"
+    condition:
+      load_pct_1rm: null
+      implement: dumbbell
+      elbow_angle_deg: 15
+      phase: full_rep
+      notes: "Relative comparison only; incline produced significantly higher deltoid_anterior (d=1.15) and lower pec_major_sternal (d=1.07) vs. flat. No absolute %MVIC reported."
+    measurements:
+      - muscle: deltoid_anterior
+        mean_pct_mvc: null
+        sd: null
+      - muscle: pec_major_sternal
+        mean_pct_mvc: null
+        sd: null
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15
+  source: "Reiser 2017"
+
+strength_curve:
+  type: descending
+  sticking_point: bottom_third
+  peak_force_position: bottom
+  notes: "Sticking point and peak force occur at the bottom, lengthened position; bench angle 15–30° optimizes clavicular head recruitment"
+
 variations: []
 progressions: []
 alternatives: []
 sources:
+- title: "ACE-Sponsored Research: Top 3 Most Effective Chest Exercises"
+  author: "Schanke et al."
+  year: 2012
+  doi: null
+  source_id: schanke_2012
+  credibility: rct
+- title: "Journal of Exercise Physiologyonline — Electromyography of Dumbbell Fly Exercise Using Different Planes and Labile Surfaces"
+  author: "Tavares et al."
+  year: 2017
+  doi: null
+  source_id: tavares_2017
+  credibility: rct
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
@@ -44,10 +100,3 @@ sources:
    again. Tip: Keep in mind that the movement will only happen at the shoulder joint and
    at the wrist. There is no motion that happens at the elbow joint.
 6. Repeat for the recommended amount of repetitions.
-
-## Notes
-
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.

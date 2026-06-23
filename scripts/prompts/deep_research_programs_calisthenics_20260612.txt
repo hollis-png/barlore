@@ -1,0 +1,169 @@
+You are a sports science researcher tasked with two objectives for a calisthenics training knowledge base.
+
+---
+
+## OBJECTIVE 1 — Discover Classic Named Programs
+
+Find all well-documented, publicly available calisthenics programs with named authors or official sources. For each program found, extract full structural details so it can be added to the knowledge base as a verified classic program.
+
+### Target Programs (priority order)
+
+1. **Overcoming Gravity** (Steven Low)
+   — comprehensive book-based programming system; identify specific program templates from the book
+2. **GMB Fitness Programs** (Ryan Hurst / GMB Fitness)
+   — Elements, Integral Strength; assess if structural details are publicly documented
+3. **Al Kavadlo / Danny Kavadlo Calisthenics Programs**
+   — Pushing the Limits, Raising the Bar; identify if they contain complete program structures
+4. **Convict Conditioning Program** (Paul "Coach" Wade)
+   — 6-move progression system; publicly documented in book
+5. **r/bodyweightfitness Skill Day Templates** (beyond BWF RR, which is already in the knowledge base)
+   — any supplemental templates for muscle-up, planche, front lever specific training
+6. Any other named calisthenics programs with verifiable authorship and public documentation
+
+### Search Strategy
+
+- Search: Reddit r/bodyweightfitness wiki, Steven Low's eatmoveimprove.com, GMB Fitness website
+- Search terms: "Overcoming Gravity program template" OR "calisthenics named program structure" OR "planche front lever program structured" OR "Al Kavadlo program" OR "Convict Conditioning structure"
+- Also check: Gymnasticbodies.com (Christopher Sommer) — note if behind paywall
+
+### Output for Each Program Found
+
+```yaml
+classic_programs:
+  - id: overcoming_gravity_intermediate     # snake_case
+    name: "Overcoming Gravity — Intermediate Template"
+    origin_author: "Steven Low"
+    origin_year: 2016                       # second edition
+    publicly_available: true                # book content; partially available online
+    public_source_url: "eatmoveimprove.com"
+    system: calisthenics
+    levels: [intermediate]
+    frequency_per_week: 3
+    sessions_per_day: 1
+    duration_weeks: null
+    skill_targets: [muscle_up, handstand, front_lever, planche_progression]
+    periodization_style: skill_progression
+    key_principles:
+      - "..."
+    distinguishing_vs_standard: "..."
+    known_risks_or_notes: "..."
+    sources:
+      - title: "Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength (2nd ed.)"
+        author: "Low, Steven"
+        year: 2016
+        publisher: "Battle Ground Creative"
+        credibility: practitioner
+```
+
+---
+
+## OBJECTIVE 2 — Evidence Enrichment for Calisthenics Programs
+
+The knowledge base contains synthesized programs and system guides with the following claims:
+
+1. **Connective tissue adaptation timeline**: 6–18 months for planche/front lever progressions; tendons adapt 3–4× more slowly than muscle
+2. **Gelatin + Vitamin C protocol**: referenced as "Shaw 2017 RCT" (15–20 g gelatin + 50–100 mg Vitamin C, 60 minutes pre-training)
+3. **Skill practice requires CNS freshness**: skill sessions must follow a rest day; cannot be placed after consecutive heavy strength days
+4. **Planche scapular protraction vs retraction distinction**: planche requires protraction, opposite to barbell pressing patterns
+5. **One-arm pull-up progression danger**: eccentric OAP negatives cause extreme distal biceps tendon stress
+6. **Never train skills to technical failure**: failed repetition reinforces incorrect motor pattern
+
+Find evidence to validate, correct, or add nuance to each claim:
+
+### Research Questions
+
+1. **Gelatin + Vitamin C protocol (Shaw 2017 RCT)**
+   - Search: "gelatin vitamin C collagen synthesis exercise Shaw 2017" OR "collagen supplement connective tissue recovery training"
+   - Target: the specific Shaw et al. 2017 paper — confirm: journal, sample size, protocol details (dose, timing), findings
+   - Also find any replication or contradicting studies published after 2017
+
+2. **Tendon vs muscle adaptation timescales**
+   - Search: "tendon adaptation training timeline weeks months" OR "connective tissue vs muscle hypertrophy rate" OR "tendon collagen synthesis rate"
+   - Target: any systematic review or review paper on tendon adaptation rates compared to muscle
+
+3. **CNS fatigue and motor skill learning timing**
+   - Search: "motor skill learning fatigue interference" OR "skill acquisition CNS recovery" OR "motor learning timing rest"
+   - Target: any study on the effect of prior physical fatigue on subsequent motor skill learning
+
+4. **Planche scapular mechanics (protraction vs retraction)**
+   - Search: "planche scapular position EMG serratus anterior" OR "gymnastics support position scapula protraction"
+   - Target: any EMG or biomechanical study of scapular position in gymnastics support/planche
+
+5. **Eccentric loading and tendon injury risk in pulling exercises**
+   - Search: "eccentric pull-up distal biceps tendon" OR "eccentric loading tendinopathy risk" OR "one-arm pull-up injury"
+   - Target: any injury epidemiology or tendon stress study relevant to heavy eccentric pulling
+
+6. **Motor learning and technical failure / errorful learning**
+   - Search: "errorful learning motor skill" OR "error during practice motor learning outcome" OR "failed repetitions skill acquisition"
+   - Target: any motor learning study addressing whether training through failure helps or hurts skill acquisition
+
+### Output for Evidence Section
+
+```yaml
+evidence_summary:
+  gelatin_vitamin_c_protocol:
+    shaw_2017_confirmed:
+      journal: "..."
+      sample_size: null
+      protocol_dose_g: null
+      protocol_timing_min: null
+      key_finding: "..."
+      source_id: "shaw_2017"
+    replications_or_contradictions:
+      - finding: "..."
+        source_id: "..."
+    confidence: high / moderate / low / expert_opinion_only
+
+  tendon_vs_muscle_adaptation_rate:
+    finding: "..."
+    claimed_ratio: "3-4x slower"
+    evidence_supports_ratio: true / false / partially
+    source_id: "..."
+    confidence: ...
+
+  cns_fatigue_skill_learning:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+  planche_scapular_mechanics:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+  eccentric_tendon_injury_risk:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+  errorful_learning_motor_skill:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+sources:
+  - source_id: shaw_2017
+    title: "..."
+    author: "Shaw, G., ..."
+    year: 2017
+    journal: "..."
+    doi: "..."
+    credibility: rct
+  - source_id: author_year
+    title: "..."
+    author: "..."
+    year: ...
+    journal: "..."
+    doi: "..."
+    credibility: rct / systematic_review / literature_review / practitioner / expert_consensus
+```
+
+---
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble.
+- If a value is unknown or not found, write null. NEVER estimate or invent data.
+- Every claim in evidence_summary MUST have a source_id that resolves to an entry in sources[].
+- For the Shaw 2017 entry specifically: confirm the exact journal and DOI; if the paper cannot be verified, set shaw_2017_confirmed fields to null and note unverified: true.
+- Calisthenics has limited peer-reviewed research; low confidence findings are valid; never fabricate confidence levels.

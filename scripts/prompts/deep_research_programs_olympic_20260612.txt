@@ -1,0 +1,139 @@
+You are a sports science researcher tasked with two objectives for an Olympic weightlifting knowledge base.
+
+---
+
+## OBJECTIVE 1 — Discover Classic Named Programs
+
+Find all well-documented, publicly available Olympic weightlifting programs with named authors or official sources. For each program found, extract full structural details so it can be added to the knowledge base as a verified classic program.
+
+### Target Programs (priority order)
+
+1. **Bulgarian Method** (Ivan Abadjiev / National Weightlifting Team of Bulgaria)
+   — daily maximum approach, multiple sessions per day, minimal accessory work
+2. **Glenn Pendlay Programs** (MDUSA / California Strength era)
+   — American adaptation of high-frequency training; distinguish from Bulgarian Method
+3. **California Strength Daily Training Program**
+   — Chad Vaughn / Dave Spitz, publicly released on californiasstrength.com
+4. **USAW Level 1 Program** (USA Weightlifting official entry program)
+5. **Dmitry Klokov Program** (if publicly released and documented)
+6. Any other named OWL programs with verifiable authorship and public documentation
+
+### Search Strategy
+
+- Search: PubMed, catalystathletics.com, californiastrength.com, usaweightlifting.org, ResearchGate
+- Search terms: "Bulgarian method weightlifting protocol" OR "Pendlay weightlifting program" OR "Abadjiev training system" OR "daily maximum Olympic weightlifting" OR "high frequency weightlifting program"
+- Also check: r/weightlifting wiki, Catalyst Athletics forums, published coaching books
+
+### Output for Each Program Found
+
+```yaml
+classic_programs:
+  - id: bulgarian_method                     # snake_case
+    name: "Bulgarian Method"
+    origin_author: "Ivan Abadjiev"
+    origin_country: "Bulgaria"
+    origin_decade: "1970s"
+    publicly_available: true                 # or false if proprietary
+    public_source_url: "..."                 # if available
+    system: olympic
+    levels: [advanced, elite]               # list all appropriate levels
+    frequency_per_week: 12
+    sessions_per_day: 2
+    duration_weeks: null                    # ongoing / not fixed
+    primary_lifts: [snatch, clean_and_jerk]
+    accessory_emphasis: minimal
+    periodization_style: daily_max
+    key_principles:
+      - "Work to daily maximum in snatch and clean & jerk every session"
+      - "No fixed percentages — load is determined by feel on the day"
+      - "Squat (front squat) is the primary strength support"
+    distinguishing_vs_standard: >
+      Eliminates weekly periodization entirely; the daily maximum IS the
+      periodization. Requires adaptation over 6-12 months before athletes
+      can handle full volume.
+    known_risks: "Extreme fatigue accumulation; unsuitable below advanced level"
+    sources:
+      - title: "..."
+        author: "..."
+        year: ...
+        credibility: practitioner / literature_review / rct
+```
+
+---
+
+## OBJECTIVE 2 — Evidence Enrichment for Intermediate OWL Program
+
+The knowledge base contains a synthesized `olympic_weightlifting_intermediate` program with the following structure:
+- 4 days/week (Mon heavy snatch, Tue heavy C&J, Thu snatch volume, Fri C&J volume)
+- Front squat 3×/week, back squat 1×/week (total ≤4 squat days)
+- Snatch pull and clean pull at 95–105% of lift 1RM
+- 12 weeks in 3 blocks (accumulation → intensification → peaking)
+- Daily max approach on heavy days with mandatory back-off sets
+
+Find evidence to validate or correct these design decisions:
+
+### Research Questions
+
+1. **Optimal training frequency for intermediate OWL athletes**
+   - Search: "Olympic weightlifting training frequency intermediate" OR "snatch clean jerk sessions per week optimal"
+   - Target: any RCT or systematic review comparing 3 vs 4 vs 5 days/week for intermediate lifters
+
+2. **Pull intensity: 95–105% vs heavier**
+   - Search: "snatch pull load Olympic weightlifting" OR "clean pull intensity percentage 1RM"
+   - Target: EMG or force plate data on pulls at different intensities
+
+3. **Front squat priority over back squat in OWL**
+   - Search: "front squat vs back squat Olympic weightlifting performance" OR "front squat clean receiving strength"
+   - Target: any correlation data between front squat 1RM and clean 1RM
+
+4. **Back-off set efficacy after daily max**
+   - Search: "post-activation potentiation back-off sets strength" OR "daily maximum training volume distribution"
+   - Target: any evidence on volume accumulation after heavy singles
+
+5. **Block periodization for intermediate OWL**
+   - Search: "block periodization weightlifting intermediate" OR "periodization comparison Olympic lifting"
+   - Target: any comparison of block vs linear vs undulating for OWL athletes
+
+### Output for Evidence Section
+
+```yaml
+evidence_summary:
+  frequency:
+    finding: "..."
+    source_id: "..."
+    confidence: high / moderate / low / expert_opinion_only
+  pull_intensity:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  front_squat_priority:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  back_off_sets:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+  block_periodization:
+    finding: "..."
+    source_id: "..."
+    confidence: ...
+
+sources:
+  - source_id: author_year
+    title: "..."
+    author: "..."
+    year: ...
+    journal: "..."          # or publisher if book
+    doi: "..."              # if available
+    credibility: rct / systematic_review / literature_review / practitioner / expert_consensus
+```
+
+---
+
+## Output Rules — STRICTLY ENFORCED
+
+- Output ONLY valid YAML. No prose, no markdown code fences, no preamble.
+- If a value is unknown or not found, write null. NEVER estimate or invent data.
+- Every claim in evidence_summary MUST have a source_id that resolves to an entry in sources[].
+- For classic programs: mark publicly_available: false if the program is behind a paywall or is coach-proprietary.

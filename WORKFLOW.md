@@ -16,7 +16,8 @@ stays empty. An empty field is honest; a fabricated number is corrupting.
 
 ## Phase 1: Source Intake
 
-Before writing a single word of content, record your sources.
+Before writing a single word of content, know what you will cite. Sources are captured
+directly in the entry's `sources[]` frontmatter — no separate source file is required.
 
 ### Where to find sources by entry type
 
@@ -30,42 +31,21 @@ Before writing a single word of content, record your sources.
 | `crosscutting/nutrition/` | PubMed meta-analyses, Examine.com as a pointer (not as a source) | `meta_analysis` |
 | `crosscutting/recovery/` | PubMed, NSCA, sports medicine journals | `expert_consensus` |
 
-### Source intake template
+### Bulk exercise EMG research (Gemini Deep Research workflow)
 
-For each entry you plan to write, create `raw/{category}/{id}.md` with this format:
+For upgrading multiple stub exercises in the same muscle group at once:
 
-```markdown
-# Source notes: {entry id}
+1. Generate a Gemini Deep Research prompt (see `scripts/prompts/` for examples)
+2. Run the prompt in Gemini and save the full output to `deep research/{id}.md` in the
+   project root — this is the audit trail for the batch
+3. Extract the YAML blocks from the research output and upgrade the target stubs in parallel
+4. Run `build_index.py` to validate muscle IDs and references
 
-## Target entry
-- File: {exercises|core|programs|crosscutting}/{path}.md
-- Fields to fill: {list the specific YAML fields you have sources for}
+The `deep research/` files serve as the source audit trail for batch EMG upgrades.
+Individual `raw/` files are not created for AI-generated entries.
 
-## Sources
-
-### Source 1
-- Title: 
-- Author(s): 
-- Year: 
-- URL / DOI: 
-- Credibility: {meta_analysis | rct | expert_consensus | practitioner | anecdotal}
-- Key facts extracted:
-  - 
-  - 
-
-### Source 2
-...
-
-## What this does NOT cover
-{List fields you could not find sources for — these stay empty in the entry}
-```
-
-**You do not need to fill `raw/` for every entry.** Use it when:
-- The entry is complex (multiple fields, multiple sources)
-- You want a record for future revisions
-- You are unsure about the credibility tier
-
-For simple entries (1 source, 1–2 facts), write directly from the source.
+> **Note:** `raw/core/` contains five legacy source-note files from the initial design phase.
+> They are kept as reference examples but no new `raw/` files are created going forward.
 
 ---
 
@@ -147,21 +127,30 @@ Fields added: {list of YAML fields filled}"
 
 ## Workflow for AI-Assisted Entries
 
-When working with an AI agent (this is the primary authoring mode for Barlore):
+### Principles / crosscutting / programs / system_guides
 
-1. **You identify** what needs to be written (use `coverage.py --todo`)
-2. **AI searches** for the right sources (using web search tools)
-3. **AI extracts** key facts and assigns credibility tier
-4. **AI writes** the entry using SCHEMA.md
-5. **AI runs** `build_index.py` to validate
-6. **You review** the output — check that the `technical_notes` are accurate,
-   the credibility tier is not inflated, and no numbers were invented
-7. **Git commit**
+1. **Identify** what needs to be written (`coverage.py --todo` or known gap)
+2. **AI synthesizes** from known sources directly — no intermediate file needed
+3. **AI writes** the entry following SCHEMA.md; sources cited in `sources[]` frontmatter
+4. **AI runs** `build_index.py` to validate
+5. **You review** — credibility tier not inflated, no numbers invented
+6. **Git commit**
 
-**Your review focus**: You know the domain. The AI knows the format. Catch:
-- Incorrect technique cues (the AI may hallucinate specifics)
+### Bulk exercise EMG upgrade (isolation exercises)
+
+1. **Identify** a muscle group with multiple stubs to upgrade
+2. **Generate** a Gemini Deep Research prompt (`scripts/prompts/` has examples by muscle group)
+3. **Run** the prompt in Gemini; save the full response to `deep research/{muscle_group}.md`
+4. **AI reads** the research file and parallel-upgrades all target stubs in one pass
+   (CLAUDE.md Bulk Exercise Upgrade Protocol: Read all → Write all, both in parallel)
+5. **AI runs** `build_index.py` — must exit integrity OK
+6. **Git commit**
+
+**Review focus**: You know the domain. The AI knows the format. Catch:
+- Incorrect technique cues (AI may hallucinate specifics)
 - Inflated credibility tiers (practitioner knowledge cited as rct)
-- Missing nuance (an EMG study done at one load does not generalize to all loads)
+- Missing nuance (an EMG study at one load does not generalize to all loads)
+- Non-canonical muscle IDs (check against `core/muscles.yaml`)
 
 ---
 

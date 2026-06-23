@@ -19,10 +19,26 @@ muscles:
   - id: triceps_medial
     role: secondary
 
-# No peer-reviewed EMG data found specifically for the decline variation.
-# Decline angle changes shoulder position: slight shoulder extension vs neutral on flat.
-# This places the triceps long head in a slightly more elongated position than the flat skullcrusher.
-muscle_activation_studies: []
+muscle_activation_studies:
+  - source_id: boehler_2011
+    doi: null
+    n: 15
+    population: "healthy female volunteers, 20-24 yr"
+    condition:
+      load_pct_1rm: null
+      implement: "barbell"
+      phase: dynamic
+      notes: "Tested as flat 'lying barbell extensions' (skull crusher); decline variant not specifically measured. Values are relative to triangle push-up = 100%, NOT true %MVIC. Long head 70% (SD 20.9), lateral head 55% (SD 14.1) of reference."
+    measurements:
+      - muscle: triceps_long
+        mean_pct_mvc: null
+        sd: null
+      - muscle: triceps_lateral
+        mean_pct_mvc: null
+        sd: null
+      - muscle: triceps_medial
+        mean_pct_mvc: null
+        sd: null
 
 joint_rom_required:
   elbow_flexion_deg: 130
@@ -52,7 +68,13 @@ variations: []
 progressions: []
 alternatives: [ez_bar_skullcrusher, lying_triceps_press]
 
-sources: []
+sources:
+  - title: "ACE-sponsored research: Best triceps exercises"
+    author: "Boehler, B. et al."
+    year: 2011
+    doi: null
+    source_id: boehler_2011
+    credibility: practitioner
 ---
 
 # Decline EZ-Bar Triceps Extension

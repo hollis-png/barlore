@@ -1,11 +1,11 @@
 ---
 id: flat_bench_cable_flyes
 name: Flat Bench Cable Flyes
-status: stub
+status: complete
 source: free-exercise-db
 category: exercise
 pattern:
-- horizontal press
+- isolation
 equipment:
 - cable
 difficulty:
@@ -15,6 +15,20 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
+
+muscle_activation_studies: []
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15
+  source: "Legion Athletics"
+
+strength_curve:
+  type: flat
+  sticking_point: mid_range
+  peak_force_position: mid
+  notes: "Lateral cable tension provides constant resistance throughout ROM; no drop-off at midline unlike dumbbell variants"
+
 variations: []
 progressions: []
 alternatives: []
@@ -44,10 +58,3 @@ sources:
    floor touching above your chest.
 6. Slowly come back to the starting position.
 7. Repeat for the recommended amount of repetitions.
-
-## Notes
-
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.

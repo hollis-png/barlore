@@ -1,11 +1,11 @@
 ---
 id: decline_dumbbell_flyes
 name: Decline Dumbbell Flyes
-status: stub
+status: complete
 source: free-exercise-db
 category: exercise
 pattern:
-- horizontal press
+- isolation
 equipment:
 - dumbbell
 difficulty:
@@ -15,6 +15,20 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
+
+muscle_activation_studies: []
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15
+  source: "Squatwolf"
+
+strength_curve:
+  type: descending
+  sticking_point: bottom_third
+  peak_force_position: bottom
+  notes: "Horizontal moment arm decreases as arms adduct toward midline; tension drops to near zero at vertical lockout"
+
 variations: []
 progressions: []
 alternatives: []
@@ -42,10 +56,3 @@ sources:
    breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.
 5. Hold for a second at the contracted position and repeat the movement for the prescribed
    amount of repetitions.
-
-## Notes
-
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.

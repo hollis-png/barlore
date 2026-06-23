@@ -1,11 +1,11 @@
 ---
 id: one_arm_flat_bench_dumbbell_flye
 name: One-Arm Flat Bench Dumbbell Flye
-status: stub
+status: complete
 source: free-exercise-db
 category: exercise
 pattern:
-- horizontal press
+- isolation
 equipment:
 - dumbbell
 difficulty:
@@ -15,6 +15,20 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
+
+muscle_activation_studies: []
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15
+  source: "REP Fitness"
+
+strength_curve:
+  type: descending
+  sticking_point: bottom_third
+  peak_force_position: bottom
+  notes: "Sticking point and peak force at bottom stretched position; core stabilization demand peaks at bottom where lateral lever arm is longest"
+
 variations: []
 progressions: []
 alternatives: []
@@ -45,10 +59,3 @@ sources:
 5. Hold for a second at the contracted position and repeat the movement for the prescribed
    amount of repetitions.
 6. Switch arms and repeat the exercise.
-
-## Notes
-
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.

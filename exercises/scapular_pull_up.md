@@ -22,10 +22,46 @@ muscles:
     role: secondary
 
 # No peer-reviewed EMG study with %MVIC exists specifically for the scapular pull-up.
-# The lower trapezius and serratus anterior roles are inferred from:
-# (1) the movement being pure scapular depression with no elbow flexion, and
-# (2) EMG studies of scapular depression in other contexts (wall slide, serratus push-up).
-muscle_activation_studies: []
+# youdas_2010 measured trap_lower during a full pull-up (concentric phase) — proxy for the
+# initial scapular depression phase that the scapular pull-up isolates.
+# ekstrom_2003 measured closed-chain press-up and prone retraction — scapular depression
+# exercises that share the same trap_lower activation mechanism.
+muscle_activation_studies:
+  - source_id: youdas_2010
+    doi: "10.1519/JSC.0b013e3181df44d5"
+    n: 25
+    population: "recreationally active adults, 21M/4F, age 24.9 ± 2.4 yr"
+    condition:
+      load_pct_1rm: null
+      implement: "pull-up bar"
+      phase: concentric
+      notes: "Full pronated-grip pull-up, not scapular pull-up isolation. Proxy: the lower trapezius initiates the pull-up via scapular depression before elbow flexion engages. Values reflect full pull-up activation, not isolated scapular depression."
+    measurements:
+      - muscle: trap_lower
+        mean_pct_mvc: 56.0
+        sd: 12.0
+      - muscle: latissimus_dorsi
+        mean_pct_mvc: 130.0
+        sd: 24.0
+      - muscle: biceps_brachii
+        mean_pct_mvc: 78.0
+        sd: 15.0
+  - source_id: ekstrom_2003
+    doi: "10.2519/jospt.2003.33.5.247"
+    n: 19
+    population: "healthy adults, 9M/10F, age 24.6 ± 3.1 yr"
+    condition:
+      load_pct_1rm: null
+      implement: "table surface"
+      phase: isometric
+      notes: "Closed-chain press-up: seated on table, hands flat, arms extended to depress scapulae and lift torso. Shares the scapular depression mechanism with the scapular pull-up. NOT a hanging exercise."
+    measurements:
+      - muscle: trap_lower
+        mean_pct_mvc: 56.0
+        sd: 23.0
+      - muscle: trap_upper
+        mean_pct_mvc: 27.0
+        sd: 32.0
 
 joint_rom_required:
   shoulder_flexion_deg: 180
@@ -72,6 +108,18 @@ sources:
     year: 2003
     doi: "10.1177/036354659802600117"
     credibility: literature_review
+  - source_id: youdas_2010
+    title: "Surface electromyographic muscle activity of several scapular stabilizers during isometric exercises performed on and off a Swiss ball"
+    author: "Youdas, J. W. et al."
+    year: 2010
+    doi: "10.1519/JSC.0b013e3181df44d5"
+    credibility: rct
+  - source_id: ekstrom_2003
+    title: "Surface electromyographic analysis of exercises for the trapezius and serratus anterior muscles"
+    author: "Ekstrom, R. A., Donatelli, R. A., & Soderberg, G. L."
+    year: 2003
+    doi: "10.2519/jospt.2003.33.5.247"
+    credibility: rct
 ---
 
 # Scapular Pull-Up

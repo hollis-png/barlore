@@ -23,9 +23,26 @@ muscles:
   - id: trap_upper
     role: stabilizer
 
-# No peer-reviewed EMG data found specifically for the seated variation.
-# Mechanically identical to the standing version but lower-body momentum is removed.
-muscle_activation_studies: []
+muscle_activation_studies:
+  - source_id: campos_2020
+    doi: "10.2478/hukin-2020-0033"
+    n: 13
+    population: "strength-trained men, 3.58 ± 2.90 yr training experience"
+    condition:
+      load_pct_1rm: 60
+      implement: dumbbell
+      phase: dynamic
+      notes: "1 set of 12 repetitions; seated variation"
+    measurements:
+      - muscle: deltoid_lateral
+        mean_pct_mvc: 30.3
+        sd: null
+      - muscle: deltoid_anterior
+        mean_pct_mvc: 21.2
+        sd: null
+      - muscle: deltoid_posterior
+        mean_pct_mvc: 24.0
+        sd: null
 
 joint_rom_required:
   shoulder_abduction_deg: 90
@@ -53,7 +70,13 @@ variations: []
 progressions: []
 alternatives: [side_lateral_raise, cable_seated_lateral_raise]
 
-sources: []
+sources:
+  - title: "Different Shoulder Exercises Affect the Activation of Deltoid Portions in Resistance-Trained Individuals"
+    author: "Campos, Y. A. C. et al."
+    year: 2020
+    doi: "10.2478/hukin-2020-0033"
+    source_id: campos_2020
+    credibility: rct
 ---
 
 # Seated Side Lateral Raise
@@ -77,8 +100,16 @@ Standing lateral raises allow three compensatory patterns:
 
 The seated position blocks all three. The practical effect is that the effective load at the deltoid is higher per pound lifted, which is why lifters typically use noticeably less weight seated than standing.
 
-## Data Note
+## EMG Data
 
-No direct EMG data exists for the seated variation. Based on the mechanical equivalence with the standing raise, activation profiles from `side_lateral_raise` (Sweeney 2014: lateral delt 77% MVIC at 70% 1RM; Coratella 2020: lateral delt 55% MVIC) are the best available reference.
+Campos et al. (2020) measured deltoid activation during the seated dumbbell lateral raise at 60% 1RM in 13 strength-trained men:
+
+| Muscle | Mean % MVIC |
+|--------|-------------|
+| Deltoid lateral | 30.3% |
+| Deltoid posterior | 24.0% |
+| Deltoid anterior | 21.2% |
+
+The notably similar anterior and posterior deltoid values reflect the inherent multi-head co-activation of shoulder abduction in the frontal plane. The lateral head dominates but neither the anterior nor posterior head is truly silent during the movement.
 
 > For system-specific training applications, see each system's lens entry.

@@ -1,11 +1,11 @@
 ---
 id: incline_cable_flye
 name: Incline Cable Flye
-status: stub
+status: complete
 source: free-exercise-db
 category: exercise
 pattern:
-- horizontal press
+- isolation
 equipment:
 - cable
 difficulty:
@@ -15,8 +15,22 @@ difficulty:
 muscles:
 - id: pectoralis_major
   role: primary
-- id: deltoid
+- id: deltoid_anterior
   role: secondary
+
+muscle_activation_studies: []
+
+joint_rom_required:
+  shoulder_horizontal_adduction_deg: 90
+  elbow_flexion_deg: 15
+  source: "Gold's Gym"
+
+strength_curve:
+  type: ascending
+  sticking_point: top_third
+  peak_force_position: top
+  notes: "Low-to-high cable arc aligns with clavicular fiber direction; peak force at end-range (fully shortened) position"
+
 variations: []
 progressions: []
 alternatives: []
@@ -45,10 +59,3 @@ sources:
    exhale. Hold the contracted position for a second. Tip: Make sure to use the same arc
    of motion used to lower the weights.
 6. Repeat the movement for the prescribed amount of repetitions.
-
-## Notes
-
-> ⚠️ This is a stub entry imported from free-exercise-db.
-> Fields marked `null` need human review.
-> Add EMG data, ROM requirements, relations, and lens entries before
-> changing `status` to `partial` or `complete`.

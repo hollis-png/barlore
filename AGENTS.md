@@ -35,6 +35,7 @@ Supporting layers:
 ```
 core/          Training science principles (progressive_overload, periodization, sra_curve)
 crosscutting/  Nutrition and recovery (applies to all systems)
+system_guides/ Programming logic per system × level — sits between systems/ and programs/
 index/         AUTO-GENERATED — never hand-edit
 scripts/       Build and validation tools
 ```
@@ -64,6 +65,17 @@ scripts/       Build and validation tools
   technique lives (bar position, stance, depth cues, grip, breathing).
 - `exercises[].weeks[]` holds the weekly prescription; use `pct_tm`, `pct_1rm`, or `rpe`
   for intensity units.
+
+### system_guides/
+
+- Each file covers **one system × one level** (e.g., `strongman_intermediate_guide.md`)
+- Answers: *how* to program this system at this level — weekly structure logic, structural constraints, load decision framework, milestones, and common violations
+- **Not** a named program — no specific exercise prescriptions or concrete rep/set week tables (those live in `programs/`)
+- **Not** a system overview — athlete profile, philosophy, and distinguishing principles stay in `systems/index.md`
+- Schema uses `type: system_guide` (not `category`), plus `system`, `level`, `frequency_per_week_range`, `periodization_style`
+- File naming: `{system}_{level}_guide.md`; `level` is `intermediate` or `advanced`
+- Beginner-level guides are intentionally absent — the Progression Pathway section in `systems/index.md` is sufficient at that level
+- **Current coverage**: calisthenics (intermediate, advanced), olympic (intermediate, advanced), strongman (intermediate, advanced). Bodybuilding, powerlifting, and crossfit do not yet have guides.
 
 ### core/ and crosscutting/
 - Principle entries define the concept only. How each system applies it lives in `systems/`.

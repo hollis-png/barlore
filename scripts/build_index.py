@@ -33,6 +33,7 @@ except ImportError:
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 INDEX_DIR = ROOT / "index"
 MUSCLES_FILE = ROOT / "core" / "muscles.yaml"
+SYSTEM_GUIDES_DIR = ROOT / "system_guides"
 
 
 # ── Muscle hierarchy ──────────────────────────────────────────────────────────
@@ -172,7 +173,7 @@ def collect_principles() -> dict:
 
 
 def collect_programs() -> dict:
-    """Scan top-level programs/ directory for all program entries."""
+    """Scan programs/ directory for concrete program entries."""
     out = {}
     programs_dir = ROOT / "programs"
     if not programs_dir.exists():
@@ -182,7 +183,6 @@ def collect_programs() -> dict:
         ent_id = fm.get("id")
         if not ent_id:
             continue
-        # Extract exercise refs from the exercises[] list
         exercise_refs = [
             e["ref"] for e in (fm.get("exercises") or [])
             if isinstance(e, dict) and e.get("ref")
@@ -190,10 +190,33 @@ def collect_programs() -> dict:
         out[ent_id] = {
             "id": ent_id,
             "name": fm.get("name"),
+            "type": fm.get("type", "program"),
             "system": fm.get("system"),
             "level": fm.get("level"),
             "periodization": fm.get("periodization"),
             "exercise_refs": exercise_refs,
+            "path": rel(md),
+        }
+    return out
+
+
+def collect_system_guides() -> dict:
+    """Scan system_guides/ directory for system guide entries."""
+    out = {}
+    if not SYSTEM_GUIDES_DIR.exists():
+        return out
+    for md in sorted(SYSTEM_GUIDES_DIR.glob("*.md")):
+        fm = parse_front_matter(md)
+        ent_id = fm.get("id")
+        if not ent_id:
+            continue
+        out[ent_id] = {
+            "id": ent_id,
+            "type": fm.get("type", "system_guide"),
+            "system": fm.get("system"),
+            "level": fm.get("level"),
+            "frequency_per_week_range": fm.get("frequency_per_week_range"),
+            "periodization_style": fm.get("periodization_style"),
             "path": rel(md),
         }
     return out
@@ -265,6 +288,9 @@ def check_integrity(exercises, principles, programs,
                 f"{prog['path']}: system -> '{sys_name}' has no matching "
                 f"systems/{sys_name}/ folder")
         # exercises[].ref must resolve to real exercise ids
+        # system_guide documents have no exercise_refs — skip this check
+        if prog.get("type") == "system_guide":
+            continue
         for ex_ref in prog.get("exercise_refs", []):
             if ex_ref not in ex_ids:
                 errors.append(
@@ -402,11 +428,13 @@ def main():
     else:
         print("  ! core/muscles.yaml not found — muscle validation skipped")
 
-    exercises  = collect_exercises()
-    principles = collect_principles()
-    programs   = collect_programs()
+    exercises      = collect_exercises()
+    principles     = collect_principles()
+    programs       = collect_programs()
+    system_guides  = collect_system_guides()
     print(f"  found {len(exercises)} exercises, "
-          f"{len(programs)} programs, {len(principles)} principle/crosscutting")
+          f"{len(programs)} programs, {len(system_guides)} system guides, "
+          f"{len(principles)} principle/crosscutting")
 
     errors   = check_integrity(exercises, principles, programs, parent_of, children_of)
     warnings = check_symmetry(exercises)
@@ -426,10 +454,11 @@ def main():
 
     ok = True
     ok &= write_json("exercises.json",             exercises,           args.check)
-    ok &= write_json("programs.json",              programs,            args.check)
+    ok &= write_json("programs.json",              programs,    args.check)
     ok &= write_json("program_exercise_index.json", prog_exercise_index, args.check)
     ok &= write_json("muscle_index.json",          muscle_index,        args.check)
     ok &= write_json("coverage_report.json",       coverage,            args.check)
+    ok &= write_json("system_guides.json",         system_guides,       args.check)
 
     if args.check and not ok:
         sys.exit("Index out of date. Run: python3 scripts/build_index.py")
