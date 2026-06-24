@@ -4,6 +4,7 @@ export default defineConfig({
   title: "Barlore",
   description:
     "Strength & physique training encyclopedia — exercises, programs, and training science.",
+  base: "/barlore/",
   srcDir: "src",
   cleanUrls: true,
   ignoreDeadLinks: true,
