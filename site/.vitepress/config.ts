@@ -14,6 +14,7 @@ export default defineConfig({
   },
 
   head: [
+    ["meta", { name: "google-site-verification", content: "mAwnB2ua-AOWNUhpis2FLDDwfrtGvZD0wpu3qn5aCuw" }],
     ["meta", { name: "theme-color", content: "#1a1a2e" }],
     ["meta", { property: "og:type", content: "website" }],
     [
