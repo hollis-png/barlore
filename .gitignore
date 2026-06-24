@@ -33,6 +33,12 @@ repomix.config.json
 Thumbs.db
 desktop.ini
 
+# Superpowers
+.superpowers/
+
+# MCP server bundled data (copied from index/ at build time)
+mcp-server/data/
+
 # Misc
 *.log
 *.tmp

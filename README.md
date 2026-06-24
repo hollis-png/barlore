@@ -75,6 +75,59 @@ The key idea: **exercises are neutral**. The back squat isn't "a powerlifting ex
 
 ---
 
+## MCP Server — Let AI Agents Query Barlore
+
+Barlore has a built-in [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server, so AI agents like Claude Code, Cursor, and Windsurf can search exercises, programs, and training science directly.
+
+### Cloud (Recommended)
+
+Already deployed, no setup needed:
+
+```jsonc
+// Add to your AI tool's MCP settings (e.g. Claude Code settings.json)
+{
+  "mcpServers": {
+    "barlore": {
+      "type": "streamable-http",
+      "url": "https://barlore-mcp.hollisyen210.workers.dev/mcp"
+    }
+  }
+}
+```
+
+### Local (stdio)
+
+```bash
+cd mcp-server && npm install
+npm start
+```
+
+```jsonc
+// Claude Code settings.json
+{
+  "mcpServers": {
+    "barlore": {
+      "command": "npx",
+      "args": ["tsx", "/path/to/Barlore/mcp-server/src/index.ts"]
+    }
+  }
+}
+```
+
+### Available Tools
+
+| Tool | Description |
+|------|-------------|
+| `search_exercises` | Search by name, pattern, equipment, or muscle |
+| `get_exercise` | Full exercise detail (EMG data, cues, sources) |
+| `search_by_muscle` | Find exercises targeting a specific muscle |
+| `list_programs` | Browse programs by system or level |
+| `get_program` | Full program detail |
+| `get_training_concept` | Training science docs (periodization, SRA, RPE, etc.) |
+| `list_muscles` | All muscle IDs with exercise counts |
+
+---
+
 ## For Developers
 
 ### Building the Index
