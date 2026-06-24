@@ -38,6 +38,9 @@ crosscutting/  Nutrition and recovery (applies to all systems)
 system_guides/ Programming logic per system × level — sits between systems/ and programs/
 index/         AUTO-GENERATED — never hand-edit
 scripts/       Build and validation tools
+mcp-server/    MCP server (TypeScript) — stdio + Cloudflare Workers
+site/          Static website (VitePress + GitHub Pages)
+prompts/       AI prompt templates (plan generator)
 ```
 
 ---
@@ -75,7 +78,7 @@ scripts/       Build and validation tools
 - Schema uses `type: system_guide` (not `category`), plus `system`, `level`, `frequency_per_week_range`, `periodization_style`
 - File naming: `{system}_{level}_guide.md`; `level` is `intermediate` or `advanced`
 - Beginner-level guides are intentionally absent — the Progression Pathway section in `systems/index.md` is sufficient at that level
-- **Current coverage**: calisthenics (intermediate, advanced), olympic (intermediate, advanced), strongman (intermediate, advanced). Bodybuilding, powerlifting, and crossfit do not yet have guides.
+- **Current coverage**: all 6 systems × intermediate + advanced = 12 guides.
 
 ### core/ and crosscutting/
 - Principle entries define the concept only. How each system applies it lives in `systems/`.
@@ -166,3 +169,30 @@ Tier order (strongest → weakest):
 - Program files: `programs/{system}/{id}.md`
 - System files: `systems/{system}/index.md`
 - New systems require a corresponding folder in `programs/`
+
+---
+
+## External Access Points
+
+Barlore is accessible via three channels:
+
+| Channel | URL | Purpose |
+|---------|-----|---------|
+| MCP Server | `https://barlore-mcp.hollisyen210.workers.dev/mcp` | AI agent structured queries (7 tools) |
+| Static Site | `https://hollis-png.github.io/barlore/` | Human browsing, search-engine indexable |
+| llms.txt | `https://raw.githubusercontent.com/hollis-png/barlore/main/llms.txt` | LLM directory with query workflow |
+
+### MCP Server (`mcp-server/`)
+
+- **Local**: `npx tsx mcp-server/src/index.ts` (stdio)
+- **Remote**: Cloudflare Workers at the URL above
+- **Tools**: search_exercises, get_exercise, search_by_muscle, list_programs, get_program, get_training_concept, list_muscles
+- **Data**: JSON indexes bundled in worker, markdown fetched from GitHub raw on demand
+- **Deploy**: `cd mcp-server && npm run deploy`
+
+### Static Site (`site/`)
+
+- **Stack**: VitePress + GitHub Pages
+- **Auto-deploy**: Push to main triggers `.github/workflows/deploy-site.yml`
+- **Content**: `site/prebuild.sh` copies markdown from repo into `site/src/` before build
+- **Index pages** (`site/src/exercises/index.md`, etc.) are version-controlled; copied content files are not
