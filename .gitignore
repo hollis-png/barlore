@@ -38,6 +38,20 @@ desktop.ini
 
 # MCP server bundled data (copied from index/ at build time)
 mcp-server/data/
+mcp-server/.wrangler/
+
+# VitePress build output and copied content
+site/.vitepress/dist/
+site/.vitepress/cache/
+site/src/exercises/*.md
+!site/src/exercises/index.md
+site/src/programs/*.md
+!site/src/programs/index.md
+site/src/core/*.md
+!site/src/core/index.md
+site/src/crosscutting/*.md
+!site/src/crosscutting/index.md
+site/src/system_guides/*.md
 
 # Misc
 *.log
