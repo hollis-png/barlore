@@ -30,7 +30,41 @@ MCP settings (Claude Code / Cursor / Windsurf / Cline):
 }
 ```
 
-If MCP is not available, use the raw URLs below.
+If MCP is not available, use the query workflow below.
+
+---
+
+## How to Query (for LLMs without MCP support)
+
+When answering training questions, do NOT read every file. Follow this workflow:
+
+**Step 1: Identify what you need**
+- Need exercises? → Fetch `exercises.json`
+- Need programs? → Fetch `programs.json`
+- Need exercises for a muscle? → Fetch `muscle_index.json`
+- Need which programs use an exercise? → Fetch `program_exercise_index.json`
+
+**Step 2: Search the JSON index**
+The JSON indexes are structured data. Parse them to find matching IDs:
+- `exercises.json`: keyed by exercise ID, each entry has `name`, `status`, `pattern`, `muscles`, `equipment`
+- `programs.json`: keyed by program ID, each entry has `system`, `level`, `periodization`, `exercise_refs`
+- `muscle_index.json`: keyed by muscle ID, value is an array of exercise IDs
+
+**Step 3: Fetch only the files you need**
+Once you have the ID, fetch the full markdown:
+- Exercise detail: `https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/{id}.md`
+- Program detail: use the `path` field from `programs.json` (e.g. `programs/powerlifting/5_3_1.md`)
+- Training concept: `https://raw.githubusercontent.com/hollis-png/barlore/main/core/{concept}.md`
+
+**Example: "What barbell exercises target the chest?"**
+1. Fetch `exercises.json`
+2. Filter: `equipment` contains "barbell" AND `muscles` has a primary entry with `id` containing "pec" or "chest"
+3. Fetch the matching exercise markdown files for full detail (EMG data, cues, sources)
+
+**Example: "Recommend a beginner powerlifting program"**
+1. Fetch `programs.json`
+2. Filter: `system` = "powerlifting" AND `level` = "beginner"
+3. Fetch the matching program markdown for full weekly schedule and progression rules
 
 ---
 
