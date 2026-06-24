@@ -8,6 +8,32 @@ from *why a system values it* (systems). Every claim has an explicit credibility
 
 ---
 
+## MCP Server (Recommended for AI Agents)
+
+For structured queries (search, filter, full detail), use the MCP endpoint:
+
+```
+URL: https://barlore-mcp.hollisyen210.workers.dev/mcp
+Transport: Streamable HTTP (stateless)
+Tools: search_exercises, get_exercise, search_by_muscle, list_programs, get_program, get_training_concept, list_muscles
+```
+
+MCP settings (Claude Code / Cursor / Windsurf / Cline):
+```json
+{
+  "mcpServers": {
+    "barlore": {
+      "type": "streamable-http",
+      "url": "https://barlore-mcp.hollisyen210.workers.dev/mcp"
+    }
+  }
+}
+```
+
+If MCP is not available, use the raw URLs below.
+
+---
+
 ## Start Here
 
 - [README](https://raw.githubusercontent.com/hollis-png/barlore/main/README.md)
@@ -29,9 +55,9 @@ from *why a system values it* (systems). Every claim has an explicit credibility
 
 ---
 
-## Key Exercises (status: complete — human-reviewed with sources)
+## Exercises (status: complete — human-reviewed with sources)
 
-Squat pattern:
+Squat:
 - [Back Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/back_squat.md)
 - [Front Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/front_squat.md)
 - [Box Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/box_squat.md)
@@ -39,7 +65,7 @@ Squat pattern:
 - [Overhead Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_squat.md)
 - [Leg Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/leg_press.md)
 
-Hinge pattern:
+Hinge:
 - [Conventional Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/conventional_deadlift.md)
 - [Romanian Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/romanian_deadlift.md)
 - [Stiff-Legged Barbell Deadlift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/stiff_legged_barbell_deadlift.md)
@@ -48,41 +74,184 @@ Hinge pattern:
 - [Reverse Hyperextension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/reverse_hyperextension.md)
 - [Power Clean](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_clean.md)
 - [Clean Pull](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/clean_pull.md)
+- [Clean and Jerk](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/clean_and_jerk.md)
 - [Power Snatch](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_snatch.md)
+- [Snatch](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/snatch.md)
 - [Snatch Pull](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/snatch_pull.md)
 
-Horizontal push:
+Horizontal press:
 - [Bench Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bench_press.md)
-- [Incline Dumbbell Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_dumbbell_press.md)
+- [Bench Press with Bands](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bench_press_with_bands.md)
+- [Board Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/board_press.md)
 - [Close-Grip Barbell Bench Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/close_grip_barbell_bench_press.md)
 - [Floor Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/floor_press.md)
+- [Incline Dumbbell Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_dumbbell_press.md)
 - [Pushups](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pushups.md)
 
-Vertical push:
+Vertical press:
 - [Overhead Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_press.md)
 - [Push Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/push_press.md)
+- [Power Jerk](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_jerk.md)
 - [Parallel Bar Dip](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/parallel_bar_dip.md)
 - [Ring Dips](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/ring_dips.md)
 
 Vertical pull:
 - [Pull-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pullups.md)
 - [Chin-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/chin_up.md)
+- [Weighted Pull-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/weighted_pull_ups.md)
+- [Scapular Pull-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/scapular_pull_up.md)
 
 Horizontal pull:
 - [Bent Over Barbell Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bent_over_barbell_row.md)
 - [Inverted Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/inverted_row.md)
 - [Seated Cable Rows](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_cable_rows.md)
 
+Isolation — arms:
+- [Barbell Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/barbell_curl.md)
+- [Dumbbell Bicep Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/dumbbell_bicep_curl.md)
+- [EZ-Bar Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/ez_bar_curl.md)
+- [Hammer Curls](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/hammer_curls.md)
+- [Concentration Curls](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/concentration_curls.md)
+- [Preacher Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/preacher_curl.md)
+- [Cable Preacher Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/cable_preacher_curl.md)
+- [Incline Dumbbell Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_dumbbell_curl.md)
+- [Drag Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/drag_curl.md)
+- [Triceps Pushdown](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/triceps_pushdown.md)
+- [Lying Triceps Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/lying_triceps_press.md)
+- [EZ-Bar Skullcrusher](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/ez_bar_skullcrusher.md)
+- [Cable Rope Overhead Triceps Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/cable_rope_overhead_triceps_extension.md)
+- [Cable Lying Triceps Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/cable_lying_triceps_extension.md)
+- [Cable One Arm Tricep Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/cable_one_arm_tricep_extension.md)
+- [Kneeling Cable Triceps Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/kneeling_cable_triceps_extension.md)
+- [Decline EZ-Bar Triceps Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/decline_ez_bar_triceps_extension.md)
+- [Tricep Dumbbell Kickback](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/tricep_dumbbell_kickback.md)
+
+Isolation — shoulders:
+- [Side Lateral Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/side_lateral_raise.md)
+- [Seated Side Lateral Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_side_lateral_raise.md)
+- [Cable Seated Lateral Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/cable_seated_lateral_raise.md)
+- [Front Dumbbell Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/front_dumbbell_raise.md)
+- [Front Cable Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/front_cable_raise.md)
+- [Face Pull](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/face_pull.md)
+- [Bent-Over Dumbbell Rear Delt Raise With Head On Bench](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bent_over_dumbbell_rear_delt_raise_with_head_on_bench.md)
+- [Seated Bent-Over Rear Delt Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_bent_over_rear_delt_raise.md)
+
+Isolation — chest:
+- [Dumbbell Flyes](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/dumbbell_flyes.md)
+- [Incline Dumbbell Flyes](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_dumbbell_flyes.md)
+- [Decline Dumbbell Flyes](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/decline_dumbbell_flyes.md)
+- [Flat Bench Cable Flyes](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/flat_bench_cable_flyes.md)
+- [Incline Cable Flye](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/incline_cable_flye.md)
+- [One-Arm Flat Bench Dumbbell Flye](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/one_arm_flat_bench_dumbbell_flye.md)
+- [Butterfly](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/butterfly.md)
+
+Isolation — legs:
+- [Leg Extensions](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/leg_extensions.md)
+- [Single-Leg Leg Extension](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/single_leg_leg_extension.md)
+- [Lying Leg Curls](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/lying_leg_curls.md)
+- [Seated Leg Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_leg_curl.md)
+- [Standing Leg Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/standing_leg_curl.md)
+- [Glute Ham Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/glute_ham_raise.md)
+- [Standing Calf Raises](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/standing_calf_raises.md)
+- [Seated Calf Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_calf_raise.md)
+- [Donkey Calf Raises](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/donkey_calf_raises.md)
+
+Isolation — core:
+- [Hanging Leg Raise](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/hanging_leg_raise.md)
+- [Pallof Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pallof_press.md)
+- [Plank](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/plank.md)
+
+> 680 total exercises in the knowledge base. 82 complete with full detail, 598 with basic metadata.
+> Use `search_exercises` via MCP or the JSON indexes below for the full list.
+
 ---
 
 ## Programs
 
 Powerlifting:
-- [5/3/1 (Wendler)](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/5_3_1.md) — back squat, bench press, overhead press, conventional deadlift
+- [Starting Strength](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/starting_strength.md) (beginner)
+- [GZCLP](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/gzclp.md) (beginner)
+- [5/3/1](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/5_3_1.md) (intermediate)
+- [Texas Method](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/texas_method.md) (intermediate)
+- [Westside Conjugate](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/westside_conjugate.md) (advanced)
+
+Bodybuilding:
+- [Beginner Full-Body Hypertrophy](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/beginner_fullbody_hypertrophy.md) (beginner)
+- [Push Pull Legs](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/push_pull_legs.md) (intermediate)
+- [PHUL](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/phul.md) (intermediate)
+- [Upper Lower 4-Day](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/upper_lower_4day.md) (intermediate)
+- [RP Hypertrophy](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/rp_hypertrophy.md) (intermediate)
+- [Bodybuilding Isolation Block](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/bodybuilding_isolation_block.md) (intermediate)
+- [Arnold Split](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/arnold_split.md) (intermediate)
+- [Bro Split](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/bro_split.md) (intermediate)
+- [5/3/1 BBB](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/531_bbb.md) (intermediate)
+- [German Volume Training](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/gvt.md) (intermediate)
+- [PHAT](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/phat.md) (advanced)
+- [DC Training](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/dc_training.md) (advanced)
+
+Olympic Weightlifting:
+- [Olympic Beginner](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/olympic_weightlifting_beginner.md) (beginner)
+- [USAW L1 Program](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/usaw_l1_program.md) (beginner)
+- [Catalyst Athletics 12-Week](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/catalyst_12_week.md) (intermediate)
+- [Glenn Pendlay Programs](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/glenn_pendlay_programs.md) (intermediate)
+- [LSU Shreveport 10-5-3](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/lsus_10_5_3.md) (intermediate)
+- [Olympic Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/olympic_weightlifting_intermediate.md) (intermediate)
+- [Bulgarian Method](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/bulgarian_method.md) (advanced)
+- [California Strength Daily](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/cal_strength_daily.md) (advanced)
+- [Klokov Protocol](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/klokov_protocol.md) (advanced)
+- [Olympic Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/olympic/olympic_weightlifting_advanced.md) (advanced)
+
+Calisthenics:
+- [BWF Recommended Routine](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/bwf_recommended_routine.md) (beginner)
+- [Convict Conditioning](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/convict_conditioning.md) (beginner)
+- [Get Strong (Kavadlo)](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/get_strong_kavadlo.md) (beginner)
+- [Gymnastic Bodies Foundation One](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/gymnastic_bodies_foundation_one.md) (beginner)
+- [Grease the Groove](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/grease_the_groove.md) (beginner)
+- [Overcoming Gravity Template](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/overcoming_gravity_template.md) (intermediate)
+- [BWF Skill Day Template](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/bwf_skill_day_template.md) (intermediate)
+- [Calisthenics Intermediate Skills](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/calisthenics_intermediate_skills.md) (intermediate)
+- [Calisthenics Advanced Skills](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/calisthenics/calisthenics_advanced_skills.md) (advanced)
+
+Strongman:
+- [Basic Strongman Block](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/basic_strongman_block.md) (beginner)
+- [Starting Strongman](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/starting_strongman.md) (beginner)
+- [Cube Method Strongman](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/cube_method_strongman.md) (intermediate)
+- [Juggernaut Method Strongman](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/juggernaut_method_strongman.md) (intermediate)
+- [Strongman Intermediate Block](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/strongman_intermediate_block.md) (intermediate)
+- [Brian Shaw Off-Season](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/brian_shaw_off_season.md) (advanced)
+- [Eddie Hall Training Structure](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/eddie_hall_training_structure.md) (advanced)
+- [Strongman Competition Prep](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/strongman/strongman_competition_prep.md) (advanced)
+
+CrossFit:
+- [CrossFit Foundations](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/crossfit_foundations.md) (beginner)
+- [CrossFit Aerobic Base](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/crossfit_aerobic_base.md) (beginner)
+- [CrossFit Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/crossfit_intermediate.md) (intermediate)
+- [CompTrain Class](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/comptrain_class.md) (intermediate)
+- [Invictus Athlete](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/invictus_athlete.md) (intermediate)
+- [CrossFit Open Prep](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/crossfit_open_prep.md) (advanced)
+- [HWPO Training](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/hwpo_training.md) (advanced)
+- [CrossFit Competition Prep](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/crossfit/crossfit_competition_prep.md) (advanced)
 
 ---
 
-## Training Systems (philosophy only)
+## System Guides (Programming Logic per System x Level)
+
+- [Powerlifting Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/powerlifting_intermediate_guide.md)
+- [Powerlifting Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/powerlifting_advanced_guide.md)
+- [Bodybuilding Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/bodybuilding_intermediate_guide.md)
+- [Bodybuilding Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/bodybuilding_advanced_guide.md)
+- [Olympic Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/olympic_intermediate_guide.md)
+- [Olympic Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/olympic_advanced_guide.md)
+- [Calisthenics Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/calisthenics_intermediate_guide.md)
+- [Calisthenics Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/calisthenics_advanced_guide.md)
+- [Strongman Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/strongman_intermediate_guide.md)
+- [Strongman Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/strongman_advanced_guide.md)
+- [CrossFit Intermediate](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/crossfit_intermediate_guide.md)
+- [CrossFit Advanced](https://raw.githubusercontent.com/hollis-png/barlore/main/system_guides/crossfit_advanced_guide.md)
+
+---
+
+## Training Systems (Philosophy)
 
 - [Powerlifting](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/powerlifting/index.md)
 - [Bodybuilding](https://raw.githubusercontent.com/hollis-png/barlore/main/systems/bodybuilding/index.md)
@@ -95,14 +264,48 @@ Powerlifting:
 
 ## Nutrition & Recovery
 
+Nutrition:
 - [Protein Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/protein_requirements.md)
+- [Carbohydrate Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/carbohydrate_requirements.md)
+- [Fat Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/fat_requirements.md)
+- [Energy Balance](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/energy_balance.md)
+- [Nutrient Timing](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/nutrient_timing.md)
+- [Hydration](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/hydration.md)
+- [Supplementation](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/supplementation.md)
+
+Recovery:
+- [Sleep](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/recovery/sleep.md)
+- [Warm-Up](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/recovery/warm_up.md)
+- [Active Recovery](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/recovery/active_recovery.md)
+- [Deload Protocol](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/recovery/deload_protocol.md)
+
+Injury Prevention:
+- [Connective Tissue](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/injury_prevention/connective_tissue.md)
+- [Load Management](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/injury_prevention/load_management.md)
+- [Mobility Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/injury_prevention/mobility_requirements.md)
+- [Overtraining Signs](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/injury_prevention/overtraining_signs.md)
+
+Cardio:
+- [Aerobic Base](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/cardio/aerobic_base.md)
+- [Concurrent Training](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/cardio/concurrent_training.md)
+- [HIIT Protocol](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/cardio/hiit_protocol.md)
+
+Special Populations:
+- [Female Athletes](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/female_athletes.md)
+- [Masters Athletes (35+)](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/masters_athletes.md)
 
 ---
 
 ## Machine-Readable Indexes (JSON)
 
 - [exercises.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/exercises.json) — all 680 exercises with metadata
-- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all programs
-- [program_exercise_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/program_exercise_index.json) — exercise_id → [program_ids]
-- [muscle_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/muscle_index.json) — muscle_id → [exercise_ids]
+- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all 52 programs
+- [muscle_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/muscle_index.json) — muscle_id -> [exercise_ids]
+- [program_exercise_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/program_exercise_index.json) — exercise_id -> [program_ids]
 - [coverage_report.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/coverage_report.json) — completeness data
+
+---
+
+## AI Prompt Template
+
+- [Plan Generator](https://raw.githubusercontent.com/hollis-png/barlore/main/prompts/plan_generator.md) — fill in your profile and paste into any AI chatbot for a personalized training plan
