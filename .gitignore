@@ -52,6 +52,7 @@ site/src/core/*.md
 site/src/crosscutting/*.md
 !site/src/crosscutting/index.md
 site/src/system_guides/*.md
+site/src/llms-full.md
 
 # Misc
 *.log

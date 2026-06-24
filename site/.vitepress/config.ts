@@ -9,6 +9,10 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true,
 
+  sitemap: {
+    hostname: "https://hollis-png.github.io/barlore",
+  },
+
   head: [
     ["meta", { name: "theme-color", content: "#1a1a2e" }],
     ["meta", { property: "og:type", content: "website" }],
@@ -40,8 +44,11 @@ export default defineConfig({
       { text: "Training Science", link: "/core/" },
       { text: "Nutrition & Recovery", link: "/crosscutting/" },
       {
-        text: "For AI Agents",
-        link: "/ai",
+        text: "For AI",
+        items: [
+          { text: "AI Usage Guide", link: "/ai" },
+          { text: "Full Index (llms.txt)", link: "/llms-full" },
+        ],
       },
     ],
 
