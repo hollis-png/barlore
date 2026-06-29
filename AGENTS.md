@@ -13,6 +13,18 @@ frontmatter. Credibility and referential integrity are the two non-negotiable pr
 
 ---
 
+## Current Coverage
+
+| Category | Count | Notes |
+|----------|-------|-------|
+| Exercises | 688 total | 92 complete, 595 stubs (all have pattern + equipment) |
+| Programs | 53 | Across 6 systems, beginner to advanced |
+| Core principles | 11 | Including hypertrophy_mechanisms, training_to_failure, testing_protocols |
+| Crosscutting | 22 | Nutrition (8), recovery (4), injury prevention (4), cardio (3), special populations (3) |
+| System guides | 12 | All 6 systems × intermediate + advanced |
+
+---
+
 ## Content Creation Process
 
 See `WORKFLOW.md` for the full process: source intake → write → validate.
@@ -33,14 +45,17 @@ A movement is never "owned" by a system. Use `id` references across layers.
 
 Supporting layers:
 ```
-core/          Training science principles (progressive_overload, periodization, sra_curve)
-crosscutting/  Nutrition and recovery (applies to all systems)
-system_guides/ Programming logic per system × level — sits between systems/ and programs/
-index/         AUTO-GENERATED — never hand-edit
-scripts/       Build and validation tools
-mcp-server/    MCP server (TypeScript) — stdio + Cloudflare Workers
-site/          Static website (VitePress + GitHub Pages)
-prompts/       AI prompt templates (plan generator)
+core/            Training science principles (11 entries)
+                 progressive_overload, periodization, sra_curve, volume_landmarks,
+                 rpe_rir, rep_continuum, specificity, deload,
+                 hypertrophy_mechanisms, training_to_failure, testing_protocols
+crosscutting/    Nutrition, recovery, injury prevention, cardio, special populations
+system_guides/   Programming logic per system × level (12 guides)
+index/           AUTO-GENERATED — never hand-edit
+scripts/         Build and validation tools
+mcp-server/      MCP server (TypeScript) — stdio + Cloudflare Workers
+site/            Static website (VitePress + GitHub Pages)
+prompts/         AI prompt templates (plan generator)
 ```
 
 ---
@@ -53,6 +68,7 @@ prompts/       AI prompt templates (plan generator)
 - Quantitative fields (`muscles`, `muscle_activation_studies`, `joint_rom_required`,
   `strength_curve`) must have a cited source. Absent field = honest; unsourced number = lie.
 - `status` field: `stub` (imported, unreviewed) → `partial` (some data) → `complete` (reviewed).
+- All stubs must have `pattern` and `equipment` populated (required for site browsing).
 - Relation fields (`variations`, `progressions`, `alternatives`) hold `id` values only —
   never file paths or display names.
 
@@ -68,6 +84,10 @@ prompts/       AI prompt templates (plan generator)
   technique lives (bar position, stance, depth cues, grip, breathing).
 - `exercises[].weeks[]` holds the weekly prescription; use `pct_tm`, `pct_1rm`, or `rpe`
   for intensity units.
+- When adding a new program, also update:
+  - `systems/{system}/index.md` → `programs:` list
+  - `prompts/plan_generator.md` → Section C.1 Programs Table
+  - `site/src/programs/index.md` → the relevant system table
 
 ### system_guides/
 
@@ -77,12 +97,22 @@ prompts/       AI prompt templates (plan generator)
 - **Not** a system overview — athlete profile, philosophy, and distinguishing principles stay in `systems/index.md`
 - Schema uses `type: system_guide` (not `category`), plus `system`, `level`, `frequency_per_week_range`, `periodization_style`
 - File naming: `{system}_{level}_guide.md`; `level` is `intermediate` or `advanced`
-- Beginner-level guides are intentionally absent — the Progression Pathway section in `systems/index.md` is sufficient at that level
+- Beginner-level guides are intentionally absent — the Progression Pathway section in `systems/index.md` plus `crosscutting/special_populations/beginner_lifters.md` cover beginner guidance
 - **Current coverage**: all 6 systems × intermediate + advanced = 12 guides.
 
-### core/ and crosscutting/
+### core/
 - Principle entries define the concept only. How each system applies it lives in `systems/`.
 - `applies_to: [all_systems]` is the default.
+- Each entry must include a `## How Systems Differ` section.
+- Use `related:` to cross-reference other core and crosscutting entries.
+
+### crosscutting/
+- Shared knowledge that applies across all systems.
+- Subcategories: `nutrition/`, `recovery/`, `injury_prevention/`, `cardio/`, `special_populations/`
+- Every claim must have a source. No general health advice without a citation.
+- Section `## How Systems Differ` explains variation across systems.
+- Special populations entries (`beginner_lifters`, `female_athletes`, `masters_athletes`)
+  provide population-specific adjustments to standard programming.
 
 ---
 
@@ -108,7 +138,6 @@ Key enums to know:
 After **any** structural change, run:
 
 ```bash
-cd encyclopedia          # repo root
 python3 scripts/build_index.py
 ```
 
@@ -126,6 +155,7 @@ What the build produces (in `index/`):
 - `program_exercise_index.json` — reverse map: exercise_id → [program_ids]
 - `muscle_index.json` — reverse map: muscle_id → [exercise_ids]
 - `coverage_report.json` — three-dimensional coverage data
+- `system_guides.json` — system guide index
 
 Check coverage with:
 ```bash
@@ -159,6 +189,8 @@ Tier order (strongest → weakest):
 - Do not commit without running `build_index.py` and verifying exit 0
 - Do not touch `scripts/import_exercises.py` or `exercises/*.md` stub content
   unless you have a real source for the data you are adding
+- Do not add a program without updating the plan generator table and system index
+- Do not leave `pattern` or `equipment` empty on new exercise entries
 
 ---
 
@@ -168,7 +200,26 @@ Tier order (strongest → weakest):
 - Exercise files: `exercises/{id}.md`
 - Program files: `programs/{system}/{id}.md`
 - System files: `systems/{system}/index.md`
+- Core principle files: `core/{id}.md`
+- Crosscutting files: `crosscutting/{subcategory}/{id}.md`
 - New systems require a corresponding folder in `programs/`
+
+---
+
+## Plan Generator (`prompts/plan_generator.md`)
+
+The plan generator is an AI prompt template that users paste into any LLM to get a
+personalized training plan. It contains:
+
+- **Section B**: User profile (goal, level, history, equipment, schedule)
+- **Section C**: Decision matrix (programs table, goal mapping, equipment feasibility, benchmarks)
+- **Section D**: Generation rules (Step 0–7)
+
+Key design decisions:
+- All goal and level options include plain-language descriptions for beginners
+- Users can write `not_sure` for goal or level; Step 0 resolves uncertainty
+- Step 7 auto-appends beginner guidance when `level = beginner`
+- The programs table in C.1 must stay in sync with actual program files
 
 ---
 
@@ -195,4 +246,7 @@ Barlore is accessible via three channels:
 - **Stack**: VitePress + GitHub Pages
 - **Auto-deploy**: Push to main triggers `.github/workflows/deploy-site.yml`
 - **Content**: `site/prebuild.sh` copies markdown from repo into `site/src/` before build
-- **Index pages** (`site/src/exercises/index.md`, etc.) are version-controlled; copied content files are not
+- **Index pages** (`site/src/exercises/index.md`, `site/src/programs/index.md`, etc.) are version-controlled; copied content files are not
+- **Sidebar config**: `site/.vitepress/config.ts` — update when adding new core or crosscutting entries
+- **Programs index**: includes a "New to Training? Start Here" section with beginner program recommendations
+- **Homepage**: features a "New to Training?" card linking to the beginner guide
