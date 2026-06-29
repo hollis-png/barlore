@@ -1,4 +1,8 @@
 {
+  "assault_bike": [
+    "crossfit_aerobic_base",
+    "invictus_athlete"
+  ],
   "atlas_stones": [
     "brian_shaw_off_season",
     "cube_method_strongman",
@@ -7,19 +11,29 @@
     "starting_strongman"
   ],
   "back_squat": [
+    "531_bbb",
     "5_3_1",
+    "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
     "brian_shaw_off_season",
+    "bro_split",
     "cal_strength_daily",
     "catalyst_12_week",
+    "comptrain_class",
+    "crossfit_aerobic_base",
     "crossfit_competition_prep",
     "crossfit_foundations",
     "crossfit_intermediate",
+    "crossfit_open_prep",
     "cube_method_strongman",
+    "dc_training",
     "eddie_hall_training_structure",
     "glenn_pendlay_programs",
+    "gvt",
     "gzclp",
+    "hwpo_training",
+    "invictus_athlete",
     "juggernaut_method_strongman",
     "klokov_protocol",
     "lsus_10_5_3",
@@ -35,11 +49,17 @@
     "strongman_competition_prep",
     "strongman_intermediate_block",
     "texas_method",
+    "upper_lower_4day",
     "usaw_l1_program"
   ],
   "barbell_curl": [
+    "531_bbb",
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
-    "phat"
+    "bro_split",
+    "dc_training",
+    "phat",
+    "upper_lower_4day"
   ],
   "barbell_lunge": [
     "lsus_10_5_3"
@@ -49,8 +69,14 @@
     "klokov_protocol"
   ],
   "bench_press": [
+    "531_bbb",
+    "531_bbb",
     "5_3_1",
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "bro_split",
+    "dc_training",
+    "gvt",
     "gzclp",
     "lsus_10_5_3",
     "phat",
@@ -58,26 +84,36 @@
     "push_pull_legs",
     "rp_hypertrophy",
     "starting_strength",
-    "texas_method"
+    "texas_method",
+    "upper_lower_4day"
   ],
   "bench_press_with_bands": [
     "westside_conjugate"
   ],
   "bent_over_barbell_row": [
+    "531_bbb",
+    "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
+    "bro_split",
     "cal_strength_daily",
+    "dc_training",
     "eddie_hall_training_structure",
     "glenn_pendlay_programs",
+    "gvt",
     "phat",
     "phul",
     "push_pull_legs",
     "starting_strongman",
     "strongman_competition_prep",
-    "strongman_intermediate_block"
+    "strongman_intermediate_block",
+    "upper_lower_4day"
   ],
   "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": [
     "bodybuilding_isolation_block"
+  ],
+  "bent_over_two_dumbbell_row": [
+    "531_bbb"
   ],
   "board_press": [
     "westside_conjugate"
@@ -87,11 +123,18 @@
     "get_strong_kavadlo",
     "gymnastic_bodies_foundation_one"
   ],
+  "box_jumps": [
+    "comptrain_class",
+    "crossfit_open_prep"
+  ],
   "box_squat": [
     "westside_conjugate"
   ],
   "butterfly": [
     "bodybuilding_isolation_block"
+  ],
+  "cable_crossover": [
+    "bro_split"
   ],
   "cable_lying_triceps_extension": [
     "bodybuilding_isolation_block"
@@ -103,7 +146,8 @@
     "bodybuilding_isolation_block"
   ],
   "cable_rope_overhead_triceps_extension": [
-    "bodybuilding_isolation_block"
+    "bodybuilding_isolation_block",
+    "bro_split"
   ],
   "cable_seated_lateral_raise": [
     "bodybuilding_isolation_block"
@@ -117,6 +161,8 @@
     "catalyst_12_week",
     "crossfit_competition_prep",
     "glenn_pendlay_programs",
+    "hwpo_training",
+    "invictus_athlete",
     "klokov_protocol",
     "lsus_10_5_3",
     "olympic_weightlifting_advanced",
@@ -136,18 +182,28 @@
     "westside_conjugate"
   ],
   "concentration_curls": [
-    "bodybuilding_isolation_block"
+    "arnold_split",
+    "bodybuilding_isolation_block",
+    "bro_split"
   ],
   "conventional_deadlift": [
+    "531_bbb",
+    "531_bbb",
     "5_3_1",
     "basic_strongman_block",
     "brian_shaw_off_season",
+    "bro_split",
+    "comptrain_class",
+    "crossfit_aerobic_base",
     "crossfit_competition_prep",
     "crossfit_foundations",
     "crossfit_intermediate",
     "cube_method_strongman",
+    "dc_training",
     "eddie_hall_training_structure",
     "gzclp",
+    "hwpo_training",
+    "invictus_athlete",
     "juggernaut_method_strongman",
     "phul",
     "starting_strength",
@@ -166,6 +222,13 @@
   "donkey_calf_raises": [
     "bodybuilding_isolation_block"
   ],
+  "double_unders": [
+    "comptrain_class",
+    "crossfit_aerobic_base",
+    "crossfit_open_prep",
+    "hwpo_training",
+    "invictus_athlete"
+  ],
   "drag_curl": [
     "bodybuilding_isolation_block"
   ],
@@ -173,17 +236,23 @@
     "bodybuilding_isolation_block"
   ],
   "dumbbell_flyes": [
-    "bodybuilding_isolation_block"
+    "arnold_split",
+    "bodybuilding_isolation_block",
+    "bro_split"
   ],
   "ez_bar_curl": [
     "bodybuilding_isolation_block"
   ],
   "ez_bar_skullcrusher": [
+    "arnold_split",
+    "bro_split",
     "phat"
   ],
   "face_pull": [
+    "531_bbb",
     "beginner_fullbody_hypertrophy",
-    "phat"
+    "phat",
+    "upper_lower_4day"
   ],
   "farmers_walk": [
     "brian_shaw_off_season",
@@ -203,6 +272,8 @@
     "bodybuilding_isolation_block"
   ],
   "front_dumbbell_raise": [
+    "arnold_split",
+    "bro_split",
     "phat"
   ],
   "front_squat": [
@@ -243,8 +314,12 @@
     "phat"
   ],
   "handstand_push_ups": [
+    "comptrain_class",
     "convict_conditioning",
+    "crossfit_open_prep",
     "gymnastic_bodies_foundation_one",
+    "hwpo_training",
+    "invictus_athlete",
     "overcoming_gravity_template"
   ],
   "hang_snatch": [
@@ -258,15 +333,22 @@
     "bodybuilding_isolation_block"
   ],
   "incline_dumbbell_curl": [
-    "bodybuilding_isolation_block"
+    "bodybuilding_isolation_block",
+    "bro_split"
   ],
   "incline_dumbbell_flyes": [
     "bodybuilding_isolation_block"
   ],
   "incline_dumbbell_press": [
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "bro_split",
+    "dc_training",
+    "gvt",
+    "gvt",
     "phat",
-    "phul"
+    "phul",
+    "upper_lower_4day"
   ],
   "inverted_row": [
     "bwf_recommended_routine",
@@ -275,15 +357,25 @@
     "get_strong_kavadlo",
     "overcoming_gravity_template"
   ],
+  "kettlebell_swings": [
+    "comptrain_class"
+  ],
   "kneeling_cable_triceps_extension": [
     "bodybuilding_isolation_block"
   ],
   "leg_extensions": [
-    "phat"
+    "arnold_split",
+    "bro_split",
+    "gvt",
+    "phat",
+    "upper_lower_4day"
   ],
   "leg_press": [
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
-    "phat"
+    "bro_split",
+    "phat",
+    "upper_lower_4day"
   ],
   "log_lift": [
     "brian_shaw_off_season",
@@ -293,25 +385,40 @@
     "starting_strongman"
   ],
   "lying_leg_curls": [
-    "bodybuilding_isolation_block"
+    "arnold_split",
+    "bodybuilding_isolation_block",
+    "gvt"
   ],
   "lying_triceps_press": [
     "beginner_fullbody_hypertrophy"
+  ],
+  "muscle_up": [
+    "invictus_athlete"
   ],
   "one_arm_flat_bench_dumbbell_flye": [
     "bodybuilding_isolation_block"
   ],
   "overhead_press": [
+    "531_bbb",
+    "531_bbb",
     "5_3_1",
+    "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
     "brian_shaw_off_season",
+    "bro_split",
+    "comptrain_class",
     "crossfit_competition_prep",
     "crossfit_foundations",
     "crossfit_intermediate",
+    "crossfit_open_prep",
     "cube_method_strongman",
+    "dc_training",
     "eddie_hall_training_structure",
+    "gvt",
     "gzclp",
+    "hwpo_training",
+    "invictus_athlete",
     "juggernaut_method_strongman",
     "phat",
     "phul",
@@ -320,7 +427,8 @@
     "starting_strongman",
     "strongman_competition_prep",
     "strongman_intermediate_block",
-    "texas_method"
+    "texas_method",
+    "upper_lower_4day"
   ],
   "overhead_squat": [
     "catalyst_12_week",
@@ -356,8 +464,12 @@
   ],
   "power_clean": [
     "catalyst_12_week",
+    "comptrain_class",
+    "crossfit_aerobic_base",
     "crossfit_competition_prep",
     "crossfit_intermediate",
+    "crossfit_open_prep",
+    "hwpo_training",
     "olympic_weightlifting_advanced",
     "olympic_weightlifting_beginner",
     "starting_strength",
@@ -377,25 +489,35 @@
     "phat"
   ],
   "pullups": [
+    "531_bbb",
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "bro_split",
     "bwf_recommended_routine",
     "bwf_skill_day_template",
+    "comptrain_class",
     "convict_conditioning",
+    "crossfit_aerobic_base",
     "crossfit_competition_prep",
     "crossfit_foundations",
     "crossfit_intermediate",
+    "crossfit_open_prep",
     "cube_method_strongman",
     "get_strong_kavadlo",
     "grease_the_groove",
+    "gvt",
     "gymnastic_bodies_foundation_one",
     "gzclp",
+    "hwpo_training",
+    "invictus_athlete",
     "juggernaut_method_strongman",
     "lsus_10_5_3",
     "overcoming_gravity_template",
     "phat",
     "phul",
     "push_pull_legs",
-    "rp_hypertrophy"
+    "rp_hypertrophy",
+    "upper_lower_4day"
   ],
   "push_press": [
     "cal_strength_daily",
@@ -435,21 +557,33 @@
     "crossfit_competition_prep",
     "crossfit_intermediate",
     "gymnastic_bodies_foundation_one",
+    "hwpo_training",
     "overcoming_gravity_template"
   ],
   "romanian_deadlift": [
     "beginner_fullbody_hypertrophy",
+    "bro_split",
     "bwf_recommended_routine",
     "cal_strength_daily",
     "crossfit_intermediate",
     "cube_method_strongman",
+    "dc_training",
+    "gvt",
     "juggernaut_method_strongman",
     "olympic_weightlifting_beginner",
     "phat",
     "phul",
     "push_pull_legs",
     "rp_hypertrophy",
-    "starting_strongman"
+    "starting_strongman",
+    "upper_lower_4day"
+  ],
+  "rowing_ergometer": [
+    "comptrain_class",
+    "crossfit_aerobic_base",
+    "crossfit_open_prep",
+    "hwpo_training",
+    "invictus_athlete"
   ],
   "scapular_pull_up": [
     "bwf_recommended_routine",
@@ -460,23 +594,32 @@
     "overcoming_gravity_template"
   ],
   "seated_bent_over_rear_delt_raise": [
-    "bodybuilding_isolation_block"
+    "bodybuilding_isolation_block",
+    "bro_split"
   ],
   "seated_cable_rows": [
+    "arnold_split",
+    "bro_split",
     "phat",
-    "rp_hypertrophy"
+    "rp_hypertrophy",
+    "upper_lower_4day"
   ],
   "seated_calf_raise": [
+    "gvt",
     "phat"
   ],
   "seated_leg_curl": [
-    "phat"
+    "bro_split",
+    "phat",
+    "upper_lower_4day"
   ],
   "seated_side_lateral_raise": [
     "bodybuilding_isolation_block"
   ],
   "side_lateral_raise": [
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "bro_split",
     "phat"
   ],
   "single_leg_leg_extension": [
@@ -488,6 +631,8 @@
     "catalyst_12_week",
     "crossfit_competition_prep",
     "glenn_pendlay_programs",
+    "hwpo_training",
+    "invictus_athlete",
     "klokov_protocol",
     "lsus_10_5_3",
     "olympic_weightlifting_advanced",
@@ -504,7 +649,11 @@
     "usaw_l1_program"
   ],
   "standing_calf_raises": [
-    "bodybuilding_isolation_block"
+    "arnold_split",
+    "bodybuilding_isolation_block",
+    "bro_split",
+    "dc_training",
+    "upper_lower_4day"
   ],
   "standing_leg_curl": [
     "bodybuilding_isolation_block"
@@ -518,16 +667,35 @@
     "strongman_intermediate_block",
     "westside_conjugate"
   ],
+  "thrusters": [
+    "crossfit_open_prep"
+  ],
   "tire_flip": [
     "brian_shaw_off_season",
     "eddie_hall_training_structure"
+  ],
+  "toes_to_bar": [
+    "comptrain_class",
+    "crossfit_open_prep",
+    "hwpo_training",
+    "invictus_athlete"
   ],
   "tricep_dumbbell_kickback": [
     "bodybuilding_isolation_block"
   ],
   "triceps_pushdown": [
+    "arnold_split",
     "beginner_fullbody_hypertrophy",
-    "phat"
+    "bro_split",
+    "dc_training",
+    "phat",
+    "upper_lower_4day"
+  ],
+  "wall_ball_shots": [
+    "comptrain_class",
+    "crossfit_aerobic_base",
+    "crossfit_open_prep",
+    "hwpo_training"
   ],
   "weighted_pull_ups": [
     "bwf_recommended_routine",
@@ -535,6 +703,10 @@
     "calisthenics_advanced_skills",
     "calisthenics_intermediate_skills",
     "overcoming_gravity_template"
+  ],
+  "wide_grip_lat_pulldown": [
+    "bro_split",
+    "gvt"
   ],
   "yoke_walk": [
     "brian_shaw_off_season",

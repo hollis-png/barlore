@@ -98,7 +98,7 @@ exercises:
       Elbows strictly anchored; no shoulder flexion; full supination at top.
       Arnold Arm Day: biceps and triceps trained together in heavy supersets.
 
-  - ref: dumbbell_concentration_curls
+  - ref: concentration_curls
     role: secondary
     frequency_per_week: 2
     technical_notes: >

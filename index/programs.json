@@ -1,4 +1,27 @@
 {
+  "531_bbb": {
+    "exercise_refs": [
+      "overhead_press",
+      "bench_press",
+      "conventional_deadlift",
+      "bent_over_barbell_row",
+      "bench_press",
+      "overhead_press",
+      "back_squat",
+      "conventional_deadlift",
+      "pullups",
+      "bent_over_two_dumbbell_row",
+      "face_pull",
+      "barbell_curl"
+    ],
+    "id": "531_bbb",
+    "level": "intermediate",
+    "name": "5/3/1 BBB (Boring But Big)",
+    "path": "programs/bodybuilding/531_bbb.md",
+    "periodization": "wave_loading",
+    "system": "bodybuilding",
+    "type": "program"
+  },
   "5_3_1": {
     "exercise_refs": [
       "back_squat",
@@ -12,6 +35,35 @@
     "path": "programs/powerlifting/5_3_1.md",
     "periodization": "linear",
     "system": "powerlifting",
+    "type": "program"
+  },
+  "arnold_split": {
+    "exercise_refs": [
+      "bench_press",
+      "incline_dumbbell_press",
+      "dumbbell_flyes",
+      "bent_over_barbell_row",
+      "pullups",
+      "seated_cable_rows",
+      "overhead_press",
+      "side_lateral_raise",
+      "front_dumbbell_raise",
+      "barbell_curl",
+      "concentration_curls",
+      "triceps_pushdown",
+      "ez_bar_skullcrusher",
+      "back_squat",
+      "leg_press",
+      "leg_extensions",
+      "lying_leg_curls",
+      "standing_calf_raises"
+    ],
+    "id": "arnold_split",
+    "level": "intermediate",
+    "name": "Arnold Split",
+    "path": "programs/bodybuilding/arnold_split.md",
+    "periodization": "linear",
+    "system": "bodybuilding",
     "type": "program"
   },
   "basic_strongman_block": {
@@ -116,6 +168,42 @@
     "path": "programs/strongman/brian_shaw_off_season.md",
     "periodization": "conjugate",
     "system": "strongman",
+    "type": "program"
+  },
+  "bro_split": {
+    "exercise_refs": [
+      "bench_press",
+      "incline_dumbbell_press",
+      "dumbbell_flyes",
+      "cable_crossover",
+      "conventional_deadlift",
+      "bent_over_barbell_row",
+      "pullups",
+      "seated_cable_rows",
+      "wide_grip_lat_pulldown",
+      "overhead_press",
+      "side_lateral_raise",
+      "seated_bent_over_rear_delt_raise",
+      "front_dumbbell_raise",
+      "barbell_curl",
+      "incline_dumbbell_curl",
+      "concentration_curls",
+      "triceps_pushdown",
+      "ez_bar_skullcrusher",
+      "cable_rope_overhead_triceps_extension",
+      "back_squat",
+      "leg_press",
+      "leg_extensions",
+      "romanian_deadlift",
+      "seated_leg_curl",
+      "standing_calf_raises"
+    ],
+    "id": "bro_split",
+    "level": "intermediate",
+    "name": "Bro Split (5-Day Body-Part Split)",
+    "path": "programs/bodybuilding/bro_split.md",
+    "periodization": "linear",
+    "system": "bodybuilding",
     "type": "program"
   },
   "bulgarian_method": {
@@ -254,6 +342,29 @@
     "system": "olympic",
     "type": "program"
   },
+  "comptrain_class": {
+    "exercise_refs": [
+      "back_squat",
+      "overhead_press",
+      "conventional_deadlift",
+      "power_clean",
+      "pullups",
+      "double_unders",
+      "handstand_push_ups",
+      "toes_to_bar",
+      "rowing_ergometer",
+      "box_jumps",
+      "wall_ball_shots",
+      "kettlebell_swings"
+    ],
+    "id": "comptrain_class",
+    "level": "intermediate",
+    "name": "CompTrain Class",
+    "path": "programs/crossfit/comptrain_class.md",
+    "periodization": "concurrent_weekly_undulating",
+    "system": "crossfit",
+    "type": "program"
+  },
   "convict_conditioning": {
     "exercise_refs": [
       "pushups",
@@ -269,6 +380,25 @@
     "path": "programs/calisthenics/convict_conditioning.md",
     "periodization": "linear",
     "system": "calisthenics",
+    "type": "program"
+  },
+  "crossfit_aerobic_base": {
+    "exercise_refs": [
+      "rowing_ergometer",
+      "assault_bike",
+      "back_squat",
+      "power_clean",
+      "pullups",
+      "conventional_deadlift",
+      "double_unders",
+      "wall_ball_shots"
+    ],
+    "id": "crossfit_aerobic_base",
+    "level": "intermediate",
+    "name": "CrossFit Aerobic Base Builder",
+    "path": "programs/crossfit/crossfit_aerobic_base.md",
+    "periodization": "aerobic_block",
+    "system": "crossfit",
     "type": "program"
   },
   "crossfit_competition_prep": {
@@ -329,6 +459,28 @@
     "system": "crossfit",
     "type": "program"
   },
+  "crossfit_open_prep": {
+    "exercise_refs": [
+      "back_squat",
+      "power_clean",
+      "overhead_press",
+      "pullups",
+      "handstand_push_ups",
+      "toes_to_bar",
+      "double_unders",
+      "rowing_ergometer",
+      "wall_ball_shots",
+      "thrusters",
+      "box_jumps"
+    ],
+    "id": "crossfit_open_prep",
+    "level": "intermediate",
+    "name": "CrossFit Open Prep Cycle",
+    "path": "programs/crossfit/crossfit_open_prep.md",
+    "periodization": "peaking",
+    "system": "crossfit",
+    "type": "program"
+  },
   "cube_method_strongman": {
     "exercise_refs": [
       "conventional_deadlift",
@@ -348,6 +500,27 @@
     "path": "programs/strongman/cube_method_strongman.md",
     "periodization": "conjugate",
     "system": "strongman",
+    "type": "program"
+  },
+  "dc_training": {
+    "exercise_refs": [
+      "bench_press",
+      "incline_dumbbell_press",
+      "bent_over_barbell_row",
+      "conventional_deadlift",
+      "overhead_press",
+      "back_squat",
+      "romanian_deadlift",
+      "barbell_curl",
+      "triceps_pushdown",
+      "standing_calf_raises"
+    ],
+    "id": "dc_training",
+    "level": "advanced",
+    "name": "DC Training (Doggcrapp)",
+    "path": "programs/bodybuilding/dc_training.md",
+    "periodization": "high_frequency_low_volume",
+    "system": "bodybuilding",
     "type": "program"
   },
   "eddie_hall_training_structure": {
@@ -421,6 +594,29 @@
     "system": "calisthenics",
     "type": "program"
   },
+  "gvt": {
+    "exercise_refs": [
+      "bench_press",
+      "bent_over_barbell_row",
+      "incline_dumbbell_press",
+      "pullups",
+      "back_squat",
+      "lying_leg_curls",
+      "leg_extensions",
+      "seated_calf_raise",
+      "overhead_press",
+      "wide_grip_lat_pulldown",
+      "romanian_deadlift",
+      "incline_dumbbell_press"
+    ],
+    "id": "gvt",
+    "level": "intermediate",
+    "name": "German Volume Training (GVT)",
+    "path": "programs/bodybuilding/gvt.md",
+    "periodization": "volume_shock",
+    "system": "bodybuilding",
+    "type": "program"
+  },
   "gymnastic_bodies_foundation_one": {
     "exercise_refs": [
       "pullups",
@@ -453,6 +649,53 @@
     "path": "programs/powerlifting/gzclp.md",
     "periodization": "linear",
     "system": "powerlifting",
+    "type": "program"
+  },
+  "hwpo_training": {
+    "exercise_refs": [
+      "back_squat",
+      "power_clean",
+      "clean_and_jerk",
+      "snatch",
+      "overhead_press",
+      "pullups",
+      "handstand_push_ups",
+      "ring_dips",
+      "toes_to_bar",
+      "double_unders",
+      "conventional_deadlift",
+      "rowing_ergometer",
+      "wall_ball_shots"
+    ],
+    "id": "hwpo_training",
+    "level": "advanced",
+    "name": "HWPO (Hard Work Pays Off)",
+    "path": "programs/crossfit/hwpo_training.md",
+    "periodization": "concurrent_block",
+    "system": "crossfit",
+    "type": "program"
+  },
+  "invictus_athlete": {
+    "exercise_refs": [
+      "back_squat",
+      "snatch",
+      "clean_and_jerk",
+      "conventional_deadlift",
+      "overhead_press",
+      "muscle_up",
+      "handstand_push_ups",
+      "pullups",
+      "rowing_ergometer",
+      "assault_bike",
+      "double_unders",
+      "toes_to_bar"
+    ],
+    "id": "invictus_athlete",
+    "level": "advanced",
+    "name": "Invictus Athlete",
+    "path": "programs/crossfit/invictus_athlete.md",
+    "periodization": "block_concurrent",
+    "system": "crossfit",
     "type": "program"
   },
   "juggernaut_method_strongman": {
@@ -768,6 +1011,32 @@
     "path": "programs/powerlifting/texas_method.md",
     "periodization": "linear",
     "system": "powerlifting",
+    "type": "program"
+  },
+  "upper_lower_4day": {
+    "exercise_refs": [
+      "bench_press",
+      "bent_over_barbell_row",
+      "overhead_press",
+      "pullups",
+      "incline_dumbbell_press",
+      "seated_cable_rows",
+      "face_pull",
+      "barbell_curl",
+      "triceps_pushdown",
+      "back_squat",
+      "romanian_deadlift",
+      "leg_press",
+      "leg_extensions",
+      "seated_leg_curl",
+      "standing_calf_raises"
+    ],
+    "id": "upper_lower_4day",
+    "level": "intermediate",
+    "name": "Upper Lower 4-Day Split",
+    "path": "programs/bodybuilding/upper_lower_4day.md",
+    "periodization": "undulating",
+    "system": "bodybuilding",
     "type": "program"
   },
   "usaw_l1_program": {

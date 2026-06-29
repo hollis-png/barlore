@@ -90,7 +90,7 @@ exercises:
       Seated dumbbell or standing barbell. Antagonist pairing: vertical push with
       vertical pull. GVT Day 3 is often the hardest for upper body recovery.
 
-  - ref: lat_pulldown
+  - ref: wide_grip_lat_pulldown
     role: primary
     frequency_per_week: 1
     technical_notes: >

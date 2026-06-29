@@ -713,6 +713,69 @@
     "strength_curve": null,
     "variations": []
   },
+  "assault_bike": {
+    "aliases": [
+      "air bike",
+      "fan bike",
+      "Assault AirBike",
+      "echo bike"
+    ],
+    "alternatives": [
+      "rowing_ergometer"
+    ],
+    "difficulty": {
+      "mobility_prerequisite": 1,
+      "strength_prerequisite": 1,
+      "technical_complexity": 1
+    },
+    "equipment": [
+      "air_bike"
+    ],
+    "id": "assault_bike",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "quadriceps",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "secondary"
+      },
+      {
+        "id": "biceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_brachii",
+        "role": "secondary"
+      }
+    ],
+    "name": "Assault Bike",
+    "path": "exercises/assault_bike.md",
+    "pattern": [
+      "isolation"
+    ],
+    "progressions": [],
+    "source": null,
+    "status": "stub",
+    "strength_curve": null,
+    "variations": []
+  },
   "atlas_stone_trainer": {
     "aliases": [],
     "alternatives": [],
@@ -781,16 +844,56 @@
   },
   "atlas_stones": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "barbell_deadlift",
+      "sandbag_load"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 4,
+      "technical_complexity": 5
     },
-    "equipment": [],
+    "equipment": [
+      "atlas stone"
+    ],
     "id": "atlas_stones",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "flexion_under_load_during_first_pull",
+          "risk_factors": [
+            "inadequate hip_mobility",
+            "rounding_under_fatigue",
+            "excessive_load"
+          ],
+          "structure": "lumbar_disc"
+        },
+        {
+          "mechanism": "sustained_isometric_flexion_grip_around_stone",
+          "risk_factors": [
+            "heavy_stone",
+            "wet_or_uncoated_stone",
+            "fatigued_grip"
+          ],
+          "structure": "biceps_tendon_long_head"
+        }
+      ],
+      "contraindications": [
+        "acute_lumbar_disc_herniation",
+        "active_biceps_tendinopathy"
+      ],
+      "joint_stress": {
+        "biceps_tendon": "moderate",
+        "knee": "low",
+        "lumbar_spine": "moderate"
+      }
+    },
+    "joint_rom_required": {
+      "hip_flexion_deg": 120,
+      "knee_flexion_deg": 110,
+      "source": "biomechanical inference from lapping phase",
+      "thoracic_flexion_deg": 40
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -798,8 +901,32 @@
         "role": "primary"
       },
       {
-        "id": "multifidus",
+        "id": "gluteus_maximus",
         "role": "primary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "primary"
+      },
+      {
+        "id": "vastus_medialis",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
+      },
+      {
+        "id": "multifidus",
+        "role": "secondary"
       },
       {
         "id": "rectus_abdominis",
@@ -818,27 +945,7 @@
         "role": "secondary"
       },
       {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
         "id": "forearm_flexors",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
-        "id": "biceps_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "semitendinosus",
         "role": "secondary"
       },
       {
@@ -846,31 +953,44 @@
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "trap_upper",
         "role": "secondary"
       },
       {
-        "id": "rectus_femoris",
+        "id": "trap_middle",
         "role": "secondary"
       },
       {
-        "id": "vastus_lateralis",
-        "role": "secondary"
+        "id": "gastrocnemius_medial",
+        "role": "tertiary"
       },
       {
-        "id": "vastus_medialis",
-        "role": "secondary"
+        "id": "gastrocnemius_lateral",
+        "role": "tertiary"
+      },
+      {
+        "id": "soleus",
+        "role": "tertiary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "tertiary"
       }
     ],
     "name": "Atlas Stones",
     "path": "exercises/atlas_stones.md",
     "pattern": [
+      "hinge",
       "carry"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Heaviest demand at floor break; once lapped, hip extension is mechanically advantaged.",
+      "sticking_point": "initial_break_from_floor",
+      "type": "ascending"
+    },
     "variations": []
   },
   "axle_deadlift": {
@@ -2349,16 +2469,55 @@
     "aliases": [],
     "alternatives": [],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 2,
+      "technical_complexity": 2
     },
     "equipment": [
-      "barbell"
+      "barbell",
+      "squat rack"
     ],
     "id": "barbell_lunge",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "anterior_knee_stress_from_excessive_forward_lean_or_knee_drift",
+          "risk_factors": [
+            "excessive_forward_knee_travel_under_load",
+            "weak_vastus_medialis",
+            "limited_ankle_dorsiflexion"
+          ],
+          "structure": "patellofemoral_joint"
+        },
+        {
+          "mechanism": "strain_on_trailing_leg_hip_flexor",
+          "risk_factors": [
+            "tight_hip_flexors",
+            "excessive_stride_length",
+            "sudden_deceleration"
+          ],
+          "structure": "hip_flexor"
+        }
+      ],
+      "contraindications": [
+        "acute_knee_injury",
+        "severe_balance_impairment",
+        "acute_hip_flexor_strain"
+      ],
+      "joint_stress": {
+        "ankle": "low",
+        "hip": "low",
+        "knee": "moderate",
+        "lumbar_spine": "low"
+      }
+    },
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 30,
+      "hip_extension_deg": 20,
+      "hip_flexion_deg": 100,
+      "knee_flexion_deg": 120,
+      "source": "biomechanical inference"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -2374,16 +2533,8 @@
         "role": "primary"
       },
       {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
         "id": "gluteus_maximus",
-        "role": "secondary"
+        "role": "primary"
       },
       {
         "id": "biceps_femoris",
@@ -2392,6 +2543,38 @@
       {
         "id": "semitendinosus",
         "role": "secondary"
+      },
+      {
+        "id": "adductor_magnus",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius_medial",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
+      },
+      {
+        "id": "gluteus_medius",
+        "role": "stabilizer"
+      },
+      {
+        "id": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
       }
     ],
     "name": "Barbell Lunge",
@@ -2400,9 +2583,15 @@
       "squat"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Most difficult at the bottom of the lunge where the lead knee is deeply flexed and the hip is loaded. Mechanical advantage improves as the lifter pushes back up.",
+      "peak_force_position": "bottom",
+      "source": "biomechanical inference",
+      "sticking_point": "bottom",
+      "type": "ascending"
+    },
     "variations": []
   },
   "barbell_rear_delt_row": {
@@ -2585,32 +2774,85 @@
     "aliases": [],
     "alternatives": [],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 1,
+      "strength_prerequisite": 2,
+      "technical_complexity": 1
     },
     "equipment": [
       "barbell"
     ],
     "id": "barbell_shrug",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "strain_from_excessive_cervical_flexion_or_rotation_during_shrug",
+          "risk_factors": [
+            "looking_down_during_reps",
+            "rolling_shoulders",
+            "excessive_load"
+          ],
+          "structure": "cervical_spine"
+        },
+        {
+          "mechanism": "traction_from_heavy_deadhang_grip",
+          "risk_factors": [
+            "very_heavy_load",
+            "mixed_grip"
+          ],
+          "structure": "biceps_tendon_long_head"
+        }
+      ],
+      "contraindications": [
+        "acute_cervical_disc_herniation",
+        "acute_trap_strain"
+      ],
+      "joint_stress": {
+        "cervical_spine": "low",
+        "shoulder": "low"
+      }
+    },
+    "joint_rom_required": {
+      "scapular_elevation_deg": 20,
+      "source": "biomechanical inference"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "trapezius",
+        "id": "trap_upper",
         "role": "primary"
+      },
+      {
+        "id": "trap_middle",
+        "role": "secondary"
+      },
+      {
+        "id": "rhomboids",
+        "role": "secondary"
+      },
+      {
+        "id": "forearm_flexors",
+        "role": "stabilizer"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
       }
     ],
     "name": "Barbell Shrug",
     "path": "exercises/barbell_shrug.md",
     "pattern": [
-      "vertical pull"
+      "isolation"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Tension is highest in the mid-range where scapular elevation velocity peaks. At the top of the shrug, the upper traps reach a shortened position and force output decreases slightly.",
+      "peak_force_position": "mid",
+      "source": "biomechanical inference",
+      "sticking_point": "top",
+      "type": "bell_shaped"
+    },
     "variations": []
   },
   "barbell_shrug_behind_the_back": {
@@ -4407,16 +4649,41 @@
     "aliases": [],
     "alternatives": [],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 1,
+      "technical_complexity": 1
     },
     "equipment": [
       "body only"
     ],
     "id": "bodyweight_squat",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "anterior_knee_pain_from_poor_tracking",
+          "risk_factors": [
+            "excessive_knee_valgus",
+            "limited_ankle_dorsiflexion"
+          ],
+          "structure": "patellofemoral_joint"
+        }
+      ],
+      "contraindications": [
+        "acute_knee_injury",
+        "acute_lumbar_disc_herniation"
+      ],
+      "joint_stress": {
+        "ankle": "low",
+        "hip": "low",
+        "knee": "low"
+      }
+    },
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 25,
+      "hip_flexion_deg": 110,
+      "knee_flexion_deg": 120,
+      "source": "biomechanical inference"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -4432,6 +4699,10 @@
         "role": "primary"
       },
       {
+        "id": "vastus_intermedius",
+        "role": "primary"
+      },
+      {
         "id": "gluteus_maximus",
         "role": "secondary"
       },
@@ -4442,6 +4713,22 @@
       {
         "id": "semitendinosus",
         "role": "secondary"
+      },
+      {
+        "id": "adductor_magnus",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "id": "gluteus_medius",
+        "role": "stabilizer"
       }
     ],
     "name": "Bodyweight Squat",
@@ -4450,9 +4737,15 @@
       "squat"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Hardest at the bottom of the squat where hip and knee flexion are maximal. Mechanical advantage improves as the lifter ascends.",
+      "peak_force_position": "bottom",
+      "source": "biomechanical inference",
+      "sticking_point": "bottom",
+      "type": "ascending"
+    },
     "variations": []
   },
   "bodyweight_walking_lunge": {
@@ -4613,6 +4906,63 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
+    "status": "stub",
+    "strength_curve": null,
+    "variations": []
+  },
+  "box_jumps": {
+    "aliases": [
+      "box jump",
+      "plyometric box jump"
+    ],
+    "alternatives": [],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 2,
+      "technical_complexity": 2
+    },
+    "equipment": [
+      "plyo_box"
+    ],
+    "id": "box_jumps",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "quadriceps",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "gastrocnemius",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
+        "role": "secondary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Box Jumps",
+    "path": "exercises/box_jumps.md",
+    "pattern": [
+      "squat"
+    ],
+    "progressions": [
+      "bodyweight_squat"
+    ],
+    "source": null,
     "status": "stub",
     "strength_curve": null,
     "variations": []
@@ -9905,6 +10255,58 @@
     "strength_curve": null,
     "variations": []
   },
+  "double_unders": {
+    "aliases": [
+      "double under",
+      "DU",
+      "jump rope double under"
+    ],
+    "alternatives": [],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 1,
+      "technical_complexity": 3
+    },
+    "equipment": [
+      "jump_rope"
+    ],
+    "id": "double_unders",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "gastrocnemius",
+        "role": "primary"
+      },
+      {
+        "id": "soleus",
+        "role": "primary"
+      },
+      {
+        "id": "quadriceps",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Double Unders",
+    "path": "exercises/double_unders.md",
+    "pattern": [
+      "isolation"
+    ],
+    "progressions": [],
+    "source": null,
+    "status": "stub",
+    "strength_curve": null,
+    "variations": []
+  },
   "downward_facing_balance": {
     "aliases": [],
     "alternatives": [],
@@ -12025,16 +12427,54 @@
   },
   "farmers_walk": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "yoke_walk"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 1,
+      "strength_prerequisite": 3,
+      "technical_complexity": 2
     },
-    "equipment": [],
+    "equipment": [
+      "farmer handles"
+    ],
     "id": "farmers_walk",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "grip_overload_during_prolonged_carry",
+          "risk_factors": [
+            "excessive_distance",
+            "wet_handles",
+            "insufficient_grip_training"
+          ],
+          "structure": "finger_flexor_tendons"
+        },
+        {
+          "mechanism": "lateral_trunk_sway_under_asymmetric_loading",
+          "risk_factors": [
+            "uneven_implements",
+            "excessive_load",
+            "fatigue"
+          ],
+          "structure": "lumbar_paraspinals"
+        }
+      ],
+      "contraindications": [
+        "acute_finger_flexor_tendinopathy",
+        "acute_lumbar_strain"
+      ],
+      "joint_stress": {
+        "grip": "moderate",
+        "lumbar_spine": "low",
+        "shoulder": "low"
+      }
+    },
+    "joint_rom_required": {
+      "hip_flexion_deg": 30,
+      "knee_flexion_deg": 30,
+      "source": "biomechanical inference — minimal ROM; primarily upright gait"
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
@@ -12042,7 +12482,19 @@
         "role": "primary"
       },
       {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
+      {
         "id": "rectus_abdominis",
+        "role": "secondary"
+      },
+      {
+        "id": "obliques",
         "role": "secondary"
       },
       {
@@ -12050,19 +12502,7 @@
         "role": "secondary"
       },
       {
-        "id": "biceps_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "semitendinosus",
-        "role": "secondary"
-      },
-      {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
-        "id": "multifidus",
+        "id": "gluteus_medius",
         "role": "secondary"
       },
       {
@@ -12078,8 +12518,32 @@
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "biceps_femoris",
         "role": "secondary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "secondary"
+      },
+      {
+        "id": "multifidus",
+        "role": "secondary"
+      },
+      {
+        "id": "trap_middle",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius_medial",
+        "role": "tertiary"
+      },
+      {
+        "id": "gastrocnemius_lateral",
+        "role": "tertiary"
+      },
+      {
+        "id": "soleus",
+        "role": "tertiary"
       }
     ],
     "name": "Farmer's Walk",
@@ -12088,9 +12552,13 @@
       "carry"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Grip is the limiting factor. Trunk and legs work isometrically to maintain posture during locomotion.",
+      "sticking_point": "grip_failure",
+      "type": "isometric_hold"
+    },
     "variations": []
   },
   "finger_curls": {
@@ -14303,36 +14771,128 @@
     "aliases": [],
     "alternatives": [],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 4,
+      "technical_complexity": 4
     },
     "equipment": [
       "body only"
     ],
     "id": "handstand_push_ups",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "impingement_under_full_bodyweight_overhead",
+          "risk_factors": [
+            "insufficient_shoulder_mobility",
+            "previous_shoulder_injury",
+            "excessive_volume"
+          ],
+          "structure": "rotator_cuff"
+        },
+        {
+          "mechanism": "hyperextension_under_compression",
+          "risk_factors": [
+            "limited_wrist_extension",
+            "high_bodyweight"
+          ],
+          "structure": "wrist_joint"
+        },
+        {
+          "mechanism": "axial_compression_from_head_contact",
+          "risk_factors": [
+            "uncontrolled_descent",
+            "lack_of_padding"
+          ],
+          "structure": "cervical_spine"
+        }
+      ],
+      "contraindications": [
+        "acute_shoulder_impingement",
+        "rotator_cuff_tear",
+        "wrist_injury",
+        "cervical_disc_herniation",
+        "uncontrolled_hypertension"
+      ],
+      "joint_stress": {
+        "cervical_spine": "moderate",
+        "elbow": "moderate",
+        "shoulder": "high",
+        "wrist": "high"
+      }
+    },
+    "joint_rom_required": {
+      "elbow_extension_deg": 0,
+      "shoulder_flexion_deg": 180,
+      "source": "biomechanical inference",
+      "wrist_extension_deg": 80
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "primary"
       },
       {
-        "id": "triceps_brachii",
+        "id": "deltoid_lateral",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_long",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_lateral",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_medial",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
         "role": "secondary"
+      },
+      {
+        "id": "pec_major_clavicular",
+        "role": "secondary"
+      },
+      {
+        "id": "serratus_anterior",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "id": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "id": "forearm_flexors",
+        "role": "stabilizer"
       }
     ],
     "name": "Handstand Push-Ups",
     "path": "exercises/handstand_push_ups.md",
     "pattern": [
-      "horizontal press"
+      "vertical press"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Hardest at the bottom when the head is near the floor and the shoulders are in maximal flexion under full bodyweight. Mechanical advantage improves as the arms extend.",
+      "peak_force_position": "bottom",
+      "source": "biomechanical inference",
+      "sticking_point": "bottom",
+      "type": "ascending"
+    },
     "variations": []
   },
   "hang_clean": {
@@ -14497,46 +15057,93 @@
   },
   "hang_snatch": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "power_snatch",
+      "one_arm_kettlebell_snatch"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 4,
+      "strength_prerequisite": 3,
+      "technical_complexity": 5
     },
     "equipment": [
       "barbell"
     ],
     "id": "hang_snatch",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "hyperextension_during_catch",
+          "risk_factors": [
+            "poor_wrist_mobility",
+            "excessive_load",
+            "improper_turnover_timing"
+          ],
+          "structure": "wrist_ligaments"
+        },
+        {
+          "mechanism": "overhead_impingement",
+          "risk_factors": [
+            "limited_shoulder_flexion",
+            "inadequate_thoracic_extension",
+            "fatigue"
+          ],
+          "structure": "rotator_cuff"
+        },
+        {
+          "mechanism": "flexion_under_load",
+          "risk_factors": [
+            "poor_hip_hinge_mechanics",
+            "excessive_load",
+            "insufficient_core_bracing"
+          ],
+          "structure": "lumbar_spine"
+        }
+      ],
+      "contraindications": [
+        "wrist_injury",
+        "shoulder_impingement",
+        "lumbar_herniation",
+        "limited_overhead_mobility"
+      ],
+      "joint_stress": {
+        "knee": "moderate",
+        "lumbar_spine": "moderate",
+        "shoulder": "high",
+        "wrist": "high"
+      }
+    },
+    "joint_rom_required": {
+      "ankle_dorsiflexion_deg": 25,
+      "hip_flexion_deg": 130,
+      "shoulder_flexion_deg": 180,
+      "source": "biomechanical inference",
+      "thoracic_extension_deg": 20
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "biceps_femoris",
+        "id": "gluteus_maximus",
         "role": "primary"
+      },
+      {
+        "id": "vastus_lateralis",
+        "role": "primary"
+      },
+      {
+        "id": "vastus_medialis",
+        "role": "primary"
+      },
+      {
+        "id": "rectus_femoris",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
       },
       {
         "id": "semitendinosus",
-        "role": "primary"
-      },
-      {
-        "id": "rectus_abdominis",
-        "role": "secondary"
-      },
-      {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "forearm_flexors",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
         "role": "secondary"
       },
       {
@@ -14544,40 +15151,65 @@
         "role": "secondary"
       },
       {
+        "id": "trap_upper",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_posterior",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius_medial",
+        "role": "secondary"
+      },
+      {
+        "id": "gastrocnemius_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      },
+      {
         "id": "multifidus",
-        "role": "secondary"
+        "role": "stabilizer"
       },
       {
-        "id": "rectus_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_lateralis",
-        "role": "secondary"
-      },
-      {
-        "id": "vastus_medialis",
-        "role": "secondary"
-      },
-      {
-        "id": "deltoid",
-        "role": "secondary"
-      },
-      {
-        "id": "trapezius",
-        "role": "secondary"
+        "id": "forearm_flexors",
+        "role": "stabilizer"
       }
     ],
     "name": "Hang Snatch",
     "path": "exercises/hang_snatch.md",
     "pattern": [
-      "hinge"
+      "hinge",
+      "vertical pull"
     ],
-    "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
-    "variations": []
+    "progressions": [
+      "snatch_deadlift",
+      "snatch_pull"
+    ],
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Hardest at the bottom of the catch position where the lifter must decelerate the bar and stabilize overhead in a deep squat. The initial pull benefits from the stretch-shortening cycle at the hang position.",
+      "peak_force_position": "top_of_pull",
+      "source": "biomechanical inference",
+      "sticking_point": "bottom_of_catch",
+      "type": "ascending"
+    },
+    "variations": [
+      "hang_snatch_below_knees",
+      "muscle_snatch"
+    ]
   },
   "hang_snatch_below_knees": {
     "aliases": [],
@@ -17365,6 +17997,70 @@
     "strength_curve": null,
     "variations": []
   },
+  "kettlebell_swings": {
+    "aliases": [
+      "two-arm kettlebell swing",
+      "Russian kettlebell swing",
+      "KB swing"
+    ],
+    "alternatives": [
+      "romanian_deadlift"
+    ],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 2,
+      "technical_complexity": 2
+    },
+    "equipment": [
+      "kettlebell"
+    ],
+    "id": "kettlebell_swings",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "primary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "primary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "secondary"
+      },
+      {
+        "id": "multifidus",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Kettlebell Swings",
+    "path": "exercises/kettlebell_swings.md",
+    "pattern": [
+      "hinge"
+    ],
+    "progressions": [],
+    "source": null,
+    "status": "stub",
+    "strength_curve": null,
+    "variations": [
+      "one_arm_kettlebell_swings"
+    ]
+  },
   "kettlebell_thruster": {
     "aliases": [],
     "alternatives": [],
@@ -18765,24 +19461,77 @@
   },
   "log_lift": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "overhead_press",
+      "push_press"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 4,
+      "technical_complexity": 4
     },
-    "equipment": [],
+    "equipment": [
+      "log"
+    ],
     "id": "log_lift",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "hyperextension_during_layback_press",
+          "risk_factors": [
+            "excessive_layback",
+            "weak_anterior_core",
+            "fatigue"
+          ],
+          "structure": "lumbar_disc"
+        },
+        {
+          "mechanism": "overhead_pressing_with_wide_implement",
+          "risk_factors": [
+            "poor_thoracic_mobility",
+            "pre_existing_impingement",
+            "excessive_load"
+          ],
+          "structure": "shoulder_labrum"
+        }
+      ],
+      "contraindications": [
+        "acute_shoulder_impingement",
+        "acute_lumbar_disc_herniation",
+        "limited_overhead_mobility"
+      ],
+      "joint_stress": {
+        "lumbar_spine": "moderate",
+        "shoulder": "moderate",
+        "wrist": "low"
+      }
+    },
+    "joint_rom_required": {
+      "hip_rom_deg": 126,
+      "shoulder_flexion_deg": 170,
+      "source": "biomechanical comparison with Olympic clean & jerk — log lift requires 24% greater trunk ROM (82.7 +/- 8.4 deg vs 66.8 +/- 12.0 deg) and 8% greater hip ROM (125.5 +/- 8.9 deg vs 115.7 +/- 10.4 deg)",
+      "trunk_rom_deg": 83
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "primary"
       },
       {
-        "id": "rectus_abdominis",
+        "id": "deltoid_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_long",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_lateral",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_medial",
         "role": "secondary"
       },
       {
@@ -18790,15 +19539,11 @@
         "role": "secondary"
       },
       {
-        "id": "gluteus_maximus",
+        "id": "trap_upper",
         "role": "secondary"
       },
       {
-        "id": "biceps_femoris",
-        "role": "secondary"
-      },
-      {
-        "id": "semitendinosus",
+        "id": "trap_middle",
         "role": "secondary"
       },
       {
@@ -18810,11 +19555,15 @@
         "role": "secondary"
       },
       {
-        "id": "rhomboids",
+        "id": "rectus_abdominis",
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "obliques",
+        "role": "secondary"
+      },
+      {
+        "id": "gluteus_maximus",
         "role": "secondary"
       },
       {
@@ -18830,19 +19579,33 @@
         "role": "secondary"
       },
       {
-        "id": "triceps_brachii",
-        "role": "secondary"
+        "id": "biceps_femoris",
+        "role": "tertiary"
+      },
+      {
+        "id": "semitendinosus",
+        "role": "tertiary"
+      },
+      {
+        "id": "rhomboids",
+        "role": "tertiary"
       }
     ],
     "name": "Log Lift",
     "path": "exercises/log_lift.md",
     "pattern": [
-      "carry"
+      "vertical press"
     ],
-    "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "progressions": [
+      "push_press"
+    ],
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "The log's diameter forces the elbows wide at the rack position, creating a mechanically disadvantaged start for the press. The neutral grip reduces shoulder external rotation demand compared to a barbell.",
+      "sticking_point": "transition_from_rack_to_press",
+      "type": "ascending"
+    },
     "variations": []
   },
   "london_bridges": {
@@ -24924,58 +25687,131 @@
   },
   "push_press_behind_the_neck": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "push_press",
+      "barbell_shoulder_press"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 4,
+      "strength_prerequisite": 3,
+      "technical_complexity": 3
     },
     "equipment": [
-      "barbell"
+      "barbell",
+      "squat rack"
     ],
     "id": "push_press_behind_the_neck",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "anterior_impingement_in_behind_neck_position",
+          "risk_factors": [
+            "limited_shoulder_external_rotation",
+            "insufficient_thoracic_extension",
+            "excessive_load"
+          ],
+          "structure": "rotator_cuff"
+        },
+        {
+          "mechanism": "shear_force_from_behind_neck_pressing",
+          "risk_factors": [
+            "shoulder_instability",
+            "poor_bar_path",
+            "excessive_load"
+          ],
+          "structure": "labrum"
+        }
+      ],
+      "contraindications": [
+        "shoulder_impingement",
+        "labral_tear",
+        "limited_shoulder_mobility",
+        "rotator_cuff_injury"
+      ],
+      "joint_stress": {
+        "lumbar_spine": "low",
+        "shoulder": "high",
+        "wrist": "moderate"
+      }
+    },
+    "joint_rom_required": {
+      "shoulder_external_rotation_deg": 90,
+      "shoulder_flexion_deg": 180,
+      "source": "biomechanical inference",
+      "thoracic_extension_deg": 25
+    },
     "muscle_activation_studies": [],
     "muscles": [
       {
-        "id": "deltoid",
+        "id": "deltoid_anterior",
         "role": "primary"
       },
       {
-        "id": "gastrocnemius",
+        "id": "deltoid_lateral",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_posterior",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_long",
         "role": "secondary"
       },
       {
-        "id": "soleus",
+        "id": "triceps_lateral",
         "role": "secondary"
+      },
+      {
+        "id": "triceps_medial",
+        "role": "secondary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "secondary"
+      },
+      {
+        "id": "serratus_anterior",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
       },
       {
         "id": "rectus_femoris",
-        "role": "secondary"
+        "role": "stabilizer"
       },
       {
         "id": "vastus_lateralis",
-        "role": "secondary"
+        "role": "stabilizer"
       },
       {
         "id": "vastus_medialis",
-        "role": "secondary"
-      },
-      {
-        "id": "triceps_brachii",
-        "role": "secondary"
+        "role": "stabilizer"
       }
     ],
     "name": "Push Press - Behind the Neck",
     "path": "exercises/push_press_behind_the_neck.md",
     "pattern": [
-      "horizontal press"
+      "vertical press"
     ],
-    "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "progressions": [
+      "push_press"
+    ],
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "The dip-drive transfers momentum through the sticking point just above head height. The ascending curve means the lift gets mechanically easier as the arms extend toward lockout.",
+      "peak_force_position": "lockout",
+      "source": "biomechanical inference",
+      "sticking_point": "just_above_head",
+      "type": "ascending"
+    },
     "variations": []
   },
   "push_up_to_side_plank": {
@@ -27381,6 +28217,72 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
+    "status": "stub",
+    "strength_curve": null,
+    "variations": []
+  },
+  "rowing_ergometer": {
+    "aliases": [
+      "rowing machine",
+      "erg",
+      "Concept2 row",
+      "indoor rowing",
+      "rower"
+    ],
+    "alternatives": [],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 1,
+      "technical_complexity": 2
+    },
+    "equipment": [
+      "rowing_machine"
+    ],
+    "id": "rowing_ergometer",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "quadriceps",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "latissimus_dorsi",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "secondary"
+      },
+      {
+        "id": "biceps_femoris",
+        "role": "secondary"
+      },
+      {
+        "id": "biceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "deltoid_posterior",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Rowing Ergometer",
+    "path": "exercises/rowing_ergometer.md",
+    "pattern": [
+      "horizontal_pull"
+    ],
+    "progressions": [],
+    "source": null,
     "status": "stub",
     "strength_curve": null,
     "variations": []
@@ -35161,20 +36063,139 @@
     "strength_curve": null,
     "variations": []
   },
-  "tire_flip": {
-    "aliases": [],
-    "alternatives": [],
+  "thrusters": {
+    "aliases": [
+      "barbell thruster",
+      "squat to press"
+    ],
+    "alternatives": [
+      "front_squat",
+      "overhead_press"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 2,
+      "technical_complexity": 3
     },
-    "equipment": [],
-    "id": "tire_flip",
+    "equipment": [
+      "barbell"
+    ],
+    "id": "thrusters",
     "injury_risk": null,
     "joint_rom_required": null,
     "muscle_activation_studies": [],
     "muscles": [
+      {
+        "id": "quadriceps",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "primary"
+      },
+      {
+        "id": "triceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "stabilizer"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Thrusters",
+    "path": "exercises/thrusters.md",
+    "pattern": [
+      "squat",
+      "vertical_press"
+    ],
+    "progressions": [],
+    "source": null,
+    "status": "stub",
+    "strength_curve": null,
+    "variations": [
+      "kettlebell_thruster"
+    ]
+  },
+  "tire_flip": {
+    "aliases": [],
+    "alternatives": [
+      "barbell_deadlift",
+      "power_clean"
+    ],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 4,
+      "technical_complexity": 3
+    },
+    "equipment": [
+      "tire"
+    ],
+    "id": "tire_flip",
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "supinated_grip_under_heavy_load_during_initial_lift",
+          "risk_factors": [
+            "underhand_curl_grip",
+            "excessive_tire_weight",
+            "fatigue"
+          ],
+          "structure": "biceps_tendon_distal"
+        },
+        {
+          "mechanism": "flexion_under_load_with_rounded_spine",
+          "risk_factors": [
+            "excessive_tire_weight",
+            "poor_hip_hinge",
+            "fatigue"
+          ],
+          "structure": "lumbar_disc"
+        },
+        {
+          "mechanism": "explosive_push_phase_with_arms_extended",
+          "risk_factors": [
+            "cold_muscles",
+            "excessive_speed",
+            "pre_existing_strain"
+          ],
+          "structure": "pectoralis_major"
+        }
+      ],
+      "contraindications": [
+        "active_biceps_tendinopathy",
+        "acute_lumbar_disc_herniation",
+        "pectoralis_major_strain"
+      ],
+      "joint_stress": {
+        "biceps_tendon": "high",
+        "lumbar_spine": "high",
+        "shoulder": "moderate"
+      }
+    },
+    "joint_rom_required": {
+      "hip_flexion_deg": 100,
+      "knee_flexion_deg": 90,
+      "shoulder_flexion_deg": 60,
+      "source": "biomechanical inference from deadlift-like initial pull and push-over phase"
+    },
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
       {
         "id": "rectus_femoris",
         "role": "primary"
@@ -35188,26 +36209,6 @@
         "role": "primary"
       },
       {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "pectoralis_major",
-        "role": "secondary"
-      },
-      {
-        "id": "forearm_flexors",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
         "id": "biceps_femoris",
         "role": "secondary"
       },
@@ -35216,33 +36217,121 @@
         "role": "secondary"
       },
       {
-        "id": "erector_spinae",
-        "role": "secondary"
-      },
-      {
         "id": "multifidus",
         "role": "secondary"
       },
       {
-        "id": "deltoid",
+        "id": "rectus_abdominis",
         "role": "secondary"
       },
       {
-        "id": "trapezius",
+        "id": "deltoid_anterior",
         "role": "secondary"
       },
       {
-        "id": "triceps_brachii",
+        "id": "pectoralis_major",
         "role": "secondary"
+      },
+      {
+        "id": "triceps_long",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_medial",
+        "role": "tertiary"
+      },
+      {
+        "id": "forearm_flexors",
+        "role": "secondary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "secondary"
+      },
+      {
+        "id": "trap_middle",
+        "role": "tertiary"
+      },
+      {
+        "id": "gastrocnemius_medial",
+        "role": "tertiary"
+      },
+      {
+        "id": "gastrocnemius_lateral",
+        "role": "tertiary"
+      },
+      {
+        "id": "soleus",
+        "role": "tertiary"
       }
     ],
     "name": "Tire Flip",
     "path": "exercises/tire_flip.md",
     "pattern": [
-      "carry"
+      "hinge"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "Hardest at the floor where the moment arm on the hips is longest. Once past 45 degrees, the push-over phase is mechanically easier.",
+      "sticking_point": "initial_break_from_ground",
+      "type": "ascending"
+    },
+    "variations": []
+  },
+  "toes_to_bar": {
+    "aliases": [
+      "T2B",
+      "toes-to-bar",
+      "knees to elbows progression"
+    ],
+    "alternatives": [
+      "hanging_leg_raise"
+    ],
+    "difficulty": {
+      "mobility_prerequisite": 3,
+      "strength_prerequisite": 2,
+      "technical_complexity": 3
+    },
+    "equipment": [
+      "pull_up_bar"
+    ],
+    "id": "toes_to_bar",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "rectus_abdominis",
+        "role": "primary"
+      },
+      {
+        "id": "hip_flexors",
+        "role": "primary"
+      },
+      {
+        "id": "latissimus_dorsi",
+        "role": "secondary"
+      },
+      {
+        "id": "obliques",
+        "role": "secondary"
+      }
+    ],
+    "name": "Toes to Bar",
+    "path": "exercises/toes_to_bar.md",
+    "pattern": [
+      "isolation"
+    ],
+    "progressions": [
+      "hanging_leg_raise"
+    ],
+    "source": null,
     "status": "stub",
     "strength_curve": null,
     "variations": []
@@ -36130,6 +37219,61 @@
     ],
     "progressions": [],
     "source": "free-exercise-db",
+    "status": "stub",
+    "strength_curve": null,
+    "variations": []
+  },
+  "wall_ball_shots": {
+    "aliases": [
+      "wall ball",
+      "wall ball throw",
+      "WBS"
+    ],
+    "alternatives": [
+      "thrusters"
+    ],
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 1,
+      "technical_complexity": 2
+    },
+    "equipment": [
+      "medicine_ball"
+    ],
+    "id": "wall_ball_shots",
+    "injury_risk": null,
+    "joint_rom_required": null,
+    "muscle_activation_studies": [],
+    "muscles": [
+      {
+        "id": "quadriceps",
+        "role": "primary"
+      },
+      {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "deltoid_anterior",
+        "role": "secondary"
+      },
+      {
+        "id": "triceps_brachii",
+        "role": "secondary"
+      },
+      {
+        "id": "rectus_abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "name": "Wall Ball Shots",
+    "path": "exercises/wall_ball_shots.md",
+    "pattern": [
+      "squat",
+      "vertical_press"
+    ],
+    "progressions": [],
+    "source": null,
     "status": "stub",
     "strength_curve": null,
     "variations": []
@@ -37217,18 +38361,61 @@
   },
   "yoke_walk": {
     "aliases": [],
-    "alternatives": [],
+    "alternatives": [
+      "farmers_walk"
+    ],
     "difficulty": {
-      "mobility_prerequisite": null,
-      "strength_prerequisite": null,
-      "technical_complexity": null
+      "mobility_prerequisite": 1,
+      "strength_prerequisite": 5,
+      "technical_complexity": 3
     },
-    "equipment": [],
+    "equipment": [
+      "yoke"
+    ],
     "id": "yoke_walk",
-    "injury_risk": null,
-    "joint_rom_required": null,
+    "injury_risk": {
+      "common_injuries": [
+        {
+          "mechanism": "axial_compression_under_supramaximal_load",
+          "risk_factors": [
+            "excessive_load",
+            "lateral_sway",
+            "uneven_surface"
+          ],
+          "structure": "lumbar_disc"
+        },
+        {
+          "mechanism": "compressive_load_during_short_stride_gait",
+          "risk_factors": [
+            "excessive_load",
+            "pre_existing_knee_pathology",
+            "uneven_terrain"
+          ],
+          "structure": "knee_meniscus"
+        }
+      ],
+      "contraindications": [
+        "acute_lumbar_disc_herniation",
+        "spinal_compression_fracture_history",
+        "active_knee_meniscus_tear"
+      ],
+      "joint_stress": {
+        "knee": "moderate",
+        "lumbar_spine": "high",
+        "thoracic_spine": "high"
+      }
+    },
+    "joint_rom_required": {
+      "hip_flexion_deg": 24,
+      "knee_flexion_deg": 20,
+      "source": "biomechanical data — hip 23.8 +/- 7.1 deg flexion at heel strike; knees highly extended throughout stance"
+    },
     "muscle_activation_studies": [],
     "muscles": [
+      {
+        "id": "erector_spinae",
+        "role": "primary"
+      },
       {
         "id": "rectus_femoris",
         "role": "primary"
@@ -37242,7 +38429,23 @@
         "role": "primary"
       },
       {
+        "id": "gluteus_maximus",
+        "role": "primary"
+      },
+      {
+        "id": "trap_upper",
+        "role": "primary"
+      },
+      {
         "id": "rectus_abdominis",
+        "role": "secondary"
+      },
+      {
+        "id": "obliques",
+        "role": "secondary"
+      },
+      {
+        "id": "multifidus",
         "role": "secondary"
       },
       {
@@ -37258,18 +38461,6 @@
         "role": "secondary"
       },
       {
-        "id": "gastrocnemius",
-        "role": "secondary"
-      },
-      {
-        "id": "soleus",
-        "role": "secondary"
-      },
-      {
-        "id": "gluteus_maximus",
-        "role": "secondary"
-      },
-      {
         "id": "biceps_femoris",
         "role": "secondary"
       },
@@ -37278,11 +38469,15 @@
         "role": "secondary"
       },
       {
-        "id": "erector_spinae",
+        "id": "gastrocnemius_medial",
         "role": "secondary"
       },
       {
-        "id": "multifidus",
+        "id": "gastrocnemius_lateral",
+        "role": "secondary"
+      },
+      {
+        "id": "soleus",
         "role": "secondary"
       }
     ],
@@ -37292,9 +38487,13 @@
       "carry"
     ],
     "progressions": [],
-    "source": "free-exercise-db",
-    "status": "stub",
-    "strength_curve": null,
+    "source": null,
+    "status": "complete",
+    "strength_curve": {
+      "notes": "The pick (unracking) demands peak force production. During the walk, legs and trunk work near-isometrically under extreme compressive load.",
+      "sticking_point": "pick_and_first_step",
+      "type": "isometric_hold"
+    },
     "variations": []
   },
   "zercher_squats": {

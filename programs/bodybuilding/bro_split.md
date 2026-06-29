@@ -82,7 +82,7 @@ exercises:
       allow full scapular protraction at stretch; pause at peak contraction. Rhomboid
       and mid-trap emphasis to balance the lat-dominant exercises earlier in the session.
 
-  - ref: lat_pulldown
+  - ref: wide_grip_lat_pulldown
     role: secondary
     frequency_per_week: 1
     technical_notes: >
@@ -107,7 +107,7 @@ exercises:
       stop at parallel. Avoid shrugging; the trap is not the target. Cable laterals
       provide consistent tension through ROM as an alternative to dumbbells.
 
-  - ref: rear_delt_fly
+  - ref: seated_bent_over_rear_delt_raise
     role: secondary
     frequency_per_week: 1
     technical_notes: >
@@ -141,7 +141,7 @@ exercises:
       Bench at 45–60°; full shoulder extension places long head under maximal stretch.
       One of the best bicep peak exercises due to full ROM in the elongated position.
 
-  - ref: dumbbell_concentration_curls
+  - ref: concentration_curls
     role: secondary
     frequency_per_week: 1
     technical_notes: >
@@ -166,7 +166,7 @@ exercises:
       flexion for full stretch — overhead extension accomplishes this; skull crushers
       provide heavy loading in the shortened range.
 
-  - ref: overhead_tricep_extension
+  - ref: cable_rope_overhead_triceps_extension
     role: secondary
     frequency_per_week: 1
     technical_notes: >

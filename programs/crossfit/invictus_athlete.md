@@ -58,7 +58,7 @@ exercises:
       PM strength Monday/Thursday. Strict press 4×5 at 70–80% 1RM. Shoulder strength
       reserve for kipping HSPU cycling and overhead barbell stability.
 
-  - ref: muscle_ups
+  - ref: muscle_up
     role: primary
     frequency_per_week: 3
     technical_notes: >
