@@ -1,6 +1,4 @@
-# Barlore Training Science Principles
-
-11 core training principles.
+# Barlore Training Science Principles (Full)
 
 ---
 

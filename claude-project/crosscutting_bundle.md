@@ -1,36 +1,44 @@
-# Barlore Nutrition, Recovery & Special Populations
-
-22 crosscutting entries.
+# Barlore Nutrition, Recovery & Special Populations (Full)
 
 ---
+
+<!-- FILE: crosscutting/cardio/aerobic_base.md -->
 
 ---
 id: aerobic_base
 name: Aerobic Base and Cardiovascular Fitness
-aliases:
-- VO2max
-- Zone 2
-- aerobic capacity
-- cardiovascular training
-- polarized training
-- LISS
+aliases: [VO2max, Zone 2, aerobic capacity, cardiovascular training, polarized training, LISS]
 category: cardio
-applies_to:
-- all_systems
-related:
-- concurrent_training
-- energy_balance
-- active_recovery
-- sra_curve
+applies_to: [all_systems]
+related: [concurrent_training, energy_balance, active_recovery, sra_curve]
 sources:
-- title: What is Best Practice for Training Intensity and Duration Distribution in
-    Endurance Athletes?
-  credibility: literature_review
-- title: Intensity domains and the physiology of high-intensity exercise
-  credibility: literature_review
-- title: 'AHA/ACSM Joint Position Statement: Recommendations for Cardiovascular Screening,
-    Staffing, and Emergency Policies at Health/Fitness Facilities'
-  credibility: expert_consensus
+  - title: "What is Best Practice for Training Intensity and Duration Distribution in Endurance Athletes?"
+    author: "Seiler, S."
+    year: 2010
+    journal: "International Journal of Sports Physiology and Performance"
+    volume: 5
+    issue: 3
+    pages: "276-291"
+    doi: "10.1123/ijspp.5.3.276"
+    credibility: literature_review
+  - title: "Intensity domains and the physiology of high-intensity exercise"
+    author: "Burnley, M., Jones, A. M."
+    year: 2018
+    journal: "European Journal of Sport Science"
+    volume: 18
+    issue: 1
+    pages: "1-13"
+    doi: "10.1080/17461391.2017.1315417"
+    credibility: literature_review
+  - title: "AHA/ACSM Joint Position Statement: Recommendations for Cardiovascular Screening, Staffing, and Emergency Policies at Health/Fitness Facilities"
+    author: "Fletcher, G. F., Ades, P. A., Kligfield, P., et al."
+    year: 2013
+    journal: "Circulation"
+    volume: 128
+    issue: 23
+    pages: "2562-2596"
+    doi: "10.1161/01.cir.0000435732.88681.d7"
+    credibility: expert_consensus
 ---
 
 # Aerobic Base and Cardiovascular Fitness
@@ -127,31 +135,43 @@ The mechanism is often misunderstood. The benefit is not metabolic efficiency du
 
 ---
 
+<!-- FILE: crosscutting/cardio/concurrent_training.md -->
+
 ---
 id: concurrent_training
 name: Concurrent Training
-aliases:
-- interference effect
-- cardio and strength
-- aerobic and resistance
-- concurrent programming
+aliases: [interference effect, cardio and strength, aerobic and resistance, concurrent programming]
 category: cardio
-applies_to:
-- all_systems
-related:
-- aerobic_base
-- load_management
-- active_recovery
-- energy_balance
+applies_to: [all_systems]
+related: [aerobic_base, load_management, active_recovery, energy_balance]
 sources:
-- title: 'Concurrent Training: A Meta-Analysis Examining Interference of Aerobic and
-    Resistance Exercises'
-  credibility: meta_analysis
-- title: 'Concurrent exercise training: do opposites distract?'
-  credibility: literature_review
-- title: Interference of strength development by simultaneously training for strength
-    and endurance
-  credibility: rct
+  - title: "Concurrent Training: A Meta-Analysis Examining Interference of Aerobic and Resistance Exercises"
+    author: "Wilson, J. M., Marin, P. J., Rhea, M. R., Wilson, S. M. C., Loenneke, J. P., Anderson, J. C."
+    year: 2012
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 26
+    issue: 8
+    pages: "2293-2307"
+    doi: "10.1519/JSC.0b013e31823a3e2d"
+    credibility: meta_analysis
+  - title: "Concurrent exercise training: do opposites distract?"
+    author: "Coffey, V. G., Hawley, J. A."
+    year: 2017
+    journal: "Journal of Physiology"
+    volume: 595
+    issue: 9
+    pages: "2883-2896"
+    doi: "10.1113/JP272270"
+    credibility: literature_review
+  - title: "Interference of strength development by simultaneously training for strength and endurance"
+    author: "Hickson, R. C."
+    year: 1980
+    journal: "European Journal of Applied Physiology and Occupational Physiology"
+    volume: 45
+    issue: 2-3
+    pages: "255-263"
+    doi: "10.1007/BF00421333"
+    credibility: rct
 ---
 
 # Concurrent Training
@@ -293,37 +313,52 @@ Strength first, aerobic second, keep aerobic duration short to limit post-sessio
 
 ---
 
+<!-- FILE: crosscutting/cardio/hiit_protocol.md -->
+
 ---
 id: hiit_protocol
 name: High-Intensity Interval Training (HIIT) Protocols
-aliases:
-- HIIT
-- SIT
-- sprint interval training
-- interval training
-- Norwegian 4x4
-- Tabata
-- high-intensity cardio
+aliases: [HIIT, SIT, sprint interval training, interval training, Norwegian 4x4, Tabata, high-intensity cardio]
 category: cardio
-applies_to:
-- all_systems
-related:
-- aerobic_base
-- concurrent_training
-- sra_curve
-- energy_balance
+applies_to: [all_systems]
+related: [aerobic_base, concurrent_training, sra_curve, energy_balance]
 sources:
-- title: Aerobic high-intensity intervals improve VO2max more than moderate training
-  credibility: rct
-- title: Effects of moderate-intensity endurance and high-intensity intermittent training
-    on anaerobic capacity and VO2max
-  credibility: rct
-- title: The 10-20-30 training concept improves performance and health profile in
-    moderately trained runners
-  credibility: rct
-- title: 'Short-term sprint interval versus traditional endurance training: similar
-    initial adaptations in human skeletal muscle and exercise performance'
-  credibility: rct
+  - title: "Aerobic high-intensity intervals improve VO2max more than moderate training"
+    author: "Helgerud, J., Høydal, K., Wang, E., Karlsen, T., Berg, P., Bjerkaas, M., et al."
+    year: 2007
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 39
+    issue: 4
+    pages: "665-671"
+    doi: "10.1249/mss.0b013e3180304570"
+    credibility: rct
+  - title: "Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max"
+    author: "Tabata, I., Nishimura, K., Kouzaki, M., Hirai, Y., Ogita, F., Miyachi, M., Yamamoto, K."
+    year: 1996
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 28
+    issue: 10
+    pages: "1327-1330"
+    doi: "10.1097/00005768-199610000-00018"
+    credibility: rct
+  - title: "The 10-20-30 training concept improves performance and health profile in moderately trained runners"
+    author: "Gunnarsson, T. P., Bangsbo, J."
+    year: 2012
+    journal: "Journal of Applied Physiology"
+    volume: 113
+    issue: 1
+    pages: "16-23"
+    doi: "10.1152/japplphysiol.00334.2012"
+    credibility: rct
+  - title: "Short-term sprint interval versus traditional endurance training: similar initial adaptations in human skeletal muscle and exercise performance"
+    author: "Burgomaster, K. A., Hughes, S. C., Heigenhauser, G. J. F., Bradwell, S. N., Gibala, M. J."
+    year: 2006
+    journal: "Journal of Physiology"
+    volume: 575
+    issue: 3
+    pages: "901-911"
+    doi: "10.1113/jphysiol.2006.112094"
+    credibility: rct
 ---
 
 # High-Intensity Interval Training (HIIT) Protocols
@@ -461,30 +496,43 @@ HIIT competes for recovery resources with heavy resistance training. The interfe
 
 ---
 
+<!-- FILE: crosscutting/injury_prevention/connective_tissue.md -->
+
 ---
 id: connective_tissue
 name: Connective Tissue Health
-aliases:
-- tendon health
-- ligament adaptation
-- collagen synthesis
-- tendinopathy
-- prehab
+aliases: [tendon health, ligament adaptation, collagen synthesis, tendinopathy, prehab]
 category: injury_prevention
-applies_to:
-- all_systems
-related:
-- load_management
-- warm_up
-- progressive_overload
+applies_to: [all_systems]
+related: [load_management, warm_up, progressive_overload]
 sources:
-- title: Vitamin C–enriched gelatin supplementation before intermittent activity augments
-    collagen synthesis
-  credibility: rct
-- title: 'Tendon adaptation to exercise and training: lessons for tendon rehabilitation'
-  credibility: literature_review
-- title: Tendon and ligament adaptation to exercise training
-  credibility: literature_review
+  - title: "Vitamin C–enriched gelatin supplementation before intermittent activity augments collagen synthesis"
+    author: "Shaw, G., Lee-Barthel, A., Ross, M. L., Wang, B., Baar, K."
+    year: 2017
+    journal: "American Journal of Clinical Nutrition"
+    volume: 105
+    issue: 1
+    pages: "136-143"
+    doi: "10.3945/ajcn.116.138594"
+    credibility: rct
+  - title: "Tendon adaptation to exercise and training: lessons for tendon rehabilitation"
+    author: "Magnusson, S. P., Langberg, H., Kjaer, M."
+    year: 2010
+    journal: "Journal of Applied Physiology"
+    volume: 108
+    issue: 3
+    pages: "684-689"
+    doi: "10.1152/japplphysiol.00893.2009"
+    credibility: literature_review
+  - title: "Tendon and ligament adaptation to exercise training"
+    author: "Bohm, S., Mersmann, F., Arampatzis, A."
+    year: 2015
+    journal: "British Journal of Sports Medicine"
+    volume: 49
+    issue: 11
+    pages: "705-712"
+    doi: "10.1136/bjsports-2014-094123"
+    credibility: literature_review
 ---
 
 # Connective Tissue Health
@@ -570,30 +618,34 @@ Isometric loading provides analgesic effect (neurological pain inhibition) and m
 
 ---
 
+<!-- FILE: crosscutting/injury_prevention/load_management.md -->
+
 ---
 id: load_management
 name: Training Load Management
-aliases:
-- ACWR
-- acute chronic workload ratio
-- ramp rate
-- training load
-- overuse injury prevention
+aliases: [ACWR, acute chronic workload ratio, ramp rate, training load, overuse injury prevention]
 category: injury_prevention
-applies_to:
-- all_systems
-related:
-- deload_protocol
-- active_recovery
-- sra_curve
-- volume_landmarks
+applies_to: [all_systems]
+related: [deload_protocol, active_recovery, sra_curve, volume_landmarks]
 sources:
-- title: 'The training—injury prevention paradox: should athletes be training smarter
-    and harder?'
-  credibility: literature_review
-- title: 'Debunking the myths about training load, injury and performance: empirical
-    evidence, hot topics and recommendations for practitioners'
-  credibility: literature_review
+  - title: "The training—injury prevention paradox: should athletes be training smarter and harder?"
+    author: "Gabbett, T. J."
+    year: 2016
+    journal: "British Journal of Sports Medicine"
+    volume: 50
+    issue: 5
+    pages: "273-280"
+    doi: "10.1136/bjsports-2015-095788"
+    credibility: literature_review
+  - title: "Debunking the myths about training load, injury and performance: empirical evidence, hot topics and recommendations for practitioners"
+    author: "Gabbett, T. J."
+    year: 2020
+    journal: "British Journal of Sports Medicine"
+    volume: 54
+    issue: 1
+    pages: "58-66"
+    doi: "10.1136/bjsports-2018-099784"
+    credibility: literature_review
 ---
 
 # Training Load Management
@@ -667,32 +719,43 @@ Practical implementation does not require spreadsheet-level tracking for most at
 
 ---
 
+<!-- FILE: crosscutting/injury_prevention/mobility_requirements.md -->
+
 ---
 id: mobility_requirements
 name: Movement Pattern Mobility Requirements
-aliases:
-- ROM requirements
-- joint mobility
-- flexibility prerequisites
-- movement screen
-- dorsiflexion
-- thoracic mobility
+aliases: [ROM requirements, joint mobility, flexibility prerequisites, movement screen, dorsiflexion, thoracic mobility]
 category: injury_prevention
-applies_to:
-- all_systems
-related:
-- warm_up
-- connective_tissue
-- load_management
+applies_to: [all_systems]
+related: [warm_up, connective_tissue, load_management]
 sources:
-- title: 'The back squat: A proposed assessment of functional deficits and technical
-    factors that limit performance'
-  credibility: literature_review
-- title: Reliability and validity of the weight-bearing lunge test as a measure of
-    ankle dorsiflexion range of motion
-  credibility: reliability_study
-- title: Thoracic spine mobility in overhead athletes
-  credibility: cross_sectional
+  - title: "The back squat: A proposed assessment of functional deficits and technical factors that limit performance"
+    author: "Myer, G. D., Kushner, A. M., Brent, J. L., Schoenfeld, B. J., Hugentobler, J., Lloyd, R. S., Vermeil, A., Chu, D. A., Harbin, J., McGill, S. M."
+    year: 2014
+    journal: "Strength and Conditioning Journal"
+    volume: 36
+    issue: 6
+    pages: "4-27"
+    doi: "10.1519/SSC.0000000000000103"
+    credibility: literature_review
+  - title: "Reliability and validity of the weight-bearing lunge test as a measure of ankle dorsiflexion range of motion"
+    author: "Bennell, K., Talbot, R., Wajswelner, H., Techovanich, W., Kelly, D., Hall, A."
+    year: 1998
+    journal: "Australian Journal of Physiotherapy"
+    volume: 44
+    issue: 3
+    pages: "175-180"
+    doi: "10.1016/S0004-9514(14)60377-9"
+    credibility: reliability_study
+  - title: "Thoracic spine mobility in overhead athletes"
+    author: "Crosbie, J., Kilbreath, S. L., Hollmann, L., York, S."
+    year: 2008
+    journal: "Manual Therapy"
+    volume: 13
+    issue: 6
+    pages: "490-496"
+    doi: "10.1016/j.math.2007.07.001"
+    credibility: cross_sectional
 ---
 
 # Movement Pattern Mobility Requirements
@@ -817,32 +880,34 @@ Mobility restrictions respond to different interventions depending on the limiti
 
 ---
 
+<!-- FILE: crosscutting/injury_prevention/overtraining_signs.md -->
+
 ---
 id: overtraining_signs
 name: Overtraining and Overreaching
-aliases:
-- overtraining syndrome
-- non-functional overreaching
-- NFO
-- OTS
-- accumulated fatigue
-- training stress
+aliases: [overtraining syndrome, non-functional overreaching, NFO, OTS, accumulated fatigue, training stress]
 category: injury_prevention
-applies_to:
-- all_systems
-related:
-- deload_protocol
-- sleep
-- active_recovery
-- load_management
-- sra_curve
+applies_to: [all_systems]
+related: [deload_protocol, sleep, active_recovery, load_management, sra_curve]
 sources:
-- title: 'Overtraining Syndrome: A Practical Guide'
-  credibility: literature_review
-- title: 'Prevention, diagnosis and treatment of the overtraining syndrome: joint
-    consensus statement of the European College of Sport Science and the American
-    College of Sports Medicine'
-  credibility: expert_consensus
+  - title: "Overtraining Syndrome: A Practical Guide"
+    author: "Kreher, J. B., Schwartz, J. B."
+    year: 2012
+    journal: "Sports Health"
+    volume: 4
+    issue: 2
+    pages: "128-138"
+    doi: "10.1177/1941738111434406"
+    credibility: literature_review
+  - title: "Prevention, diagnosis and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science and the American College of Sports Medicine"
+    author: "Meeusen, R., Duclos, M., Foster, C., et al."
+    year: 2013
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 45
+    issue: 1
+    pages: "186-205"
+    doi: "10.1249/MSS.0b013e318279a10a"
+    credibility: expert_consensus
 ---
 
 # Overtraining and Overreaching
@@ -950,40 +1015,60 @@ A minimal viable monitoring system that requires no equipment:
 
 ---
 
+<!-- FILE: crosscutting/nutrition/body_recomposition.md -->
+
 ---
 id: body_recomposition
 name: Body Recomposition
-aliases:
-- body recomp
-- recomp
-- simultaneous muscle gain and fat loss
-- gain muscle lose fat
-- lean gains
+aliases: [body recomp, recomp, simultaneous muscle gain and fat loss, gain muscle lose fat, lean gains]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- energy_balance
-- protein_requirements
-- progressive_overload
-- beginner_lifters
+applies_to: [all_systems]
+related: [energy_balance, protein_requirements, progressive_overload, beginner_lifters]
 sources:
-- title: 'Body Recomposition: Can Trained Individuals Build Muscle and Lose Fat at
-    the Same Time?'
-  credibility: expert_consensus
-- title: Effect of Two Different Weight-Loss Rates on Body Composition and Strength
-    and Power-Related Performance in Elite Athletes
-  credibility: rct
-- title: 'Higher compared with lower dietary protein during an energy deficit combined
-    with intense exercise promotes greater lean mass gain and fat mass loss: a randomized
-    trial'
-  credibility: rct
-- title: 'International Society of Sports Nutrition Position Stand: Diets and body
-    composition'
-  credibility: expert_consensus
-- title: 'A Systematic Review of Dietary Protein During Caloric Restriction in Resistance
-    Trained Lean Athletes: A Case for Higher Intakes'
-  credibility: meta_analysis
+  - title: "Body Recomposition: Can Trained Individuals Build Muscle and Lose Fat at the Same Time?"
+    author: "Barakat, C., Pearson, J., Escalante, G., Campbell, B., De Souza, E. O."
+    year: 2020
+    journal: "Strength and Conditioning Journal"
+    volume: 42
+    issue: 5
+    pages: "7-21"
+    doi: "10.1519/SSC.0000000000000584"
+    credibility: expert_consensus
+  - title: "Effect of Two Different Weight-Loss Rates on Body Composition and Strength and Power-Related Performance in Elite Athletes"
+    author: "Garthe, I., Raastad, T., Refsnes, P. E., Koivisto, A., Sundgot-Borgen, J."
+    year: 2011
+    journal: "International Journal of Sport Nutrition and Exercise Metabolism"
+    volume: 21
+    issue: 2
+    pages: "97-104"
+    doi: "10.1123/ijsnem.21.2.97"
+    credibility: rct
+  - title: "Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss: a randomized trial"
+    author: "Longland, T. M., Oikawa, S. Y., Mitchell, C. J., Devries, M. C., Phillips, S. M."
+    year: 2016
+    journal: "American Journal of Clinical Nutrition"
+    volume: 103
+    issue: 3
+    pages: "738-746"
+    doi: "10.3945/ajcn.115.119339"
+    credibility: rct
+  - title: "International Society of Sports Nutrition Position Stand: Diets and body composition"
+    author: "Aragon, A. A., Schoenfeld, B. J., Wildman, R., Kleiner, S., VanDusseldorp, T., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "16"
+    doi: "10.1186/s12970-017-0174-y"
+    credibility: expert_consensus
+  - title: "A Systematic Review of Dietary Protein During Caloric Restriction in Resistance Trained Lean Athletes: A Case for Higher Intakes"
+    author: "Helms, E. R., Zinn, C., Rowlands, D. S., Brown, S. R."
+    year: 2014
+    journal: "International Journal of Sport Nutrition and Exercise Metabolism"
+    volume: 24
+    issue: 2
+    pages: "127-138"
+    doi: "10.1123/ijsnem.2013-0054"
+    credibility: meta_analysis
 ---
 
 # Body Recomposition
@@ -1120,25 +1205,35 @@ Expectations must be calibrated to training status:
 
 ---
 
+<!-- FILE: crosscutting/nutrition/carbohydrate_requirements.md -->
+
 ---
 id: carbohydrate_requirements
 name: Carbohydrate Requirements
-aliases:
-- carb intake
-- carbohydrate targets
-- glycogen management
+aliases: [carb intake, carbohydrate targets, glycogen management]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- nutrient_timing
-- energy_balance
+applies_to: [all_systems]
+related: [protein_requirements, nutrient_timing, energy_balance]
 sources:
-- title: 'International Society of Sports Nutrition Position Stand: nutrient timing'
-  credibility: expert_consensus
-- title: 'International Society of Sports Nutrition Position Stand: protein and exercise'
-  credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: nutrient timing"
+    author: "Kerksick, C. M., Arent, S., Schoenfeld, B. J., Stout, J. R., Campbell, B., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "25"
+    doi: "10.1186/s12970-017-0189-4"
+    pmcid: "PMC5596471"
+    credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: protein and exercise"
+    author: "Jager, R., Kerksick, C. M., Campbell, B. I., Cribb, P. J., Wells, S. D., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "20"
+    doi: "10.1186/s12970-017-0177-8"
+    pmid: "28642676"
+    pmcid: "PMC5477153"
+    credibility: expert_consensus
 ---
 
 # Carbohydrate Requirements
@@ -1224,29 +1319,36 @@ daily totals are sufficient.
 
 ---
 
+<!-- FILE: crosscutting/nutrition/energy_balance.md -->
+
 ---
 id: energy_balance
 name: Energy Balance
-aliases:
-- caloric balance
-- caloric surplus
-- caloric deficit
-- bulking
-- cutting
+aliases: [caloric balance, caloric surplus, caloric deficit, bulking, cutting]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- carbohydrate_requirements
-- nutrient_timing
-- body_recomposition
+applies_to: [all_systems]
+related: [protein_requirements, carbohydrate_requirements, nutrient_timing, body_recomposition]
 sources:
-- title: 'International Society of Sports Nutrition Position Stand: Diets and body
-    composition'
-  credibility: expert_consensus
-- title: 'International Society of Sports Nutrition Position Stand: protein and exercise'
-  credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: Diets and body composition"
+    author: "Aragon, A. A., Schoenfeld, B. J., Wildman, R., Kleiner, S., VanDusseldorp, T., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "16"
+    doi: "10.1186/s12970-017-0174-y"
+    pmid: "28630601"
+    pmcid: "PMC5470183"
+    credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: protein and exercise"
+    author: "Jager, R., Kerksick, C. M., Campbell, B. I., Cribb, P. J., Wells, S. D., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "20"
+    doi: "10.1186/s12970-017-0177-8"
+    pmid: "28642676"
+    pmcid: "PMC5477153"
+    credibility: expert_consensus
 ---
 
 # Energy Balance
@@ -1396,29 +1498,42 @@ population.
 
 ---
 
+<!-- FILE: crosscutting/nutrition/fat_requirements.md -->
+
 ---
 id: fat_requirements
 name: Fat Requirements
-aliases:
-- dietary fat
-- lipid intake
-- essential fatty acids
-- omega-3
+aliases: [dietary fat, lipid intake, essential fatty acids, omega-3]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- carbohydrate_requirements
-- energy_balance
+applies_to: [all_systems]
+related: [protein_requirements, carbohydrate_requirements, energy_balance]
 sources:
-- title: 'International Society of Sports Nutrition Position Stand: Diets and body
-    composition'
-  credibility: expert_consensus
-- title: Omega-3 Fatty Acids and Skeletal Muscle Health
-  credibility: rct
-- title: Dietary fat and testosterone
-  credibility: rct
+  - title: "International Society of Sports Nutrition Position Stand: Diets and body composition"
+    author: "Aragon, A. A., Schoenfeld, B. J., Wildman, R., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "16"
+    doi: "10.1186/s12970-017-0174-y"
+    credibility: expert_consensus
+  - title: "Omega-3 Fatty Acids and Skeletal Muscle Health"
+    author: "Smith, G. I., Julliand, S., Reeds, D. N., Sinacore, D. R., Klein, S., Mittendorfer, B."
+    year: 2011
+    journal: "American Journal of Clinical Nutrition"
+    volume: 93
+    issue: 2
+    pages: "402-412"
+    doi: "10.3945/ajcn.110.005611"
+    credibility: rct
+  - title: "Dietary fat and testosterone"
+    author: "Hamalainen, E., Adlercreutz, H., Puska, P., Pietinen, P."
+    year: 1984
+    journal: "Steroids"
+    volume: 44
+    issue: 4
+    pages: "347-361"
+    doi: "10.1016/0039-128X(84)90105-7"
+    credibility: rct
 ---
 
 # Fat Requirements
@@ -1479,25 +1594,34 @@ The implication is that fat restriction during hypocaloric phases should floor a
 
 ---
 
+<!-- FILE: crosscutting/nutrition/hydration.md -->
+
 ---
 id: hydration
 name: Hydration
-aliases:
-- fluid intake
-- water intake
-- electrolytes
-- dehydration
+aliases: [fluid intake, water intake, electrolytes, dehydration]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- nutrient_timing
-- energy_balance
+applies_to: [all_systems]
+related: [nutrient_timing, energy_balance]
 sources:
-- title: 'American College of Sports Medicine Position Stand: Exercise and Fluid Replacement'
-  credibility: expert_consensus
-- title: Dehydration and its effects on performance
-  credibility: literature_review
+  - title: "American College of Sports Medicine Position Stand: Exercise and Fluid Replacement"
+    author: "Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., Stachenfeld, N. S."
+    year: 2007
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 39
+    issue: 2
+    pages: "377-390"
+    doi: "10.1249/mss.0b013e31802ca597"
+    credibility: expert_consensus
+  - title: "Dehydration and its effects on performance"
+    author: "Judelson, D. A., Maresh, C. M., Anderson, J. M., et al."
+    year: 2007
+    journal: "Sports Medicine"
+    volume: 37
+    issue: 10
+    pages: "907-921"
+    doi: "10.2165/00007256-200737100-00006"
+    credibility: literature_review
 ---
 
 # Hydration
@@ -1566,22 +1690,25 @@ Caffeine has a mild diuretic effect at doses above 250–300 mg (roughly 2–3 e
 
 ---
 
+<!-- FILE: crosscutting/nutrition/nutrient_timing.md -->
+
 ---
 id: nutrient_timing
 name: Nutrient Timing
-aliases:
-- peri-workout nutrition
-- workout nutrition timing
+aliases: [peri-workout nutrition, workout nutrition timing]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- carbohydrate_requirements
-- energy_balance
+applies_to: [all_systems]
+related: [protein_requirements, carbohydrate_requirements, energy_balance]
 sources:
-- title: 'International Society of Sports Nutrition Position Stand: nutrient timing'
-  credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: nutrient timing"
+    author: "Kerksick, C. M., Arent, S., Schoenfeld, B. J., Stout, J. R., Campbell, B., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "25"
+    doi: "10.1186/s12970-017-0189-4"
+    pmcid: "PMC5596471"
+    credibility: expert_consensus
 ---
 
 # Nutrient Timing
@@ -1681,17 +1808,18 @@ substantially extends the effective window. The practical rule:
 
 ---
 
+<!-- FILE: crosscutting/nutrition/protein_requirements.md -->
+
 ---
 id: protein_requirements
 name: Protein Requirements
 category: nutrition
-applies_to:
-- all_systems
+applies_to: [all_systems]
 related: []
 sources:
-- title: A systematic review, meta-analysis and meta-regression of the effect of protein
-    supplementation on resistance training-induced gains
-  credibility: meta_analysis
+  - title: "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains"
+    author: "Morton et al."
+    credibility: meta_analysis
 ---
 
 # Protein Requirements
@@ -1734,31 +1862,40 @@ The target band is similar across systems, but a bodybuilder in a cutting phase 
 
 ---
 
+<!-- FILE: crosscutting/nutrition/supplementation.md -->
+
 ---
 id: supplementation
 name: Evidence-Based Supplementation
-aliases:
-- supplements
-- creatine
-- caffeine
-- beta-alanine
-- sports supplements
+aliases: [supplements, creatine, caffeine, beta-alanine, sports supplements]
 category: nutrition
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- energy_balance
-- nutrient_timing
+applies_to: [all_systems]
+related: [protein_requirements, energy_balance, nutrient_timing]
 sources:
-- title: 'International Society of Sports Nutrition Position Stand: safety and efficacy
-    of creatine supplementation in exercise, sport, and medicine'
-  credibility: expert_consensus
-- title: 'International Society of Sports Nutrition Position Stand: caffeine and exercise
-    performance'
-  credibility: expert_consensus
-- title: 'International Society of Sports Nutrition Position Stand: beta-alanine'
-  credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine"
+    author: "Kreider, R. B., Kalman, D. S., Antonio, J., et al."
+    year: 2017
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 14
+    pages: "18"
+    doi: "10.1186/s12970-017-0173-z"
+    credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: caffeine and exercise performance"
+    author: "Guest, N. S., VanDusseldorp, T. A., Nelson, M. T., et al."
+    year: 2021
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 18
+    pages: "1"
+    doi: "10.1186/s12970-020-00383-4"
+    credibility: expert_consensus
+  - title: "International Society of Sports Nutrition Position Stand: beta-alanine"
+    author: "Trexler, E. T., Smith-Ryan, A. E., Stout, J. R., et al."
+    year: 2015
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 12
+    pages: "30"
+    doi: "10.1186/s12970-015-0090-y"
+    credibility: expert_consensus
 ---
 
 # Evidence-Based Supplementation
@@ -1867,26 +2004,34 @@ The following supplements are frequently marketed to strength athletes but lack 
 
 ---
 
+<!-- FILE: crosscutting/recovery/active_recovery.md -->
+
 ---
 id: active_recovery
 name: Active Recovery
-aliases:
-- recovery training
-- light activity
-- rest day movement
-- active rest
+aliases: [recovery training, light activity, rest day movement, active rest]
 category: recovery
-applies_to:
-- all_systems
-related:
-- sleep
-- deload_protocol
-- warm_up
+applies_to: [all_systems]
+related: [sleep, deload_protocol, warm_up]
 sources:
-- title: Active versus passive recovery from high intensity exercise
-  credibility: rct
-- title: Light resistance training improves recovery from high-intensity exercise
-  credibility: rct
+  - title: "Active versus passive recovery from high intensity exercise"
+    author: "Menzies, P., Menzies, C., McIntyre, L., Paterson, P., Wilson, J., Kemi, O. J."
+    year: 2010
+    journal: "International Journal of Sports Medicine"
+    volume: 31
+    issue: 4
+    pages: "236-241"
+    doi: "10.1055/s-0030-1249973"
+    credibility: rct
+  - title: "Light resistance training improves recovery from high-intensity exercise"
+    author: "Andersson, H., Raastad, T., Nilsson, J., Paulsen, G., Garthe, I., Kadi, F."
+    year: 2008
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 40
+    issue: 2
+    pages: "311-319"
+    doi: "10.1249/mss.0b013e31815b952c"
+    credibility: rct
 ---
 
 # Active Recovery
@@ -1959,22 +2104,23 @@ Heat exposure (sauna, 15–20 min at 80–100°C) after training has modest evid
 
 ---
 
+<!-- FILE: crosscutting/recovery/deload_protocol.md -->
+
 ---
 id: deload_protocol
 name: Deload Protocol
-aliases:
-- planned deload
-- recovery week protocol
-- unloading protocol
+aliases: [planned deload, recovery week protocol, unloading protocol]
 category: recovery
-applies_to:
-- all_systems
-related:
-- sleep
+applies_to: [all_systems]
+related: [sleep]
 sources:
-- title: 'Deloading in strength and physique sports: a qualitative/expert consensus
-    analysis'
-  credibility: expert_consensus
+  - title: "Deloading in strength and physique sports: a qualitative/expert consensus analysis"
+    author: "Bell, L., Nolan, D., et al."
+    year: 2023
+    journal: "Frontiers in Sports and Active Living"
+    doi: "10.3389/fspor.2022.1073223"
+    pmcid: "PMC10511399"
+    credibility: expert_consensus
 ---
 
 # Deload Protocol
@@ -2057,21 +2203,26 @@ to a general deload (keeping intensity high) defeats the recovery purpose.
 
 ---
 
+<!-- FILE: crosscutting/recovery/sleep.md -->
+
 ---
 id: sleep
 name: Sleep and Athletic Recovery
-aliases:
-- sleep optimization
-- recovery sleep
-- sleep hygiene
+aliases: [sleep optimization, recovery sleep, sleep hygiene]
 category: recovery
-applies_to:
-- all_systems
-related:
-- deload_protocol
+applies_to: [all_systems]
+related: [deload_protocol]
 sources:
-- title: 'Sleep and the athlete: narrative review and 2021 expert consensus recommendations'
-  credibility: expert_consensus
+  - title: "Sleep and the athlete: narrative review and 2021 expert consensus recommendations"
+    author: "Walsh, N. P., Halson, S. L., Sargent, C., Roach, G. D., Nédélec, M., et al."
+    year: 2021
+    journal: "British Journal of Sports Medicine"
+    volume: 55
+    issue: 7
+    pages: "356-368"
+    doi: "10.1136/bjsports-2020-102025"
+    pmid: "33144349"
+    credibility: expert_consensus
 ---
 
 # Sleep and Athletic Recovery
@@ -2176,25 +2327,34 @@ The intervention framework is identical across systems, but the risk context dif
 
 ---
 
+<!-- FILE: crosscutting/recovery/warm_up.md -->
+
 ---
 id: warm_up
 name: Warm-Up Protocol
-aliases:
-- pre-training warm-up
-- activation
-- general warm-up
-- specific warm-up
+aliases: [pre-training warm-up, activation, general warm-up, specific warm-up]
 category: recovery
-applies_to:
-- all_systems
-related:
-- sleep
-- deload_protocol
+applies_to: [all_systems]
+related: [sleep, deload_protocol]
 sources:
-- title: A systematic review into the effects of warm up on performance
-  credibility: literature_review
-- title: The effects of a warm-up protocol on the performance of trained athletes
-  credibility: literature_review
+  - title: "A systematic review into the effects of warm up on performance"
+    author: "Fradkin, A. J., Zazryn, T. R., Smoliga, J. M."
+    year: 2010
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 24
+    issue: 1
+    pages: "140-148"
+    doi: "10.1519/JSC.0b013e3181c643a0"
+    credibility: literature_review
+  - title: "The effects of a warm-up protocol on the performance of trained athletes"
+    author: "Behm, D. G., Blazevich, A. J., Kay, A. D., McHugh, M."
+    year: 2016
+    journal: "Applied Physiology, Nutrition, and Metabolism"
+    volume: 41
+    issue: 1
+    pages: "1-11"
+    doi: "10.1139/apnm-2015-0235"
+    credibility: literature_review
 ---
 
 # Warm-Up Protocol
@@ -2276,42 +2436,54 @@ A common objection to warm-ups is time. The specific warm-up sets are not wasted
 
 ---
 
+<!-- FILE: crosscutting/special_populations/beginner_lifters.md -->
+
 ---
 id: beginner_lifters
 name: Beginner Lifters — Getting Started Guide
-aliases:
-- beginner training
-- novice lifters
-- first time gym
-- new to lifting
-- getting started
-- how to start training
+aliases: [beginner training, novice lifters, first time gym, new to lifting, getting started, how to start training]
 category: special_populations
-applies_to:
-- all_systems
-related:
-- progressive_overload
-- rep_continuum
-- rpe_rir
-- deload
-- protein_requirements
-- energy_balance
-- warm_up
-- connective_tissue
+applies_to: [all_systems]
+related: [progressive_overload, rep_continuum, rpe_rir, deload, protein_requirements, energy_balance, warm_up, connective_tissue]
 sources:
-- title: 'Starting Strength: Basic Barbell Training'
-  credibility: practitioner
-- title: Essentials of Strength Training and Conditioning
-  credibility: expert_consensus
-- title: 'Dose-response relationship between weekly resistance training volume and
-    increases in muscle mass: A systematic review and meta-analysis'
-  credibility: meta_analysis
-- title: 'Muscular adaptations in response to three different resistance-training
-    regimens: specificity of repetition maximum training zones'
-  credibility: rct
-- title: A systematic review of the effects of different resistance training volumes
-    on muscle hypertrophy
-  credibility: meta_analysis
+  - title: "Starting Strength: Basic Barbell Training"
+    author: "Rippetoe, Mark"
+    year: 2017
+    publisher: "The Aasgaard Company"
+    edition: 3
+    credibility: practitioner
+  - title: "Essentials of Strength Training and Conditioning"
+    author: "Haff, G. Gregory; Triplett, N. Travis"
+    year: 2016
+    publisher: "Human Kinetics"
+    edition: 4
+    credibility: expert_consensus
+  - title: "Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis"
+    author: "Schoenfeld, B. J., Ogborn, D., Krieger, J. W."
+    year: 2017
+    journal: "Journal of Sports Sciences"
+    volume: 35
+    issue: 11
+    pages: "1073-1082"
+    doi: "10.1080/02640414.2016.1210197"
+    credibility: meta_analysis
+  - title: "Muscular adaptations in response to three different resistance-training regimens: specificity of repetition maximum training zones"
+    author: "Campos, G. E., Luecke, T. J., Wendeln, H. K., Toma, K., Hagerman, F. C., Murray, T. F., et al."
+    year: 2002
+    journal: "European Journal of Applied Physiology"
+    volume: 88
+    issue: 1-2
+    pages: "50-60"
+    doi: "10.1007/s00421-002-0681-6"
+    credibility: rct
+  - title: "A systematic review of the effects of different resistance training volumes on muscle hypertrophy"
+    author: "Baz-Valle, E., Fontes-Villalba, M., Santos-Concejero, J."
+    year: 2021
+    journal: "Journal of Human Kinetics"
+    volume: 81
+    pages: "199-210"
+    doi: "10.2478/hukin-2022-0017"
+    credibility: meta_analysis
 ---
 
 # Beginner Lifters — Getting Started Guide
@@ -2521,38 +2693,61 @@ All systems converge on the same foundational movements for beginners. The diffe
 
 ---
 
+<!-- FILE: crosscutting/special_populations/female_athletes.md -->
+
 ---
 id: female_athletes
 name: Female Athletes — Training Considerations
-aliases:
-- women's training
-- menstrual cycle training
-- female physiology
-- hormonal periodization
-- female strength training
+aliases: [women's training, menstrual cycle training, female physiology, hormonal periodization, female strength training]
 category: special_populations
-applies_to:
-- all_systems
-related:
-- energy_balance
-- protein_requirements
-- overtraining_signs
-- load_management
-- connective_tissue
+applies_to: [all_systems]
+related: [energy_balance, protein_requirements, overtraining_signs, load_management, connective_tissue]
 sources:
-- title: 'The effect of the menstrual cycle on exercise metabolism: implications for
-    exercise performance in eumenorrhoeic women'
-  credibility: meta_analysis
-- title: Effects of the menstrual cycle phase on the relationship between short-term
-    power and body composition
-  credibility: rct
-- title: 'IOC consensus statement on relative energy deficiency in sport (RED-S):
-    2018 update'
-  credibility: expert_consensus
-- title: Iron status and the female athlete
-  credibility: literature_review
-- title: ACL injury risk factors and prevention programs in female athletes
-  credibility: literature_review
+  - title: "The effect of the menstrual cycle on exercise metabolism: implications for exercise performance in eumenorrhoeic women"
+    author: "McNulty, K. L., Elliott-Sale, K. J., Dolan, E., Swinton, P. A., Ansdell, P., Goodall, S., et al."
+    year: 2020
+    journal: "Sports Medicine"
+    volume: 50
+    issue: 10
+    pages: "1813-1827"
+    doi: "10.1007/s40279-020-01319-3"
+    credibility: meta_analysis
+  - title: "Effects of the menstrual cycle phase on the relationship between short-term power and body composition"
+    author: "Sung, E., Han, A., Hinrichs, T., Vorgerd, M., Manchado, C., Platen, P."
+    year: 2014
+    journal: "Journal of Physiology and Anthropology"
+    volume: 33
+    issue: 1
+    pages: "11"
+    doi: "10.1186/1880-6805-33-11"
+    credibility: rct
+  - title: "IOC consensus statement on relative energy deficiency in sport (RED-S): 2018 update"
+    author: "Mountjoy, M., Sundgot-Borgen, J. K., Burke, L. M., Ackerman, K. E., Blauwet, C., Constantini, N., et al."
+    year: 2018
+    journal: "British Journal of Sports Medicine"
+    volume: 52
+    issue: 11
+    pages: "687-697"
+    doi: "10.1136/bjsports-2018-099193"
+    credibility: expert_consensus
+  - title: "Iron status and the female athlete"
+    author: "Wohlgemuth, K. J., Arieta, L. R., Brewer, G. J., Hoselton, A. L., Gould, L. M., Smith-Ryan, A. E."
+    year: 2021
+    journal: "Journal of the International Society of Sports Nutrition"
+    volume: 18
+    issue: 1
+    pages: "47"
+    doi: "10.1186/s12970-021-00441-x"
+    credibility: literature_review
+  - title: "ACL injury risk factors and prevention programs in female athletes"
+    author: "Hewett, T. E., Ford, K. R., Hoogenboom, B. J., Myer, G. D."
+    year: 2010
+    journal: "Sports Health"
+    volume: 2
+    issue: 6
+    pages: "496-509"
+    doi: "10.1177/1941738110385004"
+    credibility: literature_review
 ---
 
 # Female Athletes — Training Considerations
@@ -2694,42 +2889,60 @@ For female athletes in team sports or sports with high cutting demand, ACL preve
 
 ---
 
+<!-- FILE: crosscutting/special_populations/masters_athletes.md -->
+
 ---
 id: masters_athletes
 name: Masters Athletes (35+) — Training Considerations
-aliases:
-- masters athletes
-- aging athletes
-- older athletes
-- 35+
-- 40+
-- 50+
-- sarcopenia prevention
-- age-related training
+aliases: [masters athletes, aging athletes, older athletes, 35+, 40+, 50+, sarcopenia prevention, age-related training]
 category: special_populations
-applies_to:
-- all_systems
-related:
-- protein_requirements
-- energy_balance
-- connective_tissue
-- active_recovery
-- sleep
-- overtraining_signs
-- deload_protocol
+applies_to: [all_systems]
+related: [protein_requirements, energy_balance, connective_tissue, active_recovery, sleep, overtraining_signs, deload_protocol]
 sources:
-- title: Effects of age on the hormonal, metabolic, and compositional adaptations
-    to resistance training
-  credibility: rct
-- title: Protein ingestion to stimulate myofibrillar protein synthesis requires greater
-    relative protein intakes in healthy older versus younger men
-  credibility: rct
-- title: Exercise in the prevention of sarcopenia and fall prevention in older persons
-  credibility: literature_review
-- title: Leucine supplementation and intensive training
-  credibility: rct
-- title: Age-related changes in muscle architecture and their functional consequences
-  credibility: literature_review
+  - title: "Effects of age on the hormonal, metabolic, and compositional adaptations to resistance training"
+    author: "Figueiredo, V. C., McCarthy, J. J., Damas, F., Libardi, C. A., Radaelli, R., Bozza, F. A., et al."
+    year: 2016
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 48
+    issue: 5
+    pages: "990-999"
+    doi: "10.1249/MSS.0000000000000871"
+    credibility: rct
+  - title: "Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men"
+    author: "Moore, D. R., Churchward-Venne, T. A., Witard, O., Breen, L., Burd, N. A., Tipton, K. D., Phillips, S. M."
+    year: 2015
+    journal: "Journals of Gerontology Series A"
+    volume: 70
+    issue: 1
+    pages: "57-62"
+    doi: "10.1093/gerona/glu103"
+    credibility: rct
+  - title: "Exercise in the prevention of sarcopenia and fall prevention in older persons"
+    author: "Distefano, G., Goodpaster, B. H."
+    year: 2018
+    journal: "Journal of Frailty & Aging"
+    volume: 7
+    issue: 1
+    pages: "16-19"
+    doi: "10.14283/jfa.2017.28"
+    credibility: literature_review
+  - title: "Leucine supplementation and intensive training"
+    author: "Stoppani, J., Scheett, T., Pena, J., Rudolph, C., Charlebois, D."
+    year: 2009
+    journal: "Sports Health"
+    volume: 1
+    issue: 4
+    pages: "277-281"
+    doi: "10.1177/1941738109337742"
+    credibility: rct
+  - title: "Age-related changes in muscle architecture and their functional consequences"
+    author: "Narici, M. V., Maganaris, C. N."
+    year: 2006
+    journal: "Journal of Musculoskeletal and Neuronal Interactions"
+    volume: 6
+    issue: 2
+    pages: "174-180"
+    credibility: literature_review
 ---
 
 # Masters Athletes (35+) — Training Considerations

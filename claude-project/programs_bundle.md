@@ -1,97 +1,151 @@
-# Barlore Programs Reference
+# Barlore Programs Reference (Full)
 
-53 training programs with schedules and progression rules.
+All 53 training programs, uncompressed.
+
+---
+
+<!-- FILE: programs/bodybuilding/531_bbb.md -->
 
 ---
 
----
 id: 531_bbb
 name: 5/3/1 BBB (Boring But Big)
+aliases: [5/3/1 BBB, boring but big, 531 boring but big, wendler BBB]
 category: program
 system: bodybuilding
-goal: Build mass and strength simultaneously by combining 5/3/1 wave-loading for the
-  main lift with 5×10 at 50% as supplemental volume; designed for powerlifters transitioning
-  to hypertrophy or bodybuilders who want a strength backbone
-goals:
-- strength
-- hypertrophy
+goal: Build mass and strength simultaneously by combining 5/3/1 wave-loading for the main lift with 5×10 at 50% as supplemental volume; designed for powerlifters transitioning to hypertrophy or bodybuilders who want a strength backbone
+goals: [strength, hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: wave_loading
-progression_model: 'Main work follows the 5/3/1 wave: Week 1 (5+) at 65/75/85% TM,
-  Week 2 (3+) at 70/80/90% TM, Week 3 (1+) at 75/85/95% TM, Week 4 (Deload) at 40/50/60%
-  TM. Training Max (TM) = 90% of true 1RM. After each 4-week cycle, increase TM by
-  2.5 kg (upper) or 5 kg (lower). BBB supplemental: 5×10 at 50% of TM for the same
-  lift or a variation. The supplemental work is the hypertrophy driver.
+origin: classic
+progression_model: >
+  Main work follows the 5/3/1 wave: Week 1 (5+) at 65/75/85% TM, Week 2 (3+) at
+  70/80/90% TM, Week 3 (1+) at 75/85/95% TM, Week 4 (Deload) at 40/50/60% TM.
+  Training Max (TM) = 90% of true 1RM. After each 4-week cycle, increase TM by
+  2.5 kg (upper) or 5 kg (lower). BBB supplemental: 5×10 at 50% of TM for the
+  same lift or a variation. The supplemental work is the hypertrophy driver.
 
-  '
 exercises:
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Day 1 main work. 5/3/1 wave loading. Week 1: 5+/5/5 at 65/75/85%
-    TM. Week 2: 3+/3/3 at 70/80/90% TM. Week 3: 1+/1/1 at 75/85/95% TM. Week 4: Deload.
-    The "+" set is an AMRAP — do as many reps as possib...'
-- ref: bench_press
-  role: secondary
-  technical_notes: Day 1 BBB supplemental after OHP main. 5×10 at 50% of OHP TM (or
-    bench press TM if pressing flat). The supplemental work is the hypertrophy driver;
-    it should be performed with 60–90 second rest, conti...
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Day 2 main work. 5/3/1 wave. AMRAP set on deadlift: Wendler recommends
-    stopping at 8–10 reps on deadlift AMRAP to prevent spinal fatigue accumulation
-    — do not truly max out the deadlift AMRAP as you w...'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: Day 2 BBB supplemental after deadlift main. 5×10 at 50% of deadlift
-    TM (or a row-specific load). Row weight will be significantly lighter than deadlift
-    — that is correct. The goal is posterior chain v...
-- ref: bench_press
-  role: primary
-  technical_notes: Day 3 main work (separate from Day 1 supplemental). 5/3/1 wave
-    loading. Paused or competition-style bench depending on the athlete's background.
-    Day 3 is the primary bench session; Day 1 supplemental ...
-- ref: overhead_press
-  role: secondary
-  technical_notes: Day 3 BBB supplemental after bench press main. 5×10 at 50% OHP
-    TM. Light overhead pressing volume after heavy bench; maintains shoulder health
-    and provides additional delt and tricep hypertrophy stimu...
-- ref: back_squat
-  role: primary
-  technical_notes: 'Day 4 main work. 5/3/1 wave loading. Full depth; belt permitted
-    after warm-ups. Squat AMRAP: unlike deadlift, the squat AMRAP can be pushed —
-    but stop if technical form breaks down (knees caving, exce...'
-- ref: conventional_deadlift
-  role: secondary
-  technical_notes: Day 4 BBB supplemental after squat main. 5×10 at 50% of deadlift
-    TM. Lighter deadlift volume after heavy squatting; emphasis on hip hinge mechanics.
-    Romanian deadlift is an acceptable substitute if lo...
-- ref: pullups
-  role: secondary
-  technical_notes: Assistance work on all 4 training days. 3–5 sets of 5–20 reps.
-    Wendler's original BBB assistance template uses pull-ups as the primary vertical
-    pull on all pressing days. Volume varies by athlete; wei...
-- ref: bent_over_two_dumbbell_row
-  role: secondary
-  technical_notes: Assistance work on Day 1 and Day 3. 3–5 sets of 10–20 reps. Single-arm
-    dumbbell row for lat development and shoulder health. Wendler's original BBB template
-    includes rowing assistance on upper body da...
-- ref: face_pull
-  role: secondary
-  technical_notes: Assistance on pressing days. 3 sets of 15–25 reps. Shoulder health
-    maintenance under heavy pressing volume. External rotation emphasis.
-- ref: barbell_curl
-  role: secondary
-  technical_notes: Assistance on upper body days. 3 sets of 10–15 reps. Bicep assistance
-    to complement the heavy pulling in the main and supplemental work.
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 main work. 5/3/1 wave loading. Week 1: 5+/5/5 at 65/75/85% TM.
+      Week 2: 3+/3/3 at 70/80/90% TM. Week 3: 1+/1/1 at 75/85/95% TM.
+      Week 4: Deload. The "+" set is an AMRAP — do as many reps as possible.
+      Minimum AMRAP target: 5 reps (Week 1), 3 reps (Week 2), 1 rep (Week 3).
+
+  - ref: bench_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 BBB supplemental after OHP main. 5×10 at 50% of OHP TM (or bench
+      press TM if pressing flat). The supplemental work is the hypertrophy driver;
+      it should be performed with 60–90 second rest, continuous muscle tension, and
+      with the mindset of accumulating volume, not setting new PRs.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 main work. 5/3/1 wave. AMRAP set on deadlift: Wendler recommends stopping
+      at 8–10 reps on deadlift AMRAP to prevent spinal fatigue accumulation — do not
+      truly max out the deadlift AMRAP as you would upper body lifts.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 BBB supplemental after deadlift main. 5×10 at 50% of deadlift TM
+      (or a row-specific load). Row weight will be significantly lighter than
+      deadlift — that is correct. The goal is posterior chain volume, not heavy loading.
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 3 main work (separate from Day 1 supplemental). 5/3/1 wave loading.
+      Paused or competition-style bench depending on the athlete's background.
+      Day 3 is the primary bench session; Day 1 supplemental is secondary.
+
+  - ref: overhead_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 3 BBB supplemental after bench press main. 5×10 at 50% OHP TM.
+      Light overhead pressing volume after heavy bench; maintains shoulder health
+      and provides additional delt and tricep hypertrophy stimulus.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 4 main work. 5/3/1 wave loading. Full depth; belt permitted after warm-ups.
+      Squat AMRAP: unlike deadlift, the squat AMRAP can be pushed — but stop if
+      technical form breaks down (knees caving, excessive forward lean, loss of
+      bar control).
+
+  - ref: conventional_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 4 BBB supplemental after squat main. 5×10 at 50% of deadlift TM.
+      Lighter deadlift volume after heavy squatting; emphasis on hip hinge mechanics.
+      Romanian deadlift is an acceptable substitute if lower back fatigue accumulates.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      Assistance work on all 4 training days. 3–5 sets of 5–20 reps. Wendler's
+      original BBB assistance template uses pull-ups as the primary vertical pull on
+      all pressing days. Volume varies by athlete; weighted pull-ups when bodyweight
+      reps exceed 15.
+
+  - ref: bent_over_two_dumbbell_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Assistance work on Day 1 and Day 3. 3–5 sets of 10–20 reps. Single-arm
+      dumbbell row for lat development and shoulder health. Wendler's original BBB
+      template includes rowing assistance on upper body days.
+
+  - ref: face_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Assistance on pressing days. 3 sets of 15–25 reps. Shoulder health maintenance
+      under heavy pressing volume. External rotation emphasis.
+
+  - ref: barbell_curl
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Assistance on upper body days. 3 sets of 10–15 reps. Bicep assistance to
+      complement the heavy pulling in the main and supplemental work.
+
 sources:
-- title: '5/3/1: The Simplest and Most Effective Training System for Raw Strength'
-  credibility: practitioner
-- title: 'Beyond 5/3/1: Simple Training for Extraordinary Results'
-  credibility: practitioner
-- title: Maximizing Strength Training Volume and Hypertrophic Adaptations
-  credibility: rct
+  - title: "5/3/1: The Simplest and Most Effective Training System for Raw Strength"
+    author: "Wendler, J."
+    year: 2009
+    publisher: "Jim Wendler LLC"
+    credibility: practitioner
+  - title: "Beyond 5/3/1: Simple Training for Extraordinary Results"
+    author: "Wendler, J."
+    year: 2011
+    publisher: "Jim Wendler LLC"
+    credibility: practitioner
+  - title: "Maximizing Strength Training Volume and Hypertrophic Adaptations"
+    author: "Schoenfeld, B.J., Contreras, B., Krieger, J."
+    year: 2019
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 51
+    issue: 1
+    pages: "94-103"
+    doi: "10.1249/MSS.0000000000001764"
+    credibility: rct
 ---
 
 # 5/3/1 BBB (Boring But Big)
@@ -158,123 +212,187 @@ The 5×10 at 50% TM creates metabolic fatigue and muscle damage via high volume 
 
 ---
 
+<!-- FILE: programs/bodybuilding/arnold_split.md -->
+
 ---
+
 id: arnold_split
 name: Arnold Split
+aliases: [Arnold schwarzenegger split, golden era bodybuilding split, 6-day double split, chest back arms split]
 category: program
 system: bodybuilding
-goal: Build dense, proportional muscle mass through high-frequency, high-volume training
-  by pairing antagonist muscle groups (chest+back, shoulders+arms) on the same day
-  for natural superset synergy, training each muscle group twice per week across a
-  6-day cycle
-goals:
-- hypertrophy
+goal: Build dense, proportional muscle mass through high-frequency, high-volume training by pairing antagonist muscle groups (chest+back, shoulders+arms) on the same day for natural superset synergy, training each muscle group twice per week across a 6-day cycle
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 6
 periodization: linear
-progression_model: 'Linear progression on compound movements: add 2.5 kg (upper body)
-  or 5 kg (lower body) when all prescribed sets are completed at the top of the rep
-  range with good form. For isolation exercises, use double-progression: advance within
-  the rep range before adding load. Deload every 8 weeks: reduce total sets by 50%
-  for one week, maintain loads, then return to full volume.
+origin: classic
+progression_model: >
+  Linear progression on compound movements: add 2.5 kg (upper body) or 5 kg (lower body)
+  when all prescribed sets are completed at the top of the rep range with good form.
+  For isolation exercises, use double-progression: advance within the rep range before
+  adding load. Deload every 8 weeks: reduce total sets by 50% for one week, maintain
+  loads, then return to full volume.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 4×6–10. Primary horizontal
-    push. Arnold advocated full range of motion with controlled descent to maximize
-    stretch at the bottom position. Paired with rowing for ...'
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 3×8–12. Upper chest emphasis.
-    Arnold consistently emphasized clavicular pec development; the 30° incline is
-    the optimal angle for this fiber direction.'
-- ref: dumbbell_flyes
-  role: secondary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 3×10–15. Isolation stretch
-    finisher for pectorals. Full range of motion; elbows at 120° (soft bend); Arnold
-    treated flyes as the primary peak-contraction chest is...'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 4×6–10. Paired in superset
-    with bench press; antagonist pairing allows the back to recover while chest presses
-    and vice versa. 45° torso angle; full scapular retr...'
-- ref: pullups
-  role: primary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 3×8–12. Wide grip for lat
-    width emphasis. Arnold used a thumbless grip to reduce forearm engagement and
-    maximize lat pull. Weighted once bodyweight reps exceed 12...'
-- ref: seated_cable_rows
-  role: secondary
-  technical_notes: 'Chest/Back Day (Monday and Thursday): 3×10–15. Mid-back thickness
-    and rhomboid development. Close grip; allow full scapular protraction at start.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 4×6–10. Primary shoulder
-    compound. Arnold press variant: start with palms facing in (like a hammer position),
-    rotate to palms forward at top; increases range o...'
-- ref: side_lateral_raise
-  role: secondary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 4×10–15. Lateral deltoid
-    isolation. Slight forward lean; lead with the elbow; stop at parallel. Arnold
-    performed these with strict control, not swing momentum.'
-- ref: front_dumbbell_raise
-  role: secondary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 3×10–15. Anterior deltoid
-    isolation. Alternating arm; maintain neutral wrist. Pairs with lateral raise for
-    complete deltoid development — Arnold''s era favored ...'
-- ref: barbell_curl
-  role: primary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 4×6–10. Primary bicep
-    compound. Elbows strictly anchored; no shoulder flexion; full supination at top.
-    Arnold Arm Day: biceps and triceps trained together in h...'
-- ref: concentration_curls
-  role: secondary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 3×10–15. Arnold''s signature
-    exercise for bicep peak development. Seated, elbow braced against inner thigh;
-    full supination with a pause at the top. This was Ar...'
-- ref: triceps_pushdown
-  role: primary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 4×8–12. Superset with
-    barbell curl. Straight bar or rope; full extension; lat engagement to prevent
-    elbow flare.'
-- ref: ez_bar_skullcrusher
-  role: secondary
-  technical_notes: 'Shoulders/Arms Day (Tuesday and Friday): 3×8–12. Triceps long
-    head emphasis. EZ-bar lowers to forehead; elbows fixed; full extension. Paired
-    with overhead press to create complete triceps development.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Leg Day (Wednesday and Saturday): 4×8–12. Primary leg compound.
-    Arnold squatted high-bar with a moderate stance width; full-depth squat at all
-    times. Legs trained separately from upper body in the dou...'
-- ref: leg_press
-  role: secondary
-  technical_notes: 'Leg Day (Wednesday and Saturday): 3×10–15. Secondary quad and
-    glute loading after squat. High foot placement for glute emphasis; moderate placement
-    for quad emphasis.'
-- ref: leg_extensions
-  role: secondary
-  technical_notes: 'Leg Day (Wednesday and Saturday): 3×12–15. Quad isolation finisher.
-    Full extension with 1-second hold; controlled descent.'
-- ref: lying_leg_curls
-  role: secondary
-  technical_notes: 'Leg Day (Wednesday and Saturday): 3×10–15. Hamstring isolation.
-    Full range of motion; control the eccentric. Arnold era did not distinguish between
-    seated and lying curl positioning; either variation ...'
-- ref: standing_calf_raises
-  role: secondary
-  technical_notes: 'Leg Day (Wednesday and Saturday): 4×15–20. Arnold''s famous calves
-    were developed through extremely high volume (100+ reps per session in peak phase).
-    Full ROM: maximal dorsiflexion to maximal plantarf...'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 4×6–10. Primary horizontal push. Arnold
+      advocated full range of motion with controlled descent to maximize stretch at
+      the bottom position. Paired with rowing for antagonist supersets.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 3×8–12. Upper chest emphasis. Arnold
+      consistently emphasized clavicular pec development; the 30° incline is the
+      optimal angle for this fiber direction.
+
+  - ref: dumbbell_flyes
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 3×10–15. Isolation stretch finisher for
+      pectorals. Full range of motion; elbows at 120° (soft bend); Arnold treated flyes
+      as the primary peak-contraction chest isolation.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 4×6–10. Paired in superset with bench press;
+      antagonist pairing allows the back to recover while chest presses and vice versa.
+      45° torso angle; full scapular retraction at top.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 3×8–12. Wide grip for lat width emphasis.
+      Arnold used a thumbless grip to reduce forearm engagement and maximize lat pull.
+      Weighted once bodyweight reps exceed 12.
+
+  - ref: seated_cable_rows
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Chest/Back Day (Monday and Thursday): 3×10–15. Mid-back thickness and rhomboid
+      development. Close grip; allow full scapular protraction at start.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 4×6–10. Primary shoulder compound.
+      Arnold press variant: start with palms facing in (like a hammer position), rotate
+      to palms forward at top; increases range of deltoid activation through rotation.
+
+  - ref: side_lateral_raise
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 4×10–15. Lateral deltoid isolation.
+      Slight forward lean; lead with the elbow; stop at parallel. Arnold performed
+      these with strict control, not swing momentum.
+
+  - ref: front_dumbbell_raise
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 3×10–15. Anterior deltoid isolation.
+      Alternating arm; maintain neutral wrist. Pairs with lateral raise for complete
+      deltoid development — Arnold's era favored greater anterior delt volume than
+      modern evidence-based programs.
+
+  - ref: barbell_curl
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 4×6–10. Primary bicep compound.
+      Elbows strictly anchored; no shoulder flexion; full supination at top.
+      Arnold Arm Day: biceps and triceps trained together in heavy supersets.
+
+  - ref: concentration_curls
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 3×10–15. Arnold's signature exercise
+      for bicep peak development. Seated, elbow braced against inner thigh; full
+      supination with a pause at the top. This was Arnold's preferred isolation finisher.
+
+  - ref: triceps_pushdown
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 4×8–12. Superset with barbell curl.
+      Straight bar or rope; full extension; lat engagement to prevent elbow flare.
+
+  - ref: ez_bar_skullcrusher
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Shoulders/Arms Day (Tuesday and Friday): 3×8–12. Triceps long head emphasis.
+      EZ-bar lowers to forehead; elbows fixed; full extension. Paired with overhead
+      press to create complete triceps development.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day (Wednesday and Saturday): 4×8–12. Primary leg compound. Arnold squatted
+      high-bar with a moderate stance width; full-depth squat at all times. Legs trained
+      separately from upper body in the double-split format.
+
+  - ref: leg_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day (Wednesday and Saturday): 3×10–15. Secondary quad and glute loading after
+      squat. High foot placement for glute emphasis; moderate placement for quad emphasis.
+
+  - ref: leg_extensions
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day (Wednesday and Saturday): 3×12–15. Quad isolation finisher. Full extension
+      with 1-second hold; controlled descent.
+
+  - ref: lying_leg_curls
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day (Wednesday and Saturday): 3×10–15. Hamstring isolation. Full range of
+      motion; control the eccentric. Arnold era did not distinguish between seated and
+      lying curl positioning; either variation is appropriate.
+
+  - ref: standing_calf_raises
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day (Wednesday and Saturday): 4×15–20. Arnold's famous calves were developed
+      through extremely high volume (100+ reps per session in peak phase). Full ROM:
+      maximal dorsiflexion to maximal plantarflexion. Arnold trained calves without
+      shoes when possible to maximize ROM.
+
 sources:
-- title: The New Encyclopedia of Modern Bodybuilding
-  credibility: practitioner
-- title: 'Effects of resistance training frequency on measures of muscle hypertrophy:
-    A systematic review and meta-analysis'
-  credibility: meta_analysis
+  - title: "The New Encyclopedia of Modern Bodybuilding"
+    author: "Schwarzenegger, A., Dobbins, B."
+    year: 1999
+    publisher: "Simon & Schuster"
+    credibility: practitioner
+  - title: "Effects of resistance training frequency on measures of muscle hypertrophy: A systematic review and meta-analysis"
+    author: "Schoenfeld, B.J., Ogborn, D., Krieger, J.W."
+    year: 2016
+    journal: "Sports Medicine"
+    volume: 46
+    issue: 11
+    pages: "1689-1697"
+    doi: "10.1007/s40279-016-0543-8"
+    credibility: meta_analysis
 ---
 
 # Arnold Split
@@ -351,95 +469,149 @@ The Arnold Split reflects the training philosophy of Arnold Schwarzenegger's pri
 
 ---
 
+<!-- FILE: programs/bodybuilding/beginner_fullbody_hypertrophy.md -->
+
 ---
+
 id: beginner_fullbody_hypertrophy
 name: Beginner Full-Body Hypertrophy
+aliases: [beginner hypertrophy, full body 3x, novice bodybuilding, beginner BB]
 category: program
 system: bodybuilding
-goal: Build foundational muscle mass and movement competency through full-body training,
-  hitting each muscle group three times per week with compound-primary programming
-goals:
-- hypertrophy
-- general_fitness
+goal: Build foundational muscle mass and movement competency through full-body training, hitting each muscle group three times per week with compound-primary programming
+goals: [hypertrophy, general_fitness]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Double-progression on all exercises: perform all sets within the
-  prescribed rep range. When the top of the range is achieved for all sets with controlled
-  form, add 2.5 kg on upper body exercises or 5 kg on lower body exercises at the
-  next session and reset to the bottom of the range. If minimum reps cannot be completed
-  in the last set, hold the weight. After two consecutive sessions at the same weight
-  without progress, reduce load by 10% and rebuild.
+origin: synthesized
+progression_model: >
+  Double-progression on all exercises: perform all sets within the prescribed rep range.
+  When the top of the range is achieved for all sets with controlled form, add 2.5 kg
+  on upper body exercises or 5 kg on lower body exercises at the next session and reset
+  to the bottom of the range. If minimum reps cannot be completed in the last set, hold
+  the weight. After two consecutive sessions at the same weight without progress, reduce
+  load by 10% and rebuild.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Session A: 3×6-10. Primary lower-body compound. Focus on consistent
-    depth and bracing. Beginner priority: establish motor pattern before adding load.'
-- ref: bench_press
-  role: primary
-  technical_notes: 'Session A: 3×8-12. Primary horizontal push compound. Use a spotter
-    or safety bars for beginner solo training.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Session A: 3×8-12 overhand grip. Primary horizontal pull compound.
-    Keep torso at 45-60° and initiate the pull from the elbows.'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Session A: 3×10-12. Posterior chain accessory. Emphasize hip hinge
-    pattern and hamstring stretch under tension; do not round the lower back.'
-- ref: barbell_curl
-  role: secondary
-  technical_notes: 'Session A: 3×10-15. Elbow flexor accessory. Full ROM; control
-    the eccentric.'
-- ref: triceps_pushdown
-  role: secondary
-  technical_notes: 'Session A: 3×12-15. Triceps accessory. Keep elbows pinned to sides;
-    squeeze at full extension.'
-- ref: side_lateral_raise
-  role: secondary
-  technical_notes: 'Session A: 3×15-20. Lateral deltoid accessory. Light load, full
-    range of motion; avoid using momentum.'
-- ref: leg_press
-  role: primary
-  technical_notes: 'Session B: 3×10-15. Secondary quad-dominant compound. Foot placement
-    mid-plate; do not lock out the knees at the top; do not let lower back round off
-    the pad.'
-- ref: incline_dumbbell_press
-  role: primary
-  technical_notes: 'Session B: 3×10-12. Upper chest accessory press at 30-45° incline.
-    Keeps the pressing stimulus fresh by altering angle relative to flat bench.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Session B: 3 sets to technical failure (or 3×5-8 if able). Primary
-    vertical pull compound. Use band assistance if unable to complete 5 unassisted
-    reps. Progress by reducing band assistance over weeks.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Session B: 3×8-12. Vertical push compound. Press from chin-height;
-    full lockout; brace the core.'
-- ref: hammer_curls
-  role: secondary
-  technical_notes: 'Session B: 3×12-15. Brachialis and brachioradialis accessory.
-    Neutral grip; alternate arms or perform simultaneously.'
-- ref: lying_triceps_press
-  role: secondary
-  technical_notes: 'Session B: 3×12-15 (EZ bar or dumbbells). Skull crusher variation.
-    Long-head triceps stretch under load. Lower to forehead; extend fully.'
-- ref: face_pull
-  role: secondary
-  technical_notes: 'Session B: 3×15-20. Rear deltoid and external rotation health
-    work. High rep range; pull to face level with elbows flared. Non-negotiable for
-    shoulder longevity alongside pressing volume.'
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×6-10. Primary lower-body compound. Focus on consistent depth and
+      bracing. Beginner priority: establish motor pattern before adding load.
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×8-12. Primary horizontal push compound. Use a spotter or safety
+      bars for beginner solo training.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×8-12 overhand grip. Primary horizontal pull compound. Keep
+      torso at 45-60° and initiate the pull from the elbows.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×10-12. Posterior chain accessory. Emphasize hip hinge pattern
+      and hamstring stretch under tension; do not round the lower back.
+
+  - ref: barbell_curl
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×10-15. Elbow flexor accessory. Full ROM; control the eccentric.
+
+  - ref: triceps_pushdown
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×12-15. Triceps accessory. Keep elbows pinned to sides; squeeze
+      at full extension.
+
+  - ref: side_lateral_raise
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A: 3×15-20. Lateral deltoid accessory. Light load, full range of
+      motion; avoid using momentum.
+
+  - ref: leg_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×10-15. Secondary quad-dominant compound. Foot placement mid-plate;
+      do not lock out the knees at the top; do not let lower back round off the pad.
+
+  - ref: incline_dumbbell_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×10-12. Upper chest accessory press at 30-45° incline. Keeps the
+      pressing stimulus fresh by altering angle relative to flat bench.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3 sets to technical failure (or 3×5-8 if able). Primary vertical
+      pull compound. Use band assistance if unable to complete 5 unassisted reps.
+      Progress by reducing band assistance over weeks.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×8-12. Vertical push compound. Press from chin-height; full
+      lockout; brace the core.
+
+  - ref: hammer_curls
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×12-15. Brachialis and brachioradialis accessory. Neutral grip;
+      alternate arms or perform simultaneously.
+
+  - ref: lying_triceps_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×12-15 (EZ bar or dumbbells). Skull crusher variation. Long-head
+      triceps stretch under load. Lower to forehead; extend fully.
+
+  - ref: face_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B: 3×15-20. Rear deltoid and external rotation health work. High rep
+      range; pull to face level with elbows flared. Non-negotiable for shoulder
+      longevity alongside pressing volume.
+
 sources:
-- title: The Mechanisms of Muscle Hypertrophy and Their Application to Resistance
-    Training
-  credibility: literature_review
-- title: 'Resistance Training Recommendations to Maximize Muscle Hypertrophy in an
-    Athletic Population: Position Stand of the IUSCA'
-  credibility: literature_review
+  - title: "The Mechanisms of Muscle Hypertrophy and Their Application to Resistance Training"
+    author: "Schoenfeld, B. J."
+    year: 2010
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 24
+    issue: 10
+    pages: "2857-2872"
+    doi: "10.1519/JSC.0b013e3181e840f3"
+    credibility: literature_review
+  - title: "Resistance Training Recommendations to Maximize Muscle Hypertrophy in an Athletic Population: Position Stand of the IUSCA"
+    author: "Krzysztofik, M., Wilk, M., Wojdała, G., Gołaś, A."
+    year: 2019
+    journal: "International Journal of Environmental Research and Public Health"
+    volume: 16
+    issue: 24
+    pages: "4897"
+    doi: "10.3390/ijerph16244897"
+    credibility: literature_review
 ---
 
 # Beginner Full-Body Hypertrophy
@@ -540,137 +712,215 @@ Progress to an intermediate program (PHUL, PPL, or RP Hypertrophy) when:
 
 ---
 
+<!-- FILE: programs/bodybuilding/beginner_upper_lower.md -->
+
 ---
+
 id: beginner_upper_lower
 name: Beginner Upper/Lower Split
+aliases: [upper lower split, beginner UL, 4-day beginner, novice upper lower]
 category: program
 system: bodybuilding
-goal: Build foundational muscle mass through a four-day upper/lower split, providing
-  more per-session volume and exercise variety than full-body training while maintaining
-  high frequency per muscle group
-goals:
-- hypertrophy
-- general_fitness
+goal: Build foundational muscle mass through a four-day upper/lower split, providing more per-session volume and exercise variety than full-body training while maintaining high frequency per muscle group
+goals: [hypertrophy, general_fitness]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 4
 periodization: linear
-progression_model: 'Double-progression on all exercises: perform all sets within the
-  prescribed rep range. When the top of the range is achieved for all sets with controlled
-  form, add 2.5 kg on upper body exercises or 5 kg on lower body exercises at the
-  next session and reset to the bottom of the range. If minimum reps cannot be completed
-  in the last set, hold the weight. After two consecutive sessions at the same weight
-  without progress, reduce load by 10% and rebuild.
+origin: synthesized
+progression_model: >
+  Double-progression on all exercises: perform all sets within the prescribed rep range.
+  When the top of the range is achieved for all sets with controlled form, add 2.5 kg
+  on upper body exercises or 5 kg on lower body exercises at the next session and reset
+  to the bottom of the range. If minimum reps cannot be completed in the last set, hold
+  the weight. After two consecutive sessions at the same weight without progress, reduce
+  load by 10% and rebuild.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Upper A: 3×6-10. Primary horizontal press. Full ROM: bar touches
-    mid-chest, lock out fully. Retract and depress scapulae before unracking. Use
-    safety bars if training alone.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Upper A: 3×8-12. Primary horizontal pull. Overhand grip, torso
-    at 45-60°. Initiate the pull from the elbows, squeeze the shoulder blades at the
-    top, control the eccentric.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Upper A: 3×8-12. Primary vertical press. Standing, strict press
-    from chin height to full lockout. Brace the core; avoid excessive back lean.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Upper A: 3×5-8 (or to technical failure). Primary vertical pull.
-    Full dead hang to chin over bar. Use band assistance if unable to complete 5 unassisted
-    reps; progress by reducing band tension.'
-- ref: dumbbell_bicep_curl
-  role: accessory
-  technical_notes: 'Upper A: 2×10-15. Bicep isolation. Standing, alternating arms.
-    Full ROM from full extension to peak contraction. Control the eccentric.'
-- ref: triceps_pushdown
-  role: accessory
-  technical_notes: 'Upper A: 2×12-15. Tricep isolation. Cable with rope or straight
-    bar. Keep elbows pinned to sides; squeeze at full extension.'
-- ref: side_lateral_raise
-  role: accessory
-  technical_notes: 'Upper A: 2×15-20. Lateral deltoid isolation. Light load, strict
-    form, raise to shoulder height. No momentum or body english.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Lower A: 3×6-10. Primary quad-dominant compound. High bar position,
-    descend to at least parallel. Brace hard before each rep. Focus on consistent
-    depth before adding load.'
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: 'Lower A: 3×10-12. Primary hip hinge. Maintain flat back throughout.
-    Push hips back until hamstring stretch limits ROM, then drive hips forward to
-    lockout. Do not squat the weight.'
-- ref: leg_press
-  role: secondary
-  technical_notes: 'Lower A: 3×10-15. Secondary quad work. Feet mid-plate, shoulder
-    width. Do not lock knees at the top; do not let lower back round off the pad at
-    the bottom.'
-- ref: seated_calf_raise
-  role: accessory
-  technical_notes: 'Lower A: 3×12-15. Soleus emphasis. Full stretch at the bottom,
-    2-second pause at peak contraction. Calves require high effort per set — take
-    the last set close to failure.'
-- ref: incline_dumbbell_press
-  role: primary
-  technical_notes: 'Upper B: 3×8-12. Upper chest press variation at 30-45° incline.
-    Varies the pressing angle from flat bench on Upper A. Full ROM: dumbbells to chest
-    level, press to full lockout.'
-- ref: seated_cable_rows
-  role: primary
-  technical_notes: 'Upper B: 3×10-12. Horizontal pull variation. Neutral or close
-    grip. Pull to lower sternum, squeeze shoulder blades, control the return. Keep
-    torso upright — do not rock.'
-- ref: face_pull
-  role: secondary
-  technical_notes: 'Upper B: 3×15-20. Rear deltoid and external rotation. Pull rope
-    to face level with elbows high. Non-negotiable for shoulder health alongside pressing
-    volume.'
-- ref: hammer_curls
-  role: accessory
-  technical_notes: 'Upper B: 2×10-15. Brachialis and brachioradialis. Neutral grip,
-    alternating or simultaneous. Full ROM, controlled tempo.'
-- ref: cable_rope_overhead_triceps_extension
-  role: accessory
-  technical_notes: 'Upper B: 2×12-15. Tricep long head emphasis. Face away from cable,
-    extend overhead. Stretch fully at the bottom of each rep.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Lower B: 3×5-8. Primary posterior chain compound. Heavier and
-    lower rep than RDL. Set up with hips higher than knees, shoulders over the bar,
-    lats tight. Each rep starts from a dead stop on the floor.'
-- ref: front_squat
-  role: secondary
-  technical_notes: 'Lower B: 3×8-12. Quad-dominant squat variation. Clean grip or
-    cross-arm grip. Requires more thoracic mobility than back squat. Prioritize upright
-    torso and full depth. Start light and build.'
-- ref: lying_leg_curls
-  role: secondary
-  technical_notes: 'Lower B: 3×10-15. Hamstring isolation. Full ROM: extend fully
-    at the top, curl fully. Do not lift hips off the pad. Control the eccentric.'
-- ref: standing_calf_raises
-  role: accessory
-  technical_notes: 'Lower B: 3×10-15. Gastrocnemius emphasis (straight knee). Full
-    stretch at the bottom, full contraction at the top. Pair with seated calf raise
-    on Lower A to cover both heads.'
-- ref: hanging_leg_raise
-  role: accessory
-  technical_notes: 'Lower B: 3×10-15. Core work. Hang from a pull-up bar, raise legs
-    to at least 90°. If full leg raises are too difficult, start with knee raises
-    and progress over weeks.'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×6-10. Primary horizontal press. Full ROM: bar touches mid-chest,
+      lock out fully. Retract and depress scapulae before unracking. Use safety bars
+      if training alone.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×8-12. Primary horizontal pull. Overhand grip, torso at 45-60°.
+      Initiate the pull from the elbows, squeeze the shoulder blades at the top,
+      control the eccentric.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×8-12. Primary vertical press. Standing, strict press from chin
+      height to full lockout. Brace the core; avoid excessive back lean.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×5-8 (or to technical failure). Primary vertical pull. Full dead
+      hang to chin over bar. Use band assistance if unable to complete 5 unassisted
+      reps; progress by reducing band tension.
+
+  - ref: dumbbell_bicep_curl
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 2×10-15. Bicep isolation. Standing, alternating arms. Full ROM
+      from full extension to peak contraction. Control the eccentric.
+
+  - ref: triceps_pushdown
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 2×12-15. Tricep isolation. Cable with rope or straight bar.
+      Keep elbows pinned to sides; squeeze at full extension.
+
+  - ref: side_lateral_raise
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 2×15-20. Lateral deltoid isolation. Light load, strict form,
+      raise to shoulder height. No momentum or body english.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×6-10. Primary quad-dominant compound. High bar position,
+      descend to at least parallel. Brace hard before each rep. Focus on
+      consistent depth before adding load.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×10-12. Primary hip hinge. Maintain flat back throughout.
+      Push hips back until hamstring stretch limits ROM, then drive hips
+      forward to lockout. Do not squat the weight.
+
+  - ref: leg_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×10-15. Secondary quad work. Feet mid-plate, shoulder width.
+      Do not lock knees at the top; do not let lower back round off the pad
+      at the bottom.
+
+  - ref: seated_calf_raise
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×12-15. Soleus emphasis. Full stretch at the bottom, 2-second
+      pause at peak contraction. Calves require high effort per set — take
+      the last set close to failure.
+
+  - ref: incline_dumbbell_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper B: 3×8-12. Upper chest press variation at 30-45° incline.
+      Varies the pressing angle from flat bench on Upper A. Full ROM:
+      dumbbells to chest level, press to full lockout.
+
+  - ref: seated_cable_rows
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper B: 3×10-12. Horizontal pull variation. Neutral or close grip.
+      Pull to lower sternum, squeeze shoulder blades, control the return.
+      Keep torso upright — do not rock.
+
+  - ref: face_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper B: 3×15-20. Rear deltoid and external rotation. Pull rope to
+      face level with elbows high. Non-negotiable for shoulder health
+      alongside pressing volume.
+
+  - ref: hammer_curls
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Upper B: 2×10-15. Brachialis and brachioradialis. Neutral grip,
+      alternating or simultaneous. Full ROM, controlled tempo.
+
+  - ref: cable_rope_overhead_triceps_extension
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Upper B: 2×12-15. Tricep long head emphasis. Face away from cable,
+      extend overhead. Stretch fully at the bottom of each rep.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Lower B: 3×5-8. Primary posterior chain compound. Heavier and lower
+      rep than RDL. Set up with hips higher than knees, shoulders over the
+      bar, lats tight. Each rep starts from a dead stop on the floor.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Lower B: 3×8-12. Quad-dominant squat variation. Clean grip or cross-arm
+      grip. Requires more thoracic mobility than back squat. Prioritize upright
+      torso and full depth. Start light and build.
+
+  - ref: lying_leg_curls
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower B: 3×10-15. Hamstring isolation. Full ROM: extend fully at the
+      top, curl fully. Do not lift hips off the pad. Control the eccentric.
+
+  - ref: standing_calf_raises
+    role: accessory
+    frequency_per_week: 2
+    technical_notes: >
+      Lower B: 3×10-15. Gastrocnemius emphasis (straight knee). Full stretch
+      at the bottom, full contraction at the top. Pair with seated calf raise
+      on Lower A to cover both heads.
+
+  - ref: hanging_leg_raise
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Lower B: 3×10-15. Core work. Hang from a pull-up bar, raise legs to
+      at least 90°. If full leg raises are too difficult, start with knee
+      raises and progress over weeks.
+
 sources:
-- title: 'Resistance Training Recommendations to Maximize Muscle Hypertrophy in an
-    Athletic Population: Position Stand of the IUSCA'
-  credibility: expert_consensus
-- title: Science and Development of Muscle Hypertrophy (2nd Edition)
-  credibility: expert_consensus
-- title: 'Effects of Resistance Training Frequency on Measures of Muscle Hypertrophy:
-    A Systematic Review and Meta-Analysis'
-  credibility: meta_analysis
+  - title: "Resistance Training Recommendations to Maximize Muscle Hypertrophy in an Athletic Population: Position Stand of the IUSCA"
+    author: "Schoenfeld, B. J., Grgic, J., Van Every, D. W., Plotkin, D. L."
+    year: 2021
+    journal: "International Journal of Strength and Conditioning"
+    volume: 1
+    issue: 1
+    doi: "10.47206/ijsc.v1i1.81"
+    credibility: expert_consensus
+  - title: "Science and Development of Muscle Hypertrophy (2nd Edition)"
+    author: "Schoenfeld, B. J."
+    year: 2020
+    publisher: "Human Kinetics"
+    credibility: expert_consensus
+  - title: "Effects of Resistance Training Frequency on Measures of Muscle Hypertrophy: A Systematic Review and Meta-Analysis"
+    author: "Schoenfeld, B. J., Ogborn, D., Krieger, J. W."
+    year: 2016
+    journal: "Sports Medicine"
+    volume: 46
+    issue: 11
+    pages: "1689-1697"
+    doi: "10.1007/s40279-016-0543-8"
+    credibility: meta_analysis
 ---
 
 # Beginner Upper/Lower Split
@@ -794,194 +1044,324 @@ Progress to an intermediate program (PHUL, PPL, RP Hypertrophy) when:
 
 ---
 
+<!-- FILE: programs/bodybuilding/bodybuilding_isolation_block.md -->
+
 ---
+
 id: bodybuilding_isolation_block
 name: Bodybuilding Isolation Block
+aliases: [isolation block, isolation day program, arms specialization, isolation split]
 category: program
 system: bodybuilding
-goal: Maximise hypertrophy volume across chest, shoulders, arms, and legs using exclusively
-  isolation movements; designed as a 6-week specialisation block to bring up lagging
-  body parts
-goals:
-- hypertrophy
+goal: Maximise hypertrophy volume across chest, shoulders, arms, and legs using exclusively isolation movements; designed as a 6-week specialisation block to bring up lagging body parts
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 6
 frequency_per_week: 4
 periodization: linear
-progression_model: 'Double-progression throughout. Complete all prescribed sets in
-  the rep range. When the top of the range is achieved across all sets with clean
-  form, increase load by the smallest available increment (2.5 kg cables/machines,
-  next dumbbell up) and reset to the bottom of the rep range. Chin-up: add reps until
-  top of range, then add load via belt. Glute-ham raise: use band assistance and reduce
-  it progressively.
+origin: synthesized
+progression_model: >
+  Double-progression throughout. Complete all prescribed sets in the rep range. When the
+  top of the range is achieved across all sets with clean form, increase load by the
+  smallest available increment (2.5 kg cables/machines, next dumbbell up) and reset to
+  the bottom of the rep range. Chin-up: add reps until top of range, then add load via
+  belt. Glute-ham raise: use band assistance and reduce it progressively.
 
-  '
 exercises:
-- ref: dumbbell_flyes
-  role: primary
-  technical_notes: 'Day A (Chest): 4 × 10-15. Slight elbow bend (15-20°) fixed throughout;
-    arms travel in a wide arc. Lower until shoulder reaches 90° horizontal adduction
-    — do not let elbows drop further below the bench...'
-- ref: incline_dumbbell_flyes
-  role: secondary
-  technical_notes: 'Day A (Chest): 3 × 12-15. Bench at 30-45°. Same arc mechanics
-    as flat fly; incline shifts the line of pull to the clavicular/upper pec head.
-    Lighter load than flat fly is normal — the shortened ROM at...'
-- ref: flat_bench_cable_flyes
-  role: secondary
-  technical_notes: 'Day A (Chest): 3 × 12-15. Low pulleys; lie flat between cable
-    stacks. Cable provides constant tension across the full ROM unlike dumbbells,
-    which are near-weightless at the top. Use as the third exerc...'
-- ref: butterfly
-  role: secondary
-  technical_notes: 'Day A (Chest): 3 × 12-15. Pec deck machine. Adjust seat so handles
-    align with mid chest; forearms or elbows rest on pads depending on machine design.
-    Squeeze at peak contraction and hold 1 second. Fin...'
-- ref: decline_dumbbell_flyes
-  role: accessory
-  technical_notes: 'Day A (Chest — optional): 2-3 × 12-15. Decline bench at -15 to
-    -30°; targets sternocostal/lower pec fibres. Add after the core four if lower
-    chest is a specific lagging area, or rotate in place of fla...'
-- ref: incline_cable_flye
-  role: accessory
-  technical_notes: 'Day A (Chest — optional): 2-3 × 12-15. High pulleys; lie on incline
-    bench. Pull handles downward and inward in a converging arc. Substitute for incline
-    dumbbell fly when constant cable tension is pref...'
-- ref: one_arm_flat_bench_dumbbell_flye
-  role: accessory
-  technical_notes: 'Day A (Chest — optional): 2 × 12-15 per side. Unilateral flat
-    fly; allows each side to move through its full arc independently. Useful when
-    bilateral dumbbell fly reveals a left/right imbalance, or as...'
-- ref: seated_side_lateral_raise
-  role: primary
-  technical_notes: 'Day B (Shoulders): 4 × 12-20. Seated to eliminate lower back drive.
-    Raise to shoulder height — no higher, supraspinatus takes over above 90°. Lead
-    with the elbow. Slight forward torso lean (10-15°) in...'
-- ref: cable_seated_lateral_raise
-  role: secondary
-  technical_notes: 'Day B (Shoulders): 3 × 15-20. Low cable; sit sideways and raise
-    the working arm across the body. Cable provides constant tension in the bottom
-    range where dumbbells are near-weightless. Perform after ...'
-- ref: front_cable_raise
-  role: secondary
-  technical_notes: 'Day B (Shoulders): 3 × 12-15. Low cable; raise one arm to eye
-    level with elbow nearly extended. Targets deltoid_anterior. Include only if anterior
-    delt is genuinely lagging — most athletes over-develo...'
-- ref: seated_bent_over_rear_delt_raise
-  role: secondary
-  technical_notes: 'Day B (Shoulders): 4 × 15-20. Sit on bench edge, torso parallel
-    to floor, arms hanging. Raise dumbbells laterally with elbows leading. Targets
-    deltoid_posterior and trap_middle. Most athletes under-de...'
-- ref: bent_over_dumbbell_rear_delt_raise_with_head_on_bench
-  role: accessory
-  technical_notes: 'Day B (Shoulders — optional): 2-3 × 15-20. Rest forehead on an
-    incline bench at 70-80°; torso horizontal and locked. Identical motion to seated
-    bent-over raise but eliminates all momentum and lower ba...'
-- ref: dumbbell_bicep_curl
-  role: primary
-  technical_notes: 'Day C (Arms — Biceps): 4 × 10-15. Standing alternating or simultaneous.
-    Supinate the wrist as the dumbbell passes the midpoint to maximise short-head
-    recruitment. Elbow stays fixed at the side — no sw...'
-- ref: incline_dumbbell_curl
-  role: secondary
-  technical_notes: 'Day C (Arms — Biceps): 3 × 10-15. Incline bench at 45-60°; arms
-    hang slightly behind the torso at the bottom. This position maximally stretches
-    the biceps long head, loading it under a deep stretch. D...'
-- ref: concentration_curls
-  role: secondary
-  technical_notes: 'Day C (Arms — Biceps): 3 × 12-15. Elbow braced against inner thigh;
-    full supination throughout. EMG data identifies this as one of the highest short-head
-    activation exercises. Use for peak contraction...'
-- ref: cable_preacher_curl
-  role: secondary
-  technical_notes: 'Day C (Arms — Biceps): 3 × 10-15. Low cable with preacher bench.
-    Cable maintains near-constant tension at the fully lengthened (bottom) position
-    where a barbell or dumbbell is near-weightless. Targets...'
-- ref: ez_bar_curl
-  role: accessory
-  technical_notes: 'Day C (Arms — Biceps, optional): 3 × 10-12. Semi-supinated grip
-    reduces wrist and elbow stress vs straight bar; heavier loads achievable. Use
-    as the opening bicep exercise on weeks when heavier compou...'
-- ref: drag_curl
-  role: accessory
-  technical_notes: 'Day C (Arms — Biceps, optional): 2 × 12-15. Keep the bar dragging
-    up the torso; elbows travel back and up rather than forward. Shifts emphasis to
-    brachialis and biceps long head. Use as a final bicep ...'
-- ref: cable_rope_overhead_triceps_extension
-  role: primary
-  technical_notes: 'Day C (Arms — Triceps): 4 × 12-15. Rope attachment; face away
-    from cable stack, arms overhead. The triceps long head is fully lengthened in
-    this position — the highest mechanical tension position for ...'
-- ref: decline_ez_bar_triceps_extension
-  role: secondary
-  technical_notes: 'Day C (Arms — Triceps): 3 × 10-12. Decline bench at -15 to -30°;
-    lower EZ-bar toward the forehead. Decline position provides a slight additional
-    long-head stretch vs flat skull crusher. Heavier absolu...'
-- ref: cable_lying_triceps_extension
-  role: secondary
-  technical_notes: 'Day C (Arms — Triceps): 3 × 12-15. Supine on floor or bench; low
-    cable pulley behind the head. Extend at the elbow; cable maintains tension at
-    full lockout where a barbell is near-weightless. Targets ...'
-- ref: kneeling_cable_triceps_extension
-  role: accessory
-  technical_notes: 'Day C (Arms — Triceps, optional): 2-3 × 15-20. Kneel facing away
-    from cable stack; rope or bar overhead. Similar to standing rope overhead extension
-    but removes lower body instability. Use when strict...'
-- ref: cable_one_arm_tricep_extension
-  role: accessory
-  technical_notes: 'Day C (Arms — Triceps, optional): 2 × 15-20 per arm. Single-arm
-    cable pushdown or overhead extension. Allows each arm to work independently, addressing
-    bilateral strength imbalances. Substitute for tr...'
-- ref: tricep_dumbbell_kickback
-  role: accessory
-  technical_notes: 'Day C (Arms — Triceps): 2 × 15-20. Brace one hand on bench; upper
-    arm parallel to floor, elbow fixed. Extend to full lockout and hold 1 second at
-    peak contraction. EMG is highest in the fully extended...'
-- ref: chin_up
-  role: accessory
-  technical_notes: 'Day C (Arms, optional): 3 × 8-12. Supinated grip preferentially
-    recruits biceps brachii compared to pronated pull-up. Add at the start of the
-    bicep block for athletes who want a multi-joint vertical p...'
-- ref: lying_leg_curls
-  role: primary
-  technical_notes: 'Day D (Legs): 4 × 10-15. Prone on machine. Plantarflex the ankle
-    during the curl to reduce gastrocnemius contribution and shift load to the hamstrings.
-    Slow eccentric (3-4 seconds). Primary knee-flexi...'
-- ref: single_leg_leg_extension
-  role: primary
-  technical_notes: 'Day D (Legs): 3 × 12-15 per leg. Unilateral to address left/right
-    quad strength imbalances. Rectus femoris activation is significantly higher in
-    leg extension than in leg press or squats. Control the ...'
-- ref: glute_ham_raise
-  role: secondary
-  technical_notes: 'Day D (Legs): 3 × 6-10. Advanced — requires established posterior
-    chain strength. Hips extended throughout; movement occurs only at the knee. Use
-    a resistance band for assistance if unable to complete...'
-- ref: standing_leg_curl
-  role: secondary
-  technical_notes: 'Day D (Legs): 3 × 12-15 per leg. Unilateral standing hamstring
-    curl; hip near-neutral vs the flexed hip of the prone curl. Provides additional
-    unilateral knee-flexion volume. Substitute for glute_ham_...'
-- ref: standing_calf_raises
-  role: primary
-  technical_notes: 'Day D (Legs): 4 × 15-20. Full ROM: deep heel drop below platform
-    → full plantarflexion. Knee must stay extended for gastrocnemius to remain active.
-    Slow eccentric (3-4 seconds) for time under tension....'
-- ref: donkey_calf_raises
-  role: secondary
-  technical_notes: 'Day D (Legs): 3 × 15-20. Torso ~90° to legs; hip hinge position
-    creates passive tension through the posterior fascial chain and maximises gastrocnemius
-    stretch at the bottom. Perform after standing ca...'
+
+  # ── DAY A: CHEST ISOLATION ───────────────────────────────────────────────
+
+  - ref: dumbbell_flyes
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest): 4 × 10-15. Slight elbow bend (15-20°) fixed throughout; arms travel
+      in a wide arc. Lower until shoulder reaches 90° horizontal adduction — do not let
+      elbows drop further below the bench. EMG peak at the bottom third; control the
+      eccentric deliberately. First exercise of the chest day.
+
+  - ref: incline_dumbbell_flyes
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest): 3 × 12-15. Bench at 30-45°. Same arc mechanics as flat fly; incline
+      shifts the line of pull to the clavicular/upper pec head. Lighter load than flat fly
+      is normal — the shortened ROM at the top reduces absolute output. Perform second.
+
+  - ref: flat_bench_cable_flyes
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest): 3 × 12-15. Low pulleys; lie flat between cable stacks. Cable provides
+      constant tension across the full ROM unlike dumbbells, which are near-weightless at
+      the top. Use as the third exercise to fully exhaust pec fibres under constant load.
+
+  - ref: butterfly
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest): 3 × 12-15. Pec deck machine. Adjust seat so handles align with mid
+      chest; forearms or elbows rest on pads depending on machine design. Squeeze at peak
+      contraction and hold 1 second. Final exercise; emphasises peak pec contraction under
+      guided load.
+
+  - ref: decline_dumbbell_flyes
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest — optional): 2-3 × 12-15. Decline bench at -15 to -30°; targets
+      sternocostal/lower pec fibres. Add after the core four if lower chest is a specific
+      lagging area, or rotate in place of flat dumbbell fly every other week.
+
+  - ref: incline_cable_flye
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest — optional): 2-3 × 12-15. High pulleys; lie on incline bench. Pull
+      handles downward and inward in a converging arc. Substitute for incline dumbbell fly
+      when constant cable tension is preferred over the dumbbell stretch emphasis.
+
+  - ref: one_arm_flat_bench_dumbbell_flye
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day A (Chest — optional): 2 × 12-15 per side. Unilateral flat fly; allows each side
+      to move through its full arc independently. Useful when bilateral dumbbell fly reveals
+      a left/right imbalance, or as a finishing exercise focusing on mind-muscle connection
+      for the weaker side.
+
+  # ── DAY B: SHOULDERS ISOLATION ──────────────────────────────────────────
+
+  - ref: seated_side_lateral_raise
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day B (Shoulders): 4 × 12-20. Seated to eliminate lower back drive. Raise to shoulder
+      height — no higher, supraspinatus takes over above 90°. Lead with the elbow. Slight
+      forward torso lean (10-15°) increases deltoid_lateral recruitment. Primary lateral
+      head exercise; first of the day.
+
+  - ref: cable_seated_lateral_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day B (Shoulders): 3 × 15-20. Low cable; sit sideways and raise the working arm
+      across the body. Cable provides constant tension in the bottom range where dumbbells
+      are near-weightless. Perform after seated dumbbell lateral raise for full lateral
+      delt exhaustion across the ROM.
+
+  - ref: front_cable_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day B (Shoulders): 3 × 12-15. Low cable; raise one arm to eye level with elbow
+      nearly extended. Targets deltoid_anterior. Include only if anterior delt is genuinely
+      lagging — most athletes over-develop it through pressing. Supinated wrist (palm up at
+      top) increases anterior delt recruitment.
+
+  - ref: seated_bent_over_rear_delt_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day B (Shoulders): 4 × 15-20. Sit on bench edge, torso parallel to floor, arms
+      hanging. Raise dumbbells laterally with elbows leading. Targets deltoid_posterior and
+      trap_middle. Most athletes under-develop the rear delt relative to pressing muscles;
+      this is the primary rear delt exercise.
+
+  - ref: bent_over_dumbbell_rear_delt_raise_with_head_on_bench
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day B (Shoulders — optional): 2-3 × 15-20. Rest forehead on an incline bench at
+      70-80°; torso horizontal and locked. Identical motion to seated bent-over raise but
+      eliminates all momentum and lower back fatigue. Use when strict form is prioritised
+      or as a substitute when lower back is fatigued from other training.
+
+  # ── DAY C: ARMS — BICEPS + TRICEPS ─────────────────────────────────────
+
+  - ref: dumbbell_bicep_curl
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps): 4 × 10-15. Standing alternating or simultaneous. Supinate the
+      wrist as the dumbbell passes the midpoint to maximise short-head recruitment. Elbow
+      stays fixed at the side — no swing. Primary bicep exercise; first of the bicep block.
+
+  - ref: incline_dumbbell_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps): 3 × 10-15. Incline bench at 45-60°; arms hang slightly behind
+      the torso at the bottom. This position maximally stretches the biceps long head,
+      loading it under a deep stretch. Do not let the elbow travel forward at the top.
+
+  - ref: concentration_curls
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps): 3 × 12-15. Elbow braced against inner thigh; full supination
+      throughout. EMG data identifies this as one of the highest short-head activation
+      exercises. Use for peak contraction and mind-muscle connection.
+
+  - ref: cable_preacher_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps): 3 × 10-15. Low cable with preacher bench. Cable maintains
+      near-constant tension at the fully lengthened (bottom) position where a barbell or
+      dumbbell is near-weightless. Targets brachialis and biceps under stretch load.
+
+  - ref: ez_bar_curl
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps, optional): 3 × 10-12. Semi-supinated grip reduces wrist and
+      elbow stress vs straight bar; heavier loads achievable. Use as the opening bicep
+      exercise on weeks when heavier compound curl work is the priority, then follow with
+      isolation exercises.
+
+  - ref: drag_curl
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Biceps, optional): 2 × 12-15. Keep the bar dragging up the torso;
+      elbows travel back and up rather than forward. Shifts emphasis to brachialis and
+      biceps long head. Use as a final bicep exercise or rotate with concentration curls.
+
+  - ref: cable_rope_overhead_triceps_extension
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps): 4 × 12-15. Rope attachment; face away from cable stack, arms
+      overhead. The triceps long head is fully lengthened in this position — the highest
+      mechanical tension position for long-head hypertrophy. Keep elbows close; extend to
+      lockout. First tricep exercise.
+
+  - ref: decline_ez_bar_triceps_extension
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps): 3 × 10-12. Decline bench at -15 to -30°; lower EZ-bar toward
+      the forehead. Decline position provides a slight additional long-head stretch vs flat
+      skull crusher. Heavier absolute loads possible than overhead work.
+
+  - ref: cable_lying_triceps_extension
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps): 3 × 12-15. Supine on floor or bench; low cable pulley behind
+      the head. Extend at the elbow; cable maintains tension at full lockout where a barbell
+      is near-weightless. Targets all three tricep heads with constant resistance.
+
+  - ref: kneeling_cable_triceps_extension
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps, optional): 2-3 × 15-20. Kneel facing away from cable stack;
+      rope or bar overhead. Similar to standing rope overhead extension but removes lower
+      body instability. Use when strict position is prioritised over load, or as a substitute
+      for cable_rope_overhead when the cable stack is occupied.
+
+  - ref: cable_one_arm_tricep_extension
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps, optional): 2 × 15-20 per arm. Single-arm cable pushdown or
+      overhead extension. Allows each arm to work independently, addressing bilateral
+      strength imbalances. Substitute for tricep_dumbbell_kickback or add after it.
+
+  - ref: tricep_dumbbell_kickback
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms — Triceps): 2 × 15-20. Brace one hand on bench; upper arm parallel to
+      floor, elbow fixed. Extend to full lockout and hold 1 second at peak contraction.
+      EMG is highest in the fully extended position. Best as the final tricep exercise for
+      peak contraction emphasis.
+
+  - ref: chin_up
+    role: accessory
+    frequency_per_week: 1
+    technical_notes: >
+      Day C (Arms, optional): 3 × 8-12. Supinated grip preferentially recruits biceps
+      brachii compared to pronated pull-up. Add at the start of the bicep block for
+      athletes who want a multi-joint vertical pull stimulus alongside isolation work.
+      Weighted (belt) when bodyweight is insufficiently challenging.
+
+  # ── DAY D: LEGS ISOLATION ────────────────────────────────────────────────
+
+  - ref: lying_leg_curls
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 4 × 10-15. Prone on machine. Plantarflex the ankle during the curl
+      to reduce gastrocnemius contribution and shift load to the hamstrings. Slow eccentric
+      (3-4 seconds). Primary knee-flexion hamstring exercise; first of the day.
+
+  - ref: single_leg_leg_extension
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 3 × 12-15 per leg. Unilateral to address left/right quad strength
+      imbalances. Rectus femoris activation is significantly higher in leg extension than
+      in leg press or squats. Control the eccentric through the full range; do not
+      forcefully snap to lockout.
+
+  - ref: glute_ham_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 3 × 6-10. Advanced — requires established posterior chain strength.
+      Hips extended throughout; movement occurs only at the knee. Use a resistance band for
+      assistance if unable to complete full ROM. GHR generates up to ~98% MVIC hamstring
+      activation. Perform second, after lying leg curl while hamstrings are pre-fatigued.
+
+  - ref: standing_leg_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 3 × 12-15 per leg. Unilateral standing hamstring curl; hip near-neutral
+      vs the flexed hip of the prone curl. Provides additional unilateral knee-flexion
+      volume. Substitute for glute_ham_raise when GHR is too demanding, or add as a third
+      hamstring exercise for athletes with lagging hamstring development.
+
+  - ref: standing_calf_raises
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 4 × 15-20. Full ROM: deep heel drop below platform → full
+      plantarflexion. Knee must stay extended for gastrocnemius to remain active. Slow
+      eccentric (3-4 seconds) for time under tension. Calves are Type I-dominant —
+      high reps outperform low-rep heavy work for hypertrophy. Primary calf exercise.
+
+  - ref: donkey_calf_raises
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day D (Legs): 3 × 15-20. Torso ~90° to legs; hip hinge position creates passive
+      tension through the posterior fascial chain and maximises gastrocnemius stretch at
+      the bottom. Perform after standing calf raise for additional gastrocnemius volume
+      under deep stretch loading.
+
 sources:
-- title: The Mechanisms of Muscle Hypertrophy and Their Application to Resistance
-    Training
-  credibility: rct
-- title: Resistance Training Volume Enhances Muscle Hypertrophy but Not Strength in
-    Trained Men
-  credibility: meta_analysis
-- title: Muscle Time Under Tension During Resistance Exercise Stimulates Differential
-    Muscle Protein Sub-Fractional Synthetic Responses in Men
-  credibility: rct
+  - source_id: schoenfeld_2010_mechanisms
+    title: "The Mechanisms of Muscle Hypertrophy and Their Application to Resistance Training"
+    author: "Schoenfeld, B. J."
+    year: 2010
+    doi: "10.1519/JSC.0b013e3181e840f3"
+    credibility: rct
+  - source_id: schoenfeld_2019_volume
+    title: "Resistance Training Volume Enhances Muscle Hypertrophy but Not Strength in Trained Men"
+    author: "Schoenfeld, B. J. et al."
+    year: 2019
+    doi: "10.1249/MSS.0000000000001764"
+    credibility: meta_analysis
+  - source_id: burd_2012
+    title: "Muscle Time Under Tension During Resistance Exercise Stimulates Differential Muscle Protein Sub-Fractional Synthetic Responses in Men"
+    author: "Burd, N. A. et al."
+    year: 2012
+    doi: "10.1113/jphysiol.2011.221200"
+    credibility: rct
 ---
 
 # Bodybuilding Isolation Block
@@ -1131,163 +1511,260 @@ Rest/frequency can be adjusted — the isolation days are low-systemic-fatigue a
 
 ---
 
+<!-- FILE: programs/bodybuilding/bro_split.md -->
+
 ---
+
 id: bro_split
 name: Bro Split (5-Day Body-Part Split)
+aliases: [bro split, body part split, 5-day split, classic bodybuilding split, one muscle per day]
 category: program
 system: bodybuilding
-goal: Maximize hypertrophy through high per-session volume concentrated on a single
-  muscle group each training day, allowing maximal mechanical and metabolic stress
-  on each muscle followed by full-week recovery; the archetypal golden-era bodybuilding
-  structure
-goals:
-- hypertrophy
+goal: Maximize hypertrophy through high per-session volume concentrated on a single muscle group each training day, allowing maximal mechanical and metabolic stress on each muscle followed by full-week recovery; the archetypal golden-era bodybuilding structure
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: linear
-progression_model: 'Linear load progression on compound movements: add 2.5 kg (upper
-  body) or 5 kg (lower body) when all prescribed sets and reps are completed with
-  good form. For isolation exercises, use double-progression: advance reps within
-  the prescribed range before increasing load. Deload every 8 weeks: drop to 60% of
-  working sets at maintained loads for one week, then return to full volume.
+origin: classic
+progression_model: >
+  Linear load progression on compound movements: add 2.5 kg (upper body) or 5 kg (lower
+  body) when all prescribed sets and reps are completed with good form. For isolation
+  exercises, use double-progression: advance reps within the prescribed range before
+  increasing load. Deload every 8 weeks: drop to 60% of working sets at maintained loads
+  for one week, then return to full volume.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Chest Day (Monday): 4×6–10. Primary horizontal push compound.
-    Full range of motion; touch lower chest; 2-second descent. The bench press opens
-    Chest Day because it allows the heaviest loading and the ...'
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: 'Chest Day (Monday): 4×8–12. Upper chest (clavicular head) emphasis.
-    30–45° incline. Dumbbells allow greater ROM than barbell at top and bottom. Keep
-    elbows at 75° to the torso to reduce anterior delt ...'
-- ref: dumbbell_flyes
-  role: secondary
-  technical_notes: 'Chest Day (Monday): 3×12–15. Pec isolation stretch exercise. Full
-    ROM from overhead to chest-level arc; elbows soft (120°). Primary stretch-mediated
-    stimulus in the Chest Day. Do not use heavy loads; ...'
-- ref: cable_crossover
-  role: secondary
-  technical_notes: 'Chest Day (Monday): 3×15–20. High-cable or low-cable crossover
-    for adduction emphasis and peak contraction. Final exercise; high rep range for
-    metabolic stress and pump. Cross hands at the bottom for ...'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Back Day (Tuesday): 4×4–8. Primary posterior chain compound. Full
-    hip extension at lockout; bar stays against shins throughout pull. Heavy deadlift
-    opens Back Day for maximum neural drive when fresh. ...'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Back Day (Tuesday): 4×6–10. Primary horizontal pulling compound.
-    45° torso angle; full scapular retraction and depression at top. Overhand grip
-    for rhomboid and trap emphasis; underhand grip for bicep...'
-- ref: pullups
-  role: primary
-  technical_notes: 'Back Day (Tuesday): 3×8–12. Wide-grip vertical pull for lat width.
-    Thumbless grip reduces forearm dominance; initiate from shoulder depression, not
-    elbow flexion. Add weight when bodyweight reps excee...'
-- ref: seated_cable_rows
-  role: secondary
-  technical_notes: 'Back Day (Tuesday): 3×10–15. Mid-back thickness finisher. Close
-    neutral grip; allow full scapular protraction at stretch; pause at peak contraction.
-    Rhomboid and mid-trap emphasis to balance the lat-d...'
-- ref: wide_grip_lat_pulldown
-  role: secondary
-  technical_notes: 'Back Day (Tuesday): 3×12–15. Lat isolation finisher after pull-ups.
-    Wide grip to reinforce lat width. Lean 10° back; pull to upper chest; avoid body
-    swinging.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Shoulder Day (Wednesday): 4×6–10. Primary vertical push compound.
-    Standing or seated. Full lockout at top; bar or dumbbells at clavicle level at
-    start. Seated dumbbell press is acceptable and reduces ...'
-- ref: side_lateral_raise
-  role: secondary
-  technical_notes: 'Shoulder Day (Wednesday): 4×12–15. Lateral deltoid isolation.
-    The most important isolation movement for shoulder width. Lead with the elbow;
-    slight forward lean; stop at parallel. Avoid shrugging; the...'
-- ref: seated_bent_over_rear_delt_raise
-  role: secondary
-  technical_notes: 'Shoulder Day (Wednesday): 4×12–15. Posterior deltoid isolation.
-    Bent-over dumbbell or cable rear-delt fly. Elbow path perpendicular to torso;
-    avoid engaging biceps. The rear deltoid is chronically und...'
-- ref: front_dumbbell_raise
-  role: secondary
-  technical_notes: 'Shoulder Day (Wednesday): 3×12–15. Anterior deltoid isolation.
-    Alternating arm; neutral wrist; stop at shoulder level (not overhead). Anterior
-    delts receive significant indirect stimulus from bench pr...'
-- ref: barbell_curl
-  role: primary
-  technical_notes: 'Arm Day (Thursday): 4×6–10. Primary bicep compound. Elbows pinned
-    at sides; no shoulder flexion; full supination at top. Arm Day on Thursday places
-    heavy bicep work 48 hours after Back Day to allow re...'
-- ref: incline_dumbbell_curl
-  role: secondary
-  technical_notes: 'Arm Day (Thursday): 3×10–15. Bicep long head emphasis on the incline
-    angle. Bench at 45–60°; full shoulder extension places long head under maximal
-    stretch. One of the best bicep peak exercises due to...'
-- ref: concentration_curls
-  role: secondary
-  technical_notes: 'Arm Day (Thursday): 3×12–15. Bicep isolation finisher. Seated,
-    elbow braced against inner thigh; full supination with pause at top. Targets the
-    bicep peak and brachialis; classic Arm Day finisher.'
-- ref: triceps_pushdown
-  role: primary
-  technical_notes: 'Arm Day (Thursday): 4×10–15. Tricep compound via cable. Rope or
-    straight bar. Elbows fixed; full extension at bottom; lat tension prevents elbow
-    flare. Triceps represent approximately two-thirds of up...'
-- ref: ez_bar_skullcrusher
-  role: secondary
-  technical_notes: 'Arm Day (Thursday): 3×8–12. Tricep long head emphasis. EZ-bar
-    lowers to forehead or slightly behind; full extension at top. The long head requires
-    shoulder flexion for full stretch — overhead extensio...'
-- ref: cable_rope_overhead_triceps_extension
-  role: secondary
-  technical_notes: 'Arm Day (Thursday): 3×12–15. Tricep long head isolation with maximal
-    stretch. Dumbbell or cable overhead; full shoulder flexion positions the long
-    head at its longest. Alternating or bilateral; elbows...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Leg Day (Friday): 4×6–10. Primary quad and glute compound. Full
-    depth; high-bar neutral stance for quad emphasis; low-bar wide stance for posterior
-    chain bias. Leg Day at week-end maximizes recovery t...'
-- ref: leg_press
-  role: secondary
-  technical_notes: 'Leg Day (Friday): 4×10–15. Secondary quad and glute loading. High
-    foot placement for glute and hamstring emphasis; moderate placement for quad emphasis.
-    A bro split staple: allows very high quad volum...'
-- ref: leg_extensions
-  role: secondary
-  technical_notes: 'Leg Day (Friday): 3×12–15. Quad isolation finisher. Full extension
-    at top with 1-second isometric hold; controlled 3-second descent. The primary
-    isolation tool for the rectus femoris and vastus medial...'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Leg Day (Friday): 3×8–12. Hip hinge for hamstring and glute emphasis.
-    Bar stays against legs; hinge at the hip; stop at point of neutral spine loss.
-    The posterior chain complement to quad-dominant squ...'
-- ref: seated_leg_curl
-  role: secondary
-  technical_notes: 'Leg Day (Friday): 3×10–15. Hamstring isolation. Seated position
-    places hip in flexion, putting hamstrings under greater stretch than lying leg
-    curl — superior for hypertrophy per recent evidence. Full...'
-- ref: standing_calf_raises
-  role: secondary
-  technical_notes: 'Leg Day (Friday): 4×15–20. Gastrocnemius-dominant with straight
-    knee. Full ROM: maximal dorsiflexion stretch at bottom; full plantarflexion at
-    top. 2-second pause at stretch. Calves have high slow-twi...'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest Day (Monday): 4×6–10. Primary horizontal push compound. Full range of motion;
+      touch lower chest; 2-second descent. The bench press opens Chest Day because it
+      allows the heaviest loading and the most total motor unit recruitment for the pec major.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest Day (Monday): 4×8–12. Upper chest (clavicular head) emphasis. 30–45° incline.
+      Dumbbells allow greater ROM than barbell at top and bottom. Keep elbows at 75° to
+      the torso to reduce anterior delt strain.
+
+  - ref: dumbbell_flyes
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest Day (Monday): 3×12–15. Pec isolation stretch exercise. Full ROM from
+      overhead to chest-level arc; elbows soft (120°). Primary stretch-mediated stimulus
+      in the Chest Day. Do not use heavy loads; ROM is the training variable here.
+
+  - ref: cable_crossover
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest Day (Monday): 3×15–20. High-cable or low-cable crossover for adduction
+      emphasis and peak contraction. Final exercise; high rep range for metabolic stress
+      and pump. Cross hands at the bottom for full adduction.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Back Day (Tuesday): 4×4–8. Primary posterior chain compound. Full hip extension
+      at lockout; bar stays against shins throughout pull. Heavy deadlift opens Back Day
+      for maximum neural drive when fresh. Straps permissible after warm-up sets.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Back Day (Tuesday): 4×6–10. Primary horizontal pulling compound. 45° torso angle;
+      full scapular retraction and depression at top. Overhand grip for rhomboid and
+      trap emphasis; underhand grip for bicep integration and lat recruitment.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Back Day (Tuesday): 3×8–12. Wide-grip vertical pull for lat width. Thumbless grip
+      reduces forearm dominance; initiate from shoulder depression, not elbow flexion.
+      Add weight when bodyweight reps exceed 12 for all 3 sets.
+
+  - ref: seated_cable_rows
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back Day (Tuesday): 3×10–15. Mid-back thickness finisher. Close neutral grip;
+      allow full scapular protraction at stretch; pause at peak contraction. Rhomboid
+      and mid-trap emphasis to balance the lat-dominant exercises earlier in the session.
+
+  - ref: wide_grip_lat_pulldown
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back Day (Tuesday): 3×12–15. Lat isolation finisher after pull-ups. Wide grip
+      to reinforce lat width. Lean 10° back; pull to upper chest; avoid body swinging.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Shoulder Day (Wednesday): 4×6–10. Primary vertical push compound. Standing or
+      seated. Full lockout at top; bar or dumbbells at clavicle level at start. Seated
+      dumbbell press is acceptable and reduces lower back strain compared to standing
+      barbell press.
+
+  - ref: side_lateral_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Shoulder Day (Wednesday): 4×12–15. Lateral deltoid isolation. The most important
+      isolation movement for shoulder width. Lead with the elbow; slight forward lean;
+      stop at parallel. Avoid shrugging; the trap is not the target. Cable laterals
+      provide consistent tension through ROM as an alternative to dumbbells.
+
+  - ref: seated_bent_over_rear_delt_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Shoulder Day (Wednesday): 4×12–15. Posterior deltoid isolation. Bent-over
+      dumbbell or cable rear-delt fly. Elbow path perpendicular to torso; avoid
+      engaging biceps. The rear deltoid is chronically undertrained in bro splits;
+      4 sets reflects its strategic importance for shoulder health and aesthetics.
+
+  - ref: front_dumbbell_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Shoulder Day (Wednesday): 3×12–15. Anterior deltoid isolation. Alternating arm;
+      neutral wrist; stop at shoulder level (not overhead). Anterior delts receive
+      significant indirect stimulus from bench pressing; volume here is lower priority
+      than lateral and rear delts.
+
+  - ref: barbell_curl
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 4×6–10. Primary bicep compound. Elbows pinned at sides;
+      no shoulder flexion; full supination at top. Arm Day on Thursday places heavy
+      bicep work 48 hours after Back Day to allow recovery.
+
+  - ref: incline_dumbbell_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 3×10–15. Bicep long head emphasis on the incline angle.
+      Bench at 45–60°; full shoulder extension places long head under maximal stretch.
+      One of the best bicep peak exercises due to full ROM in the elongated position.
+
+  - ref: concentration_curls
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 3×12–15. Bicep isolation finisher. Seated, elbow braced
+      against inner thigh; full supination with pause at top. Targets the bicep peak
+      and brachialis; classic Arm Day finisher.
+
+  - ref: triceps_pushdown
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 4×10–15. Tricep compound via cable. Rope or straight bar.
+      Elbows fixed; full extension at bottom; lat tension prevents elbow flare. Triceps
+      represent approximately two-thirds of upper arm mass; prioritize them on Arm Day.
+
+  - ref: ez_bar_skullcrusher
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 3×8–12. Tricep long head emphasis. EZ-bar lowers to forehead
+      or slightly behind; full extension at top. The long head requires shoulder
+      flexion for full stretch — overhead extension accomplishes this; skull crushers
+      provide heavy loading in the shortened range.
+
+  - ref: cable_rope_overhead_triceps_extension
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Arm Day (Thursday): 3×12–15. Tricep long head isolation with maximal stretch.
+      Dumbbell or cable overhead; full shoulder flexion positions the long head at its
+      longest. Alternating or bilateral; elbows close to head; controlled descent.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 4×6–10. Primary quad and glute compound. Full depth; high-bar
+      neutral stance for quad emphasis; low-bar wide stance for posterior chain bias.
+      Leg Day at week-end maximizes recovery time before Monday Chest Day; squats
+      first when CNS is freshest.
+
+  - ref: leg_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 4×10–15. Secondary quad and glute loading. High foot placement
+      for glute and hamstring emphasis; moderate placement for quad emphasis. A bro
+      split staple: allows very high quad volume without the technical demand of squats.
+
+  - ref: leg_extensions
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 3×12–15. Quad isolation finisher. Full extension at top with
+      1-second isometric hold; controlled 3-second descent. The primary isolation tool
+      for the rectus femoris and vastus medialis oblique (VMO).
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 3×8–12. Hip hinge for hamstring and glute emphasis. Bar stays
+      against legs; hinge at the hip; stop at point of neutral spine loss. The posterior
+      chain complement to quad-dominant squat and leg press work.
+
+  - ref: seated_leg_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 3×10–15. Hamstring isolation. Seated position places hip in
+      flexion, putting hamstrings under greater stretch than lying leg curl — superior
+      for hypertrophy per recent evidence. Full ROM from near full extension.
+
+  - ref: standing_calf_raises
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Leg Day (Friday): 4×15–20. Gastrocnemius-dominant with straight knee. Full ROM:
+      maximal dorsiflexion stretch at bottom; full plantarflexion at top. 2-second
+      pause at stretch. Calves have high slow-twitch fiber density — high volume and
+      full ROM produce the best hypertrophic response.
+
 sources:
-- title: The New Encyclopedia of Modern Bodybuilding
-  credibility: practitioner
-- title: 'Effects of resistance training frequency on measures of muscle hypertrophy:
-    A systematic review and meta-analysis'
-  credibility: meta_analysis
-- title: 'Maximizing Muscle Hypertrophy: A Systematic Review of Advanced Resistance
-    Training Techniques and Methods'
-  credibility: meta_analysis
+  - title: "The New Encyclopedia of Modern Bodybuilding"
+    author: "Schwarzenegger, A., Dobbins, B."
+    year: 1999
+    publisher: "Simon & Schuster"
+    credibility: practitioner
+  - title: "Effects of resistance training frequency on measures of muscle hypertrophy: A systematic review and meta-analysis"
+    author: "Schoenfeld, B.J., Ogborn, D., Krieger, J.W."
+    year: 2016
+    journal: "Sports Medicine"
+    volume: 46
+    issue: 11
+    pages: "1689-1697"
+    doi: "10.1007/s40279-016-0543-8"
+    credibility: meta_analysis
+  - title: "Maximizing Muscle Hypertrophy: A Systematic Review of Advanced Resistance Training Techniques and Methods"
+    author: "Krzysztofik, M., et al."
+    year: 2019
+    journal: "International Journal of Environmental Research and Public Health"
+    volume: 16
+    issue: 24
+    pages: "4897"
+    doi: "10.3390/ijerph16244897"
+    credibility: meta_analysis
 ---
 
 # Bro Split (5-Day Body-Part Split)
@@ -1384,86 +1861,130 @@ The bro split works best for athletes who prioritize pump-based training, have h
 
 ---
 
+<!-- FILE: programs/bodybuilding/dc_training.md -->
+
 ---
+
 id: dc_training
 name: DC Training (Doggcrapp)
+aliases: [Doggcrapp, DC training, Dante Trudel training, extreme stretching bodybuilding]
 category: program
 system: bodybuilding
-goal: Maximize hypertrophy and strength simultaneously by training each muscle group
-  every 4–5 days using rest-pause sets, extreme stretching, and rotating exercises
-  across two workouts (A and B) that alternate over the training week
-goals:
-- hypertrophy
+goal: Maximize hypertrophy and strength simultaneously by training each muscle group every 4–5 days using rest-pause sets, extreme stretching, and rotating exercises across two workouts (A and B) that alternate over the training week
+goals: [hypertrophy]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 3
 periodization: high_frequency_low_volume
-progression_model: 'Rest-pause sets: perform a set to failure, rest 15 breaths (deep
-  nasal breaths, approximately 20–25 seconds), perform reps to failure again, rest
-  15 breaths, perform final reps to failure. Record total reps across all three mini-sets.
-  Beat the total rep count at the next session. When total reps plateau for 3 sessions,
-  rotate to the next exercise in the rotation. DC runs 2-week mini-blasts followed
-  by a 1-week cruise (light, 15–20 rep sets, no failure) every 6 weeks to prevent
-  overtraining and reset.
+origin: classic
+progression_model: >
+  Rest-pause sets: perform a set to failure, rest 15 breaths (deep nasal breaths,
+  approximately 20–25 seconds), perform reps to failure again, rest 15 breaths, perform
+  final reps to failure. Record total reps across all three mini-sets. Beat the total rep
+  count at the next session. When total reps plateau for 3 sessions, rotate to the next
+  exercise in the rotation. DC runs 2-week mini-blasts followed by a 1-week cruise
+  (light, 15–20 rep sets, no failure) every 6 weeks to prevent overtraining and reset.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Workout A primary chest compound. Rest-pause: 1 set to failure,
-    15 breaths, reps to failure, 15 breaths, final reps. DC Training uses only ONE
-    rest-pause set per exercise, not multiple straight sets. ...'
-- ref: incline_dumbbell_press
-  role: primary
-  technical_notes: 'Workout B primary chest compound (alternates with bench press).
-    Same rest-pause protocol. Rotation within chest: flat barbell → incline dumbbell
-    → hammer strength chest press → repeat. Rotating exerci...'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Workout A primary back width exercise. Rest-pause protocol. DC
-    categorizes back into two groups: back width (rowing) and back thickness (deadlifts/rack
-    pulls). Both trained separately within the same ...'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Workout B primary back thickness exercise. Rest-pause protocol
-    on deadlifts is structurally demanding; many athletes use rack pull or trap bar
-    variant instead. Straight-weight sets of 6–10 reps are an...
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Primary shoulder exercise both workouts. Rest-pause. Rotation:
-    seated dumbbell press → seated barbell press → machine press → repeat. Shoulders
-    in DC are trained with heavy pressing only; lateral rais...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Primary quad exercise. Rest-pause squats are extremely demanding;
-    DC practitioners often use leg press as the rest-pause vehicle and squat as a
-    straight-set warm-up. Rotation: leg press → hack squat →...'
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: Primary hamstring exercise. Straight sets 8–12 rather than rest-pause
-    due to hip hinge fatigue accumulation. DC uses RDL as the primary posterior chain
-    exercise; lying leg curls are secondary.
-- ref: barbell_curl
-  role: primary
-  technical_notes: 'Primary bicep exercise. Rest-pause protocol. Rotation: barbell
-    curl → incline dumbbell curl → preacher curl → repeat. DC emphasizes the incline
-    dumbbell curl specifically for bicep peak development fr...'
-- ref: triceps_pushdown
-  role: primary
-  technical_notes: 'Primary tricep exercise. Rest-pause. Rotation: close-grip bench
-    → pushdown → overhead extension → repeat. Triceps represent the bulk of upper
-    arm mass; DC treats them as higher priority than biceps.'
-- ref: standing_calf_raises
-  role: secondary
-  technical_notes: 'DC calf work is notably unique: 1 rest-pause set of 8–12 reps
-    followed by a 30-second extreme stretch in the fully dorsiflexed position. Both
-    calves trained every session. DC''s extreme stretching for ...'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Workout A primary chest compound. Rest-pause: 1 set to failure, 15 breaths, reps
+      to failure, 15 breaths, final reps. DC Training uses only ONE rest-pause set per
+      exercise, not multiple straight sets. Record total reps. Next session: beat the
+      total. When total reps stall 3× in a row, rotate to next chest exercise.
+
+  - ref: incline_dumbbell_press
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Workout B primary chest compound (alternates with bench press). Same rest-pause
+      protocol. Rotation within chest: flat barbell → incline dumbbell → hammer strength
+      chest press → repeat. Rotating exercises prevents accommodation on any one movement.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Workout A primary back width exercise. Rest-pause protocol. DC categorizes back
+      into two groups: back width (rowing) and back thickness (deadlifts/rack pulls).
+      Both trained separately within the same session. Underhand grip for bicep
+      integration; overhand for pure rhomboid focus.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Workout B primary back thickness exercise. Rest-pause protocol on deadlifts is
+      structurally demanding; many athletes use rack pull or trap bar variant instead.
+      Straight-weight sets of 6–10 reps are an acceptable DC substitute for deadlifts
+      due to spinal fatigue concerns with rest-pause dead stops.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Primary shoulder exercise both workouts. Rest-pause. Rotation: seated dumbbell press
+      → seated barbell press → machine press → repeat. Shoulders in DC are trained with
+      heavy pressing only; lateral raises are secondary (low rotation priority).
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Primary quad exercise. Rest-pause squats are extremely demanding; DC practitioners
+      often use leg press as the rest-pause vehicle and squat as a straight-set warm-up.
+      Rotation: leg press → hack squat → squat → repeat. Full ROM required in DC;
+      partial range is explicitly prohibited by Dante Trudel.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Primary hamstring exercise. Straight sets 8–12 rather than rest-pause due to
+      hip hinge fatigue accumulation. DC uses RDL as the primary posterior chain exercise;
+      lying leg curls are secondary.
+
+  - ref: barbell_curl
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Primary bicep exercise. Rest-pause protocol. Rotation: barbell curl → incline
+      dumbbell curl → preacher curl → repeat. DC emphasizes the incline dumbbell curl
+      specifically for bicep peak development from the stretched position.
+
+  - ref: triceps_pushdown
+    role: primary
+    frequency_per_week: 1.5
+    technical_notes: >
+      Primary tricep exercise. Rest-pause. Rotation: close-grip bench → pushdown →
+      overhead extension → repeat. Triceps represent the bulk of upper arm mass; DC
+      treats them as higher priority than biceps.
+
+  - ref: standing_calf_raises
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      DC calf work is notably unique: 1 rest-pause set of 8–12 reps followed by a
+      30-second extreme stretch in the fully dorsiflexed position. Both calves trained
+      every session. DC's extreme stretching for calves is documented as highly effective
+      for stubborn calf hypertrophy.
+
 sources:
-- title: DC Training Manual
-  credibility: practitioner
-- title: 'Effectiveness of post-exercise muscle stretching on reducing delayed onset
-    muscle soreness: a systematic review and meta-analysis'
-  credibility: meta_analysis
+  - title: "DC Training Manual"
+    author: "Trudel, D. (Doggcrapp)"
+    year: 2003
+    publisher: "Internet Bodybuilding Community / Elite Fitness Systems"
+    credibility: practitioner
+  - title: "Effectiveness of post-exercise muscle stretching on reducing delayed onset muscle soreness: a systematic review and meta-analysis"
+    author: "Apostolopoulos, N., et al."
+    year: 2015
+    journal: "Journal of Human Kinetics"
+    volume: 46
+    pages: "107-124"
+    doi: "10.1515/hukin-2015-0012"
+    credibility: meta_analysis
 ---
 
 # DC Training (Doggcrapp)
@@ -1553,93 +2074,140 @@ Each muscle group is trained every 4–5 days — more frequent than typical bod
 
 ---
 
+<!-- FILE: programs/bodybuilding/gvt.md -->
+
 ---
+
 id: gvt
 name: German Volume Training (GVT)
+aliases: [GVT, German Volume Training, 10x10, ten sets ten reps]
 category: program
 system: bodybuilding
-goal: Produce rapid hypertrophy through extreme volume accumulation using the 10×10
-  protocol on a paired antagonist superset structure; primarily targets intermediate
-  trainees looking for a hypertrophy shock protocol or a break from strength-focused
-  programming
-goals:
-- hypertrophy
+goal: Produce rapid hypertrophy through extreme volume accumulation using the 10×10 protocol on a paired antagonist superset structure; primarily targets intermediate trainees looking for a hypertrophy shock protocol or a break from strength-focused programming
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 6
 frequency_per_week: 4
 periodization: volume_shock
-progression_model: '10 sets of 10 reps at 60% of 1RM (approximately 20RM) with strict
-  90-second rest between supersetted exercises. When all 10×10 are completed with
-  good form and the same 90-second rest, increase load 2.5% at the next session. Progress
-  is intentionally slow — the point of GVT is volume-driven metabolic stress, not
-  progressive overload. Run for 6 weeks only; take a 4-week deload or switch programs,
-  then repeat if desired.
+origin: classic
+progression_model: >
+  10 sets of 10 reps at 60% of 1RM (approximately 20RM) with strict 90-second rest
+  between supersetted exercises. When all 10×10 are completed with good form and the
+  same 90-second rest, increase load 2.5% at the next session. Progress is intentionally
+  slow — the point of GVT is volume-driven metabolic stress, not progressive overload.
+  Run for 6 weeks only; take a 4-week deload or switch programs, then repeat if desired.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: Day 1 A-exercise (superset A1 with bent-over row). 10 × 10 at ~60%
-    1RM. 90-second rest after each A1-A2 pair. The 60% load is deceptively easy for
-    the first 5 sets; sets 7–10 are genuinely difficult; ...
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: Day 1 B-exercise (superset A2 with bench press). 10 × 10 at ~60%
-    1RM. Performed immediately after bench press with 90-second rest before returning
-    to bench. Antagonist pairing allows recovery while tr...
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: Day 1 B-exercise finisher. 3 × 10–12 at higher intensity (RPE 8).
-    Accessory work in GVT is kept minimal — 2–3 sets of 1–2 exercises only. The 10×10
-    work already provides near-maximal volume; accessory...
-- ref: pullups
-  role: secondary
-  technical_notes: Day 1 accessory. 3 × 10–12. Vertical pull stimulus after horizontal
-    pulling 10×10.
-- ref: back_squat
-  role: primary
-  technical_notes: Day 2 A-exercise (superset A1 with lying leg curl). 10 × 10 at
-    ~60% 1RM. 90-second rest between pairs. GVT squats at 60% 1RM for 10×10 are metabolically
-    brutal; DOMS is extreme after the first 1–2 ses...
-- ref: lying_leg_curls
-  role: primary
-  technical_notes: Day 2 B-exercise (superset A2 with back squat). 10 × 10 at ~60%
-    1RM. Lying leg curl is the natural antagonist pair for squats in GVT's lower body
-    protocol. Full ROM from full extension to maximum knee...
-- ref: leg_extensions
-  role: secondary
-  technical_notes: Day 2 accessory. 3 × 10–15. Quad isolation finisher after squat
-    10×10.
-- ref: seated_calf_raise
-  role: secondary
-  technical_notes: Day 2 accessory. 3 × 15–20. GVT does not apply the 10×10 protocol
-    to calves due to their high local recovery capacity; standard straight sets are
-    used.
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Day 3 A-exercise (superset A1 with lat pulldown). 10 × 10 at ~60%
-    1RM. Seated dumbbell or standing barbell. Antagonist pairing: vertical push with
-    vertical pull. GVT Day 3 is often the hardest for upp...'
-- ref: wide_grip_lat_pulldown
-  role: primary
-  technical_notes: Day 3 B-exercise (superset A2 with overhead press). 10 × 10 at
-    ~60% 1RM. Wide grip lat pulldown. Drives lat width and vertical pulling capacity
-    after the heavy pressing of Day 1.
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: Day 4 A-exercise (superset A1 with incline bench press variant).
-    10 × 10 at ~60% 1RM. RDL in GVT targets hamstrings and posterior chain. Strict
-    hip hinge; bar stays against legs throughout; stop at po...
-- ref: incline_dumbbell_press
-  role: primary
-  technical_notes: Day 4 B-exercise (superset A2 with RDL). 10 × 10 at ~60% 1RM. Upper
-    chest emphasis on Day 4 to provide different stimulus than flat bench on Day 1.
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 A-exercise (superset A1 with bent-over row). 10 × 10 at ~60% 1RM.
+      90-second rest after each A1-A2 pair. The 60% load is deceptively easy for the
+      first 5 sets; sets 7–10 are genuinely difficult; set 10 is at volitional failure.
+      Use a spotter. Bar path: touch lower chest; 2-second descent.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 B-exercise (superset A2 with bench press). 10 × 10 at ~60% 1RM.
+      Performed immediately after bench press with 90-second rest before returning
+      to bench. Antagonist pairing allows recovery while training the opposing muscle.
+      GVT's superset design is essential — straight sets would be too taxing on any
+      single joint.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 B-exercise finisher. 3 × 10–12 at higher intensity (RPE 8). Accessory
+      work in GVT is kept minimal — 2–3 sets of 1–2 exercises only. The 10×10 work
+      already provides near-maximal volume; accessory work adds targeted stimulus without
+      pushing past recovery.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 accessory. 3 × 10–12. Vertical pull stimulus after horizontal pulling 10×10.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 A-exercise (superset A1 with lying leg curl). 10 × 10 at ~60% 1RM.
+      90-second rest between pairs. GVT squats at 60% 1RM for 10×10 are metabolically
+      brutal; DOMS is extreme after the first 1–2 sessions. Joint health: use full ROM
+      and do not sacrifice depth to chase reps.
+
+  - ref: lying_leg_curls
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 B-exercise (superset A2 with back squat). 10 × 10 at ~60% 1RM. Lying leg
+      curl is the natural antagonist pair for squats in GVT's lower body protocol.
+      Full ROM from full extension to maximum knee flexion.
+
+  - ref: leg_extensions
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 accessory. 3 × 10–15. Quad isolation finisher after squat 10×10.
+
+  - ref: seated_calf_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 accessory. 3 × 15–20. GVT does not apply the 10×10 protocol to calves
+      due to their high local recovery capacity; standard straight sets are used.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 3 A-exercise (superset A1 with lat pulldown). 10 × 10 at ~60% 1RM.
+      Seated dumbbell or standing barbell. Antagonist pairing: vertical push with
+      vertical pull. GVT Day 3 is often the hardest for upper body recovery.
+
+  - ref: wide_grip_lat_pulldown
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 3 B-exercise (superset A2 with overhead press). 10 × 10 at ~60% 1RM.
+      Wide grip lat pulldown. Drives lat width and vertical pulling capacity after
+      the heavy pressing of Day 1.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 4 A-exercise (superset A1 with incline bench press variant). 10 × 10 at
+      ~60% 1RM. RDL in GVT targets hamstrings and posterior chain. Strict hip hinge;
+      bar stays against legs throughout; stop at point of spinal neutral loss.
+
+  - ref: incline_dumbbell_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 4 B-exercise (superset A2 with RDL). 10 × 10 at ~60% 1RM. Upper chest
+      emphasis on Day 4 to provide different stimulus than flat bench on Day 1.
+
 sources:
-- title: German Volume Training
-  credibility: practitioner
-- title: 'Resistance Training Volume and Muscle Hypertrophy in Strength-Trained Beginners:
-    Weekly Volume Is Not a Key Factor'
-  credibility: rct
+  - title: "German Volume Training"
+    author: "King, I., Poliquin, C."
+    year: 1996
+    publisher: "Poliquin Performance Center"
+    credibility: practitioner
+  - title: "Resistance Training Volume and Muscle Hypertrophy in Strength-Trained Beginners: Weekly Volume Is Not a Key Factor"
+    author: "González-Badillo, J.J., et al."
+    year: 2005
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 19
+    issue: 2
+    pages: "308-313"
+    doi: "10.1519/R-14278.1"
+    credibility: rct
 ---
 
 # German Volume Training (GVT)
@@ -1719,112 +2287,178 @@ German Volume Training is attributed to Charles Poliquin, who popularized the 10
 
 ---
 
+<!-- FILE: programs/bodybuilding/phat.md -->
+
 ---
+
 id: phat
 name: PHAT (Power Hypertrophy Adaptive Training)
+aliases: [PHAT, Layne Norton PHAT, power hypertrophy adaptive training]
 category: program
 system: bodybuilding
-goal: Simultaneously develop maximal strength on compound lifts and accumulate hypertrophy
-  volume, using heavy power days to build strength and dedicated hypertrophy days
-  to maximize muscle growth
-goals:
-- hypertrophy
-- strength
+goal: Simultaneously develop maximal strength on compound lifts and accumulate hypertrophy volume, using heavy power days to build strength and dedicated hypertrophy days to maximize muscle growth
+goals: [hypertrophy, strength]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 5
 periodization: undulating
-progression_model: 'Power days: linear progression. Add 2.5 kg (upper body) or 5 kg
-  (lower body) when all working sets are completed in the prescribed range. Hypertrophy
-  days: double-progression. Advance within the rep range before adding load. Deload
-  every 6 weeks: reduce working sets by 40%, maintain intensity.
+origin: classic
+progression_model: >
+  Power days: linear progression. Add 2.5 kg (upper body) or 5 kg (lower body) when all
+  working sets are completed in the prescribed range. Hypertrophy days: double-progression.
+  Advance within the rep range before adding load. Deload every 6 weeks: reduce working
+  sets by 40%, maintain intensity.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Upper Power (Day 1): 3–4 × 3–5 at ~85–90% 1RM. Primary horizontal
-    push strength movement. Chest/Arms Hypertrophy (Day 5): 4 × 8–12 flat or slight
-    decline.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Upper Power (Day 1): 3–4 × 3–5. Heavy overhand row; maintain 45°
-    torso angle. Back/Shoulders Hypertrophy (Day 3): 4 × 8–12 as volume work.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Upper Power (Day 1): 2–3 × 3–5 weighted. Adds plates via belt.
-    Back/Shoulders Hypertrophy (Day 3): 3 × 8–12 bodyweight or light load.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Upper Power (Day 1): 2–3 × 5–8. Secondary pressing compound on
-    power day. Standing strict press preferred.'
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: 'Upper Power (Day 1): 3 × 6–10. Back/Shoulders Hypertrophy (Day
-    3): replaced by lateral raise accessory. Chest/Arms Hyp (Day 5): 3 × 8–12.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Lower Power (Day 2): 3–4 × 3–5 at ~85–90% 1RM. Primary squat compound.
-    Lower Hypertrophy (Day 4): 4 × 8–12 at moderate load.'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Lower Power (Day 2): 2–3 × 5–8. Posterior chain strength accessory.
-    Lower Hypertrophy (Day 4): 3 × 8–12.'
-- ref: leg_press
-  role: secondary
-  technical_notes: 'Lower Power (Day 2): 2 × 10–15 following squat. Lower Hypertrophy
-    (Day 4): 3 × 12–15 as quad volume.'
-- ref: seated_leg_curl
-  role: secondary
-  technical_notes: 'Lower Power (Day 2): 3 × 6–10. Lower Hypertrophy (Day 4): 3 ×
-    10–15. Hamstring isolation, both days.'
-- ref: leg_extensions
-  role: secondary
-  technical_notes: 'Lower Hypertrophy (Day 4): 3 × 12–15. Quad pump finisher; full
-    extension.'
-- ref: seated_cable_rows
-  role: secondary
-  technical_notes: 'Back/Shoulders Hypertrophy (Day 3): 3 × 8–12. Mid-back and rhomboid
-    volume. Close-grip handle.'
-- ref: side_lateral_raise
-  role: secondary
-  technical_notes: 'Back/Shoulders Hypertrophy (Day 3): 4 × 12–15. Lateral deltoid
-    isolation.'
-- ref: face_pull
-  role: secondary
-  technical_notes: 'Back/Shoulders Hypertrophy (Day 3): 3 × 15–20. Rear delt and external
-    rotation health maintenance. High rope attachment; pull to face.'
-- ref: front_dumbbell_raise
-  role: secondary
-  technical_notes: 'Back/Shoulders Hypertrophy (Day 3): 2 × 12–15. Anterior deltoid
-    accessory.'
-- ref: ez_bar_skullcrusher
-  role: secondary
-  technical_notes: 'Chest/Arms Hypertrophy (Day 5): 3 × 8–12. Triceps long-head emphasis.
-    Lower to forehead; full extension.'
-- ref: triceps_pushdown
-  role: secondary
-  technical_notes: 'Chest/Arms Hypertrophy (Day 5): 3 × 10–15. Rope or straight bar.
-    Lateral head pump finisher.'
-- ref: barbell_curl
-  role: secondary
-  technical_notes: 'Chest/Arms Hypertrophy (Day 5): 3 × 8–12. Primary bicep compound.'
-- ref: hammer_curls
-  role: secondary
-  technical_notes: 'Chest/Arms Hypertrophy (Day 5): 3 × 10–15. Brachialis development.'
-- ref: preacher_curl
-  role: secondary
-  technical_notes: 'Chest/Arms Hypertrophy (Day 5): 2 × 10–15. Distal bicep development.'
-- ref: seated_calf_raise
-  role: secondary
-  technical_notes: 'Lower Power (Day 2): 2 × 12–15. Lower Hypertrophy (Day 4): 3 ×
-    12–15. Soleus-dominant calf work.'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper Power (Day 1): 3–4 × 3–5 at ~85–90% 1RM. Primary horizontal push strength
+      movement. Chest/Arms Hypertrophy (Day 5): 4 × 8–12 flat or slight decline.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper Power (Day 1): 3–4 × 3–5. Heavy overhand row; maintain 45° torso angle.
+      Back/Shoulders Hypertrophy (Day 3): 4 × 8–12 as volume work.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper Power (Day 1): 2–3 × 3–5 weighted. Adds plates via belt.
+      Back/Shoulders Hypertrophy (Day 3): 3 × 8–12 bodyweight or light load.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Upper Power (Day 1): 2–3 × 5–8. Secondary pressing compound on power day.
+      Standing strict press preferred.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper Power (Day 1): 3 × 6–10. Back/Shoulders Hypertrophy (Day 3): replaced
+      by lateral raise accessory. Chest/Arms Hyp (Day 5): 3 × 8–12.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower Power (Day 2): 3–4 × 3–5 at ~85–90% 1RM. Primary squat compound.
+      Lower Hypertrophy (Day 4): 4 × 8–12 at moderate load.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower Power (Day 2): 2–3 × 5–8. Posterior chain strength accessory.
+      Lower Hypertrophy (Day 4): 3 × 8–12.
+
+  - ref: leg_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower Power (Day 2): 2 × 10–15 following squat.
+      Lower Hypertrophy (Day 4): 3 × 12–15 as quad volume.
+
+  - ref: seated_leg_curl
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower Power (Day 2): 3 × 6–10. Lower Hypertrophy (Day 4): 3 × 10–15.
+      Hamstring isolation, both days.
+
+  - ref: leg_extensions
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Lower Hypertrophy (Day 4): 3 × 12–15. Quad pump finisher; full extension.
+
+  - ref: seated_cable_rows
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back/Shoulders Hypertrophy (Day 3): 3 × 8–12. Mid-back and rhomboid volume.
+      Close-grip handle.
+
+  - ref: side_lateral_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back/Shoulders Hypertrophy (Day 3): 4 × 12–15. Lateral deltoid isolation.
+
+  - ref: face_pull
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back/Shoulders Hypertrophy (Day 3): 3 × 15–20. Rear delt and external
+      rotation health maintenance. High rope attachment; pull to face.
+
+  - ref: front_dumbbell_raise
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Back/Shoulders Hypertrophy (Day 3): 2 × 12–15. Anterior deltoid accessory.
+
+  - ref: ez_bar_skullcrusher
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest/Arms Hypertrophy (Day 5): 3 × 8–12. Triceps long-head emphasis.
+      Lower to forehead; full extension.
+
+  - ref: triceps_pushdown
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest/Arms Hypertrophy (Day 5): 3 × 10–15. Rope or straight bar.
+      Lateral head pump finisher.
+
+  - ref: barbell_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest/Arms Hypertrophy (Day 5): 3 × 8–12. Primary bicep compound.
+
+  - ref: hammer_curls
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest/Arms Hypertrophy (Day 5): 3 × 10–15. Brachialis development.
+
+  - ref: preacher_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Chest/Arms Hypertrophy (Day 5): 2 × 10–15. Distal bicep development.
+
+  - ref: seated_calf_raise
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower Power (Day 2): 2 × 12–15. Lower Hypertrophy (Day 4): 3 × 12–15.
+      Soleus-dominant calf work.
+
 sources:
-- title: PHAT Program
-  credibility: practitioner
-- title: Resistance Training Volume Enhances Muscle Hypertrophy but Not Strength in
-    Trained Men
-  credibility: rct
+  - title: "PHAT Program"
+    author: "Norton, L."
+    year: 2011
+    publisher: "EliteFTS / Layne Norton PhD"
+    credibility: practitioner
+  - title: "Resistance Training Volume Enhances Muscle Hypertrophy but Not Strength in Trained Men"
+    author: "Schoenfeld, B. J., Contreras, B., Krieger, J., et al."
+    year: 2019
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 51
+    issue: 1
+    pages: "94-103"
+    doi: "10.1249/MSS.0000000000001764"
+    credibility: rct
 ---
 
 # PHAT (Power Hypertrophy Adaptive Training)
@@ -1914,60 +2548,84 @@ Designed by Layne Norton, PHAT allocates the training week into two dedicated po
 
 ---
 
+<!-- FILE: programs/bodybuilding/phul.md -->
+
 ---
+
 id: phul
 name: PHUL
+aliases: [Power Hypertrophy Upper Lower, Layne Norton PHUL]
 category: program
 system: bodybuilding
-goal: Simultaneously develop maximal strength and muscle hypertrophy through a four-day
-  upper/lower split dedicating two days to power work and two to hypertrophy
-goals:
-- hypertrophy
-- strength
+goal: Simultaneously develop maximal strength and muscle hypertrophy through a four-day upper/lower split dedicating two days to power work and two to hypertrophy
+goals: [hypertrophy, strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: undulating
-progression_model: 'Power days (3-5 reps): add 2.5-5 kg to compound lifts when all
-  prescribed reps completed. Hypertrophy days (8-15 reps): increase reps within range;
-  add weight when top of range achieved for all sets. Deload every 4-6 weeks: reduce
-  volume and load ~40% for one week.
+origin: classic
+progression_model: >
+  Power days (3-5 reps): add 2.5-5 kg to compound lifts when all prescribed reps completed.
+  Hypertrophy days (8-15 reps): increase reps within range; add weight when top of range
+  achieved for all sets. Deload every 4-6 weeks: reduce volume and load ~40% for one week.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Day 1 (Upper Power): 3-4×3-5 primary horizontal press strength.
-    Day 3 (Upper Hypertrophy): flat or incline dumbbell press 3-4×8-12.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Day 1 (Upper Power): 3-4×3-5 primary horizontal pull strength.
-    Day 3: seated cable row or one-arm dumbbell row 3-4×8-12.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Day 1 (Upper Power): 2-3×5-8 secondary pressing movement.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Day 1 (Upper Power): 2-3×6-8 weighted. Day 3 (Upper Hypertrophy):
-    3×8-12.'
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: 'Day 3 (Upper Hypertrophy): 3-4×8-12. Shifts stimulus to upper
-    pec and metabolic range.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Day 2 (Lower Power): 3-4×3-5 primary lower strength. Day 4: front
-    squat or hack squat 3-4×8-12 as hypertrophy variation.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Day 2 (Lower Power): 3-4×3-5 secondary lower power movement.'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Day 4 (Lower Hypertrophy): 3-4×8-12 hamstring and glute hypertrophy
-    at longer length.'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Day 1 (Upper Power): 3-4×3-5 primary horizontal press strength. Day 3 (Upper
+      Hypertrophy): flat or incline dumbbell press 3-4×8-12.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Day 1 (Upper Power): 3-4×3-5 primary horizontal pull strength. Day 3: seated
+      cable row or one-arm dumbbell row 3-4×8-12.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 1 (Upper Power): 2-3×5-8 secondary pressing movement.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Day 1 (Upper Power): 2-3×6-8 weighted. Day 3 (Upper Hypertrophy): 3×8-12.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 3 (Upper Hypertrophy): 3-4×8-12. Shifts stimulus to upper pec and metabolic range.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Day 2 (Lower Power): 3-4×3-5 primary lower strength. Day 4: front squat or
+      hack squat 3-4×8-12 as hypertrophy variation.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 2 (Lower Power): 3-4×3-5 secondary lower power movement.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Day 4 (Lower Hypertrophy): 3-4×8-12 hamstring and glute hypertrophy at longer length.
+
 sources:
-- title: PHUL Workout
-  credibility: practitioner
+  - title: "PHUL Workout"
+    author: "Norton, L."
+    publisher: "Biolayne"
+    credibility: practitioner
 ---
 
 # PHUL — Power Hypertrophy Upper Lower
@@ -2040,54 +2698,74 @@ Developed by Dr. Layne Norton. Combines low-rep strength work (power days) with 
 
 ---
 
+<!-- FILE: programs/bodybuilding/push_pull_legs.md -->
+
 ---
+
 id: push_pull_legs
 name: Push Pull Legs
+aliases: [PPL, 6-Day PPL]
 category: program
 system: bodybuilding
-goal: Maximize hypertrophy volume by training each muscle group twice per week through
-  a push/pull/legs movement-pattern split
-goals:
-- hypertrophy
+goal: Maximize hypertrophy volume by training each muscle group twice per week through a push/pull/legs movement-pattern split
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 6
 periodization: linear
-progression_model: 'Double-progression: perform all sets within the prescribed rep
-  range. When the top of the range is achieved for all sets with clean form, add 2.5
-  kg on upper body exercises or 5 kg on lower body exercises at the next session and
-  reset to the bottom of the range. Linear progression on compound movements; volume
-  accumulation on isolations.
+origin: synthesized
+progression_model: >
+  Double-progression: perform all sets within the prescribed rep range. When the top of the
+  range is achieved for all sets with clean form, add 2.5 kg on upper body exercises or
+  5 kg on lower body exercises at the next session and reset to the bottom of the range.
+  Linear progression on compound movements; volume accumulation on isolations.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Push Day A (heavy): 4×4-6. Push Day B (moderate): 3×8-12 incline
-    variation. Primary horizontal push compound.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Push Day A: 3×8-12 secondary press. Push Day B: 3×8-12 seated
-    or standing.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Pull Day A (heavy): 4×4-6 overhand row. Pull Day B: 3×8-12 variation
-    (cable row, chest-supported row). Primary horizontal pull compound.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Pull Day A: 3×8-12 weighted. Pull Day B: 3×8-12 lat pulldown or
-    bodyweight. Primary vertical pull compound.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Leg Day A (heavy): 4×4-6 primary quad/glute compound. Leg Day
-    B (moderate): 3×8-12 front squat or hack squat variation.'
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: 'Leg Day A: 3×8-12 hamstring primary. Leg Day B: 3×10-15 single-leg
-    variation.'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Push Day A (heavy): 4×4-6. Push Day B (moderate): 3×8-12 incline variation.
+      Primary horizontal push compound.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Push Day A: 3×8-12 secondary press. Push Day B: 3×8-12 seated or standing.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Pull Day A (heavy): 4×4-6 overhand row. Pull Day B: 3×8-12 variation (cable row,
+      chest-supported row). Primary horizontal pull compound.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Pull Day A: 3×8-12 weighted. Pull Day B: 3×8-12 lat pulldown or bodyweight.
+      Primary vertical pull compound.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day A (heavy): 4×4-6 primary quad/glute compound.
+      Leg Day B (moderate): 3×8-12 front squat or hack squat variation.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Leg Day A: 3×8-12 hamstring primary. Leg Day B: 3×10-15 single-leg variation.
+
 sources:
-- title: Push Pull Legs Routine
-  credibility: practitioner
+  - title: "Push Pull Legs Routine"
+    author: "Various (popularized in BBRR community)"
+    publisher: "Reddit r/bodybuilding"
+    credibility: practitioner
 ---
 
 # Push Pull Legs (PPL)
@@ -2171,54 +2849,83 @@ Run Push/Pull/Legs once per week (Mon/Wed/Fri) for lower-frequency hypertrophy t
 
 ---
 
+<!-- FILE: programs/bodybuilding/rp_hypertrophy.md -->
+
 ---
+
 id: rp_hypertrophy
 name: RP Hypertrophy Program
+aliases: [Renaissance Periodization Hypertrophy, RP Hypertrophy 4-Day]
 category: program
 system: bodybuilding
-goal: Maximize skeletal muscle hypertrophy via RIR-based autoregulated volume progression
-  from MEV toward MRV across a 5-week mesocycle
-goals:
-- hypertrophy
+goal: Maximize skeletal muscle hypertrophy via RIR-based autoregulated volume progression from MEV toward MRV across a 5-week mesocycle
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 5
 frequency_per_week: 4
 periodization: block
-progression_model: 'Reps in Reserve (RIR) decreases one unit each week during the
-  accumulation block: W1 3RIR → W2 2RIR → W3 1RIR → W4 0-1RIR → W5 deload 4-5RIR.
-  Volume auto-regulates via a recovery scale assessed before each session: -2 = significant
-  cut, -1 = minor cut, 0 = maintain, +1 = add 1 set, +2 = add 1-2 sets. Absolute load
-  increases ~5-10 lb on compounds and ~2.5-5 lb on isolations each week. Deload: first
-  50% of sessions at 70% peak load, second 50% at 50% peak load; total volume = 50%
-  of Week 1 baseline. Multi-mesocycle order: Basic Hypertrophy (10 wks) → Metabolite
-  Focus (5 wks) → Resensitization (3 wks).
+origin: classic
+progression_model: >
+  Reps in Reserve (RIR) decreases one unit each week during the accumulation block:
+  W1 3RIR → W2 2RIR → W3 1RIR → W4 0-1RIR → W5 deload 4-5RIR.
+  Volume auto-regulates via a recovery scale assessed before each session:
+  -2 = significant cut, -1 = minor cut, 0 = maintain, +1 = add 1 set, +2 = add 1-2 sets.
+  Absolute load increases ~5-10 lb on compounds and ~2.5-5 lb on isolations each week.
+  Deload: first 50% of sessions at 70% peak load, second 50% at 50% peak load; total volume = 50% of Week 1 baseline.
+  Multi-mesocycle order: Basic Hypertrophy (10 wks) → Metabolite Focus (5 wks) → Resensitization (3 wks).
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Day 1 (Upper A) and Day 3 (Upper B). Compound fractional counting:
-    1.0 set chest, 0.5 anterior deltoid, 0.5 triceps. Per-session direct sets per
-    muscle ≤ 10.'
-- ref: seated_cable_rows
-  role: primary
-  technical_notes: Day 1 (Upper A). Counts 1.0 lat, 0.5 posterior deltoid, 0.5 biceps.
-- ref: pullups
-  role: primary
-  technical_notes: Day 3 (Upper B). Add load via belt when 3×10 bodyweight achieved.
-- ref: back_squat
-  role: primary
-  technical_notes: Day 2 (Lower A). Counts 1.0 quad, 0.5 glute. Accumulate from MEV
-    (~8 sets/wk) toward MRV (~20 sets/wk) over the mesocycle via recovery-scale feedback.
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: Day 4 (Lower B). Hamstring primary (1.0 set). Keep hips back, soft
-    knee bend.
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    sets: 2
+    reps: "8-12"
+    technical_notes: >
+      Day 1 (Upper A) and Day 3 (Upper B). Compound fractional counting: 1.0 set chest,
+      0.5 anterior deltoid, 0.5 triceps. Per-session direct sets per muscle ≤ 10.
+
+  - ref: seated_cable_rows
+    role: primary
+    frequency_per_week: 2
+    sets: 2
+    reps: "10-15"
+    technical_notes: >
+      Day 1 (Upper A). Counts 1.0 lat, 0.5 posterior deltoid, 0.5 biceps.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    sets: 2
+    reps: "6-10"
+    technical_notes: >
+      Day 3 (Upper B). Add load via belt when 3×10 bodyweight achieved.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    sets: 2
+    reps: "6-10"
+    technical_notes: >
+      Day 2 (Lower A). Counts 1.0 quad, 0.5 glute. Accumulate from MEV (~8 sets/wk)
+      toward MRV (~20 sets/wk) over the mesocycle via recovery-scale feedback.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 2
+    sets: 2
+    reps: "8-12"
+    technical_notes: >
+      Day 4 (Lower B). Hamstring primary (1.0 set). Keep hips back, soft knee bend.
+
 sources:
-- title: Scientific Principles of Hypertrophy Training
-  credibility: expert_consensus
-- title: RP Training Volume Landmarks for Bodybuilding
-  credibility: practitioner
+  - title: "Scientific Principles of Hypertrophy Training"
+    author: "Israetel, M., Hoffman, J., Smith, C. W."
+    year: 2021
+    credibility: expert_consensus
+  - title: "RP Training Volume Landmarks for Bodybuilding"
+    author: "Israetel, M."
+    publisher: "RP Strength"
+    credibility: practitioner
 ---
 
 # RP Hypertrophy Program
@@ -2273,98 +2980,153 @@ The Renaissance Periodization Hypertrophy Program (Israetel, Hoffman & Smith 202
 
 ---
 
+<!-- FILE: programs/bodybuilding/upper_lower_4day.md -->
+
 ---
+
 id: upper_lower_4day
 name: Upper Lower 4-Day Split
+aliases: [upper lower, upper lower split, 4-day upper lower, UL split]
 category: program
 system: bodybuilding
-goal: Develop hypertrophy and strength simultaneously through a 4-day upper/lower
-  split that trains each muscle group twice per week with a balanced frequency-volume
-  combination; ideal transition between full-body training and advanced splits
-goals:
-- hypertrophy
-- strength
+goal: Develop hypertrophy and strength simultaneously through a 4-day upper/lower split that trains each muscle group twice per week with a balanced frequency-volume combination; ideal transition between full-body training and advanced splits
+goals: [hypertrophy, strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: undulating
-progression_model: 'Upper A and Lower A (heavy days) use strength loading (3–5 rep
-  range); Upper B and Lower B (volume days) use hypertrophy loading (8–12 rep range).
-  Progression on heavy days: add 2.5 kg (upper) or 5 kg (lower) when all reps are
-  completed. Progression on volume days: double-progression within the rep range.
-  Deload every 6 weeks by reducing working sets to 60% for one week.
+origin: synthesized
+progression_model: >
+  Upper A and Lower A (heavy days) use strength loading (3–5 rep range); Upper B and
+  Lower B (volume days) use hypertrophy loading (8–12 rep range). Progression on heavy
+  days: add 2.5 kg (upper) or 5 kg (lower) when all reps are completed. Progression on
+  volume days: double-progression within the rep range. Deload every 6 weeks by reducing
+  working sets to 60% for one week.
 
-  '
 exercises:
-- ref: bench_press
-  role: primary
-  technical_notes: 'Upper A (heavy): 4×4–6. Upper B (volume): 3×8–12 incline dumbbell
-    press variant. Primary horizontal push. Heavy day prioritizes load; volume day
-    allows more ROM with dumbbells.'
-- ref: bent_over_barbell_row
-  role: primary
-  technical_notes: 'Upper A (heavy): 4×4–6 overhand row. Upper B (volume): 3×8–12
-    cable row or chest-supported row. Primary horizontal pull. Overhand grip on heavy
-    day for maximum load; underhand or neutral grip on volum...'
-- ref: overhead_press
-  role: secondary
-  technical_notes: 'Upper A: 3×6–8 standing barbell press. Upper B: 3×10–15 dumbbell
-    press for rotator cuff health and ROM. Vertical push compound both days.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Upper A: 3×6–8 weighted. Upper B: 3×10–15 lat pulldown or bodyweight.
-    Primary vertical pull; widths and grips can vary between days.'
-- ref: incline_dumbbell_press
-  role: secondary
-  technical_notes: 'Upper B: 3×8–12. Upper chest and anterior deltoid accessory. 30°
-    incline. Provides the upper chest stimulus that flat pressing alone underloads.'
-- ref: seated_cable_rows
-  role: secondary
-  technical_notes: 'Upper B: 3×10–15. Mid-back and rhomboid volume. Close neutral
-    grip; pause at contraction. Complements the heavy row on Upper A.'
-- ref: face_pull
-  role: secondary
-  technical_notes: 'Both upper days: 3×15–20. Rear deltoid, external rotation, and
-    rotator cuff health. High rope attachment; pull to face with external rotation
-    at end range. Maintains shoulder health under heavy pressi...'
-- ref: barbell_curl
-  role: secondary
-  technical_notes: 'Upper A: 3×8–12. Heavy bicep work after compound pulling. Strict
-    form; no shoulder flexion.'
-- ref: triceps_pushdown
-  role: secondary
-  technical_notes: 'Upper B: 3×10–15. Tricep isolation after pressing volume day.'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Lower A (heavy): 4×4–6 at 82–87% 1RM. Lower B (volume): 3×8–12
-    at 70% 1RM. Primary lower-body compound. Heavy day develops maximal strength;
-    volume day accumulates muscle hypertrophy stimulus.'
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: 'Lower A: 3×6–8. Lower B: 3×10–12. Hip hinge posterior chain primary.
-    Heavy day: controlled eccentric focus; volume day: full range with leg curl emphasis
-    at bottom.'
-- ref: leg_press
-  role: secondary
-  technical_notes: 'Lower A: 2×8–12. Lower B: 3×12–15. Quad volume after squat. High
-    foot placement shifts to glutes; shoulder-width placement for quad emphasis.'
-- ref: leg_extensions
-  role: secondary
-  technical_notes: 'Lower B: 3×12–15. Quad isolation finisher. Full extension; 1-second
-    squeeze.'
-- ref: seated_leg_curl
-  role: secondary
-  technical_notes: 'Lower A: 3×8–10. Lower B: 3×10–15. Hamstring isolation; hip-flexed
-    position at seated provides maximal hamstring length under load.'
-- ref: standing_calf_raises
-  role: secondary
-  technical_notes: 'Both lower days: 3×12–15. Gastrocnemius-dominant with straight
-    knee. Full ROM including maximal dorsiflexion stretch.'
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A (heavy): 4×4–6. Upper B (volume): 3×8–12 incline dumbbell press variant.
+      Primary horizontal push. Heavy day prioritizes load; volume day allows more ROM
+      with dumbbells.
+
+  - ref: bent_over_barbell_row
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A (heavy): 4×4–6 overhand row. Upper B (volume): 3×8–12 cable row or
+      chest-supported row. Primary horizontal pull. Overhand grip on heavy day for
+      maximum load; underhand or neutral grip on volume day for bicep integration.
+
+  - ref: overhead_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×6–8 standing barbell press. Upper B: 3×10–15 dumbbell press for
+      rotator cuff health and ROM. Vertical push compound both days.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper A: 3×6–8 weighted. Upper B: 3×10–15 lat pulldown or bodyweight.
+      Primary vertical pull; widths and grips can vary between days.
+
+  - ref: incline_dumbbell_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Upper B: 3×8–12. Upper chest and anterior deltoid accessory. 30° incline.
+      Provides the upper chest stimulus that flat pressing alone underloads.
+
+  - ref: seated_cable_rows
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Upper B: 3×10–15. Mid-back and rhomboid volume. Close neutral grip; pause at
+      contraction. Complements the heavy row on Upper A.
+
+  - ref: face_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Both upper days: 3×15–20. Rear deltoid, external rotation, and rotator cuff
+      health. High rope attachment; pull to face with external rotation at end range.
+      Maintains shoulder health under heavy pressing load.
+
+  - ref: barbell_curl
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Upper A: 3×8–12. Heavy bicep work after compound pulling. Strict form; no
+      shoulder flexion.
+
+  - ref: triceps_pushdown
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Upper B: 3×10–15. Tricep isolation after pressing volume day.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A (heavy): 4×4–6 at 82–87% 1RM. Lower B (volume): 3×8–12 at 70% 1RM.
+      Primary lower-body compound. Heavy day develops maximal strength; volume day
+      accumulates muscle hypertrophy stimulus.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×6–8. Lower B: 3×10–12. Hip hinge posterior chain primary.
+      Heavy day: controlled eccentric focus; volume day: full range with leg curl
+      emphasis at bottom.
+
+  - ref: leg_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 2×8–12. Lower B: 3×12–15. Quad volume after squat. High foot
+      placement shifts to glutes; shoulder-width placement for quad emphasis.
+
+  - ref: leg_extensions
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Lower B: 3×12–15. Quad isolation finisher. Full extension; 1-second squeeze.
+
+  - ref: seated_leg_curl
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Lower A: 3×8–10. Lower B: 3×10–15. Hamstring isolation; hip-flexed position
+      at seated provides maximal hamstring length under load.
+
+  - ref: standing_calf_raises
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Both lower days: 3×12–15. Gastrocnemius-dominant with straight knee. Full ROM
+      including maximal dorsiflexion stretch.
+
 sources:
-- title: The Science and Practice of Strength Training
-  credibility: textbook
-- title: Muscle hypertrophy response to training volumes in untrained males and females
-  credibility: rct
+  - title: "The Science and Practice of Strength Training"
+    author: "Zatsiorsky, V.M., Kraemer, W.J."
+    year: 2006
+    publisher: "Human Kinetics"
+    credibility: textbook
+  - title: "Muscle hypertrophy response to training volumes in untrained males and females"
+    author: "Ralston, G.W., Kilgore, L., Wyatt, F.B., Baker, J.S."
+    year: 2017
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 31
+    issue: 12
+    pages: "3479-3485"
+    doi: "10.1519/JSC.0000000000002219"
+    credibility: rct
 ---
 
 # Upper Lower 4-Day Split
@@ -2451,85 +3213,122 @@ The Upper Lower Split is one of the most evidence-aligned training structures fo
 
 ---
 
+<!-- FILE: programs/calisthenics/bwf_recommended_routine.md -->
+
 ---
+
 id: bwf_recommended_routine
 name: BWF Recommended Routine
+aliases: [Reddit Recommended Routine, RR, r/bodyweightfitness RR]
 category: program
 system: calisthenics
-goal: Build full-body bodyweight strength and hypertrophy through milestone-based
-  progressive leverage across pushing, pulling, squatting, and hinging patterns
-goals:
-- skill_acquisition
-- hypertrophy
+goal: Build full-body bodyweight strength and hypertrophy through milestone-based progressive leverage across pushing, pulling, squatting, and hinging patterns
+goals: [skill_acquisition, hypertrophy]
 level: beginner
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Milestone-based: "When you hit 3 sets of 8 reps with good form,
-  move to the next progression and start the next workout with 3 sets of 5 reps."
+origin: classic
+progression_model: >
+  Milestone-based: "When you hit 3 sets of 8 reps with good form, move to the next
+  progression and start the next workout with 3 sets of 5 reps."
   For static holds: advance when 30s is held for all 3 sets (60s for advanced holds).
   Tempo: 1-0-X-0 (1s eccentric, no pause, explosive concentric, no pause at top).
   Paired exercises with 90s rest between each = ~3 minutes rest per muscle group.
   No fixed duration — timeline is individually determined by milestone attainment.
 
-  '
 exercises:
-- ref: scapular_pull_up
-  role: primary
-  technical_notes: Vertical pull tier 1. Elbows fully locked; depress and retract
-    scapulae; pause 3-5s at top. Advance to arch hangs at 3×8.
-- ref: pullups
-  role: primary
-  technical_notes: 'Vertical pull tiers 3-4. Negative pull-ups (tier 3): jump to top,
-    lower over 5-10s; advance at 3×8 controlled. Full pull-ups (tier 4): dead hang
-    to chin over bar, hollow body; advance at 3×8.'
-- ref: weighted_pull_ups
-  role: primary
-  technical_notes: Vertical pull tier 5. Load via belt or vest once full pull-ups
-    are mastered; continue linear load increases.
-- ref: inverted_row
-  role: primary
-  technical_notes: 'Horizontal pull tier 3 (horizontal rows): body fully parallel
-    to floor; pull chest to bar. Prior tiers: vertical rows (near-standing), incline
-    rows (mid-angle). Later tiers: wide rows (1.5× shoulder-w...'
-- ref: parallel_bar_dip
-  role: primary
-  technical_notes: 'Vertical push tier 3. Descend until shoulders below elbows; elbows
-    tucked; slight forward torso lean. Tier 1 prerequisite: support hold 3×60s. Tier
-    2: negative dips. Advance to ring_dips at 3×8.'
-- ref: ring_dips
-  role: primary
-  technical_notes: Vertical push tier 4. Maintain external rotation at top (rings
-    turned out). Advance at 3×8.
-- ref: pushups
-  role: primary
-  technical_notes: 'Horizontal push tier 3 (full push-ups). Elbows ~45°; rigid plank
-    body. Earlier tiers: wall push-ups, incline push-ups. Later tiers: diamond push-ups,
-    pseudo planche push-ups (hands pointing back, shou...'
-- ref: goblet_squat
-  role: primary
-  technical_notes: 'Knee-dominant tier proxy. Full tier ladder: assisted squat → air
-    squat → split squat → bulgarian split squat → shrimp squat → pistol squat. Advance
-    each tier at 3×8 per leg.'
-- ref: romanian_deadlift
-  role: primary
-  technical_notes: 'Hip-dominant tier 1. Soft knee, hinge at hip, flat back. Progression:
-    single-leg deadlift → banded nordic curl negatives → nordic curl. Advance at 3×8
-    per leg.'
-- ref: plank
-  role: primary
-  technical_notes: 'Anti-extension core tier 1. Posterior pelvic tilt; rigid forearm
-    plank. Target 3×30s. Progression: ring ab rollouts → ab wheel rollouts.'
-- ref: pallof_press
-  role: primary
-  technical_notes: Anti-rotation core tier 1 (banded pallof press). Stand sideways
-    to anchor; press forward; resist rotation. Advance to ring pallof press.
-- ref: reverse_hyperextension
-  role: primary
-  technical_notes: Extension core tier 1. Lie face down on elevated surface; lift
-    legs with glutes and lower back. Advance to glute-ham raise.
+  - ref: scapular_pull_up
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical pull tier 1. Elbows fully locked; depress and retract scapulae; pause 3-5s
+      at top. Advance to arch hangs at 3×8.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical pull tiers 3-4. Negative pull-ups (tier 3): jump to top, lower over 5-10s;
+      advance at 3×8 controlled. Full pull-ups (tier 4): dead hang to chin over bar,
+      hollow body; advance at 3×8.
+
+  - ref: weighted_pull_ups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical pull tier 5. Load via belt or vest once full pull-ups are mastered; continue
+      linear load increases.
+
+  - ref: inverted_row
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Horizontal pull tier 3 (horizontal rows): body fully parallel to floor; pull chest to bar.
+      Prior tiers: vertical rows (near-standing), incline rows (mid-angle).
+      Later tiers: wide rows (1.5× shoulder-width), archer rows (one arm fully extended).
+
+  - ref: parallel_bar_dip
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical push tier 3. Descend until shoulders below elbows; elbows tucked; slight
+      forward torso lean. Tier 1 prerequisite: support hold 3×60s. Tier 2: negative dips.
+      Advance to ring_dips at 3×8.
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical push tier 4. Maintain external rotation at top (rings turned out). Advance at 3×8.
+
+  - ref: pushups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Horizontal push tier 3 (full push-ups). Elbows ~45°; rigid plank body.
+      Earlier tiers: wall push-ups, incline push-ups. Later tiers: diamond push-ups,
+      pseudo planche push-ups (hands pointing back, shoulders forward over fingers).
+
+  - ref: goblet_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Knee-dominant tier proxy. Full tier ladder: assisted squat → air squat → split squat
+      → bulgarian split squat → shrimp squat → pistol squat. Advance each tier at 3×8 per leg.
+
+  - ref: romanian_deadlift
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Hip-dominant tier 1. Soft knee, hinge at hip, flat back. Progression: single-leg
+      deadlift → banded nordic curl negatives → nordic curl. Advance at 3×8 per leg.
+
+  - ref: plank
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Anti-extension core tier 1. Posterior pelvic tilt; rigid forearm plank. Target 3×30s.
+      Progression: ring ab rollouts → ab wheel rollouts.
+
+  - ref: pallof_press
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Anti-rotation core tier 1 (banded pallof press). Stand sideways to anchor; press
+      forward; resist rotation. Advance to ring pallof press.
+
+  - ref: reverse_hyperextension
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Extension core tier 1. Lie face down on elevated surface; lift legs with glutes and
+      lower back. Advance to glute-ham raise.
+
 sources:
-- title: r/bodyweightfitness Recommended Routine
-  credibility: practitioner
+  - title: "r/bodyweightfitness Recommended Routine"
+    author: "r/bodyweightfitness community"
+    publisher: "reddit.com/r/bodyweightfitness/wiki"
+    credibility: practitioner
 ---
 
 # BWF Recommended Routine
@@ -2627,68 +3426,107 @@ Replace lower-body calisthenics for trainees with squat rack access:
 
 ---
 
+<!-- FILE: programs/calisthenics/bwf_skill_day_template.md -->
+
 ---
+
 id: bwf_skill_day_template
 name: BWF Advanced Skill Day Template
+aliases: [BWF skill template, bodyweightfitness skill day, planche front lever DUP template, statics DUP]
 category: program
 system: calisthenics
-goal: Develop high-tension isometric calisthenics skills (planche, front lever, handstand)
-  through Daily Undulating Periodization of hold duration and difficulty — designed
-  as a modular template to integrate into an existing advanced training split
-goals:
-- skill_acquisition
+goal: Develop high-tension isometric calisthenics skills (planche, front lever, handstand) through Daily Undulating Periodization of hold duration and difficulty — designed as a modular template to integrate into an existing advanced training split
+goals: [skill_acquisition]
 level: intermediate
 frequency_per_week: 3
 periodization: undulating
-progression_model: 'Daily Undulating Periodization (DUP) across three weekly skill
-  days. Heavy day: short holds (1–4 s) at the hardest achievable progression step;
-  longer rest (4–5 min between sets) to allow full ATP recovery. Moderate day: medium
-  holds (6–10 s) at current progression step or one step easier; 3–4 min rest. Light
-  day: longer holds (10–16 s) at two steps easier, or assisted progressions; 2–3 min
-  rest. All three hold-duration variants are trained within the same week. The DUP
-  structure prevents plateaus by cycling through different neuromuscular stimuli (maximal
-  tension, sustained tension, accumulated volume) without overloading any single adaptation
-  mechanism. Advancement criterion: when the moderate-day hold (6–10 s) is achievable
-  with 2+ s perceptible reserve for 3 consecutive weeks, advance the step for the
-  heavy day.
+origin: classic
+progression_model: >
+  Daily Undulating Periodization (DUP) across three weekly skill days. Heavy day: short
+  holds (1–4 s) at the hardest achievable progression step; longer rest (4–5 min between
+  sets) to allow full ATP recovery. Moderate day: medium holds (6–10 s) at current
+  progression step or one step easier; 3–4 min rest. Light day: longer holds (10–16 s)
+  at two steps easier, or assisted progressions; 2–3 min rest. All three hold-duration
+  variants are trained within the same week. The DUP structure prevents plateaus by
+  cycling through different neuromuscular stimuli (maximal tension, sustained tension,
+  accumulated volume) without overloading any single adaptation mechanism. Advancement
+  criterion: when the moderate-day hold (6–10 s) is achievable with 2+ s perceptible
+  reserve for 3 consecutive weeks, advance the step for the heavy day.
 
-  '
 exercises:
-- ref: pushups
-  role: primary
-  technical_notes: 'Planche progressions (planche push-up variations, planche holds).
-    The planche skill is trained under the DUP scheme: Heavy day = hardest achievable
-    planche hold for 1–4 s × 5–8 sets with 4–5 min rest;...'
-- ref: pullups
-  role: primary
-  technical_notes: Front lever progressions (front lever holds, front lever rows).
-    Front lever follows the same DUP scheme as planche but is always sequenced second
-    in sessions where both are trained together (planche f...
-- ref: scapular_pull_up
-  role: secondary
-  technical_notes: Mandatory scapular activation every skill day before any planche
-    or front lever work. 3 × 15 as warm-up activation. At the advanced level, the
-    volume of isometric shoulder loading from straight-arm st...
-- ref: weighted_pull_ups
-  role: secondary
-  technical_notes: Strength support for front lever and one-arm pull-up development.
-    Trained after skill work on moderate and light days (never on heavy days when
-    neuromuscular reserves are needed for maximum-quality sk...
-- ref: ring_dips
-  role: secondary
-  technical_notes: Ring push strength support — maintains pushing capacity that supports
-    planche development. Trained after planche skill work on moderate and light days.
-    3–4 × 6–8. Planche development requires ring and...
-- ref: plank
-  role: secondary
-  technical_notes: Hollow body tension maintenance — every skill session. 3–5 × 20
-    s hollow body holds as part of activation before skill work. The hollow body is
-    the tension template for planche and front lever; any de...
+  - ref: pushups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Planche progressions (planche push-up variations, planche holds). The planche skill
+      is trained under the DUP scheme: Heavy day = hardest achievable planche hold for
+      1–4 s × 5–8 sets with 4–5 min rest; Moderate day = current or one step easier, 6–10 s
+      × 4–6 sets with 3–4 min rest; Light day = two steps easier (e.g., planche leans if
+      moderate day uses tuck planche), 10–16 s × 3–4 sets. The planche series uses push-up
+      exercise ID because planche push-up progressions are the primary dynamic planche
+      development tool; static holds use the same muscle groups.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Front lever progressions (front lever holds, front lever rows). Front lever follows
+      the same DUP scheme as planche but is always sequenced second in sessions where both
+      are trained together (planche first — higher CNS demand and greater anterior elbow
+      stress). Heavy day: 1–4 s tuck or advanced tuck front lever holds × 5–8 sets; Moderate
+      day: 6–10 s at same or easier step × 4–6 sets; Light day: 10–16 s at two-step easier
+      progression × 3–4 sets. The Statics Pairing Template variant pairs planche and front
+      lever sets directly, alternating with 2.5–5 min rest between skills to protect elbow
+      flexor from unidirectional overuse.
+
+  - ref: scapular_pull_up
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Mandatory scapular activation every skill day before any planche or front lever work.
+      3 × 15 as warm-up activation. At the advanced level, the volume of isometric shoulder
+      loading from straight-arm statics is sufficient to produce chronic impingement without
+      consistent scapular stabilizer preparation. This is non-negotiable infrastructure, not
+      optional warm-up.
+
+  - ref: weighted_pull_ups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Strength support for front lever and one-arm pull-up development. Trained after skill
+      work on moderate and light days (never on heavy days when neuromuscular reserves are
+      needed for maximum-quality skill holds). 4 × 4–6 at heavy load. The Upper/Lower Skill
+      Split variant places all skill work at the start of the session and all strength support
+      after; this sequence is preserved across all three DUP days.
+
+  - ref: ring_dips
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Ring push strength support — maintains pushing capacity that supports planche
+      development. Trained after planche skill work on moderate and light days. 3–4 × 6–8.
+      Planche development requires ring and push-up strength as the primary strength driver;
+      ring dips are the compound expression of this without the additional skill-hold demand.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Hollow body tension maintenance — every skill session. 3–5 × 20 s hollow body holds
+      as part of activation before skill work. The hollow body is the tension template for
+      planche and front lever; any degradation in hollow body quality directly limits
+      planche progression quality. Tracked separately from skill holds.
+
 sources:
-- title: r/bodyweightfitness Wiki — Skill Day Template
-  credibility: expert_consensus
-- title: The Statics Pairing Template — r/bodyweightfitness community development
-  credibility: expert_consensus
+  - title: "r/bodyweightfitness Wiki — Skill Day Template"
+    author: "r/bodyweightfitness Community"
+    year: 2015
+    publisher: "reddit.com/r/bodyweightfitness/wiki"
+    credibility: expert_consensus
+  - title: "The Statics Pairing Template — r/bodyweightfitness community development"
+    author: "r/bodyweightfitness Community"
+    year: 2017
+    credibility: expert_consensus
 ---
 
 # BWF Advanced Skill Day Template
@@ -2756,73 +3594,112 @@ The primary injury risk in this template is elbow flexor overuse from combined p
 
 ---
 
+<!-- FILE: programs/calisthenics/calisthenics_advanced_skills.md -->
+
 ---
+
 id: calisthenics_advanced_skills
 name: Calisthenics Advanced Strength Skills
+aliases: [calisthenics advanced, planche training, front lever, handstand, advanced calisthenics]
 category: program
 system: calisthenics
-goal: Develop advanced static strength skills (straddle planche, full front lever,
-  freestanding handstand push-up) and dynamic skills (ring muscle-up, one-arm pull-up
-  progression) through daily skill practice with structured strength support
-goals:
-- skill_acquisition
+goal: Develop advanced static strength skills (straddle planche, full front lever, freestanding handstand push-up) and dynamic skills (ring muscle-up, one-arm pull-up progression) through daily skill practice with structured strength support
+goals: [skill_acquisition]
 level: advanced
 duration_weeks: 24
 frequency_per_week: 5
 periodization: block
-progression_model: 'Static skill holds: progress when current hold can be sustained
-  for 3 × 8–10 s with 2 s buffer. Dynamic skills: progress when 3 × 3 reps are cleanly
-  executable. Strength support exercises: double-progression within rep range. Deload
-  every 8 weeks: skills at 50% normal volume, strength support at 60%. Note: the connective
-  tissue adaptation timeline for planche and front lever is 6–18 months minimum —
-  the 24-week program builds the foundation; full expression of these skills requires
-  continued training beyond program completion.
+origin: synthesized
+progression_model: >
+  Static skill holds: progress when current hold can be sustained for 3 × 8–10 s with
+  2 s buffer. Dynamic skills: progress when 3 × 3 reps are cleanly executable.
+  Strength support exercises: double-progression within rep range. Deload every 8 weeks:
+  skills at 50% normal volume, strength support at 60%. Note: the connective tissue
+  adaptation timeline for planche and front lever is 6–18 months minimum — the 24-week
+  program builds the foundation; full expression of these skills requires continued
+  training beyond program completion.
 
-  '
 exercises:
-- ref: weighted_pull_ups
-  role: primary
-  technical_notes: Monday, Wednesday, Friday. 5 × 3–5 at heavy load. Primary strength
-    builder for front lever and one-arm pull-up development. Should exceed 50% of
-    bodyweight added load before attempting advanced pullin...
-- ref: ring_dips
-  role: primary
-  technical_notes: Monday, Wednesday, Friday. 4 × 5–8. Weighted when bodyweight sets
-    exceed 3 × 12. Primary pushing skill for ring muscle-up and planche horizontal
-    push strength. Full range of motion; rings turned out a...
-- ref: pushups
-  role: primary
-  technical_notes: 'Tuesday, Thursday, Saturday. Advanced variations: one-arm push-up
-    progressions (archer → Korean dip position → one-arm negatives). Primary planche-direction
-    pushing skill. 4 × 4–6 per variation.'
-- ref: parallel_bar_dip
-  role: secondary
-  technical_notes: Tuesday and Thursday. 3 × weighted × 5–8. Stable surface alternative
-    to ring dips for heavier loading. Lean forward slightly for chest involvement;
-    upright for triceps emphasis.
-- ref: inverted_row
-  role: secondary
-  technical_notes: 'Tuesday and Thursday. Ring rows (rings rather than bar for instability):
-    3 × 8–12. Horizontal pulling volume for elbow flexor and rear delt development.'
-- ref: scapular_pull_up
-  role: secondary
-  technical_notes: Every training day as warm-up. 3 × 15. Scapular health maintenance
-    under high-volume pulling loads. Non-negotiable injury prevention practice.
-- ref: plank
-  role: secondary
-  technical_notes: 'Every training day. Hollow body holds (not plank position): 5
-    × 20–30 s. The hollow body is the active position in all planche progressions
-    and front lever holds. Must be automatic and sustained under...'
-- ref: pallof_press
-  role: secondary
-  technical_notes: Tuesday and Thursday. 3 × 12/side. Anti-rotation core stability.
-    Supports front lever straight-body tension and planche hip extension.
+  - ref: weighted_pull_ups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday, Wednesday, Friday. 5 × 3–5 at heavy load. Primary strength builder for
+      front lever and one-arm pull-up development. Should exceed 50% of bodyweight
+      added load before attempting advanced pulling skills.
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday, Wednesday, Friday. 4 × 5–8. Weighted when bodyweight sets exceed 3 × 12.
+      Primary pushing skill for ring muscle-up and planche horizontal push strength.
+      Full range of motion; rings turned out at top.
+
+  - ref: pushups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Tuesday, Thursday, Saturday. Advanced variations: one-arm push-up progressions
+      (archer → Korean dip position → one-arm negatives). Primary planche-direction
+      pushing skill. 4 × 4–6 per variation.
+
+  - ref: parallel_bar_dip
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday. 3 × weighted × 5–8. Stable surface alternative to ring
+      dips for heavier loading. Lean forward slightly for chest involvement; upright
+      for triceps emphasis.
+
+  - ref: inverted_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday. Ring rows (rings rather than bar for instability):
+      3 × 8–12. Horizontal pulling volume for elbow flexor and rear delt development.
+
+  - ref: scapular_pull_up
+    role: secondary
+    frequency_per_week: 5
+    technical_notes: >
+      Every training day as warm-up. 3 × 15. Scapular health maintenance under
+      high-volume pulling loads. Non-negotiable injury prevention practice.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 5
+    technical_notes: >
+      Every training day. Hollow body holds (not plank position): 5 × 20–30 s.
+      The hollow body is the active position in all planche progressions and
+      front lever holds. Must be automatic and sustained under load.
+
+  - ref: pallof_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday. 3 × 12/side. Anti-rotation core stability. Supports
+      front lever straight-body tension and planche hip extension.
+
 sources:
-- title: Isometric muscle force production as a function of joint angle in human elbow
-    flexors
-  credibility: cross_sectional
-- title: Connective tissue adaptation to exercise and training
-  credibility: literature_review
+  - title: "Isometric muscle force production as a function of joint angle in human elbow flexors"
+    author: "Westing, S. H., Cresswell, A. G., Thorstensson, A."
+    year: 1991
+    journal: "Acta Physiologica Scandinavica"
+    volume: 141
+    issue: 2
+    pages: "287-291"
+    doi: "10.1111/j.1748-1716.1991.tb09084.x"
+    credibility: cross_sectional
+  - title: "Connective tissue adaptation to exercise and training"
+    author: "Bohm, S., Mersmann, F., Arampatzis, A."
+    year: 2015
+    journal: "British Journal of Sports Medicine"
+    volume: 49
+    issue: 11
+    pages: "705-712"
+    doi: "10.1136/bjsports-2014-094123"
+    credibility: literature_review
 ---
 
 # Calisthenics Advanced Strength Skills
@@ -2887,72 +3764,105 @@ Expect 3–6 months of building tolerance before working sets feel "normal" on p
 
 ---
 
+<!-- FILE: programs/calisthenics/calisthenics_intermediate_skills.md -->
+
 ---
+
 id: calisthenics_intermediate_skills
 name: Calisthenics Intermediate Skill Development
+aliases: [calisthenics intermediate, skill development calisthenics, muscle-up progression, handstand training]
 category: program
 system: calisthenics
-goal: Develop intermediate-level calisthenics skills (muscle-up, handstand push-up,
-  pistol squat, L-sit) through structured skill practice and strength building on
-  4 days per week
-goals:
-- skill_acquisition
+goal: Develop intermediate-level calisthenics skills (muscle-up, handstand push-up, pistol squat, L-sit) through structured skill practice and strength building on 4 days per week
+goals: [skill_acquisition]
 level: intermediate
 duration_weeks: 16
 frequency_per_week: 4
 periodization: undulating
-progression_model: 'Skill work: progress to the next progression variation when 3
-  × 5 can be performed with 2+ RIR. Do not rush progressions — connective tissue adaptation
-  requires more time than strength adaptation (see `connective_tissue`). Weighted
-  exercises: double- progression within rep range, then add load. Deload every 8 weeks:
-  reduce volume 40%.
+origin: synthesized
+progression_model: >
+  Skill work: progress to the next progression variation when 3 × 5 can be performed
+  with 2+ RIR. Do not rush progressions — connective tissue adaptation requires more
+  time than strength adaptation (see `connective_tissue`). Weighted exercises: double-
+  progression within rep range, then add load. Deload every 8 weeks: reduce volume 40%.
 
-  '
 exercises:
-- ref: weighted_pull_ups
-  role: primary
-  technical_notes: Monday and Thursday. 4 × 4–6 with added load. Primary pulling strength
-    builder. Add 2.5 kg when all sets complete at top of range. Full dead-hang to
-    chin-over-bar. Foundation movement for muscle-up de...
-- ref: ring_dips
-  role: primary
-  technical_notes: Monday and Thursday. 4 × 5–8. Weighted when bodyweight sets exceed
-    3 × 10. Primary pushing strength for ring muscle-up development. Rings turned
-    out at the top; elbows in throughout.
-- ref: parallel_bar_dip
-  role: secondary
-  technical_notes: Tuesday and Friday. 3 × 8–12. Higher rep accessory push. Complements
-    ring dips with stable surface; allows greater loading for strength development.
-- ref: pushups
-  role: secondary
-  technical_notes: 'Tuesday and Friday. Advanced pushup variations: archer pushups
-    (3 × 5–8 per side) progressing toward one-arm. Builds unilateral pushing strength
-    for planche foundation.'
-- ref: inverted_row
-  role: secondary
-  technical_notes: Tuesday and Friday. 3 × 8–12 with feet elevated or weighted vest.
-    Horizontal pulling; builds scapular control and back thickness. Progressed to
-    ring rows for additional instability challenge.
-- ref: scapular_pull_up
-  role: secondary
-  technical_notes: Monday, Wednesday, Thursday. 3 × 10–15. Foundational scapular depression
-    and retraction control. Required for safe muscle-up technique and injury prevention
-    during high-volume pulling. Treat as activa...
-- ref: plank
-  role: secondary
-  technical_notes: 'All training days. Hollow body progressions: tuck hollow hold,
-    hollow body hold, hollow body rocks. 3–5 × 15–30 s. The hollow body is the foundation
-    position for all calisthenics kipping and skill mov...'
-- ref: pallof_press
-  role: secondary
-  technical_notes: Tuesday and Friday. 3 × 10–12 per side. Rotational core stability.
-    Supports L-sit and front lever development indirectly through anti-rotation strength.
+  - ref: weighted_pull_ups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday. 4 × 4–6 with added load. Primary pulling strength builder.
+      Add 2.5 kg when all sets complete at top of range. Full dead-hang to chin-over-bar.
+      Foundation movement for muscle-up development.
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday. 4 × 5–8. Weighted when bodyweight sets exceed 3 × 10.
+      Primary pushing strength for ring muscle-up development. Rings turned out at
+      the top; elbows in throughout.
+
+  - ref: parallel_bar_dip
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. 3 × 8–12. Higher rep accessory push. Complements ring
+      dips with stable surface; allows greater loading for strength development.
+
+  - ref: pushups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. Advanced pushup variations: archer pushups (3 × 5–8 per
+      side) progressing toward one-arm. Builds unilateral pushing strength for
+      planche foundation.
+
+  - ref: inverted_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. 3 × 8–12 with feet elevated or weighted vest. Horizontal
+      pulling; builds scapular control and back thickness. Progressed to ring rows
+      for additional instability challenge.
+
+  - ref: scapular_pull_up
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday, Wednesday, Thursday. 3 × 10–15. Foundational scapular depression and
+      retraction control. Required for safe muscle-up technique and injury prevention
+      during high-volume pulling. Treat as activation, not primary strength work.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      All training days. Hollow body progressions: tuck hollow hold, hollow body hold,
+      hollow body rocks. 3–5 × 15–30 s. The hollow body is the foundation position
+      for all calisthenics kipping and skill movements.
+
+  - ref: pallof_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. 3 × 10–12 per side. Rotational core stability. Supports
+      L-sit and front lever development indirectly through anti-rotation strength.
+
 sources:
-- title: Bodyweight Strength Training Anatomy
-  credibility: practitioner
-- title: Effect of suspension training on maximal strength, explosive strength, and
-    muscle activation
-  credibility: rct
+  - title: "Bodyweight Strength Training Anatomy"
+    author: "Contreras, B."
+    year: 2014
+    publisher: "Human Kinetics"
+    credibility: practitioner
+  - title: "Effect of suspension training on maximal strength, explosive strength, and muscle activation"
+    author: "Calatayud, J., Borreani, S., Colado, J. C., Martin, F., Rogers, M. E."
+    year: 2014
+    journal: "Journal of Human Kinetics"
+    volume: 40
+    pages: "155-162"
+    doi: "10.2478/hukin-2014-0017"
+    credibility: rct
 ---
 
 # Calisthenics Intermediate Skill Development
@@ -3019,68 +3929,118 @@ Spend 10–15 minutes on each skill, then stop. Skill practice with fatigue rein
 
 ---
 
+<!-- FILE: programs/calisthenics/convict_conditioning.md -->
+
 ---
+
 id: convict_conditioning
 name: Convict Conditioning Big Six
+aliases: [CC Big Six, Coach Wade program, convict conditioning program, Paul Wade calisthenics]
 category: program
 system: calisthenics
-goal: Build full-body functional strength from absolute zero through a linear ten-step
-  progression on six fundamental movement patterns — without equipment, gyms, or external
-  load — producing elite-level calisthenics proficiency at the final steps
-goals:
-- skill_acquisition
-- strength
+goal: Build full-body functional strength from absolute zero through a linear ten-step progression on six fundamental movement patterns — without equipment, gyms, or external load — producing elite-level calisthenics proficiency at the final steps
+goals: [skill_acquisition, strength]
 level: beginner
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Linear step progression on each of the six movements independently.
-  Each movement has ten steps from entry-level (step 1) to elite (step 10). Advancement
-  criterion: complete the prescribed consolidation standard for three consecutive
-  training sessions with controlled form. The six movements are trained on a rotating
-  schedule — never training the same movement on consecutive days. Steps 1-5 are beginner-to-intermediate;
-  steps 6-10 are advanced-to-elite. Most practitioners spend 2–6 months per step at
-  the advanced levels. The program''s stated philosophy: progress at the pace of connective
+origin: classic
+progression_model: >
+  Linear step progression on each of the six movements independently. Each movement has
+  ten steps from entry-level (step 1) to elite (step 10). Advancement criterion: complete
+  the prescribed consolidation standard for three consecutive training sessions with
+  controlled form. The six movements are trained on a rotating schedule — never training
+  the same movement on consecutive days. Steps 1-5 are beginner-to-intermediate; steps
+  6-10 are advanced-to-elite. Most practitioners spend 2–6 months per step at the
+  advanced levels. The program's stated philosophy: progress at the pace of connective
   tissue adaptation, not muscular strength development.
 
-  '
 exercises:
-- ref: pushups
-  role: primary
-  technical_notes: 'The Push series. Ten-step progression: (1) Wall Push-up → (2)
-    Incline Push-up → (3) Kneeling Push-up → (4) Half Push-up → (5) Full Push-up →
-    (6) Close Push-up (hands at stomach width) → (7) Uneven Pus...'
-- ref: pullups
-  role: primary
-  technical_notes: 'The Pull series. Ten-step progression: (1) Vertical Pull (jackknife
-    using table) → (2) Horizontal Pull (body at 45°) → (3) Jackknife Pull-up (feet
-    on surface, partial assist) → (4) Half Pull-up (top h...'
-- ref: hanging_leg_raise
-  role: primary
-  technical_notes: 'The Leg Raise series (core). Ten-step progression: (1) Knee Tuck
-    (lying on floor, bring knees to chest) → (2) Flat Bent Knee Raise → (3) Flat Frog
-    Raise → (4) Flat Straight Leg Raise → (5) Hanging Kne...'
-- ref: bodyweight_squat
-  role: primary
-  technical_notes: 'The Squat series. Ten-step progression: (1) Shoulderstand Squat
-    (lying, hips overhead, squat to chest) → (2) Jackknife Squat (table-assisted)
-    → (3) Supported Squat (door frame for balance) → (4) Half ...'
-- ref: reverse_hyperextension
-  role: primary
-  technical_notes: 'The Bridge series (closest available exercise ID — the CC bridge
-    is a gymnastic back bridge, not a hip thrust). CC Bridge ten-step progression:
-    (1) Short Bridge → (2) Straight Bridge → (3) Angled Brid...'
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: 'The Handstand Push-up series. Ten-step progression: (1) Wall Headstand
-    Hold → (2) Crow Stand (balance on hands with knees resting on bent elbows) → (3)
-    Wall Handstand Hold → (4) Half Handstand Push-up...'
+  - ref: pushups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Push series. Ten-step progression: (1) Wall Push-up → (2) Incline Push-up →
+      (3) Kneeling Push-up → (4) Half Push-up → (5) Full Push-up → (6) Close Push-up
+      (hands at stomach width) → (7) Uneven Push-up (one hand on ball or elevated object)
+      → (8) Half One-Arm Push-up → (9) Lever Push-up (one arm extended laterally) →
+      (10) One-Arm Push-up. Consolidation standard for advancement: Step 5 (Full) = 3 × 30;
+      Step 10 (One-Arm) = 1 × 100 per arm. The primary horizontal pushing strength and
+      elbow extension builder.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Pull series. Ten-step progression: (1) Vertical Pull (jackknife using table) →
+      (2) Horizontal Pull (body at 45°) → (3) Jackknife Pull-up (feet on surface, partial
+      assist) → (4) Half Pull-up (top half only) → (5) Full Pull-up → (6) Close Pull-up
+      (hands touching) → (7) Uneven Pull-up (one hand grips wrist of other hand) →
+      (8) Half One-Arm Pull-up → (9) Assisted One-Arm Pull-up → (10) One-Arm Pull-up.
+      Consolidation standard: Step 5 (Full Pull-up) = 3 × 15; Step 10 = 1 × 6 per arm.
+      All pull-ups are dead-hang to chin over bar — no kipping.
+
+  - ref: hanging_leg_raise
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Leg Raise series (core). Ten-step progression: (1) Knee Tuck (lying on floor,
+      bring knees to chest) → (2) Flat Bent Knee Raise → (3) Flat Frog Raise → (4) Flat
+      Straight Leg Raise → (5) Hanging Knee Raise → (6) Hanging Bent Leg Raise → (7)
+      Hanging Partial Straight Leg Raise → (8) Hanging Straight Leg Raise → (9) Hanging
+      Toes-to-Bar → (10) Hanging Windshield Wiper. Consolidation: Step 8 (hanging straight
+      leg raise) = 3 × 20. Convict Conditioning treats the leg raise series as the
+      foundational anti-flexion and hip flexor strength developer — not a supplementary
+      movement.
+
+  - ref: bodyweight_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Squat series. Ten-step progression: (1) Shoulderstand Squat (lying, hips overhead,
+      squat to chest) → (2) Jackknife Squat (table-assisted) → (3) Supported Squat (door
+      frame for balance) → (4) Half Squat → (5) Full Squat → (6) Close Squat (feet together)
+      → (7) Uneven Squat (one foot on ball or low object) → (8) Half Pistol → (9) Assisted
+      Pistol → (10) Pistol Squat. Consolidation: Step 5 (Full) = 3 × 50; Step 10 (Pistol)
+      = 2 × 50 per leg. Depth requirement: thighs below parallel on all squatting steps.
+
+  - ref: reverse_hyperextension
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Bridge series (closest available exercise ID — the CC bridge is a gymnastic back
+      bridge, not a hip thrust). CC Bridge ten-step progression: (1) Short Bridge → (2) Straight
+      Bridge → (3) Angled Bridge → (4) Head Bridge → (5) Half Bridge → (6) Full Bridge →
+      (7) Wall Walking Bridge → (8) Uneven Bridge → (9) Head Spring → (10) Stand-to-Stand
+      Bridge. Consolidation: Step 6 (Full Bridge) = 3 × 50. The bridge series develops
+      thoracic extension, posterior chain strength, and spinal flexibility that Convict
+      Conditioning identifies as the most undervalued quality in calisthenics training.
+      NOTE: `reverse_hyperextension` is the closest available exercise ID; the actual CC
+      bridge is a spinal arch bridge from standing or floor to full gymnastic back bend.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      The Handstand Push-up series. Ten-step progression: (1) Wall Headstand Hold → (2) Crow
+      Stand (balance on hands with knees resting on bent elbows) → (3) Wall Handstand Hold →
+      (4) Half Handstand Push-up (partial range against wall) → (5) Handstand Push-up (full
+      range against wall, head touches floor) → (6) Close Handstand Push-up (hands inside
+      shoulder-width) → (7) Uneven Handstand Push-up (one hand on ball) → (8) Half One-Arm
+      Handstand Push-up → (9) Lever Handstand Push-up (one arm extended) → (10) One-Arm
+      Handstand Push-up. Consolidation: Step 5 (Wall HSPU) = 2 × 20; Step 10 = 1 × 5 per
+      arm. The series requires progressive wrist conditioning before beginning.
+
 sources:
-- title: 'Convict Conditioning: How to Bust Free of All Weakness Using the Lost Secrets
-    of Supreme Survival Strength'
-  credibility: practitioner
-- title: 'Convict Conditioning 2: Advanced Prison Training Tactics for the Ultimate
-    Physical Transformation'
-  credibility: practitioner
+  - title: "Convict Conditioning: How to Bust Free of All Weakness Using the Lost Secrets of Supreme Survival Strength"
+    author: "Wade, P."
+    year: 2011
+    publisher: "Dragon Door Publications"
+    credibility: practitioner
+  - title: "Convict Conditioning 2: Advanced Prison Training Tactics for the Ultimate Physical Transformation"
+    author: "Wade, P."
+    year: 2012
+    publisher: "Dragon Door Publications"
+    credibility: practitioner
 ---
 
 # Convict Conditioning Big Six
@@ -3148,71 +4108,108 @@ Advance to the next step only when the current consolidation standard is met for
 
 ---
 
+<!-- FILE: programs/calisthenics/get_strong_kavadlo.md -->
+
 ---
+
 id: get_strong_kavadlo
-name: 'Get Strong: The Ultimate 16-Week Transformation Program'
+name: "Get Strong: The Ultimate 16-Week Transformation Program"
+aliases: [Kavadlo get strong, al kavadlo program, danny kavadlo program, progressive calisthenics 16 week]
 category: program
 system: calisthenics
-goal: Build compound full-body calisthenics strength through four progressive mesocycle
-  phases, from foundational movement quality through advanced bodyweight load — using
-  strict end-of-phase testing standards to prevent premature progression
-goals:
-- strength
-- skill_acquisition
+goal: Build compound full-body calisthenics strength through four progressive mesocycle phases, from foundational movement quality through advanced bodyweight load — using strict end-of-phase testing standards to prevent premature progression
+goals: [strength, skill_acquisition]
 level: beginner
 duration_weeks: 16
 frequency_per_week: 4
 periodization: block
-progression_model: 'Four-phase linear mesocycle (4 weeks each). Phase 1 (Foundation):
-  master movement standards at moderate volume. Phase 2 (Brick and Mortar): increase
-  set volume and exercise difficulty. Phase 3 (Concrete and Iron): add load and higher-difficulty
+origin: classic
+progression_model: >
+  Four-phase linear mesocycle (4 weeks each). Phase 1 (Foundation): master movement
+  standards at moderate volume. Phase 2 (Brick and Mortar): increase set volume and
+  exercise difficulty. Phase 3 (Concrete and Iron): add load and higher-difficulty
   progressions. Phase 4 (Forged from Steel): peak volume and difficulty. End-of-phase
-  testing is mandatory — if the phase standard is not met, the athlete returns to
-  weeks 3–4 of the current phase before advancing. Athletes may add additional sets
-  to reach prescribed rep targets before advancing. No fixed rest between phases;
-  rest is taken between phases as needed before the test.
+  testing is mandatory — if the phase standard is not met, the athlete returns to weeks
+  3–4 of the current phase before advancing. Athletes may add additional sets to reach
+  prescribed rep targets before advancing. No fixed rest between phases; rest is taken
+  between phases as needed before the test.
 
-  '
 exercises:
-- ref: pullups
-  role: primary
-  technical_notes: 'Primary vertical pulling movement. Dead-hang start required; chin
-    over bar at the top. Phase 1 (Foundation): band-assisted or jumping negatives
-    if full pull-ups are not yet achievable. Phase 2 (Brick ...'
-- ref: pushups
-  role: primary
-  technical_notes: 'Primary horizontal pushing movement. Elbows 45° to torso; rigid
-    plank body. Phase 1: standard push-ups, 3 × 10. Phase 2: decline push-ups and
-    diamond push-ups introduced. Phase 3: archer push-ups (3 ×...'
-- ref: parallel_bar_dip
-  role: primary
-  technical_notes: 'Primary vertical push. Shoulders below elbows at bottom; slight
-    forward lean for chest involvement; elbows tucked. Phase 1: bench dips or negative
-    dips if parallel bar dips are not achievable. Phase 2...'
-- ref: bodyweight_squat
-  role: primary
-  technical_notes: 'Primary knee-dominant lower body movement. Phase 1: full bodyweight
-    squat below parallel, 3 × 15–20. Phase 2: split squats and Bulgarian split squats
-    introduced. Phase 3: pistol squat progressions (bo...'
-- ref: hanging_leg_raise
-  role: primary
-  technical_notes: 'Primary core/anti-extension movement. Phase 1: hanging knee raises,
-    3 × 10. Phase 2: hanging bent-leg raises, 3 × 10–12. Phase 3: hanging straight-leg
-    raises, 3 × 8–10. Phase 4: toes-to-bar, 3 × 6–8. ...'
-- ref: inverted_row
-  role: secondary
-  technical_notes: Horizontal pull balance. 3 × 10–12 in all phases, with difficulty
-    scaled by angle (more horizontal = harder) and progression to feet-elevated variations
-    in Phase 3–4. Get Strong follows the Kavadlo ph...
-- ref: plank
-  role: secondary
-  technical_notes: 'Anti-extension core. Phase 1: forearm plank, 3 × 30–45 s. Progression
-    across phases to hollow body holds (Phase 3–4). Core work ends every session in
-    Get Strong — placed last to protect spinal stabili...'
+  - ref: pullups
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Primary vertical pulling movement. Dead-hang start required; chin over bar at the top.
+      Phase 1 (Foundation): band-assisted or jumping negatives if full pull-ups are not yet
+      achievable. Phase 2 (Brick and Mortar): 3–4 × 6–8. Phase 3 (Concrete and Iron):
+      4 × 6–8 with close grip variation added. Phase 4 (Forged from Steel): 4–5 × 8–10.
+      Get Strong treats the pull-up as the primary compound upper-body pulling test — the
+      phase-end testing standards require specified pull-up performance before progression.
+
+  - ref: pushups
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Primary horizontal pushing movement. Elbows 45° to torso; rigid plank body.
+      Phase 1: standard push-ups, 3 × 10. Phase 2: decline push-ups and diamond push-ups
+      introduced. Phase 3: archer push-ups (3 × 5 per side). Phase 4: max-effort sets and
+      harder variation combinations. Get Strong uses the push-up as the horizontal push
+      test — progression standards require specific rep counts at each phase-end test.
+
+  - ref: parallel_bar_dip
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Primary vertical push. Shoulders below elbows at bottom; slight forward lean for
+      chest involvement; elbows tucked. Phase 1: bench dips or negative dips if parallel
+      bar dips are not achievable. Phase 2: full parallel bar dips, 3 × 8. Phase 3: weighted
+      dips or ring dips introduced. Phase 4: 4–5 × 8–10. The dip is the compound vertical
+      push test in Get Strong's phase-end standards.
+
+  - ref: bodyweight_squat
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Primary knee-dominant lower body movement. Phase 1: full bodyweight squat below
+      parallel, 3 × 15–20. Phase 2: split squats and Bulgarian split squats introduced.
+      Phase 3: pistol squat progressions (box pistol → assisted pistol). Phase 4: full
+      pistol squat attempts. Lower body progression in Get Strong parallels the upper body
+      phases — the end-of-phase test includes unilateral lower-body requirements.
+
+  - ref: hanging_leg_raise
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Primary core/anti-extension movement. Phase 1: hanging knee raises, 3 × 10.
+      Phase 2: hanging bent-leg raises, 3 × 10–12. Phase 3: hanging straight-leg raises,
+      3 × 8–10. Phase 4: toes-to-bar, 3 × 6–8. The hanging leg raise series develops
+      the hip flexor and anti-extension core strength that transfers to L-sit and
+      advanced skill progressions. Position the dead hang between every rep.
+
+  - ref: inverted_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Horizontal pull balance. 3 × 10–12 in all phases, with difficulty scaled by
+      angle (more horizontal = harder) and progression to feet-elevated variations in
+      Phase 3–4. Get Strong follows the Kavadlo philosophy of balanced pushing and
+      pulling — horizontal rows prevent the shoulder internal rotation that develops
+      from push-dominant training.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      Anti-extension core. Phase 1: forearm plank, 3 × 30–45 s. Progression across phases
+      to hollow body holds (Phase 3–4). Core work ends every session in Get Strong —
+      placed last to protect spinal stability during compound work.
+
 sources:
-- title: 'Get Strong: The Ultimate 16-Week Transformation Program For Gaining Muscle
-    and Strength Using The Power Of Progressive Calisthenics'
-  credibility: practitioner
+  - title: "Get Strong: The Ultimate 16-Week Transformation Program For Gaining Muscle and Strength Using The Power Of Progressive Calisthenics"
+    author: "Kavadlo, A., Kavadlo, D."
+    year: 2017
+    publisher: "Dragon Door Publications"
+    credibility: practitioner
 ---
 
 # Get Strong: The Ultimate 16-Week Transformation Program
@@ -3271,49 +4268,74 @@ The defining feature of *Get Strong* is its **mandatory phase-end testing protoc
 
 ---
 
+<!-- FILE: programs/calisthenics/grease_the_groove.md -->
+
 ---
+
 id: grease_the_groove
 name: Grease the Groove Method
+aliases: [GTG, grease the groove, Pavel GTG, sub-maximal frequency training]
 category: program
 system: calisthenics
-goal: Rapidly increase proficiency and max rep count in a target calisthenics movement
-  through repeated high-frequency sub-maximal practice, without accumulating systemic
-  fatigue — exploiting the neural plasticity window of movement patterns learned under
-  non-fatigued conditions
-goals:
-- skill_acquisition
+goal: Rapidly increase proficiency and max rep count in a target calisthenics movement through repeated high-frequency sub-maximal practice, without accumulating systemic fatigue — exploiting the neural plasticity window of movement patterns learned under non-fatigued conditions
+goals: [skill_acquisition]
 level: beginner
 frequency_per_week: 7
 periodization: undulating
-progression_model: 'Sub-maximal frequency: perform 40–60% of your current maximum
-  in a target movement, multiple times per day (typically 2–10 times), every day or
-  5–7 days per week. Do not perform to failure or even close to failure — every set
-  should leave you feeling fresh. Progression: as max rep count increases over days
-  and weeks, raise the working rep count accordingly (always maintaining 40–60% of
-  current max). There is no prescribed volume structure or scheduled progression increment
-  — the method self-regulates through daily practice, and the user decides when to
-  test maximum performance. Rest weeks (one week of reduced frequency) are recommended
-  every 4–6 weeks.
+origin: classic
+progression_model: >
+  Sub-maximal frequency: perform 40–60% of your current maximum in a target movement,
+  multiple times per day (typically 2–10 times), every day or 5–7 days per week.
+  Do not perform to failure or even close to failure — every set should leave you feeling
+  fresh. Progression: as max rep count increases over days and weeks, raise the working
+  rep count accordingly (always maintaining 40–60% of current max). There is no prescribed
+  volume structure or scheduled progression increment — the method self-regulates through
+  daily practice, and the user decides when to test maximum performance. Rest weeks (one
+  week of reduced frequency) are recommended every 4–6 weeks.
 
-  '
 exercises:
-- ref: pullups
-  role: primary
-  technical_notes: Pull-ups are the most common GTG target exercise. If your current
-    max is 10 strict pull-ups, GTG prescribes sets of 4–6 reps (40–60% of max) performed
-    2–10 times throughout the day. A pull-up bar inst...
-- ref: pushups
-  role: secondary
-  technical_notes: Push-ups are the second most common GTG target. The same 40–60%
-    of max principle applies. If push-up max is 30, GTG working sets are 12–18 reps.
-    Push-ups and pull-ups can be trained with GTG simultane...
+  - ref: pullups
+    role: primary
+    frequency_per_week: 7
+    technical_notes: >
+      Pull-ups are the most common GTG target exercise. If your current max is 10 strict
+      pull-ups, GTG prescribes sets of 4–6 reps (40–60% of max) performed 2–10 times
+      throughout the day. A pull-up bar installed in a doorway is the classic setup — each
+      time you pass through the doorway, you do a set. The technical standard must remain
+      the same as in a formal training session: dead-hang start, chin over bar, controlled
+      descent. Sets performed with compromised form do not count toward the training effect.
+      GTG can produce 2–3× increases in pull-up max within 4–8 weeks for most practitioners.
+
+  - ref: pushups
+    role: secondary
+    frequency_per_week: 7
+    technical_notes: >
+      Push-ups are the second most common GTG target. The same 40–60% of max principle
+      applies. If push-up max is 30, GTG working sets are 12–18 reps. Push-ups and pull-ups
+      can be trained with GTG simultaneously because they do not compete for recovery —
+      horizontal push and vertical pull use largely non-overlapping musculature and allow
+      concurrent sub-maximal practice on the same days.
+
 sources:
-- title: 'Power to the People: Russian Strength Training Secrets for Every American'
-  credibility: practitioner
-- title: The Naked Warrior
-  credibility: practitioner
-- title: 'Neural adaptations to resistance training: implications for movement control'
-  credibility: literature_review
+  - title: "Power to the People: Russian Strength Training Secrets for Every American"
+    author: "Tsatsouline, P."
+    year: 1999
+    publisher: "Dragon Door Publications"
+    credibility: practitioner
+  - title: "The Naked Warrior"
+    author: "Tsatsouline, P."
+    year: 2003
+    publisher: "Dragon Door Publications"
+    credibility: practitioner
+  - title: "Neural adaptations to resistance training: implications for movement control"
+    author: "Aagaard, P."
+    year: 2003
+    journal: "Sports Medicine"
+    volume: 33
+    issue: 15
+    pages: "1077-1116"
+    doi: "10.2165/00007256-200333150-00001"
+    credibility: literature_review
 ---
 
 # Grease the Groove Method
@@ -3381,75 +4403,124 @@ Do **not** attempt GTG on a movement you are currently training to failure in a 
 
 ---
 
+<!-- FILE: programs/calisthenics/gymnastic_bodies_foundation_one.md -->
+
 ---
+
 id: gymnastic_bodies_foundation_one
 name: Gymnastic Bodies Foundation One
+aliases: [GB Foundation One, GymnasticBodies F1, Christopher Sommer foundation, gymnasticbodies.com foundation]
 category: program
 system: calisthenics
-goal: Build the gymnastic strength foundation (front lever, planche, hollow back press,
-  single-leg squat) and active flexibility simultaneously, by pairing strength exercises
-  with targeted mobility drills as active recovery — eliminating passive rest and
-  developing the joint ranges needed to support advanced gymnastic positions
-goals:
-- skill_acquisition
+goal: Build the gymnastic strength foundation (front lever, planche, hollow back press, single-leg squat) and active flexibility simultaneously, by pairing strength exercises with targeted mobility drills as active recovery — eliminating passive rest and developing the joint ranges needed to support advanced gymnastic positions
+goals: [skill_acquisition]
 level: beginner
 frequency_per_week: 4
 periodization: block
-progression_model: 'Nine-step progression loop for each primary movement. Advance
-  only when the current step''s standard — typically 3 sets of the prescribed hold
-  time or rep count — is met consistently across multiple sessions with full movement
-  quality. Each strength exercise is paired with a specific targeted mobility drill
-  as the rest interval: instead of resting passively, the athlete performs the targeted
-  stretch or mobility exercise for the strength movement''s antagonist or limiting
-  range. This structure eliminates conventional rest periods and simultaneously develops
-  the active flexibility required to sustain gymnastic positions. The program has
-  no fixed duration — progression through all nine steps of each movement takes 6–18
-  months depending on the athlete''s baseline.
+origin: classic
+progression_model: >
+  Nine-step progression loop for each primary movement. Advance only when the current
+  step's standard — typically 3 sets of the prescribed hold time or rep count — is met
+  consistently across multiple sessions with full movement quality. Each strength exercise
+  is paired with a specific targeted mobility drill as the rest interval: instead of resting
+  passively, the athlete performs the targeted stretch or mobility exercise for the strength
+  movement's antagonist or limiting range. This structure eliminates conventional rest
+  periods and simultaneously develops the active flexibility required to sustain gymnastic
+  positions. The program has no fixed duration — progression through all nine steps of each
+  movement takes 6–18 months depending on the athlete's baseline.
 
-  '
 exercises:
-- ref: pullups
-  role: primary
-  technical_notes: Primary vertical pulling strength — foundation for front lever
-    development. GB's pull-up standard requires full dead-hang at the bottom with
-    complete elbow extension, controlled ascent, and chin clear...
-- ref: ring_dips
-  role: primary
-  technical_notes: Primary ring push strength — foundation for planche and manna development.
-    GB's Foundation ring dip standard requires achieving a stable support hold (arms
-    locked, body vertical, rings turned out) bef...
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: 'Overhead pressing strength — hollow back press pathway. Foundation
-    One develops HSPU through a wall-supported progression: pike push-up → elevated
-    pike → wall HSPU (head touches floor) → full wall HSP...'
-- ref: bodyweight_squat
-  role: primary
-  technical_notes: 'Single-leg squat pathway (pistol squat). Foundation One''s squat
-    track begins with bilateral squat depth development before unilateral progressions.
-    Active recovery for squat sets: paired with hip flex...'
-- ref: scapular_pull_up
-  role: secondary
-  technical_notes: Scapular health and activation. GB Foundation places extraordinary
-    emphasis on developing scapular control before loading the shoulder joint — scapular
-    pulls appear in Foundation One as a prerequisite...
-- ref: plank
-  role: secondary
-  technical_notes: Hollow body position development. GB's hollow body hold is trained
-    as an active isometric (lower back pressed to floor, arms overhead, legs raised
-    at 30–45°) rather than a standard plank. 3–5 × 15–30 ...
-- ref: pallof_press
-  role: secondary
-  technical_notes: 'Rotational core stability accessory. GB Foundation''s core work
-    extends beyond the sagittal plane through side tension and anti-rotation exercises.
-    Active recovery: paired with lateral hip and thoracic...'
+  - ref: pullups
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Primary vertical pulling strength — foundation for front lever development. GB's
+      pull-up standard requires full dead-hang at the bottom with complete elbow extension,
+      controlled ascent, and chin clearly over the bar at the top. The Foundation One
+      progression ladder for pulling begins with hollow body hang holds (developing the
+      active shoulder flexion at end-range) before moving to scapular pulls, then negatives,
+      then full pull-ups. Active recovery interval: paired with thoracic spine mobility
+      drills (e.g., cat-cow, thoracic extension over a foam roller) between sets.
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Primary ring push strength — foundation for planche and manna development. GB's
+      Foundation ring dip standard requires achieving a stable support hold (arms locked,
+      body vertical, rings turned out) before attempting dips. Active recovery interval:
+      paired with wrist and shoulder mobility drills. The ring support hold (static,
+      30–60 s) is trained before dynamic ring dips are introduced.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Overhead pressing strength — hollow back press pathway. Foundation One develops
+      HSPU through a wall-supported progression: pike push-up → elevated pike → wall HSPU
+      (head touches floor) → full wall HSPU → partial free HSPU. Active recovery paired
+      with wrist extension stretches and lat/shoulder flexion mobility. GB is notable for
+      prioritizing wrist conditioning before any significant HSPU volume — the 9-step wrist
+      series is trained before HSPU attempts begin.
+
+  - ref: bodyweight_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Single-leg squat pathway (pistol squat). Foundation One's squat track begins with
+      bilateral squat depth development before unilateral progressions. Active recovery for
+      squat sets: paired with hip flexor and ankle mobility drills. The pistol squat in
+      GB Foundation requires full ankle dorsiflexion and hip flexor active range — the
+      mobility work paired with squats directly addresses these limitations.
+
+  - ref: scapular_pull_up
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      Scapular health and activation. GB Foundation places extraordinary emphasis on
+      developing scapular control before loading the shoulder joint — scapular pulls appear
+      in Foundation One as a prerequisite strength exercise before full pull-ups are
+      introduced. 3 × 10–15 as daily activation. Active recovery paired with protraction
+      and retraction drills.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      Hollow body position development. GB's hollow body hold is trained as an active
+      isometric (lower back pressed to floor, arms overhead, legs raised at 30–45°) rather
+      than a standard plank. 3–5 × 15–30 s. The hollow body is the tension template that
+      all other Foundation exercises build toward — it appears in every Foundation session
+      as both activation and assessment.
+
+  - ref: pallof_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Rotational core stability accessory. GB Foundation's core work extends beyond the
+      sagittal plane through side tension and anti-rotation exercises. Active recovery:
+      paired with lateral hip and thoracic rotation stretches.
+
 sources:
-- title: 'Building the Gymnastic Body: The Science of Gymnastics Strength Training'
-  credibility: practitioner
-- title: Gymnastic Bodies Foundation One curriculum
-  credibility: practitioner
-- title: Connective tissue adaptation to exercise and training
-  credibility: literature_review
+  - title: "Building the Gymnastic Body: The Science of Gymnastics Strength Training"
+    author: "Sommer, C."
+    year: 2008
+    publisher: "Olympic Bodies LLC"
+    credibility: practitioner
+  - title: "Gymnastic Bodies Foundation One curriculum"
+    author: "Sommer, C."
+    year: 2013
+    publisher: "gymnasticbodies.com"
+    credibility: practitioner
+  - title: "Connective tissue adaptation to exercise and training"
+    author: "Bohm, S., Mersmann, F., Arampatzis, A."
+    year: 2015
+    journal: "British Journal of Sports Medicine"
+    volume: 49
+    issue: 11
+    pages: "705-712"
+    doi: "10.1136/bjsports-2014-094123"
+    credibility: literature_review
 ---
 
 # Gymnastic Bodies Foundation One
@@ -3508,86 +4579,145 @@ Steps 1–3 are foundational (prerequisites), Steps 4–6 are intermediate, Step
 
 ---
 
+<!-- FILE: programs/calisthenics/overcoming_gravity_template.md -->
+
 ---
+
 id: overcoming_gravity_template
 name: Overcoming Gravity Skill Progression Template
+aliases: [OG template, Steven Low OG, overcoming gravity program, OG intermediate]
 category: program
 system: calisthenics
-goal: Develop intermediate and advanced calisthenics skills (ring muscle-up, handstand
-  push-up, front lever, planche progressions) through systematically balanced push/pull
-  strength programming and milestone-based skill progression
-goals:
-- skill_acquisition
+goal: Develop intermediate and advanced calisthenics skills (ring muscle-up, handstand push-up, front lever, planche progressions) through systematically balanced push/pull strength programming and milestone-based skill progression
+goals: [skill_acquisition]
 level: intermediate
 frequency_per_week: 3
 periodization: block
-progression_model: 'Milestone-based skill progression within a periodized framework.
-  Advance to the next progression variation when 3 × 5 reps (or 3 × 10 s for static
-  holds) can be completed with 2+ reps in reserve (RIR) and consistent technical standard.
-  Strength support work uses double-progression: increase reps within the range until
-  the upper rep ceiling is reached for all sets, then add load. Deload every 8–12
-  weeks: reduce working sets by 40% and drop one skill step. Push and pull volume
-  must be balanced within each training cycle — accumulating pulling volume significantly
-  in excess of pushing volume is a primary cause of elbow tendinopathy in this system.
+origin: classic
+progression_model: >
+  Milestone-based skill progression within a periodized framework. Advance to the next
+  progression variation when 3 × 5 reps (or 3 × 10 s for static holds) can be completed
+  with 2+ reps in reserve (RIR) and consistent technical standard. Strength support work
+  uses double-progression: increase reps within the range until the upper rep ceiling is
+  reached for all sets, then add load. Deload every 8–12 weeks: reduce working sets by
+  40% and drop one skill step. Push and pull volume must be balanced within each training
+  cycle — accumulating pulling volume significantly in excess of pushing volume is a primary
+  cause of elbow tendinopathy in this system.
 
-  '
 exercises:
-- ref: pullups
-  role: primary
-  technical_notes: 'Vertical pulling strength: dead-hang pull-up to chin over bar
-    as the baseline. OG''s progression ladder: scapular pull-ups → arch hangs → negative
-    pull-ups → pull-ups → weighted pull-ups → front lever ...'
-- ref: weighted_pull_ups
-  role: primary
-  technical_notes: 'Primary strength builder for advanced front lever and one-arm
-    pull-up progression. Once unweighted pull-ups reach 3 × 10, shift to weighted
-    pull-ups for strength development. OG''s standard: 4 × 4–6 wi...'
-- ref: inverted_row
-  role: secondary
-  technical_notes: Horizontal pulling balance. OG requires maintaining a push/pull
-    volume ratio of approximately 1:1 per session — horizontal row volume counterbalances
-    vertical push (dip, handstand push-up) stress on t...
-- ref: scapular_pull_up
-  role: secondary
-  technical_notes: Scapular health maintenance and activation. Every OG session begins
-    with scapular pull-ups as part of the warm-up. This is not optional — it conditions
-    the scapular stabilizers (lower trapezius, serra...
-- ref: ring_dips
-  role: primary
-  technical_notes: Ring vertical push — the primary upper-body pushing skill driver
-    in OG. Ring dips develop the protraction-to-retraction shoulder stability that
-    is required for ring muscle-up and planche progressions....
-- ref: parallel_bar_dip
-  role: secondary
-  technical_notes: Stable-surface vertical push for higher loading. Complements ring
-    dips as a heavier loading vehicle when ring dip load is limited by stability.
-    OG uses parallel bar dips as a strength builder when the...
-- ref: pushups
-  role: secondary
-  technical_notes: 'Horizontal push for planche direction strength. OG progression:
-    full push-ups → diamond push-ups → archer push-ups → pseudo planche push-ups →
-    tuck planche push-ups. Pseudo planche push-ups (shoulders...'
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: 'Overhead push skill development. OG progression for HSPU: pike
-    push-ups (elevated) → wall HSPU (head touches floor) → wall HSPU (full range,
-    nose touches floor) → freestanding HSPU negatives → freesta...'
-- ref: plank
-  role: secondary
-  technical_notes: 'Hollow body development — the foundational body position in all
-    planche, front lever, and handstand progressions. OG uses hollow body holds rather
-    than standard plank: lower back pressed to floor, arm...'
-- ref: pallof_press
-  role: secondary
-  technical_notes: Anti-rotation core stability. Supports front lever straight-body
-    tension (the front lever requires total-body anti-rotation under a large lever
-    arm). 3 × 10–12 per side. OG recommends complementary co...
+  - ref: pullups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Vertical pulling strength: dead-hang pull-up to chin over bar as the baseline.
+      OG's progression ladder: scapular pull-ups → arch hangs → negative pull-ups →
+      pull-ups → weighted pull-ups → front lever progressions. The program treats the
+      vertical pull as the primary strength driver for muscle-up and front lever skill
+      targets. Volume: 3–5 working sets per session, stopping 2 reps before technical
+      failure. Full dead-hang between reps — no kipping.
+
+  - ref: weighted_pull_ups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Primary strength builder for advanced front lever and one-arm pull-up progression.
+      Once unweighted pull-ups reach 3 × 10, shift to weighted pull-ups for strength
+      development. OG's standard: 4 × 4–6 with added load. Steven Low places weighted
+      pull-up strength (typically +50% BW for 5 reps) as the practical prerequisite
+      for consistent one-arm pull-up attempts.
+
+  - ref: inverted_row
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Horizontal pulling balance. OG requires maintaining a push/pull volume ratio of
+      approximately 1:1 per session — horizontal row volume counterbalances vertical
+      push (dip, handstand push-up) stress on the shoulder. Progression: incline rows
+      → horizontal rows → feet-elevated rows → ring rows → archer rows. 3 × 8–12 per
+      session or paired with pushing work.
+
+  - ref: scapular_pull_up
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Scapular health maintenance and activation. Every OG session begins with scapular
+      pull-ups as part of the warm-up. This is not optional — it conditions the
+      scapular stabilizers (lower trapezius, serratus anterior) that protect the shoulder
+      under high-frequency pulling load. 3 × 10–15 as activation, not strength work.
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Ring vertical push — the primary upper-body pushing skill driver in OG. Ring dips
+      develop the protraction-to-retraction shoulder stability that is required for ring
+      muscle-up and planche progressions. OG progression ladder: parallel bar dips → ring
+      dips → weighted ring dips → Bulgarian ring dips. RTO (rings turned out) at the top
+      is the standard form requirement. 3–4 × 5–8 per session.
+
+  - ref: parallel_bar_dip
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Stable-surface vertical push for higher loading. Complements ring dips as a heavier
+      loading vehicle when ring dip load is limited by stability. OG uses parallel bar dips
+      as a strength builder when the athlete needs greater overload than bodyweight ring dips
+      can provide. 3 × 8–12 or weighted 4 × 5–6.
+
+  - ref: pushups
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Horizontal push for planche direction strength. OG progression: full push-ups →
+      diamond push-ups → archer push-ups → pseudo planche push-ups → tuck planche push-ups.
+      Pseudo planche push-ups (shoulders lean forward over wrist, hands pointing back) develop
+      the anterior deltoid and wrist extension strength specific to planche progressions.
+      3 × 5–10 at the current progression tier.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Overhead push skill development. OG progression for HSPU: pike push-ups (elevated) →
+      wall HSPU (head touches floor) → wall HSPU (full range, nose touches floor) →
+      freestanding HSPU negatives → freestanding HSPU. Wrist conditioning is prerequisite —
+      progressive weight-bearing on wrists must be established before HSPU attempts. Skill
+      day sessions use this for 15–20 min at the top of session when CNS is fresh.
+
+  - ref: plank
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Hollow body development — the foundational body position in all planche, front lever,
+      and handstand progressions. OG uses hollow body holds rather than standard plank:
+      lower back pressed to floor, arms overhead, legs straight and elevated. Progress from
+      tuck hollow → extended hollow hold → hollow body rocks. 3–5 × 15–30 s per session.
+      This is the single most undertrained quality in athletes attempting planche progressions.
+
+  - ref: pallof_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Anti-rotation core stability. Supports front lever straight-body tension (the front
+      lever requires total-body anti-rotation under a large lever arm). 3 × 10–12 per side.
+      OG recommends complementary core work to address the sagittal-plane bias of most
+      calisthenics pulling and pushing movements.
+
 sources:
-- title: 'Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength
-    (2nd ed.)'
-  credibility: practitioner
-- title: Connective tissue adaptation to exercise and training
-  credibility: literature_review
+  - title: "Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength (2nd ed.)"
+    author: "Low, S."
+    year: 2016
+    publisher: "Battle Ground Creative"
+    credibility: practitioner
+  - title: "Connective tissue adaptation to exercise and training"
+    author: "Bohm, S., Mersmann, F., Arampatzis, A."
+    year: 2015
+    journal: "British Journal of Sports Medicine"
+    volume: 49
+    issue: 11
+    pages: "705-712"
+    doi: "10.1136/bjsports-2014-094123"
+    credibility: literature_review
 ---
 
 # Overcoming Gravity Skill Progression Template
@@ -3674,92 +4804,133 @@ OG is explicit that the connective tissue timeline for planche and front lever i
 
 ---
 
+<!-- FILE: programs/crossfit/comptrain_class.md -->
+
 ---
+
 id: comptrain_class
 name: CompTrain Class
+aliases: [CompTrain, Ben Bergeron program, CompTrain community, CF New England methodology]
 category: program
 system: crossfit
-goal: Develop well-rounded CrossFit capacity for community athletes through daily
-  programming that integrates strength, skill, and conditioning in a single one-hour
-  class format; suitable for athletes who train once per day and want structured weekly
-  periodization
-goals:
-- athletic_performance
+goal: Develop well-rounded CrossFit capacity for community athletes through daily programming that integrates strength, skill, and conditioning in a single one-hour class format; suitable for athletes who train once per day and want structured weekly periodization
+goals: [athletic_performance]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: concurrent_weekly_undulating
-progression_model: 'Strength components use a 4-week wave: Week 1 (Deload 60%), Week
-  2 (Build 70–75%), Week 3 (Strong 80–85%), Week 4 (PR 88–93%). Metcon scores are
-  tracked for each benchmark; improvement on re-test every 4–6 weeks is the primary
-  adaptation signal. No separate AM/PM sessions — all work fits in a 60-minute class
-  window.
+origin: classic
+progression_model: >
+  Strength components use a 4-week wave: Week 1 (Deload 60%), Week 2 (Build 70–75%),
+  Week 3 (Strong 80–85%), Week 4 (PR 88–93%). Metcon scores are tracked for each
+  benchmark; improvement on re-test every 4–6 weeks is the primary adaptation signal.
+  No separate AM/PM sessions — all work fits in a 60-minute class window.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday and Thursday. 4-week wave loading: build from 60% to 90%+
-    across the cycle. Competition-depth squat; belt permitted after warm-up sets above
-    80%. Squat is the primary lower-body strength carrie...'
-- ref: overhead_press
-  role: primary
-  technical_notes: Tuesday. Strict press or push press wave loading. Shoulder strength
-    development for kipping HSPU and overhead barbell cycling support.
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Wednesday. Heavy deadlift or deadlift variation (sumo, Romanian).
-    Posterior chain strength for gymnastics foundations and heavy barbell WODs.
-- ref: power_clean
-  role: primary
-  technical_notes: Monday and Friday. Technical practice at 70–80% 1RM; cycling practice
-    at 50–60% 1RM for conditioning integration. CompTrain programs the power clean
-    as the primary Olympic movement for class-level ath...
-- ref: pullups
-  role: primary
-  technical_notes: Skill component at the start of each session, before metcon. Strict
-    pull-ups for athletes without established capacity; kipping and butterfly for
-    advanced athletes. 2–5 sets of 3–10 reps depending on ...
-- ref: double_unders
-  role: secondary
-  technical_notes: Integrated into warm-ups and metcons 3× per week. Single-unders
-    scale for athletes without double-under capacity. CompTrain consistently programs
-    DUs as a skills standard that separates intermediate f...
-- ref: handstand_push_ups
-  role: secondary
-  technical_notes: Skill component or metcon element Tuesday/Thursday. Strict HSPU
-    volume for strength base; kipping HSPU for metcon application. Scaled to pike
-    push-ups → box HSPU → kipping HSPU progression.
-- ref: toes_to_bar
-  role: secondary
-  technical_notes: Included in 2–3 metcons per week. Kipping toes-to-bar for cycle
-    efficiency; knees-to- elbows or hanging knee raise as scaling option. CompTrain
-    programs TTB as the primary core gymnastic movement.
-- ref: rowing_ergometer
-  role: primary
-  technical_notes: Metcon component Monday/Wednesday/Friday. Rowing distances range
-    from sprint (250–500m) to sustained aerobic (1000–2000m) depending on the workout's
-    intended time domain. Damper setting 4–5; drive rat...
-- ref: box_jumps
-  role: secondary
-  technical_notes: 'Metcon component Tuesday/Thursday. Step-down return for knee tendon
-    longevity under volume; jump-to-step cycle under time pressure. Height: 24"/20"
-    standard.'
-- ref: wall_ball_shots
-  role: secondary
-  technical_notes: Metcon component 2× per week. 20/14 lb standard weight; 10 ft target.
-    Wall ball combines squat mechanics and vertical throw into one of CrossFit's most
-    metabolically demanding single exercises.
-- ref: kettlebell_swings
-  role: secondary
-  technical_notes: Metcon conditioning component. American (overhead) or Russian (hip
-    height) depending on workout design. Develops posterior chain power and aerobic
-    capacity simultaneously.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday. 4-week wave loading: build from 60% to 90%+ across the cycle.
+      Competition-depth squat; belt permitted after warm-up sets above 80%. Squat is the
+      primary lower-body strength carrier in CompTrain.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Tuesday. Strict press or push press wave loading. Shoulder strength development
+      for kipping HSPU and overhead barbell cycling support.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday. Heavy deadlift or deadlift variation (sumo, Romanian). Posterior chain
+      strength for gymnastics foundations and heavy barbell WODs.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Friday. Technical practice at 70–80% 1RM; cycling practice at 50–60% 1RM
+      for conditioning integration. CompTrain programs the power clean as the primary
+      Olympic movement for class-level athletes.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      Skill component at the start of each session, before metcon. Strict pull-ups for
+      athletes without established capacity; kipping and butterfly for advanced athletes.
+      2–5 sets of 3–10 reps depending on capacity. High pull-up frequency is a CompTrain
+      signature that develops both strength and efficiency.
+
+  - ref: double_unders
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Integrated into warm-ups and metcons 3× per week. Single-unders scale for athletes
+      without double-under capacity. CompTrain consistently programs DUs as a skills
+      standard that separates intermediate from foundation athletes.
+
+  - ref: handstand_push_ups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Skill component or metcon element Tuesday/Thursday. Strict HSPU volume for strength
+      base; kipping HSPU for metcon application. Scaled to pike push-ups → box HSPU →
+      kipping HSPU progression.
+
+  - ref: toes_to_bar
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Included in 2–3 metcons per week. Kipping toes-to-bar for cycle efficiency; knees-to-
+      elbows or hanging knee raise as scaling option. CompTrain programs TTB as the primary
+      core gymnastic movement.
+
+  - ref: rowing_ergometer
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Metcon component Monday/Wednesday/Friday. Rowing distances range from sprint (250–500m)
+      to sustained aerobic (1000–2000m) depending on the workout's intended time domain.
+      Damper setting 4–5; drive rate depends on distance and workout context.
+
+  - ref: box_jumps
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Metcon component Tuesday/Thursday. Step-down return for knee tendon longevity under
+      volume; jump-to-step cycle under time pressure. Height: 24"/20" standard.
+
+  - ref: wall_ball_shots
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Metcon component 2× per week. 20/14 lb standard weight; 10 ft target. Wall ball
+      combines squat mechanics and vertical throw into one of CrossFit's most metabolically
+      demanding single exercises.
+
+  - ref: kettlebell_swings
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Metcon conditioning component. American (overhead) or Russian (hip height) depending
+      on workout design. Develops posterior chain power and aerobic capacity simultaneously.
+
 sources:
-- title: CompTrain Class Programming
-  credibility: practitioner
-- title: 'Chasing Excellence: A Story About Building the World''s Greatest Athlete'
-  credibility: practitioner
+  - title: "CompTrain Class Programming"
+    author: "Bergeron, B."
+    year: 2015
+    publisher: "CrossFit New England / CompTrain"
+    credibility: practitioner
+  - title: "Chasing Excellence: A Story About Building the World's Greatest Athlete"
+    author: "Bergeron, B."
+    year: 2017
+    publisher: "Lioncrest Publishing"
+    credibility: practitioner
 ---
 
 # CompTrain Class
@@ -3824,76 +4995,107 @@ All scaling decisions prioritize the *intended stimulus* — a sprint WOD scaled
 
 ---
 
+<!-- FILE: programs/crossfit/crossfit_aerobic_base.md -->
+
 ---
+
 id: crossfit_aerobic_base
 name: CrossFit Aerobic Base Builder
+aliases: [CF aerobic base, Zone 2 CrossFit, aerobic engine CrossFit, CrossFit endurance base]
 category: program
 system: crossfit
-goal: Systematically raise the aerobic ceiling that limits sustained CrossFit performance
-  by prioritizing Zone 2 training, lactate threshold work, and monostructural capacity;
-  designed for athletes whose primary limiter is cardiovascular endurance rather than
-  strength or gymnastics
-goals:
-- general_fitness
-- athletic_performance
+goal: Systematically raise the aerobic ceiling that limits sustained CrossFit performance by prioritizing Zone 2 training, lactate threshold work, and monostructural capacity; designed for athletes whose primary limiter is cardiovascular endurance rather than strength or gymnastics
+goals: [general_fitness, athletic_performance]
 level: intermediate
 duration_weeks: 8
 frequency_per_week: 5
 periodization: aerobic_block
-progression_model: 'Week 1–2: Assessment and base establishment. Zone 2 pace defined
-  as maximum aerobic pace where nasal breathing is maintained or RPE 2–3 of 10. Volume
-  progression: Week 1 total aerobic volume 60 min, Week 2 80 min, Week 3 100 min,
-  Week 4 90 min (recovery), Week 5 120 min, Week 6 140 min, Week 7 120 min, Week 8
-  80 min (taper). Threshold sessions progress from 10 min to 24 min total at threshold
-  pace across the program.
+origin: synthesized
+progression_model: >
+  Week 1–2: Assessment and base establishment. Zone 2 pace defined as maximum aerobic
+  pace where nasal breathing is maintained or RPE 2–3 of 10. Volume progression:
+  Week 1 total aerobic volume 60 min, Week 2 80 min, Week 3 100 min, Week 4 90 min
+  (recovery), Week 5 120 min, Week 6 140 min, Week 7 120 min, Week 8 80 min (taper).
+  Threshold sessions progress from 10 min to 24 min total at threshold pace across
+  the program.
 
-  '
 exercises:
-- ref: rowing_ergometer
-  role: primary
-  technical_notes: 'Primary Zone 2 modality. Damper 4–5; drive rate 18–22 strokes/min
-    for Zone 2. Split pace target: 2:15–2:30/500m for male intermediate athletes at
-    aerobic Zone 2. Threshold rowing: 1:58–2:08/500m for 4...'
-- ref: assault_bike
-  role: primary
-  technical_notes: 'Zone 2 aerobic: 55–65 RPM at conversational effort. Used on alternating
-    days with rowing to reduce seat fatigue. Also used for lactic threshold intervals:
-    20–40 sec max effort, 3–4 min recovery, total...'
-- ref: back_squat
-  role: secondary
-  technical_notes: Strength maintenance to preserve barbell reserve. 3×5 at 75–80%
-    1RM. Does not accumulate during aerobic block; maintained to prevent detraining.
-    Strength is not the priority during this program phase.
-- ref: power_clean
-  role: secondary
-  technical_notes: Technical maintenance. 4×3 at 70–75% 1RM. Keeps Olympic lifting
-    pattern ingrained without adding CNS load that would interfere with aerobic adaptation
-    volume.
-- ref: pullups
-  role: secondary
-  technical_notes: Gymnastics maintenance. 3 sets of 5–10 strict pull-ups at the start
-    of strength days. High-rep kipping is not programmed during this aerobic focus
-    block to avoid CNS fatigue that would compromise aero...
-- ref: conventional_deadlift
-  role: secondary
-  technical_notes: Posterior chain maintenance. 3×5 at 75% 1RM. Structural health
-    maintenance only; does not accumulate volume during aerobic block.
-- ref: double_unders
-  role: secondary
-  technical_notes: 'Skill maintenance 3× per week during warm-up: 2×100 unbroken target.
-    Also used as aerobic Zone 2 tool when performed at continuous sub-maximal pace
-    for 3–5 min.'
-- ref: wall_ball_shots
-  role: secondary
-  technical_notes: 'Aerobic conditioning WODs. Continuous wall balls at aerobic pace
-    for 5–10 min (not sprint pace) train the aerobic contribution of the squat-throw
-    pattern. Target: 15–18 reps/min sustained for 8+ minut...'
+  - ref: rowing_ergometer
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      Primary Zone 2 modality. Damper 4–5; drive rate 18–22 strokes/min for Zone 2.
+      Split pace target: 2:15–2:30/500m for male intermediate athletes at aerobic Zone 2.
+      Threshold rowing: 1:58–2:08/500m for 4–8 min intervals with equal rest.
+
+  - ref: assault_bike
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Zone 2 aerobic: 55–65 RPM at conversational effort. Used on alternating days with
+      rowing to reduce seat fatigue. Also used for lactic threshold intervals: 20–40 sec
+      max effort, 3–4 min recovery, total 5–8 intervals.
+
+  - ref: back_squat
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Strength maintenance to preserve barbell reserve. 3×5 at 75–80% 1RM. Does not
+      accumulate during aerobic block; maintained to prevent detraining. Strength is
+      not the priority during this program phase.
+
+  - ref: power_clean
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Technical maintenance. 4×3 at 70–75% 1RM. Keeps Olympic lifting pattern ingrained
+      without adding CNS load that would interfere with aerobic adaptation volume.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Gymnastics maintenance. 3 sets of 5–10 strict pull-ups at the start of strength
+      days. High-rep kipping is not programmed during this aerobic focus block to avoid
+      CNS fatigue that would compromise aerobic session quality.
+
+  - ref: conventional_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Posterior chain maintenance. 3×5 at 75% 1RM. Structural health maintenance only;
+      does not accumulate volume during aerobic block.
+
+  - ref: double_unders
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Skill maintenance 3× per week during warm-up: 2×100 unbroken target. Also used
+      as aerobic Zone 2 tool when performed at continuous sub-maximal pace for 3–5 min.
+
+  - ref: wall_ball_shots
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Aerobic conditioning WODs. Continuous wall balls at aerobic pace for 5–10 min
+      (not sprint pace) train the aerobic contribution of the squat-throw pattern.
+      Target: 15–18 reps/min sustained for 8+ minutes.
+
 sources:
-- title: 'Zone 2 Training: Benefits and Methods'
-  credibility: practitioner
-- title: Molecular adaptations to aerobic exercise training in skeletal muscle of
-    master athletes
-  credibility: landmark
+  - title: "Zone 2 Training: Benefits and Methods"
+    author: "Iñigo San Millán, PhD"
+    year: 2020
+    publisher: "Stanford Healthcare / Personal Communication"
+    credibility: practitioner
+  - title: "Molecular adaptations to aerobic exercise training in skeletal muscle of master athletes"
+    author: "Holloszy, J.O., Coyle, E.F."
+    year: 1984
+    journal: "Journal of Applied Physiology"
+    volume: 56
+    issue: 4
+    pages: "831-838"
+    doi: "10.1152/jappl.1984.56.4.831"
+    credibility: landmark
 ---
 
 # CrossFit Aerobic Base Builder
@@ -3964,86 +5166,132 @@ Test the following before (Week 1) and after (Week 8) to measure aerobic adaptat
 
 ---
 
+<!-- FILE: programs/crossfit/crossfit_competition_prep.md -->
+
 ---
+
 id: crossfit_competition_prep
 name: CrossFit Competition Preparation
+aliases: [CrossFit advanced, CF competition prep, CrossFit Games prep, competitive CrossFit]
 category: program
 system: crossfit
-goal: Prepare competitive CrossFit athletes for sanctioned competition through high-volume
-  two-a-day programming that develops all energy systems, maximal strength, and advanced
-  gymnastic capacity
-goals:
-- athletic_performance
+goal: Prepare competitive CrossFit athletes for sanctioned competition through high-volume two-a-day programming that develops all energy systems, maximal strength, and advanced gymnastic capacity
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 5
 periodization: block
-progression_model: 'Strength: percentage-based block progression (Accumulation → Intensification
-  → Peaking across 16 weeks). Conditioning: scored and tracked benchmarks; re-tested
-  every 4 weeks. Block 1 (Weeks 1–5): volume accumulation, 3–5 rep strength work at
-  75–85%. Block 2 (Weeks 6–10): intensification, 1–3 rep strength work at 85–95%.
-  Block 3 (Weeks 11–14): peaking; max strength tests. Block 4 (Weeks 15–16): competition
-  taper; reduce volume 50%, maintain intensity.
+origin: synthesized
+progression_model: >
+  Strength: percentage-based block progression (Accumulation → Intensification → Peaking
+  across 16 weeks). Conditioning: scored and tracked benchmarks; re-tested every 4 weeks.
+  Block 1 (Weeks 1–5): volume accumulation, 3–5 rep strength work at 75–85%.
+  Block 2 (Weeks 6–10): intensification, 1–3 rep strength work at 85–95%.
+  Block 3 (Weeks 11–14): peaking; max strength tests.
+  Block 4 (Weeks 15–16): competition taper; reduce volume 50%, maintain intensity.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday AM and Wednesday AM (strength blocks) + Friday volume work.
-    Block 1: 5 × 3–5 @ 80–85%. Block 2: 5 × 2–3 @ 88–93%. Block 3: work to 3RM, 2RM,
-    1RM.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Tuesday AM and Thursday AM. Heavier than all other pulls; programmed
-    away from Olympic lifting days. Block periodization matches squat scheme.
-- ref: snatch
-  role: primary
-  technical_notes: Monday PM, Wednesday AM, Friday AM. Full squat snatch. Technical
-    work at 70–80% for 3–5 singles; heavier singles on Wednesday. Competition standard
-    movement — critical for CrossFit event readiness.
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: Tuesday PM, Thursday AM, Saturday AM. Full clean and split jerk
-    or push jerk. Volume and load mirrors snatch scheme. Clean cycling (multiple singles
-    with short rest) practiced separately as metcon pre...
-- ref: overhead_press
-  role: primary
-  technical_notes: Tuesday AM strict press strength work. Thursday PM push press accessory.
-    Strict press builds absolute overhead strength; push press bridges to jerk.
-- ref: front_squat
-  role: primary
-  technical_notes: Wednesday PM and Friday AM. Higher priority than back squat for
-    sport specificity. Clean receiving strength and jerk dip mechanics are both dependent
-    on front squat capacity.
-- ref: pullups
-  role: primary
-  technical_notes: Daily in conditioning. Strict, kipping, and butterfly variations
-    depending on WOD prescription. Weighted strict pull-ups in dedicated gymnastics
-    sessions (3 × 5–8 weighted, twice per week).
-- ref: ring_dips
-  role: primary
-  technical_notes: 3 sessions/week in gymnastics blocks. Weighted ring dips 3 × 5
-    (strength) + high-rep sets in metcon. Prerequisite skill for ring muscle-up volume.
-- ref: overhead_squat
-  role: secondary
-  technical_notes: Monday AM and Friday PM. 3 × 3–5 at 80% of snatch. Overhead stability
-    and snatch receiving strength. Often programmed as overhead squat EMOMs in conditioning
-    blocks.
-- ref: power_clean
-  role: secondary
-  technical_notes: Used in conditioning workouts for barbell cycling (higher rep,
-    60–70% 1RM). Heavier load than competition cycling but develops the pulling mechanics.
-    3–5 touch-and-go reps in metcon context.
-- ref: pushups
-  role: secondary
-  technical_notes: High-rep pushups in conditioning workouts. Deficit pushups (hands
-    on plates) for additional range of motion. Used in chippers and couplets.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday AM and Wednesday AM (strength blocks) + Friday volume work. Block 1:
+      5 × 3–5 @ 80–85%. Block 2: 5 × 2–3 @ 88–93%. Block 3: work to 3RM, 2RM, 1RM.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday AM and Thursday AM. Heavier than all other pulls; programmed away
+      from Olympic lifting days. Block periodization matches squat scheme.
+
+  - ref: snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday PM, Wednesday AM, Friday AM. Full squat snatch. Technical work at
+      70–80% for 3–5 singles; heavier singles on Wednesday. Competition standard
+      movement — critical for CrossFit event readiness.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Tuesday PM, Thursday AM, Saturday AM. Full clean and split jerk or push jerk.
+      Volume and load mirrors snatch scheme. Clean cycling (multiple singles with
+      short rest) practiced separately as metcon preparation.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday AM strict press strength work. Thursday PM push press accessory.
+      Strict press builds absolute overhead strength; push press bridges to jerk.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Wednesday PM and Friday AM. Higher priority than back squat for sport
+      specificity. Clean receiving strength and jerk dip mechanics are both
+      dependent on front squat capacity.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      Daily in conditioning. Strict, kipping, and butterfly variations depending
+      on WOD prescription. Weighted strict pull-ups in dedicated gymnastics sessions
+      (3 × 5–8 weighted, twice per week).
+
+  - ref: ring_dips
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      3 sessions/week in gymnastics blocks. Weighted ring dips 3 × 5 (strength)
+      + high-rep sets in metcon. Prerequisite skill for ring muscle-up volume.
+
+  - ref: overhead_squat
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday AM and Friday PM. 3 × 3–5 at 80% of snatch. Overhead stability and
+      snatch receiving strength. Often programmed as overhead squat EMOMs in
+      conditioning blocks.
+
+  - ref: power_clean
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Used in conditioning workouts for barbell cycling (higher rep, 60–70% 1RM).
+      Heavier load than competition cycling but develops the pulling mechanics.
+      3–5 touch-and-go reps in metcon context.
+
+  - ref: pushups
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      High-rep pushups in conditioning workouts. Deficit pushups (hands on plates)
+      for additional range of motion. Used in chippers and couplets.
+
 sources:
-- title: 'Characterization of the CrossFit Open: A Quantitative Analysis of Exercise
-    Selection'
-  credibility: cross_sectional
-- title: Physiological and Performance Characteristics of Master Weightlifters
-  credibility: cross_sectional
+  - title: "Characterization of the CrossFit Open: A Quantitative Analysis of Exercise Selection"
+    author: "Tibana, R. A., de Sousa, N. M. F., Prestes, J., Voltarelli, F. A."
+    year: 2018
+    journal: "Journal of Functional Morphology and Kinesiology"
+    volume: 3
+    issue: 4
+    pages: "60"
+    doi: "10.3390/jfmk3040060"
+    credibility: cross_sectional
+  - title: "Physiological and Performance Characteristics of Master Weightlifters"
+    author: "Conroy, B. P., Kraemer, W. J., Maresh, C. M., et al."
+    year: 1993
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 7
+    issue: 3
+    pages: "150-156"
+    credibility: cross_sectional
 ---
 
 # CrossFit Competition Preparation
@@ -4102,54 +5350,77 @@ Weeks 15–16: 50% volume reduction. Keep all intensity cues (same loads, same g
 
 ---
 
+<!-- FILE: programs/crossfit/crossfit_foundations.md -->
+
 ---
+
 id: crossfit_foundations
 name: CrossFit Foundations
+aliases: [CrossFit GPP, CF Foundations]
 category: program
 system: crossfit
-goal: Build broad general physical preparedness (GPP) by combining constantly varied
-  functional movements performed at high intensity across ten physical domains
-goals:
-- general_fitness
+goal: Build broad general physical preparedness (GPP) by combining constantly varied functional movements performed at high intensity across ten physical domains
+goals: [general_fitness]
 level: beginner
 duration_weeks: 8
 frequency_per_week: 5
 periodization: undulating
-progression_model: 'Intensity (load, speed, or difficulty) auto-scales daily to athlete
-  capacity. Skill progressions use tiered standards: Rx (prescribed), Scaled, Beginner.
-  Load progression on strength elements follows linear or wave loading week-over-week.
-  Cardiorespiratory workouts progress via time or rounds. No fixed percentage scheme;
-  performance on each benchmark WOD tracks fitness across cycles.
+origin: synthesized
+progression_model: >
+  Intensity (load, speed, or difficulty) auto-scales daily to athlete capacity. Skill
+  progressions use tiered standards: Rx (prescribed), Scaled, Beginner. Load progression
+  on strength elements follows linear or wave loading week-over-week. Cardiorespiratory
+  workouts progress via time or rounds. No fixed percentage scheme; performance on each
+  benchmark WOD tracks fitness across cycles.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Strength component 2x/week: 5x5 linear load or 3-3-3-3-3 wave.
-    Foundation movement for all squatting in WODs (thrusters, wall balls, overhead
-    squats).'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Strict press strength work 1x/week: 5x5 or 3RM build. Carries
-    into push-press and push-jerk technique progressions.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Deadlift strength 1x/week: 5x5 or 1RM progression. Foundation
-    for kettlebell swings, cleans, and all hip hinge WOD movements.'
-- ref: pullups
-  role: primary
-  technical_notes: Kipping pull-up skill development (band-assisted to jumping to
-    kipping to strict); appears in landmark WODs (Cindy, Barbara, Murph). Strict pull-up
-    standards required at Rx level.
-- ref: front_squat
-  role: secondary
-  technical_notes: Clean-receiving position practice; thruster base movement. Programmed
-    as skill or accessory 1x/week.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Strength component 2x/week: 5x5 linear load or 3-3-3-3-3 wave. Foundation movement
+      for all squatting in WODs (thrusters, wall balls, overhead squats).
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Strict press strength work 1x/week: 5x5 or 3RM build. Carries into push-press and
+      push-jerk technique progressions.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Deadlift strength 1x/week: 5x5 or 1RM progression. Foundation for kettlebell
+      swings, cleans, and all hip hinge WOD movements.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Kipping pull-up skill development (band-assisted to jumping to kipping to strict);
+      appears in landmark WODs (Cindy, Barbara, Murph). Strict pull-up standards required
+      at Rx level.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Clean-receiving position practice; thruster base movement. Programmed as skill
+      or accessory 1x/week.
+
 sources:
-- title: CrossFit Level 1 Training Guide
-  credibility: practitioner
-- title: Understanding CrossFit
-  credibility: practitioner
+  - title: "CrossFit Level 1 Training Guide"
+    author: "CrossFit, Inc."
+    publisher: "CrossFit, Inc."
+    year: 2019
+    credibility: practitioner
+  - title: "Understanding CrossFit"
+    author: "Glassman, G."
+    publisher: "CrossFit Journal"
+    year: 2007
+    credibility: practitioner
 ---
 
 # CrossFit Foundations
@@ -4208,76 +5479,111 @@ WOD programming intentionally rotates emphasis across all ten. No single domain 
 
 ---
 
+<!-- FILE: programs/crossfit/crossfit_intermediate.md -->
+
 ---
+
 id: crossfit_intermediate
 name: CrossFit Intermediate Strength & Conditioning
+aliases: [CrossFit intermediate, CF strength conditioning, structured CrossFit]
 category: program
 system: crossfit
-goal: Develop strength across squat, press, and pull patterns while building metabolic
-  conditioning capacity through structured weekly periodization of strength and metcon
-  work
-goals:
-- athletic_performance
-- general_fitness
+goal: Develop strength across squat, press, and pull patterns while building metabolic conditioning capacity through structured weekly periodization of strength and metcon work
+goals: [athletic_performance, general_fitness]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: linear
-progression_model: 'Strength work uses linear progression: add 2.5 kg (upper body)
-  or 5 kg (lower body) per week when sets are completed as prescribed. Conditioning
-  benchmark workouts (AMRAPs, chippers, couplets) are tracked for score or time; aim
-  for improvement on the same benchmark re-test every 4 weeks. Deload every 4th week:
-  reduce strength work to 60% volume; conditioning at easy aerobic pace only.
+origin: synthesized
+progression_model: >
+  Strength work uses linear progression: add 2.5 kg (upper body) or 5 kg (lower body)
+  per week when sets are completed as prescribed. Conditioning benchmark workouts
+  (AMRAPs, chippers, couplets) are tracked for score or time; aim for improvement on
+  the same benchmark re-test every 4 weeks. Deload every 4th week: reduce strength work
+  to 60% volume; conditioning at easy aerobic pace only.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday: 5 × 3 @ 80% 1RM (strength focus). Thursday: 3 × 8–10 @
-    65% (volume, conditioning complement). Primary lower-body strength movement.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Wednesday: 5 × 3 @ 80% 1RM. Primary posterior chain strength.
-    Heavy deadlift on its own day to allow recovery. Not programmed same day as Olympic
-    lifting.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday: 5 × 3 @ 80% 1RM strict press. Friday: push press or jerk
-    variation for conditioning integration. Primary vertical push strength movement.'
-- ref: pullups
-  role: primary
-  technical_notes: 'Monday, Wednesday, Friday: included in strength or metcon. Strict
-    pull-ups for strength work (weighted when able); kipping is permitted in conditioning
-    workouts when strict capacity is established. Vo...'
-- ref: power_clean
-  role: primary
-  technical_notes: 'Tuesday: 5 × 3 technique work @ 70–75% 1RM. Friday: light barbell
-    cycling in conditioning context (higher reps, lower load). Primary Olympic lift
-    for CrossFit — develops pulling power and metcon capac...'
-- ref: ring_dips
-  role: secondary
-  technical_notes: 'Monday and Thursday: 3 × max reps or 3 × 5–8 weighted. Gymnastics
-    pressing strength; develops shoulder stability for ring muscle-up progression.'
-- ref: pushups
-  role: secondary
-  technical_notes: 'Used in conditioning workouts on Tuesday and Friday. High-rep
-    bodyweight pressing endurance. Strict form: full lockout, chest to floor.'
-- ref: front_squat
-  role: secondary
-  technical_notes: 'Thursday: 4 × 4 @ 75%. Develops clean receiving strength and overhead
-    receiving position for the jerk. Also a sport-specific movement for CrossFit competition
-    programming.'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Wednesday: 3 × 8–10 as accessory following conventional deadlift.
-    Posterior chain volume and hamstring development. Lower intensity than the main
-    deadlift.'
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday: 5 × 3 @ 80% 1RM (strength focus). Thursday: 3 × 8–10 @ 65% (volume,
+      conditioning complement). Primary lower-body strength movement.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 5 × 3 @ 80% 1RM. Primary posterior chain strength. Heavy deadlift
+      on its own day to allow recovery. Not programmed same day as Olympic lifting.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday: 5 × 3 @ 80% 1RM strict press. Friday: push press or jerk variation
+      for conditioning integration. Primary vertical push strength movement.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday, Wednesday, Friday: included in strength or metcon. Strict pull-ups
+      for strength work (weighted when able); kipping is permitted in conditioning
+      workouts when strict capacity is established. Volume varies by day.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday: 5 × 3 technique work @ 70–75% 1RM. Friday: light barbell cycling
+      in conditioning context (higher reps, lower load). Primary Olympic lift for
+      CrossFit — develops pulling power and metcon capacity simultaneously.
+
+  - ref: ring_dips
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday: 3 × max reps or 3 × 5–8 weighted. Gymnastics pressing
+      strength; develops shoulder stability for ring muscle-up progression.
+
+  - ref: pushups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Used in conditioning workouts on Tuesday and Friday. High-rep bodyweight
+      pressing endurance. Strict form: full lockout, chest to floor.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 4 × 4 @ 75%. Develops clean receiving strength and overhead
+      receiving position for the jerk. Also a sport-specific movement for CrossFit
+      competition programming.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3 × 8–10 as accessory following conventional deadlift. Posterior
+      chain volume and hamstring development. Lower intensity than the main deadlift.
+
 sources:
-- title: CrossFit Level 1 Training Guide
-  credibility: practitioner
-- title: Physiological Adaptations to High-Intensity Interval Training and Continuous
-    Steady-State Training in Recreational Runners
-  credibility: rct
+  - title: "CrossFit Level 1 Training Guide"
+    author: "CrossFit Inc."
+    year: 2019
+    publisher: "CrossFit Inc."
+    credibility: practitioner
+  - title: "Physiological Adaptations to High-Intensity Interval Training and Continuous Steady-State Training in Recreational Runners"
+    author: "Milanović, Z., Sporiš, G., Weston, M."
+    year: 2015
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 29
+    issue: 10
+    pages: "2885-2893"
+    doi: "10.1519/JSC.0000000000000967"
+    credibility: rct
 ---
 
 # CrossFit Intermediate Strength & Conditioning
@@ -4338,89 +5644,135 @@ Gymnastics capacity grows from strict to kipping to butterfly on pull-ups, and f
 
 ---
 
+<!-- FILE: programs/crossfit/crossfit_open_prep.md -->
+
 ---
+
 id: crossfit_open_prep
 name: CrossFit Open Prep Cycle
+aliases: [Open prep, CrossFit Open preparation, CF Open cycle, 8-week Open prep]
 category: program
 system: crossfit
-goal: Peak performance for the CrossFit Open by systematically building sport-specific
-  fatigue tolerance, Open-format WOD execution, and competition-day readiness across
-  an 8-week pre-Open cycle
-goals:
-- athletic_performance
+goal: Peak performance for the CrossFit Open by systematically building sport-specific fatigue tolerance, Open-format WOD execution, and competition-day readiness across an 8-week pre-Open cycle
+goals: [athletic_performance]
 level: intermediate
 duration_weeks: 8
 frequency_per_week: 5
 periodization: peaking
-progression_model: 'Weeks 1–3: Intensification — train at 90–100% of target Open WOD
-  pace; introduce Open-format WODs (20-min AMRAPs, 7–15 min chipper combos, lactic
-  sprint pairs). Weeks 4–5: Peak — maximal sport-specific intensity; re-test known
-  benchmarks at target pace; one practice Open announcement simulation. Weeks 6–7:
-  Taper — volume drops 40%; intensity maintained; no new stimuli. Week 8: Competition
-  week — two short sessions Monday and Tuesday, then rest until the Open begins Friday.
+origin: synthesized
+progression_model: >
+  Weeks 1–3: Intensification — train at 90–100% of target Open WOD pace; introduce
+  Open-format WODs (20-min AMRAPs, 7–15 min chipper combos, lactic sprint pairs).
+  Weeks 4–5: Peak — maximal sport-specific intensity; re-test known benchmarks at
+  target pace; one practice Open announcement simulation. Weeks 6–7: Taper — volume
+  drops 40%; intensity maintained; no new stimuli. Week 8: Competition week — two
+  short sessions Monday and Tuesday, then rest until the Open begins Friday.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: Strength maintenance during Open prep. Monday/Thursday 3×3 at 87–92%
-    1RM. Goal is to preserve strength reserve without adding accumulated fatigue;
-    heavy single doubles maintain neural recruitment whil...
-- ref: power_clean
-  role: primary
-  technical_notes: Barbell cycling efficiency is the primary Open skill driver. Monday/Wednesday/Friday.
-    Touch-and-go cycling sets at 65–75% 1RM for efficiency; heavy singles at 85–90%
-    for strength maintenance. Open WOD...
-- ref: overhead_press
-  role: secondary
-  technical_notes: Tuesday. Push press or strict press maintenance. 3×5 at 80% 1RM.
-    Supports overhead barbell work (thrusters, shoulder-to-overhead) in Open WODs
-    without adding excessive shoulder fatigue during the tape...
-- ref: pullups
-  role: primary
-  technical_notes: Daily Open-prep skill priority. Butterfly pull-ups are the primary
-    modality for advanced athletes; chest-to-bar pull-up cycling for C2B Open standards.
-    Sets of 10–15 unbroken at the start of each sess...
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: 'Open-specific skill: kipping HSPU efficiency at high volume. Monday/Wednesday/Friday.
-    Practice 3–5 sets of max unbroken kipping HSPU in early weeks; transition to paced
-    sets at 70% of max unbroken in ...'
-- ref: toes_to_bar
-  role: primary
-  technical_notes: 'High-priority Open skill. Kipping toes-to-bar unbroken sets (15–20
-    reps target). Practice pacing: sets of 10 on 30-sec rest rather than max effort
-    to simulate Open WOD pacing. TTB appears in approxima...'
-- ref: double_unders
-  role: primary
-  technical_notes: 'Open fundamental skill. Daily warm-up: 3×50 unbroken. Integrated
-    into Open-format metcons 3× per week. Target: zero tripping in a 150-rep set.
-    Speed and consistency are both required in Open programmi...'
-- ref: rowing_ergometer
-  role: secondary
-  technical_notes: Aerobic base maintenance during taper. 15–20 min Zone 2 (easy aerobic)
-    in Weeks 6–7. Sprint rowing in WODs Weeks 1–5. Open WODs historically include
-    250–1000m rowing intervals; familiarity with all di...
-- ref: wall_ball_shots
-  role: secondary
-  technical_notes: 'Open staple movement. Practice paced unbroken sets: 50 unbroken
-    at controlled tempo, then sets of 15–25 with minimal rest. Wall balls appear in
-    nearly every Open and define the aerobic-lactic threshol...'
-- ref: thrusters
-  role: primary
-  technical_notes: 'Open-critical combination movement (squat + press). Barbell thruster
-    technique and conditioning: Fran-weight cycling (43/29 kg) for efficiency; heavier
-    thrusters (52/35 kg) for Open "heavy thruster" s...'
-- ref: box_jumps
-  role: secondary
-  technical_notes: Open metcon component. Box jump step-down technique for knee longevity
-    in volume reps; box jump-overs as separate skill if programmed in Open. Standard
-    heights 24/20 in.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Strength maintenance during Open prep. Monday/Thursday 3×3 at 87–92% 1RM.
+      Goal is to preserve strength reserve without adding accumulated fatigue;
+      heavy single doubles maintain neural recruitment while respecting taper recovery.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Barbell cycling efficiency is the primary Open skill driver. Monday/Wednesday/Friday.
+      Touch-and-go cycling sets at 65–75% 1RM for efficiency; heavy singles at 85–90%
+      for strength maintenance. Open WODs often use power clean as the primary barbell
+      movement.
+
+  - ref: overhead_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Tuesday. Push press or strict press maintenance. 3×5 at 80% 1RM. Supports
+      overhead barbell work (thrusters, shoulder-to-overhead) in Open WODs without
+      adding excessive shoulder fatigue during the taper phase.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      Daily Open-prep skill priority. Butterfly pull-ups are the primary modality for
+      advanced athletes; chest-to-bar pull-up cycling for C2B Open standards. Sets of
+      10–15 unbroken at the start of each session. Capacity target: 30+ unbroken
+      butterfly pull-ups for advanced Open athletes.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Open-specific skill: kipping HSPU efficiency at high volume. Monday/Wednesday/Friday.
+      Practice 3–5 sets of max unbroken kipping HSPU in early weeks; transition to
+      paced sets at 70% of max unbroken in Weeks 5–7 to practice sustainable Open pace.
+
+  - ref: toes_to_bar
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      High-priority Open skill. Kipping toes-to-bar unbroken sets (15–20 reps target).
+      Practice pacing: sets of 10 on 30-sec rest rather than max effort to simulate
+      Open WOD pacing. TTB appears in approximately 60% of recent Open workouts.
+
+  - ref: double_unders
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      Open fundamental skill. Daily warm-up: 3×50 unbroken. Integrated into Open-format
+      metcons 3× per week. Target: zero tripping in a 150-rep set. Speed and consistency
+      are both required in Open programming.
+
+  - ref: rowing_ergometer
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Aerobic base maintenance during taper. 15–20 min Zone 2 (easy aerobic) in Weeks 6–7.
+      Sprint rowing in WODs Weeks 1–5. Open WODs historically include 250–1000m rowing
+      intervals; familiarity with all distances is required.
+
+  - ref: wall_ball_shots
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Open staple movement. Practice paced unbroken sets: 50 unbroken at controlled tempo,
+      then sets of 15–25 with minimal rest. Wall balls appear in nearly every Open and
+      define the aerobic-lactic threshold of most Class A athletes.
+
+  - ref: thrusters
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Open-critical combination movement (squat + press). Barbell thruster technique and
+      conditioning: Fran-weight cycling (43/29 kg) for efficiency; heavier thrusters
+      (52/35 kg) for Open "heavy thruster" standards. Touch-and-go cycling mechanics.
+
+  - ref: box_jumps
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Open metcon component. Box jump step-down technique for knee longevity in volume
+      reps; box jump-overs as separate skill if programmed in Open. Standard heights 24/20 in.
+
 sources:
-- title: CrossFit Open Programming Analysis 2011–2024
-  credibility: practitioner
-- title: 'Effects of Tapering on Performance: A Meta-analysis'
-  credibility: meta_analysis
+  - title: "CrossFit Open Programming Analysis 2011–2024"
+    author: "CrossFit LLC"
+    year: 2024
+    publisher: "CrossFit LLC"
+    credibility: practitioner
+  - title: "Effects of Tapering on Performance: A Meta-analysis"
+    author: "Bosquet, L., Montpetit, J., Arvisais, D., Mujika, I."
+    year: 2007
+    journal: "Medicine & Science in Sports & Exercise"
+    volume: 39
+    issue: 8
+    pages: "1358-1365"
+    doi: "10.1249/mss.0b013e31806010e0"
+    credibility: meta_analysis
 ---
 
 # CrossFit Open Prep Cycle
@@ -4489,97 +5841,143 @@ Based on analysis of Open workouts from 2011–2024, the following movements app
 
 ---
 
+<!-- FILE: programs/crossfit/hwpo_training.md -->
+
 ---
+
 id: hwpo_training
 name: HWPO (Hard Work Pays Off)
+aliases: [HWPO, Mat Fraser training, HWPO training program]
 category: program
 system: crossfit
-goal: Build elite-level CrossFit capacity by training twice daily with dedicated AM
-  aerobic / gymnastics sessions and PM strength + metcon sessions; optimized for athletes
-  aiming at Open top 10% and sanctional competition
-goals:
-- athletic_performance
+goal: Build elite-level CrossFit capacity by training twice daily with dedicated AM aerobic / gymnastics sessions and PM strength + metcon sessions; optimized for athletes aiming at Open top 10% and sanctional competition
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 10
 periodization: concurrent_block
-progression_model: 'Strength work follows wave loading: 4 weeks of accumulation (5×5
-  at 70–80%), 4 weeks of intensification (5×3 at 80–90%), 2 weeks of realization (3×1–2
-  at 90–97%). Benchmark WODs are re-tested every 4 weeks; score or time improvement
-  drives progression. Energy system work is periodized by block: weeks 1–4 aerobic
-  base priority, weeks 5–8 threshold and lactic capacity, weeks 9–12 Open-style peak
-  intensity.
+origin: classic
+progression_model: >
+  Strength work follows wave loading: 4 weeks of accumulation (5×5 at 70–80%), 4 weeks
+  of intensification (5×3 at 80–90%), 2 weeks of realization (3×1–2 at 90–97%). Benchmark
+  WODs are re-tested every 4 weeks; score or time improvement drives progression. Energy
+  system work is periodized by block: weeks 1–4 aerobic base priority, weeks 5–8 threshold
+  and lactic capacity, weeks 9–12 Open-style peak intensity.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'PM strength session Monday/Wednesday/Friday. Block 1: 5×5 at 70–80%
-    1RM. Block 2: 5×3 at 80–90%. Block 3: work up to heavy double or single. Primary
-    lower-body strength driver; strength reserve direct...'
-- ref: power_clean
-  role: primary
-  technical_notes: AM Olympic lifting technical session Monday/Wednesday/Friday. Technique
-    emphasis at 75–85% 1RM, 3–5 singles. Touch-and-go cycling at 50–60% 1RM in conditioning
-    context. HWPO prioritizes barbell cyclin...
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: PM Olympic lifting Tuesday/Thursday. Heavy singles or doubles at
-    85–92% 1RM on the strength day. Competition-style full squat receiving preferred
-    over power receiving for absolute load development.
-- ref: snatch
-  role: primary
-  technical_notes: AM technical session Tuesday/Thursday. Power snatch at moderate
-    loads (70–80% 1RM) for cycling efficiency; full squat snatch at heavier loads
-    for strength development. Reinforces the AM CNS-fresh skil...
-- ref: overhead_press
-  role: secondary
-  technical_notes: PM pressing component Monday/Thursday. Strict press 4×5 for shoulder
-    strength reserve. Supports kipping HSPU cycling capacity and push jerk overhead
-    position.
-- ref: pullups
-  role: primary
-  technical_notes: 'AM gymnastics session daily. Strict pull-up volume for structural
-    strength; kipping and butterfly pull-up cycling in conditioning context. Volume
-    varies: strict 3×5 weighted AM, unbroken sets in PM me...'
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: AM gymnastics Monday/Wednesday/Friday. Strict HSPU volume sets
-    for pressing strength. Kipping HSPU in PM metcons; deficit HSPU for advanced athletes
-    (4 cm plates).
-- ref: ring_dips
-  role: secondary
-  technical_notes: AM gymnastics Tuesday/Thursday. Strict ring dips for shoulder stability
-    and pressing endurance. Supination at top; full depression at bottom.
-- ref: toes_to_bar
-  role: secondary
-  technical_notes: Included in AM core and gymnastics sessions and PM metcons. Kipping
-    toes-to-bar for high-rep efficiency; strict leg raises for structural anterior
-    core strength.
-- ref: double_unders
-  role: secondary
-  technical_notes: 'Integrated into AM warm-up and conditioning sessions. 2–3 minutes
-    of unbroken double-unders as warm-up tool and metcon component. Efficiency target:
-    100+ unbroken.'
-- ref: conventional_deadlift
-  role: secondary
-  technical_notes: PM strength Tuesday/Thursday. 4×3–5 at 80–87% 1RM. Posterior chain
-    strength for heavy deadlift metcon WODs (Diane-style).
-- ref: rowing_ergometer
-  role: primary
-  technical_notes: AM monostructural aerobic work. Zone 2 steady-state (60–70% max
-    HR) 20–40 minutes Monday/Tuesday/Thursday. Interval rowing (2K repeats, 500m repeats)
-    Wednesday/Friday. The aerobic engine is the founda...
-- ref: wall_ball_shots
-  role: secondary
-  technical_notes: PM metcon component. 20 lb / 9 kg target at 10 ft. Standard conditioning
-    element in HWPO metcons; combines squat mechanics with vertical throw power.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      PM strength session Monday/Wednesday/Friday. Block 1: 5×5 at 70–80% 1RM. Block 2:
+      5×3 at 80–90%. Block 3: work up to heavy double or single. Primary lower-body
+      strength driver; strength reserve directly reduces metabolic cost of thrusters,
+      wall balls, and overhead squats in metcons.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM Olympic lifting technical session Monday/Wednesday/Friday. Technique emphasis at
+      75–85% 1RM, 3–5 singles. Touch-and-go cycling at 50–60% 1RM in conditioning context.
+      HWPO prioritizes barbell cycling efficiency for metcon application.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      PM Olympic lifting Tuesday/Thursday. Heavy singles or doubles at 85–92% 1RM on the
+      strength day. Competition-style full squat receiving preferred over power receiving
+      for absolute load development.
+
+  - ref: snatch
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      AM technical session Tuesday/Thursday. Power snatch at moderate loads (70–80% 1RM)
+      for cycling efficiency; full squat snatch at heavier loads for strength development.
+      Reinforces the AM CNS-fresh skill-acquisition principle.
+
+  - ref: overhead_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      PM pressing component Monday/Thursday. Strict press 4×5 for shoulder strength reserve.
+      Supports kipping HSPU cycling capacity and push jerk overhead position.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      AM gymnastics session daily. Strict pull-up volume for structural strength; kipping
+      and butterfly pull-up cycling in conditioning context. Volume varies: strict 3×5
+      weighted AM, unbroken sets in PM metcons. High frequency is the HWPO signature.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM gymnastics Monday/Wednesday/Friday. Strict HSPU volume sets for pressing strength.
+      Kipping HSPU in PM metcons; deficit HSPU for advanced athletes (4 cm plates).
+
+  - ref: ring_dips
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      AM gymnastics Tuesday/Thursday. Strict ring dips for shoulder stability and pressing
+      endurance. Supination at top; full depression at bottom.
+
+  - ref: toes_to_bar
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Included in AM core and gymnastics sessions and PM metcons. Kipping toes-to-bar for
+      high-rep efficiency; strict leg raises for structural anterior core strength.
+
+  - ref: double_unders
+    role: secondary
+    frequency_per_week: 5
+    technical_notes: >
+      Integrated into AM warm-up and conditioning sessions. 2–3 minutes of unbroken
+      double-unders as warm-up tool and metcon component. Efficiency target: 100+ unbroken.
+
+  - ref: conventional_deadlift
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      PM strength Tuesday/Thursday. 4×3–5 at 80–87% 1RM. Posterior chain strength for
+      heavy deadlift metcon WODs (Diane-style).
+
+  - ref: rowing_ergometer
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      AM monostructural aerobic work. Zone 2 steady-state (60–70% max HR) 20–40 minutes
+      Monday/Tuesday/Thursday. Interval rowing (2K repeats, 500m repeats) Wednesday/Friday.
+      The aerobic engine is the foundation that supports all lactic capacity.
+
+  - ref: wall_ball_shots
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      PM metcon component. 20 lb / 9 kg target at 10 ft. Standard conditioning element in
+      HWPO metcons; combines squat mechanics with vertical throw power.
+
 sources:
-- title: HWPO Training Program
-  credibility: practitioner
-- title: 'Interference between concurrent resistance and endurance exercise: molecular
-    bases and the role of individual training variables'
-  credibility: review
+  - title: "HWPO Training Program"
+    author: "Fraser, M."
+    year: 2021
+    publisher: "HWPO Training LLC"
+    credibility: practitioner
+  - title: "Interference between concurrent resistance and endurance exercise: molecular bases and the role of individual training variables"
+    author: "Fyfe, J. J., Bishop, D. J., Stepto, N. K."
+    year: 2014
+    journal: "Sports Medicine"
+    volume: 44
+    issue: 6
+    pages: "743-762"
+    doi: "10.1007/s40279-014-0162-1"
+    credibility: review
 ---
 
 # HWPO (Hard Work Pays Off)
@@ -4655,92 +6053,140 @@ For time: 1K Row → 50 Double-Unders → 30 Pull-ups → 20 Power Cleans (70/47
 
 ---
 
+<!-- FILE: programs/crossfit/invictus_athlete.md -->
+
 ---
+
 id: invictus_athlete
 name: Invictus Athlete
+aliases: [Invictus, CF Invictus, CJ Martin program, Invictus competitor]
 category: program
 system: crossfit
-goal: Develop sport-specific CrossFit competition fitness through systematic energy
-  system development, precise weakness targeting, and periodized technical skill acquisition;
-  designed for athletes preparing for the Open and sanctional qualifying events
-goals:
-- athletic_performance
+goal: Develop sport-specific CrossFit competition fitness through systematic energy system development, precise weakness targeting, and periodized technical skill acquisition; designed for athletes preparing for the Open and sanctional qualifying events
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 8
 periodization: block_concurrent
-progression_model: '16-week periodization in four 4-week blocks: Block 1 (Aerobic
-  Base), Block 2 (Strength Accumulation), Block 3 (Sport-Specific Intensification),
-  Block 4 (Competition Peak). Each block shifts the energy system emphasis. Strength
-  follows an undulating weekly model within each block. Athletes test benchmark WODs
-  at the start and end of each block to quantify adaptation.
+origin: classic
+progression_model: >
+  16-week periodization in four 4-week blocks: Block 1 (Aerobic Base), Block 2 (Strength
+  Accumulation), Block 3 (Sport-Specific Intensification), Block 4 (Competition Peak).
+  Each block shifts the energy system emphasis. Strength follows an undulating weekly
+  model within each block. Athletes test benchmark WODs at the start and end of each block
+  to quantify adaptation.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'PM strength sessions Monday/Wednesday/Friday. Block-dependent
-    loading: Block 1 5×5 at 65–75%, Block 2 5×4 at 75–85%, Block 3 5×3 at 82–90%,
-    Block 4 3×2 at 88–95%. Invictus systematically builds squat ...'
-- ref: snatch
-  role: primary
-  technical_notes: 'AM Olympic lifting Tuesday/Thursday/Saturday. Block 1–2: technique
-    focus at 70–80%, cycling at 55–65%. Block 3–4: heavy singles at 85–95%, cycling
-    at 65–75%. Full squat snatch preferred for absolute l...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'AM Olympic lifting Monday/Wednesday/Friday. Block-dependent: technique
-    sets at 75–85%, cycling sets at 55–65%. Invictus uses the clean & jerk as both
-    a strength indicator and conditioning tool; athlet...'
-- ref: conventional_deadlift
-  role: secondary
-  technical_notes: PM strength Tuesday/Thursday. Trap-bar or conventional. Posterior
-    chain loading separate from Olympic pull mechanics; 4×3–5 at 80–88% 1RM. Supports
-    heavy deadlift-based WODs and structural back streng...
-- ref: overhead_press
-  role: secondary
-  technical_notes: PM strength Monday/Thursday. Strict press 4×5 at 70–80% 1RM. Shoulder
-    strength reserve for kipping HSPU cycling and overhead barbell stability.
-- ref: muscle_up
-  role: primary
-  technical_notes: AM gymnastics Tuesday/Thursday/Saturday. Bar or ring muscle-up;
-    technique and volume sets. Unbroken sets practice for competition context. Invictus
-    defines unbroken muscle-up capacity as a non-negotia...
-- ref: handstand_push_ups
-  role: primary
-  technical_notes: AM gymnastics Monday/Wednesday/Friday. Strict HSPU volume (3–5
-    sets of max reps with 2 in reserve); kipping HSPU for conditioning. Deficit HSPU
-    (5 cm plates) for advanced athletes once strict volume e...
-- ref: pullups
-  role: primary
-  technical_notes: AM gymnastics daily. Strict weighted pull-ups for strength (3×3–5
-    with +10–20 kg); butterfly pull-up cycling for metcon efficiency; chest-to-bar
-    as Open-specific skill. Volume varies by session; alway...
-- ref: rowing_ergometer
-  role: primary
-  technical_notes: 'AM monostructural Block 1 priority: 30–45 min Zone 2 (HR 130–145
-    bpm) Monday through Friday. Block 2–3: shifts to interval work (4×500m at 92%,
-    3×1000m at 88%). Block 4: taper — 15–20 min aerobic only...'
-- ref: assault_bike
-  role: secondary
-  technical_notes: 'AM conditioning Block 2–3. High-intensity bike intervals for lactic
-    capacity: 10×30 sec max / 90 sec rest (alactic); 5×2 min hard / 3 min easy (lactic
-    threshold). Block 1: easy aerobic only.'
-- ref: double_unders
-  role: secondary
-  technical_notes: 'Warm-up and metcon component. Daily in AM warm-up (2 min continuous
-    target). Metcon integration 3× per week. Speed focus: sub-2:00 per 100 reps.'
-- ref: toes_to_bar
-  role: secondary
-  technical_notes: 'AM gymnastics or PM metcon. Kipping for unbroken cycling; strict
-    leg raise for structural core strength. Target: 20+ unbroken kipping TTB for advanced
-    competition.'
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      PM strength sessions Monday/Wednesday/Friday. Block-dependent loading: Block 1
+      5×5 at 65–75%, Block 2 5×4 at 75–85%, Block 3 5×3 at 82–90%, Block 4
+      3×2 at 88–95%. Invictus systematically builds squat strength as the primary
+      driver of lower-body reserve for metcon economy.
+
+  - ref: snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM Olympic lifting Tuesday/Thursday/Saturday. Block 1–2: technique focus at 70–80%,
+      cycling at 55–65%. Block 3–4: heavy singles at 85–95%, cycling at 65–75%. Full squat
+      snatch preferred for absolute load; power snatch for cycling.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM Olympic lifting Monday/Wednesday/Friday. Block-dependent: technique sets at 75–85%,
+      cycling sets at 55–65%. Invictus uses the clean & jerk as both a strength indicator
+      and conditioning tool; athletes are expected to do touch-and-go sets at 70%+ 1RM.
+
+  - ref: conventional_deadlift
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      PM strength Tuesday/Thursday. Trap-bar or conventional. Posterior chain loading
+      separate from Olympic pull mechanics; 4×3–5 at 80–88% 1RM. Supports heavy
+      deadlift-based WODs and structural back strength for Olympic positions.
+
+  - ref: overhead_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      PM strength Monday/Thursday. Strict press 4×5 at 70–80% 1RM. Shoulder strength
+      reserve for kipping HSPU cycling and overhead barbell stability.
+
+  - ref: muscle_up
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM gymnastics Tuesday/Thursday/Saturday. Bar or ring muscle-up; technique and
+      volume sets. Unbroken sets practice for competition context. Invictus defines
+      unbroken muscle-up capacity as a non-negotiable advanced skill marker.
+
+  - ref: handstand_push_ups
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      AM gymnastics Monday/Wednesday/Friday. Strict HSPU volume (3–5 sets of max reps
+      with 2 in reserve); kipping HSPU for conditioning. Deficit HSPU (5 cm plates)
+      for advanced athletes once strict volume exceeds 15 consecutive reps.
+
+  - ref: pullups
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      AM gymnastics daily. Strict weighted pull-ups for strength (3×3–5 with +10–20 kg);
+      butterfly pull-up cycling for metcon efficiency; chest-to-bar as Open-specific skill.
+      Volume varies by session; always programmed before metcon fatigue.
+
+  - ref: rowing_ergometer
+    role: primary
+    frequency_per_week: 5
+    technical_notes: >
+      AM monostructural Block 1 priority: 30–45 min Zone 2 (HR 130–145 bpm) Monday
+      through Friday. Block 2–3: shifts to interval work (4×500m at 92%, 3×1000m at 88%).
+      Block 4: taper — 15–20 min aerobic only. Invictus views aerobic rowing capacity
+      as the most undertrained component in CrossFit athletes.
+
+  - ref: assault_bike
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      AM conditioning Block 2–3. High-intensity bike intervals for lactic capacity:
+      10×30 sec max / 90 sec rest (alactic); 5×2 min hard / 3 min easy (lactic
+      threshold). Block 1: easy aerobic only.
+
+  - ref: double_unders
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      Warm-up and metcon component. Daily in AM warm-up (2 min continuous target).
+      Metcon integration 3× per week. Speed focus: sub-2:00 per 100 reps.
+
+  - ref: toes_to_bar
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      AM gymnastics or PM metcon. Kipping for unbroken cycling; strict leg raise for
+      structural core strength. Target: 20+ unbroken kipping TTB for advanced competition.
+
 sources:
-- title: Invictus Athlete Programming
-  credibility: practitioner
-- title: 'Adaptations to aerobic interval training: interactive effects of exercise
-    intensity and total work duration'
-  credibility: review
+  - title: "Invictus Athlete Programming"
+    author: "Martin, C.J."
+    year: 2013
+    publisher: "CrossFit Invictus"
+    credibility: practitioner
+  - title: "Adaptations to aerobic interval training: interactive effects of exercise intensity and total work duration"
+    author: "Laursen, P.B., Jenkins, D.G."
+    year: 2002
+    journal: "Sports Medicine"
+    volume: 32
+    issue: 1
+    pages: "53-73"
+    doi: "10.2165/00007256-200232010-00004"
+    credibility: review
 ---
 
 # Invictus Athlete
@@ -4809,49 +6255,68 @@ CJ Martin's Invictus Athlete program is built on a 16-week periodized block stru
 
 ---
 
+<!-- FILE: programs/olympic/bulgarian_method.md -->
+
 ---
+
 id: bulgarian_method
 name: Bulgarian Method
+aliases: [Bulgarian weightlifting, Abadjiev method, daily maximum method]
 category: program
 system: olympic
-goal: Maximize competition lift performance through extreme specificity and frequency,
-  training only the competition lifts and front squat to daily maxima multiple times
-  per day
-goals:
-- power
+goal: Maximize competition lift performance through extreme specificity and frequency, training only the competition lifts and front squat to daily maxima multiple times per day
+goals: [power]
 level: advanced
 frequency_per_week: 6
-progression_model: 'Daily maximum autoregulation — no percentages. Every session,
-  work up to the heaviest weight achievable with technically clean execution, without
-  forced aggression, stimulants, or psychological arousal. This "daily max" is not
-  a PR attempt: it is the honest ceiling of the day''s capacity. After the daily max,
-  reduce 10–15% and repeat working singles. The system has no fixed duration — it
-  is an ongoing framework. Frequency starts at 1 session/day and ramps over months
-  to 2 sessions/day as work capacity is established; never force the second session
-  before consistent adaptation appears.
+origin: classic
+progression_model: >
+  Daily maximum autoregulation — no percentages. Every session, work up to the heaviest
+  weight achievable with technically clean execution, without forced aggression, stimulants,
+  or psychological arousal. This "daily max" is not a PR attempt: it is the honest
+  ceiling of the day's capacity. After the daily max, reduce 10–15% and repeat working
+  singles. The system has no fixed duration — it is an ongoing framework. Frequency
+  starts at 1 session/day and ramps over months to 2 sessions/day as work capacity
+  is established; never force the second session before consistent adaptation appears.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: 'Every training day (once or twice depending on phase). Work up
-    to daily max: the heaviest technically clean single available, without grinding
-    or positional compromise. After the daily max, reduce 10–...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: Every training day, typically in a separate session from the snatch
-    in the full double-session protocol. Same daily max autoregulation. The jerk must
-    be completed as a single unit; a jerk miss ends th...
-- ref: front_squat
-  role: primary
-  technical_notes: Every training day, typically as a finisher in the PM session.
-    Same daily max protocol as the competition lifts. The front squat is the only
-    supplementary movement permitted in the classic Bulgarian s...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Every training day (once or twice depending on phase). Work up to daily max:
+      the heaviest technically clean single available, without grinding or positional
+      compromise. After the daily max, reduce 10–15% and continue with working singles.
+      A lower daily max than yesterday is information, not failure — the autoregulatory
+      system is working. Never attempt a weight that requires any technical compromise.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Every training day, typically in a separate session from the snatch in the full
+      double-session protocol. Same daily max autoregulation. The jerk must be completed
+      as a single unit; a jerk miss ends the C&J daily max for that session. On
+      double-session days: snatch in the AM session, C&J in the PM session.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Every training day, typically as a finisher in the PM session. Same daily max
+      protocol as the competition lifts. The front squat is the only supplementary
+      movement permitted in the classic Bulgarian system — all other accessory work
+      is excluded as non-specific. Front squat 1RM must remain at ≥ 120% of clean
+      1RM; if the ratio drops, prioritize front squat maxima until the gap is restored.
+
 sources:
-- title: Ivan Abadjiev and the Bulgarian System
-  credibility: practitioner
-- title: Everything You Should Know About the Bulgarian Method
-  credibility: practitioner
+  - title: "Ivan Abadjiev and the Bulgarian System"
+    author: "Abadjiev, I."
+    year: 2013
+    credibility: practitioner
+  - title: "Everything You Should Know About the Bulgarian Method"
+    author: "Muscle & Fitness"
+    year: 2018
+    credibility: practitioner
 ---
 
 # Bulgarian Method
@@ -4926,81 +6391,123 @@ A daily max that is lower than yesterday is valid data. Chronic suppression of d
 
 ---
 
+<!-- FILE: programs/olympic/cal_strength_daily.md -->
+
 ---
+
 id: cal_strength_daily
 name: California Strength Daily Training Program
+aliases: [Cal Strength, California Strength daily, cal strength OWL]
 category: program
 system: olympic
-goal: Build elite competition lift performance through daily undulating periodization
-  that alternates heavy classic lift sessions with technical recovery days, supported
-  by structured accessory complexes targeting upper-back balance and posterior chain
-  integrity
-goals:
-- power
+goal: Build elite competition lift performance through daily undulating periodization that alternates heavy classic lift sessions with technical recovery days, supported by structured accessory complexes targeting upper-back balance and posterior chain integrity
+goals: [power]
 level: advanced
 frequency_per_week: 6
 periodization: undulating
-progression_model: 'Daily undulating periodization with a continuous annual macrocycle.
-  Heavy sessions (MWF) work up to a daily 1RM ("Red Zone" maximum), defined as the
-  heaviest technically sound lift available that day without emotional arousal. After
-  the daily max, complete structured percentage back-off doubles at 85–90% of the
-  day''s achieved maximum; these back-offs are mandatory. Technical sessions (Tu/Th)
-  use power variations and block work at 70–80% of the corresponding lift 1RM. Saturday
-  ("Squaturday") works up to a 5RM back squat then completes 2 drop sets at 10% below
-  the achieved 5RM.
+origin: classic
+progression_model: >
+  Daily undulating periodization with a continuous annual macrocycle. Heavy sessions
+  (MWF) work up to a daily 1RM ("Red Zone" maximum), defined as the heaviest technically
+  sound lift available that day without emotional arousal. After the daily max, complete
+  structured percentage back-off doubles at 85–90% of the day's achieved maximum; these
+  back-offs are mandatory. Technical sessions (Tu/Th) use power variations and block work
+  at 70–80% of the corresponding lift 1RM. Saturday ("Squaturday") works up to a 5RM
+  back squat then completes 2 drop sets at 10% below the achieved 5RM.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: Heavy sessions (Mon, Wed, Fri). Work to daily 1RM ("Red Zone")
-    — the heaviest technically clean single available without arousal manipulation.
-    Immediately follow with 2–3 back-off doubles at 85–90% of...
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'Heavy sessions (Mon, Wed, Fri), after snatch. Same daily max +
-    back-off protocol. On technical sessions (Tue, Thu), train as complexes: clean
-    + front squat + jerk from rack, or hang clean variations f...'
-- ref: back_squat
-  role: primary
-  technical_notes: Saturday ("Squaturday") only. Work to a 5RM back squat — the heaviest
-    5 reps achievable with good position. Complete 2 drop sets at 10% below the achieved
-    5RM. Cal Strength's "Squaturday" builds the r...
-- ref: front_squat
-  role: primary
-  technical_notes: Follows clean work on Mon, Wed, Fri. 3 × 3 at 85–90% of front squat
-    1RM on heavy days. Front squat must track at 120–130% of clean 1RM as a long-term
-    target. Cal Strength's system treats the front squ...
-- ref: snatch_pull
-  role: secondary
-  technical_notes: Mon and Wed heavy sessions, after the primary lift. 4 × 3 at 100–110%
-    snatch 1RM (Accumulation) or 110–120% (Intensification). Cal Strength's loading
-    is more aggressive than the USAW standard; the rat...
-- ref: clean_pull
-  role: secondary
-  technical_notes: Mon and Fri heavy sessions. 4 × 3 at 100–110% clean 1RM, progressing
-    to 115–120% during intensification phases. Focus on maximizing bar contact through
-    the mid-thigh transition and complete triple ext...
-- ref: push_press
-  role: secondary
-  technical_notes: 'Technical sessions (Tue, Thu) and Saturday. Part of Complex A:
-    superset with bent-over rows. 4 × 5 at moderate load. Develops upper girdle structural
-    balance and jerk overhead strength. Cal Strength''s...'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: Part of Complex A on technical sessions (Tue, Thu) and Saturday.
-    Supersetted with push press. 4 × 5 at moderate load. Develops mid-trapezius and
-    rhomboid retraction strength that protects the shoulder...
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: Part of Complex B on technical sessions (Tue, Thu). Supersetted
-    with hyperextensions. 3 × 6–8 at moderate load. Cal Strength's Complex B targets
-    the posterior chain (hamstrings, glutes, lower back) to...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Heavy sessions (Mon, Wed, Fri). Work to daily 1RM ("Red Zone") — the heaviest
+      technically clean single available without arousal manipulation. Immediately
+      follow with 2–3 back-off doubles at 85–90% of the day's max. Bar path and
+      receiving position must be competition-standard at all working loads;
+      any positional compromise at the daily max means reducing load.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Heavy sessions (Mon, Wed, Fri), after snatch. Same daily max + back-off protocol.
+      On technical sessions (Tue, Thu), train as complexes: clean + front squat + jerk
+      from rack, or hang clean variations from blocks. Pause 3–5 seconds in the rack
+      position before jerking in all technical session sets.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Saturday ("Squaturday") only. Work to a 5RM back squat — the heaviest 5 reps
+      achievable with good position. Complete 2 drop sets at 10% below the achieved
+      5RM. Cal Strength's "Squaturday" builds the raw leg and hip strength base that
+      supports heavy front squat ratios; 5-rep maxima are preferred over singles to
+      accumulate greater volume stimulus.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Follows clean work on Mon, Wed, Fri. 3 × 3 at 85–90% of front squat 1RM on heavy
+      days. Front squat must track at 120–130% of clean 1RM as a long-term target.
+      Cal Strength's system treats the front squat as a direct performance lever — when
+      the front squat stalls, the clean stalls.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Mon and Wed heavy sessions, after the primary lift. 4 × 3 at 100–110% snatch 1RM
+      (Accumulation) or 110–120% (Intensification). Cal Strength's loading is more
+      aggressive than the USAW standard; the rationale is that supramaximal pulls
+      overload the posterior chain and bar-body contact mechanics.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Mon and Fri heavy sessions. 4 × 3 at 100–110% clean 1RM, progressing to 115–120%
+      during intensification phases. Focus on maximizing bar contact through the
+      mid-thigh transition and complete triple extension before elbow rise.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Technical sessions (Tue, Thu) and Saturday. Part of Complex A: superset with
+      bent-over rows. 4 × 5 at moderate load. Develops upper girdle structural balance
+      and jerk overhead strength. Cal Strength's Complex A targets the shoulder-to-hip
+      balance that prevents rotator cuff impingements under heavy jerk loads.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Part of Complex A on technical sessions (Tue, Thu) and Saturday. Supersetted with
+      push press. 4 × 5 at moderate load. Develops mid-trapezius and rhomboid retraction
+      strength that protects the shoulder girdle and maintains an upright torso under
+      heavy pulls. Strict form: no hip drive, controlled tempo.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Part of Complex B on technical sessions (Tue, Thu). Supersetted with hyperextensions.
+      3 × 6–8 at moderate load. Cal Strength's Complex B targets the posterior chain
+      (hamstrings, glutes, lower back) to develop pulling power off the floor and
+      prevent the anterior-posterior imbalances that develop in high-frequency
+      Olympic lifting systems.
+
 sources:
-- title: California Strength Maxes Workout
-  credibility: practitioner
-- title: Training Programs — California Strength
-  credibility: practitioner
+  - title: "California Strength Maxes Workout"
+    author: "Nadler, R."
+    year: 2014
+    credibility: practitioner
+  - title: "Training Programs — California Strength"
+    author: "Spitz, D."
+    year: 2015
+    credibility: practitioner
 ---
 
 # California Strength Daily Training Program
@@ -5070,87 +6577,122 @@ These complexes address the anterior-posterior muscle imbalances and rotator cuf
 
 ---
 
+<!-- FILE: programs/olympic/catalyst_12_week.md -->
+
 ---
+
 id: catalyst_12_week
 name: Catalyst Athletics 12-Week Traditional Cycle
+aliases: [Catalyst 12-Week, Everett Traditional Cycle]
 category: program
 system: olympic
-goal: Build neuromuscular strength and technical proficiency in the snatch and clean-and-jerk
-  through three progressive 4-week mesocycles
-goals:
-- power
+goal: Build neuromuscular strength and technical proficiency in the snatch and clean-and-jerk through three progressive 4-week mesocycles
+goals: [power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: block
-progression_model: 'Linear step-loading: intensity increases ~2.5-5% per week within
-  each mesocycle. Three mesocycles: Wks 1-4 accumulation (high volume, 60-75%), Wks
-  5-8 transmutation (moderate volume, heavier loads), Wks 9-12 realization (low volume,
-  85%+ peaking). Autoregulation rule: complete a set with good technique → add load
-  on next set. Three-miss rule: miss a weight three times → terminate attempts at
-  that load. PR rule: hit a new personal record → recalculate all session percentages
-  from the new max.
+origin: classic
+progression_model: >
+  Linear step-loading: intensity increases ~2.5-5% per week within each mesocycle.
+  Three mesocycles: Wks 1-4 accumulation (high volume, 60-75%), Wks 5-8 transmutation
+  (moderate volume, heavier loads), Wks 9-12 realization (low volume, 85%+ peaking).
+  Autoregulation rule: complete a set with good technique → add load on next set.
+  Three-miss rule: miss a weight three times → terminate attempts at that load.
+  PR rule: hit a new personal record → recalculate all session percentages from the new max.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: Mon (1×3+4×3 at 60/65/70%) and Sat (ascending singles to 80%+ in
-    W1). Classic full competition lift; notation e.g. 1×3+4×3 means one triple at
-    first load then four triples at second load.
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: Thu (complex sets at 60/65/70%) and Sat (ascending to 80%+). Notation
-    (3+1) = three consecutive cleans from floor followed immediately by one split
-    jerk without re-racking.
-- ref: snatch_pull
-  role: supplemental
-  technical_notes: Mon and Sat at 90% of snatch 1RM; 4×3. Reinforces erector isometric
-    strength and stay-over-bar mechanics during the first pull.
-- ref: clean_pull
-  role: supplemental
-  technical_notes: Thu 4×3 at 90% of clean 1RM. Same positional purpose as snatch
-    pull.
-- ref: back_squat
-  role: supplemental
-  technical_notes: Mon 5×6 at 70%; Sat 5×3 at 75%. Primary structural strength base
-    for catch and recovery phases.
-- ref: front_squat
-  role: supplemental
-  technical_notes: Thu 5×4 at 70%. Builds thoracic extension and quad strength to
-    prevent forward collapse when catching a heavy clean.
-- ref: power_snatch
-  role: supplemental
-  technical_notes: Tue 5×3 at 70%. Bar caught above parallel; develops rate of force
-    development.
-- ref: power_clean
-  role: supplemental
-  technical_notes: Fri 5×3 at 70%. Bar caught above parallel; builds explosive hip
-    extension.
-- ref: power_jerk
-  role: supplemental
-  technical_notes: Fri 5×3 at 60% of split jerk 1RM. Develops overhead stability without
-    split footwork.
-- ref: push_press
-  role: supplemental
-  technical_notes: Fri 5×5 at 70% and in Tue complex (snatch_push_press + overhead_squat,
-    5+1). Builds jerk lockout strength.
-- ref: overhead_squat
-  role: supplemental
-  technical_notes: 'Tue in complex with push press, notation (5+1): five push presses
-    then one OHS. Develops shoulder stability and active scapular elevation for snatch
-    catch.'
-- ref: good_morning
-  role: supplemental
-  technical_notes: Sat 3×5 by feel. Posterior chain auxiliary; reinforces hip hinge
-    mechanics.
-- ref: stiff_legged_barbell_deadlift
-  role: supplemental
-  technical_notes: Mon 3×5 by feel (abbreviated SLDL in Everett notation). Hamstring
-    and erector auxiliary.
+  - ref: snatch
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Mon (1×3+4×3 at 60/65/70%) and Sat (ascending singles to 80%+ in W1). Classic
+      full competition lift; notation e.g. 1×3+4×3 means one triple at first load
+      then four triples at second load.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Thu (complex sets at 60/65/70%) and Sat (ascending to 80%+). Notation (3+1) = three
+      consecutive cleans from floor followed immediately by one split jerk without re-racking.
+
+  - ref: snatch_pull
+    role: supplemental
+    frequency_per_week: 2
+    technical_notes: >
+      Mon and Sat at 90% of snatch 1RM; 4×3. Reinforces erector isometric strength
+      and stay-over-bar mechanics during the first pull.
+
+  - ref: clean_pull
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Thu 4×3 at 90% of clean 1RM. Same positional purpose as snatch pull.
+
+  - ref: back_squat
+    role: supplemental
+    frequency_per_week: 2
+    technical_notes: >
+      Mon 5×6 at 70%; Sat 5×3 at 75%. Primary structural strength base for
+      catch and recovery phases.
+
+  - ref: front_squat
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Thu 5×4 at 70%. Builds thoracic extension and quad strength to prevent
+      forward collapse when catching a heavy clean.
+
+  - ref: power_snatch
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Tue 5×3 at 70%. Bar caught above parallel; develops rate of force development.
+
+  - ref: power_clean
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Fri 5×3 at 70%. Bar caught above parallel; builds explosive hip extension.
+
+  - ref: power_jerk
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Fri 5×3 at 60% of split jerk 1RM. Develops overhead stability without split footwork.
+
+  - ref: push_press
+    role: supplemental
+    frequency_per_week: 2
+    technical_notes: >
+      Fri 5×5 at 70% and in Tue complex (snatch_push_press + overhead_squat, 5+1).
+      Builds jerk lockout strength.
+
+  - ref: overhead_squat
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Tue in complex with push press, notation (5+1): five push presses then one OHS.
+      Develops shoulder stability and active scapular elevation for snatch catch.
+
+  - ref: good_morning
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Sat 3×5 by feel. Posterior chain auxiliary; reinforces hip hinge mechanics.
+
+  - ref: stiff_legged_barbell_deadlift
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Mon 3×5 by feel (abbreviated SLDL in Everett notation). Hamstring and erector auxiliary.
+
 sources:
-- title: Catalyst Athletics 12-Week Traditional Cycle
-  credibility: practitioner
+  - title: "Catalyst Athletics 12-Week Traditional Cycle"
+    author: "Everett, G."
+    publisher: "Catalyst Athletics"
+    credibility: practitioner
 ---
 
 # Catalyst Athletics 12-Week Traditional Cycle
@@ -5214,77 +6756,118 @@ Intensity increases ~5% on primary lifts. Pulling volume increases. Saturday ext
 
 ---
 
+<!-- FILE: programs/olympic/glenn_pendlay_programs.md -->
+
 ---
+
 id: glenn_pendlay_programs
 name: Glenn Pendlay Weightlifting System
+aliases: [Pendlay weightlifting, Pendlay OWL program]
 category: program
 system: olympic
-goal: Develop competition lift performance through weekly undulating periodization
-  that alternates high-volume technical accumulation, active recovery, and intensity
-  expression — while building the absolute strength base needed to support heavier
-  competition lifts
-goals:
-- power
-- strength
+goal: Develop competition lift performance through weekly undulating periodization that alternates high-volume technical accumulation, active recovery, and intensity expression — while building the absolute strength base needed to support heavier competition lifts
+goals: [power, strength]
 level: intermediate
 frequency_per_week: 4
 periodization: undulating
-progression_model: 'Weekly undulating periodization (Texas Method structure). Each
-  week contains three distinct training stresses: Volume Day (high sets-and-reps to
-  drive adaptation), Recovery Day (light technical work to allow fatigue clearance),
-  and Intensity Day (heavy singles to express accumulated strength). For squats and
-  strength lifts, use strict sets of 5 as the primary loading protocol; add weight
-  each week when all reps are completed with ≥ 2 RIR. For the competition lifts on
-  Intensity Day, work up to a heavy single; reset to 80–85% if a PR is missed. Deload
-  every 4–6 weeks by reducing volume day load to 70%.
+origin: classic
+progression_model: >
+  Weekly undulating periodization (Texas Method structure). Each week contains three
+  distinct training stresses: Volume Day (high sets-and-reps to drive adaptation),
+  Recovery Day (light technical work to allow fatigue clearance), and Intensity Day
+  (heavy singles to express accumulated strength). For squats and strength lifts, use
+  strict sets of 5 as the primary loading protocol; add weight each week when all reps
+  are completed with ≥ 2 RIR. For the competition lifts on Intensity Day, work up to a
+  heavy single; reset to 80–85% if a PR is missed. Deload every 4–6 weeks by reducing
+  volume day load to 70%.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: 'Volume Day (Mon): 5 × 3 at 72–78% — technical volume, not grinding.
-    Recovery Day (Wed): 4 × 2 at 65–70% — light, high-quality positional work. Intensity
-    Day (Fri): build to heavy single; 2–3 back-off ...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'Volume Day (Mon): 4 × 2 at 72–78% C&J 1RM. Intensity Day (Fri):
-    build to heavy single after snatch; 2 back-off singles at 85%. Clean and jerk
-    are practiced as a complex — do not split into separate cl...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Volume Day (Mon): 5 × 5 at 75–80% back squat 1RM — the cornerstone
-    of Pendlay''s strength-base philosophy. Intensity Day (Fri): 1 × 5 heavy (85–90%).
-    Pendlay believed leg strength must remain far ahead...'
-- ref: front_squat
-  role: primary
-  technical_notes: 'Recovery Day (Wed): 4 × 3 at 70–75% front squat 1RM — positional
-    work and clean receiving strength. Intensity Day (Fri): 3 × 3 at 80–85%. Front
-    squat ratio to clean must remain at 120–130%; if the rat...'
-- ref: snatch_pull
-  role: secondary
-  technical_notes: 'Volume Day (Mon): 4 × 3 at 100–105% snatch 1RM. Recovery Day (Wed):
-    3 × 3 at 90–95% as lighter technical reinforcement. Pendlay placed high value
-    on developing the isometric strength of the spinal ere...'
-- ref: clean_pull
-  role: secondary
-  technical_notes: 'Volume Day (Mon): 4 × 3 at 100–105% clean 1RM. Intensity Day (Fri):
-    3 × 3 at 105–110% as a heavier overload set after the competition lift session.
-    Pendlay''s clean pull emphasizes maintaining bar cont...'
-- ref: push_press
-  role: secondary
-  technical_notes: Recovery Day (Wed) and Intensity Day (Fri). 4 × 4–5 at moderate
-    load. Develops overhead pressing capacity and jerk dip-drive coordination. Pendlay's
-    system uses the push press to build the overhead st...
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: Volume Day (Mon) and Recovery Day (Wed). 4 × 5 at moderate load.
-    Pendlay's famous strict bent-over row — start with bar on the floor for each rep,
-    dead-stop to eliminate momentum. Develops isometric e...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Volume Day (Mon): 5 × 3 at 72–78% — technical volume, not grinding. Recovery Day
+      (Wed): 4 × 2 at 65–70% — light, high-quality positional work. Intensity Day (Fri):
+      build to heavy single; 2–3 back-off doubles at 85% of day's best.
+      Bar path must be consistent across all sets — Pendlay emphasized that a pull that
+      changes between warm-up and working sets is training competing motor patterns.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Volume Day (Mon): 4 × 2 at 72–78% C&J 1RM. Intensity Day (Fri): build to heavy
+      single after snatch; 2 back-off singles at 85%. Clean and jerk are practiced as
+      a complex — do not split into separate clean and jerk sessions at this level.
+      Pendlay's system keeps C&J frequency lower than snatch to allow full recovery
+      between heavy sessions.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Volume Day (Mon): 5 × 5 at 75–80% back squat 1RM — the cornerstone of Pendlay's
+      strength-base philosophy. Intensity Day (Fri): 1 × 5 heavy (85–90%). Pendlay
+      believed leg strength must remain far ahead of what the competition lifts demand;
+      a lifter whose squat stops progressing will eventually plateau in the clean.
+      Strict 5s: no grinding, no spotters.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Recovery Day (Wed): 4 × 3 at 70–75% front squat 1RM — positional work and
+      clean receiving strength. Intensity Day (Fri): 3 × 3 at 80–85%. Front squat
+      ratio to clean must remain at 120–130%; if the ratio drops, prioritize front
+      squat until the gap is restored.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Volume Day (Mon): 4 × 3 at 100–105% snatch 1RM. Recovery Day (Wed): 3 × 3
+      at 90–95% as lighter technical reinforcement. Pendlay placed high value on
+      developing the isometric strength of the spinal erectors and the retraction
+      capacity of the mid-trapezius through heavy pull volume.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Volume Day (Mon): 4 × 3 at 100–105% clean 1RM. Intensity Day (Fri): 3 × 3
+      at 105–110% as a heavier overload set after the competition lift session.
+      Pendlay's clean pull emphasizes maintaining bar contact through the mid-thigh
+      transition and achieving full triple extension before elbows rise.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Recovery Day (Wed) and Intensity Day (Fri). 4 × 4–5 at moderate load. Develops
+      overhead pressing capacity and jerk dip-drive coordination. Pendlay's system
+      uses the push press to build the overhead structural strength that protects
+      the shoulder girdle under heavy jerk loads.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Volume Day (Mon) and Recovery Day (Wed). 4 × 5 at moderate load. Pendlay's
+      famous strict bent-over row — start with bar on the floor for each rep, dead-stop
+      to eliminate momentum. Develops isometric erector spinae and rhomboid retraction
+      strength. This structural work is Pendlay's key insurance against spinal shear
+      injuries in intermediate lifters. Bar must return to the floor between reps.
+
 sources:
-- title: American Weightlifting
-  credibility: practitioner
-- title: Glenn Pendlay Weightlifting System — teammdusa
-  credibility: practitioner
+  - title: "American Weightlifting"
+    author: "Pendlay, G."
+    year: 2021
+    publisher: "On Target Publications"
+    credibility: practitioner
+  - title: "Glenn Pendlay Weightlifting System — teammdusa"
+    author: "Pendlay, G."
+    year: 2015
+    credibility: practitioner
 ---
 
 # Glenn Pendlay Weightlifting System
@@ -5362,71 +6945,111 @@ Thursday and the weekend are rest.
 
 ---
 
+<!-- FILE: programs/olympic/klokov_protocol.md -->
+
 ---
+
 id: klokov_protocol
 name: Dmitry Klokov Seminar Protocol
+aliases: [Klokov program, Klokov weightlifting, Russian strength-dominant OWL]
 category: program
 system: olympic
-goal: Develop extreme upper-back and shoulder girdle structural strength alongside
-  competition lift proficiency, using strength-dominant accessory complexes and autoregulated
-  paused squat variations as the primary structural foundation
-goals:
-- power
-- strength
+goal: Develop extreme upper-back and shoulder girdle structural strength alongside competition lift proficiency, using strength-dominant accessory complexes and autoregulated paused squat variations as the primary structural foundation
+goals: [power, strength]
 level: advanced
 frequency_per_week: 6
 periodization: undulating
-progression_model: 'Autoregulated strength-volume. Work up to a heavy, high-effort
-  lift on days when systemic recovery is optimal; pivot to slow eccentrics, deep pauses,
-  and high-volume accessory work when fatigue is elevated. No fixed percentages —
-  the training stimulus is determined by daily readiness assessment. The session begins
-  with competition lifts as autoregulated singles; when the day''s ceiling is reached,
-  shift to accessory complexes. Paused squat variations use the heaviest load permitting
-  a 3-second hold at the bottom without positional breakdown. The system has no fixed
-  duration — it is an ongoing framework.
+origin: classic
+progression_model: >
+  Autoregulated strength-volume. Work up to a heavy, high-effort lift on days when
+  systemic recovery is optimal; pivot to slow eccentrics, deep pauses, and high-volume
+  accessory work when fatigue is elevated. No fixed percentages — the training stimulus
+  is determined by daily readiness assessment. The session begins with competition lifts
+  as autoregulated singles; when the day's ceiling is reached, shift to accessory complexes.
+  Paused squat variations use the heaviest load permitting a 3-second hold at the bottom
+  without positional breakdown. The system has no fixed duration — it is an ongoing framework.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: 'Every training day. Klokov uses snatch-focused complexes rather
-    than simple singles: e.g., muscle snatch + snatch from high hang + snatch from
-    floor, performed as a continuous sequence. The muscle sna...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: Every training day, typically in a separate session from snatch
-    or later in the same session. On recovery days, clean to front squat (without
-    jerk) to accumulate positional work without the additional...
-- ref: back_squat
-  role: primary
-  technical_notes: 'Three sessions per week. Klokov''s signature approach: paused
-    back squat combined with paused front squat in a continuous set — e.g., 3 paused
-    back squats (3-second pause at bottom) immediately followe...'
-- ref: front_squat
-  role: primary
-  technical_notes: Four sessions per week — both as a paired set with back squat (see
-    back_squat notes) and as standalone front squat singles at the end of heavy sessions.
-    Standalone front squat sets use a 3-second paus...
-- ref: push_press_behind_the_neck
-  role: secondary
-  technical_notes: The "Klokov Press" — wide snatch grip, strict press from behind
-    the neck in the snatch receiving width. 4 × 5 at moderate load. This is Klokov's
-    primary tool for developing the dense upper-back and sh...
-- ref: overhead_squat
-  role: secondary
-  technical_notes: Typically supersetted with or immediately following the Klokov
-    Press. Used both as a positional strength builder and as the base for "Sots Press"
-    work (overhead squat with a strict press at the bottom...
-- ref: barbell_shrug
-  role: secondary
-  technical_notes: The "Trapi" — heavy barbell shrug with straps, standing. 4 × 8–10
-    at near-maximum shrug load. Klokov places extraordinary emphasis on developing
-    the upper trapezius and levator scapulae as structural ...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Every training day. Klokov uses snatch-focused complexes rather than simple singles:
+      e.g., muscle snatch + snatch from high hang + snatch from floor, performed as a
+      continuous sequence. The muscle snatch component develops lat engagement and bar
+      contact through the transition. Autoregulate the complex load based on daily feel;
+      on high-fatigue days, drop to hang snatch singles from the knee only.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Every training day, typically in a separate session from snatch or later in the same
+      session. On recovery days, clean to front squat (without jerk) to accumulate
+      positional work without the additional CNS cost of the jerk. The jerk is practiced
+      from the rack on lower-energy days to isolate jerk mechanics from clean fatigue.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Three sessions per week. Klokov's signature approach: paused back squat combined
+      with paused front squat in a continuous set — e.g., 3 paused back squats (3-second
+      pause at bottom) immediately followed by 3 paused front squats without re-racking.
+      This concentric-heavy paused approach builds active receiving strength and eliminates
+      the stretch reflex, forcing the muscle to generate force from a true dead-stop.
+      Load at the heaviest weight permitting full positional integrity during the pause.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      Four sessions per week — both as a paired set with back squat (see back_squat notes)
+      and as standalone front squat singles at the end of heavy sessions. Standalone front
+      squat sets use a 3-second pause at the bottom position. Front squat 1RM must remain
+      at ≥ 120% of clean 1RM; if the ratio drops, prioritize standalone front squat
+      sessions until the gap is restored.
+
+  - ref: push_press_behind_the_neck
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      The "Klokov Press" — wide snatch grip, strict press from behind the neck in the
+      snatch receiving width. 4 × 5 at moderate load. This is Klokov's primary tool
+      for developing the dense upper-back and shoulder girdle structural base that
+      supports snatch receiving stability. Wide grip position demands active thoracic
+      extension and shoulder external rotation — any collapse of thoracic kyphosis
+      means reducing load. Requires excellent shoulder mobility as a prerequisite.
+
+  - ref: overhead_squat
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      Typically supersetted with or immediately following the Klokov Press. Used both as
+      a positional strength builder and as the base for "Sots Press" work (overhead squat
+      with a strict press at the bottom). 3 × 4 at 60–70% of snatch 1RM. Sots Press —
+      pressing from the full squat overhead position — develops the positional strength
+      of the snatch receiving position beyond what is possible with standard overhead squats.
+
+  - ref: barbell_shrug
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      The "Trapi" — heavy barbell shrug with straps, standing. 4 × 8–10 at near-maximum
+      shrug load. Klokov places extraordinary emphasis on developing the upper trapezius
+      and levator scapulae as structural anchors that maintain an upright torso under
+      heavy pulls and receiving positions. Straps are used to eliminate grip as a limiting
+      factor; the goal is maximal trap contraction, not grip training.
+
 sources:
-- title: Dmitry Klokov National Seminar Curriculum and Training Records
-  credibility: practitioner
-- title: Klokov beginner schedule
-  credibility: anecdotal
+  - title: "Dmitry Klokov National Seminar Curriculum and Training Records"
+    author: "Klokov, D."
+    year: 2016
+    credibility: practitioner
+  - title: "Klokov beginner schedule"
+    author: "r/weightlifting community documentation"
+    year: 2020
+    credibility: anecdotal
 ---
 
 # Dmitry Klokov Seminar Protocol
@@ -5488,86 +7111,139 @@ Do not attempt the Klokov Press without confirming these prerequisites. The move
 
 ---
 
+<!-- FILE: programs/olympic/lsus_10_5_3.md -->
+
 ---
+
 id: lsus_10_5_3
 name: LSU Shreveport 10-5-3 Program
+aliases: [LSUS 10-5-3, LSU Shreveport program, Pierce weightlifting, Stone Pierce OWL]
 category: program
 system: olympic
-goal: Build maximal absolute strength as the primary performance ceiling, systematically
-  transitioning from hypertrophy (10s) through strength (5s) to absolute strength
-  (3s) before peaking for competition
-goals:
-- power
+goal: Build maximal absolute strength as the primary performance ceiling, systematically transitioning from hypertrophy (10s) through strength (5s) to absolute strength (3s) before peaking for competition
+goals: [power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5
 periodization: linear
-progression_model: 'Classic linear periodization divided into three 3-week repetition-maximum
-  blocks, each followed by a drop in rep target. Week 1–3: work to a daily 10RM (true
-  repetition maximum), followed by 2 back-off sets at 10% and 5% below achieved RM.
-  Week 4–6: same protocol but 5RM. Week 7–9: 3RM. Week 10–11: taper (reduce volume
-  to 60–70%, maintain intensity). Week 12: test week — attempt new 1RM on snatch and
-  clean & jerk on separate days. The competition lifts (snatch and C&J) do not follow
-  the high-rep scheme of the strength lifts; their rep targets step down independently
-  to preserve velocity.
+origin: classic
+progression_model: >
+  Classic linear periodization divided into three 3-week repetition-maximum blocks, each
+  followed by a drop in rep target. Week 1–3: work to a daily 10RM (true repetition
+  maximum), followed by 2 back-off sets at 10% and 5% below achieved RM. Week 4–6: same
+  protocol but 5RM. Week 7–9: 3RM. Week 10–11: taper (reduce volume to 60–70%, maintain
+  intensity). Week 12: test week — attempt new 1RM on snatch and clean & jerk on separate
+  days. The competition lifts (snatch and C&J) do not follow the high-rep scheme of
+  the strength lifts; their rep targets step down independently to preserve velocity.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: 'Saturday only — full snatch from the floor as the weekly competition
-    lift session. During the 10s block: 5 × 3 (preserving bar velocity). During the
-    5s block: 4 × 2. During the 3s block: 3 × 1 (heavy ...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'Saturday, after snatch. Same block-specific rep scheme as snatch:
-    5 × 2 during 10s block, 4 × 2 during 5s block, 3 × 1 during 3s block. On Saturday
-    the clean and jerk are trained as the full complex —...'
-- ref: back_squat
-  role: primary
-  technical_notes: Push Days (Mon and Wed). Work to the block's RM target (10RM →
-    5RM → 3RM), followed by 2 back-off sets at 10% and 5% below the achieved RM. The
-    LSUS system treats the back squat as the primary strengt...
-- ref: front_squat
-  role: secondary
-  technical_notes: Thursday (Pull Day). 3 × 3 at 80–85% of front squat 1RM. Lower
-    volume than back squat because the Saturday C&J session provides additional front
-    squat stimulus. Front squat ratio to clean 1RM should b...
-- ref: snatch_pull
-  role: secondary
-  technical_notes: Pull Days (Tue and Thu). 4 × 3 at 100–105% snatch 1RM during the
-    10s block; progress to 105–115% during the 3s block as absolute strength increases.
-    The LSUS system's pull loading is heavier than typi...
-- ref: clean_pull
-  role: secondary
-  technical_notes: Pull Days (Tue and Thu). 4 × 3 at 100–110% clean 1RM, progressing
-    to 110–120% by the 3s block. Focus on bar contact through the mid-thigh transition
-    and complete triple extension. LSUS emphasizes that...
-- ref: push_press
-  role: secondary
-  technical_notes: Push Days (Mon and Wed). 4 × 5 at moderate load (follows back squat).
-    Develops overhead structural strength and jerk dip-drive coordination. The LSUS
-    system includes the push press as the primary jerk...
-- ref: bench_press
-  role: secondary
-  technical_notes: Push Days (Mon and Wed), after push press. 3 × 8–10 (10s block)
-    → 3 × 5 (5s block) → 3 × 3 (3s block). LSUS includes bench press as a structural
-    exercise to develop anterior chest and tricep pressing ...
-- ref: barbell_lunge
-  role: secondary
-  technical_notes: Push Day (Wednesday only). 3 × 8 each leg. Develops unilateral
-    lower-body strength and hip flexor/hip extensor balance that supports the split
-    jerk receiving position. Load at moderate weight — the pu...
-- ref: pullups
-  role: secondary
-  technical_notes: Pull Days (Tue and Thu). 3–4 × max reps (bodyweight or weighted).
-    Develops lat strength and scapular retraction capacity that reinforces the bar-body
-    contact mechanics of both the snatch and clean. Th...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Saturday only — full snatch from the floor as the weekly competition lift session.
+      During the 10s block: 5 × 3 (preserving bar velocity). During the 5s block: 4 × 2.
+      During the 3s block: 3 × 1 (heavy singles, near competition intensity). The
+      competition lifts deliberately use lower rep ranges even during hypertrophy blocks
+      because high-velocity movements degrade technically and neurologically above 3 reps
+      per set. Bar path and receiving position must match competition standard on every rep.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Saturday, after snatch. Same block-specific rep scheme as snatch: 5 × 2 during 10s
+      block, 4 × 2 during 5s block, 3 × 1 during 3s block. On Saturday the clean and
+      jerk are trained as the full complex — clean, pause in rack 2–3 seconds, jerk.
+      This is the weekly "display" session that shows whether the strength built during
+      the push and pull days is transferring to competition lift performance.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Push Days (Mon and Wed). Work to the block's RM target (10RM → 5RM → 3RM),
+      followed by 2 back-off sets at 10% and 5% below the achieved RM. The LSUS system
+      treats the back squat as the primary strength builder; leg strength must remain
+      the dominant performance ceiling. High-bar position preferred for carry-over to
+      Olympic lift positions.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday (Pull Day). 3 × 3 at 80–85% of front squat 1RM. Lower volume than back
+      squat because the Saturday C&J session provides additional front squat stimulus.
+      Front squat ratio to clean 1RM should be monitored — if the ratio drops below
+      120%, shift one Monday back squat session to front squat until the ratio recovers.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Pull Days (Tue and Thu). 4 × 3 at 100–105% snatch 1RM during the 10s block;
+      progress to 105–115% during the 3s block as absolute strength increases.
+      The LSUS system's pull loading is heavier than typical intermediate protocols
+      because the high-rep strength blocks build the structural capacity to handle
+      supramaximal pulling intensities by mid-program.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Pull Days (Tue and Thu). 4 × 3 at 100–110% clean 1RM, progressing to 110–120%
+      by the 3s block. Focus on bar contact through the mid-thigh transition and
+      complete triple extension. LSUS emphasizes that clean pull strength is the
+      rate-limiting factor for most intermediate athletes — the pull must be loaded
+      to develop explosive hip extension capacity.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Push Days (Mon and Wed). 4 × 5 at moderate load (follows back squat). Develops
+      overhead structural strength and jerk dip-drive coordination. The LSUS system
+      includes the push press as the primary jerk strength builder because it
+      overloads the overhead receiving position more effectively than strict press.
+
+  - ref: bench_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Push Days (Mon and Wed), after push press. 3 × 8–10 (10s block) → 3 × 5 (5s
+      block) → 3 × 3 (3s block). LSUS includes bench press as a structural exercise
+      to develop anterior chest and tricep pressing strength, which provides secondary
+      support to the receiving position and jerk stability. Not a competition lift;
+      load conservatively.
+
+  - ref: barbell_lunge
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Push Day (Wednesday only). 3 × 8 each leg. Develops unilateral lower-body
+      strength and hip flexor/hip extensor balance that supports the split jerk
+      receiving position. Load at moderate weight — the purpose is positional
+      strength and hip-knee stability, not maximal loading.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Pull Days (Tue and Thu). 3–4 × max reps (bodyweight or weighted). Develops lat
+      strength and scapular retraction capacity that reinforces the bar-body contact
+      mechanics of both the snatch and clean. The LSUS system treats the pull-up as
+      a structural pulling exercise that complements the heavy barbell pulls.
+
 sources:
-- title: Weightlifting Program Design
-  credibility: expert_consensus
-- title: LSUS Weightlifting Programme Review
-  credibility: practitioner
+  - title: "Weightlifting Program Design"
+    author: "Stone, M. H., Pierce, K., Haff, G. G."
+    year: 2006
+    journal: "Journal of Strength and Conditioning Research"
+    credibility: expert_consensus
+  - title: "LSUS Weightlifting Programme Review"
+    author: "Various practitioners"
+    year: 2018
+    credibility: practitioner
 ---
 
 # LSU Shreveport 10-5-3 Program
@@ -5668,86 +7344,131 @@ If the RM is not achieved (rep target missed), the back-off sets are still compl
 
 ---
 
+<!-- FILE: programs/olympic/olympic_weightlifting_advanced.md -->
+
 ---
+
 id: olympic_weightlifting_advanced
 name: Olympic Weightlifting Advanced — High-Frequency Competition Prep
+aliases: [OWL advanced, Bulgarian method, high frequency weightlifting, competition prep OWL]
 category: program
 system: olympic
-goal: Maximize snatch and clean & jerk performance through high-frequency exposure
-  to competition lifts, with peaking structure targeting a specific competition date
-goals:
-- power
+goal: Maximize snatch and clean & jerk performance through high-frequency exposure to competition lifts, with peaking structure targeting a specific competition date
+goals: [power]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 6
 periodization: block
-progression_model: 'Daily maximum effort approach: work up to a heavy single on the
-  main lift each session, stopping when form degrades or bar speed drops significantly.
-  Volume is regulated by feel rather than pre-set percentages. Back-off sets follow
-  at 80–85% of the session max for 2–3 additional singles or doubles. Squat work is
-  submaximal: 80–90% of 1RM for the prescribed sets. Deload at weeks 8 and 14: max
-  intensity drops to 85%, no PRs attempted. Competition week: lifts only at 90% and
-  95% on Monday, full rest Tuesday– Thursday, competition day.
+origin: synthesized
+progression_model: >
+  Daily maximum effort approach: work up to a heavy single on the main lift each session,
+  stopping when form degrades or bar speed drops significantly. Volume is regulated by
+  feel rather than pre-set percentages. Back-off sets follow at 80–85% of the session
+  max for 2–3 additional singles or doubles. Squat work is submaximal: 80–90% of 1RM
+  for the prescribed sets. Deload at weeks 8 and 14: max intensity drops to 85%, no PRs
+  attempted. Competition week: lifts only at 90% and 95% on Monday, full rest Tuesday–
+  Thursday, competition day.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: Daily. Work to heavy single, then 2–3 back-off singles at 80–85%
-    of daily max. Primary competition lift. Technique consistency across rep range
-    is the primary performance indicator.
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'Daily. Work to heavy single clean, then jerk from rack. Back-off:
-    2–3 complex singles at 80% of daily max. Competition lift. Clean and jerk are
-    separated if receiving or jerk positions need individual...'
-- ref: back_squat
-  role: primary
-  technical_notes: Monday, Wednesday, Friday. 4 × 2–4 at 80–90% of 1RM. Primary lower-body
-    strength builder. Higher relative loads than front squat; alternated with front
-    squat through the training week.
-- ref: front_squat
-  role: primary
-  technical_notes: Tuesday, Thursday, Saturday. 4 × 2–4 at 80–90% of 1RM. Sport-specific
-    squat; carries over directly to clean receiving strength. Higher priority than
-    back squat.
-- ref: power_snatch
-  role: secondary
-  technical_notes: 3 sessions/week as technique drill and warm-up to full snatch.
-    3–4 × 2 at 75–85% of snatch 1RM. Reinforces bar speed and extension; flags technique
-    issues before they manifest in the full lift.
-- ref: power_clean
-  role: secondary
-  technical_notes: 3 sessions/week. 3–4 × 2 at 75–85% of clean 1RM. Same purpose as
-    power snatch. Often performed as a "power clean + jerk" complex to practice jerk
-    mechanics.
-- ref: snatch_pull
-  role: secondary
-  technical_notes: 3 sessions/week. 4 × 3 at 100–110% of snatch 1RM. Overloads the
-    pull without requiring a catch; improves back strength and bar speed in the extension
-    phase.
-- ref: clean_pull
-  role: secondary
-  technical_notes: 3 sessions/week. 4 × 3 at 100–110% of clean 1RM. Same purpose for
-    the clean pathway.
-- ref: overhead_squat
-  role: secondary
-  technical_notes: 2 sessions/week. 3 × 3–5 at 80% of snatch. Overhead position stability
-    and snatch receiving strength.
-- ref: push_press
-  role: secondary
-  technical_notes: 2 sessions/week. 3 × 3–5. Overhead pressing strength; jerk-assistance
-    movement. Heavier than jerk for overload effect on the overhead position.
-- ref: good_morning
-  role: secondary
-  technical_notes: 2 sessions/week. 3 × 6–8 at light-to-moderate load. Posterior chain
-    accessory; maintains back strength for heavy pulling without adding significant
-    fatigue.
+  - ref: snatch
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Daily. Work to heavy single, then 2–3 back-off singles at 80–85% of daily max.
+      Primary competition lift. Technique consistency across rep range is the primary
+      performance indicator.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 6
+    technical_notes: >
+      Daily. Work to heavy single clean, then jerk from rack. Back-off: 2–3 complex
+      singles at 80% of daily max. Competition lift. Clean and jerk are separated
+      if receiving or jerk positions need individual attention.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Monday, Wednesday, Friday. 4 × 2–4 at 80–90% of 1RM. Primary lower-body
+      strength builder. Higher relative loads than front squat; alternated with
+      front squat through the training week.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Tuesday, Thursday, Saturday. 4 × 2–4 at 80–90% of 1RM. Sport-specific squat;
+      carries over directly to clean receiving strength. Higher priority than back squat.
+
+  - ref: power_snatch
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      3 sessions/week as technique drill and warm-up to full snatch. 3–4 × 2 at
+      75–85% of snatch 1RM. Reinforces bar speed and extension; flags technique issues
+      before they manifest in the full lift.
+
+  - ref: power_clean
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      3 sessions/week. 3–4 × 2 at 75–85% of clean 1RM. Same purpose as power snatch.
+      Often performed as a "power clean + jerk" complex to practice jerk mechanics.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      3 sessions/week. 4 × 3 at 100–110% of snatch 1RM. Overloads the pull without
+      requiring a catch; improves back strength and bar speed in the extension phase.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 3
+    technical_notes: >
+      3 sessions/week. 4 × 3 at 100–110% of clean 1RM. Same purpose for the clean
+      pathway.
+
+  - ref: overhead_squat
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      2 sessions/week. 3 × 3–5 at 80% of snatch. Overhead position stability and
+      snatch receiving strength.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      2 sessions/week. 3 × 3–5. Overhead pressing strength; jerk-assistance movement.
+      Heavier than jerk for overload effect on the overhead position.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      2 sessions/week. 3 × 6–8 at light-to-moderate load. Posterior chain accessory;
+      maintains back strength for heavy pulling without adding significant fatigue.
+
 sources:
-- title: A Contemporary View on Periodization Theory
-  credibility: literature_review
-- title: Weightlifting — A Brief Overview
-  credibility: literature_review
+  - title: "A Contemporary View on Periodization Theory"
+    author: "Plisk, S. S., Stone, M. H."
+    year: 2003
+    journal: "Strength and Conditioning Journal"
+    volume: 25
+    issue: 6
+    pages: "19-37"
+    doi: "10.1519/00126548-200312000-00005"
+    credibility: literature_review
+  - title: "Weightlifting — A Brief Overview"
+    author: "Storey, A., Smith, H. K."
+    year: 2012
+    journal: "Journal of Human Kinetics"
+    volume: 31
+    pages: "53-62"
+    doi: "10.2478/v10078-012-0006-9"
+    credibility: literature_review
 ---
 
 # Olympic Weightlifting Advanced — High-Frequency Competition Prep
@@ -5807,79 +7528,115 @@ Attempt selection is the most critical non-training factor in competition perfor
 
 ---
 
+<!-- FILE: programs/olympic/olympic_weightlifting_beginner.md -->
+
 ---
+
 id: olympic_weightlifting_beginner
 name: Olympic Weightlifting Beginner Program
+aliases: [OWL beginner, beginner weightlifting, learn to snatch, learn to clean and jerk]
 category: program
 system: olympic
-goal: Develop technical competency in the snatch and clean & jerk using power versions
-  as learning tools, while building the strength base required for full competition
-  lifts
-goals:
-- power
-- skill_acquisition
+goal: Develop technical competency in the snatch and clean & jerk using power versions as learning tools, while building the strength base required for full competition lifts
+goals: [power, skill_acquisition]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Load increases are technique-driven, not schedule-driven. Add
-  weight only when the movement looks and feels technically sound for all prescribed
-  reps. For power versions: add 2–3 kg when 3 consecutive sessions show clean technique.
-  For squats and pulls: add 2.5–5 kg per session when all reps are completed. Technique
-  always takes priority over load — reduce weight immediately if mechanics break down.
+origin: synthesized
+progression_model: >
+  Load increases are technique-driven, not schedule-driven. Add weight only when the
+  movement looks and feels technically sound for all prescribed reps. For power versions:
+  add 2–3 kg when 3 consecutive sessions show clean technique. For squats and pulls:
+  add 2.5–5 kg per session when all reps are completed. Technique always takes priority
+  over load — reduce weight immediately if mechanics break down.
 
-  '
 exercises:
-- ref: power_snatch
-  role: primary
-  technical_notes: All three sessions. 4–5 × 3 at technique-driven load (60–75% of
-    eventual 1RM estimate). The power snatch teaches the triple extension pattern
-    and high pull without requiring squat depth or overhead st...
-- ref: power_clean
-  role: primary
-  technical_notes: All three sessions. 4–5 × 3. Teaches the pull pattern, hip drive,
-    and receiving position (front rack). Learn this before the full clean. Focus on
-    vertical bar path and keeping the bar close during the...
-- ref: front_squat
-  role: primary
-  technical_notes: Sessions A and C. 4 × 4–6. Builds the bottom strength required
-    for receiving the clean. Establishes front rack mobility simultaneously. Progress
-    load weekly.
-- ref: overhead_squat
-  role: primary
-  technical_notes: Sessions A and C. 4 × 4–5. Builds overhead stability and hip flexibility
-    required for squat snatch. Start with empty barbell or PVC pipe; progress slowly
-    as shoulder and thoracic mobility permits.
-- ref: push_press
-  role: primary
-  technical_notes: Sessions B and C. 4 × 4–5. Develops overhead pressing strength
-    and the dip-drive coordination used in the jerk. Bridge movement between strict
-    press and full jerk.
-- ref: snatch_pull
-  role: secondary
-  technical_notes: Sessions A and B. 4 × 4 at 80–90% of power snatch. Reinforces snatch
-    pull mechanics under heavier load than the full movement allows. Focus on staying
-    over the bar, scapular retraction at the top, and...
-- ref: clean_pull
-  role: secondary
-  technical_notes: Sessions B and C. 4 × 4 at 80–90% of power clean. Same purpose
-    as snatch pull for the clean pathway. Load should feel heavy relative to the power
-    clean but submaximal.
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: Session B. 3 × 6–8. Builds hamstring and posterior chain strength.
-    Reinforces the hip hinge pattern that initiates both the snatch and clean from
-    the floor.
-- ref: back_squat
-  role: secondary
-  technical_notes: Sessions A and C. 3 × 5–8. General lower-body strength base; supports
-    front squat and overhead squat development. Lower priority than front squat for
-    this program but included for well-rounded leg dev...
+  - ref: power_snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      All three sessions. 4–5 × 3 at technique-driven load (60–75% of eventual 1RM
+      estimate). The power snatch teaches the triple extension pattern and high pull
+      without requiring squat depth or overhead stability under load. Primary learning
+      tool for the snatch pathway.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      All three sessions. 4–5 × 3. Teaches the pull pattern, hip drive, and receiving
+      position (front rack). Learn this before the full clean. Focus on vertical bar path
+      and keeping the bar close during the pull.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. 4 × 4–6. Builds the bottom strength required for receiving the
+      clean. Establishes front rack mobility simultaneously. Progress load weekly.
+
+  - ref: overhead_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. 4 × 4–5. Builds overhead stability and hip flexibility required
+      for squat snatch. Start with empty barbell or PVC pipe; progress slowly as
+      shoulder and thoracic mobility permits.
+
+  - ref: push_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and C. 4 × 4–5. Develops overhead pressing strength and the dip-drive
+      coordination used in the jerk. Bridge movement between strict press and full jerk.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and B. 4 × 4 at 80–90% of power snatch. Reinforces snatch pull
+      mechanics under heavier load than the full movement allows. Focus on staying
+      over the bar, scapular retraction at the top, and full triple extension.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and C. 4 × 4 at 80–90% of power clean. Same purpose as snatch pull
+      for the clean pathway. Load should feel heavy relative to the power clean but
+      submaximal.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Session B. 3 × 6–8. Builds hamstring and posterior chain strength. Reinforces
+      the hip hinge pattern that initiates both the snatch and clean from the floor.
+
+  - ref: back_squat
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. 3 × 5–8. General lower-body strength base; supports front
+      squat and overhead squat development. Lower priority than front squat for this
+      program but included for well-rounded leg development.
+
 sources:
-- title: 'Catalyst Athletics: Olympic Weightlifting for Sports'
-  credibility: practitioner
-- title: 'The development of technique in weightlifting: Where are we now?'
-  credibility: literature_review
+  - title: "Catalyst Athletics: Olympic Weightlifting for Sports"
+    author: "Everett, G."
+    year: 2016
+    publisher: "Catalyst Athletics"
+    credibility: practitioner
+  - title: "The development of technique in weightlifting: Where are we now?"
+    author: "Kipp, K., Hartman, M. T., Jaime, S. J., Gribble, P."
+    year: 2018
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 32
+    issue: 12
+    pages: "3446-3454"
+    doi: "10.1519/JSC.0000000000002405"
+    credibility: literature_review
 ---
 
 # Olympic Weightlifting Beginner Program
@@ -5958,84 +7715,137 @@ Restricted mobility should be addressed before loading, not alongside heavy load
 
 ---
 
+<!-- FILE: programs/olympic/olympic_weightlifting_intermediate.md -->
+
 ---
+
 id: olympic_weightlifting_intermediate
 name: Olympic Weightlifting Intermediate Program
+aliases: [OWL intermediate, intermediate weightlifting, intermediate snatch and clean and jerk]
 category: program
 system: olympic
-goal: Develop consistent heavy singles in the snatch and clean & jerk through structured
-  percentage-based progression, while building the front squat strength and pulling
-  capacity required to push past first technical plateaus
-goals:
-- power
+goal: Develop consistent heavy singles in the snatch and clean & jerk through structured percentage-based progression, while building the front squat strength and pulling capacity required to push past first technical plateaus
+goals: [power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: block
-progression_model: 'Three 4-week blocks with a deload at week 4 and week 8. Percentages
-  are based on current 1RM estimates — update these at the start of each block using
-  the heaviest successful single from the preceding block. Within each week, heavy
-  days target a daily max (the heaviest technically clean rep available that day);
-  volume days work at fixed percentages. The daily max is not a forced PR attempt
-  — it is the heaviest single achievable with competition-standard technique on that
-  day. The daily max is bounded by an autoregulatory ceiling of RPE 9.5 (one clean
-  rep remaining in reserve); grinding to failure is prohibited — it does not improve
-  performance transfer in high-velocity movements and significantly increases recovery
-  cost.
+origin: synthesized
+progression_model: >
+  Three 4-week blocks with a deload at week 4 and week 8. Percentages are based on
+  current 1RM estimates — update these at the start of each block using the heaviest
+  successful single from the preceding block. Within each week, heavy days target a
+  daily max (the heaviest technically clean rep available that day); volume days work
+  at fixed percentages. The daily max is not a forced PR attempt — it is the heaviest
+  single achievable with competition-standard technique on that day. The daily max is
+  bounded by an autoregulatory ceiling of RPE 9.5 (one clean rep remaining in reserve);
+  grinding to failure is prohibited — it does not improve performance transfer in
+  high-velocity movements and significantly increases recovery cost.
 
-  '
 exercises:
-- ref: snatch
-  role: primary
-  technical_notes: 'Session A (heavy): build to daily max; 2–3 back-off singles at
-    85% of daily max. Session C (volume): 5 × 2 at 78–85% depending on block. Stop
-    after 2 consecutive misses at the same weight — reduce and...'
-- ref: clean_and_jerk
-  role: primary
-  technical_notes: 'Session B (heavy): build to daily max; 2–3 back-off singles at
-    85% of daily max. Session D (volume/split): clean and jerk may be split — clean
-    to front squat for position work, then jerk from rack — w...'
-- ref: power_snatch
-  role: secondary
-  technical_notes: 'Session C only, before full snatch work. 3 × 3 at 75–80% of snatch
-    1RM. Function is diagnostic: if bar path or pull mechanics differ from last week,
-    reduce the session load. Power snatch percentage of...'
-- ref: front_squat
-  role: primary
-  technical_notes: 'Sessions A, C, D. Session A: heavy (4 × 3 at 80–90% of front squat
-    1RM). Sessions C and D: moderate (3 × 4–5 at 70–80%). Front squat must be loaded
-    to 120–130% of clean 1RM as a long-term target; if b...'
-- ref: back_squat
-  role: secondary
-  technical_notes: Session B only. 4 × 4–5 at 75–85% of back squat 1RM. General leg
-    strength base. Back squat load should not exceed 130% of front squat 1RM — if
-    it does, front squat is underreached and back squat shoul...
-- ref: snatch_pull
-  role: secondary
-  technical_notes: 'Sessions A and C. Intensity is phase-specific: Block 1 (Accumulation)
-    95–105%, 4 × 3; Block 2 (Intensification) 110–120%, 4 × 3 — this overloads peak
-    vertical ground reaction force and spinal extensor...'
-- ref: clean_pull
-  role: secondary
-  technical_notes: 'Sessions B and D. Same phase-specific protocol as snatch pull:
-    Block 1 95–105%, Block 2 110–120%, Block 3 95–100% — all at 4 × 3 (or 3 × 3 in
-    Block 3). Particularly useful for reinforcing the second p...'
-- ref: overhead_squat
-  role: secondary
-  technical_notes: Session A only. 3 × 3–4 at 60–70% of snatch 1RM. Positional maintenance
-    and diagnostic tool — a meaningful drop in overhead squat quality almost always
-    precedes snatch technical breakdown by 1–2 weeks...
-- ref: hang_snatch
-  role: secondary
-  technical_notes: Session C, used in Block 2 and Block 3 only (weeks 5–12). 3 × 3
-    at 70–75% of snatch 1RM, performed from above the knee. Used when turnover speed
-    or the second pull timing is the technical bottleneck; ...
+  - ref: snatch
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session A (heavy): build to daily max; 2–3 back-off singles at 85% of daily max.
+      Session C (volume): 5 × 2 at 78–85% depending on block.
+      Stop after 2 consecutive misses at the same weight — reduce and work back.
+      Bar path must be consistent across all warm-up and working sets; divergence
+      under load is a technique signal, not a load signal.
+
+  - ref: clean_and_jerk
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Session B (heavy): build to daily max; 2–3 back-off singles at 85% of daily max.
+      Session D (volume/split): clean and jerk may be split — clean to front squat
+      for position work, then jerk from rack — when a specific component needs attention.
+      Pause 3–5 seconds in the rack position before jerking in all volume sets; this
+      develops rack stability and prevents rushing the jerk out of fatigue.
+
+  - ref: power_snatch
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Session C only, before full snatch work. 3 × 3 at 75–80% of snatch 1RM.
+      Function is diagnostic: if bar path or pull mechanics differ from last week,
+      reduce the session load. Power snatch percentage of squat snatch 1RM should
+      remain at or below 85% — if it approaches 90%+, the catch position is being
+      avoided and squat snatch technique needs attention.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Sessions A, C, D. Session A: heavy (4 × 3 at 80–90% of front squat 1RM).
+      Sessions C and D: moderate (3 × 4–5 at 70–80%). Front squat must be loaded to
+      120–130% of clean 1RM as a long-term target; if below this ratio, the clean is
+      being limited by receiving strength. Elbows must remain above parallel throughout;
+      any elbow drop in the bottom position is a direct predictor of a missed clean.
+
+  - ref: back_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Session B only. 4 × 4–5 at 75–85% of back squat 1RM. General leg strength base.
+      Back squat load should not exceed 130% of front squat 1RM — if it does, front
+      squat is underreached and back squat should not be loaded further until front squat
+      catches up. Total squat days (front + back combined) are capped at 4 days/week.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. Intensity is phase-specific: Block 1 (Accumulation) 95–105%,
+      4 × 3; Block 2 (Intensification) 110–120%, 4 × 3 — this overloads peak vertical
+      ground reaction force and spinal extensor strength; Block 3 (Peaking) return to
+      95–100%, 3 × 3. Bar path, foot pressure, and hip extension timing must remain
+      identical to the snatch at all intensities — if bar path deviates under 110%+
+      loads, reduce to 105% and rebuild from there.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and D. Same phase-specific protocol as snatch pull: Block 1 95–105%,
+      Block 2 110–120%, Block 3 95–100% — all at 4 × 3 (or 3 × 3 in Block 3).
+      Particularly useful for reinforcing the second pull timing when athletes begin to
+      early-arm-pull as clean loads increase — the pull without a catch removes the
+      temptation to rely on arm strength.
+
+  - ref: overhead_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Session A only. 3 × 3–4 at 60–70% of snatch 1RM. Positional maintenance and
+      diagnostic tool — a meaningful drop in overhead squat quality almost always
+      precedes snatch technical breakdown by 1–2 weeks. If the overhead squat feels
+      unstable at 60%, reduce snatch loading that session.
+
+  - ref: hang_snatch
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Session C, used in Block 2 and Block 3 only (weeks 5–12). 3 × 3 at 70–75%
+      of snatch 1RM, performed from above the knee. Used when turnover speed or
+      the second pull timing is the technical bottleneck; the hang position removes
+      the first pull variable and isolates the extension-to-catch sequence.
+
 sources:
-- title: 'Weightlifting Programming: A Winning Coach''s Guide'
-  credibility: practitioner
-- title: The effect of training frequency on strength and body composition in well-trained
-    males
-  credibility: rct
+  - title: "Weightlifting Programming: A Winning Coach's Guide"
+    author: "Everett, G."
+    year: 2016
+    publisher: "Catalyst Athletics"
+    credibility: practitioner
+  - title: "The effect of training frequency on strength and body composition in well-trained males"
+    author: "Colquhoun, R. J., Gai, C. M., Aguilar, D., Bove, D., Dolan, J., Vargas, A., Couvillion, K., Jenkins, N. D. M., Campbell, B. I."
+    year: 2018
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 32
+    issue: 5
+    pages: "1207-1213"
+    doi: "10.1519/JSC.0000000000002414"
+    credibility: rct
 ---
 
 # Olympic Weightlifting Intermediate Program
@@ -6153,74 +7963,112 @@ In Block 3, reduce volume day set count (3 × 2, not 5 × 2) to allow full recov
 
 ---
 
+<!-- FILE: programs/olympic/usaw_l1_program.md -->
+
 ---
+
 id: usaw_l1_program
 name: USAW Level 1 Coaching Framework
+aliases: [USAW Level 1, USA Weightlifting beginner program, usaw l1]
 category: program
 system: olympic
-goal: Establish injury-free technique in the snatch and clean & jerk through a conservative
-  top-down progression, while developing the joint mobility and positional stability
-  required for full competition lifts
-goals:
-- power
-- skill_acquisition
+goal: Establish injury-free technique in the snatch and clean & jerk through a conservative top-down progression, while developing the joint mobility and positional stability required for full competition lifts
+goals: [power, skill_acquisition]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Conservative linear step-loading. Intensity increases only when
-  all prescribed reps are completed with sound positions across two consecutive sessions.
-  Sessions are capped at 60–75 minutes; any session regularly exceeding 75 minutes
-  means volume must be reduced before load increases. Technical position takes absolute
-  priority over load — reduce weight immediately when mechanics break down. Power
-  versions precede full squat versions; transition to the squat lift only after the
-  power version shows consistent bar path and receiving position across two sessions.
+origin: classic
+progression_model: >
+  Conservative linear step-loading. Intensity increases only when all prescribed reps
+  are completed with sound positions across two consecutive sessions. Sessions are
+  capped at 60–75 minutes; any session regularly exceeding 75 minutes means volume
+  must be reduced before load increases. Technical position takes absolute priority
+  over load — reduce weight immediately when mechanics break down. Power versions
+  precede full squat versions; transition to the squat lift only after the power
+  version shows consistent bar path and receiving position across two sessions.
 
-  '
 exercises:
-- ref: power_snatch
-  role: primary
-  technical_notes: 'All three sessions. 4 × 3 at technique-controlled load (50–70%
-    of eventual 1RM estimate). Introduced via top-down progression: high-hang first,
-    then above-knee hang, then knee, then floor. Focus on tr...'
-- ref: power_clean
-  role: primary
-  technical_notes: 'All three sessions. 4 × 3. Same top-down progression as the power
-    snatch. Emphasis on the front rack receiving position: elbows must reach at least
-    70° of horizontal at catch; any collapse means shoul...'
-- ref: front_squat
-  role: primary
-  technical_notes: Sessions A and C. 4 × 4–6. Establishes the clean receiving position
-    under load and develops front rack flexibility simultaneously. Elbows must remain
-    above parallel throughout — any elbow drop predict...
-- ref: back_squat
-  role: secondary
-  technical_notes: Sessions A and C. 3 × 5. General lower-body strength base. High-bar
-    position, hip-width stance, depth below parallel. Lower priority than front squat
-    — if session time is short, cut back squat first.
-- ref: overhead_squat
-  role: primary
-  technical_notes: Sessions B and C. 3 × 4–5. Builds the snatch receiving position
-    under load and simultaneously reveals ankle, shoulder, and thoracic mobility restrictions.
-    Begin with empty barbell or PVC pipe and prog...
-- ref: push_press
-  role: secondary
-  technical_notes: Sessions B and C. 3 × 5. Develops the dip-drive timing used in
-    the jerk and overhead pressing strength. Dip must be vertical — any forward lean
-    converts leg drive into horizontal displacement. Drive t...
-- ref: snatch_pull
-  role: secondary
-  technical_notes: Sessions A and B. 4 × 4 at 85–95% of power snatch. Reinforces snatch
-    pull mechanics under load heavier than the full movement allows. Focus on maintaining
-    bar-body contact through the transition, full...
-- ref: clean_pull
-  role: secondary
-  technical_notes: Sessions B and C. 4 × 4 at 85–95% of power clean. Same purpose
-    as snatch pull for the clean pathway. Bar must stay in contact with the thighs
-    throughout; any gap during the pull indicates a bar-path d...
+  - ref: power_snatch
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      All three sessions. 4 × 3 at technique-controlled load (50–70% of eventual
+      1RM estimate). Introduced via top-down progression: high-hang first, then
+      above-knee hang, then knee, then floor. Focus on triple extension (ankle-knee-hip),
+      vertical torso through the pull, and active bar turnover. Do not advance the
+      starting position until the current position is stable across two sessions.
+
+  - ref: power_clean
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      All three sessions. 4 × 3. Same top-down progression as the power snatch.
+      Emphasis on the front rack receiving position: elbows must reach at least 70°
+      of horizontal at catch; any collapse means shoulder and wrist mobility prerequisites
+      are not yet met. Bar must stay in contact with the thighs through the
+      mid-thigh transition — any gap indicates a bar-path deviation.
+
+  - ref: front_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. 4 × 4–6. Establishes the clean receiving position under load
+      and develops front rack flexibility simultaneously. Elbows must remain above
+      parallel throughout — any elbow drop predicts a failed clean catch. Start at
+      a load that allows perfect positional integrity for all reps; progress 2.5–5 kg
+      when all reps are completed cleanly in two consecutive sessions.
+
+  - ref: back_squat
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and C. 3 × 5. General lower-body strength base. High-bar position,
+      hip-width stance, depth below parallel. Lower priority than front squat —
+      if session time is short, cut back squat first.
+
+  - ref: overhead_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and C. 3 × 4–5. Builds the snatch receiving position under load and
+      simultaneously reveals ankle, shoulder, and thoracic mobility restrictions. Begin
+      with empty barbell or PVC pipe and progress only when grip width, shoulder
+      position, and depth are stable without deviation. A loaded overhead squat at
+      60% of power snatch is a prerequisite before introducing the squat snatch.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and C. 3 × 5. Develops the dip-drive timing used in the jerk and
+      overhead pressing strength. Dip must be vertical — any forward lean converts
+      leg drive into horizontal displacement. Drive through the legs before the arms
+      press; the arm press is a follow-through, not the primary force producer.
+
+  - ref: snatch_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions A and B. 4 × 4 at 85–95% of power snatch. Reinforces snatch pull
+      mechanics under load heavier than the full movement allows. Focus on maintaining
+      bar-body contact through the transition, full triple extension before elbow rise,
+      and scapular retraction at the top.
+
+  - ref: clean_pull
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Sessions B and C. 4 × 4 at 85–95% of power clean. Same purpose as snatch pull
+      for the clean pathway. Bar must stay in contact with the thighs throughout;
+      any gap during the pull indicates a bar-path deviation that will compromise
+      the catch at higher loads.
+
 sources:
-- title: Weightlifting USAW Level 1 Sports Performance Manual
-  credibility: expert_consensus
+  - title: "Weightlifting USAW Level 1 Sports Performance Manual"
+    author: "USA Weightlifting"
+    year: 2013
+    credibility: expert_consensus
 ---
 
 # USAW Level 1 Coaching Framework
@@ -6312,48 +8160,206 @@ Address mobility restrictions before loading, not alongside heavy loading. See `
 
 ---
 
+<!-- FILE: programs/powerlifting/5_3_1.md -->
+
 ---
-id: '5_3_1'
+
+id: "5_3_1"
 name: 5/3/1
+aliases: [Wendler 5/3/1]
 category: program
 system: powerlifting
 goal: Slow, sustainable strength progress on the squat, bench, press, and deadlift
-goals:
-- strength
+goals: [strength]
 level: intermediate
 duration_weeks: 4
 frequency_per_week: 4
 periodization: linear
-progression_model: 'After each 4-week cycle, add 2.5 kg to upper-body training maxes
-  (bench, overhead press) and 5 kg to lower-body training maxes (squat, deadlift).
-  When AMRAP reps stall for two consecutive cycles on a lift, reset that lift''s TM
-  to 85–90% of current TM and rebuild.
+origin: classic
+progression_model: >
+  After each 4-week cycle, add 2.5 kg to upper-body training maxes (bench, overhead press)
+  and 5 kg to lower-body training maxes (squat, deadlift). When AMRAP reps stall
+  for two consecutive cycles on a lift, reset that lift's TM to 85–90% of current TM
+  and rebuild.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Use a low bar position: rest the bar across the rear delts, not
-    the traps. The shorter moment arm allows more forward lean, distributing the load
-    across the hips and hamstrings alongside the quads — c...'
-- ref: bench_press
-  role: primary
-  technical_notes: 'Grip width: index finger on or slightly inside the ring marks
-    on the bar. Retract and depress the scapulae before unracking — the upper back
-    must stay tight throughout the set. A slight arch is accept...'
-- ref: overhead_press
-  role: primary
-  technical_notes: Strict standing press — no leg drive. Grip just outside shoulder
-    width. Bar starts at clavicle level in a front rack position; elbows slightly
-    in front of the bar. Move the head back (not the bar forw...
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Hip-width stance, feet roughly parallel or toes slightly out. Double
-    overhand grip (or mixed grip for heavy sets; hook grip is acceptable). Set up
-    with the bar over mid-foot — not touching the shins y...
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Use a low bar position: rest the bar across the rear delts, not the traps.
+      The shorter moment arm allows more forward lean, distributing the load across
+      the hips and hamstrings alongside the quads — critical for moving maximal weight.
+      Stance wider than shoulder-width, toes turned out 30–45 degrees. Depth to just
+      below parallel (hip crease below top of knee) as required by IPF rules. Brace
+      with a full Valsalva maneuver before unracking. Drive the hips up out of the
+      hole — the cue is "hip drive", not "chest up". Bar path should stay over mid-foot.
+    weeks:
+      - week: 1
+        sets: 3
+        reps: [5, 5, "5+"]
+        intensity:
+          - {pct_tm: 65}
+          - {pct_tm: 75}
+          - {pct_tm: 85, amrap: true}
+      - week: 2
+        sets: 3
+        reps: [3, 3, "3+"]
+        intensity:
+          - {pct_tm: 70}
+          - {pct_tm: 80}
+          - {pct_tm: 90, amrap: true}
+      - week: 3
+        sets: 3
+        reps: [5, 3, "1+"]
+        intensity:
+          - {pct_tm: 75}
+          - {pct_tm: 85}
+          - {pct_tm: 95, amrap: true}
+      - week: 4
+        label: deload
+        sets: 3
+        reps: [5, 5, 5]
+        intensity:
+          - {pct_tm: 40}
+          - {pct_tm: 50}
+          - {pct_tm: 60}
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Grip width: index finger on or slightly inside the ring marks on the bar.
+      Retract and depress the scapulae before unracking — the upper back must stay
+      tight throughout the set. A slight arch is acceptable and keeps the shoulder
+      in a safer position. Touch the bar to the lower chest (nipple line) with
+      controlled speed; touch-and-go is acceptable in training, but a brief pause
+      is preferred for competition prep. Bar path: slight diagonal, lowering to
+      the lower chest and pressing back toward the face at lockout so the bar
+      finishes over the shoulders. Leg drive into the floor is legal and recommended.
+    weeks:
+      - week: 1
+        sets: 3
+        reps: [5, 5, "5+"]
+        intensity:
+          - {pct_tm: 65}
+          - {pct_tm: 75}
+          - {pct_tm: 85, amrap: true}
+      - week: 2
+        sets: 3
+        reps: [3, 3, "3+"]
+        intensity:
+          - {pct_tm: 70}
+          - {pct_tm: 80}
+          - {pct_tm: 90, amrap: true}
+      - week: 3
+        sets: 3
+        reps: [5, 3, "1+"]
+        intensity:
+          - {pct_tm: 75}
+          - {pct_tm: 85}
+          - {pct_tm: 95, amrap: true}
+      - week: 4
+        label: deload
+        sets: 3
+        reps: [5, 5, 5]
+        intensity:
+          - {pct_tm: 40}
+          - {pct_tm: 50}
+          - {pct_tm: 60}
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Strict standing press — no leg drive. Grip just outside shoulder width.
+      Bar starts at clavicle level in a front rack position; elbows slightly in
+      front of the bar. Move the head back (not the bar forward) to clear the
+      face, then drive the bar in a vertical line. At lockout, shove the head
+      through so ears are forward of the arms — this is the strong overhead
+      position. Core braced throughout; squeeze the glutes to prevent lumbar
+      hyperextension. The bar should finish over the mid-foot, not in front
+      of it. Lower under control back to the clavicle.
+    weeks:
+      - week: 1
+        sets: 3
+        reps: [5, 5, "5+"]
+        intensity:
+          - {pct_tm: 65}
+          - {pct_tm: 75}
+          - {pct_tm: 85, amrap: true}
+      - week: 2
+        sets: 3
+        reps: [3, 3, "3+"]
+        intensity:
+          - {pct_tm: 70}
+          - {pct_tm: 80}
+          - {pct_tm: 90, amrap: true}
+      - week: 3
+        sets: 3
+        reps: [5, 3, "1+"]
+        intensity:
+          - {pct_tm: 75}
+          - {pct_tm: 85}
+          - {pct_tm: 95, amrap: true}
+      - week: 4
+        label: deload
+        sets: 3
+        reps: [5, 5, 5]
+        intensity:
+          - {pct_tm: 40}
+          - {pct_tm: 50}
+          - {pct_tm: 60}
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Hip-width stance, feet roughly parallel or toes slightly out. Double overhand
+      grip (or mixed grip for heavy sets; hook grip is acceptable). Set up with
+      the bar over mid-foot — not touching the shins yet. Hip hinge to grip the bar,
+      then pull the shins to the bar (not the bar to the shins). Before breaking the
+      floor, engage the lats hard ("protect your armpits" / "bend the bar around your
+      legs") — this locks the upper back and keeps the bar close. Take a full breath
+      and brace; drive the floor away rather than pulling the bar up. At lockout,
+      squeeze the glutes and stand tall — do not hyperextend the lumbar. For volume
+      work, touch-and-go between reps is acceptable; for competition specificity,
+      reset between each rep.
+    weeks:
+      - week: 1
+        sets: 3
+        reps: [5, 5, "5+"]
+        intensity:
+          - {pct_tm: 65}
+          - {pct_tm: 75}
+          - {pct_tm: 85, amrap: true}
+      - week: 2
+        sets: 3
+        reps: [3, 3, "3+"]
+        intensity:
+          - {pct_tm: 70}
+          - {pct_tm: 80}
+          - {pct_tm: 90, amrap: true}
+      - week: 3
+        sets: 3
+        reps: [5, 3, "1+"]
+        intensity:
+          - {pct_tm: 75}
+          - {pct_tm: 85}
+          - {pct_tm: 95, amrap: true}
+      - week: 4
+        label: deload
+        sets: 3
+        reps: [5, 5, 5]
+        intensity:
+          - {pct_tm: 40}
+          - {pct_tm: 50}
+          - {pct_tm: 60}
+
 sources:
-- title: '5/3/1: The Simplest and Most Effective Training System'
-  credibility: practitioner
+  - title: "5/3/1: The Simplest and Most Effective Training System"
+    author: "Jim Wendler"
+    credibility: practitioner
 ---
 
 # 5/3/1
@@ -6413,52 +8419,69 @@ The AMRAP set provides the intensity stimulus that simple submaximal training wo
 
 ---
 
+<!-- FILE: programs/powerlifting/gzclp.md -->
+
 ---
+
 id: gzclp
 name: GZCLP
+aliases: [GZCL Linear Progression, Cody GZCLP]
 category: program
 system: powerlifting
-goal: Build strength on competition lifts through a tiered set structure that tolerates
-  more volume than simple 5x5 while retaining novice-friendly linear progression
-goals:
-- strength
-- hypertrophy
+goal: Build strength on competition lifts through a tiered set structure that tolerates more volume than simple 5x5 while retaining novice-friendly linear progression
+goals: [strength, hypertrophy]
 level: beginner
 duration_weeks: 16
 frequency_per_week: 4
 periodization: linear
-progression_model: 'Three tiers with independent progression. T1 (competition lifts):
-  5×3+ (AMRAP last set). Add 5 kg lower / 2.5 kg upper each session. Fail T1: next
-  session 6×2 → then 10×1 → third fail: reset weight 15%, restart 5×3+. T2 (supplemental):
-  4×10. Add weight when all 40 reps completed. Fail T2: drop to 3×10; second fail:
-  reset 10%. T3 (accessories): 3×15+ AMRAP. Add weight when ≥ 25 cumulative reps across
-  3 sets.
+origin: classic
+progression_model: >
+  Three tiers with independent progression.
+  T1 (competition lifts): 5×3+ (AMRAP last set). Add 5 kg lower / 2.5 kg upper each session.
+  Fail T1: next session 6×2 → then 10×1 → third fail: reset weight 15%, restart 5×3+.
+  T2 (supplemental): 4×10. Add weight when all 40 reps completed.
+  Fail T2: drop to 3×10; second fail: reset 10%.
+  T3 (accessories): 3×15+ AMRAP. Add weight when ≥ 25 cumulative reps across 3 sets.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: T1 Day 1 and Day 3 (5×3+); T2 Day 2 and Day 4 (4×10 at ~50-60%
-    of T1 load). Squats appear in every session as either T1 or T2.
-- ref: bench_press
-  role: primary
-  technical_notes: T1 Day 1 (5×3+). T2 Day 3 (4×10). Alternates top-tier role with
-    overhead_press.
-- ref: overhead_press
-  role: primary
-  technical_notes: T1 Day 3 (5×3+). T2 Day 1 (4×10). Alternates with bench press.
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: T1 Day 2 (5×3+). T2 Day 4 (4×10; Romanian deadlift is a common
-    T2 substitute).
-- ref: pullups
-  role: secondary
-  technical_notes: T3 on all four days (3×15+ AMRAP). Add load or difficulty when
-    ≥ 25 reps across 3 sets. Band-assisted acceptable for beginners; ring rows as
-    regression.
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 4
+    technical_notes: >
+      T1 Day 1 and Day 3 (5×3+); T2 Day 2 and Day 4 (4×10 at ~50-60% of T1 load).
+      Squats appear in every session as either T1 or T2.
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      T1 Day 1 (5×3+). T2 Day 3 (4×10). Alternates top-tier role with overhead_press.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      T1 Day 3 (5×3+). T2 Day 1 (4×10). Alternates with bench press.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      T1 Day 2 (5×3+). T2 Day 4 (4×10; Romanian deadlift is a common T2 substitute).
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 4
+    technical_notes: >
+      T3 on all four days (3×15+ AMRAP). Add load or difficulty when ≥ 25 reps across 3 sets.
+      Band-assisted acceptable for beginners; ring rows as regression.
+
 sources:
-- title: GZCL Method — The Tier System
-  credibility: practitioner
+  - title: "GZCL Method — The Tier System"
+    author: "LeClair, C. (u/Cody_LeClair)"
+    publisher: "swoleateveryheight.com; r/gzcl"
+    year: 2014
+    credibility: practitioner
 ---
 
 # GZCLP
@@ -6514,56 +8537,95 @@ GZCLP is built around Cody LeClair's observation that simple 5×5 programs (Star
 
 ---
 
+<!-- FILE: programs/powerlifting/starting_strength.md -->
+
 ---
+
 id: starting_strength
 name: Starting Strength
+aliases: [SS, Rippetoe Starting Strength]
 category: program
 system: powerlifting
-goal: Build foundational barbell strength through novice linear progression on five
-  core lifts
-goals:
-- strength
-- general_fitness
+goal: Build foundational barbell strength through novice linear progression on five core lifts
+goals: [strength, general_fitness]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Add weight every session: 2.5 kg (5 lbs) to upper-body lifts (press,
-  bench press) and 5 kg (10 lbs) to lower-body lifts (squat, deadlift) each training
-  session. Power clean increases by 2.5 kg per session. Continue until a lift fails
-  to progress for two consecutive sessions; at that point transition out of the novice
-  program into an intermediate model.
+origin: classic
+progression_model: >
+  Add weight every session: 2.5 kg (5 lbs) to upper-body lifts (press, bench press) and
+  5 kg (10 lbs) to lower-body lifts (squat, deadlift) each training session. Power clean
+  increases by 2.5 kg per session. Continue until a lift fails to progress for two
+  consecutive sessions; at that point transition out of the novice program into an
+  intermediate model.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Use the low bar position: rest the bar across the rear deltoids,
-    below the spine of the scapula — not on the traps. This lower position shortens
-    the moment arm on the back and requires a more horizont...'
-- ref: overhead_press
-  role: primary
-  technical_notes: Strict standing press — no leg drive. Grip just outside shoulder-width
-    with wrists directly under the bar. The bar starts at clavicle height with elbows
-    slightly in front of the bar. Move the head bac...
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Hip-width stance, toes slightly out. Bar starts over mid-foot,
-    2–3 cm from the shins. Hip hinge to grip; pull the shins to the bar by driving
-    knees out until the bar touches — this sets the hip angle ...
-- ref: bench_press
-  role: primary
-  technical_notes: Eyes directly under the bar. Retract and depress the scapulae before
-    unracking; maintain this tension throughout. Natural arch in the lower back; feet
-    flat on the floor. Lower the bar to the lower che...
-- ref: power_clean
-  role: supplemental
-  technical_notes: 'Start from the floor. Hip-width stance, toes slightly out. Double
-    overhand grip just outside the legs. First pull: maintain back angle and push
-    the floor away. Second pull: as the bar passes the knee ...'
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Use the low bar position: rest the bar across the rear deltoids, below the spine
+      of the scapula — not on the traps. This lower position shortens the moment arm
+      on the back and requires a more horizontal torso angle, allowing the posterior
+      chain (hamstrings, glutes, adductors) to contribute through hip drive. Stance
+      wider than shoulder-width with toes turned out 30–45 degrees. Descend until the
+      hip crease is below the top of the knee. Brace with a full Valsalva maneuver
+      before the descent and hold through the entire rep. Drive the hips up out of
+      the hole — do not cue "chest up". Keep the bar over mid-foot throughout.
+      3 sets of 5 each session, every session.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Strict standing press — no leg drive. Grip just outside shoulder-width with
+      wrists directly under the bar. The bar starts at clavicle height with elbows
+      slightly in front of the bar. Move the head back before pressing, then drive
+      the bar vertically. At lockout, shove the head through so ears are in front
+      of the arms. Squeeze the glutes and brace to prevent lumbar hyperextension.
+      Bar tracks directly over mid-foot. 3 sets of 5; Workout A sessions only.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Hip-width stance, toes slightly out. Bar starts over mid-foot, 2–3 cm from the
+      shins. Hip hinge to grip; pull the shins to the bar by driving knees out until
+      the bar touches — this sets the hip angle without raising the hips. Engage the
+      lats hard before the pull. Full breath, brace, drive the floor away. Keep the
+      bar dragging up the legs throughout. At lockout, squeeze the glutes and stand
+      tall. 1 working set of 5 only — not 3 sets. The single heavy set is sufficient
+      at novice loads; additional sets impair recovery.
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Eyes directly under the bar. Retract and depress the scapulae before unracking;
+      maintain this tension throughout. Natural arch in the lower back; feet flat on
+      the floor. Lower the bar to the lower chest in a slight diagonal path. Controlled
+      touch; no bounce. Press back up along the same diagonal path to finish over the
+      clavicles. 3 sets of 5; Workout B sessions only.
+
+  - ref: power_clean
+    role: supplemental
+    frequency_per_week: 2
+    technical_notes: >
+      Start from the floor. Hip-width stance, toes slightly out. Double overhand grip
+      just outside the legs. First pull: maintain back angle and push the floor away.
+      Second pull: as the bar passes the knee the hips accelerate into the bar
+      (jump position); violent hip extension, shrug, then pull elbows high and wide.
+      Receive the bar on the shoulders in a front rack with elbows forward and high in
+      a quarter-squat catch. Do not muscle the bar up with the arms. 5 sets of 3;
+      Workout B sessions in place of the deadlift.
+
 sources:
-- title: 'Starting Strength: Basic Barbell Training (3rd Edition)'
-  credibility: practitioner
+  - title: "Starting Strength: Basic Barbell Training (3rd Edition)"
+    author: "Rippetoe, M., Kilgore, L."
+    year: 2011
+    publisher: "The Aasgaard Company"
+    credibility: practitioner
 ---
 
 # Starting Strength
@@ -6629,48 +8691,63 @@ Transition to a program with weekly or monthly progression cadence.
 
 ---
 
+<!-- FILE: programs/powerlifting/texas_method.md -->
+
 ---
+
 id: texas_method
 name: Texas Method
+aliases: [TM]
 category: program
 system: powerlifting
-goal: Break through novice stalls via weekly volume-recovery-intensity cycling on
-  the squat, press, and deadlift
-goals:
-- strength
+goal: Break through novice stalls via weekly volume-recovery-intensity cycling on the squat, press, and deadlift
+goals: [strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 3
 periodization: linear
-progression_model: 'Weekly progression: Volume Day accumulates fatigue; Recovery Day
-  dissipates it; Intensity Day tests a new 5-rep PR. Load increases each week on Intensity
-  Day. Stall protocol: two consecutive failed Intensity Day PRs → adjust Volume Day
-  load, add variation, or deload 10% and rebuild.
+origin: classic
+progression_model: >
+  Weekly progression: Volume Day accumulates fatigue; Recovery Day dissipates it;
+  Intensity Day tests a new 5-rep PR. Load increases each week on Intensity Day.
+  Stall protocol: two consecutive failed Intensity Day PRs → adjust Volume Day load,
+  add variation, or deload 10% and rebuild.
 
-  '
 exercises:
-- ref: back_squat
-  role: primary
-  technical_notes: 'Volume Day (Mon): 5×5 at ~90% of current 5RM — primary overload
-    stimulus. Recovery Day (Wed): 2×5 at ~80% of 5RM — active recovery, not a training
-    stimulus. Intensity Day (Fri): 1×5 PR attempt. Low-ba...'
-- ref: bench_press
-  role: primary
-  technical_notes: 'Alternates weekly with overhead_press. Week A: bench on Volume
-    + Intensity; Week B: OHP on Volume + Intensity. Recovery Day: the other lift,
-    3×5 light.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Alternates with bench press. Strict standing press, no leg drive.
-    Week A Recovery: OHP 3×5 light. Week B Volume + Intensity: OHP 5×5 and 1×5 PR.'
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Intensity Day (Fri) only: 1×5 PR. Lower volume than squat due
-    to higher CNS cost. Some variants replace mid-week deadlift frequency with power
-    cleans on Recovery Day.'
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 3
+    technical_notes: >
+      Volume Day (Mon): 5×5 at ~90% of current 5RM — primary overload stimulus.
+      Recovery Day (Wed): 2×5 at ~80% of 5RM — active recovery, not a training stimulus.
+      Intensity Day (Fri): 1×5 PR attempt. Low-bar back squat recommended throughout.
+
+  - ref: bench_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Alternates weekly with overhead_press. Week A: bench on Volume + Intensity;
+      Week B: OHP on Volume + Intensity. Recovery Day: the other lift, 3×5 light.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Alternates with bench press. Strict standing press, no leg drive.
+      Week A Recovery: OHP 3×5 light. Week B Volume + Intensity: OHP 5×5 and 1×5 PR.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Intensity Day (Fri) only: 1×5 PR. Lower volume than squat due to higher CNS cost.
+      Some variants replace mid-week deadlift frequency with power cleans on Recovery Day.
+
 sources:
-- title: Practical Programming for Strength Training
-  credibility: practitioner
+  - title: "Practical Programming for Strength Training"
+    author: "Rippetoe, M., Kilgore, L."
+    year: 2006
+    credibility: practitioner
 ---
 
 # Texas Method
@@ -6721,71 +8798,118 @@ The Texas Method exists to solve the specific problem that ends beginner program
 
 ---
 
+<!-- FILE: programs/powerlifting/westside_conjugate.md -->
+
 ---
+
 id: westside_conjugate
 name: Westside Conjugate Method
+aliases: [Conjugate Method, Westside Barbell, Louie Simmons Conjugate]
 category: program
 system: powerlifting
-goal: Simultaneously develop maximal strength and rate of force development through
-  concurrent max-effort and dynamic-effort training
-goals:
-- strength
-- power
+goal: Simultaneously develop maximal strength and rate of force development through concurrent max-effort and dynamic-effort training
+goals: [strength, power]
 level: advanced
 duration_weeks: 4
 frequency_per_week: 4
 periodization: conjugate
-progression_model: 'Max Effort (ME): rotate the primary exercise weekly; attempt a
-  new 1–3RM each ME day. Dynamic Effort (DE): run a 3-week pendulum wave on bar weight
-  percentage, cycling from 50% to 55% to 60% of 1RM barbell weight (plus ~25% accommodating
-  resistance), then reset. Upper body TM increases when box squat or bench press 1RM
-  sets improve; lower body TM increases when competition squat or deadlift 1RM improves.
+origin: classic
+progression_model: >
+  Max Effort (ME): rotate the primary exercise weekly; attempt a new 1–3RM each ME day.
+  Dynamic Effort (DE): run a 3-week pendulum wave on bar weight percentage, cycling from
+  50% to 55% to 60% of 1RM barbell weight (plus ~25% accommodating resistance), then reset.
+  Upper body TM increases when box squat or bench press 1RM sets improve; lower body TM
+  increases when competition squat or deadlift 1RM improves.
 
-  '
 exercises:
-- ref: box_squat
-  role: primary
-  technical_notes: Dynamic Effort lower day. Use a box set to parallel or just below.
-    Sit back onto the box — do not plop down — and achieve a momentary pause with
-    full hip relaxation while the upper back and feet stay ...
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Max Effort lower day rotation. Set up as for competition: hip-width
-    stance, bar over mid-foot, engage lats before the pull. Work up in singles or
-    triples to a true 1–3RM — this is a genuine max effort...'
-- ref: sumo_deadlift
-  role: primary
-  technical_notes: Max Effort lower day rotation. Stance significantly wider than
-    hip-width with toes turned out 45–60 degrees, grip inside the legs. Keep the torso
-    more upright than conventional; drive the knees out ha...
-- ref: good_morning
-  role: supplemental
-  technical_notes: Max Effort lower day rotation or accessory. Bar on low bar position.
-    Hinge at the hips with a slight knee bend, maintaining a neutral or slightly extended
-    lumbar spine. Lower until the torso is roughl...
-- ref: bench_press_with_bands
-  role: primary
-  technical_notes: Dynamic Effort upper day. Bands anchored to the floor contribute
-    ~25% of total load at lockout. Close-to-medium grip (index finger on or inside
-    ring marks) to increase triceps demand and reduce pec st...
-- ref: board_press
-  role: primary
-  technical_notes: Max Effort upper day rotation. A training partner holds a wooden
-    board on the chest; bar is lowered to the board and pressed from a dead stop.
-    Reduces range of motion and overloads the sticking point ...
-- ref: floor_press
-  role: primary
-  technical_notes: Max Effort upper day rotation. Lie on the floor; upper arms contact
-    the floor at the bottom, eliminating leg drive and the stretch reflex. Isolates
-    the triceps and anterior deltoid. Medium-to-wide gri...
-- ref: close_grip_barbell_bench_press
-  role: supplemental
-  technical_notes: Accessory for ME or DE upper day. Grip roughly shoulder-width or
-    just inside. Elbows tucked tighter than competition grip. Builds triceps strength
-    critical for bench lockout. Perform 3–5 sets of 5–8 r...
+  - ref: box_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Dynamic Effort lower day. Use a box set to parallel or just below. Sit back onto
+      the box — do not plop down — and achieve a momentary pause with full hip relaxation
+      while the upper back and feet stay tight. Drive off the box explosively by pushing
+      the floor away and driving the knees out. Bar speed is the primary performance
+      variable, not load. Use a low bar position with a wide stance to maximize hip
+      involvement and reduce knee travel. Perform 12 sets of 2 reps with 45–60 seconds
+      rest — the brief rest is intentional. Accommodate ~25% of total resistance with
+      bands or chains to compensate for the ascending strength curve.
+
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Max Effort lower day rotation. Set up as for competition: hip-width stance, bar
+      over mid-foot, engage lats before the pull. Work up in singles or triples to a
+      true 1–3RM — this is a genuine max effort. Rotate this movement with sumo deadlift,
+      good morning variations, and deficit or pin pulls so the CNS does not adapt to the
+      exact stimulus. Return to any variation no sooner than 3 weeks later.
+
+  - ref: sumo_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Max Effort lower day rotation. Stance significantly wider than hip-width with toes
+      turned out 45–60 degrees, grip inside the legs. Keep the torso more upright than
+      conventional; drive the knees out hard throughout. Use as a rotating ME lower
+      exercise; treat as a true max effort (1–3RM).
+
+  - ref: good_morning
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Max Effort lower day rotation or accessory. Bar on low bar position. Hinge at the
+      hips with a slight knee bend, maintaining a neutral or slightly extended lumbar
+      spine. Lower until the torso is roughly parallel, then drive the hips forward to
+      stand. Builds posterior chain strength through the range of motion that corresponds
+      to the deadlift sticking point. Use as a rotating ME lower exercise (1–3RM) or as
+      a supplemental movement (3–5 sets of 5–8).
+
+  - ref: bench_press_with_bands
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Dynamic Effort upper day. Bands anchored to the floor contribute ~25% of total
+      load at lockout. Close-to-medium grip (index finger on or inside ring marks) to
+      increase triceps demand and reduce pec stress. Scapulae retracted and depressed;
+      maintain throughout. Touch the lower chest and press explosively. Maximal bar
+      speed is the goal. Perform 9 sets of 3 reps with 45–60 seconds rest. 3-week
+      pendulum wave: Week 1: 50% bar + bands; Week 2: 55% bar + bands; Week 3: 60%
+      bar + bands; then reset. Rotate grip width across the 9 sets (3 close / 3 medium
+      / 3 wide).
+
+  - ref: board_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Max Effort upper day rotation. A training partner holds a wooden board on the
+      chest; bar is lowered to the board and pressed from a dead stop. Reduces range
+      of motion and overloads the sticking point and lockout. 2-board press is the most
+      common ME upper variation. Work to a true 1–3RM; rotate board thickness weekly.
+
+  - ref: floor_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Max Effort upper day rotation. Lie on the floor; upper arms contact the floor
+      at the bottom, eliminating leg drive and the stretch reflex. Isolates the triceps
+      and anterior deltoid. Medium-to-wide grip. Pause briefly with elbows on the floor
+      before pressing. Work to a 1–3RM as a rotating ME upper exercise.
+
+  - ref: close_grip_barbell_bench_press
+    role: supplemental
+    frequency_per_week: 1
+    technical_notes: >
+      Accessory for ME or DE upper day. Grip roughly shoulder-width or just inside.
+      Elbows tucked tighter than competition grip. Builds triceps strength critical for
+      bench lockout. Perform 3–5 sets of 5–8 reps after the primary ME or DE exercise.
+
 sources:
-- title: Westside Barbell Book of Methods
-  credibility: practitioner
+  - title: "Westside Barbell Book of Methods"
+    author: "Simmons, L."
+    year: 2007
+    publisher: "Westside Barbell"
+    credibility: practitioner
 ---
 
 # Westside Conjugate Method
@@ -6892,51 +9016,69 @@ progress on simpler programming.
 
 ---
 
+<!-- FILE: programs/strongman/basic_strongman_block.md -->
+
 ---
+
 id: basic_strongman_block
 name: Basic Strongman Block
+aliases: [Strongman GPP Block, Beginner Strongman]
 category: program
 system: strongman
-goal: Build the strength base and event-specific training necessary for entry-level
-  strongman competition, combining barbell strength with loaded carries, pressing,
-  and odd-object work
-goals:
-- strength
+goal: Build the strength base and event-specific training necessary for entry-level strongman competition, combining barbell strength with loaded carries, pressing, and odd-object work
+goals: [strength]
 level: beginner
 duration_weeks: 8
 frequency_per_week: 4
 periodization: block
-progression_model: 'Block structure: Weeks 1-4 accumulation (higher volume, 65-75%
-  1RM on barbell lifts, technique emphasis on events); Weeks 5-7 intensification (lower
-  volume, 80-90% 1RM, competition-specific loading); Week 8 peak/taper (event practice
-  at competition weights, reduced volume). Event implements progress by time (loaded
-  carries) or reps (log press, atlas stones) each session.
+origin: synthesized
+progression_model: >
+  Block structure: Weeks 1-4 accumulation (higher volume, 65-75% 1RM on barbell lifts,
+  technique emphasis on events); Weeks 5-7 intensification (lower volume, 80-90% 1RM,
+  competition-specific loading); Week 8 peak/taper (event practice at competition weights,
+  reduced volume). Event implements progress by time (loaded carries) or reps (log press,
+  atlas stones) each session.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Primary deadlift session 1x/week. Axle deadlift or trap bar as
-    competition variants when available. Accumulation: 4x5 at 70-80%. Intensification:
-    3x3 at 85-90%. Includes deficit deadlift accessory for...'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Log press or axle press replaces barbell OHP when implements available.
-    Push-press technique required for competition; strict press as supplemental. Accumulation:
-    5x5. Intensification: work to 3RM. Se...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Low-bar squat for general strength base. Yoke carry movement prep
-    on same session. Accumulation: 4x5 at 70-75%. Intensification: 3x3 at 82-87%.'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: Upper back volume critical for stone loading and pressing lockout.
-    4x8-10. Kroc rows or dumbbell rows as accessory.
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Primary deadlift session 1x/week. Axle deadlift or trap bar as competition variants
+      when available. Accumulation: 4x5 at 70-80%. Intensification: 3x3 at 85-90%.
+      Includes deficit deadlift accessory for off-the-floor strength.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Log press or axle press replaces barbell OHP when implements available. Push-press
+      technique required for competition; strict press as supplemental. Accumulation: 5x5.
+      Intensification: work to 3RM. Seated dumbbell press as accessory.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Low-bar squat for general strength base. Yoke carry movement prep on same session.
+      Accumulation: 4x5 at 70-75%. Intensification: 3x3 at 82-87%.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Upper back volume critical for stone loading and pressing lockout. 4x8-10.
+      Kroc rows or dumbbell rows as accessory.
+
 sources:
-- title: The Juggernaut Method Strongman
-  credibility: practitioner
-- title: Starting Strongman
-  credibility: practitioner
+  - title: "The Juggernaut Method Strongman"
+    author: "Smith, C."
+    publisher: "Juggernaut Training Systems"
+    credibility: practitioner
+  - title: "Starting Strongman"
+    author: "Various coaches"
+    publisher: "StartingStrongman.com"
+    credibility: practitioner
 ---
 
 # Basic Strongman Block
@@ -7018,94 +9160,157 @@ Rotate through competition events:
 
 ---
 
+<!-- FILE: programs/strongman/brian_shaw_off_season.md -->
+
 ---
+
 id: brian_shaw_off_season
 name: Brian Shaw Off-Season Training Structure
+aliases: [Brian Shaw strongman, Shaw off-season, professional strongman off-season]
 category: program
 system: strongman
-goal: Maximize off-season absolute strength accumulation and structural hypertrophy
-  across all primary movement patterns, while maintaining event proficiency through
-  reduced-frequency implement practice — with the intent of arriving at the next competition
-  prep block with significantly higher strength ceilings than the previous competition
-  cycle
-goals:
-- strength
-- hypertrophy
+goal: Maximize off-season absolute strength accumulation and structural hypertrophy across all primary movement patterns, while maintaining event proficiency through reduced-frequency implement practice — with the intent of arriving at the next competition prep block with significantly higher strength ceilings than the previous competition cycle
+goals: [strength, hypertrophy]
 level: advanced
 frequency_per_week: 4
 periodization: conjugate
-progression_model: 'Conjugate-inspired concurrent periodization: maximal effort (ME)
-  work and dynamic effort (DE) work are separated by movement category rather than
-  strict Westside weekly structure. Each training day contains one ME movement (work
-  up to a heavy set of 3–5 reps) and supplemental volume at 65–75%. Event work is
-  performed at moderate intensity (70–80% of competition weight) as maintenance, not
-  peaking. The off-season goal is absolute strength accumulation — no taper, no intensity
-  peak, no event simulation at competition weight. This is a perpetual off-season
-  framework; competition prep transitions to a separate 16-week block when a contest
-  is identified.
+origin: classic
+progression_model: >
+  Conjugate-inspired concurrent periodization: maximal effort (ME) work and dynamic effort
+  (DE) work are separated by movement category rather than strict Westside weekly structure.
+  Each training day contains one ME movement (work up to a heavy set of 3–5 reps) and
+  supplemental volume at 65–75%. Event work is performed at moderate intensity (70–80% of
+  competition weight) as maintenance, not peaking. The off-season goal is absolute strength
+  accumulation — no taper, no intensity peak, no event simulation at competition weight.
+  This is a perpetual off-season framework; competition prep transitions to a separate
+  16-week block when a contest is identified.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday: ME deadlift — work up to a heavy 3–5 rep set, then 3 back-off
-    sets at 75%. Shaw''s off-season deadlift training is notably higher-volume than
-    competition prep: 4–6 working sets at 80–90% are co...'
-- ref: sumo_deadlift
-  role: secondary
-  technical_notes: 'Thursday: DE sumo deadlift — 6–8 sets of 2 at 70–75% of sumo 1RM,
-    with 60-second rest between sets. Shaw includes sumo as a variation to develop
-    hip abductor and adductor strength that his conventiona...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday (ME squat: work up to 3–5RM) and Thursday (volume squat:
-    5 × 5 at 70–75%). Shaw''s squat stance is wider than powerlifting-standard, reflecting
-    the hip-width requirement of stone loading and yok...'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday (ME press: 4 × 3–5 at 85–90%) and Friday (volume press:
-    4 × 8 at 65–70%). Shaw''s overhead work in the off-season emphasizes raw pressing
-    volume — the barbell strict press is the primary overhe...'
-- ref: log_lift
-  role: primary
-  technical_notes: 'Friday: event overhead session. 4–5 singles or doubles at 75–80%
-    of expected competition weight. Off-season log work maintains the neural pattern
-    and implement familiarity without peaking — the goal i...'
-- ref: atlas_stones
-  role: secondary
-  technical_notes: 'Thursday: 3 sessions of 3–5 stone loads at 70–80% of anticipated
-    competition weight. Off-season stone work is technique-maintenance-focused. Tacky
-    is used from the first session in the off-season — Sh...'
-- ref: yoke_walk
-  role: secondary
-  technical_notes: 'Thursday: 3 × 15–20 m at 75–80% of expected competition weight.
-    Off-season yoke is moderate intensity and moderate distance — enough to maintain
-    the pattern and core stiffness adaptation. Overload yok...'
-- ref: farmers_walk
-  role: secondary
-  technical_notes: 'Friday: 4 × 20 m at 60–70% of expected competition weight. Off-season
-    farmer carries maintain grip strength and hip-drive mechanics at sub-maximal load.
-    The off-season is the appropriate time to devel...'
-- ref: tire_flip
-  role: secondary
-  technical_notes: 'Thursday or Friday: 3–4 sets of 5–8 flips as a posterior chain
-    and hip extension accessory. Tire flip maintains the hip-extension and posterior
-    chain power qualities that transfer to stone loading and...'
-- ref: barbell_shrug
-  role: secondary
-  technical_notes: 'Tuesday and Thursday: 4 × 10–15 at heavy load with straps. Shaw''s
-    documented training places significant emphasis on upper trapezius development
-    — the trap is the primary stabilizer of the yoke frame ...'
-- ref: good_morning
-  role: secondary
-  technical_notes: 'Wednesday: 4 × 8–10 at moderate load. Posterior chain development
-    accessory. Good mornings build the spinal erector and hamstring isometric capacity
-    that supports the hip-hinged positions in Atlas sto...'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: ME deadlift — work up to a heavy 3–5 rep set, then 3 back-off sets at 75%.
+      Shaw's off-season deadlift training is notably higher-volume than competition prep:
+      4–6 working sets at 80–90% are common in documented training logs. His conventional
+      stance remains constant regardless of competition events. Pulling from a deficit (25 mm
+      plate) is commonly used in the off-season to build starting strength through the first
+      pull phase.
+
+  - ref: sumo_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: DE sumo deadlift — 6–8 sets of 2 at 70–75% of sumo 1RM, with 60-second
+      rest between sets. Shaw includes sumo as a variation to develop hip abductor and
+      adductor strength that his conventional stance does not access. The sumo variation also
+      trains the wider base position used in some axle and frame deadlift events. Speed is
+      the primary objective; bar should move as fast as possible on every rep.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (ME squat: work up to 3–5RM) and Thursday (volume squat: 5 × 5 at 70–75%).
+      Shaw's squat stance is wider than powerlifting-standard, reflecting the hip-width
+      requirement of stone loading and yoke walk. High bar position preferred for strongman
+      carry-over. Documented training includes frequent use of specialty bars (safety squat
+      bar, cambered bar) as off-season variations to develop structural tolerance and
+      address weak points.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday (ME press: 4 × 3–5 at 85–90%) and Friday (volume press: 4 × 8 at 65–70%).
+      Shaw's overhead work in the off-season emphasizes raw pressing volume — the barbell
+      strict press is the primary overhead movement to build structural overhead capacity.
+      Log and axle are included in event days but do not replace the barbell overhead
+      volume in the off-season structure.
+
+  - ref: log_lift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Friday: event overhead session. 4–5 singles or doubles at 75–80% of expected
+      competition weight. Off-season log work maintains the neural pattern and implement
+      familiarity without peaking — the goal is never to max the log in the off-season,
+      only to sustain the movement pattern. Shaw's documented off-season log loads are
+      typically 10–20% below his competition performances.
+
+  - ref: atlas_stones
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 sessions of 3–5 stone loads at 70–80% of anticipated competition weight.
+      Off-season stone work is technique-maintenance-focused. Tacky is used from the first
+      session in the off-season — Shaw's approach does not train bare in the off-season.
+      The loading platform height may be varied (lower than competition standard) to
+      accumulate hip-extension volume at different positions.
+
+  - ref: yoke_walk
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 15–20 m at 75–80% of expected competition weight. Off-season yoke
+      is moderate intensity and moderate distance — enough to maintain the pattern and
+      core stiffness adaptation. Overload yoke (5–10% above anticipated competition weight
+      for 5–10 m) is used occasionally in the off-season to build starting rigidity and
+      neural adaptation to supramaximal weights.
+
+  - ref: farmers_walk
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Friday: 4 × 20 m at 60–70% of expected competition weight. Off-season farmer carries
+      maintain grip strength and hip-drive mechanics at sub-maximal load. The off-season is
+      the appropriate time to develop grip capacity without the fatigue cost of max competition
+      loads. Shaw trains farmer without straps throughout the off-season.
+
+  - ref: tire_flip
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday or Friday: 3–4 sets of 5–8 flips as a posterior chain and hip extension
+      accessory. Tire flip maintains the hip-extension and posterior chain power qualities
+      that transfer to stone loading and carry event explosiveness. In the off-season,
+      tire flip is not a competition event simulation — it is a power-development accessory.
+
+  - ref: barbell_shrug
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday: 4 × 10–15 at heavy load with straps. Shaw's documented
+      training places significant emphasis on upper trapezius development — the trap is the
+      primary stabilizer of the yoke frame and the primary structural element in stone
+      loading. Heavy shrug volume in the off-season builds the structural density that allows
+      heavier yoke loads in competition prep.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 4 × 8–10 at moderate load. Posterior chain development accessory.
+      Good mornings build the spinal erector and hamstring isometric capacity that supports
+      the hip-hinged positions in Atlas stone loading and conventional deadlift. Off-season
+      good morning volume is higher than competition prep because recovery capacity is greater
+      without the accumulated fatigue from heavy event sessions.
+
 sources:
-- title: Brian Shaw Training Logs and Competition Preparation
-  credibility: practitioner
-- title: 'The Strongman as strength athlete: a current view'
-  credibility: literature_review
+  - title: "Brian Shaw Training Logs and Competition Preparation"
+    author: "Shaw, B."
+    year: 2014
+    publisher: "YouTube: Brian Shaw Strongman"
+    credibility: practitioner
+  - title: "The Strongman as strength athlete: a current view"
+    author: "Keogh, J. W. L., Winwood, P. W."
+    year: 2017
+    journal: "Sports Medicine"
+    volume: 47
+    issue: 8
+    pages: "1523-1544"
+    doi: "10.1007/s40279-017-0671-7"
+    credibility: literature_review
 ---
 
 # Brian Shaw Off-Season Training Structure
@@ -7152,89 +9357,145 @@ The central principle is **progressive overload on absolute strength movements a
 
 ---
 
+<!-- FILE: programs/strongman/cube_method_strongman.md -->
+
 ---
+
 id: cube_method_strongman
 name: Cube Method Strongman
+aliases: [Cube strongman, Josh Thigpen cube, cube method SM]
 category: program
 system: strongman
-goal: Build competition-ready peak strength and event proficiency through an undulating
-  3-week wave that rotates heavy, explosive, and volume emphasis across primary lifts
-  — while integrating event training that follows the same 3-week wave pattern — targeting
-  a specific contest at the end of the 12-week cycle
-goals:
-- strength
-- power
+goal: Build competition-ready peak strength and event proficiency through an undulating 3-week wave that rotates heavy, explosive, and volume emphasis across primary lifts — while integrating event training that follows the same 3-week wave pattern — targeting a specific contest at the end of the 12-week cycle
+goals: [strength, power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: conjugate
-progression_model: 'Three-week undulating wave repeated four times across the 12-week
-  cycle. Each primary lift rotates through three emphasis types across three consecutive
-  weeks: Week A (Heavy) — work up to a new 1RM, 3RM, or 5RM; Week B (Explosive) —
-  6–8 sets of 2 reps at 60%, maximum bar speed; Week C (Volume) — 5 × 5 at 70–75%.
-  After three weeks, the wave repeats with slightly higher loads in each category.
-  Only one lift is taken heavy per training day; all other lifts on that day are in
-  the explosive or volume phase of their own wave. Event training follows the same
-  three-week wave: heavy event day, explosive event day, volume event day, rotating
-  across weeks. No two primary lifts are in the heavy phase on the same training day.
+origin: classic
+progression_model: >
+  Three-week undulating wave repeated four times across the 12-week cycle. Each primary
+  lift rotates through three emphasis types across three consecutive weeks: Week A (Heavy)
+  — work up to a new 1RM, 3RM, or 5RM; Week B (Explosive) — 6–8 sets of 2 reps at 60%,
+  maximum bar speed; Week C (Volume) — 5 × 5 at 70–75%. After three weeks, the wave repeats
+  with slightly higher loads in each category. Only one lift is taken heavy per training day;
+  all other lifts on that day are in the explosive or volume phase of their own wave. Event
+  training follows the same three-week wave: heavy event day, explosive event day, volume
+  event day, rotating across weeks. No two primary lifts are in the heavy phase on the same
+  training day.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday: primary deadlift following the three-week Cube wave. Heavy
-    weeks: work to a new 5RM → 3RM → 1RM progression across the four wave cycles.
-    Explosive weeks: 8 × 2 at 60% of current 1RM, focusing ...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Wednesday: back squat following the Cube wave, offset by one week
-    from the deadlift (if deadlift is in the heavy week, squat is in the explosive
-    or volume week). This offset is the defining feature of...'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Friday: overhead press (strict barbell) following the Cube wave,
-    offset from both deadlift and squat. Heavy weeks for overhead press coincide with
-    explosive weeks for lower body — the system self-regu...'
-- ref: log_lift
-  role: primary
-  technical_notes: 'Thursday: event overhead session. The log follows its own three-week
-    wave parallel to the barbell press: Heavy log week — work up to a heavy single
-    or double at 90–95% of anticipated competition weigh...'
-- ref: farmers_walk
-  role: primary
-  technical_notes: 'Thursday: event carry session. Farmer carry follows the Cube wave
-    for events: Heavy week — 2 × full competition distance at competition weight;
-    Explosive week — 4 × 20 m at 60–65% with maximum acceler...'
-- ref: atlas_stones
-  role: primary
-  technical_notes: 'Wednesday event session (alternated with yoke, or combined): Atlas
-    stones also follow the three-week wave. Heavy week — full stone series at 90%
-    of expected competition weight with tacky; Explosive we...'
-- ref: yoke_walk
-  role: primary
-  technical_notes: 'Thursday: yoke following the Cube event wave. Heavy week — 2 ×
-    full competition distance at competition weight; Explosive week — 4 × 10 m at
-    70% with maximum start acceleration (the explosive event da...'
-- ref: good_morning
-  role: secondary
-  technical_notes: 'Monday and Wednesday: 3 × 8–10 after primary lifts. The Cube Method
-    was developed from Thigpen''s powerlifting background, which places significant
-    emphasis on posterior- chain accessory volume. Good m...'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Monday: 3 × 8 after deadlift. Hamstring and glute development
-    for the pull phase of all deadlift and stone events. The Cube includes posterior-chain
-    accessory work on the same day as the primary deadl...'
-- ref: pullups
-  role: secondary
-  technical_notes: 'Wednesday and Friday: 3 × max reps or weighted. Upper-back structural
-    development. Thigpen''s original Cube Method includes significant lat and upper-back
-    volume as structural insurance against spinal ...'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: primary deadlift following the three-week Cube wave. Heavy weeks: work to a
+      new 5RM → 3RM → 1RM progression across the four wave cycles. Explosive weeks: 8 × 2
+      at 60% of current 1RM, focusing on bar acceleration from the floor — this is the
+      primary neural development session. Volume weeks: 5 × 5 at 70%. The Cube's deadlift
+      rotation is designed so that heavy, explosive, and volume sessions each provide a
+      distinct stimulus; no single quality is overemphasized across consecutive training days.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: back squat following the Cube wave, offset by one week from the deadlift
+      (if deadlift is in the heavy week, squat is in the explosive or volume week). This
+      offset is the defining feature of the Cube Method — maximum effort work never occurs
+      on two primary lifts in the same week, so no single week has two CNS-intensive
+      sessions. The squat develops the lower body strength base for carry events.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Friday: overhead press (strict barbell) following the Cube wave, offset from both
+      deadlift and squat. Heavy weeks for overhead press coincide with explosive weeks for
+      lower body — the system self-regulates CNS demand across the week. Competition overhead
+      events (log press, axle) are trained on Thursday as a separate event session; the
+      Friday barbell press is the structural strength driver.
+
+  - ref: log_lift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: event overhead session. The log follows its own three-week wave parallel to
+      the barbell press: Heavy log week — work up to a heavy single or double at 90–95% of
+      anticipated competition weight; Explosive log week — 5 × 2 at 60–65%, maximum drive
+      speed; Volume log week — 5 × 4 at 70–75%. Log heavy week is aligned with barbell
+      press explosive or volume week to manage total overhead CNS demand within the same
+      7-day period.
+
+  - ref: farmers_walk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: event carry session. Farmer carry follows the Cube wave for events: Heavy
+      week — 2 × full competition distance at competition weight; Explosive week — 4 × 20 m
+      at 60–65% with maximum acceleration out of the start (first-step speed is the primary
+      emphasis); Volume week — 4 × 30 m at 60%, high total distance. The Cube's event wave
+      prevents carry events from plateauing by rotating stimulus across sessions.
+
+  - ref: atlas_stones
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday event session (alternated with yoke, or combined): Atlas stones also follow
+      the three-week wave. Heavy week — full stone series at 90% of expected competition
+      weight with tacky; Explosive week — reduced weight, focus on hip-extension explosiveness
+      and transition speed from lap to platform; Volume week — 4–5 loading rounds at 70%
+      with tacky. Tacky is used on all Atlas stone sessions from Week 1 of the program.
+
+  - ref: yoke_walk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: yoke following the Cube event wave. Heavy week — 2 × full competition
+      distance at competition weight; Explosive week — 4 × 10 m at 70% with maximum start
+      acceleration (the explosive event day targets step-frequency and starting power, not
+      sustained pace); Volume week — 3 × 25 m at 65%, emphasizing consistent stride rhythm.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Wednesday: 3 × 8–10 after primary lifts. The Cube Method was developed
+      from Thigpen's powerlifting background, which places significant emphasis on posterior-
+      chain accessory volume. Good mornings build the spinal erector and hip extensor
+      capacity that supports all pulling events and carry event posture. Higher volume in
+      the Volume training weeks; reduced volume in Heavy training weeks.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: 3 × 8 after deadlift. Hamstring and glute development for the pull phase
+      of all deadlift and stone events. The Cube includes posterior-chain accessory work
+      on the same day as the primary deadlift to capitalize on the pre-loaded activation
+      state. Load conservatively — the purpose is accessory development, not additional
+      maximum effort work.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Wednesday and Friday: 3 × max reps or weighted. Upper-back structural development.
+      Thigpen's original Cube Method includes significant lat and upper-back volume as
+      structural insurance against spinal shear injuries in deadlift-heavy training.
+      Pull-up volume provides this without additional barbell volume stress.
+
 sources:
-- title: The Cube Method
-  credibility: practitioner
-- title: Cube Method for Strongman
-  credibility: practitioner
+  - title: "The Cube Method"
+    author: "Thigpen, J."
+    year: 2013
+    publisher: "JoshThigpen.com"
+    credibility: practitioner
+  - title: "Cube Method for Strongman"
+    author: "Thigpen, J."
+    year: 2015
+    publisher: "JoshThigpen.com / EliteFTS"
+    credibility: practitioner
 ---
 
 # Cube Method Strongman
@@ -7304,89 +9565,153 @@ The wave repeats four times across 12 weeks. Each repetition of the heavy week t
 
 ---
 
+<!-- FILE: programs/strongman/eddie_hall_training_structure.md -->
+
 ---
+
 id: eddie_hall_training_structure
 name: Eddie Hall Training Structure
+aliases: [Eddie Hall strongman, Hall 2017 WSM, The Beast training]
 category: program
 system: strongman
-goal: Develop extreme absolute strength across all primary movement patterns through
-  near-daily high-intensity training at world-record loading demands, supported by
-  professional recovery infrastructure — with the specific goal of producing the highest
-  possible single-event outputs in key competition disciplines
-goals:
-- strength
-- power
+goal: Develop extreme absolute strength across all primary movement patterns through near-daily high-intensity training at world-record loading demands, supported by professional recovery infrastructure — with the specific goal of producing the highest possible single-event outputs in key competition disciplines
+goals: [strength, power]
 level: advanced
 frequency_per_week: 5
 periodization: undulating
-progression_model: 'Continuous heavy undulating periodization with no fixed periodization
-  cycle. Hall trained at near-maximum intensity on most sessions, relying on professional
-  recovery infrastructure (cryotherapy, massage, sleep protocols) rather than planned
-  volume reductions to manage fatigue. Load is selected daily based on readiness;
-  sessions are structured around 3–5 working sets at 90–95% of daily max. Event training
-  is heavy and competition-specific throughout the year, not reduced to maintenance
-  levels in the off-season. The framework has no fixed duration — it is a permanent
-  professional training structure.
+origin: classic
+progression_model: >
+  Continuous heavy undulating periodization with no fixed periodization cycle. Hall
+  trained at near-maximum intensity on most sessions, relying on professional recovery
+  infrastructure (cryotherapy, massage, sleep protocols) rather than planned volume
+  reductions to manage fatigue. Load is selected daily based on readiness; sessions are
+  structured around 3–5 working sets at 90–95% of daily max. Event training is heavy
+  and competition-specific throughout the year, not reduced to maintenance levels in the
+  off-season. The framework has no fixed duration — it is a permanent professional
+  training structure.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: Monday and Thursday. Hall's documented deadlift training involved
-    heavy singles and triples at 90–95% of 1RM on most sessions. His 2016 World Record
-    pull (500 kg) was the product of a training philoso...
-- ref: back_squat
-  role: primary
-  technical_notes: Tuesday and Friday. Hall's squat training prioritizes absolute
-    lower body strength as the foundation of all carry events and stone loading. 4–5
-    working sets at 85–90% of 1RM on primary squat days. Unl...
-- ref: overhead_press
-  role: primary
-  technical_notes: Tuesday and Saturday. Strict overhead press and log press are the
-    primary overhead movements. Hall's documented overhead training is notably high-volume
-    — 4–6 working sets per session at 80–90% — refl...
-- ref: log_lift
-  role: primary
-  technical_notes: 'Wednesday (technique-focused: 5 × 3 at 80–85%) and Saturday (heavy:
-    3–5 heavy singles at 90–95% of anticipated competition weight). Hall''s log press
-    training reflects a competitive philosophy: the log...'
-- ref: atlas_stones
-  role: primary
-  technical_notes: Wednesday and Saturday. Hall's stone training was notable for its
-    heavy tacky use and competition-weight specificity throughout the year. Full stone
-    series at or near competition weight is the goal; m...
-- ref: farmers_walk
-  role: primary
-  technical_notes: 'Thursday: event farmer carry session. 3–4 × full competition distance
-    at competition weight or overload (5–10%). Hall''s documented farmer carry training
-    is aggressive — competition-weight carries thro...'
-- ref: yoke_walk
-  role: secondary
-  technical_notes: 'Thursday: 3 × full competition distance at competition weight.
-    Occasional overload sets at 5–10% above competition weight restricted to ≤ 10
-    m. Hall''s yoke training in competition prep periods emphasi...'
-- ref: tire_flip
-  role: secondary
-  technical_notes: 'Wednesday: 3–4 sets of 5–8 flips. Posterior chain and hip-extension
-    power development. Hall uses tire flip as a GPP tool and hip-extension power accessory.
-    In competition years, tire flip may be repla...'
-- ref: floor_press
-  role: secondary
-  technical_notes: 'Tuesday or Friday: 4 × 4–6 at heavy load. Hall includes floor
-    press as a structural pressing accessory that develops tricep lockout strength
-    and shoulder stability without the range-of-motion stress o...'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: 'Monday and Wednesday: 4 × 8–10 at heavy load. Hall''s documented
-    training includes substantial bent-over row volume as a structural upper-back
-    development tool. The upper-back retraction strength that ...'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday. Hall's documented deadlift training involved heavy singles and
+      triples at 90–95% of 1RM on most sessions. His 2016 World Record pull (500 kg) was
+      the product of a training philosophy that never reduced deadlift intensity to
+      maintenance levels — the deadlift was trained heavy year-round. Conventional stance
+      exclusively; Hall rejected sumo as a valid competition preparation tool. Heavy use of
+      straps on all working sets to eliminate grip as a limiting factor on the deadlift itself
+      (grip is trained separately on event days).
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. Hall's squat training prioritizes absolute lower body strength
+      as the foundation of all carry events and stone loading. 4–5 working sets at 85–90%
+      of 1RM on primary squat days. Unlike many strongman athletes, Hall maintained high
+      squat frequency throughout the year because of his conviction that leg strength
+      is the primary limiter of carry event speed and stone loading power.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Saturday. Strict overhead press and log press are the primary overhead
+      movements. Hall's documented overhead training is notably high-volume — 4–6 working
+      sets per session at 80–90% — reflecting his belief that overhead capacity is the
+      most frequently undertrained quality in strongman athletes who prioritize deadlift
+      performance. Push press is used for overload sets above strict press 1RM.
+
+  - ref: log_lift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Wednesday (technique-focused: 5 × 3 at 80–85%) and Saturday (heavy: 3–5 heavy
+      singles at 90–95% of anticipated competition weight). Hall's log press training
+      reflects a competitive philosophy: the log is the primary overhead event in the
+      sport's most prestigious competitions, and it must be trained heavy, year-round.
+      Competition-weight log attempts occur throughout the year, not only in competition
+      prep. This level of specificity requires professional-grade shoulder recovery support.
+
+  - ref: atlas_stones
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Wednesday and Saturday. Hall's stone training was notable for its heavy tacky use
+      and competition-weight specificity throughout the year. Full stone series at or near
+      competition weight is the goal; maintenance-load stone sessions are not part of the
+      framework. Every stone session uses tacky. The loading platform height matches the
+      competition standard used in target competitions.
+
+  - ref: farmers_walk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: event farmer carry session. 3–4 × full competition distance at competition
+      weight or overload (5–10%). Hall's documented farmer carry training is aggressive —
+      competition-weight carries throughout the year. Grip training on farmer handles is
+      straps-free; straps are not used on event days.
+
+  - ref: yoke_walk
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × full competition distance at competition weight. Occasional overload
+      sets at 5–10% above competition weight restricted to ≤ 10 m. Hall's yoke training
+      in competition prep periods emphasizes pace — the target is consistently hitting
+      the competition distance under the required time — rather than simply completing
+      the distance.
+
+  - ref: tire_flip
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3–4 sets of 5–8 flips. Posterior chain and hip-extension power development.
+      Hall uses tire flip as a GPP tool and hip-extension power accessory. In competition
+      years, tire flip may be replaced by an event-specific implement if the contest includes
+      a loading or moving event that tire flip does not replicate.
+
+  - ref: floor_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Tuesday or Friday: 4 × 4–6 at heavy load. Hall includes floor press as a structural
+      pressing accessory that develops tricep lockout strength and shoulder stability without
+      the range-of-motion stress of the bench press. Floor press receiving position approximates
+      the jerk lockout geometry in log press. Heavy tricep strength development supports
+      the final lockout phase of the log press.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Wednesday: 4 × 8–10 at heavy load. Hall's documented training includes
+      substantial bent-over row volume as a structural upper-back development tool. The
+      upper-back retraction strength that rows develop provides the structural foundation
+      for yoke walk posture, stone loading under fatigue, and deadlift bar-path control
+      at world-record loads.
+
 sources:
-- title: 'Eddie Hall: The Beast — Training Methodology'
-  credibility: practitioner
-- title: 'A Journey: My Autobiography'
-  credibility: autobiography
-- title: 'The Strongman as strength athlete: a current view'
-  credibility: literature_review
+  - title: "Eddie Hall: The Beast — Training Methodology"
+    author: "Hall, E."
+    year: 2017
+    publisher: "YouTube: Eddie Hall — The Beast"
+    credibility: practitioner
+  - title: "A Journey: My Autobiography"
+    author: "Hall, E."
+    year: 2017
+    publisher: "Blink Publishing"
+    credibility: autobiography
+  - title: "The Strongman as strength athlete: a current view"
+    author: "Keogh, J. W. L., Winwood, P. W."
+    year: 2017
+    journal: "Sports Medicine"
+    volume: 47
+    issue: 8
+    pages: "1523-1544"
+    doi: "10.1007/s40279-017-0671-7"
+    credibility: literature_review
 ---
 
 # Eddie Hall Training Structure
@@ -7440,87 +9765,140 @@ Attempting this training volume and intensity without the recovery infrastructur
 
 ---
 
+<!-- FILE: programs/strongman/juggernaut_method_strongman.md -->
+
 ---
+
 id: juggernaut_method_strongman
 name: Juggernaut Method Strongman
+aliases: [Juggernaut strongman, CWS strongman, Chad Wesley Smith strongman]
 category: program
 system: strongman
-goal: Build competition-ready peak strength and event proficiency through block periodization
-  with waved loading, targeting a specific competition date at the end of the 16-week
-  cycle
-goals:
-- strength
-- hypertrophy
+goal: Build competition-ready peak strength and event proficiency through block periodization with waved loading, targeting a specific competition date at the end of the 16-week cycle
+goals: [strength, hypertrophy]
 level: intermediate
 duration_weeks: 16
 frequency_per_week: 4
 periodization: block
-progression_model: 'Four-week waved blocks, each with three training weeks followed
-  by a deload week. Each block uses a different rep target (10s → 8s → 5s → 3s) with
-  load increasing across weeks within the block. Week 1 of each block: 60% of 1RM
-  for the block''s rep target + 25 kg. Week 2: add 5 kg. Week 3: add another 5 kg
-  (max of that block). Week 4: deload at 50% volume, same intensity. Event loading
-  follows the same wave structure but uses competition-implement load targets as the
-  reference. Event simulation sessions replace barbell strength sessions in the final
-  4-week block.
+origin: classic
+progression_model: >
+  Four-week waved blocks, each with three training weeks followed by a deload week.
+  Each block uses a different rep target (10s → 8s → 5s → 3s) with load increasing
+  across weeks within the block. Week 1 of each block: 60% of 1RM for the block's rep
+  target + 25 kg. Week 2: add 5 kg. Week 3: add another 5 kg (max of that block).
+  Week 4: deload at 50% volume, same intensity. Event loading follows the same wave
+  structure but uses competition-implement load targets as the reference. Event simulation
+  sessions replace barbell strength sessions in the final 4-week block.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday: primary barbell deadlift following the Juggernaut wave
-    scheme. Weeks 1–4 (10s block): 3 × 10. Weeks 5–8 (8s block): 3 × 8. Weeks 9–12
-    (5s block): 3 × 5. Weeks 13–16 (3s block / competition pre...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday and Wednesday: the primary lower-body strength lift, also
-    following the wave scheme. The squat is treated as the primary performance lever
-    — Juggernaut''s block periodization was originally deve...'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday and Thursday: barbell strict press on Tuesday, event overhead
-    on Thursday. Juggernaut overhead press follows the same wave scheme as lower body
-    lifts but with 2.5 kg increments. Event overhead...'
-- ref: log_lift
-  role: primary
-  technical_notes: 'Thursday: competition implement overhead session. Runs parallel
-    to barbell overhead press but at competition-specific load targets. In the 10s
-    and 8s blocks, log is practiced in sets of 5–6 at 60–75% ...'
-- ref: farmers_walk
-  role: primary
-  technical_notes: 'Thursday: event session. 4 × 20 m in the 10s and 8s blocks (load
-    accumulation); 3 × full competition distance in the 5s and 3s blocks (specificity).
-    Juggernaut Strongman treats event training as a par...'
-- ref: atlas_stones
-  role: primary
-  technical_notes: 'Wednesday: event session. Atlas stones are loaded incrementally
-    across blocks — lightest stone series in the 10s block (3–5 loads per session),
-    progressing to the full competition weight series by the...'
-- ref: yoke_walk
-  role: secondary
-  technical_notes: 'Thursday: event session. 3 × 10–20 m in early blocks; full competition
-    distance × 2–3 in the 5s and 3s blocks. Overload yoke training (5–10% above competition
-    weight) is restricted to 10 m or less. Fu...'
-- ref: front_squat
-  role: secondary
-  technical_notes: 'Wednesday: 3 × 3–5 at 80% of front squat 1RM. Not part of the
-    wave scheme; it is an event-specific accessory that develops the receiving position
-    for Atlas stone loading and carry event posture. The f...'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Monday: 3 × 8–10 after the primary deadlift. Posterior-chain accessory.
-    Juggernaut Strongman includes posterior chain supplemental work after every primary
-    deadlift session to develop the hip-hinge st...'
-- ref: pullups
-  role: secondary
-  technical_notes: 'Tuesday and Thursday: 3 × max reps (bodyweight or weighted). Upper-back
-    structural development. Pull-up volume builds the lat and mid-trapezius retraction
-    strength that protects the shoulder under yok...'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: primary barbell deadlift following the Juggernaut wave scheme. Weeks 1–4
+      (10s block): 3 × 10. Weeks 5–8 (8s block): 3 × 8. Weeks 9–12 (5s block): 3 × 5.
+      Weeks 13–16 (3s block / competition prep): 2 × 3 + 1 AMRAP to gauge peak strength.
+      The Juggernaut AMRAP (As Many Reps As Possible) set on the third week of each block
+      is the primary performance indicator — it predicts the 1RM and drives the next block's
+      loading. Do not limit the AMRAP; complete as many reps as possible with good form.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Wednesday: the primary lower-body strength lift, also following the wave
+      scheme. The squat is treated as the primary performance lever — Juggernaut's block
+      periodization was originally developed for powerlifting and applies directly here.
+      High-bar position preferred for strongman-specific carry-over. AMRAP sets on the
+      third week of each block.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday: barbell strict press on Tuesday, event overhead on Thursday.
+      Juggernaut overhead press follows the same wave scheme as lower body lifts but
+      with 2.5 kg increments. Event overhead Thursday — log press at competition-
+      equivalent load following the same block structure as the barbell lifts.
+
+  - ref: log_lift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: competition implement overhead session. Runs parallel to barbell overhead
+      press but at competition-specific load targets. In the 10s and 8s blocks, log is
+      practiced in sets of 5–6 at 60–75% of anticipated competition weight. In the 5s
+      block, log practice targets 80–90%. In the 3s/competition block, log practice
+      targets competition weight for singles and event-simulation sets.
+
+  - ref: farmers_walk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: event session. 4 × 20 m in the 10s and 8s blocks (load accumulation);
+      3 × full competition distance in the 5s and 3s blocks (specificity). Juggernaut
+      Strongman treats event training as a parallel periodization track: volume is
+      high in early blocks, specificity increases in later blocks, mirroring the barbell
+      periodization. Competition event simulation (full distance at competition weight)
+      begins in Week 9.
+
+  - ref: atlas_stones
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: event session. Atlas stones are loaded incrementally across blocks —
+      lightest stone series in the 10s block (3–5 loads per session), progressing to
+      the full competition weight series by the 5s block. Tacky is introduced from
+      Week 5. In the final 4-week block, every stone session must use full competition
+      weight with tacky throughout.
+
+  - ref: yoke_walk
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: event session. 3 × 10–20 m in early blocks; full competition distance
+      × 2–3 in the 5s and 3s blocks. Overload yoke training (5–10% above competition
+      weight) is restricted to 10 m or less. Full-distance sets are at competition weight
+      only. Juggernaut's approach uses overload as a neural training tool at short
+      distances, then consolidates at competition load for race-pace endurance.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3 × 3–5 at 80% of front squat 1RM. Not part of the wave scheme; it
+      is an event-specific accessory that develops the receiving position for Atlas stone
+      loading and carry event posture. The front squat ratio to the back squat must
+      remain above 80%; if it drops, shift one Wednesday back squat to front squat.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: 3 × 8–10 after the primary deadlift. Posterior-chain accessory. Juggernaut
+      Strongman includes posterior chain supplemental work after every primary deadlift
+      session to develop the hip-hinge strength that protects the lower back at high
+      volumes during the 10s and 8s blocks.
+
+  - ref: pullups
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday: 3 × max reps (bodyweight or weighted). Upper-back structural
+      development. Pull-up volume builds the lat and mid-trapezius retraction strength
+      that protects the shoulder under yoke and reinforces the bar-body contact mechanics
+      of carry events.
+
 sources:
-- title: The Juggernaut Method 2.0
-  credibility: practitioner
-- title: 'Strongman Training: Juggernaut application'
-  credibility: practitioner
+  - title: "The Juggernaut Method 2.0"
+    author: "Smith, C. W."
+    year: 2012
+    publisher: "Juggernaut Training Systems"
+    credibility: practitioner
+  - title: "Strongman Training: Juggernaut application"
+    author: "Juggernaut Training Systems"
+    year: 2016
+    credibility: practitioner
 ---
 
 # Juggernaut Method Strongman
@@ -7585,85 +9963,144 @@ The defining feature of the Juggernaut Method is the **AMRAP set**: on the third
 
 ---
 
+<!-- FILE: programs/strongman/starting_strongman.md -->
+
 ---
+
 id: starting_strongman
 name: Starting Strongman
+aliases: [Kalle Beck strongman, beginner strongman program, starting strongman program]
 category: program
 system: strongman
-goal: Build the foundational strength and implement familiarity required to compete
-  in amateur strongman, starting from a general barbell background and progressing
-  to competition-standard events through linear load increases
-goals:
-- strength
+goal: Build the foundational strength and implement familiarity required to compete in amateur strongman, starting from a general barbell background and progressing to competition-standard events through linear load increases
+goals: [strength]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 4
 periodization: linear
-progression_model: 'Simple linear progression on all barbell lifts: add 5 kg per week
-  to lower body movements, 2.5 kg per week to upper body movements, when all prescribed
-  sets and reps are completed. Implement loads increase by 5–10% every two sessions
-  when form is consistent. If a lift stalls (fails to progress for two consecutive
-  weeks), deload that lift by 10% and rebuild for two weeks before attempting the
-  sticking point again. The program runs 12 weeks as written; after Week 12, transition
-  to strongman_intermediate_block.
+origin: classic
+progression_model: >
+  Simple linear progression on all barbell lifts: add 5 kg per week to lower body movements,
+  2.5 kg per week to upper body movements, when all prescribed sets and reps are completed.
+  Implement loads increase by 5–10% every two sessions when form is consistent. If a lift
+  stalls (fails to progress for two consecutive weeks), deload that lift by 10% and rebuild
+  for two weeks before attempting the sticking point again. The program runs 12 weeks as
+  written; after Week 12, transition to strongman_intermediate_block.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday (strength: 3 × 5 at 75–85%) and Thursday (event pull: 3
-    × 3 at 85–90%, or timed deadlift medley if a contest event). The conventional
-    deadlift is the primary pull strength builder and the base ...'
-- ref: back_squat
-  role: primary
-  technical_notes: Monday (5 × 5 at 70–80%) and Wednesday (3 × 3 at 80–85%). The squat
-    is the primary lower body strength driver. Carry events, loading events, and yoke
-    walk all require high-bar squat mechanics — front-...
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday (strict press: 4 × 5) and Thursday (push press or event
-    overhead: 3 × 5). The strict overhead press builds the shoulder girdle structural
-    base; the push press develops leg-drive mechanics that...'
-- ref: log_lift
-  role: primary
-  technical_notes: 'Wednesday or Thursday: 5 × 3 building up to a moderate event load.
-    The log is the highest-priority implement in Starting Strongman — it appears in
-    more amateur competitions than any other overhead eve...'
-- ref: farmers_walk
-  role: primary
-  technical_notes: 'Thursday: 4 × 20 m at moderate load (40–50% of competition target).
-    Farmer carry is the highest-frequency event in amateur competition and the easiest
-    to over-fatigue in training. Starting Strongman a...'
-- ref: atlas_stones
-  role: secondary
-  technical_notes: 'Wednesday: 3 sessions of 3–5 stone loads to platform. Atlas stone
-    is the hardest event to coach remotely and the most technically demanding in the
-    sport. Starting Strongman athletes must find access t...'
-- ref: yoke_walk
-  role: secondary
-  technical_notes: 'Thursday: 3 × 10–20 m at moderate load (below bodyweight to start).
-    Yoke walk is the most neurologically demanding event for beginners — the instability
-    of the yoke frame at the top creates lateral os...'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: 'Tuesday and Thursday: 4 × 8. Upper-back development is the most
-    commonly undertrained quality in beginner strongman athletes. Heavy rows build
-    the mid-trapezius retraction strength that protects the s...'
-- ref: good_morning
-  role: secondary
-  technical_notes: 'Wednesday: 3 × 10 at light to moderate load. Posterior-chain accessory
-    for all pulling and carrying events. Good mornings teach hip hinge mechanics under
-    spinal load — essential for Atlas stone loadin...'
-- ref: romanian_deadlift
-  role: secondary
-  technical_notes: 'Monday: 3 × 8 after squats. Hamstring and glute development for
-    pull events. Romanian deadlift builds the isometric hamstring-hip strength that
-    limits conventional deadlift performance at the beginner...'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (strength: 3 × 5 at 75–85%) and Thursday (event pull: 3 × 3 at 85–90%, or
+      timed deadlift medley if a contest event). The conventional deadlift is the primary
+      pull strength builder and the base for all competition pulling events. Starting Strongman
+      athletes are not required to use sumo; conventional builds the hip hinge pattern that
+      transfers directly to Atlas stone loading, car deadlift, and axle pull.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (5 × 5 at 70–80%) and Wednesday (3 × 3 at 80–85%). The squat is the primary
+      lower body strength driver. Carry events, loading events, and yoke walk all require
+      high-bar squat mechanics — front-rack receiving position and upright torso. High-bar
+      position is strongly preferred for Starting Strongman athletes.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday (strict press: 4 × 5) and Thursday (push press or event overhead: 3 × 5).
+      The strict overhead press builds the shoulder girdle structural base; the push press
+      develops leg-drive mechanics that carry over directly to log press and axle press.
+      At the beginner level, the strict press should be the primary overhead builder until
+      the athlete can strict press 1× bodyweight.
+
+  - ref: log_lift
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday or Thursday: 5 × 3 building up to a moderate event load. The log is the
+      highest-priority implement in Starting Strongman — it appears in more amateur
+      competitions than any other overhead event. The log's neutral grip and offset center
+      of mass require distinct motor learning. Begin at a load that feels light and focus
+      entirely on the clean from the ground to the lap, and the lap-to-shoulder transfer.
+      Do not attempt max logs before Week 6.
+
+  - ref: farmers_walk
+    role: primary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 4 × 20 m at moderate load (40–50% of competition target). Farmer carry is
+      the highest-frequency event in amateur competition and the easiest to over-fatigue in
+      training. Starting Strongman athletes should accumulate distance, not load. Grip is
+      the primary limiting factor; train straps-free to develop grip capacity. Add load when
+      the 20 m sets feel "in control" for two consecutive sessions.
+
+  - ref: atlas_stones
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3 sessions of 3–5 stone loads to platform. Atlas stone is the hardest
+      event to coach remotely and the most technically demanding in the sport. Starting
+      Strongman athletes must find access to actual stones — a stone trainer or sandbag
+      is a temporary supplement only. Learn the lap position (stone locked between thighs
+      and abdomen at hip height) before adding any load. Work bare for the first four weeks
+      to develop the forearm friction strength needed before tacky use.
+
+  - ref: yoke_walk
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 10–20 m at moderate load (below bodyweight to start). Yoke walk is
+      the most neurologically demanding event for beginners — the instability of the yoke
+      frame at the top creates lateral oscillation that must be controlled through hip
+      width, step frequency, and core stiffness. Begin with empty or very light yoke for
+      the first two weeks. Short, quick steps are more important than long strides.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Thursday: 4 × 8. Upper-back development is the most commonly undertrained
+      quality in beginner strongman athletes. Heavy rows build the mid-trapezius retraction
+      strength that protects the spine under yoke, carries, and Atlas stone loading. Use
+      strict form — no hip drive.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3 × 10 at light to moderate load. Posterior-chain accessory for all
+      pulling and carrying events. Good mornings teach hip hinge mechanics under spinal
+      load — essential for Atlas stone loading and deadlift longevity. Begin with an
+      empty bar if necessary.
+
+  - ref: romanian_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Monday: 3 × 8 after squats. Hamstring and glute development for pull events.
+      Romanian deadlift builds the isometric hamstring-hip strength that limits conventional
+      deadlift performance at the beginner level. Maintain a neutral spine throughout
+      — the hips hinge, the bar drags the thighs.
+
 sources:
-- title: Starting Strongman Program
-  credibility: practitioner
-- title: Physical demands and event rankings of amateur strongman competition
-  credibility: cross_sectional
+  - title: "Starting Strongman Program"
+    author: "Beck, K."
+    year: 2019
+    publisher: "StartingStrongman.com"
+    credibility: practitioner
+  - title: "Physical demands and event rankings of amateur strongman competition"
+    author: "Winwood, P. W., Cronin, J. B., Posthumus, L. R., Finlayson, S. J., Gill, N. D., Keogh, J. W. L."
+    year: 2015
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 29
+    issue: 8
+    pages: "2097-2103"
+    doi: "10.1519/JSC.0000000000000862"
+    credibility: cross_sectional
 ---
 
 # Starting Strongman
@@ -7736,75 +10173,112 @@ Beck's central insight is that **amateur strongman events are learnable skills, 
 
 ---
 
+<!-- FILE: programs/strongman/strongman_competition_prep.md -->
+
 ---
+
 id: strongman_competition_prep
 name: Strongman Competition Preparation
+aliases: [strongman advanced, strongman comp prep, competition strongman, advanced strongman]
 category: program
 system: strongman
-goal: Prepare a competitive strongman athlete for a specific contest through event-specific
-  periodization, maximal strength peaking, and contest-simulation training
-goals:
-- strength
-- athletic_performance
+goal: Prepare a competitive strongman athlete for a specific contest through event-specific periodization, maximal strength peaking, and contest-simulation training
+goals: [strength, athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 5
 periodization: block
-progression_model: 'Block 1 (Weeks 1–5): General Preparation — volume accumulation,
-  5×5 strength work at 70–80%, high event reps. Block 2 (Weeks 6–10): Specific Preparation
-  — lower reps, higher intensity (85–90%), event loads approaching contest weight.
+origin: synthesized
+progression_model: >
+  Block 1 (Weeks 1–5): General Preparation — volume accumulation, 5×5 strength work at
+  70–80%, high event reps. Block 2 (Weeks 6–10): Specific Preparation — lower reps,
+  higher intensity (85–90%), event loads approaching contest weight.
   Block 3 (Weeks 11–14): Competition Specific — practice contest events at contest
-  weight or 95% thereof, simulate contest day. Block 4 (Weeks 15–16): Peaking — reduce
-  volume 45–50%, reduce intensity to ≈50% of peak in the final week (not maintained
-  — intensity drops with volume). Training ceases 3–4 days before competition. Contest
-  week: technique confirmation only at ≤50% of competition weight.
+  weight or 95% thereof, simulate contest day. Block 4 (Weeks 15–16): Peaking —
+  reduce volume 45–50%, reduce intensity to ≈50% of peak in the final week (not
+  maintained — intensity drops with volume). Training ceases 3–4 days before
+  competition. Contest week: technique confirmation only at ≤50% of competition weight.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday (strength: 5 × 2–3 @ 88–95%). Thursday (event simulation:
-    deadlift medley or max reps at contest weight). Primary contest event for most
-    competitions; also builds the base for all carry events.'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday (strict press: 5 × 3 @ 85–90%). Friday (implement press
-    simulation at contest load). The strict press is the foundational strength builder;
-    contest overhead events (log, axle, circus dumbbell)...'
-- ref: back_squat
-  role: primary
-  technical_notes: 'Monday (5 × 3 @ 85%) and Wednesday (volume: 4 × 5 @ 75%). Yoke
-    walk, atlas stone, and carry event performance is closely correlated with squat
-    strength.'
-- ref: push_press
-  role: primary
-  technical_notes: Tuesday and Friday. Heavy push press at contest overhead implement
-    load. Develops the leg-drive component of log press and axle press; contest- specific
-    technique more important than barbell push pres...
-- ref: sumo_deadlift
-  role: secondary
-  technical_notes: 'Thursday: 3 × 3–5. Axle deadlift events often suit sumo mechanics.
-    Cycles with conventional throughout the program.'
-- ref: front_squat
-  role: secondary
-  technical_notes: 'Wednesday: 3 × 4–6. Yoke walk and atlas stone loading require
-    quad-dominant upright torso strength. Front squat builds specificity for these
-    events.'
-- ref: good_morning
-  role: secondary
-  technical_notes: 'Thursday: 3 × 6–8. Posterior chain accessory for carry events.
-    Specifically targets the back-extension component of atlas stone loading under
-    fatigue.'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: 'Tuesday: 4 × 6–8. Upper back strength for yoke stability and carry
-    event posture maintenance. Heavy rows reduce the tendency to round forward under
-    heavy loaded carries.'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (strength: 5 × 2–3 @ 88–95%). Thursday (event simulation: deadlift
+      medley or max reps at contest weight). Primary contest event for most
+      competitions; also builds the base for all carry events.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday (strict press: 5 × 3 @ 85–90%). Friday (implement press simulation
+      at contest load). The strict press is the foundational strength builder;
+      contest overhead events (log, axle, circus dumbbell) all require this base.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (5 × 3 @ 85%) and Wednesday (volume: 4 × 5 @ 75%). Yoke walk, atlas
+      stone, and carry event performance is closely correlated with squat strength.
+
+  - ref: push_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday and Friday. Heavy push press at contest overhead implement load.
+      Develops the leg-drive component of log press and axle press; contest-
+      specific technique more important than barbell push press mechanics.
+
+  - ref: sumo_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 3–5. Axle deadlift events often suit sumo mechanics.
+      Cycles with conventional throughout the program.
+
+  - ref: front_squat
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Wednesday: 3 × 4–6. Yoke walk and atlas stone loading require quad-dominant
+      upright torso strength. Front squat builds specificity for these events.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 6–8. Posterior chain accessory for carry events. Specifically
+      targets the back-extension component of atlas stone loading under fatigue.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Tuesday: 4 × 6–8. Upper back strength for yoke stability and carry event
+      posture maintenance. Heavy rows reduce the tendency to round forward under
+      heavy loaded carries.
+
 sources:
-- title: 'The Strongman as strength athlete: a current view'
-  credibility: literature_review
-- title: Physical demands and event rankings of amateur strongman competition
-  credibility: cross_sectional
+  - title: "The Strongman as strength athlete: a current view"
+    author: "Keogh, J. W. L., Winwood, P. W."
+    year: 2017
+    journal: "Sports Medicine"
+    volume: 47
+    issue: 8
+    pages: "1523-1544"
+    doi: "10.1007/s40279-017-0671-7"
+    credibility: literature_review
+  - title: "Physical demands and event rankings of amateur strongman competition"
+    author: "Winwood, P. W., Cronin, J. B., Posthumus, L. R., Finlayson, S. J., Gill, N. D., Keogh, J. W. L."
+    year: 2015
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 29
+    issue: 8
+    pages: "2097-2103"
+    doi: "10.1519/JSC.0000000000000862"
+    credibility: cross_sectional
 ---
 
 # Strongman Competition Preparation
@@ -7876,67 +10350,106 @@ See `hydration` for fluid replacement protocols. See `energy_balance` for contes
 
 ---
 
+<!-- FILE: programs/strongman/strongman_intermediate_block.md -->
+
 ---
+
 id: strongman_intermediate_block
 name: Strongman Intermediate Block
+aliases: [strongman intermediate, strongman training intermediate, event training strongman]
 category: program
 system: strongman
-goal: Develop strength across all strongman event categories (press, pull, squat,
-  carry) through a combined strength base and event-specific training structure
-goals:
-- strength
+goal: Develop strength across all strongman event categories (press, pull, squat, carry) through a combined strength base and event-specific training structure
+goals: [strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4
 periodization: linear
-progression_model: 'Strength base lifts: linear progression, add 5 kg (lower body)
-  or 2.5 kg (upper body) weekly when all prescribed sets are completed. Event work:
-  progression tracked by implement load or distance covered per set. Event loads increase
-  5 kg per 2-week block when performance standard is met. Deload every 6 weeks: reduce
-  volume 40%, drop event loads to 70% of previous block.
+origin: synthesized
+progression_model: >
+  Strength base lifts: linear progression, add 5 kg (lower body) or 2.5 kg (upper body)
+  weekly when all prescribed sets are completed. Event work: progression tracked by
+  implement load or distance covered per set. Event loads increase 5 kg per 2-week block
+  when performance standard is met. Deload every 6 weeks: reduce volume 40%, drop event
+  loads to 70% of previous block.
 
-  '
 exercises:
-- ref: conventional_deadlift
-  role: primary
-  technical_notes: 'Monday (heavy singles/doubles: 5 × 2–3 @ 85–90%) and Thursday
-    (volume: 4 × 5 @ 75%). Primary strength builder for deadlift and frame carry events.
-    Also trains the posterior chain endurance required fo...'
-- ref: overhead_press
-  role: primary
-  technical_notes: 'Tuesday (strict press: 5 × 3–5 @ 80%) and Friday (log press simulation:
-    push press 4 × 4 @ 75%). Strict press builds the foundation; push press develops
-    the leg drive used in log press, axle press, an...'
-- ref: back_squat
-  role: primary
-  technical_notes: Monday and Thursday. 4 × 4–6. Lower body power base; supports loading
-    events (atlas stone) and yoke walk stability. Strongman athletes typically squat
-    in a wider stance than powerlifters.
-- ref: push_press
-  role: secondary
-  technical_notes: 'Friday: 4 × 5–8 as primary overhead event simulation. Develops
-    the dip-drive mechanics used in log press and axle press. Heavy push press with
-    leg drive from day one — the strict-to-push press ratio m...'
-- ref: sumo_deadlift
-  role: secondary
-  technical_notes: 'Thursday: 3 × 5 @ 70–75% of conventional deadlift. Hip-dominant
-    variation; develops the wide-stance pulling mechanics used in axle deadlift events.
-    Alternated with conventional on Thursday over the 12...'
-- ref: bent_over_barbell_row
-  role: secondary
-  technical_notes: 'Tuesday: 4 × 8–10 following overhead press. Back thickness and
-    upper back pulling strength. Complements heavy rowing in farmer carry and loading
-    events through improved thoracic stability.'
-- ref: good_morning
-  role: secondary
-  technical_notes: 'Thursday: 3 × 8–10 @ light-to-moderate load following squat. Posterior
-    chain accessory; addresses the back-extension component of atlas stone loading
-    and heavy carry events.'
+  - ref: conventional_deadlift
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday (heavy singles/doubles: 5 × 2–3 @ 85–90%) and Thursday (volume: 4 × 5
+      @ 75%). Primary strength builder for deadlift and frame carry events. Also
+      trains the posterior chain endurance required for atlas stone loading.
+
+  - ref: overhead_press
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Tuesday (strict press: 5 × 3–5 @ 80%) and Friday (log press simulation:
+      push press 4 × 4 @ 75%). Strict press builds the foundation; push press
+      develops the leg drive used in log press, axle press, and circus dumbbell events.
+
+  - ref: back_squat
+    role: primary
+    frequency_per_week: 2
+    technical_notes: >
+      Monday and Thursday. 4 × 4–6. Lower body power base; supports loading events
+      (atlas stone) and yoke walk stability. Strongman athletes typically squat in
+      a wider stance than powerlifters.
+
+  - ref: push_press
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Friday: 4 × 5–8 as primary overhead event simulation. Develops the dip-drive
+      mechanics used in log press and axle press. Heavy push press with leg drive
+      from day one — the strict-to-push press ratio matters less in strongman than
+      the absolute overhead number.
+
+  - ref: sumo_deadlift
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 5 @ 70–75% of conventional deadlift. Hip-dominant variation;
+      develops the wide-stance pulling mechanics used in axle deadlift events.
+      Alternated with conventional on Thursday over the 12-week cycle.
+
+  - ref: bent_over_barbell_row
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Tuesday: 4 × 8–10 following overhead press. Back thickness and upper back
+      pulling strength. Complements heavy rowing in farmer carry and loading events
+      through improved thoracic stability.
+
+  - ref: good_morning
+    role: secondary
+    frequency_per_week: 1
+    technical_notes: >
+      Thursday: 3 × 8–10 @ light-to-moderate load following squat. Posterior chain
+      accessory; addresses the back-extension component of atlas stone loading and
+      heavy carry events.
+
 sources:
-- title: A national survey of American strongman competitors
-  credibility: cross_sectional
-- title: 'The Strongman as strength athlete: a current view'
-  credibility: literature_review
+  - title: "A national survey of American strongman competitors"
+    author: "Winwood, P. W., Keogh, J. W. L., Harris, N. K."
+    year: 2011
+    journal: "Journal of Strength and Conditioning Research"
+    volume: 25
+    issue: 11
+    pages: "3030-3042"
+    doi: "10.1519/JSC.0b013e318236b0ee"
+    credibility: cross_sectional
+  - title: "The Strongman as strength athlete: a current view"
+    author: "Keogh, J. W. L., Winwood, P. W."
+    year: 2017
+    journal: "Sports Medicine"
+    volume: 47
+    issue: 8
+    pages: "1523-1544"
+    doi: "10.1007/s40279-017-0671-7"
+    credibility: literature_review
 ---
 
 # Strongman Intermediate Block
