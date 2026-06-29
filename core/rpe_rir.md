@@ -4,7 +4,7 @@ name: RPE and RIR
 aliases: [RPE, RIR, Rate of Perceived Exertion, Reps in Reserve, autoregulation]
 category: principle
 applies_to: [all_systems]
-related: [progressive_overload, volume_landmarks, periodization]
+related: [progressive_overload, volume_landmarks, periodization, training_to_failure, hypertrophy_mechanisms]
 sources:
   - title: "The Reactive Training Manual"
     author: "Tuchscherer, Mike"

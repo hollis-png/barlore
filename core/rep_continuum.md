@@ -4,7 +4,7 @@ name: Rep Continuum
 aliases: [repetition continuum, rep range, load-rep relationship, strength-hypertrophy-endurance spectrum]
 category: principle
 applies_to: [all_systems]
-related: [progressive_overload, volume_landmarks, rpe_rir, periodization]
+related: [progressive_overload, volume_landmarks, rpe_rir, periodization, hypertrophy_mechanisms, training_to_failure]
 sources:
   - title: "Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis"
     author: "Schoenfeld, Grgic, Ogborn, Krieger"

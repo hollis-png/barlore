@@ -65,6 +65,8 @@ export default defineConfig({
             { text: "RPE & RIR", link: "/core/rpe_rir" },
             { text: "Rep Continuum", link: "/core/rep_continuum" },
             { text: "Specificity (SAID)", link: "/core/specificity" },
+            { text: "Hypertrophy Mechanisms", link: "/core/hypertrophy_mechanisms" },
+            { text: "Training to Failure", link: "/core/training_to_failure" },
             { text: "Deload", link: "/core/deload" },
           ],
         },
