@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Barlore
   text: Training Encyclopedia
-  tagline: 680 exercises, 52 programs, 6 systems. Every claim evidence-tiered.
+  tagline: 688 exercises, 53 programs, 6 systems. 92 exercises backed by peer-reviewed research.
   actions:
     - theme: brand
       text: Browse Programs
@@ -21,15 +21,15 @@ features:
     link: /crosscutting/beginner_lifters
     linkText: Read the Beginner Guide
   - title: 6 Training Systems
-    details: Powerlifting, bodybuilding, Olympic weightlifting, calisthenics, strongman, CrossFit — each with philosophy, programs, and guides.
-  - title: 680 Exercises
-    details: Muscles, EMG data, execution cues, injury risks, variations. 82 fully reviewed with research citations.
-  - title: 52 Programs
-    details: From Starting Strength to Bulgarian Method. Beginner to advanced, with weekly schedules and progression rules.
-  - title: Training Science
-    details: Progressive overload, periodization, SRA curves, volume landmarks, RPE/RIR — the principles behind every program.
+    details: Different goals need different methods. Barlore separates powerlifting, bodybuilding, Olympic lifting, calisthenics, strongman, and CrossFit — so you learn the approach that matches what you actually want, not a one-size-fits-all plan.
+  - title: 688 Exercises
+    details: Every movement includes target muscles, equipment, and pattern classification. 92 entries are fully reviewed with EMG data, injury risks, and peer-reviewed citations.
+  - title: 53 Programs
+    details: From Starting Strength to Bulgarian Method, beginner to advanced. Each program includes a weekly schedule, progression rules, and coaching cues for every exercise.
+  - title: 11 Training Principles
+    details: The science that makes programs work — progressive overload, hypertrophy mechanisms, periodization, RPE, volume landmarks, and more. Understand the why, not just the what.
   - title: Nutrition & Recovery
-    details: Protein, carbs, fat, sleep, deload protocols, injury prevention, and guidance for masters and female athletes.
+    details: Evidence-based guides for protein, calories, and meal planning — with worked examples you can use today. Plus sleep, deload protocols, and population-specific advice for beginners, women, and athletes over 35.
   - title: AI-Ready
-    details: MCP server for AI agents, structured JSON indexes, and prompt templates. Use with Claude, ChatGPT, or any AI tool.
+    details: MCP server for AI agents, structured JSON indexes, and prompt templates. Plug Barlore into Claude, ChatGPT, or any AI tool to get training answers grounded in cited sources.
 ---
