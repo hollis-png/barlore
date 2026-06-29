@@ -1,7 +1,7 @@
 # Barlore
 
 > A structured, evidence-tiered knowledge base for strength and physique training.
-> Exercises, programs, and systems as independent, queryable layers.
+> 688 exercises, 53 programs, 6 systems, 11 training principles, 22 nutrition/recovery guides.
 
 Barlore separates *what a movement is* (exercises) from *how a program uses it* (programs)
 from *why a system values it* (systems). Every claim has an explicit credibility tier.
@@ -71,6 +71,7 @@ Once you have the ID, fetch the full markdown:
 ## Start Here
 
 - [README](https://raw.githubusercontent.com/hollis-png/barlore/main/README.md)
+- [Beginner Guide](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/beginner_lifters.md) — first 8 weeks, program selection, common mistakes
 - [Glossary](https://raw.githubusercontent.com/hollis-png/barlore/main/glossary.md)
 - [Schema](https://raw.githubusercontent.com/hollis-png/barlore/main/SCHEMA.md)
 
@@ -85,6 +86,9 @@ Once you have the ID, fetch the full markdown:
 - [RPE and RIR](https://raw.githubusercontent.com/hollis-png/barlore/main/core/rpe_rir.md)
 - [Rep Continuum](https://raw.githubusercontent.com/hollis-png/barlore/main/core/rep_continuum.md)
 - [Specificity (SAID)](https://raw.githubusercontent.com/hollis-png/barlore/main/core/specificity.md)
+- [Hypertrophy Mechanisms](https://raw.githubusercontent.com/hollis-png/barlore/main/core/hypertrophy_mechanisms.md) — mechanical tension, metabolic stress, muscle damage
+- [Training to Failure](https://raw.githubusercontent.com/hollis-png/barlore/main/core/training_to_failure.md) — when to use failure, proximity guidelines, RPE integration
+- [Testing Protocols](https://raw.githubusercontent.com/hollis-png/barlore/main/core/testing_protocols.md) — 1RM testing, estimation formulas, training max
 - [Deload](https://raw.githubusercontent.com/hollis-png/barlore/main/core/deload.md)
 
 ---
@@ -126,6 +130,7 @@ Vertical press:
 - [Overhead Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/overhead_press.md)
 - [Push Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/push_press.md)
 - [Power Jerk](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/power_jerk.md)
+- [Handstand Push-Ups](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/handstand_push_ups.md)
 - [Parallel Bar Dip](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/parallel_bar_dip.md)
 - [Ring Dips](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/ring_dips.md)
 
@@ -139,6 +144,13 @@ Horizontal pull:
 - [Bent Over Barbell Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bent_over_barbell_row.md)
 - [Inverted Row](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/inverted_row.md)
 - [Seated Cable Rows](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/seated_cable_rows.md)
+
+Carry:
+- [Farmer's Walk](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/farmers_walk.md)
+- [Yoke Walk](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/yoke_walk.md)
+- [Atlas Stones](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/atlas_stones.md)
+- [Tire Flip](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/tire_flip.md)
+- [Log Lift](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/log_lift.md)
 
 Isolation — arms:
 - [Barbell Curl](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/barbell_curl.md)
@@ -195,7 +207,14 @@ Isolation — core:
 - [Pallof Press](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/pallof_press.md)
 - [Plank](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/plank.md)
 
-> 680 total exercises in the knowledge base. 82 complete with full detail, 598 with basic metadata.
+Strongman:
+- [Barbell Shrug](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/barbell_shrug.md)
+- [Barbell Lunge](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/barbell_lunge.md)
+- [Bodyweight Squat](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/bodyweight_squat.md)
+- [Hang Snatch](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/hang_snatch.md)
+- [Push Press Behind the Neck](https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/push_press_behind_the_neck.md)
+
+> 688 total exercises in the knowledge base. 92 complete with full detail, 595 stubs with pattern + equipment metadata.
 > Use `search_exercises` via MCP or the JSON indexes below for the full list.
 
 ---
@@ -210,7 +229,8 @@ Powerlifting:
 - [Westside Conjugate](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/powerlifting/westside_conjugate.md) (advanced)
 
 Bodybuilding:
-- [Beginner Full-Body Hypertrophy](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/beginner_fullbody_hypertrophy.md) (beginner)
+- [Beginner Full-Body Hypertrophy](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/beginner_fullbody_hypertrophy.md) (beginner, 3 days)
+- [Beginner Upper/Lower Split](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/beginner_upper_lower.md) (beginner, 4 days)
 - [Push Pull Legs](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/push_pull_legs.md) (intermediate)
 - [PHUL](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/phul.md) (intermediate)
 - [Upper Lower 4-Day](https://raw.githubusercontent.com/hollis-png/barlore/main/programs/bodybuilding/upper_lower_4day.md) (intermediate)
@@ -303,6 +323,7 @@ Nutrition:
 - [Carbohydrate Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/carbohydrate_requirements.md)
 - [Fat Requirements](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/fat_requirements.md)
 - [Energy Balance](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/energy_balance.md)
+- [Body Recomposition](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/body_recomposition.md) — simultaneous muscle gain and fat loss
 - [Nutrient Timing](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/nutrient_timing.md)
 - [Hydration](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/hydration.md)
 - [Supplementation](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/nutrition/supplementation.md)
@@ -325,6 +346,7 @@ Cardio:
 - [HIIT Protocol](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/cardio/hiit_protocol.md)
 
 Special Populations:
+- [Beginner Lifters](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/beginner_lifters.md) — getting started guide, first 8 weeks, program selection
 - [Female Athletes](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/female_athletes.md)
 - [Masters Athletes (35+)](https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/special_populations/masters_athletes.md)
 
@@ -332,14 +354,15 @@ Special Populations:
 
 ## Machine-Readable Indexes (JSON)
 
-- [exercises.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/exercises.json) — all 680 exercises with metadata
-- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all 52 programs
+- [exercises.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/exercises.json) — all 688 exercises with metadata
+- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all 53 programs
 - [muscle_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/muscle_index.json) — muscle_id -> [exercise_ids]
 - [program_exercise_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/program_exercise_index.json) — exercise_id -> [program_ids]
 - [coverage_report.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/coverage_report.json) — completeness data
+- [system_guides.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/system_guides.json) — system guide index
 
 ---
 
 ## AI Prompt Template
 
-- [Plan Generator](https://raw.githubusercontent.com/hollis-png/barlore/main/prompts/plan_generator.md) — fill in your profile and paste into any AI chatbot for a personalized training plan
+- [Plan Generator](https://raw.githubusercontent.com/hollis-png/barlore/main/prompts/plan_generator.md) — fill in your profile (supports `not_sure` for beginners) and paste into any AI chatbot for a personalized training plan
