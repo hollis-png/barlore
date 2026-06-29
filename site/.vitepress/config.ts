@@ -29,7 +29,7 @@ export default defineConfig({
       {
         property: "og:description",
         content:
-          "680 exercises, 52 programs, 6 training systems. Evidence-tiered.",
+          "688 exercises, 53 programs, 6 training systems. Evidence-tiered.",
       },
     ],
   ],
@@ -44,6 +44,7 @@ export default defineConfig({
       { text: "Programs", link: "/programs/" },
       { text: "Training Science", link: "/core/" },
       { text: "Nutrition & Recovery", link: "/crosscutting/" },
+      { text: "Glossary", link: "/glossary" },
       {
         text: "For AI",
         items: [

@@ -17,8 +17,9 @@ cp "$REPO_ROOT"/system_guides/*.md "$SRC/system_guides/"
 # Flatten crosscutting subdirectories
 find "$REPO_ROOT/crosscutting" -name "*.md" -exec cp {} "$SRC/crosscutting/" \;
 
-# Copy llms.txt as a site page (for search engine indexing)
+# Copy standalone pages
 cp "$REPO_ROOT/llms.txt" "$SRC/llms-full.md"
+cp "$REPO_ROOT/glossary.md" "$SRC/glossary.md"
 
 echo "Copied files to site/src/"
 ls "$SRC/exercises/" | wc -l | xargs -I{} echo "  exercises: {}"

@@ -99,6 +99,50 @@ muscle atrophy under restriction.
 No single dietary archetype is superior for body composition when protein and total
 energy are equated. Individual adherence and preference are the primary selection criteria.
 
+## Worked Example — Setting Up Your Calories
+
+**Person**: 75 kg male, 25 years old, trains 4 days/week, goal is to build muscle.
+
+### Step 1: Estimate TDEE
+
+Use the Mifflin-St Jeor equation as a starting point:
+
+```
+BMR (male) = 10 × weight(kg) + 6.25 × height(cm) − 5 × age − 5
+BMR (female) = 10 × weight(kg) + 6.25 × height(cm) − 5 × age − 161
+```
+
+For our example (75 kg, 180 cm, 25 years):
+- BMR = 10 × 75 + 6.25 × 180 − 5 × 25 − 5 = **1,745 kcal**
+- Activity multiplier (training 4×/week): × 1.55
+- **TDEE ≈ 2,705 kcal/day**
+
+### Step 2: Set caloric target by goal
+
+| Goal | Adjustment | Daily target |
+|------|-----------|--------------|
+| Build muscle (surplus) | +300 kcal | **3,005 kcal** |
+| Lose fat (deficit) | −400 kcal | **2,305 kcal** |
+| Maintain / recomp | ±0 | **2,705 kcal** |
+
+### Step 3: Set macronutrient targets
+
+For the muscle-building target (3,005 kcal):
+
+| Macro | Target | Grams | Calories |
+|-------|--------|-------|----------|
+| Protein | 2.0 g/kg | 150 g | 600 kcal |
+| Fat | 0.8 g/kg | 60 g | 540 kcal |
+| Carbs | remainder | 466 g | 1,865 kcal |
+| **Total** | | | **3,005 kcal** |
+
+### Important caveats
+
+- These are **starting points, not exact targets**. Track your weight weekly for 2–3 weeks. If weight isn't moving in the intended direction, adjust by ±200 kcal.
+- TDEE calculators are estimates with ±15% error. Your actual expenditure depends on NEAT (non-exercise activity), genetics, and metabolic adaptation.
+- Weigh yourself at the same time each day (morning, after bathroom, before food) and use the weekly average, not daily fluctuations.
+- See `protein_requirements` for per-meal protein targets and food examples.
+
 ## Recomposition
 
 Simultaneous muscle gain and fat loss (recomposition) is possible but limited to:
