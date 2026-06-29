@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - carry
-equipment: []
+equipment:
+- sandbag
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -51,6 +52,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Keg Load

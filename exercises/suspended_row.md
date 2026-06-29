@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - horizontal pull
-equipment: []
+equipment:
+- suspension_trainer
 difficulty:
   technical_complexity: null
   strength_prerequisite: null

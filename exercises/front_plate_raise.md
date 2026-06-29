@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - isolation
-equipment: []
+equipment:
+- weight_plate
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -21,6 +22,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Front Plate Raise

@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - horizontal pull
-equipment: []
+equipment:
+- sled
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -27,6 +28,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Sled Row

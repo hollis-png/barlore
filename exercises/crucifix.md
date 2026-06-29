@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - carry
-equipment: []
+equipment:
+- dumbbell
 difficulty:
   technical_complexity: null
   strength_prerequisite: null

@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - squat
-equipment: []
+equipment:
+- stability_ball
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -33,6 +34,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Balance Board

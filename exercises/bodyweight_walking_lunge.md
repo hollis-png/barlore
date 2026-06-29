@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - squat
-equipment: []
+equipment:
+- bodyweight
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -35,6 +36,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Bodyweight Walking Lunge

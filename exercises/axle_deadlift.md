@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - hinge
-equipment: []
+equipment:
+- barbell
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -41,6 +42,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Axle Deadlift

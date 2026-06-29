@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - vertical pull
-equipment: []
+equipment:
+- weight_plate
 difficulty:
   technical_complexity: null
   strength_prerequisite: null

@@ -6,7 +6,8 @@ source: free-exercise-db
 category: exercise
 pattern:
 - vertical pull
-equipment: []
+equipment:
+- foam_roller
 difficulty:
   technical_complexity: null
   strength_prerequisite: null
@@ -23,6 +24,7 @@ sources:
 - title: free-exercise-db
   author: yuhonas (Public Domain)
   credibility: anecdotal
+
 ---
 
 # Wrist Roller

@@ -71,7 +71,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "foam_roller"
+    ],
     "id": "ab_roller",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -784,7 +786,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "atlas_stone"
+    ],
     "id": "atlas_stone_trainer",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -1001,7 +1005,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "axle_deadlift",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -1369,7 +1375,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "backward_drag",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -1439,7 +1447,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "stability_ball"
+    ],
     "id": "balance_board",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -1541,7 +1551,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "band"
+    ],
     "id": "band_assisted_pull_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -3263,7 +3275,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "battle_ropes"
+    ],
     "id": "battling_ropes",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -3301,7 +3315,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "bear_crawl_sled_drags",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -4611,7 +4627,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "bodyweight_mid_row",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -4756,7 +4774,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "bodyweight_walking_lunge",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -6685,7 +6705,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "car_deadlift",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -6787,7 +6809,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "chains"
+    ],
     "id": "chain_handle_extension",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -6817,7 +6841,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "chains"
+    ],
     "id": "chain_press",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -7047,7 +7073,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "circus_dumbbell"
+    ],
     "id": "circus_bell",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -8451,7 +8479,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "conans_wheel"
+    ],
     "id": "conans_wheel",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -8878,7 +8908,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "dumbbell"
+    ],
     "id": "crucifix",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -9581,7 +9613,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "decline_push_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -9803,7 +9837,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "parallel_bars"
+    ],
     "id": "dips_chest_version",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -12738,7 +12774,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "floor_glute_ham_raise",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -12968,7 +13006,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "forward_drag_with_press",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -13589,7 +13629,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "front_plate_raise",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -13972,7 +14014,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "gironda_sternum_chins",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -15722,7 +15766,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "hyperextension_bench"
+    ],
     "id": "hyperextensions_back_extensions",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -16853,7 +16899,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "inverted_row_with_straps",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -17363,7 +17411,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sandbag"
+    ],
     "id": "keg_load",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -18297,7 +18347,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "kipping_muscle_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -18355,7 +18407,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "knee_hip_raise_on_parallel_bars",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -19616,7 +19670,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "london_bridges",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -20106,7 +20162,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "lying_face_down_plate_neck_resistance",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -20136,7 +20194,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "lying_face_up_plate_neck_resistance",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -20828,7 +20888,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "mixed_grip_chin",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -20970,7 +21032,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "muscle_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -21436,7 +21500,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "one_arm_chin_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -22935,7 +23001,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "otis_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -23935,7 +24003,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "plate_pinch",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -23965,7 +24035,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "plate_twist",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -23995,7 +24067,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "rings"
+    ],
     "id": "platform_hamstring_slides",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -24965,7 +25039,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "power_stairs"
+    ],
     "id": "power_stairs",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -25246,7 +25322,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "prone_manual_hamstring",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -27364,7 +27442,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "reverse_plate_curls",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -27438,7 +27518,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "rickshaw"
+    ],
     "id": "rickshaw_carry",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -27516,7 +27598,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "rickshaw_deadlift",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -27759,7 +27843,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "rocky_pull_ups_pulldowns",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -28115,7 +28201,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "climbing_rope"
+    ],
     "id": "rope_climb",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -28335,7 +28423,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sandbag"
+    ],
     "id": "sandbag_load",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -28565,7 +28655,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "band"
+    ],
     "id": "seated_band_hamstring_curl",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -29392,7 +29484,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "neck_harness"
+    ],
     "id": "seated_head_harness_neck_resistance",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30356,7 +30450,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "pull_up_bar"
+    ],
     "id": "side_to_side_chins",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30598,7 +30694,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "single_leg_high_box_squat",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30777,7 +30875,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_drag_harness",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30835,7 +30935,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_overhead_backward_walk",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30893,7 +30995,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_overhead_triceps_extension",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30923,7 +31027,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_push",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -30989,7 +31095,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_reverse_flye",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -31019,7 +31127,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "sled"
+    ],
     "id": "sled_row",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -34467,7 +34577,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "standing_olympic_plate_hand_squeeze",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35635,7 +35747,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "suspension_trainer"
+    ],
     "id": "suspended_fallout",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35681,7 +35795,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "suspended_push_up",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35719,7 +35835,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "bodyweight"
+    ],
     "id": "suspended_reverse_crunch",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35749,7 +35867,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "suspension_trainer"
+    ],
     "id": "suspended_row",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35791,7 +35911,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "suspended_split_squat",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -35861,7 +35983,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "weight_plate"
+    ],
     "id": "svend_press",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -36344,7 +36468,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "trap_bar_deadlift",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -37374,7 +37500,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "parallel_bars"
+    ],
     "id": "weighted_bench_dip",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -37761,7 +37889,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "band"
+    ],
     "id": "weighted_sit_ups_with_bands",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -37791,7 +37921,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "barbell"
+    ],
     "id": "weighted_squat",
     "injury_risk": null,
     "joint_rom_required": null,
@@ -38301,7 +38433,9 @@
       "strength_prerequisite": null,
       "technical_complexity": null
     },
-    "equipment": [],
+    "equipment": [
+      "foam_roller"
+    ],
     "id": "wrist_roller",
     "injury_risk": null,
     "joint_rom_required": null,
