@@ -41,20 +41,31 @@ When answering training questions, do NOT read every file. Follow this workflow:
 **Step 1: Identify what you need**
 - Need exercises? → Fetch `exercises.json`
 - Need programs? → Fetch `programs.json`
+- Need programs by goal? → Fetch `goal_index.json`
 - Need exercises for a muscle? → Fetch `muscle_index.json`
 - Need which programs use an exercise? → Fetch `program_exercise_index.json`
 
 **Step 2: Search the JSON index**
 The JSON indexes are structured data. Parse them to find matching IDs:
 - `exercises.json`: keyed by exercise ID, each entry has `name`, `status`, `pattern`, `muscles`, `equipment`
-- `programs.json`: keyed by program ID, each entry has `system`, `level`, `periodization`, `exercise_refs`
+- `programs.json`: keyed by program ID, each entry has `system`, `level`, `goals`, `periodization`, `exercise_refs`
+- `goal_index.json`: keyed by goal enum, value is array of `{id, name, level, system}` sorted by level
 - `muscle_index.json`: keyed by muscle ID, value is an array of exercise IDs
+
+Goal enum values: `strength`, `hypertrophy`, `power`, `athletic_performance`, `skill_acquisition`, `general_fitness`
 
 **Step 3: Fetch only the files you need**
 Once you have the ID, fetch the full markdown:
 - Exercise detail: `https://raw.githubusercontent.com/hollis-png/barlore/main/exercises/{id}.md`
 - Program detail: use the `path` field from `programs.json` (e.g. `programs/powerlifting/5_3_1.md`)
 - Training concept: `https://raw.githubusercontent.com/hollis-png/barlore/main/core/{concept}.md`
+- Nutrition/recovery: `https://raw.githubusercontent.com/hollis-png/barlore/main/crosscutting/{subcategory}/{id}.md`
+
+**Example: "I want to build muscle, I'm a beginner"**
+1. Fetch `goal_index.json`
+2. Read the `hypertrophy` array, filter where `level` = "beginner"
+3. Result: beginner_fullbody_hypertrophy, beginner_upper_lower, bwf_recommended_routine, gzclp
+4. Fetch the matching program markdown for full weekly schedule and progression rules
 
 **Example: "What barbell exercises target the chest?"**
 1. Fetch `exercises.json`
@@ -65,6 +76,10 @@ Once you have the ID, fetch the full markdown:
 1. Fetch `programs.json`
 2. Filter: `system` = "powerlifting" AND `level` = "beginner"
 3. Fetch the matching program markdown for full weekly schedule and progression rules
+
+**Example: "How do I test my one-rep max?"**
+1. Fetch `https://raw.githubusercontent.com/hollis-png/barlore/main/core/testing_protocols.md`
+2. The entry covers 1RM testing, estimation formulas, and training max setup
 
 ---
 
@@ -355,7 +370,8 @@ Special Populations:
 ## Machine-Readable Indexes (JSON)
 
 - [exercises.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/exercises.json) — all 688 exercises with metadata
-- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all 53 programs
+- [programs.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/programs.json) — all 53 programs (includes goals field)
+- [goal_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/goal_index.json) — goal -> [{id, name, level, system}] for goal-based queries
 - [muscle_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/muscle_index.json) — muscle_id -> [exercise_ids]
 - [program_exercise_index.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/program_exercise_index.json) — exercise_id -> [program_ids]
 - [coverage_report.json](https://raw.githubusercontent.com/hollis-png/barlore/main/index/coverage_report.json) — completeness data
