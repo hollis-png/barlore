@@ -19092,11 +19092,19 @@
     "variations": []
   },
   "leg_press": {
-    "aliases": [],
+    "aliases": [
+      "45-degree leg press",
+      "machine leg press",
+      "seated leg press"
+    ],
     "alternatives": [
       "back_squat"
     ],
-    "difficulty": "beginner",
+    "difficulty": {
+      "mobility_prerequisite": 2,
+      "strength_prerequisite": 1,
+      "technical_complexity": 1
+    },
     "equipment": [
       "leg press machine"
     ],

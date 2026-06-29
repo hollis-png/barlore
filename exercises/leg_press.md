@@ -1,7 +1,8 @@
 ---
 id: leg_press
 name: Leg Press
-aliases: []
+aliases: [45-degree leg press, machine leg press, seated leg press]
+status: complete
 category: exercise
 pattern: [squat]
 muscles:
@@ -18,7 +19,10 @@ muscles:
   - id: semitendinosus
     role: secondary
 equipment: [leg press machine]
-difficulty: beginner
+difficulty:
+  technical_complexity: 1
+  strength_prerequisite: 1
+  mobility_prerequisite: 2
 alternatives: [back_squat]
 joint_rom_required:
   knee_flexion_deg: 110

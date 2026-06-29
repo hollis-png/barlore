@@ -6,20 +6,20 @@ hero:
   tagline: 688 exercises · 53 programs · 6 systems · 92 entries with peer-reviewed citations
   actions:
     - theme: brand
+      text: Start Learning
+      link: /learn
+    - theme: alt
       text: Browse Programs
       link: /programs/
-    - theme: alt
-      text: Search Exercises
-      link: /exercises/
     - theme: alt
       text: Get a Plan (AI)
       link: /ai
 
 features:
   - title: "\U0001F4AA New to Training?"
-    details: Never trained before? Start with our beginner guide — pick a program, learn the key movements, and know what to expect in your first 8 weeks.
-    link: /crosscutting/beginner_lifters
-    linkText: Read the Beginner Guide
+    details: Never trained before? The learning roadmap takes you from zero to confident — pick equipment, choose a goal, learn movements, and know what to eat. No jargon, just the next step.
+    link: /learn
+    linkText: Start the Learning Roadmap
   - title: 6 Training Systems
     details: Different goals need different methods. Barlore separates powerlifting, bodybuilding, Olympic lifting, calisthenics, strongman, and CrossFit — so you learn the approach that matches what you actually want, not a one-size-fits-all plan.
   - title: 688 Exercises

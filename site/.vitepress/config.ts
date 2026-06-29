@@ -40,6 +40,7 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
+      { text: "Learn", link: "/learn" },
       { text: "Exercises", link: "/exercises/" },
       { text: "Programs", link: "/programs/" },
       { text: "Training Science", link: "/core/" },
