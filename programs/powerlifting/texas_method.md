@@ -57,6 +57,18 @@ sources:
 
 Designed by Mark Rippetoe as the intermediate step after novice linear progression. Three days per week with distinct physiological roles: Volume, Recovery, Intensity.
 
+## Design Philosophy — Why Volume/Recovery/Intensity
+
+The Texas Method exists to solve the specific problem that ends beginner programs: when you can no longer add weight every session, but you can still add weight every week.
+
+**Monday (Volume)** accumulates training stress through 5×5 at a moderate percentage. This is the stimulus day — high total volume drives the adaptation signal. The 5×5 format was chosen because it produces sufficient mechanical tension and metabolic stress without requiring loads so heavy that technique breaks down.
+
+**Wednesday (Recovery)** uses lighter loads (80% of Monday's weight) at lower volume (2×5). This session maintains movement pattern practice and promotes active recovery without adding meaningful fatigue. Removing Wednesday entirely was tested and found to slightly impair Friday performance — the light stimulus helps maintain neural readiness.
+
+**Friday (Intensity)** tests the adaptation with a single heavy set of 5 at a new personal record. This is where progression is measured: if you hit 5 reps, add weight next week. The weekly PR attempt is the core mechanism — it converts Monday's volume stimulus into demonstrated strength.
+
+**Why this works when daily progression doesn't:** A novice can recover from a heavy session in 48–72 hours and set a new PR. An intermediate's SRA curve (see `sra_curve`) is longer — they need an entire week of stimulus + recovery to produce the same adaptation. The Texas Method structures that weekly cycle explicitly: stress → recover → express.
+
 ## Weekly Structure
 
 | Day | Role | Squat | Press | Pull |

@@ -68,6 +68,18 @@ sources:
 
 A six-day per week split grouping muscles by movement pattern: pushing muscles (chest, shoulders, triceps) train together, pulling muscles (back, biceps, rear delts) train together, and legs (quads, hamstrings, glutes, calves) train together. Each group is hit twice per week.
 
+## Design Philosophy — Why Push/Pull/Legs
+
+PPL is the most popular intermediate bodybuilding split for two reasons:
+
+**Muscle group frequency:** Each muscle group is trained twice per week. Schoenfeld et al. (2016, meta-analysis) found that training a muscle 2×/week produces significantly more hypertrophy than 1×/week at the same total volume. PPL achieves this naturally — Push A on Monday trains chest, then Push B on Thursday trains it again.
+
+**Minimal overlap fatigue:** By grouping muscles that work together (chest + shoulders + triceps all push; back + biceps both pull), each session avoids pre-fatiguing muscles needed for the next day. After a Pull day, your pushing muscles are fully recovered for Push day the next morning. Compare this to a full-body program where every session fatigues everything, or an upper/lower split where bench press fatigues triceps before overhead press.
+
+**Why 6 days, not 3?** A 3-day PPL (Push-Pull-Legs once each) only hits each muscle once per week — below the optimal frequency. The 6-day version doubles the frequency, which is where the hypertrophy advantage emerges. If you can only train 3–4 days, an upper/lower split is a better choice for the same reason.
+
+**Why it works for intermediates but not beginners:** PPL distributes 18+ exercises across 6 sessions. A beginner doesn't need this volume — they grow on 10–12 exercises at 3 sessions/week. PPL becomes appropriate when a beginner's full-body program stalls and more volume per muscle group is needed to continue progressing.
+
 ## Weekly Schedule
 
 | Day | Session |

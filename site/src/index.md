@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Barlore
   text: Training Encyclopedia
-  tagline: 688 exercises, 53 programs, 6 systems. 92 exercises backed by peer-reviewed research.
+  tagline: 688 exercises · 53 programs · 6 systems · 92 entries with peer-reviewed citations
   actions:
     - theme: brand
       text: Browse Programs

@@ -64,6 +64,18 @@ Developed by Ivan Abadjiev as head coach of the Bulgarian national weightlifting
 
 The system operates entirely through **daily maximum autoregulation**: no percentages, no fixed sets-and-reps schemes. Each session the athlete determines the day's ceiling through feel, works up to it, then continues with back-off singles. The high-frequency exposure — up to 12 sessions per week at full development — produces rapid CNS adaptation and motor pattern refinement.
 
+## Design Philosophy — Why Daily Maxes and Nothing Else
+
+The Bulgarian Method is built on two principles taken to their logical extremes:
+
+**1. Absolute specificity.** Abadjiev's central argument: the body adapts to exactly what you do. A back squat is not a clean recovery — it trains a slightly different motor pattern, distributes load slightly differently across the posterior chain, and generates fatigue that competes with clean recovery adaptation. By eliminating every non-competition movement, every unit of training stress is directed toward competition performance. This is the specificity principle (see `specificity`) applied without compromise.
+
+**2. Frequency over volume.** Instead of doing 5 sets of 3 at 85% in one session (traditional model), the Bulgarian athlete does 1 heavy single across 12 sessions per week. The total weekly volume may be similar, but each session's fatigue is lower, recovery between sessions is shorter, and the athlete gets 12 opportunities per week to practice the competition lift at near-maximal load. This accelerates motor learning and CNS adaptation.
+
+**Why autoregulation instead of percentages?** At 12 sessions per week, day-to-day performance variation is enormous. A percentage-based program cannot account for the cumulative fatigue of daily maximal training. The daily max system solves this: the athlete's body tells the program what it can handle today. There is no "missed" workout — a daily max of 90% is as valid as one at 98%. The system self-corrects.
+
+**Why it works for elite athletes but not most people:** The Bulgarian Method requires years of technique development before entry. If the athlete's snatch technique breaks down at 90%, daily maxes at 90%+ will reinforce bad patterns. The system only works when the technical foundation is so deep that maximal loads do not alter movement quality — a condition that typically requires 4+ years of dedicated Olympic lifting.
+
 ## Who This Is For
 
 - Advanced competitive weightlifters with 4+ years of continuous structured training

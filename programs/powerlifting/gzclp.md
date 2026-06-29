@@ -63,6 +63,18 @@ sources:
 
 Created by powerlifter Cody LeClair. A four-day linear progression program using three tiers of diminishing specificity and increasing volume. Tolerates more training stimulus than Starting Strength while remaining appropriate for beginners and early-intermediate lifters.
 
+## Design Philosophy — Why Three Tiers
+
+GZCLP is built around Cody LeClair's observation that simple 5×5 programs (Starting Strength, StrongLifts) produce diminishing returns after 2–3 months because they only train one quality: heavy low-rep strength. The tier system solves this by training three qualities simultaneously, each with its own progression:
+
+**Tier 1 (heavy, low-rep)** trains maximal strength through the competition lifts at 5×3. This is the same stimulus as Starting Strength, but at slightly lower reps per set — which means heavier loads for the same number of total reps. The AMRAP last set provides autoregulation: if you crush the set, your training max is probably conservative; if you barely get 3, it's well-calibrated.
+
+**Tier 2 (moderate, moderate-rep)** trains the same movement pattern at 3×10 with lighter weight. This accumulates hypertrophy volume that a pure strength program lacks. More muscle cross-sectional area means a higher strength ceiling later. T2 progresses independently of T1, so you can keep building muscle even when your heavy strength stalls.
+
+**Tier 3 (light, high-rep)** is isolation work for weak points and joint health. It produces the least fatigue per set and addresses imbalances that compound lifts miss.
+
+**Why the failure cascade matters:** When T1 stalls at 5×3, you don't deload — you change the rep scheme to 6×2, then 10×1. This extends the linear progression by reducing reps per set while increasing total sets, so you can continue adding weight by reducing per-set difficulty. Only after exhausting all three rep schemes do you reset. This gives beginners 3–4 months of additional progression compared to programs that deload at the first stall.
+
 ## Four-Day Schedule
 
 | Day | T1 — 5×3+ | T2 — 4×10 | T3 — 3×15+ |

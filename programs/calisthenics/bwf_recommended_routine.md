@@ -116,6 +116,18 @@ sources:
 
 Community-vetted, milestone-based full-body calisthenics program for beginners and early-intermediate trainees. Requires only a pull-up bar and parallel bars (or rings). Session duration typically 45–60 minutes.
 
+## Design Philosophy — Why Progressions Instead of Weight
+
+Barbell programs add weight to increase difficulty. Bodyweight programs can't do that — your body weight is fixed. The BWF Recommended Routine solves this through **progression chains**: sequences of increasingly difficult variations of the same movement pattern.
+
+**Example:** For horizontal push, the chain is: wall push-up → incline push-up → regular push-up → diamond push-up → pseudo planche push-up → planche push-up. Each step increases the mechanical disadvantage (lever length, balance demand, or range of motion), which increases the load on the target muscles without adding external weight.
+
+**Why paired sets?** The routine pairs opposing movement patterns (push + pull, or squat + hinge) and alternates between them with rest in between. This doubles the number of exercises you can fit into the same time without fatiguing the same muscles — while one muscle group works, the other recovers. Research supports that paired-set training produces equivalent strength and hypertrophy gains to traditional sets in less total time.
+
+**Why 3×5–8 and not higher reps?** The routine prescribes 3 sets of 5–8 reps. When you can do 3×8, you advance to the next progression where you'll be back at 3×5. This keeps every set in the strength-hypertrophy zone (see `rep_continuum`) and ensures that each progression step is genuinely challenging. If reps go above 12–15, the exercise becomes too easy and the stimulus shifts toward endurance — which is not the goal.
+
+**Why it works for beginners:** The progression chains provide a built-in level-adjustment system. A complete beginner starts at the easiest variation (wall push-up) and a stronger beginner starts further along the chain (regular push-up). Both follow the same program structure — the starting point is different, but the progression logic is identical.
+
 ## Session Structure
 
 3 sessions per week on non-consecutive days (Mon/Wed/Fri or Tue/Thu/Sat).
