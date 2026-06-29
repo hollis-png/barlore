@@ -111,6 +111,7 @@ export default defineConfig({
         {
           text: "Special Populations",
           items: [
+            { text: "Beginner Lifters", link: "/crosscutting/beginner_lifters" },
             { text: "Female Athletes", link: "/crosscutting/female_athletes" },
             { text: "Masters (35+)", link: "/crosscutting/masters_athletes" },
           ],

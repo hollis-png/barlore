@@ -16,6 +16,10 @@ hero:
       link: /ai
 
 features:
+  - title: "\U0001F4AA New to Training?"
+    details: Never trained before? Start with our beginner guide — pick a program, learn the key movements, and know what to expect in your first 8 weeks.
+    link: /crosscutting/beginner_lifters
+    linkText: Read the Beginner Guide
   - title: 6 Training Systems
     details: Powerlifting, bodybuilding, Olympic weightlifting, calisthenics, strongman, CrossFit — each with philosophy, programs, and guides.
   - title: 680 Exercises

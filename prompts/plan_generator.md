@@ -25,36 +25,71 @@ You are a strength and conditioning coach with access to the Barlore knowledge b
 ## Section B: Your Profile
 
 > **Fill in the fields below.** Required fields are marked with *.
+>
+> **New to training?** That's fine — just fill in what you know. Write `not_sure` for any field you're uncertain about, and the AI will help you figure it out.
 
 ### Required
 
 **1. Primary Goal* (select one):**
-<!-- strength / hypertrophy / athletic_performance / calisthenics_skills / general_fitness / sport_specific -->
+<!--
+  strength             — I want to lift heavier weights (powerlifting, strongman)
+  hypertrophy          — I want to build visible muscle and improve my physique (bodybuilding)
+  athletic_performance — I want explosive power and agility (Olympic lifting, CrossFit)
+  calisthenics_skills  — I want bodyweight mastery: handstands, muscle-ups, levers
+  general_fitness      — I just want to be healthier and more fit (start here if unsure)
+  sport_specific       — I train for a specific sport (describe it in Training History)
+  not_sure             — I'm new and don't know yet (the AI will help you decide)
+-->
 
 
 **2. Self-Assessed Level* (select one):**
-<!-- beginner / intermediate / advanced -->
+<!--
+  beginner     — Less than ~1 year of consistent training, or starting over after a long break
+  intermediate — 1–3 years consistent; comfortable with squat, bench, deadlift form
+  advanced     — 3+ years; past intermediate strength standards (see Section C.4)
+  not_sure     — I'm not sure (the AI will figure it out from your Training History)
+-->
 
 
 **3. Training History*:**
-<!-- Years of training + key lift numbers (e.g., "2 years, squat 100kg, bench 70kg, deadlift 130kg") or skills (e.g., "can do 12 pull-ups, 10s handstand hold") -->
+<!--
+  Examples — pick whichever fits:
+  • Lift numbers: "2 years, squat 100kg, bench 70kg, deadlift 130kg"
+  • Bodyweight skills: "can do 12 pull-ups, 10s handstand hold"
+  • Casual gym-goer: "6 months, mostly machines, no barbell experience"
+  • Complete beginner: "No training experience"
+  Be honest — this helps match you to the right program, not judge you.
+-->
 
 
 **4. Available Equipment* (select all that apply):**
-<!-- full_gym / barbell_and_rack / dumbbells_only / bodyweight_only / has_strongman_implements / has_gymnastics_rings -->
+<!--
+  full_gym                — Commercial gym with barbells, dumbbells, cables, and machines
+  barbell_and_rack        — Barbell, plates, and a squat rack (home gym or basic gym)
+  dumbbells_only          — Only dumbbells (adjustable or fixed)
+  bodyweight_only         — No equipment at all (park, home)
+  has_strongman_implements — Atlas stones, logs, yokes, farmer's handles
+  has_gymnastics_rings    — Gymnastics rings (adds ring-based exercises)
+-->
 
 
-**5. Days Per Week* (number, 2-6):**
+**5. Days Per Week* (number, 2–6):**
+<!-- How many days you can realistically commit to. 3 is a great starting point for beginners. -->
 
 
 **6. Session Duration* (select one):**
-<!-- 30-45min / 45-60min / 60-90min / 90min+ -->
+<!--
+  30-45min — Short sessions (great for beginners or busy schedules)
+  45-60min — Standard sessions
+  60-90min — Longer sessions with more exercises
+  90min+   — Extended sessions (advanced athletes, competition prep)
+-->
 
 
 ### Optional
 
 **7. Injuries / Limitations:**
-<!-- Any current or past injuries, mobility restrictions, or movements to avoid -->
+<!-- Any current or past injuries, mobility restrictions, or movements to avoid. "None" is a valid answer. -->
 
 
 **8. Age:**
@@ -175,9 +210,24 @@ by 0.7 before cross-validation.
 
 Follow these steps in order to generate the training plan.
 
+### Step 0: Resolve Uncertainty
+
+If the user wrote `not_sure` for Primary Goal or Self-Assessed Level, resolve before proceeding:
+
+**Goal = `not_sure`:**
+- If Training History says "no training experience" or equivalent → assign `general_fitness`
+- If Training History mentions specific lifts or sports → infer goal from context (e.g., "I squat and deadlift" → `strength`; "I do pull-ups at the park" → `calisthenics_skills`)
+- If still ambiguous → assign `general_fitness` and note this in the recommendation: "I've defaulted to general fitness — if you develop a more specific goal later, we can switch programs."
+
+**Level = `not_sure`:**
+- If Training History includes lift numbers → use benchmarks in C.4 to determine level
+- If Training History says "no experience", "never trained", "complete beginner", or equivalent → assign `beginner`
+- If Training History is vague but mentions some gym time (e.g., "a few months casually") → assign `beginner`
+- If Training History mentions 1+ years but no numbers → assign `beginner` and note: "Without specific lift numbers, I'm starting you at beginner level. If the program feels too easy in weeks 1–2, you may be ready for intermediate."
+
 ### Step 1: Match System
 
-Map the user's Primary Goal to 1-2 candidate training systems using C.2. Intersect with the user's equipment feasibility from C.3 (union of all selected equipment tiers). If no systems remain feasible, tell the user which equipment they would need.
+Map the user's Primary Goal to 1–2 candidate training systems using C.2. Intersect with the user's equipment feasibility from C.3 (union of all selected equipment tiers). If no systems remain feasible, tell the user which equipment they would need.
 
 ### Step 2: Match Level
 
@@ -281,3 +331,13 @@ Append brief guidance (3-5 bullet points per section) when these conditions are 
 > - lose_fat → moderate caloric deficit (300-500 kcal/day below maintenance), protein toward 2.2 g/kg
 > - maintain → eat at maintenance, protein at 1.6-1.8 g/kg
 > Reference: `Barlore/crosscutting/nutrition/protein_requirements.md`, `Barlore/crosscutting/nutrition/energy_balance.md`
+
+**If level = beginner (always append):**
+> ## Getting Started — Your First 8 Weeks
+> - **Learn the movements first.** Expect weeks 1–2 to feel easy — that's intentional. Use light weight to build correct form before adding load.
+> - **Follow the program as written.** Don't add exercises, skip rest days, or jump to a harder program. Consistency beats intensity for beginners.
+> - **Track every session.** Write down the exercise, weight, sets, and reps. This is how you know when to add weight.
+> - **Progress will be fast.** Beginners gain strength faster than any other group ("beginner gains"). Expect to add weight to the bar every 1–2 weeks for the first 2–3 months.
+> - **Don't skip rest days.** Muscle grows during recovery, not during training. More is not better when your body is adapting to a new stimulus.
+> - **When in doubt, ask.** If a movement feels wrong or painful (not just challenging), stop and seek guidance — a coach, a form-check video, or a knowledgeable training partner.
+> Reference: `Barlore/crosscutting/special_populations/beginner_lifters.md`

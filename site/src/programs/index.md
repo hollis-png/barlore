@@ -1,10 +1,28 @@
 # Programs
 
-**41** training programs across 6 systems, from beginner to advanced.
+**52** training programs across 6 systems, from beginner to advanced.
+
+## New to Training? Start Here
+
+Not sure which program to pick? Here are the most popular beginner programs by goal:
+
+| Your Goal | Program | Days/wk | Equipment | Why This One |
+|-----------|---------|---------|-----------|-------------|
+| Get stronger | [Starting Strength](/programs/starting_strength) | 3 | Barbell + rack | The most proven beginner strength program. Simple, effective, 3 compound lifts per session. |
+| Build muscle | [Beginner Full-Body Hypertrophy](/programs/beginner_fullbody_hypertrophy) | 3 | Full gym | Balanced full-body training with compound and isolation work. |
+| No equipment | [BWF Recommended Routine](/programs/bwf_recommended_routine) | 3 | Bodyweight | Community-tested bodyweight routine with clear progressions. |
+| General fitness | [CrossFit Foundations](/programs/crossfit_foundations) | 5 | Full gym | Mixed modality: barbell, bodyweight, and cardio. |
+| Get stronger (4 days) | [GZCLP](/programs/gzclp) | 4 | Barbell + rack | Structured tier system with built-in progression and accessory work. |
+
+::: tip
+Read the [Beginner Guide](/crosscutting/beginner_lifters) for what to expect in your first 8 weeks, or [get a personalized plan with AI](/ai).
+:::
 
 ---
 
-## Powerlifting
+## All Programs by System
+
+### Powerlifting
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
@@ -14,7 +32,7 @@
 | [Texas Method](/programs/texas_method) | intermediate | linear | Back Squat, Bench Press, Overhead Press, Conventional Deadlift |
 | [Westside Conjugate Method](/programs/westside_conjugate) | advanced | conjugate | Box Squat, Conventional Deadlift, Sumo Deadlift, Good Morning, ... |
 
-## Bodybuilding
+### Bodybuilding
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
@@ -25,7 +43,7 @@
 | [RP Hypertrophy Program](/programs/rp_hypertrophy) | intermediate | block | Bench Press, Seated Cable Rows, Pullups, Back Squat, ... |
 | [PHAT (Power Hypertrophy Adaptive Training)](/programs/phat) | advanced | undulating | Bench Press, Bent Over Barbell Row, Pullups, Overhead Press, ... |
 
-## Olympic
+### Olympic
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
@@ -40,7 +58,7 @@
 | [Dmitry Klokov Seminar Protocol](/programs/klokov_protocol) | advanced | undulating | Snatch, Clean And Jerk, Back Squat, Front Squat, ... |
 | [Olympic Weightlifting Advanced — High-Frequency Competition Prep](/programs/olympic_weightlifting_advanced) | advanced | block | Snatch, Clean And Jerk, Back Squat, Front Squat, ... |
 
-## Calisthenics
+### Calisthenics
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
@@ -54,7 +72,7 @@
 | [Overcoming Gravity Skill Progression Template](/programs/overcoming_gravity_template) | intermediate | block | Pullups, Weighted Pull Ups, Inverted Row, Scapular Pull Up, ... |
 | [Calisthenics Advanced Strength Skills](/programs/calisthenics_advanced_skills) | advanced | block | Weighted Pull Ups, Ring Dips, Pushups, Parallel Bar Dip, ... |
 
-## Strongman
+### Strongman
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
@@ -67,7 +85,7 @@
 | [Eddie Hall Training Structure](/programs/eddie_hall_training_structure) | advanced | undulating | Conventional Deadlift, Back Squat, Overhead Press, Log Lift, ... |
 | [Strongman Competition Preparation](/programs/strongman_competition_prep) | advanced | block | Conventional Deadlift, Overhead Press, Back Squat, Push Press, ... |
 
-## Crossfit
+### Crossfit
 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|

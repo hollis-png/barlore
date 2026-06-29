@@ -2,6 +2,16 @@
 
 A comprehensive training knowledge base covering six major training systems, 680 exercises, 52 named programs, and shared nutrition and recovery knowledge. Designed to help you find the right program, understand every movement, and train smarter.
 
+## Quick Start
+
+**New to training?** Read the [Beginner Guide](crosscutting/special_populations/beginner_lifters.md) — it covers how to pick your first program, what to expect in your first 8 weeks, and the mistakes to avoid.
+
+**Want a personalized plan?** Open [`prompts/plan_generator.md`](prompts/plan_generator.md), fill in your profile (write `not_sure` for anything you're uncertain about), and paste it into any AI chatbot.
+
+**Just browsing?** Visit the [website](https://hollis-png.github.io/barlore/) to search exercises and compare programs.
+
+---
+
 ## What Can I Do With This?
 
 ### Get a Personalized Training Plan
