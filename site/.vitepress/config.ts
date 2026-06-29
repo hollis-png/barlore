@@ -34,6 +34,65 @@ export default defineConfig({
     ],
   ],
 
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+    "zh-TW": {
+      label: "繁體中文",
+      lang: "zh-TW",
+      themeConfig: {
+        nav: [
+          { text: "首頁", link: "/zh-TW/" },
+          { text: "學習", link: "/zh-TW/learn" },
+          { text: "動作庫", link: "/exercises/" },
+          { text: "計畫", link: "/programs/" },
+          { text: "訓練科學", link: "/core/" },
+          { text: "營養與恢復", link: "/crosscutting/" },
+          { text: "術語表", link: "/glossary" },
+          {
+            text: "AI 工具",
+            items: [
+              { text: "AI 使用指南", link: "/ai" },
+              { text: "完整索引 (llms.txt)", link: "/llms-full" },
+            ],
+          },
+        ],
+        footer: {
+          message: "以證據分級的訓練知識庫。",
+          copyright: "Barlore Project",
+        },
+        darkModeSwitchLabel: "外觀",
+        sidebarMenuLabel: "選單",
+        returnToTopLabel: "回到頂部",
+        docFooter: {
+          prev: "上一頁",
+          next: "下一頁",
+        },
+        outline: {
+          label: "本頁目錄",
+        },
+        lastUpdated: {
+          text: "最後更新",
+        },
+        search: {
+          provider: "local",
+          options: {
+            translations: {
+              button: { buttonText: "搜尋", buttonAriaLabel: "搜尋" },
+              modal: {
+                noResultsText: "找不到結果",
+                resetButtonTitle: "清除搜尋",
+                footer: { selectText: "選擇", navigateText: "切換", closeText: "關閉" },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+
   themeConfig: {
     logo: undefined,
     siteTitle: "Barlore",

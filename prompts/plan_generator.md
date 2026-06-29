@@ -254,11 +254,19 @@ Recommend **1 primary program + 1 alternative**. For each, state:
 
 **If only 1 program matches at the target level** (e.g., bodybuilding advanced has only `phat`): pick the alternative from the adjacent level in the same system (prefer intermediate over beginner). Clearly state the alternative is from a different level and explain why it is still viable.
 
-### Step 5: Output Weekly Schedule
+### Step 5: Output Weekly Schedule + Progression Rules
 
-**If you have file-reading capability:** read the program file at `Barlore/programs/{system}/{program_id}.md` and expand the full weekly schedule with exercises, sets, reps, and intensity as prescribed.
+**If you have file-reading capability:** read the program file at `Barlore/programs/{system}/{program_id}.md` and expand the full weekly schedule with exercises, sets, reps, and intensity as prescribed. Also read the `progression_model` field from the program's frontmatter.
 
 **If you do not have file-reading capability:** construct the schedule from the program's periodization type (from C.1) and the system's general conventions. Flag the output with the `[Preview]` disclaimer from Section A.
+
+**Always include a Progression Rules section after the weekly schedule.** This section must answer four questions:
+1. **How to progress** — What changes session-to-session or week-to-week (add weight, add reps, change variation)?
+2. **When to add weight** — What is the trigger (all reps completed, AMRAP exceeds minimum, etc.)?
+3. **How much to add** — Specific increments (e.g., 2.5 kg upper body, 5 kg lower body).
+4. **What to do when you stall** — The reset or deload protocol (e.g., reduce 10% and rebuild, switch rep scheme, take a deload week).
+
+Without progression rules, a weekly schedule is just a snapshot — the user won't know how to advance from week to week. This is the most commonly missing piece when LLMs generate training plans.
 
 **If the user has injuries/limitations (field 7) or equipment constraints that require exercise substitution:** skip the standard schedule and go directly to Step 6 to produce a single merged output.
 
@@ -285,6 +293,12 @@ Alternative: {name} — ...
 | Exercise | Sets | Reps | Intensity |
 |----------|------|------|-----------|
 | ...      | ...  | ...  | ...       |
+
+## Progression Rules
+How to progress: ...
+When to add weight: ...
+How much to add: ...
+What to do when you stall: ...
 ```
 
 **Output format (adjustments needed):**
@@ -304,6 +318,12 @@ Alternative: {name} — ...
 | Exercise | Sets | Reps | Intensity |
 |----------|------|------|-----------|
 | ...      | ...  | ...  | ...       |
+
+## Progression Rules
+How to progress: ...
+When to add weight: ...
+How much to add: ...
+What to do when you stall: ...
 ```
 
 ### Step 7: Additional Guidance
