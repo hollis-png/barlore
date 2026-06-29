@@ -1,10 +1,12 @@
 ---
+
 id: crossfit_aerobic_base
 name: CrossFit Aerobic Base Builder
 aliases: [CF aerobic base, Zone 2 CrossFit, aerobic engine CrossFit, CrossFit endurance base]
 category: program
 system: crossfit
 goal: Systematically raise the aerobic ceiling that limits sustained CrossFit performance by prioritizing Zone 2 training, lactate threshold work, and monostructural capacity; designed for athletes whose primary limiter is cardiovascular endurance rather than strength or gymnastics
+goals: [general_fitness, athletic_performance]
 level: intermediate
 duration_weeks: 8
 frequency_per_week: 5

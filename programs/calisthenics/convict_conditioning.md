@@ -1,10 +1,12 @@
 ---
+
 id: convict_conditioning
 name: Convict Conditioning Big Six
 aliases: [CC Big Six, Coach Wade program, convict conditioning program, Paul Wade calisthenics]
 category: program
 system: calisthenics
 goal: Build full-body functional strength from absolute zero through a linear ten-step progression on six fundamental movement patterns — without equipment, gyms, or external load — producing elite-level calisthenics proficiency at the final steps
+goals: [skill_acquisition, strength]
 level: beginner
 frequency_per_week: 3
 periodization: linear

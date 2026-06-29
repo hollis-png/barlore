@@ -1,10 +1,12 @@
 ---
+
 id: upper_lower_4day
 name: Upper Lower 4-Day Split
 aliases: [upper lower, upper lower split, 4-day upper lower, UL split]
 category: program
 system: bodybuilding
 goal: Develop hypertrophy and strength simultaneously through a 4-day upper/lower split that trains each muscle group twice per week with a balanced frequency-volume combination; ideal transition between full-body training and advanced splits
+goals: [hypertrophy, strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4

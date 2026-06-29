@@ -1,10 +1,12 @@
 ---
+
 id: bro_split
 name: Bro Split (5-Day Body-Part Split)
 aliases: [bro split, body part split, 5-day split, classic bodybuilding split, one muscle per day]
 category: program
 system: bodybuilding
 goal: Maximize hypertrophy through high per-session volume concentrated on a single muscle group each training day, allowing maximal mechanical and metabolic stress on each muscle followed by full-week recovery; the archetypal golden-era bodybuilding structure
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5

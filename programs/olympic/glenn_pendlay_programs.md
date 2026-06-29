@@ -1,10 +1,12 @@
 ---
+
 id: glenn_pendlay_programs
 name: Glenn Pendlay Weightlifting System
 aliases: [Pendlay weightlifting, Pendlay OWL program]
 category: program
 system: olympic
 goal: Develop competition lift performance through weekly undulating periodization that alternates high-volume technical accumulation, active recovery, and intensity expression — while building the absolute strength base needed to support heavier competition lifts
+goals: [power, strength]
 level: intermediate
 frequency_per_week: 4
 periodization: undulating

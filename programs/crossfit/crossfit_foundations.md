@@ -1,10 +1,12 @@
 ---
+
 id: crossfit_foundations
 name: CrossFit Foundations
 aliases: [CrossFit GPP, CF Foundations]
 category: program
 system: crossfit
 goal: Build broad general physical preparedness (GPP) by combining constantly varied functional movements performed at high intensity across ten physical domains
+goals: [general_fitness]
 level: beginner
 duration_weeks: 8
 frequency_per_week: 5

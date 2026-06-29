@@ -193,6 +193,7 @@ def collect_programs() -> dict:
             "type": fm.get("type", "program"),
             "system": fm.get("system"),
             "level": fm.get("level"),
+            "goals": fm.get("goals", []),
             "periodization": fm.get("periodization"),
             "exercise_refs": exercise_refs,
             "path": rel(md),
@@ -397,6 +398,27 @@ def build_coverage_report(exercises: dict, programs: dict,
     }
 
 
+def build_goal_index(programs: dict) -> dict:
+    """Build goal -> [{id, level, system, name}] index for goal-based queries."""
+    index = {}
+    for prog in programs.values():
+        for goal in prog.get("goals", []):
+            if goal not in index:
+                index[goal] = []
+            index[goal].append({
+                "id": prog["id"],
+                "name": prog.get("name"),
+                "level": prog.get("level"),
+                "system": prog.get("system"),
+            })
+    for goal in index:
+        index[goal].sort(key=lambda p: (
+            {"beginner": 0, "intermediate": 1, "advanced": 2}.get(p.get("level", ""), 9),
+            p.get("system", ""),
+        ))
+    return index
+
+
 def write_json(name: str, data, check: bool) -> bool:
     """Write or, in check mode, compare. Returns True if up to date."""
     path = INDEX_DIR / name
@@ -448,15 +470,18 @@ def main():
 
     muscle_index         = build_muscle_index(exercises, children_of)
     prog_exercise_index  = build_program_exercise_index(programs)
+    goal_index           = build_goal_index(programs)
     coverage             = build_coverage_report(exercises, programs, children_of)
     print(f"  muscle index: {len(muscle_index)} queryable ids")
     print(f"  program-exercise index: {len(prog_exercise_index)} exercises referenced")
+    print(f"  goal index: {len(goal_index)} goals")
 
     ok = True
     ok &= write_json("exercises.json",             exercises,           args.check)
     ok &= write_json("programs.json",              programs,    args.check)
     ok &= write_json("program_exercise_index.json", prog_exercise_index, args.check)
     ok &= write_json("muscle_index.json",          muscle_index,        args.check)
+    ok &= write_json("goal_index.json",             goal_index,          args.check)
     ok &= write_json("coverage_report.json",       coverage,            args.check)
     ok &= write_json("system_guides.json",         system_guides,       args.check)
 

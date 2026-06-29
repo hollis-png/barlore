@@ -1,10 +1,12 @@
 ---
+
 id: juggernaut_method_strongman
 name: Juggernaut Method Strongman
 aliases: [Juggernaut strongman, CWS strongman, Chad Wesley Smith strongman]
 category: program
 system: strongman
 goal: Build competition-ready peak strength and event proficiency through block periodization with waved loading, targeting a specific competition date at the end of the 16-week cycle
+goals: [strength, hypertrophy]
 level: intermediate
 duration_weeks: 16
 frequency_per_week: 4

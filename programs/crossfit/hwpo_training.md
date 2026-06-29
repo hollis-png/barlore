@@ -1,10 +1,12 @@
 ---
+
 id: hwpo_training
 name: HWPO (Hard Work Pays Off)
 aliases: [HWPO, Mat Fraser training, HWPO training program]
 category: program
 system: crossfit
 goal: Build elite-level CrossFit capacity by training twice daily with dedicated AM aerobic / gymnastics sessions and PM strength + metcon sessions; optimized for athletes aiming at Open top 10% and sanctional competition
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 10

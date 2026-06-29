@@ -1,10 +1,12 @@
 ---
+
 id: crossfit_competition_prep
 name: CrossFit Competition Preparation
 aliases: [CrossFit advanced, CF competition prep, CrossFit Games prep, competitive CrossFit]
 category: program
 system: crossfit
 goal: Prepare competitive CrossFit athletes for sanctioned competition through high-volume two-a-day programming that develops all energy systems, maximal strength, and advanced gymnastic capacity
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 5

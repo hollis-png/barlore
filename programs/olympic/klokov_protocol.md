@@ -1,10 +1,12 @@
 ---
+
 id: klokov_protocol
 name: Dmitry Klokov Seminar Protocol
 aliases: [Klokov program, Klokov weightlifting, Russian strength-dominant OWL]
 category: program
 system: olympic
 goal: Develop extreme upper-back and shoulder girdle structural strength alongside competition lift proficiency, using strength-dominant accessory complexes and autoregulated paused squat variations as the primary structural foundation
+goals: [power, strength]
 level: advanced
 frequency_per_week: 6
 periodization: undulating

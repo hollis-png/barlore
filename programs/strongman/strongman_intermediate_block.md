@@ -1,10 +1,12 @@
 ---
+
 id: strongman_intermediate_block
 name: Strongman Intermediate Block
 aliases: [strongman intermediate, strongman training intermediate, event training strongman]
 category: program
 system: strongman
 goal: Develop strength across all strongman event categories (press, pull, squat, carry) through a combined strength base and event-specific training structure
+goals: [strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4

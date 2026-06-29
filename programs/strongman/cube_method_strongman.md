@@ -1,10 +1,12 @@
 ---
+
 id: cube_method_strongman
 name: Cube Method Strongman
 aliases: [Cube strongman, Josh Thigpen cube, cube method SM]
 category: program
 system: strongman
 goal: Build competition-ready peak strength and event proficiency through an undulating 3-week wave that rotates heavy, explosive, and volume emphasis across primary lifts — while integrating event training that follows the same 3-week wave pattern — targeting a specific contest at the end of the 12-week cycle
+goals: [strength, power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4

@@ -1,10 +1,12 @@
 ---
+
 id: texas_method
 name: Texas Method
 aliases: [TM]
 category: program
 system: powerlifting
 goal: Break through novice stalls via weekly volume-recovery-intensity cycling on the squat, press, and deadlift
+goals: [strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 3

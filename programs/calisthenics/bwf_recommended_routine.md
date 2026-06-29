@@ -1,10 +1,12 @@
 ---
+
 id: bwf_recommended_routine
 name: BWF Recommended Routine
 aliases: [Reddit Recommended Routine, RR, r/bodyweightfitness RR]
 category: program
 system: calisthenics
 goal: Build full-body bodyweight strength and hypertrophy through milestone-based progressive leverage across pushing, pulling, squatting, and hinging patterns
+goals: [skill_acquisition, hypertrophy]
 level: beginner
 frequency_per_week: 3
 periodization: linear

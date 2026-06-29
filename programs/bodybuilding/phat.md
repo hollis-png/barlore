@@ -1,10 +1,12 @@
 ---
+
 id: phat
 name: PHAT (Power Hypertrophy Adaptive Training)
 aliases: [PHAT, Layne Norton PHAT, power hypertrophy adaptive training]
 category: program
 system: bodybuilding
 goal: Simultaneously develop maximal strength on compound lifts and accumulate hypertrophy volume, using heavy power days to build strength and dedicated hypertrophy days to maximize muscle growth
+goals: [hypertrophy, strength]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 5

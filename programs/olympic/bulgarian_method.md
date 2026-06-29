@@ -1,10 +1,12 @@
 ---
+
 id: bulgarian_method
 name: Bulgarian Method
 aliases: [Bulgarian weightlifting, Abadjiev method, daily maximum method]
 category: program
 system: olympic
 goal: Maximize competition lift performance through extreme specificity and frequency, training only the competition lifts and front squat to daily maxima multiple times per day
+goals: [power]
 level: advanced
 frequency_per_week: 6
 origin: classic

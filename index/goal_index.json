@@ -1,0 +1,446 @@
+{
+  "athletic_performance": [
+    {
+      "id": "comptrain_class",
+      "level": "intermediate",
+      "name": "CompTrain Class",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_aerobic_base",
+      "level": "intermediate",
+      "name": "CrossFit Aerobic Base Builder",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_intermediate",
+      "level": "intermediate",
+      "name": "CrossFit Intermediate Strength & Conditioning",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_open_prep",
+      "level": "intermediate",
+      "name": "CrossFit Open Prep Cycle",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_competition_prep",
+      "level": "advanced",
+      "name": "CrossFit Competition Preparation",
+      "system": "crossfit"
+    },
+    {
+      "id": "hwpo_training",
+      "level": "advanced",
+      "name": "HWPO (Hard Work Pays Off)",
+      "system": "crossfit"
+    },
+    {
+      "id": "invictus_athlete",
+      "level": "advanced",
+      "name": "Invictus Athlete",
+      "system": "crossfit"
+    },
+    {
+      "id": "strongman_competition_prep",
+      "level": "advanced",
+      "name": "Strongman Competition Preparation",
+      "system": "strongman"
+    }
+  ],
+  "general_fitness": [
+    {
+      "id": "crossfit_foundations",
+      "level": "beginner",
+      "name": "CrossFit Foundations",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_aerobic_base",
+      "level": "intermediate",
+      "name": "CrossFit Aerobic Base Builder",
+      "system": "crossfit"
+    }
+  ],
+  "hypertrophy": [
+    {
+      "id": "beginner_fullbody_hypertrophy",
+      "level": "beginner",
+      "name": "Beginner Full-Body Hypertrophy",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "beginner_upper_lower",
+      "level": "beginner",
+      "name": "Beginner Upper/Lower Split",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "bwf_recommended_routine",
+      "level": "beginner",
+      "name": "BWF Recommended Routine",
+      "system": "calisthenics"
+    },
+    {
+      "id": "gzclp",
+      "level": "beginner",
+      "name": "GZCLP",
+      "system": "powerlifting"
+    },
+    {
+      "id": "531_bbb",
+      "level": "intermediate",
+      "name": "5/3/1 BBB (Boring But Big)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "arnold_split",
+      "level": "intermediate",
+      "name": "Arnold Split",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "bodybuilding_isolation_block",
+      "level": "intermediate",
+      "name": "Bodybuilding Isolation Block",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "bro_split",
+      "level": "intermediate",
+      "name": "Bro Split (5-Day Body-Part Split)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "gvt",
+      "level": "intermediate",
+      "name": "German Volume Training (GVT)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "phul",
+      "level": "intermediate",
+      "name": "PHUL",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "push_pull_legs",
+      "level": "intermediate",
+      "name": "Push Pull Legs",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "rp_hypertrophy",
+      "level": "intermediate",
+      "name": "RP Hypertrophy Program",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "upper_lower_4day",
+      "level": "intermediate",
+      "name": "Upper Lower 4-Day Split",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "juggernaut_method_strongman",
+      "level": "intermediate",
+      "name": "Juggernaut Method Strongman",
+      "system": "strongman"
+    },
+    {
+      "id": "dc_training",
+      "level": "advanced",
+      "name": "DC Training (Doggcrapp)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "phat",
+      "level": "advanced",
+      "name": "PHAT (Power Hypertrophy Adaptive Training)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "brian_shaw_off_season",
+      "level": "advanced",
+      "name": "Brian Shaw Off-Season Training Structure",
+      "system": "strongman"
+    }
+  ],
+  "power": [
+    {
+      "id": "olympic_weightlifting_beginner",
+      "level": "beginner",
+      "name": "Olympic Weightlifting Beginner Program",
+      "system": "olympic"
+    },
+    {
+      "id": "usaw_l1_program",
+      "level": "beginner",
+      "name": "USAW Level 1 Coaching Framework",
+      "system": "olympic"
+    },
+    {
+      "id": "catalyst_12_week",
+      "level": "intermediate",
+      "name": "Catalyst Athletics 12-Week Traditional Cycle",
+      "system": "olympic"
+    },
+    {
+      "id": "glenn_pendlay_programs",
+      "level": "intermediate",
+      "name": "Glenn Pendlay Weightlifting System",
+      "system": "olympic"
+    },
+    {
+      "id": "lsus_10_5_3",
+      "level": "intermediate",
+      "name": "LSU Shreveport 10-5-3 Program",
+      "system": "olympic"
+    },
+    {
+      "id": "olympic_weightlifting_intermediate",
+      "level": "intermediate",
+      "name": "Olympic Weightlifting Intermediate Program",
+      "system": "olympic"
+    },
+    {
+      "id": "cube_method_strongman",
+      "level": "intermediate",
+      "name": "Cube Method Strongman",
+      "system": "strongman"
+    },
+    {
+      "id": "bulgarian_method",
+      "level": "advanced",
+      "name": "Bulgarian Method",
+      "system": "olympic"
+    },
+    {
+      "id": "cal_strength_daily",
+      "level": "advanced",
+      "name": "California Strength Daily Training Program",
+      "system": "olympic"
+    },
+    {
+      "id": "klokov_protocol",
+      "level": "advanced",
+      "name": "Dmitry Klokov Seminar Protocol",
+      "system": "olympic"
+    },
+    {
+      "id": "olympic_weightlifting_advanced",
+      "level": "advanced",
+      "name": "Olympic Weightlifting Advanced — High-Frequency Competition Prep",
+      "system": "olympic"
+    },
+    {
+      "id": "westside_conjugate",
+      "level": "advanced",
+      "name": "Westside Conjugate Method",
+      "system": "powerlifting"
+    },
+    {
+      "id": "eddie_hall_training_structure",
+      "level": "advanced",
+      "name": "Eddie Hall Training Structure",
+      "system": "strongman"
+    }
+  ],
+  "skill_acquisition": [
+    {
+      "id": "bwf_recommended_routine",
+      "level": "beginner",
+      "name": "BWF Recommended Routine",
+      "system": "calisthenics"
+    },
+    {
+      "id": "convict_conditioning",
+      "level": "beginner",
+      "name": "Convict Conditioning Big Six",
+      "system": "calisthenics"
+    },
+    {
+      "id": "get_strong_kavadlo",
+      "level": "beginner",
+      "name": "Get Strong: The Ultimate 16-Week Transformation Program",
+      "system": "calisthenics"
+    },
+    {
+      "id": "grease_the_groove",
+      "level": "beginner",
+      "name": "Grease the Groove Method",
+      "system": "calisthenics"
+    },
+    {
+      "id": "gymnastic_bodies_foundation_one",
+      "level": "beginner",
+      "name": "Gymnastic Bodies Foundation One",
+      "system": "calisthenics"
+    },
+    {
+      "id": "olympic_weightlifting_beginner",
+      "level": "beginner",
+      "name": "Olympic Weightlifting Beginner Program",
+      "system": "olympic"
+    },
+    {
+      "id": "usaw_l1_program",
+      "level": "beginner",
+      "name": "USAW Level 1 Coaching Framework",
+      "system": "olympic"
+    },
+    {
+      "id": "bwf_skill_day_template",
+      "level": "intermediate",
+      "name": "BWF Advanced Skill Day Template",
+      "system": "calisthenics"
+    },
+    {
+      "id": "calisthenics_intermediate_skills",
+      "level": "intermediate",
+      "name": "Calisthenics Intermediate Skill Development",
+      "system": "calisthenics"
+    },
+    {
+      "id": "overcoming_gravity_template",
+      "level": "intermediate",
+      "name": "Overcoming Gravity Skill Progression Template",
+      "system": "calisthenics"
+    },
+    {
+      "id": "calisthenics_advanced_skills",
+      "level": "advanced",
+      "name": "Calisthenics Advanced Strength Skills",
+      "system": "calisthenics"
+    }
+  ],
+  "strength": [
+    {
+      "id": "convict_conditioning",
+      "level": "beginner",
+      "name": "Convict Conditioning Big Six",
+      "system": "calisthenics"
+    },
+    {
+      "id": "get_strong_kavadlo",
+      "level": "beginner",
+      "name": "Get Strong: The Ultimate 16-Week Transformation Program",
+      "system": "calisthenics"
+    },
+    {
+      "id": "gzclp",
+      "level": "beginner",
+      "name": "GZCLP",
+      "system": "powerlifting"
+    },
+    {
+      "id": "starting_strength",
+      "level": "beginner",
+      "name": "Starting Strength",
+      "system": "powerlifting"
+    },
+    {
+      "id": "basic_strongman_block",
+      "level": "beginner",
+      "name": "Basic Strongman Block",
+      "system": "strongman"
+    },
+    {
+      "id": "starting_strongman",
+      "level": "beginner",
+      "name": "Starting Strongman",
+      "system": "strongman"
+    },
+    {
+      "id": "531_bbb",
+      "level": "intermediate",
+      "name": "5/3/1 BBB (Boring But Big)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "phul",
+      "level": "intermediate",
+      "name": "PHUL",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "upper_lower_4day",
+      "level": "intermediate",
+      "name": "Upper Lower 4-Day Split",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "glenn_pendlay_programs",
+      "level": "intermediate",
+      "name": "Glenn Pendlay Weightlifting System",
+      "system": "olympic"
+    },
+    {
+      "id": "5_3_1",
+      "level": "intermediate",
+      "name": "5/3/1",
+      "system": "powerlifting"
+    },
+    {
+      "id": "texas_method",
+      "level": "intermediate",
+      "name": "Texas Method",
+      "system": "powerlifting"
+    },
+    {
+      "id": "cube_method_strongman",
+      "level": "intermediate",
+      "name": "Cube Method Strongman",
+      "system": "strongman"
+    },
+    {
+      "id": "juggernaut_method_strongman",
+      "level": "intermediate",
+      "name": "Juggernaut Method Strongman",
+      "system": "strongman"
+    },
+    {
+      "id": "strongman_intermediate_block",
+      "level": "intermediate",
+      "name": "Strongman Intermediate Block",
+      "system": "strongman"
+    },
+    {
+      "id": "phat",
+      "level": "advanced",
+      "name": "PHAT (Power Hypertrophy Adaptive Training)",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "klokov_protocol",
+      "level": "advanced",
+      "name": "Dmitry Klokov Seminar Protocol",
+      "system": "olympic"
+    },
+    {
+      "id": "westside_conjugate",
+      "level": "advanced",
+      "name": "Westside Conjugate Method",
+      "system": "powerlifting"
+    },
+    {
+      "id": "brian_shaw_off_season",
+      "level": "advanced",
+      "name": "Brian Shaw Off-Season Training Structure",
+      "system": "strongman"
+    },
+    {
+      "id": "eddie_hall_training_structure",
+      "level": "advanced",
+      "name": "Eddie Hall Training Structure",
+      "system": "strongman"
+    },
+    {
+      "id": "strongman_competition_prep",
+      "level": "advanced",
+      "name": "Strongman Competition Preparation",
+      "system": "strongman"
+    }
+  ]
+}

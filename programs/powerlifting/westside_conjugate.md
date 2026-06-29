@@ -1,10 +1,12 @@
 ---
+
 id: westside_conjugate
 name: Westside Conjugate Method
 aliases: [Conjugate Method, Westside Barbell, Louie Simmons Conjugate]
 category: program
 system: powerlifting
 goal: Simultaneously develop maximal strength and rate of force development through concurrent max-effort and dynamic-effort training
+goals: [strength, power]
 level: advanced
 duration_weeks: 4
 frequency_per_week: 4

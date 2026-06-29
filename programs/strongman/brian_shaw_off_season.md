@@ -1,10 +1,12 @@
 ---
+
 id: brian_shaw_off_season
 name: Brian Shaw Off-Season Training Structure
 aliases: [Brian Shaw strongman, Shaw off-season, professional strongman off-season]
 category: program
 system: strongman
 goal: Maximize off-season absolute strength accumulation and structural hypertrophy across all primary movement patterns, while maintaining event proficiency through reduced-frequency implement practice — with the intent of arriving at the next competition prep block with significantly higher strength ceilings than the previous competition cycle
+goals: [strength, hypertrophy]
 level: advanced
 frequency_per_week: 4
 periodization: conjugate

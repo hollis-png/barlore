@@ -1,10 +1,12 @@
 ---
+
 id: bwf_skill_day_template
 name: BWF Advanced Skill Day Template
 aliases: [BWF skill template, bodyweightfitness skill day, planche front lever DUP template, statics DUP]
 category: program
 system: calisthenics
 goal: Develop high-tension isometric calisthenics skills (planche, front lever, handstand) through Daily Undulating Periodization of hold duration and difficulty — designed as a modular template to integrate into an existing advanced training split
+goals: [skill_acquisition]
 level: intermediate
 frequency_per_week: 3
 periodization: undulating

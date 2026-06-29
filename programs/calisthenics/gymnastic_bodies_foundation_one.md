@@ -1,10 +1,12 @@
 ---
+
 id: gymnastic_bodies_foundation_one
 name: Gymnastic Bodies Foundation One
 aliases: [GB Foundation One, GymnasticBodies F1, Christopher Sommer foundation, gymnasticbodies.com foundation]
 category: program
 system: calisthenics
 goal: Build the gymnastic strength foundation (front lever, planche, hollow back press, single-leg squat) and active flexibility simultaneously, by pairing strength exercises with targeted mobility drills as active recovery — eliminating passive rest and developing the joint ranges needed to support advanced gymnastic positions
+goals: [skill_acquisition]
 level: beginner
 frequency_per_week: 4
 periodization: block

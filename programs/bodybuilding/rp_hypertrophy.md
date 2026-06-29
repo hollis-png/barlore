@@ -1,10 +1,12 @@
 ---
+
 id: rp_hypertrophy
 name: RP Hypertrophy Program
 aliases: [Renaissance Periodization Hypertrophy, RP Hypertrophy 4-Day]
 category: program
 system: bodybuilding
 goal: Maximize skeletal muscle hypertrophy via RIR-based autoregulated volume progression from MEV toward MRV across a 5-week mesocycle
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 5
 frequency_per_week: 4

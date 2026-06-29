@@ -1,10 +1,12 @@
 ---
+
 id: gvt
 name: German Volume Training (GVT)
 aliases: [GVT, German Volume Training, 10x10, ten sets ten reps]
 category: program
 system: bodybuilding
 goal: Produce rapid hypertrophy through extreme volume accumulation using the 10×10 protocol on a paired antagonist superset structure; primarily targets intermediate trainees looking for a hypertrophy shock protocol or a break from strength-focused programming
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 6
 frequency_per_week: 4

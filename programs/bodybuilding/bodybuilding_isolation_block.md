@@ -1,10 +1,12 @@
 ---
+
 id: bodybuilding_isolation_block
 name: Bodybuilding Isolation Block
 aliases: [isolation block, isolation day program, arms specialization, isolation split]
 category: program
 system: bodybuilding
 goal: Maximise hypertrophy volume across chest, shoulders, arms, and legs using exclusively isolation movements; designed as a 6-week specialisation block to bring up lagging body parts
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 6
 frequency_per_week: 4

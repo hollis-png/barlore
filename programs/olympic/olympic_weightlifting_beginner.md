@@ -1,10 +1,12 @@
 ---
+
 id: olympic_weightlifting_beginner
 name: Olympic Weightlifting Beginner Program
 aliases: [OWL beginner, beginner weightlifting, learn to snatch, learn to clean and jerk]
 category: program
 system: olympic
 goal: Develop technical competency in the snatch and clean & jerk using power versions as learning tools, while building the strength base required for full competition lifts
+goals: [power, skill_acquisition]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3

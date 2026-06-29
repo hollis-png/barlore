@@ -1,10 +1,12 @@
 ---
+
 id: catalyst_12_week
 name: Catalyst Athletics 12-Week Traditional Cycle
 aliases: [Catalyst 12-Week, Everett Traditional Cycle]
 category: program
 system: olympic
 goal: Build neuromuscular strength and technical proficiency in the snatch and clean-and-jerk through three progressive 4-week mesocycles
+goals: [power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5

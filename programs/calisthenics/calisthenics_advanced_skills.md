@@ -1,10 +1,12 @@
 ---
+
 id: calisthenics_advanced_skills
 name: Calisthenics Advanced Strength Skills
 aliases: [calisthenics advanced, planche training, front lever, handstand, advanced calisthenics]
 category: program
 system: calisthenics
 goal: Develop advanced static strength skills (straddle planche, full front lever, freestanding handstand push-up) and dynamic skills (ring muscle-up, one-arm pull-up progression) through daily skill practice with structured strength support
+goals: [skill_acquisition]
 level: advanced
 duration_weeks: 24
 frequency_per_week: 5

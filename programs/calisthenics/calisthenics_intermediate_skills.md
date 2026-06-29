@@ -1,10 +1,12 @@
 ---
+
 id: calisthenics_intermediate_skills
 name: Calisthenics Intermediate Skill Development
 aliases: [calisthenics intermediate, skill development calisthenics, muscle-up progression, handstand training]
 category: program
 system: calisthenics
 goal: Develop intermediate-level calisthenics skills (muscle-up, handstand push-up, pistol squat, L-sit) through structured skill practice and strength building on 4 days per week
+goals: [skill_acquisition]
 level: intermediate
 duration_weeks: 16
 frequency_per_week: 4

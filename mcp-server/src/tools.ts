@@ -79,7 +79,7 @@ export const toolDefinitions = {
 
   list_programs: {
     description:
-      "List all training programs, optionally filtered by system or level.",
+      "List all training programs, optionally filtered by system, level, or goal.",
     inputSchema: z.object({
       system: z
         .string()
@@ -91,6 +91,12 @@ export const toolDefinitions = {
         .string()
         .optional()
         .describe("Level: beginner, intermediate, advanced"),
+      goal: z
+        .string()
+        .optional()
+        .describe(
+          "Training goal: strength, hypertrophy, power, athletic_performance, skill_acquisition, general_fitness"
+        ),
     }),
   },
 
@@ -115,6 +121,9 @@ export const toolDefinitions = {
           "rpe_rir",
           "rep_continuum",
           "specificity",
+          "hypertrophy_mechanisms",
+          "training_to_failure",
+          "testing_protocols",
           "deload",
         ])
         .describe("Training concept name"),
@@ -311,6 +320,7 @@ function searchByMuscle(args: Record<string, unknown>) {
 function listPrograms(args: Record<string, unknown>) {
   const system = args.system as string | undefined;
   const level = args.level as string | undefined;
+  const goal = args.goal as string | undefined;
   const programs = getPrograms();
 
   let results = Object.values(programs);
@@ -325,12 +335,19 @@ function listPrograms(args: Record<string, unknown>) {
       (p) => p.level.toLowerCase() === level.toLowerCase()
     );
   }
+  if (goal) {
+    const goalLower = goal.toLowerCase();
+    results = results.filter(
+      (p) => (p.goals || []).some((g: string) => g.toLowerCase() === goalLower)
+    );
+  }
 
   const summary = results.map((p) => ({
     id: p.id,
     name: p.name,
     system: p.system,
     level: p.level,
+    goals: p.goals || [],
     periodization: p.periodization,
     exercise_count: p.exercise_refs.length,
   }));

@@ -1,10 +1,12 @@
 ---
+
 id: gzclp
 name: GZCLP
 aliases: [GZCL Linear Progression, Cody GZCLP]
 category: program
 system: powerlifting
 goal: Build strength on competition lifts through a tiered set structure that tolerates more volume than simple 5x5 while retaining novice-friendly linear progression
+goals: [strength, hypertrophy]
 level: beginner
 duration_weeks: 16
 frequency_per_week: 4

@@ -1,10 +1,12 @@
 ---
+
 id: olympic_weightlifting_intermediate
 name: Olympic Weightlifting Intermediate Program
 aliases: [OWL intermediate, intermediate weightlifting, intermediate snatch and clean and jerk]
 category: program
 system: olympic
 goal: Develop consistent heavy singles in the snatch and clean & jerk through structured percentage-based progression, while building the front squat strength and pulling capacity required to push past first technical plateaus
+goals: [power]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4

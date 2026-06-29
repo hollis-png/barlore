@@ -1,10 +1,12 @@
 ---
+
 id: arnold_split
 name: Arnold Split
 aliases: [Arnold schwarzenegger split, golden era bodybuilding split, 6-day double split, chest back arms split]
 category: program
 system: bodybuilding
 goal: Build dense, proportional muscle mass through high-frequency, high-volume training by pairing antagonist muscle groups (chest+back, shoulders+arms) on the same day for natural superset synergy, training each muscle group twice per week across a 6-day cycle
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 6

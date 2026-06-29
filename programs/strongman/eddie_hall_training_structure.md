@@ -1,10 +1,12 @@
 ---
+
 id: eddie_hall_training_structure
 name: Eddie Hall Training Structure
 aliases: [Eddie Hall strongman, Hall 2017 WSM, The Beast training]
 category: program
 system: strongman
 goal: Develop extreme absolute strength across all primary movement patterns through near-daily high-intensity training at world-record loading demands, supported by professional recovery infrastructure — with the specific goal of producing the highest possible single-event outputs in key competition disciplines
+goals: [strength, power]
 level: advanced
 frequency_per_week: 5
 periodization: undulating

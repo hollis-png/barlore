@@ -1,10 +1,12 @@
 ---
+
 id: dc_training
 name: DC Training (Doggcrapp)
 aliases: [Doggcrapp, DC training, Dante Trudel training, extreme stretching bodybuilding]
 category: program
 system: bodybuilding
 goal: Maximize hypertrophy and strength simultaneously by training each muscle group every 4–5 days using rest-pause sets, extreme stretching, and rotating exercises across two workouts (A and B) that alternate over the training week
+goals: [hypertrophy]
 level: advanced
 duration_weeks: 12
 frequency_per_week: 3

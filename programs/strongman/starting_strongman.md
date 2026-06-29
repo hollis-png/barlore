@@ -1,10 +1,12 @@
 ---
+
 id: starting_strongman
 name: Starting Strongman
 aliases: [Kalle Beck strongman, beginner strongman program, starting strongman program]
 category: program
 system: strongman
 goal: Build the foundational strength and implement familiarity required to compete in amateur strongman, starting from a general barbell background and progressing to competition-standard events through linear load increases
+goals: [strength]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 4

@@ -1,10 +1,12 @@
 ---
+
 id: grease_the_groove
 name: Grease the Groove Method
 aliases: [GTG, grease the groove, Pavel GTG, sub-maximal frequency training]
 category: program
 system: calisthenics
 goal: Rapidly increase proficiency and max rep count in a target calisthenics movement through repeated high-frequency sub-maximal practice, without accumulating systemic fatigue — exploiting the neural plasticity window of movement patterns learned under non-fatigued conditions
+goals: [skill_acquisition]
 level: beginner
 frequency_per_week: 7
 periodization: undulating

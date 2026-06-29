@@ -1,10 +1,12 @@
 ---
+
 id: crossfit_open_prep
 name: CrossFit Open Prep Cycle
 aliases: [Open prep, CrossFit Open preparation, CF Open cycle, 8-week Open prep]
 category: program
 system: crossfit
 goal: Peak performance for the CrossFit Open by systematically building sport-specific fatigue tolerance, Open-format WOD execution, and competition-day readiness across an 8-week pre-Open cycle
+goals: [athletic_performance]
 level: intermediate
 duration_weeks: 8
 frequency_per_week: 5

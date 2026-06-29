@@ -1,10 +1,12 @@
 ---
+
 id: overcoming_gravity_template
 name: Overcoming Gravity Skill Progression Template
 aliases: [OG template, Steven Low OG, overcoming gravity program, OG intermediate]
 category: program
 system: calisthenics
 goal: Develop intermediate and advanced calisthenics skills (ring muscle-up, handstand push-up, front lever, planche progressions) through systematically balanced push/pull strength programming and milestone-based skill progression
+goals: [skill_acquisition]
 level: intermediate
 frequency_per_week: 3
 periodization: block

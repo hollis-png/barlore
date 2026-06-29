@@ -1,10 +1,12 @@
 ---
+
 id: usaw_l1_program
 name: USAW Level 1 Coaching Framework
 aliases: [USAW Level 1, USA Weightlifting beginner program, usaw l1]
 category: program
 system: olympic
 goal: Establish injury-free technique in the snatch and clean & jerk through a conservative top-down progression, while developing the joint mobility and positional stability required for full competition lifts
+goals: [power, skill_acquisition]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3

@@ -1,10 +1,12 @@
 ---
+
 id: invictus_athlete
 name: Invictus Athlete
 aliases: [Invictus, CF Invictus, CJ Martin program, Invictus competitor]
 category: program
 system: crossfit
 goal: Develop sport-specific CrossFit competition fitness through systematic energy system development, precise weakness targeting, and periodized technical skill acquisition; designed for athletes preparing for the Open and sanctional qualifying events
+goals: [athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 8

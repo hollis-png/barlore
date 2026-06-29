@@ -1,10 +1,12 @@
 ---
+
 id: comptrain_class
 name: CompTrain Class
 aliases: [CompTrain, Ben Bergeron program, CompTrain community, CF New England methodology]
 category: program
 system: crossfit
 goal: Develop well-rounded CrossFit capacity for community athletes through daily programming that integrates strength, skill, and conditioning in a single one-hour class format; suitable for athletes who train once per day and want structured weekly periodization
+goals: [athletic_performance]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5

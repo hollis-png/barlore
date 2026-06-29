@@ -1,10 +1,12 @@
 ---
+
 id: olympic_weightlifting_advanced
 name: Olympic Weightlifting Advanced — High-Frequency Competition Prep
 aliases: [OWL advanced, Bulgarian method, high frequency weightlifting, competition prep OWL]
 category: program
 system: olympic
 goal: Maximize snatch and clean & jerk performance through high-frequency exposure to competition lifts, with peaking structure targeting a specific competition date
+goals: [power]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 6

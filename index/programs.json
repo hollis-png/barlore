@@ -14,6 +14,10 @@
       "face_pull",
       "barbell_curl"
     ],
+    "goals": [
+      "strength",
+      "hypertrophy"
+    ],
     "id": "531_bbb",
     "level": "intermediate",
     "name": "5/3/1 BBB (Boring But Big)",
@@ -28,6 +32,9 @@
       "bench_press",
       "overhead_press",
       "conventional_deadlift"
+    ],
+    "goals": [
+      "strength"
     ],
     "id": "5_3_1",
     "level": "intermediate",
@@ -58,6 +65,9 @@
       "lying_leg_curls",
       "standing_calf_raises"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "arnold_split",
     "level": "intermediate",
     "name": "Arnold Split",
@@ -72,6 +82,9 @@
       "overhead_press",
       "back_squat",
       "bent_over_barbell_row"
+    ],
+    "goals": [
+      "strength"
     ],
     "id": "basic_strongman_block",
     "level": "beginner",
@@ -97,6 +110,9 @@
       "hammer_curls",
       "lying_triceps_press",
       "face_pull"
+    ],
+    "goals": [
+      "hypertrophy"
     ],
     "id": "beginner_fullbody_hypertrophy",
     "level": "beginner",
@@ -129,6 +145,9 @@
       "lying_leg_curls",
       "standing_calf_raises",
       "hanging_leg_raise"
+    ],
+    "goals": [
+      "hypertrophy"
     ],
     "id": "beginner_upper_lower",
     "level": "beginner",
@@ -172,6 +191,9 @@
       "standing_calf_raises",
       "donkey_calf_raises"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "bodybuilding_isolation_block",
     "level": "intermediate",
     "name": "Bodybuilding Isolation Block",
@@ -193,6 +215,10 @@
       "tire_flip",
       "barbell_shrug",
       "good_morning"
+    ],
+    "goals": [
+      "strength",
+      "hypertrophy"
     ],
     "id": "brian_shaw_off_season",
     "level": "advanced",
@@ -230,6 +256,9 @@
       "seated_leg_curl",
       "standing_calf_raises"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "bro_split",
     "level": "intermediate",
     "name": "Bro Split (5-Day Body-Part Split)",
@@ -243,6 +272,9 @@
       "snatch",
       "clean_and_jerk",
       "front_squat"
+    ],
+    "goals": [
+      "power"
     ],
     "id": "bulgarian_method",
     "level": "advanced",
@@ -267,6 +299,10 @@
       "pallof_press",
       "reverse_hyperextension"
     ],
+    "goals": [
+      "skill_acquisition",
+      "hypertrophy"
+    ],
     "id": "bwf_recommended_routine",
     "level": "beginner",
     "name": "BWF Recommended Routine",
@@ -283,6 +319,9 @@
       "weighted_pull_ups",
       "ring_dips",
       "plank"
+    ],
+    "goals": [
+      "skill_acquisition"
     ],
     "id": "bwf_skill_day_template",
     "level": "intermediate",
@@ -304,6 +343,9 @@
       "bent_over_barbell_row",
       "romanian_deadlift"
     ],
+    "goals": [
+      "power"
+    ],
     "id": "cal_strength_daily",
     "level": "advanced",
     "name": "California Strength Daily Training Program",
@@ -323,6 +365,9 @@
       "plank",
       "pallof_press"
     ],
+    "goals": [
+      "skill_acquisition"
+    ],
     "id": "calisthenics_advanced_skills",
     "level": "advanced",
     "name": "Calisthenics Advanced Strength Skills",
@@ -341,6 +386,9 @@
       "scapular_pull_up",
       "plank",
       "pallof_press"
+    ],
+    "goals": [
+      "skill_acquisition"
     ],
     "id": "calisthenics_intermediate_skills",
     "level": "intermediate",
@@ -366,6 +414,9 @@
       "good_morning",
       "stiff_legged_barbell_deadlift"
     ],
+    "goals": [
+      "power"
+    ],
     "id": "catalyst_12_week",
     "level": "intermediate",
     "name": "Catalyst Athletics 12-Week Traditional Cycle",
@@ -389,6 +440,9 @@
       "wall_ball_shots",
       "kettlebell_swings"
     ],
+    "goals": [
+      "athletic_performance"
+    ],
     "id": "comptrain_class",
     "level": "intermediate",
     "name": "CompTrain Class",
@@ -405,6 +459,10 @@
       "bodyweight_squat",
       "reverse_hyperextension",
       "handstand_push_ups"
+    ],
+    "goals": [
+      "skill_acquisition",
+      "strength"
     ],
     "id": "convict_conditioning",
     "level": "beginner",
@@ -424,6 +482,10 @@
       "conventional_deadlift",
       "double_unders",
       "wall_ball_shots"
+    ],
+    "goals": [
+      "general_fitness",
+      "athletic_performance"
     ],
     "id": "crossfit_aerobic_base",
     "level": "intermediate",
@@ -447,6 +509,9 @@
       "power_clean",
       "pushups"
     ],
+    "goals": [
+      "athletic_performance"
+    ],
     "id": "crossfit_competition_prep",
     "level": "advanced",
     "name": "CrossFit Competition Preparation",
@@ -462,6 +527,9 @@
       "conventional_deadlift",
       "pullups",
       "front_squat"
+    ],
+    "goals": [
+      "general_fitness"
     ],
     "id": "crossfit_foundations",
     "level": "beginner",
@@ -482,6 +550,9 @@
       "pushups",
       "front_squat",
       "romanian_deadlift"
+    ],
+    "goals": [
+      "athletic_performance"
     ],
     "id": "crossfit_intermediate",
     "level": "intermediate",
@@ -505,6 +576,9 @@
       "thrusters",
       "box_jumps"
     ],
+    "goals": [
+      "athletic_performance"
+    ],
     "id": "crossfit_open_prep",
     "level": "intermediate",
     "name": "CrossFit Open Prep Cycle",
@@ -525,6 +599,10 @@
       "good_morning",
       "romanian_deadlift",
       "pullups"
+    ],
+    "goals": [
+      "strength",
+      "power"
     ],
     "id": "cube_method_strongman",
     "level": "intermediate",
@@ -547,6 +625,9 @@
       "triceps_pushdown",
       "standing_calf_raises"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "dc_training",
     "level": "advanced",
     "name": "DC Training (Doggcrapp)",
@@ -568,6 +649,10 @@
       "floor_press",
       "bent_over_barbell_row"
     ],
+    "goals": [
+      "strength",
+      "power"
+    ],
     "id": "eddie_hall_training_structure",
     "level": "advanced",
     "name": "Eddie Hall Training Structure",
@@ -585,6 +670,10 @@
       "hanging_leg_raise",
       "inverted_row",
       "plank"
+    ],
+    "goals": [
+      "strength",
+      "skill_acquisition"
     ],
     "id": "get_strong_kavadlo",
     "level": "beginner",
@@ -605,6 +694,10 @@
       "push_press",
       "bent_over_barbell_row"
     ],
+    "goals": [
+      "power",
+      "strength"
+    ],
     "id": "glenn_pendlay_programs",
     "level": "intermediate",
     "name": "Glenn Pendlay Weightlifting System",
@@ -617,6 +710,9 @@
     "exercise_refs": [
       "pullups",
       "pushups"
+    ],
+    "goals": [
+      "skill_acquisition"
     ],
     "id": "grease_the_groove",
     "level": "beginner",
@@ -641,6 +737,9 @@
       "romanian_deadlift",
       "incline_dumbbell_press"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "gvt",
     "level": "intermediate",
     "name": "German Volume Training (GVT)",
@@ -659,6 +758,9 @@
       "plank",
       "pallof_press"
     ],
+    "goals": [
+      "skill_acquisition"
+    ],
     "id": "gymnastic_bodies_foundation_one",
     "level": "beginner",
     "name": "Gymnastic Bodies Foundation One",
@@ -674,6 +776,10 @@
       "overhead_press",
       "conventional_deadlift",
       "pullups"
+    ],
+    "goals": [
+      "strength",
+      "hypertrophy"
     ],
     "id": "gzclp",
     "level": "beginner",
@@ -699,6 +805,9 @@
       "rowing_ergometer",
       "wall_ball_shots"
     ],
+    "goals": [
+      "athletic_performance"
+    ],
     "id": "hwpo_training",
     "level": "advanced",
     "name": "HWPO (Hard Work Pays Off)",
@@ -722,6 +831,9 @@
       "double_unders",
       "toes_to_bar"
     ],
+    "goals": [
+      "athletic_performance"
+    ],
     "id": "invictus_athlete",
     "level": "advanced",
     "name": "Invictus Athlete",
@@ -743,6 +855,10 @@
       "romanian_deadlift",
       "pullups"
     ],
+    "goals": [
+      "strength",
+      "hypertrophy"
+    ],
     "id": "juggernaut_method_strongman",
     "level": "intermediate",
     "name": "Juggernaut Method Strongman",
@@ -760,6 +876,10 @@
       "push_press_behind_the_neck",
       "overhead_squat",
       "barbell_shrug"
+    ],
+    "goals": [
+      "power",
+      "strength"
     ],
     "id": "klokov_protocol",
     "level": "advanced",
@@ -781,6 +901,9 @@
       "bench_press",
       "barbell_lunge",
       "pullups"
+    ],
+    "goals": [
+      "power"
     ],
     "id": "lsus_10_5_3",
     "level": "intermediate",
@@ -804,6 +927,9 @@
       "push_press",
       "good_morning"
     ],
+    "goals": [
+      "power"
+    ],
     "id": "olympic_weightlifting_advanced",
     "level": "advanced",
     "name": "Olympic Weightlifting Advanced — High-Frequency Competition Prep",
@@ -823,6 +949,10 @@
       "clean_pull",
       "romanian_deadlift",
       "back_squat"
+    ],
+    "goals": [
+      "power",
+      "skill_acquisition"
     ],
     "id": "olympic_weightlifting_beginner",
     "level": "beginner",
@@ -844,6 +974,9 @@
       "overhead_squat",
       "hang_snatch"
     ],
+    "goals": [
+      "power"
+    ],
     "id": "olympic_weightlifting_intermediate",
     "level": "intermediate",
     "name": "Olympic Weightlifting Intermediate Program",
@@ -864,6 +997,9 @@
       "handstand_push_ups",
       "plank",
       "pallof_press"
+    ],
+    "goals": [
+      "skill_acquisition"
     ],
     "id": "overcoming_gravity_template",
     "level": "intermediate",
@@ -896,6 +1032,10 @@
       "preacher_curl",
       "seated_calf_raise"
     ],
+    "goals": [
+      "hypertrophy",
+      "strength"
+    ],
     "id": "phat",
     "level": "advanced",
     "name": "PHAT (Power Hypertrophy Adaptive Training)",
@@ -915,6 +1055,10 @@
       "conventional_deadlift",
       "romanian_deadlift"
     ],
+    "goals": [
+      "hypertrophy",
+      "strength"
+    ],
     "id": "phul",
     "level": "intermediate",
     "name": "PHUL",
@@ -932,6 +1076,9 @@
       "back_squat",
       "romanian_deadlift"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "push_pull_legs",
     "level": "intermediate",
     "name": "Push Pull Legs",
@@ -948,6 +1095,9 @@
       "back_squat",
       "romanian_deadlift"
     ],
+    "goals": [
+      "hypertrophy"
+    ],
     "id": "rp_hypertrophy",
     "level": "intermediate",
     "name": "RP Hypertrophy Program",
@@ -963,6 +1113,9 @@
       "conventional_deadlift",
       "bench_press",
       "power_clean"
+    ],
+    "goals": [
+      "strength"
     ],
     "id": "starting_strength",
     "level": "beginner",
@@ -985,6 +1138,9 @@
       "good_morning",
       "romanian_deadlift"
     ],
+    "goals": [
+      "strength"
+    ],
     "id": "starting_strongman",
     "level": "beginner",
     "name": "Starting Strongman",
@@ -1004,6 +1160,10 @@
       "good_morning",
       "bent_over_barbell_row"
     ],
+    "goals": [
+      "strength",
+      "athletic_performance"
+    ],
     "id": "strongman_competition_prep",
     "level": "advanced",
     "name": "Strongman Competition Preparation",
@@ -1022,6 +1182,9 @@
       "bent_over_barbell_row",
       "good_morning"
     ],
+    "goals": [
+      "strength"
+    ],
     "id": "strongman_intermediate_block",
     "level": "intermediate",
     "name": "Strongman Intermediate Block",
@@ -1036,6 +1199,9 @@
       "bench_press",
       "overhead_press",
       "conventional_deadlift"
+    ],
+    "goals": [
+      "strength"
     ],
     "id": "texas_method",
     "level": "intermediate",
@@ -1063,6 +1229,10 @@
       "seated_leg_curl",
       "standing_calf_raises"
     ],
+    "goals": [
+      "hypertrophy",
+      "strength"
+    ],
     "id": "upper_lower_4day",
     "level": "intermediate",
     "name": "Upper Lower 4-Day Split",
@@ -1082,6 +1252,10 @@
       "snatch_pull",
       "clean_pull"
     ],
+    "goals": [
+      "power",
+      "skill_acquisition"
+    ],
     "id": "usaw_l1_program",
     "level": "beginner",
     "name": "USAW Level 1 Coaching Framework",
@@ -1100,6 +1274,10 @@
       "board_press",
       "floor_press",
       "close_grip_barbell_bench_press"
+    ],
+    "goals": [
+      "strength",
+      "power"
     ],
     "id": "westside_conjugate",
     "level": "advanced",

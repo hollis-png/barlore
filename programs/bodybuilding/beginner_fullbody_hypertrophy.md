@@ -1,10 +1,12 @@
 ---
+
 id: beginner_fullbody_hypertrophy
 name: Beginner Full-Body Hypertrophy
 aliases: [beginner hypertrophy, full body 3x, novice bodybuilding, beginner BB]
 category: program
 system: bodybuilding
 goal: Build foundational muscle mass and movement competency through full-body training, hitting each muscle group three times per week with compound-primary programming
+goals: [hypertrophy]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3

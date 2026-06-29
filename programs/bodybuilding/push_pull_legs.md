@@ -1,10 +1,12 @@
 ---
+
 id: push_pull_legs
 name: Push Pull Legs
 aliases: [PPL, 6-Day PPL]
 category: program
 system: bodybuilding
 goal: Maximize hypertrophy volume by training each muscle group twice per week through a push/pull/legs movement-pattern split
+goals: [hypertrophy]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 6

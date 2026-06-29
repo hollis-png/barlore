@@ -1,10 +1,12 @@
 ---
+
 id: strongman_competition_prep
 name: Strongman Competition Preparation
 aliases: [strongman advanced, strongman comp prep, competition strongman, advanced strongman]
 category: program
 system: strongman
 goal: Prepare a competitive strongman athlete for a specific contest through event-specific periodization, maximal strength peaking, and contest-simulation training
+goals: [strength, athletic_performance]
 level: advanced
 duration_weeks: 16
 frequency_per_week: 5

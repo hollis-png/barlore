@@ -1,10 +1,12 @@
 ---
+
 id: cal_strength_daily
 name: California Strength Daily Training Program
 aliases: [Cal Strength, California Strength daily, cal strength OWL]
 category: program
 system: olympic
 goal: Build elite competition lift performance through daily undulating periodization that alternates heavy classic lift sessions with technical recovery days, supported by structured accessory complexes targeting upper-back balance and posterior chain integrity
+goals: [power]
 level: advanced
 frequency_per_week: 6
 periodization: undulating

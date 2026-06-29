@@ -1,10 +1,12 @@
 ---
+
 id: get_strong_kavadlo
 name: "Get Strong: The Ultimate 16-Week Transformation Program"
 aliases: [Kavadlo get strong, al kavadlo program, danny kavadlo program, progressive calisthenics 16 week]
 category: program
 system: calisthenics
 goal: Build compound full-body calisthenics strength through four progressive mesocycle phases, from foundational movement quality through advanced bodyweight load — using strict end-of-phase testing standards to prevent premature progression
+goals: [strength, skill_acquisition]
 level: beginner
 duration_weeks: 16
 frequency_per_week: 4

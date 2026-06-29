@@ -1,10 +1,12 @@
 ---
+
 id: phul
 name: PHUL
 aliases: [Power Hypertrophy Upper Lower, Layne Norton PHUL]
 category: program
 system: bodybuilding
 goal: Simultaneously develop maximal strength and muscle hypertrophy through a four-day upper/lower split dedicating two days to power work and two to hypertrophy
+goals: [hypertrophy, strength]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 4

@@ -1,10 +1,12 @@
 ---
+
 id: basic_strongman_block
 name: Basic Strongman Block
 aliases: [Strongman GPP Block, Beginner Strongman]
 category: program
 system: strongman
 goal: Build the strength base and event-specific training necessary for entry-level strongman competition, combining barbell strength with loaded carries, pressing, and odd-object work
+goals: [strength]
 level: beginner
 duration_weeks: 8
 frequency_per_week: 4
