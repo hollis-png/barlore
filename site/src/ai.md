@@ -1,6 +1,6 @@
 # Use Barlore with AI
 
-Three ways to use this knowledge base with AI tools.
+Four ways to use this knowledge base with AI tools.
 
 ## 1. MCP Server (Best for AI coding tools)
 
@@ -19,7 +19,19 @@ If you use Claude Code, Cursor, Windsurf, or Cline, add this to your MCP setting
 
 Your AI can then search exercises, look up programs, and query training science directly.
 
-## 2. AI Chat (ChatGPT, Claude, Gemini, etc.)
+### Available MCP Tools
+
+| Tool | Description | Example |
+|------|-------------|---------|
+| `list_programs` | Browse programs by goal, system, or level | `list_programs(goal="hypertrophy", level="beginner")` |
+| `search_exercises` | Search by name, pattern, equipment, or muscle | `search_exercises(pattern="hinge", equipment="barbell")` |
+| `get_exercise` | Full exercise detail (EMG, cues, sources) | `get_exercise(id="back_squat")` |
+| `search_by_muscle` | Find exercises targeting a specific muscle | `search_by_muscle(muscle_id="biceps_brachii")` |
+| `get_program` | Full program with schedule and progression | `get_program(id="starting_strength")` |
+| `get_training_concept` | Training science docs | `get_training_concept(concept="hypertrophy_mechanisms")` |
+| `list_muscles` | All muscles with exercise counts | `list_muscles()` |
+
+## 2. Get a Training Plan (AI Chat)
 
 Copy the prompt below, fill in your details, and paste it into any AI chatbot.
 
@@ -55,15 +67,27 @@ Copy the prompt below, fill in your details, and paste it into any AI chatbot.
 > Use the Barlore training knowledge base for reference:
 > https://raw.githubusercontent.com/hollis-png/barlore/main/llms.txt
 >
-> Based on my profile, recommend a specific program from Barlore, generate a weekly schedule with exercises, sets, reps, and intensity, and explain your reasoning. If I'm a beginner, include getting-started guidance.
+> Based on my profile, recommend a specific program from Barlore. Include:
+> 1. A weekly schedule with exercises, sets, reps, and intensity
+> 2. Progression rules — how to add weight, when to add it, how much, and what to do when I stall
+> 3. Getting-started guidance if I'm a beginner
 
 ---
 
 ::: tip For the best results
-Use the full [plan generator prompt](https://github.com/hollis-png/barlore/blob/main/prompts/plan_generator.md) — it includes the complete program database and decision logic, so the AI can make more precise recommendations.
+Use the full [plan generator prompt](https://github.com/hollis-png/barlore/blob/main/prompts/plan_generator.md) — it includes the complete program database, decision logic, and progression rule templates so the AI gives you a plan with built-in weekly advancement, not just a static schedule.
 :::
 
-## 3. llms.txt (For AI developers)
+## 3. Get a Learning Path (AI Chat)
+
+Not sure what to learn next? Use the [learning guide prompt](https://github.com/hollis-png/barlore/blob/main/prompts/learning_guide.md) — fill in your current state and the AI will tell you what to read, what to skip, and why.
+
+It maps your concerns to specific Barlore entries across three layers:
+- **Layer 1** — What should I do? (pick a program, learn movements, start tracking)
+- **Layer 2** — Why does this work? (overload, nutrition, hypertrophy science)
+- **Layer 3** — What's next? (testing, periodization, injury management)
+
+## 4. llms.txt (For AI developers)
 
 Point your agent to the structured index:
 
@@ -71,15 +95,28 @@ Point your agent to the structured index:
 https://raw.githubusercontent.com/hollis-png/barlore/main/llms.txt
 ```
 
-It includes a query workflow for agents that can fetch URLs, plus links to all JSON indexes for structured search.
+It includes:
+- Query workflow for agents that can fetch URLs
+- Goal-based program discovery via `goal_index.json`
+- Links to all JSON indexes for structured search
+- Crosscutting content URLs for nutrition, recovery, and injury prevention
 
 ## Available Data
 
 | Resource | Count |
 |----------|-------|
-| Exercises | 680 (82 fully reviewed) |
-| Programs | 52 |
+| Exercises | 688 (93 fully reviewed with research citations) |
+| Programs | 53 (with structured `goals` field for query) |
 | Training systems | 6 |
-| Training science docs | 8 |
-| Nutrition & recovery docs | 20 |
+| Training principles | 11 |
+| Nutrition & recovery docs | 22 |
 | System guides | 12 |
+| Goal categories | 6 (strength, hypertrophy, power, athletic performance, skill acquisition, general fitness) |
+
+## Prompt Templates
+
+| Template | Purpose | Link |
+|----------|---------|------|
+| Plan Generator | Get a personalized training plan | [plan_generator.md](https://github.com/hollis-png/barlore/blob/main/prompts/plan_generator.md) |
+| Learning Guide | Get a personalized reading list | [learning_guide.md](https://github.com/hollis-png/barlore/blob/main/prompts/learning_guide.md) |
+| Workout Log | Track your sessions | [workout_log.md](https://github.com/hollis-png/barlore/blob/main/prompts/workout_log.md) |
