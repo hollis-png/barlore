@@ -14,7 +14,6 @@ export default defineConfig({
   },
 
   head: [
-    ["link", { rel: "icon", type: "image/png", href: "/barlore/favicon.png" }],
     ["meta", { name: "google-site-verification", content: "mAwnB2ua-AOWNUhpis2FLDDwfrtGvZD0wpu3qn5aCuw" }],
     ["meta", { name: "theme-color", content: "#1a1a2e" }],
     ["meta", { property: "og:type", content: "website" }],
@@ -36,7 +35,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: "/favicon.png",
+    logo: undefined,
     siteTitle: "Barlore",
 
     nav: [
