@@ -227,6 +227,7 @@
         "arnold_split",
         "basic_strongman_block",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "brian_shaw_off_season",
         "bro_split",
         "cal_strength_daily",
@@ -264,7 +265,7 @@
         "usaw_l1_program"
       ],
       "muscle_count": 8,
-      "program_count": 40,
+      "program_count": 41,
       "status": "complete"
     },
     "backward_drag": {
@@ -632,6 +633,7 @@
         "5_3_1",
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "dc_training",
         "gvt",
@@ -646,7 +648,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 3,
-      "program_count": 17,
+      "program_count": 18,
       "status": "complete"
     },
     "bench_press_powerlifting": {
@@ -714,6 +716,7 @@
         "arnold_split",
         "basic_strongman_block",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "cal_strength_daily",
         "dc_training",
@@ -729,7 +732,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 7,
-      "program_count": 17,
+      "program_count": 18,
       "status": "complete"
     },
     "bent_over_dumbbell_rear_delt_raise_with_head_on_bench": {
@@ -1131,11 +1134,12 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_upper_lower",
         "bodybuilding_isolation_block",
         "bro_split"
       ],
       "muscle_count": 3,
-      "program_count": 2,
+      "program_count": 3,
       "status": "complete"
     },
     "cable_rope_rear_delt_rows": {
@@ -1520,6 +1524,7 @@
         "531_bbb",
         "5_3_1",
         "basic_strongman_block",
+        "beginner_upper_lower",
         "brian_shaw_off_season",
         "bro_split",
         "comptrain_class",
@@ -1543,7 +1548,7 @@
         "westside_conjugate"
       ],
       "muscle_count": 10,
-      "program_count": 25,
+      "program_count": 26,
       "status": "complete"
     },
     "cross_body_crunch": {
@@ -1907,10 +1912,11 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_upper_lower",
         "bodybuilding_isolation_block"
       ],
       "muscle_count": 3,
-      "program_count": 1,
+      "program_count": 2,
       "status": "complete"
     },
     "dumbbell_clean": {
@@ -2254,11 +2260,12 @@
       "in_programs": [
         "531_bbb",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "phat",
         "upper_lower_4day"
       ],
       "muscle_count": 7,
-      "program_count": 4,
+      "program_count": 5,
       "status": "complete"
     },
     "farmers_walk": {
@@ -2472,6 +2479,7 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_upper_lower",
         "bulgarian_method",
         "cal_strength_daily",
         "catalyst_12_week",
@@ -2489,7 +2497,7 @@
         "usaw_l1_program"
       ],
       "muscle_count": 7,
-      "program_count": 15,
+      "program_count": 16,
       "status": "complete"
     },
     "front_squat_clean_grip": {
@@ -2619,10 +2627,11 @@
       "has_strength_curve": true,
       "in_programs": [
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "phat"
       ],
       "muscle_count": 3,
-      "program_count": 2,
+      "program_count": 3,
       "status": "complete"
     },
     "hammer_grip_incline_db_bench_press": {
@@ -2703,11 +2712,12 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_upper_lower",
         "convict_conditioning",
         "get_strong_kavadlo"
       ],
       "muscle_count": 4,
-      "program_count": 2,
+      "program_count": 3,
       "status": "complete"
     },
     "hanging_pike": {
@@ -2868,6 +2878,7 @@
       "in_programs": [
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "dc_training",
         "gvt",
@@ -2877,7 +2888,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 5,
-      "program_count": 9,
+      "program_count": 10,
       "status": "complete"
     },
     "incline_hammer_curls": {
@@ -3362,12 +3373,13 @@
       "in_programs": [
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "phat",
         "upper_lower_4day"
       ],
       "muscle_count": 6,
-      "program_count": 5,
+      "program_count": 6,
       "status": "complete"
     },
     "leg_pull_in": {
@@ -3607,11 +3619,12 @@
       "has_strength_curve": true,
       "in_programs": [
         "arnold_split",
+        "beginner_upper_lower",
         "bodybuilding_isolation_block",
         "gvt"
       ],
       "muscle_count": 5,
-      "program_count": 3,
+      "program_count": 4,
       "status": "complete"
     },
     "lying_machine_squat": {
@@ -4153,6 +4166,7 @@
         "arnold_split",
         "basic_strongman_block",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "brian_shaw_off_season",
         "bro_split",
         "comptrain_class",
@@ -4179,7 +4193,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 4,
-      "program_count": 30,
+      "program_count": 31,
       "status": "complete"
     },
     "overhead_squat": {
@@ -4492,6 +4506,7 @@
         "531_bbb",
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "bwf_recommended_routine",
         "bwf_skill_day_template",
@@ -4520,7 +4535,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 10,
-      "program_count": 29,
+      "program_count": 30,
       "status": "complete"
     },
     "push_press": {
@@ -4871,6 +4886,7 @@
       "has_strength_curve": true,
       "in_programs": [
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "bwf_recommended_routine",
         "cal_strength_daily",
@@ -4888,7 +4904,7 @@
         "upper_lower_4day"
       ],
       "muscle_count": 9,
-      "program_count": 16,
+      "program_count": 17,
       "status": "complete"
     },
     "romanian_deadlift_from_deficit": {
@@ -5039,13 +5055,14 @@
       "has_strength_curve": true,
       "in_programs": [
         "arnold_split",
+        "beginner_upper_lower",
         "bro_split",
         "phat",
         "rp_hypertrophy",
         "upper_lower_4day"
       ],
       "muscle_count": 7,
-      "program_count": 5,
+      "program_count": 6,
       "status": "complete"
     },
     "seated_cable_shoulder_press": {
@@ -5062,11 +5079,12 @@
       "has_rom": true,
       "has_strength_curve": true,
       "in_programs": [
+        "beginner_upper_lower",
         "gvt",
         "phat"
       ],
       "muscle_count": 3,
-      "program_count": 2,
+      "program_count": 3,
       "status": "complete"
     },
     "seated_close_grip_concentration_barbell_curl": {
@@ -5298,11 +5316,12 @@
       "in_programs": [
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "phat"
       ],
       "muscle_count": 5,
-      "program_count": 4,
+      "program_count": 5,
       "status": "complete"
     },
     "side_laterals_to_front_raise": {
@@ -5928,13 +5947,14 @@
       "has_strength_curve": true,
       "in_programs": [
         "arnold_split",
+        "beginner_upper_lower",
         "bodybuilding_isolation_block",
         "bro_split",
         "dc_training",
         "upper_lower_4day"
       ],
       "muscle_count": 3,
-      "program_count": 5,
+      "program_count": 6,
       "status": "complete"
     },
     "standing_concentration_curl": {
@@ -6415,13 +6435,14 @@
       "in_programs": [
         "arnold_split",
         "beginner_fullbody_hypertrophy",
+        "beginner_upper_lower",
         "bro_split",
         "dc_training",
         "phat",
         "upper_lower_4day"
       ],
       "muscle_count": 3,
-      "program_count": 6,
+      "program_count": 7,
       "status": "complete"
     },
     "triceps_pushdown_rope_attachment": {
@@ -6805,7 +6826,7 @@
       "status": "stub"
     }
   },
-  "generated_at": "2026-06-29 15:00 UTC",
+  "generated_at": "2026-06-29 15:06 UTC",
   "muscle_coverage": {
     "adductor_longus": {
       "emg_count": 1,
@@ -11838,14 +11859,14 @@
       ]
     }
   },
-  "program_count": 52,
+  "program_count": 53,
   "system_coverage": {
     "bodybuilding": {
       "core_refs": 6,
       "exercise_count": 688,
-      "exercises_covered": 56,
+      "exercises_covered": 58,
       "has_index": true,
-      "program_count": 12
+      "program_count": 13
     },
     "calisthenics": {
       "core_refs": 3,

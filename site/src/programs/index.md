@@ -9,7 +9,8 @@ Not sure which program to pick? Here are the most popular beginner programs by g
 | Your Goal | Program | Days/wk | Equipment | Why This One |
 |-----------|---------|---------|-----------|-------------|
 | Get stronger | [Starting Strength](/programs/starting_strength) | 3 | Barbell + rack | The most proven beginner strength program. Simple, effective, 3 compound lifts per session. |
-| Build muscle | [Beginner Full-Body Hypertrophy](/programs/beginner_fullbody_hypertrophy) | 3 | Full gym | Balanced full-body training with compound and isolation work. |
+| Build muscle (3 days) | [Beginner Full-Body Hypertrophy](/programs/beginner_fullbody_hypertrophy) | 3 | Full gym | Balanced full-body training with compound and isolation work. |
+| Build muscle (4 days) | [Beginner Upper/Lower Split](/programs/beginner_upper_lower) | 4 | Full gym | More exercise variety, shorter sessions, same weekly volume. |
 | No equipment | [BWF Recommended Routine](/programs/bwf_recommended_routine) | 3 | Bodyweight | Community-tested bodyweight routine with clear progressions. |
 | General fitness | [CrossFit Foundations](/programs/crossfit_foundations) | 5 | Full gym | Mixed modality: barbell, bodyweight, and cardio. |
 | Get stronger (4 days) | [GZCLP](/programs/gzclp) | 4 | Barbell + rack | Structured tier system with built-in progression and accessory work. |
@@ -37,6 +38,7 @@ Read the [Beginner Guide](/crosscutting/beginner_lifters) for what to expect in 
 | Program | Level | Periodization | Key Exercises |
 |---------|-------|---------------|---------------|
 | [Beginner Full-Body Hypertrophy](/programs/beginner_fullbody_hypertrophy) | beginner | linear | Back Squat, Bench Press, Bent Over Barbell Row, Romanian Deadlift, ... |
+| [Beginner Upper/Lower Split](/programs/beginner_upper_lower) | beginner | linear | Bench Press, Back Squat, Overhead Press, Deadlift, Pull-ups, ... |
 | [Bodybuilding Isolation Block](/programs/bodybuilding_isolation_block) | intermediate | linear | Dumbbell Flyes, Incline Dumbbell Flyes, Flat Bench Cable Flyes, Butterfly, ... |
 | [PHUL](/programs/phul) | intermediate | undulating | Bench Press, Bent Over Barbell Row, Overhead Press, Pullups, ... |
 | [Push Pull Legs](/programs/push_pull_legs) | intermediate | linear | Bench Press, Overhead Press, Bent Over Barbell Row, Pullups, ... |

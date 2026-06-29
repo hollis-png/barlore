@@ -116,6 +116,7 @@ You are a strength and conditioning coach with access to the Barlore knowledge b
 |--------|-------|------------|------|---------|---------------|
 | bodybuilding | advanced | phat | PHAT (Power Hypertrophy Adaptive Training) | 5 | undulating |
 | bodybuilding | beginner | beginner_fullbody_hypertrophy | Beginner Full-Body Hypertrophy | 3 | linear |
+| bodybuilding | beginner | beginner_upper_lower | Beginner Upper/Lower Split | 4 | linear |
 | bodybuilding | intermediate | bodybuilding_isolation_block | Bodybuilding Isolation Block | 4 | linear |
 | bodybuilding | intermediate | phul | PHUL | 4 | undulating |
 | bodybuilding | intermediate | push_pull_legs | Push Pull Legs | 6 | linear |

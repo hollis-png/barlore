@@ -106,6 +106,38 @@
     "system": "bodybuilding",
     "type": "program"
   },
+  "beginner_upper_lower": {
+    "exercise_refs": [
+      "bench_press",
+      "bent_over_barbell_row",
+      "overhead_press",
+      "pullups",
+      "dumbbell_bicep_curl",
+      "triceps_pushdown",
+      "side_lateral_raise",
+      "back_squat",
+      "romanian_deadlift",
+      "leg_press",
+      "seated_calf_raise",
+      "incline_dumbbell_press",
+      "seated_cable_rows",
+      "face_pull",
+      "hammer_curls",
+      "cable_rope_overhead_triceps_extension",
+      "conventional_deadlift",
+      "front_squat",
+      "lying_leg_curls",
+      "standing_calf_raises",
+      "hanging_leg_raise"
+    ],
+    "id": "beginner_upper_lower",
+    "level": "beginner",
+    "name": "Beginner Upper/Lower Split",
+    "path": "programs/bodybuilding/beginner_upper_lower.md",
+    "periodization": "linear",
+    "system": "bodybuilding",
+    "type": "program"
+  },
   "bodybuilding_isolation_block": {
     "exercise_refs": [
       "dumbbell_flyes",

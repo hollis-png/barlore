@@ -16,6 +16,7 @@
     "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "brian_shaw_off_season",
     "bro_split",
     "cal_strength_daily",
@@ -74,6 +75,7 @@
     "5_3_1",
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "dc_training",
     "gvt",
@@ -95,6 +97,7 @@
     "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "cal_strength_daily",
     "dc_training",
@@ -146,6 +149,7 @@
     "bodybuilding_isolation_block"
   ],
   "cable_rope_overhead_triceps_extension": [
+    "beginner_upper_lower",
     "bodybuilding_isolation_block",
     "bro_split"
   ],
@@ -191,6 +195,7 @@
     "531_bbb",
     "5_3_1",
     "basic_strongman_block",
+    "beginner_upper_lower",
     "brian_shaw_off_season",
     "bro_split",
     "comptrain_class",
@@ -233,6 +238,7 @@
     "bodybuilding_isolation_block"
   ],
   "dumbbell_bicep_curl": [
+    "beginner_upper_lower",
     "bodybuilding_isolation_block"
   ],
   "dumbbell_flyes": [
@@ -251,6 +257,7 @@
   "face_pull": [
     "531_bbb",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "phat",
     "upper_lower_4day"
   ],
@@ -277,6 +284,7 @@
     "phat"
   ],
   "front_squat": [
+    "beginner_upper_lower",
     "bulgarian_method",
     "cal_strength_daily",
     "catalyst_12_week",
@@ -311,6 +319,7 @@
   ],
   "hammer_curls": [
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "phat"
   ],
   "handstand_push_ups": [
@@ -326,6 +335,7 @@
     "olympic_weightlifting_intermediate"
   ],
   "hanging_leg_raise": [
+    "beginner_upper_lower",
     "convict_conditioning",
     "get_strong_kavadlo"
   ],
@@ -342,6 +352,7 @@
   "incline_dumbbell_press": [
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "dc_training",
     "gvt",
@@ -373,6 +384,7 @@
   "leg_press": [
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "phat",
     "upper_lower_4day"
@@ -386,6 +398,7 @@
   ],
   "lying_leg_curls": [
     "arnold_split",
+    "beginner_upper_lower",
     "bodybuilding_isolation_block",
     "gvt"
   ],
@@ -405,6 +418,7 @@
     "arnold_split",
     "basic_strongman_block",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "brian_shaw_off_season",
     "bro_split",
     "comptrain_class",
@@ -492,6 +506,7 @@
     "531_bbb",
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "bwf_recommended_routine",
     "bwf_skill_day_template",
@@ -562,6 +577,7 @@
   ],
   "romanian_deadlift": [
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "bwf_recommended_routine",
     "cal_strength_daily",
@@ -599,12 +615,14 @@
   ],
   "seated_cable_rows": [
     "arnold_split",
+    "beginner_upper_lower",
     "bro_split",
     "phat",
     "rp_hypertrophy",
     "upper_lower_4day"
   ],
   "seated_calf_raise": [
+    "beginner_upper_lower",
     "gvt",
     "phat"
   ],
@@ -619,6 +637,7 @@
   "side_lateral_raise": [
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "phat"
   ],
@@ -650,6 +669,7 @@
   ],
   "standing_calf_raises": [
     "arnold_split",
+    "beginner_upper_lower",
     "bodybuilding_isolation_block",
     "bro_split",
     "dc_training",
@@ -686,6 +706,7 @@
   "triceps_pushdown": [
     "arnold_split",
     "beginner_fullbody_hypertrophy",
+    "beginner_upper_lower",
     "bro_split",
     "dc_training",
     "phat",

@@ -3,7 +3,7 @@ id: bodybuilding_overview
 name: Bodybuilding
 category: system_overview
 goal: Maximal muscle hypertrophy and physique development
-programs: [beginner_fullbody_hypertrophy, phat, phul, push_pull_legs, rp_hypertrophy, bodybuilding_isolation_block]
+programs: [beginner_fullbody_hypertrophy, beginner_upper_lower, phat, phul, push_pull_legs, rp_hypertrophy, bodybuilding_isolation_block]
 ---
 
 # Bodybuilding

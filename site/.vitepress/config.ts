@@ -67,6 +67,7 @@ export default defineConfig({
             { text: "Specificity (SAID)", link: "/core/specificity" },
             { text: "Hypertrophy Mechanisms", link: "/core/hypertrophy_mechanisms" },
             { text: "Training to Failure", link: "/core/training_to_failure" },
+            { text: "Testing Protocols", link: "/core/testing_protocols" },
             { text: "Deload", link: "/core/deload" },
           ],
         },
@@ -82,6 +83,7 @@ export default defineConfig({
             { text: "Nutrient Timing", link: "/crosscutting/nutrient_timing" },
             { text: "Hydration", link: "/crosscutting/hydration" },
             { text: "Supplementation", link: "/crosscutting/supplementation" },
+            { text: "Body Recomposition", link: "/crosscutting/body_recomposition" },
           ],
         },
         {

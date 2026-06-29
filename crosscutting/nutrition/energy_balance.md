@@ -4,7 +4,7 @@ name: Energy Balance
 aliases: [caloric balance, caloric surplus, caloric deficit, bulking, cutting]
 category: nutrition
 applies_to: [all_systems]
-related: [protein_requirements, carbohydrate_requirements, nutrient_timing]
+related: [protein_requirements, carbohydrate_requirements, nutrient_timing, body_recomposition]
 sources:
   - title: "International Society of Sports Nutrition Position Stand: Diets and body composition"
     author: "Aragon, A. A., Schoenfeld, B. J., Wildman, R., Kleiner, S., VanDusseldorp, T., et al."
