@@ -6,7 +6,7 @@ aliases: [CrossFit intermediate, CF strength conditioning, structured CrossFit]
 category: program
 system: crossfit
 goal: Develop strength across squat, press, and pull patterns while building metabolic conditioning capacity through structured weekly periodization of strength and metcon work
-goals: [athletic_performance]
+goals: [athletic_performance, general_fitness]
 level: intermediate
 duration_weeks: 12
 frequency_per_week: 5

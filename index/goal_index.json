@@ -51,15 +51,39 @@
   ],
   "general_fitness": [
     {
+      "id": "beginner_fullbody_hypertrophy",
+      "level": "beginner",
+      "name": "Beginner Full-Body Hypertrophy",
+      "system": "bodybuilding"
+    },
+    {
+      "id": "beginner_upper_lower",
+      "level": "beginner",
+      "name": "Beginner Upper/Lower Split",
+      "system": "bodybuilding"
+    },
+    {
       "id": "crossfit_foundations",
       "level": "beginner",
       "name": "CrossFit Foundations",
       "system": "crossfit"
     },
     {
+      "id": "starting_strength",
+      "level": "beginner",
+      "name": "Starting Strength",
+      "system": "powerlifting"
+    },
+    {
       "id": "crossfit_aerobic_base",
       "level": "intermediate",
       "name": "CrossFit Aerobic Base Builder",
+      "system": "crossfit"
+    },
+    {
+      "id": "crossfit_intermediate",
+      "level": "intermediate",
+      "name": "CrossFit Intermediate Strength & Conditioning",
       "system": "crossfit"
     }
   ],

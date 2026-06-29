@@ -6,7 +6,7 @@ aliases: [upper lower split, beginner UL, 4-day beginner, novice upper lower]
 category: program
 system: bodybuilding
 goal: Build foundational muscle mass through a four-day upper/lower split, providing more per-session volume and exercise variety than full-body training while maintaining high frequency per muscle group
-goals: [hypertrophy]
+goals: [hypertrophy, general_fitness]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 4

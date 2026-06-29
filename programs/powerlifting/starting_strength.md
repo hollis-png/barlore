@@ -6,7 +6,7 @@ aliases: [SS, Rippetoe Starting Strength]
 category: program
 system: powerlifting
 goal: Build foundational barbell strength through novice linear progression on five core lifts
-goals: [strength]
+goals: [strength, general_fitness]
 level: beginner
 duration_weeks: 12
 frequency_per_week: 3

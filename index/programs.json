@@ -112,7 +112,8 @@
       "face_pull"
     ],
     "goals": [
-      "hypertrophy"
+      "hypertrophy",
+      "general_fitness"
     ],
     "id": "beginner_fullbody_hypertrophy",
     "level": "beginner",
@@ -147,7 +148,8 @@
       "hanging_leg_raise"
     ],
     "goals": [
-      "hypertrophy"
+      "hypertrophy",
+      "general_fitness"
     ],
     "id": "beginner_upper_lower",
     "level": "beginner",
@@ -552,7 +554,8 @@
       "romanian_deadlift"
     ],
     "goals": [
-      "athletic_performance"
+      "athletic_performance",
+      "general_fitness"
     ],
     "id": "crossfit_intermediate",
     "level": "intermediate",
@@ -1115,7 +1118,8 @@
       "power_clean"
     ],
     "goals": [
-      "strength"
+      "strength",
+      "general_fitness"
     ],
     "id": "starting_strength",
     "level": "beginner",

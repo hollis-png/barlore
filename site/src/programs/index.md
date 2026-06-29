@@ -6,7 +6,7 @@
 
 | Build muscle | Get stronger | Explosive power | Learn technique | Sport performance | Stay fit |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| [17 programs](#hypertrophy) | [21 programs](#strength) | [13 programs](#power) | [11 programs](#skill) | [8 programs](#athletic) | [2 programs](#fitness) |
+| [17 programs](#hypertrophy) | [21 programs](#strength) | [13 programs](#power) | [11 programs](#skill) | [8 programs](#athletic) | [6 programs](#fitness) |
 
 ### Build muscle {#hypertrophy}
 
@@ -107,8 +107,12 @@
 
 | Program | System | Level |
 |---------|--------|-------|
+| [Beginner Full-Body Hypertrophy](/programs/beginner_fullbody_hypertrophy) | Bodybuilding | Beginner |
+| [Beginner Upper/Lower Split](/programs/beginner_upper_lower) | Bodybuilding | Beginner |
+| [Starting Strength](/programs/starting_strength) | Powerlifting | Beginner |
 | [CrossFit Foundations](/programs/crossfit_foundations) | CrossFit | Beginner |
 | [CrossFit Aerobic Base](/programs/crossfit_aerobic_base) | CrossFit | Beginner |
+| [CrossFit Intermediate](/programs/crossfit_intermediate) | CrossFit | Intermediate |
 
 ---
 
